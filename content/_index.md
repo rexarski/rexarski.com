@@ -2,6 +2,8 @@
 
 I answer questions with data. Learning is my passion.
 
+Things I'm passionate about: 👨‍💻🎷📚☕🍵🍜🍕🏎⚽🏀🎮🎴🗺
+
 Things I've been up to:
 
 - Shaping up my skills in NLP this summer.
@@ -11,7 +13,7 @@ Things I've been up to:
 
 ***
 
-Find me on:
+My online hideouts:
 
 - [douban](https://www.douban.com/people/rexarski/)
 - [github](https://github.com/rexarski)
@@ -20,4 +22,8 @@ Find me on:
 - [telegram](https://t.me/itsnopie)
 - [twitter](https://twitter.com/rexarski)
 
-**Subscribe to [RSS feed](/blog/index.xml)**
+***
+
+[Resume](https://github.com/rexarski/resume/blob/master/rui_qiu_resume.pdf).
+
+My email address is rexarski at gmail dot com.
