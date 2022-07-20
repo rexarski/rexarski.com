@@ -7,7 +7,7 @@ menu = "main"
 
 ## Ongoing
 
-- [Data vis mood board](https://rqiu.notion.site/fe0a3ca6f84049a2b25a3172b4c1e4f3?v=c6eda0d1295b426c915bf9077e98ca8d).
+- [No pie telegram channel](https://t.me/itsnopie), a channel about inspirational data vis. It's more or less like a moodboard.
 - [CeleritasML](https://celeritasml.netlify.app/), a collection of machine learning related projects.
 
 ## 2022
@@ -20,7 +20,7 @@ menu = "main"
 ## Previously
 
 - [box2box](https://github.com/rexarski/box2box), a repository of sports analytics experiments.
-- [No pie newsletter](https://github.com/rexarski/2nd-blog/tree/main/content/nopie), a curated newsletter about data and vis.
+- [No pie newsletter](https://github.com/rexarski/2nd-blog/tree/main/content/nopie), a discontinued newsletter about data and vis .
 - [Basketball Analytics and Beyond: Analysis of 188,946 Shots](https://rexarski.github.io/bba/).
 - [xG visualization pipeline](https://twitter.com/rexarski/status/1377860255271428097?s=20).
 - [tarantino](https://github.com/rexarski/tarantino), a color palette based on Quentin Tarantino’s movies.
