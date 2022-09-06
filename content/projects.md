@@ -14,11 +14,17 @@ menu = "main"
 
 - A comprehensive interactive visualization [project on Japanese cuisine](https://celeritasml.github.io/project-japanese-cuisine/) with D3, plotly and leaflet.
 - A storytelling case about [glacier recession](https://celeritasml.github.io/mapbox-glacier/) with Mapbox GL JS.
-- A dummy storytelling case with [flexdashboard](https://celeritasml.github.io/storytelling-admission/)
+- A dummy storytelling case with [flexdashboard](https://celeritasml.github.io/storytelling-admission/).
 - [Scrollytell + Shiny](https://rexarski.shinyapps.io/shiny-scrollytell/) with Lorem ipsum.
+- Some visualizations:
+    - Life expectancy in the US, with ggplot2 only. ![life-expectancy](/images/projects/life-expectancy.png)
+    - [Loans in default are not rare](/images/projects/loan-default.png).
+    - [EDA on Tsumoto dataset](/images/projects/tsumoto.jpg).
 
 ## Previously
 
+- [A Constrained Long-form Question Answering (LFQA) Model on eli5_category](https://celeritasml.netlify.app/posts/2021-12-01-eli5c/).
+    - [elic5_category](https://huggingface.co/datasets/eli5_category)
 - [box2box](https://github.com/rexarski/box2box), a repository of sports analytics experiments.
 - [No pie newsletter](https://github.com/rexarski/2nd-blog/tree/main/content/nopie), a discontinued newsletter about data and vis .
 - [Basketball Analytics and Beyond: Analysis of 188,946 Shots](https://rexarski.github.io/bba/).
