@@ -6,8 +6,7 @@ tags = ["explainability"]
 +++
 
 
-A [refresher](https://docs.aws.amazon.com/whitepapers/latest/model-explainability-aws-ai-ml/interpretability-versus-explainability.html)
-) on definitions of these two terms:
+A [refresher](https://docs.aws.amazon.com/whitepapers/latest/model-explainability-aws-ai-ml/interpretability-versus-explainability.html) on definitions of these two terms:
 
 - **Interpretability**: Understanding why and how the model is generating predictions by interpreting the model’s weights and features. An example would be feature importance.
 - **Explainability**: Explaining the model’s behavior in human term even if the model has been a black box all the time and very limited portion of it can be “interpreted”.
