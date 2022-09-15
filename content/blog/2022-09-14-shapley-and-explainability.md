@@ -5,7 +5,6 @@ description = ""
 tags = ["explainability"]
 +++
 
-
 A [refresher](https://docs.aws.amazon.com/whitepapers/latest/model-explainability-aws-ai-ml/interpretability-versus-explainability.html) on definitions of these two terms:
 
 - **Interpretability**: Understanding why and how the model is generating predictions by interpreting the model’s weights and features. An example would be feature importance.
@@ -19,6 +18,6 @@ Another question is: **_How do we compare the explainability between two models 
 
 If given the pre-condition that both models are trained and tested on the same data, we can probably calculate **the proportion of top n-percentiles of tokens’ sum of absolute SHapley values over the sum of absolute SHapley values of all tokens**.
 
- The reasoning behind this is: for all tokens’ SHapley values, either positive or negative, is a relative contribution toward the final prediciton. So the higher the value, the more decisive it is.
+ The reasoning behind this is: for all tokens’ SHapley values, either positive or negative, is a relative contribution toward the final prediction. So the higher the value, the more decisive it is.
 
 The above is just my immature proposal on how to compare models’ interpretability in terms of SHapley values.
