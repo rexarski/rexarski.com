@@ -5,13 +5,12 @@ menu = "main"
 
 # Projects
 
-## Ongoing
-
-- [No pie telegram channel](https://t.me/itsnopie), a channel about inspirational data vis. It's more or less like a moodboard.
-- [CeleritasML](https://celeritasml.netlify.app/), a collection of machine learning related projects.
+<!-- ## Ongoing -->
 
 ## 2022
 
+- [No pie telegram channel](https://t.me/itsnopie), a channel about inspirational data vis. It's more or less like a moodboard.
+- [CeleritasML](https://celeritasml.netlify.app/), a collection of machine learning related projects.
 - A comprehensive interactive visualization [project on Japanese cuisine](https://celeritasml.github.io/project-japanese-cuisine/) with D3, plotly and leaflet.
 - A storytelling case about [glacier recession](https://celeritasml.github.io/mapbox-glacier/) with Mapbox GL JS.
 - A dummy storytelling case with [flexdashboard](https://celeritasml.github.io/storytelling-admission/).
