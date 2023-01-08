@@ -8,7 +8,7 @@ theme = 'hugo-bearblog'
 # Basic metadata configuration for your blog.
 title = "rexarski"
 author = "Rui Qiu"
-copyright = "Copyright © 2022 Rui Qiu."
+copyright = "Copyright © 2023 Rui Qiu."
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
