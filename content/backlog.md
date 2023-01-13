@@ -21,10 +21,11 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 | [Bullet Train](https://movie.douban.com/subject/35118954/) | 2023-01-06         | ★★★☆☆  |
 | [长津湖](https://movie.douban.com/subject/25845392/)       | 2023-01-05         | ★★☆☆☆  |
 
-<!-- ### 📺 TV Shows -->
+### 📺 TV Shows
 
-<!-- | Title | Date of completion | Rating | -->
-<!-- | :---- | :----------------- | :----- | -->
+| Title                                                        | Date of completion | Rating |
+| :----------------------------------------------------------- | :----------------- | :----- |
+| [Andor Season 1](https://movie.douban.com/subject/30376895/) | 2023-01-12         | ★★★★★  |
 
 ### 🎷 Albums
 
