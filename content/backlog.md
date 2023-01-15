@@ -25,6 +25,7 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 
 | Title                                                        | Date of completion | Rating |
 | :----------------------------------------------------------- | :----------------- | :----- |
+| [Kaleidoscope](https://movie.douban.com/subject/35602000/)   | 2023-01-13         | ★★★☆☆  |
 | [Andor Season 1](https://movie.douban.com/subject/30376895/) | 2023-01-12         | ★★★★★  |
 
 ### 🎷 Albums
