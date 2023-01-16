@@ -16,10 +16,11 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 
 ### 🍿 Movies
 
-| Title                                                      | Date of completion | Rating |
-| :--------------------------------------------------------- | :----------------- | :----- |
-| [Bullet Train](https://movie.douban.com/subject/35118954/) | 2023-01-06         | ★★★☆☆  |
-| [长津湖](https://movie.douban.com/subject/25845392/)       | 2023-01-05         | ★★☆☆☆  |
+| Title                                                                     | Date of completion | Rating |
+| :------------------------------------------------------------------------ | :----------------- | :----- |
+| [Venom: Let There Be Carnage](https://movie.douban.com/subject/30382416/) | 2023-01-14         | ★★☆☆☆  |
+| [Bullet Train](https://movie.douban.com/subject/35118954/)                | 2023-01-06         | ★★★☆☆  |
+| [长津湖](https://movie.douban.com/subject/25845392/)                      | 2023-01-05         | ★★☆☆☆  |
 
 ### 📺 TV Shows
 
