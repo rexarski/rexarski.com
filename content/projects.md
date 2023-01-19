@@ -9,6 +9,7 @@ menu = "main"
 
 ## 2022
 
+- [A Shiny app of high-water marks](https://github.com/rexarski/high-water-mark-shiny) after Hurricane Florence.
 - [No pie telegram channel](https://t.me/itsnopie), a channel about inspirational data vis. It's more or less like a moodboard.
 - [CeleritasML](https://celeritasml.netlify.app/), a collection of machine learning related projects.
 - A comprehensive interactive visualization [project on Japanese cuisine](https://celeritasml.github.io/project-japanese-cuisine/) with D3, plotly and leaflet.
