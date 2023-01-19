@@ -1,9 +1,9 @@
 +++
-title = "Backlog"
+title = "List"
 menu = "main"
 +++
 
-# 📝 Backlog
+# 📝 The List
 
 Some of my comments can be found on [douban](https://www.douban.com/people/rexarski/) and [goodreads](https://www.goodreads.com/rexarski).
 
@@ -31,9 +31,11 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 
 ### 🎷 Albums
 
-| Title                                                 | Performer    | Date of completion | Rating |
-| :---------------------------------------------------- | :----------- | :----------------- | :----- |
-| [Take Ten](https://music.douban.com/subject/1428111/) | Paul Desmond | 2023-01-07         | ★★★★   |
+| Title                                                         | Performer    | Date of completion | Rating |
+| :------------------------------------------------------------ | :----------- | :----------------- | :----- |
+| [Skinny Ape](https://music.douban.com/subject/36183191/)      | Gorillaz     | 2023-01-16         | ★★★★★  |
+| [An Awesome Wave](https://music.douban.com/subject/10604559/) | alt-J        | 2023-01-16         | ★★★★★  |
+| [Take Ten](https://music.douban.com/subject/1428111/)         | Paul Desmond | 2023-01-07         | ★★★★   |
 
 <!-- ### 🎮 Games -->
 
