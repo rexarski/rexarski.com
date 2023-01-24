@@ -31,7 +31,7 @@ me_df <- tibble(
 Things I've been up to:
 
 - Learning JavaScript, D3 in 2023.
-- Daily jogger.
+- Casual jogger.
 - Practicing [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) with [Obsidian](https://obsidian.md/).
 - Playing [Ring Fit Adventure](https://nintendoswitchsports.nintendo.com/en/) and [Nintendo Switch Sports](https://nintendoswitchsports.nintendo.com/en/).
 - Developing young talents in [Football Manager](https://www.footballmanager.com/).
