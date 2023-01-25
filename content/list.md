@@ -74,10 +74,11 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 | [Low Roar](https://open.spotify.com/album/3lETJkavciTauiSyOV1gZC?si=5xmSukOKTa2IMqIKNH15gg)        | Low Roar                 | 2023-01-24         | ★★★★★  |
 | [Time Out](https://open.spotify.com/album/0nTTEAhCZsbbeplyDMIFuA?si=aXWdu10NRRmdseoGPjOoUQ)        | The Dave Brubeck Quartet | 2023-01-24         | ★★★★★  |
 
-<!-- ### 🎮 Games -->
+### 🎮 Games
 
-<!-- | Title | Date of completion | Rating | -->
-<!-- | :---- | :----------------- | :----- | -->
+| Title                                                                  | Date of completion | Platform | Rating |
+| :--------------------------------------------------------------------- | :----------------- | :------- | :----- |
+| [Dome Keeper](https://store.steampowered.com/app/1637320/Dome_Keeper/) | 2023-01-25         | Steam    | ★★     |
 
 <!-- ### 🎧 Audio Books -->
 
