@@ -167,32 +167,76 @@ A bunch of more complex scenarios where you need to move commits around either b
   - Scenario: so we've done a merge...
   - Note: `^` also accepts a number like `~` does.
   - Rather than specifying the number of generations to go back (as `~` does), **`^` specifies which parent reference to follow from a merge commit.** Merge commits have multiple parents, by default git will follow the first parent. `^` is used to change this behavior.
-  -
+  - `git checkout main^` will take you to the first parent of after the merge commit.
+  - `git checkout main^2` will lead to the second parent instead (not the grandparent).
+  - And you can chain modifiers together like `HEAD~^2~2`. It's even possible to use `git branch newbranch HEAD~^2^`.
 - Branch spaghetti
+  - Scenario: `main` is a few commits ahead of other branches, we need to update the branches with modified versions on `main`.
+
+Begin:
+
+```
+c0---c1---c2---c3---c4---c5   main*
+      one
+      two
+      three
+```
+
+End:
+
+```
+      three
+      c2---c3---c4---c5   main
+      /
+c0---c1---c4'---c3'---c2'   one
+      \
+      c5'---c4''---c3''---c2''   two*
+```
+
+Solution:
+
+```bash
+git checkout one
+git cherry-pick c4 c3 c2
+git checkout two
+git cherry-pick c5 c4 c3 c2
+git rebase c2 three
+```
 
 ## 2. Branching on `remote`
 
 ### Push, pull, remotes
 
-- clone intro
-- remote branches
-- git fetching
-- git pulling
-- faking teamwork
-- git pushing
-- diverged history
-- locked main
+- Remotes are just copies of the repository as backups with the capability of social coding.
+- Remote branch
+  - When checked out, it will be in detached `HEAD` mode since we won't work directly on remote branches.
+  - Remote branches naming convention: `<remote name>/<branch name>`, so `o/main` stands for a branch named `main` of remote `o`.
+    - In practice, we see `origin/main` instead of `o/main` more often.
+- `git fetch`: *fetches* data from a remote repository
+  - **What `git fetch` does** (in two steps):
+    - downloads the commits that the remote has but are missing from our local repository;
+    - updates where our remote branches point to (i.e. `o/main`).
+  - **What `git fetch` does not do**:
+    - Does not change anything about the local state. **It will NOT update `main` or change anything about how the file system looks right now.** (That's what `git pull` does.)
+- `git pull`: the workflow of *fetching* remote changes and then *merging* them.
+- `git push`: uploads the changes to a specified remote and updates that remote to incorporate the new commits.
+  - Consider it as "publishing" the work.
+- Scenario: diverged history. Say you cloned a repository, made some commits but not pushed. But meanwhile, the remote has been updated so the features you wrote were out of date (an obsolete). In other words, your work is based on an older version of the project and it's no longer relevant.
+  - Now `git push` won't proceed since it is ambiguous.
+  - Simple fix: `git fetch; git rebase origin/main; git push`
+  - Another fix: `git fetch; git merge origin/main; git push`
+  - Shortcut: `git pull --rebase` is a shorthand for a fetch and a rebase. --> `git pull --rebase; git push`
+- Locked main
+  - Scenario: The remote main is locked and requires Pull Request to merge changes. `Pushes to this branch are not permitted; you must use a pull request to update this branch.)`
+  - Solution: **create another branch called "feature" and push that to the remote; and reset `main` back to be in sync with the remote.** For example:
 
-### Advanced git remote
+```bash
+git checkout -b feature HEAD
+git push origin feature
+git checkout main
+git reset HEAD^
+```
 
-- push main
-- merge with remotes
-- remote tracking
-- git push arguments
-- git push arguments 2
-- fetch arguments
-- source of nothing
-- pull arguments
+***
 
-
-**Still, highly recommend the interactive tutorial with commit tree visualizing everything involved.**
+I've left the last part of the tutorial "*Advanced git remote*" unfinished, highly recommend you to give it a go at your own pace. The animated commit tree is really intuitive.
