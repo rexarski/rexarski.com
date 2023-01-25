@@ -1,6 +1,6 @@
 +++
 title = "Adversarial attacks with TextAttack"
-date = "2023-01-26"
+date = "2023-01-25"
 description = ""
 tags = ["nlp", "python"]
 +++
