@@ -28,7 +28,6 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
   - [Somebody Feed Phil Season 3](https://movie.douban.com/subject/35050642/)
   - [My Next Guest with David Letterman and Volodymyr Zelenskyy](https://movie.douban.com/subject/36189270/)
 - Albums
-  - 0
   - Live at Gamla Bió
   - Once in a Long, Long While...
   - ross.
@@ -73,6 +72,7 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 | [Skinny Ape](https://open.spotify.com/album/1TCT6Wf9RHMYX7jQl5Q2xG?si=KQOSSs9cTc2H9aqQ9DNNTw)      | Gorillaz                 | 2023-01-16         | ★★★★   |
 | [Low Roar](https://open.spotify.com/album/3lETJkavciTauiSyOV1gZC?si=5xmSukOKTa2IMqIKNH15gg)        | Low Roar                 | 2023-01-24         | ★★★★★  |
 | [Time Out](https://open.spotify.com/album/0nTTEAhCZsbbeplyDMIFuA?si=aXWdu10NRRmdseoGPjOoUQ)        | The Dave Brubeck Quartet | 2023-01-24         | ★★★★★  |
+| [0](https://open.spotify.com/album/4G3ZBFg8MpTSDxDQ3m2BCb?si=M9Bz-jWqQtCEf3crhDiJBw)               | Low Roar                 | 2023-01-25         | ★★★★★  |
 
 ### 🎮 Games
 
