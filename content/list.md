@@ -1,5 +1,5 @@
 +++
-title = "List"
+title = "list"
 menu = "main"
 +++
 
@@ -45,14 +45,14 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 | :-------------------------------------------------------------------------------------- | :------------- | :----------------- | :----- |
 | [Invincible Compendium Vol. 1](https://www.goodreads.com/book/show/11924046-invincible) | Robert Kirkman | 2023-01-20         | ★★★★   |
 
-
 ### 🍿 Movies
 
-| Title                                                                     | Date of completion | Rating |
-| :------------------------------------------------------------------------ | :----------------- | :----- |
-| [长津湖](https://movie.douban.com/subject/25845392/)                      | 2023-01-05         | ★★     |
-| [Bullet Train](https://movie.douban.com/subject/35118954/)                | 2023-01-06         | ★★★    |
-| [Venom: Let There Be Carnage](https://movie.douban.com/subject/30382416/) | 2023-01-14         | ★★     |
+| Title                                                                          | Date of completion | Rating |
+| :----------------------------------------------------------------------------- | :----------------- | :----- |
+| [长津湖](https://movie.douban.com/subject/25845392/)                           | 2023-01-05         | ★★     |
+| [Bullet Train](https://movie.douban.com/subject/35118954/)                     | 2023-01-06         | ★★★    |
+| [Venom: Let There Be Carnage](https://movie.douban.com/subject/30382416/)      | 2023-01-14         | ★★     |
+| [流浪地球2 The Wandering Earth II](https://movie.douban.com/subject/35267208/) | 2023-01-25         | ★★★★★  |
 
 ### 📺 TV Shows
 
