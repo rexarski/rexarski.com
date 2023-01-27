@@ -40,45 +40,46 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 
 ### 📚 Books
 
-| Title                                                                                   | Author         | Date of completion | Rating |
-| :-------------------------------------------------------------------------------------- | :------------- | :----------------- | :----- |
-| [Invincible Compendium Vol. 1](https://www.goodreads.com/book/show/11924046-invincible) | Robert Kirkman | 2023-01-20         | ★★★★   |
+| Title                                                                                   |         Author | Date of completion | Rating |
+| :-------------------------------------------------------------------------------------- | -------------: | -----------------: | -----: |
+| [Invincible Compendium Vol. 1](https://www.goodreads.com/book/show/11924046-invincible) | Robert Kirkman |         2023-01-20 |   ★★★★ |
 
 ### 🍿 Movies
 
 | Title                                                                          | Date of completion | Rating |
-| :----------------------------------------------------------------------------- | :----------------- | :----- |
-| [长津湖](https://movie.douban.com/subject/25845392/)                           | 2023-01-05         | ★★     |
-| [Bullet Train](https://movie.douban.com/subject/35118954/)                     | 2023-01-06         | ★★★    |
-| [Venom: Let There Be Carnage](https://movie.douban.com/subject/30382416/)      | 2023-01-14         | ★★     |
-| [流浪地球2 The Wandering Earth II](https://movie.douban.com/subject/35267208/) | 2023-01-25         | ★★★★★  |
+| :----------------------------------------------------------------------------- | -----------------: | -----: |
+| [长津湖](https://movie.douban.com/subject/25845392/)                           |         2023-01-05 |     ★★ |
+| [Bullet Train](https://movie.douban.com/subject/35118954/)                     |         2023-01-06 |    ★★★ |
+| [Venom: Let There Be Carnage](https://movie.douban.com/subject/30382416/)      |         2023-01-14 |     ★★ |
+| [流浪地球2 The Wandering Earth II](https://movie.douban.com/subject/35267208/) |         2023-01-25 |  ★★★★★ |
+| [满江红](https://movie.douban.com/subject/35766491/)                           |         2023-01-26 |     ★★ |
 
 ### 📺 TV Shows
 
 | Title                                                                         | Date of completion | Rating |
-| :---------------------------------------------------------------------------- | :----------------- | :----- |
-| [Andor Season 1](https://movie.douban.com/subject/30376895/)                  | 2023-01-12         | ★★★★★  |
-| [Kaleidoscope](https://movie.douban.com/subject/35602000/)                    | 2023-01-13         | ★★★    |
-| [The White Lotus Season 1](https://movie.douban.com/subject/35506348/)        | 2023-01-19         | ★★★★   |
-| [Bling Empire: New York Season 1](https://movie.douban.com/subject/36181117/) | 2023-01-22         | ☆      |
-| [伊藤潤二『マニアック』](https://movie.douban.com/subject/35925201/)          | 2023-01-23         | ★★     |
+| :---------------------------------------------------------------------------- | -----------------: | -----: |
+| [Andor Season 1](https://movie.douban.com/subject/30376895/)                  |         2023-01-12 |  ★★★★★ |
+| [Kaleidoscope](https://movie.douban.com/subject/35602000/)                    |         2023-01-13 |    ★★★ |
+| [The White Lotus Season 1](https://movie.douban.com/subject/35506348/)        |         2023-01-19 |   ★★★★ |
+| [Bling Empire: New York Season 1](https://movie.douban.com/subject/36181117/) |         2023-01-22 |      ☆ |
+| [伊藤潤二『マニアック』](https://movie.douban.com/subject/35925201/)          |         2023-01-23 |     ★★ |
 
 ### 🎷 Albums
 
-| Title                                                                                              | Performer                | Date of completion | Rating |
-| :------------------------------------------------------------------------------------------------- | :----------------------- | :----------------- | :----- |
-| [Take Ten](https://open.spotify.com/album/67OvvuGokycHO0Quc9HyKZ?si=xAiXbnKGSx63YzHpWlZdfw)        | Paul Desmond             | 2023-01-07         | ★★★★   |
-| [An Awesome Wave](https://open.spotify.com/album/6k3vC8nep1BfqAIJ81L6OL?si=efWS1JtTR1GnTm7hlZ5YFQ) | alt-J                    | 2023-01-16         | ★★★★★  |
-| [Skinny Ape](https://open.spotify.com/album/1TCT6Wf9RHMYX7jQl5Q2xG?si=KQOSSs9cTc2H9aqQ9DNNTw)      | Gorillaz                 | 2023-01-16         | ★★★★   |
-| [Low Roar](https://open.spotify.com/album/3lETJkavciTauiSyOV1gZC?si=5xmSukOKTa2IMqIKNH15gg)        | Low Roar                 | 2023-01-24         | ★★★★★  |
-| [Time Out](https://open.spotify.com/album/0nTTEAhCZsbbeplyDMIFuA?si=aXWdu10NRRmdseoGPjOoUQ)        | The Dave Brubeck Quartet | 2023-01-24         | ★★★★★  |
-| [0](https://open.spotify.com/album/4G3ZBFg8MpTSDxDQ3m2BCb?si=M9Bz-jWqQtCEf3crhDiJBw)               | Low Roar                 | 2023-01-25         | ★★★★★  |
+| Title                                                                                              |                Performer | Date of completion | Rating |
+| :------------------------------------------------------------------------------------------------- | -----------------------: | -----------------: | -----: |
+| [Take Ten](https://open.spotify.com/album/67OvvuGokycHO0Quc9HyKZ?si=xAiXbnKGSx63YzHpWlZdfw)        |             Paul Desmond |         2023-01-07 |   ★★★★ |
+| [An Awesome Wave](https://open.spotify.com/album/6k3vC8nep1BfqAIJ81L6OL?si=efWS1JtTR1GnTm7hlZ5YFQ) |                    alt-J |         2023-01-16 |  ★★★★★ |
+| [Skinny Ape](https://open.spotify.com/album/1TCT6Wf9RHMYX7jQl5Q2xG?si=KQOSSs9cTc2H9aqQ9DNNTw)      |                 Gorillaz |         2023-01-16 |   ★★★★ |
+| [Low Roar](https://open.spotify.com/album/3lETJkavciTauiSyOV1gZC?si=5xmSukOKTa2IMqIKNH15gg)        |                 Low Roar |         2023-01-24 |  ★★★★★ |
+| [Time Out](https://open.spotify.com/album/0nTTEAhCZsbbeplyDMIFuA?si=aXWdu10NRRmdseoGPjOoUQ)        | The Dave Brubeck Quartet |         2023-01-24 |  ★★★★★ |
+| [0](https://open.spotify.com/album/4G3ZBFg8MpTSDxDQ3m2BCb?si=M9Bz-jWqQtCEf3crhDiJBw)               |                 Low Roar |         2023-01-25 |  ★★★★★ |
 
 ### 🎮 Games
 
 | Title                                                                  | Date of completion | Platform | Rating |
-| :--------------------------------------------------------------------- | :----------------- | :------- | :----- |
-| [Dome Keeper](https://store.steampowered.com/app/1637320/Dome_Keeper/) | 2023-01-25         | Steam    | ★★     |
+| :--------------------------------------------------------------------- | -----------------: | -------: | -----: |
+| [Dome Keeper](https://store.steampowered.com/app/1637320/Dome_Keeper/) |         2023-01-25 |    Steam |     ★★ |
 
 <!-- ### 🎧 Audio Books -->
 
