@@ -52,7 +52,7 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 | [Bullet Train](https://movie.douban.com/subject/35118954/)                     |         2023-01-06 |    ★★★ |
 | [Venom: Let There Be Carnage](https://movie.douban.com/subject/30382416/)      |         2023-01-14 |     ★★ |
 | [流浪地球2 The Wandering Earth II](https://movie.douban.com/subject/35267208/) |         2023-01-25 |  ★★★★★ |
-| [满江红](https://movie.douban.com/subject/35766491/)                           |         2023-01-26 |     ★★ |
+| [满江红](https://movie.douban.com/subject/35766491/)                           |         2023-01-26 |    ★★★ |
 
 ### 📺 TV Shows
 
