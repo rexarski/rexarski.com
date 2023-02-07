@@ -23,7 +23,7 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
   9. [Kitchen Confidential](https://www.goodreads.com/book/show/33313.Kitchen_Confidential)
   10. [Tidy Modeling with R](https://www.tmwr.org/)
   11. [Fire and Blood](https://www.goodreads.com/book/show/39943621-fire-blood)
-  12. [D3 Start to Finish]()
+  12. [D3 Start to Finish](https://www.createwithdata.com/d3-start-to-finish-book/)
   13. [Somebody Feed Phil the Book](https://www.goodreads.com/book/show/60320221-somebody-feed-phil-the-book)
   14. [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
   15. [Invincible Compendium Vol. 2](https://www.goodreads.com/book/show/51808901-invincible)
@@ -31,14 +31,12 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 - Movies
   - [Mountain of Storms](https://www.youtube.com/watch?v=YxM2cOvq6s8)
 - TV Shows
-  - [Severance Season 1](https://movie.douban.com/subject/34885342/)
+  - The Legend of Vox Machina Season 2
   - [The Last of Us Season 1](https://movie.douban.com/subject/25848328/)
   - [Welcome to Wrexham Season 1](https://movie.douban.com/subject/35900654/)
   - [Somebody Feed Phil Season 3](https://movie.douban.com/subject/35050642/)
   - [My Next Guest with David Letterman and Volodymyr Zelenskyy](https://movie.douban.com/subject/36189270/)
 - Albums
-  - [ross.](https://open.spotify.com/album/0lXfuLWOpIe6yM45chrvUJ?si=bexAHGthS8OmtlU_TH2wcg)
-  - [maybe tomorrow...](https://open.spotify.com/album/2emIJ0jUow3X9zkwj2wkPb?si=ihcDZxSsRKOHqsp1W_7Zbw)
   - [Young the Giant (Special Edition)](https://open.spotify.com/album/2ww7MYrkExsljnKhcINDse?si=sr2V-mlJSLW8FzPgwdxeIw)
   - [Eyelid Movies (Bonus Track Version)](https://open.spotify.com/album/5aSsh4n7DFK3ngOCwa6ecp?si=qr2Zn8voSUCQGxfmf2o3rA)
 - Games
@@ -70,6 +68,8 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 | [The White Lotus Season 1](https://movie.douban.com/subject/35506348/)        |         2023-01-19 |   ★★★★ |
 | [Bling Empire: New York Season 1](https://movie.douban.com/subject/36181117/) |         2023-01-22 |      ☆ |
 | [伊藤潤二『マニアック』](https://movie.douban.com/subject/35925201/)          |         2023-01-23 |     ★★ |
+| [狂飙](https://movie.douban.com/subject/35465232/)                            |         2023-02-05 |    ★★★ |
+| [Severance Season 1](https://movie.douban.com/subject/34885342/)              |         2023-02-06 |   ★★★★ |
 
 ### 🎷 Albums
 
@@ -81,8 +81,11 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 | [Low Roar](https://open.spotify.com/album/3lETJkavciTauiSyOV1gZC?si=5xmSukOKTa2IMqIKNH15gg)                      |                 Low Roar |         2023-01-24 |  ★★★★★ |
 | [Time Out](https://open.spotify.com/album/0nTTEAhCZsbbeplyDMIFuA?si=aXWdu10NRRmdseoGPjOoUQ)                      | The Dave Brubeck Quartet |         2023-01-24 |  ★★★★★ |
 | [0](https://open.spotify.com/album/4G3ZBFg8MpTSDxDQ3m2BCb?si=M9Bz-jWqQtCEf3crhDiJBw)                             |                 Low Roar |         2023-01-25 |  ★★★★★ |
-| [Live at Gamla Bió](https://open.spotify.com/album/4i6aji0KUBDaSDhFVCnfIN?si=gxXiQW9YSY-2V8LSlHdloQ)]            |                 Low Roar |         2023-01-30 |    ★★★ |
+| [Live at Gamla Bió](https://open.spotify.com/album/4i6aji0KUBDaSDhFVCnfIN?si=gxXiQW9YSY-2V8LSlHdloQ)             |                 Low Roar |         2023-01-30 |    ★★★ |
 | [Once in A Long, Long While...](https://open.spotify.com/album/5dhet1luldVxu21FUspJXV?si=r_KD38s-RfSOnTzNuZ3pAQ) |                 Low Roar |         2023-01-31 | ★★★★★∞ |
+| [ross.](https://open.spotify.com/album/0lXfuLWOpIe6yM45chrvUJ?si=bexAHGthS8OmtlU_TH2wcg)                         |                 Low Roar |         2023-02-03 |   ★★★★ |
+| [maybe tomorrow...](https://open.spotify.com/album/2emIJ0jUow3X9zkwj2wkPb?si=ihcDZxSsRKOHqsp1W_7Zbw)             |                 Low Roar |         2023-02-03 |   ★★★★ |
+| [First Impressions of Earth](https://open.spotify.com/album/1HQ61my1h3VWp2EBWKlp0n?si=HuEDpeGKSMi32ouIcwTbhA)    |              The Strokes |         2023-02-06 |    ★★★ |
 
 
 ### 🎮 Games
