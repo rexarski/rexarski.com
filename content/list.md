@@ -15,39 +15,32 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
   1. [Nightingale Issue 1](https://www.datavisualizationsociety.org/nightingale-print-store/extra-copies-of-nightingale-print)
   2. [Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing](https://www.goodreads.com/book/show/51635906-trustworthy-online-controlled-experiments)
   3. [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits)
-  4. [九宫格写作法](https://www.goodreads.com/book/show/57444142)
-  5. [King of Spies](https://www.goodreads.com/book/show/60033518-king-of-spies)
-  6. [JavaScript: The Definitive Guide](https://www.goodreads.com/book/show/61157620-javascript)
-  7. [The Magic Order, Vol. 2](https://www.goodreads.com/book/show/59747260-the-magic-order-vol-2)
-  8. [Nightingale Issue 2](https://www.datavisualizationsociety.org/nightingale-print-store/nightingale-magazine-issue-2-winter-2022)
-  9. [Kitchen Confidential](https://www.goodreads.com/book/show/33313.Kitchen_Confidential)
-  10. [Tidy Modeling with R](https://www.tmwr.org/)
-  11. [Fire and Blood](https://www.goodreads.com/book/show/39943621-fire-blood)
-  12. [D3 Start to Finish](https://www.createwithdata.com/d3-start-to-finish-book/)
-  13. [Somebody Feed Phil the Book](https://www.goodreads.com/book/show/60320221-somebody-feed-phil-the-book)
-  14. [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
-  15. [Invincible Compendium Vol. 2](https://www.goodreads.com/book/show/51808901-invincible)
-  16. [Fluent Python](https://www.goodreads.com/book/show/54330869-fluent-python-2nd-edition)
-- Movies
-  - [Mountain of Storms](https://www.youtube.com/watch?v=YxM2cOvq6s8)
+  4. [King of Spies](https://www.goodreads.com/book/show/60033518-king-of-spies)
+  5. [JavaScript: The Definitive Guide](https://www.goodreads.com/book/show/61157620-javascript)
+  6. [The Magic Order, Vol. 2](https://www.goodreads.com/book/show/59747260-the-magic-order-vol-2)
+  7. [Nightingale Issue 2](https://www.datavisualizationsociety.org/nightingale-print-store/nightingale-magazine-issue-2-winter-2022)
+  8. [Kitchen Confidential](https://www.goodreads.com/book/show/33313.Kitchen_Confidential)
+  9. [Tidy Modeling with R](https://www.tmwr.org/)
+  10. [Fire and Blood](https://www.goodreads.com/book/show/39943621-fire-blood)
+  11. [D3 Start to Finish](https://www.createwithdata.com/d3-start-to-finish-book/)
+  12. [Somebody Feed Phil the Book](https://www.goodreads.com/book/show/60320221-somebody-feed-phil-the-book)
+  13. [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
+  14. [Invincible Compendium Vol. 2](https://www.goodreads.com/book/show/51808901-invincible)
+  15. [Fluent Python](https://www.goodreads.com/book/show/54330869-fluent-python-2nd-edition)
+
 - TV Shows
-  - The Legend of Vox Machina Season 2
-  - [The Last of Us Season 1](https://movie.douban.com/subject/25848328/)
-  - [Welcome to Wrexham Season 1](https://movie.douban.com/subject/35900654/)
   - [Somebody Feed Phil Season 3](https://movie.douban.com/subject/35050642/)
+  - [Welcome to Wrexham Season 1](https://movie.douban.com/subject/35900654/)
+  - The Legend of Vox Machina Season 2
   - [My Next Guest with David Letterman and Volodymyr Zelenskyy](https://movie.douban.com/subject/36189270/)
-- Albums
-  - [Young the Giant (Special Edition)](https://open.spotify.com/album/2ww7MYrkExsljnKhcINDse?si=sr2V-mlJSLW8FzPgwdxeIw)
-  - [Eyelid Movies (Bonus Track Version)](https://open.spotify.com/album/5aSsh4n7DFK3ngOCwa6ecp?si=qr2Zn8voSUCQGxfmf2o3rA)
-- Games
-  - [Pokémon Violet 宝可梦 紫](https://www.douban.com/game/35784222/)
-  - [Citizen Sleeper](https://store.steampowered.com/app/1578650)
+  - [The Last of Us Season 1](https://movie.douban.com/subject/25848328/)
 
 ### 📚 Books
 
 | Title                                                                                   |         Author | Date of completion | Rating |
 | :-------------------------------------------------------------------------------------- | -------------: | -----------------: | -----: |
 | [Invincible Compendium Vol. 1](https://www.goodreads.com/book/show/11924046-invincible) | Robert Kirkman |         2023-01-20 |   ★★★★ |
+| [九宫格写作法](https://book.douban.com/subject/35240614/)                               |       山口拓朗 |         2023-02-08 |    ★★★ |
 
 ### 🍿 Movies
 
@@ -58,6 +51,8 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 | [Venom: Let There Be Carnage](https://movie.douban.com/subject/30382416/)      |         2023-01-14 |     ★★ |
 | [流浪地球2 The Wandering Earth II](https://movie.douban.com/subject/35267208/) |         2023-01-25 |  ★★★★★ |
 | [满江红](https://movie.douban.com/subject/35766491/)                           |         2023-01-26 |    ★★★ |
+
+<!-- | [Mountain of Storms](https://www.youtube.com/watch?v=YxM2cOvq6s8)              |                    |        | -->
 
 ### 📺 TV Shows
 
@@ -70,6 +65,7 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 | [伊藤潤二『マニアック』](https://movie.douban.com/subject/35925201/)          |         2023-01-23 |     ★★ |
 | [狂飙](https://movie.douban.com/subject/35465232/)                            |         2023-02-05 |    ★★★ |
 | [Severance Season 1](https://movie.douban.com/subject/34885342/)              |         2023-02-06 |   ★★★★ |
+| [The White Lotus Season 2](https://movie.douban.com/subject/35561222/)        |         2023-02-07 |   ★★★★ |
 
 ### 🎷 Albums
 
@@ -87,6 +83,9 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 | [maybe tomorrow...](https://open.spotify.com/album/2emIJ0jUow3X9zkwj2wkPb?si=ihcDZxSsRKOHqsp1W_7Zbw)             |                 Low Roar |         2023-02-03 |   ★★★★ |
 | [First Impressions of Earth](https://open.spotify.com/album/1HQ61my1h3VWp2EBWKlp0n?si=HuEDpeGKSMi32ouIcwTbhA)    |              The Strokes |         2023-02-06 |    ★★★ |
 
+<!-- | [Young the Giant (Special Edition)](https://open.spotify.com/album/2ww7MYrkExsljnKhcINDse?si=sr2V-mlJSLW8FzPgwdxeIw)   |          Young the Giant |                    |        | -->
+<!-- | [Eyelid Movies (Bonus Track Version)](https://open.spotify.com/album/5aSsh4n7DFK3ngOCwa6ecp?si=qr2Zn8voSUCQGxfmf2o3rA) |               Phantogram |                    |        | -->
+
 
 ### 🎮 Games
 
@@ -96,6 +95,10 @@ Some of my comments can be found on [douban](https://www.douban.com/people/rexar
 | [NBA 2K23](https://www.xbox.com/en-US/games/nba-2k23)                                  |         2023-01-30 |     Xbox |      ★ |
 | [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/)     |         2023-02-01 |    Steam |      - |
 | [Soulstone Survivors](https://store.steampowered.com/app/2066020/Soulstone_Survivors/) |         2023-02-01 |    Steam |      - |
+| [Devolver Tumble Time](https://www.devolverdigital.com/games/devolver-tumble-time)     |         2023-02-08 |      iOS |      ★ |
+
+<!-- |                                                                                        | [Pokémon Violet 宝可梦 紫](https://www.douban.com/game/35784222/) |          | Switch |  |  | -->
+<!-- |                                                                                        |     [Citizen Sleeper](https://store.steampowered.com/app/1578650) |          |  Steam |  |  | -->
 
 
 <!-- ### 🎧 Audio Books -->
