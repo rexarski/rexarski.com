@@ -7,12 +7,12 @@ menu = "main"
 
 Things I've been up to:
 
-- Learning JavaScript, D3 in 2023.
-- Casual jogger.
 - [Obsidian](https://obsidian.md/).
+- Casual jogger.
+- Learning JavaScript and D3 in 2023.
 - Playing [Ring Fit Adventure](https://nintendoswitchsports.nintendo.com/en/) and [Nintendo Switch Sports](https://nintendoswitchsports.nintendo.com/en/).
 - Developing young talents in [Football Manager](https://www.footballmanager.com/) as [Wrexham AFC](https://www.wrexhamafc.co.uk/club/whos-who/) manager.
-- I'm keeping a [list of cultural products I consumed in year 2023](https://www.notion.so/rqiu/b726eb50faac482c9e52556141d9134b?v=1290a23543ad4c9abf902fcc6a0e1ef7&pvs=4) which covers a variety of books, movies, tv series and games.
+- I'm keeping [a list of cultural products I consumed](https://rqiu.notion.site/b726eb50faac482c9e52556141d9134b) this year, which covers a variety of books, movies, tv series and games.
   - Some of my comments can be found on [douban](https://www.douban.com/people/rexarski/) and [goodreads](https://www.goodreads.com/rexarski).
 
 ## 🪐 The Highlights
