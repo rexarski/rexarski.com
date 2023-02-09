@@ -28,14 +28,6 @@ me_df <- tibble(
 2 résumé https://github.com/rexarski/resume
 ```
 
-Things I've been up to:
-
-- Learning JavaScript, D3 in 2023.
-- Casual jogger.
-- Practicing [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) with [Obsidian](https://obsidian.md/).
-- Playing [Ring Fit Adventure](https://nintendoswitchsports.nintendo.com/en/) and [Nintendo Switch Sports](https://nintendoswitchsports.nintendo.com/en/).
-- Developing young talents in [Football Manager](https://www.footballmanager.com/).
-
 My online hideouts:
 
 - [douban](https://www.douban.com/people/rexarski/)
@@ -43,6 +35,6 @@ My online hideouts:
 - [goodreads](https://www.goodreads.com/user/show/66423413-rui)
 - [mastodon](https://mastodon.social/@rexarski)
 - [linkedin](https://www.linkedin.com/in/rqiu/)
-- [neodb](https://neodb.social/users/rexarski@mastodon.social/)
+- [pinboard](https://pinboard.in/u:rexarski)
 - [telegram](https://t.me/itsnopie)
 - [twitter](https://twitter.com/rexarski)
