@@ -1,4 +1,4 @@
-# Hi, I'm Ruì Qiū 📊⚽🍜🎷
+# Hi, Ruì Qiū here!
 
 > Ruì is pronounced as "Ray", not Roo-E.
 
