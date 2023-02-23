@@ -1,11 +1,15 @@
 +++
-title = "Add keyboard stroke and highlighting in Hugo"
+title = "Add keyboard keys and highlighting in Hugo"
 date = "2023-02-23"
 description = ""
 tags = ["Hugo"]
 +++
 
-Yihui's latest [blog post](https://yihui.org/en/2023/02/key-buttons/) on styling keyboard keys and shortcuts revealed a brutal fact to me: I've been misusing the `<pre>`, `<kbd>`, and `<code>` tags for years. The inline code markdown syntax really spoiled me. I tend to overuse inline code a lot and do not want to aggressively replace the syntax with `<kbd>` tag single-handedly, so I decide to differentiate them by creating separate styles.
+Yihui's latest [blog post](https://yihui.org/en/2023/02/key-buttons/) on styling keyboard keys and shortcuts revealed a brutal fact to me: I've been misusing the `<pre>`, `<kbd>`, and `<code>` tags for years. The inline code markdown syntax really spoiled me. I tend to overuse inline code a lot ~~and do not want to aggressively replace the syntax with `<kbd>` tag single-handedly~~[^1], so I decide to differentiate them by creating separate styles.
+
+[^1]: Apparently, I misunderstood the post: the [JavaScript code](https://github.com/yihui/misc.js/blob/main/js/key-buttons.js) works only some designated keys are surrounded by `<code>` tags.
+
+## <kbd>Keys!</kbd>
 
 First, we need to enable raw HTML support in Hugo by adding the following to `config.toml`:
 
@@ -40,6 +44,8 @@ kbd:hover {
 <kbd>R</kbd>
 
 <kbd>It looks pretty compatible with the dark theme too.</kbd>
+
+## <mark>Highlights!</mark>
 
 Another idea just popped up in my mind: I really want the highlighting syntax `==highlighted==` to be usable in Hugo. Now I can at least use `<mark>` tag as a workaround.
 
