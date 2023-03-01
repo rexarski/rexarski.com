@@ -3,7 +3,7 @@ title = "projects"
 menu = "main"
 +++
 
-# 🚀 Projects
+# Projects
 
 <!-- ## Ongoing -->
 
