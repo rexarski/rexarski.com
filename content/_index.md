@@ -31,15 +31,15 @@ My first name is pronounced as "Ray".
 **Highlights of the year**
 
 - 📺 TV series
-  - [*Andor Season 1*](https://movie.douban.com/subject/30376895/)
-  - [*The Last of Us Season 1*](https://movie.douban.com/subject/25848328/)
-  - *Clarkson's Farm* Season [1](https://movie.douban.com/subject/34839005/) and [2](https://movie.douban.com/subject/35517450/)
+  - [Andor Season 1](https://movie.douban.com/subject/30376895/)
+  - [The Last of Us Season 1](https://movie.douban.com/subject/25848328/)
+  - Clarkson's Farm Season [1](https://movie.douban.com/subject/34839005/) and [2](https://movie.douban.com/subject/35517450/)
 - 📚 Books
-  - [*Atomic Habits*](https://www.goodreads.com/book/show/40121378-atomic-habits) by James Clear
-  - [*Pachinko*](https://www.goodreads.com/book/show/52257890) by Min Jin Lee
+  - [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) by *James Clear*
+  - [Pachinko](https://www.goodreads.com/book/show/52257890) by *Min Jin Lee*
 - 🎷 Albums
-  - Low Roar's these three: [*Low Roar*](https://open.spotify.com/album/3lETJkavciTauiSyOV1gZC?si=5xmSukOKTa2IMqIKNH15gg), [*0*](https://open.spotify.com/album/4G3ZBFg8MpTSDxDQ3m2BCb?si=M9Bz-jWqQtCEf3crhDiJBw) and [*Once in A Long, Long While...*](https://open.spotify.com/album/5dhet1luldVxu21FUspJXV?si=r_KD38s-RfSOnTzNuZ3pAQ)
-  - [*Time Out*](https://open.spotify.com/album/0nTTEAhCZsbbeplyDMIFuA?si=aXWdu10NRRmdseoGPjOoUQ)(1959) by The Dave Brubeck Quarlet
-  - [*The New Abnormal*](https://open.spotify.com/album/2xkZV2Hl1Omi8rk2D7t5lN?si=RN6J2tuvQNqilw4hK377jg)(2020) by The Strokes
-  - [*Young The Giant (Special Edition)*](https://open.spotify.com/album/2ww7MYrkExsljnKhcINDse?si=sr2V-mlJSLW8FzPgwdxeIw)(2011) by Young the Giant
-  - [*The Moss*](https://open.spotify.com/album/4vS1qz11W9HQ61YAKAwggh?si=monkYlWNRK2KnYvqsEpUGg)(2014) and [*Pelicans We*](https://open.spotify.com/album/5wWwQ36jDU3QGxG4TH2NHB?si=xtHfDrtpQqGoCHaK5hbviA)(2015) by Cosmo Sheldrake
+  - *Low Roar*'s these three: [Low Roar](https://open.spotify.com/album/3lETJkavciTauiSyOV1gZC?si=5xmSukOKTa2IMqIKNH15gg) (2011), [0](https://open.spotify.com/album/4G3ZBFg8MpTSDxDQ3m2BCb?si=M9Bz-jWqQtCEf3crhDiJBw) (2014) and [Once in A Long, Long While...](https://open.spotify.com/album/5dhet1luldVxu21FUspJXV?si=r_KD38s-RfSOnTzNuZ3pAQ) (2017)
+  - [Time Out](https://open.spotify.com/album/0nTTEAhCZsbbeplyDMIFuA?si=aXWdu10NRRmdseoGPjOoUQ) (1959) by *The Dave Brubeck Quartet*
+  - [The New Abnormal](https://open.spotify.com/album/2xkZV2Hl1Omi8rk2D7t5lN?si=RN6J2tuvQNqilw4hK377jg) (2020) by *The Strokes*
+  - [Young The Giant (Special Edition)](https://open.spotify.com/album/2ww7MYrkExsljnKhcINDse?si=sr2V-mlJSLW8FzPgwdxeIw) (2011) by *Young the Giant*
+  - [The Moss](https://open.spotify.com/album/4vS1qz11W9HQ61YAKAwggh?si=monkYlWNRK2KnYvqsEpUGg) (2014) and [Pelicans We](https://open.spotify.com/album/5wWwQ36jDU3QGxG4TH2NHB?si=xtHfDrtpQqGoCHaK5hbviA) (2015) by *Cosmo Sheldrake*
