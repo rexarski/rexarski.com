@@ -5,7 +5,10 @@ menu = "main"
 
 # Projects
 
-<!-- ## Ongoing -->
+## Now
+
+- [chitchat](https://github.com/rexarski/chitchat)
+- [climate-plus](https://github.com/rexarski/climate-plus)
 
 ## 2022
 
