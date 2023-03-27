@@ -2,7 +2,7 @@
 title = "Add keyboard keys and highlighting in Hugo"
 date = "2023-02-23"
 description = ""
-tags = ["Hugo"]
+tags = ["hugo"]
 +++
 
 Yihui's latest [blog post](https://yihui.org/en/2023/02/key-buttons/) on styling keyboard keys and shortcuts revealed a brutal fact to me: I've been misusing the `<pre>`, `<kbd>`, and `<code>` tags for years. The inline code markdown syntax really spoiled me. I tend to overuse inline code a lot ~~and do not want to aggressively replace the syntax with `<kbd>` tag single-handedly~~[^1], so I decide to differentiate them by creating separate styles.

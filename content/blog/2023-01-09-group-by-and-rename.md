@@ -2,7 +2,7 @@
 title = "group_by and rename at the same time"
 date = "2023-01-09"
 description = ""
-tags = ["R", "tidyverse"]
+tags = ["r", "tidyverse"]
 +++
 
 TIL (technically, it's not *today*. But I found this in my notes last semester, and I think it's worth sharing):

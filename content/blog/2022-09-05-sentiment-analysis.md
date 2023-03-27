@@ -2,7 +2,7 @@
 title = "Sentiment analysis is only “somewhat useful”"
 date = "2022-09-05"
 description = ""
-tags = ["NLP"]
+tags = ["nlp"]
 +++
 
 I don’t know if anyone learns basic text mining with R, like me. By following this path, one is probably no stranger to sentiment analysis and feels like it is the righteous choice when it comes to decision making when some text data are involved.

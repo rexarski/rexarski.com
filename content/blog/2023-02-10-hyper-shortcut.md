@@ -2,7 +2,7 @@
 title = "King of keyboard shortcuts"
 date = "2023-02-10"
 description = ""
-tags = ["macOS"]
+tags = ["macos"]
 +++
 
 TIL <kbd>Command ⌘</kbd> + <kbd>Shift ⇧</kbd> + <kbd>/</kbd> is a keyboard combination that [rules them all](https://utgd.net/article/10042). Whenever in doubt, call it out and guess the name of action you want to try. It serves as a fuzzy searcher of a Mac app menu bar.

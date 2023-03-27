@@ -1,5 +1,4 @@
-
-**Ruì Qiū**
+**Ruì Qiū** <img class="avatar" align="right" alt="rexarski's Github avatar" src="https://avatars.githubusercontent.com/u/4172477?s=400&u=9d499524c04758e8b76c69a80fbcbb8aed6c6c09&v=4" />
 
 A data juggler, visualization enthusiast.
 

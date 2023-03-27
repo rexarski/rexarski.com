@@ -2,7 +2,7 @@
 title = "A conversation with ChatGPT on leaving Twitter"
 date = "2023-01-07"
 description = ""
-tags = ["ChatGPT", "Twitter", "Mastodon"]
+tags = ["chatgpt", "twitter", "mastodon"]
 +++
 
 I'll quote [ChatGPT](https://openai.com/blog/chatgpt/)'s responses below. And I assume everyone knows what it is nowadays.
