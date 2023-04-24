@@ -6,13 +6,13 @@ DMV based. I lived in Toronto and Canberra previously.
 
 My first name is pronounced as "Ray".
 
-*rexarski* is my go-to username.
+<strong style="font-family:Eczar;color:#ff6b35">rexarski</strong> is my go-to username.
 
 [github](https://github.com/rexarski) / [linkedin](https://www.linkedin.com/in/rqiu/)
 
 [resume](https://read.cv/rq) / [a more traditional resume](https://github.com/rexarski/resume)
 
-[mastodon](https://mastodon.social/@rexarski) / [telegram](https://t.me/itsnopie) / [douban](https://www.douban.com/people/rexarski/) / [twitter](https://twitter.com/rexarski)
+[mastodon](https://mastodon.social/@rexarski) / [telegram](https://t.me/itsnopie) / [douban](https://www.douban.com/people/rexarski/) / [goodreads](https://www.goodreads.com/rexarski) / [twitter](https://twitter.com/rexarski)
 
 ***
 
@@ -23,8 +23,6 @@ My first name is pronounced as "Ray".
 - Learning JavaScript and D3 in 2023.
 - Playing [Ring Fit Adventure](https://nintendoswitchsports.nintendo.com/en/) and [Nintendo Switch Sports](https://nintendoswitchsports.nintendo.com/en/).
 - Developing young talents in [Football Manager](https://www.footballmanager.com/) as [Wrexham AFC](https://www.wrexhamafc.co.uk/club/whos-who/) manager.
-- Keeping [📝 a list of cultural products I consumed](https://rqiu.notion.site/b726eb50faac482c9e52556141d9134b) this year, which covers a variety of books, movies, tv series and games.
-  - Some of my comments can be found on [douban](https://www.douban.com/people/rexarski/) and [goodreads](https://www.goodreads.com/rexarski).
 - Maintaining a [🧰 toolbox repo](https://github.com/rexarski/toolbox/) for my cyber life.
 
 **Highlights of the year**
