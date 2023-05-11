@@ -1,5 +1,5 @@
 +++
-title = "Popcorner Flavors Rating"
+title = "Popcorner flavors rating"
 date = "2023-02-26"
 description = ""
 tags = ["food"]

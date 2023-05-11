@@ -1,5 +1,5 @@
 +++
-title = "Python Environment Manager lost Python interpreter conda env"
+title = "Python Environment Manager lost track of Python interpreter with conda"
 date = "2023-01-27T21:36:27-05:00"
 tags = ["conda"]
 +++
@@ -13,17 +13,17 @@ If you don't specify "you really need Python here" when creating a new condo env
 In short, do
 
 ```bash
-$ conda create --name newenv python=3.10
+conda create --name newenv python=3.10
 ```
 
 or simpler:
 
 ```bash
-$ conda create --name newenv python
+conda create --name newenv python
 ```
 
 but never:
 
 ```bash
-$ conda create --name newenv
+conda create --name newenv
 ```
