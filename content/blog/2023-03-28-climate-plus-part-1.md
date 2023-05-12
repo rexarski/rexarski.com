@@ -2,7 +2,7 @@
 title = "climate-plus part 1: scrape TCFD data"
 date = "2023-03-28"
 description = ""
-tags = ["nlp", "web-scraping", "python"]
+tags = ["nlp", "web-scraping", "python", "climate"]
 +++
 
 <p align="center">
