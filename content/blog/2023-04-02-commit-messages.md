@@ -5,8 +5,6 @@ description = ""
 tags = ["git"]
 +++
 
-![xkcd: git commit]()
-
 <p align="center">
     <img src="https://imgs.xkcd.com/comics/git_commit.png" alt="git commit" style="width: 80%;" />
 </p>
