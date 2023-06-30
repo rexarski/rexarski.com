@@ -31,9 +31,11 @@ My first name is pronounced as "Ray".
   - [Andor Season 1](https://movie.douban.com/subject/30376895/)
   - [The Last of Us Season 1](https://movie.douban.com/subject/25848328/)
   - Clarkson's Farm Season [1](https://movie.douban.com/subject/34839005/) and [2](https://movie.douban.com/subject/35517450/)
+  - [Cowboy Bebop](https://en.wikipedia.org/wiki/Cowboy_Bebop)
 - 📚 Books
   - [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) by *James Clear*
   - [Pachinko](https://www.goodreads.com/book/show/52257890) by *Min Jin Lee*
+  - [Thursday Murder Club Series](https://www.goodreads.com/series/299267-thursday-murder-club) by *Richard Osman*
 - 🎷 Music
   - *Low Roar*'s these three: [Low Roar](https://open.spotify.com/album/3lETJkavciTauiSyOV1gZC?si=5xmSukOKTa2IMqIKNH15gg) (2011), [0](https://open.spotify.com/album/4G3ZBFg8MpTSDxDQ3m2BCb?si=M9Bz-jWqQtCEf3crhDiJBw) (2014) and [Once in A Long, Long While...](https://open.spotify.com/album/5dhet1luldVxu21FUspJXV?si=r_KD38s-RfSOnTzNuZ3pAQ) (2017)
   - [Time Out](https://open.spotify.com/album/0nTTEAhCZsbbeplyDMIFuA?si=aXWdu10NRRmdseoGPjOoUQ) (1959) by *The Dave Brubeck Quartet*
@@ -42,3 +44,27 @@ My first name is pronounced as "Ray".
   - [The Moss](https://open.spotify.com/album/4vS1qz11W9HQ61YAKAwggh?si=monkYlWNRK2KnYvqsEpUGg) (2014), [Pelicans We](https://open.spotify.com/album/5wWwQ36jDU3QGxG4TH2NHB?si=xtHfDrtpQqGoCHaK5hbviA) (2015) and [Wild Wet World](https://open.spotify.com/album/4ecqXeEbEMrPYHVRA9yP5s?si=V2-ZAsjrSw2y_cUsPdEIEQ) (2023) by *Cosmo Sheldrake*
   - [Did You Know That There’s A Tunnel Under Ocean Blvd](https://open.spotify.com/album/5HOHne1wzItQlIYmLXLYfZ?si=pYDwNNA4QNi0SCUfogjr-A) (2023) by *Lana Del Rey*
   - [Thank you, Mr Sakamoto](https://www.youtube.com/watch?v=z9tECKZ60zk)
+
+**Hardware**
+
+- Mac Studio (M1 Pro)
+  - Spigen LD202 Stand Mount
+  - BenQ ScreenBar
+  - LG 32UN880-B
+  - Dell S2722QC
+- MacBook Air (M2)
+- Anker 735 Charger (65W)
+- Bose QC45 "Bosenova"
+- Bose QC25
+- Kindle Oasis (2019)
+- BOOX Note Air2 Plus
+  - UGREEN Tablet Stand Holder
+- Keychron K8 (no RGB, red switch)
+- Logitech MX Master 3
+- Steam Deck (mod w 1TB SSD)
+- Nintendo Switch "OG"
+  - tomtoc slim carrying case
+  - Pro Controller
+  - 8Bitdo Pro 2
+- Osprey Hikelite 26
+- AER Travel Pack 3 Small

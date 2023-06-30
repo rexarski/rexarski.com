@@ -5,7 +5,9 @@ menu = "main"
 
 ## Projects
 
-### Now
+<!-- ### Now -->
+
+### 2023
 
 - [chitchat](https://github.com/rexarski/chitchat)
 - [climate-plus](https://github.com/rexarski/climate-plus)
