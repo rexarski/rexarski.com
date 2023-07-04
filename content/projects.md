@@ -12,7 +12,7 @@ menu = "main"
 - [chitchat](https://github.com/rexarski/chitchat)
 - [climate-plus](https://github.com/rexarski/climate-plus)
 
-### 2022
+### Previously
 
 - [A Shiny app of high-water marks](https://github.com/rexarski/high-water-mark-shiny) after Hurricane Florence.
 - [No pie telegram channel](https://t.me/itsnopie), a channel about inspirational data vis. It's more or less like a moodboard.
@@ -25,9 +25,6 @@ menu = "main"
   - Life expectancy in the US, with ggplot2 only. ![life-expectancy](/images/projects/life-expectancy.png)
   - [Loans in default are not rare](/images/projects/loan-default.png).
   - [EDA on Tsumoto dataset](/images/projects/tsumoto.jpg).
-
-### Previously
-
 - [A Constrained Long-form Question Answering (LFQA) Model on eli5_category](https://celeritasml.netlify.app/posts/2021-12-01-eli5c/).
   - [elic5_category](https://huggingface.co/datasets/eli5_category)
 - [box2box](https://github.com/rexarski/box2box), a repository of sports analytics experiments.

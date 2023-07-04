@@ -1,18 +1,16 @@
 **Ruì Qiū** <img class="avatar" align="right" alt="rexarski's Github avatar" src="https://avatars.githubusercontent.com/u/4172477?s=400&u=9d499524c04758e8b76c69a80fbcbb8aed6c6c09&v=4" />
 
-A data juggler, visualization enthusiast.
+<!-- A data juggler, visualization enthusiast. -->
 
-DMV based. I lived in Toronto and Canberra previously.
+<!-- DMV based. I lived in Toronto and Canberra previously. -->
 
-My first name is pronounced as "Ray".
+<!-- My first name is pronounced as "Ray". -->
 
 <strong style="font-family:Eczar;color:#ff6b35">rexarski</strong> is my go-to username.
 
-[github](https://github.com/rexarski) / [linkedin](https://www.linkedin.com/in/rqiu/)
+[github](https://github.com/rexarski) / [mastodon](https://mastodon.social/@rexarski) / [neodb](https://neodb.social/users/pyro@m.cmx.im/)
 
-[resume](https://read.cv/rq) / [a more traditional resume](https://github.com/rexarski/resume)
-
-[mastodon](https://mastodon.social/@rexarski) / [telegram](https://t.me/itsnopie) / [douban](https://www.douban.com/people/rexarski/) / [goodreads](https://www.goodreads.com/rexarski) / [twitter](https://twitter.com/rexarski)
+<!-- [linkedin](https://www.linkedin.com/in/rqiu/) / [resume](https://read.cv/rq) / [a more traditional resume](https://github.com/rexarski/resume) / [telegram](https://t.me/itsnopie) / [douban](https://www.douban.com/people/rexarski/) / [goodreads](https://www.goodreads.com/rexarski) / [twitter](https://twitter.com/rexarski) -->
 
 ***
 
@@ -22,7 +20,7 @@ My first name is pronounced as "Ray".
 - Casual jogger.
 - Learning JavaScript and D3 in 2023.
 - Playing [Ring Fit Adventure](https://nintendoswitchsports.nintendo.com/en/) and [Nintendo Switch Sports](https://nintendoswitchsports.nintendo.com/en/).
-- Developing young talents in [Football Manager](https://www.footballmanager.com/) as [Wrexham AFC](https://www.wrexhamafc.co.uk/club/whos-who/) manager.
+- Scouting young talents in [Football Manager](https://www.footballmanager.com/) as [Wrexham AFC](https://www.wrexhamafc.co.uk/club/whos-who/) manager.
 - Maintaining a [🧰 toolbox repo](https://github.com/rexarski/toolbox/) for my cyber life.
 
 **Highlights of the year**
@@ -59,6 +57,7 @@ My first name is pronounced as "Ray".
 - Kindle Oasis (2019)
 - BOOX Note Air2 Plus
   - UGREEN Tablet Stand Holder
+- Iris Split Keyboard
 - Keychron K8 (no RGB, red switch)
 - Logitech MX Master 3
 - Steam Deck (mod w 1TB SSD)
