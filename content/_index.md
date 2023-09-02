@@ -10,8 +10,6 @@
 
 [github](https://github.com/rexarski) / [mastodon](https://mastodon.social/@rexarski) / [neodb](https://neodb.social/users/pyro@m.cmx.im/)
 
-<!-- [linkedin](https://www.linkedin.com/in/rqiu/) / [resume](https://read.cv/rq) / [a more traditional resume](https://github.com/rexarski/resume) / [telegram](https://t.me/itsnopie) / [douban](https://www.douban.com/people/rexarski/) / [goodreads](https://www.goodreads.com/rexarski) / [twitter](https://twitter.com/rexarski) -->
-
 ***
 
 **Now**
@@ -26,10 +24,11 @@
 **Highlights of the year**
 
 - 📺 TV
-  - [Andor Season 1](https://movie.douban.com/subject/30376895/)
-  - [The Last of Us Season 1](https://movie.douban.com/subject/25848328/)
-  - Clarkson's Farm Season [1](https://movie.douban.com/subject/34839005/) and [2](https://movie.douban.com/subject/35517450/)
-  - [Cowboy Bebop](https://en.wikipedia.org/wiki/Cowboy_Bebop)
+  - [Star Wars: Andor](https://www.themoviedb.org/tv/83867-star-wars-andor) Season 1
+  - [The Last of Us](https://www.themoviedb.org/tv/100088-the-last-of-us) Season 1
+  - [Clarkson's Farm](https://www.themoviedb.org/tv/117648-clarkson-s-farm) Season 1 and 2
+  - [Cowboy Bebop (1998)](https://www.themoviedb.org/tv/30991-cowboy-bebop)
+  - [Reply 1988](https://www.themoviedb.org/tv/64010-1988)
 - 📚 Books
   - [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) by *James Clear*
   - [Pachinko](https://www.goodreads.com/book/show/52257890) by *Min Jin Lee*
@@ -42,7 +41,7 @@
   - [The Moss](https://open.spotify.com/album/4vS1qz11W9HQ61YAKAwggh?si=monkYlWNRK2KnYvqsEpUGg) (2014), [Pelicans We](https://open.spotify.com/album/5wWwQ36jDU3QGxG4TH2NHB?si=xtHfDrtpQqGoCHaK5hbviA) (2015) and [Wild Wet World](https://open.spotify.com/album/4ecqXeEbEMrPYHVRA9yP5s?si=V2-ZAsjrSw2y_cUsPdEIEQ) (2023) by *Cosmo Sheldrake*
   - [Did You Know That There’s A Tunnel Under Ocean Blvd](https://open.spotify.com/album/5HOHne1wzItQlIYmLXLYfZ?si=pYDwNNA4QNi0SCUfogjr-A) (2023) by *Lana Del Rey*
   - [Merry Christmas Mr. Lawrence / Ryuichi Sakamoto - From Ryuichi Sakamoto: Playing the Piano 2022](https://www.youtube.com/watch?v=z9tECKZ60zk)
-- [The First Slam Dunk](https://www.imdb.com/title/tt15242330/)
+- [The First Slam Dunk](https://www.themoviedb.org/movie/783675-the-first-slam-dunk)
 
 **Hardware**
 
