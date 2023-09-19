@@ -1,11 +1,5 @@
 **Ruì Qiū** <img class="avatar" align="right" alt="rexarski's Github avatar" src="https://avatars.githubusercontent.com/u/4172477?s=400&u=9d499524c04758e8b76c69a80fbcbb8aed6c6c09&v=4" />
 
-<!-- A data juggler, visualization enthusiast. -->
-
-<!-- DMV based. I lived in Toronto and Canberra previously. -->
-
-<!-- My first name is pronounced as "Ray". -->
-
 <strong style="font-family:Eczar;color:#ff6b35">rexarski</strong> is my go-to username.
 
 [github](https://github.com/rexarski) / [mastodon](https://mastodon.social/@rexarski) / [neodb](https://neodb.social/users/pyro@m.cmx.im/)
@@ -17,7 +11,7 @@
 - [Obsidian](https://obsidian.md/).
 - Casual jogger.
 - Learning JavaScript and D3 in 2023.
-- Playing [Ring Fit Adventure](https://nintendoswitchsports.nintendo.com/en/) and [Nintendo Switch Sports](https://nintendoswitchsports.nintendo.com/en/).
+- Playing [Nintendo Switch Sports](https://nintendoswitchsports.nintendo.com/en/).
 - Scouting young talents in [Football Manager](https://www.footballmanager.com/) as [Wrexham AFC](https://www.wrexhamafc.co.uk/club/whos-who/) manager.
 - Maintaining a [🧰 toolbox repo](https://github.com/rexarski/toolbox/) for my cyber life.
 
@@ -41,11 +35,14 @@
   - [The Moss](https://open.spotify.com/album/4vS1qz11W9HQ61YAKAwggh?si=monkYlWNRK2KnYvqsEpUGg) (2014), [Pelicans We](https://open.spotify.com/album/5wWwQ36jDU3QGxG4TH2NHB?si=xtHfDrtpQqGoCHaK5hbviA) (2015) and [Wild Wet World](https://open.spotify.com/album/4ecqXeEbEMrPYHVRA9yP5s?si=V2-ZAsjrSw2y_cUsPdEIEQ) (2023) by *Cosmo Sheldrake*
   - [Did You Know That There’s A Tunnel Under Ocean Blvd](https://open.spotify.com/album/5HOHne1wzItQlIYmLXLYfZ?si=pYDwNNA4QNi0SCUfogjr-A) (2023) by *Lana Del Rey*
   - [Merry Christmas Mr. Lawrence / Ryuichi Sakamoto - From Ryuichi Sakamoto: Playing the Piano 2022](https://www.youtube.com/watch?v=z9tECKZ60zk)
-- [The First Slam Dunk](https://www.themoviedb.org/movie/783675-the-first-slam-dunk)
+- 🍿 Movies
+  - [The First Slam Dunk](https://www.themoviedb.org/movie/783675-the-first-slam-dunk)
+- 🎮 Games
+  - [Ring Fit Adventure](https://nintendoswitchsports.nintendo.com/en/)
 
 **Hardware**
 
-- Mac Studio (M1 Pro)
+- Mac Studio (M1 Max)
   - Spigen LD202 Stand Mount
   - BenQ ScreenBar
   - LG 32UN880-B
