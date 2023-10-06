@@ -35,6 +35,7 @@
   - [The Moss](https://open.spotify.com/album/4vS1qz11W9HQ61YAKAwggh?si=monkYlWNRK2KnYvqsEpUGg) (2014), [Pelicans We](https://open.spotify.com/album/5wWwQ36jDU3QGxG4TH2NHB?si=xtHfDrtpQqGoCHaK5hbviA) (2015) and [Wild Wet World](https://open.spotify.com/album/4ecqXeEbEMrPYHVRA9yP5s?si=V2-ZAsjrSw2y_cUsPdEIEQ) (2023) by *Cosmo Sheldrake*
   - [Did You Know That There’s A Tunnel Under Ocean Blvd](https://open.spotify.com/album/5HOHne1wzItQlIYmLXLYfZ?si=pYDwNNA4QNi0SCUfogjr-A) (2023) by *Lana Del Rey*
   - [Merry Christmas Mr. Lawrence / Ryuichi Sakamoto - From Ryuichi Sakamoto: Playing the Piano 2022](https://www.youtube.com/watch?v=z9tECKZ60zk)
+  - [Bewitched](https://open.spotify.com/album/1rpCHilZQkw84A3Y9czvMO?si=Kk5KsDhQRcmp53RrmDQhpA) (2023) by *Laufey*.
 - 🍿 Movies
   - [The First Slam Dunk](https://www.themoviedb.org/movie/783675-the-first-slam-dunk)
 - 🎮 Games
