@@ -35,7 +35,9 @@
   - [The Moss](https://open.spotify.com/album/4vS1qz11W9HQ61YAKAwggh?si=monkYlWNRK2KnYvqsEpUGg) (2014), [Pelicans We](https://open.spotify.com/album/5wWwQ36jDU3QGxG4TH2NHB?si=xtHfDrtpQqGoCHaK5hbviA) (2015) and [Wild Wet World](https://open.spotify.com/album/4ecqXeEbEMrPYHVRA9yP5s?si=V2-ZAsjrSw2y_cUsPdEIEQ) (2023) by *Cosmo Sheldrake*
   - [Did You Know That There’s A Tunnel Under Ocean Blvd](https://open.spotify.com/album/5HOHne1wzItQlIYmLXLYfZ?si=pYDwNNA4QNi0SCUfogjr-A) (2023) by *Lana Del Rey*
   - [Merry Christmas Mr. Lawrence / Ryuichi Sakamoto - From Ryuichi Sakamoto: Playing the Piano 2022](https://www.youtube.com/watch?v=z9tECKZ60zk)
-  - [Bewitched](https://open.spotify.com/album/1rpCHilZQkw84A3Y9czvMO?si=Kk5KsDhQRcmp53RrmDQhpA) (2023) by *Laufey*.
+  - [Bewitched](https://open.spotify.com/album/1rpCHilZQkw84A3Y9czvMO?si=Kk5KsDhQRcmp53RrmDQhpA) (2023) by *Laufey*
+  - [Pocket Park (2023 Mix)](https://open.spotify.com/album/6ZogsaUTY6mwjzg0503GvU?si=fODAU4-xSoGkGX3deK7l4g) by *Miki Matsubara*
+  - [TOKYO 1980s Victor Edition (The Compilation) Boogie, Funk & Modern Soul from Japan](https://open.spotify.com/album/0v1MoZARbqi7wOeECMI8Up?si=csStavPHS_iv_zvEC082hw) (2018) by *DJ NOTOYA*
 - 🍿 Movies
   - [The First Slam Dunk](https://www.themoviedb.org/movie/783675-the-first-slam-dunk)
 - 🎮 Games
