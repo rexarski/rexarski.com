@@ -1,6 +1,4 @@
-**Ruì Qiū** <img class="avatar" align="right" alt="rexarski's Github avatar" src="https://avatars.githubusercontent.com/u/4172477?s=400&u=9d499524c04758e8b76c69a80fbcbb8aed6c6c09&v=4" />
-
-<strong style="font-family:Eczar;color:#ff6b35">rexarski</strong> is my go-to username.
+**Qiū Ruì** <strong style="font-family:Wavefont;">rexarski is my go-to username.</strong> <img class="avatar" align="right" alt="rexarski's Github avatar" src="https://avatars.githubusercontent.com/u/4172477?s=400&u=9d499524c04758e8b76c69a80fbcbb8aed6c6c09&v=4" />
 
 [github](https://github.com/rexarski) / [mastodon](https://mastodon.social/@rexarski) / [neodb](https://neodb.social/users/pyro@m.cmx.im/)
 
@@ -8,10 +6,8 @@
 
 **Now**
 
+- Chilling 🧊
 - [Obsidian](https://obsidian.md/).
-- Casual jogger.
-- Learning JavaScript and D3 in 2023.
-- Playing [Nintendo Switch Sports](https://nintendoswitchsports.nintendo.com/en/).
 - Scouting young talents in [Football Manager](https://www.footballmanager.com/) as [Wrexham AFC](https://www.wrexhamafc.co.uk/club/whos-who/) manager.
 - Maintaining a [🧰 toolbox repo](https://github.com/rexarski/toolbox/) for my cyber life.
 
