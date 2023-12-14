@@ -1,5 +1,5 @@
 +++
-title = "Sentiment analysis is only “somewhat useful”"
+title = "Sentiment analysis is only somewhat useful"
 date = "2022-09-05"
 description = ""
 tags = ["nlp"]

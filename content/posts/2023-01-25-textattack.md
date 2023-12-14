@@ -2,7 +2,7 @@
 title = "Adversarial attacks with TextAttack"
 date = "2023-01-25"
 description = ""
-tags = ["nlp", "python"]
+tags = ["nlp"]
 +++
 
 > A companion slides can be found [here](https://gamma.app/embed/ixlmda005wxpxfg).
@@ -15,7 +15,7 @@ In this presentation, we will cover the basics of adversarial examples in NLP, d
 
 I had a chat with [ChatGPT](https://chat.openai.com/) yesterday and asked it to role-play as a sentiment analysis model.
 
-![](/images/blog/adversarial-01.jpg)
+![](/images/posts/adversarial-01.jpg)
 
 Seems that I fooled it once, but not twice. The "typos" I tried to feed ChatGPT, are called **adversarial examples**.
 
@@ -48,7 +48,7 @@ Attacks can be grouped into two categories, based on two 'similarities' (visual 
 
 Another extreme example:
 
-![](/images/blog/adversarial-02.jpg)
+![](/images/posts/adversarial-02.jpg)
 
 ## Attack workflow
 

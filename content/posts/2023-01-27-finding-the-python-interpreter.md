@@ -1,5 +1,5 @@
 +++
-title = "Python Environment Manager lost track of Python interpreter with conda"
+title = "How to find the Python interpreter"
 date = "2023-01-27T21:36:27-05:00"
 tags = ["conda"]
 +++

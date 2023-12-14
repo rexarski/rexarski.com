@@ -2,7 +2,7 @@
 title = "Explainability, interpretability, and a half-successful trial"
 date = "2022-09-14"
 description = ""
-tags = ["explainability"]
+tags = ["ml"]
 +++
 
 A [refresher](https://docs.aws.amazon.com/whitepapers/latest/model-explainability-aws-ai-ml/interpretability-versus-explainability.html) on definitions of these two terms:

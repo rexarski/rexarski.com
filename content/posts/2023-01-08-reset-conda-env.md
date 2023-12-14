@@ -1,8 +1,8 @@
 +++
-title = "When you want to 'restart' a conda environment"
+title = "How to reset a conda environment"
 date = "2023-01-08"
 description = ""
-tags = ["conda"]
+tags = ["conda", "snippet"]
 +++
 
 Sometimes we just feel like the environment is beyond repair, and we want to start over.

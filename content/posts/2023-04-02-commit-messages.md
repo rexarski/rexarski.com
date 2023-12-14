@@ -1,5 +1,5 @@
 +++
-title = "Enforcing consistency in commit messages"
+title = "How to git commit"
 date = "2023-04-02"
 description = ""
 tags = ["git"]

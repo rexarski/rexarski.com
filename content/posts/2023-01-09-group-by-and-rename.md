@@ -1,8 +1,8 @@
 +++
-title = "group_by and rename at the same time"
+title = "How to do `group_by` + `rename` at the same time"
 date = "2023-01-09"
 description = ""
-tags = ["r", "tidyverse"]
+tags = ["r", "snippet"]
 +++
 
 TIL (technically, it's not *today*. But I found this in my notes last semester, and I think it's worth sharing):

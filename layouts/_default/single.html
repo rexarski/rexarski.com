@@ -1,6 +1,4 @@
-{{ define "main" }} {{ if eq .Type "blog" "zh" }} {{ if not .Params.menu }}
-
-<!-- {{ if eq .Type "zh" }} {{- partial "style-vertical.html" . -}} {{ end }} -->
+{{ define "main" }} {{ if eq .Type "posts" }} {{ if not .Params.menu }}
 
 <h1>{{ .Title }}</h1>
 <p>
