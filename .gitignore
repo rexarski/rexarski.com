@@ -37,6 +37,7 @@ Temporary Items
 
 ### hugo generated public folder ###
 public
+isableFastRender
 
 # End of https://www.toptal.com/developers/gitignore/api/macos
 n
