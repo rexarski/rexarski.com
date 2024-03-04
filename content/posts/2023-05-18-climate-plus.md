@@ -67,7 +67,7 @@ In this way, we are able to augment our dataset to a usable size of 500+.
 
 *Updated on 2023-05-18.*
 
-In this section, we will briefly discuss the process of fine-tuning a base model, specifically `distilroberta`, using the augmented data collected from our [previous efforts](https://rqiu.dev/posts/climate-plus-part-2-data-augmentation/). However, it's important to note that ClimateBERT takes a different approach by initially empowering the base model with a climate-related corpus before fine-tuning it with task-specific data.
+In this section, we will briefly discuss the process of fine-tuning a base model, specifically `distilroberta`, using the augmented data collected from our [previous efforts](https://rexarski.com/posts/climate-plus-part-2-data-augmentation/). However, it's important to note that ClimateBERT takes a different approach by initially empowering the base model with a climate-related corpus before fine-tuning it with task-specific data.
 
 In contrast to ClimateBERT's focus on classifying four classes, we aimed to tackle the more ambitious goal of classifying all 11 subclasses in the [TCFD report](https://www.fsb-tcfd.org/recommendations/).
 
