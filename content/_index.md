@@ -1,9 +1,30 @@
 #
 
-greetings, traveler! 👋 welcome to this testing ground maintained by Qiū Ruì. <img class="avatar" align="right" alt="rexarski's Github avatar" src="https://avatars.githubusercontent.com/u/4172477?s=400&u=9d499524c04758e8b76c69a80fbcbb8aed6c6c09&v=4" />
+greetings, traveler! 👋 <img class="avatar" align="right" alt="rexarski's Github avatar" src="https://avatars.githubusercontent.com/u/4172477?s=400&u=9d499524c04758e8b76c69a80fbcbb8aed6c6c09&v=4" />
+
+welcome to this testing ground maintained by Qiū Ruì.
 
 <strong style="font-family:Wavefont;font-size:20pt">
 It has been said that "all models are wrong but some models are useful." In other words, any model is at best a useful fiction—there never was, or ever will be, an exactly normal distribution or an exact linear relationship. Nevertheless, enormous progress has been made by entertaining such fictions and using them as approximations.</strong>
+
+<div id="progress"></div>
+<script>
+let now = new Date();
+let startOfYear = new Date(now.getFullYear(), 0, 1);
+let endOfYear = new Date(now.getFullYear(), 11, 31);
+let totalDays = Math.round((endOfYear - startOfYear) / (1000 * 60 * 60 * 24));
+let passedDays = Math.round((now - startOfYear) / (1000 * 60 * 60 * 24));
+let percentage = Math.round((passedDays / totalDays) * 100);
+let progressBar = "";
+for (var i = 0; i < 50; i++) {
+    if (i < percentage / 2) {
+        progressBar += "■";
+    } else {
+        progressBar += "□";
+    }
+}
+document.getElementById('progress').innerText = "progress: " + progressBar + " " + percentage + "%";
+</script>
 
 ## 我是谁？
 
