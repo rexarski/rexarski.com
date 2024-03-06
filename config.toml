@@ -19,6 +19,7 @@ disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
   posts = "/posts/:slug/"
+  ideas = "/ideas/:slug/"
   zh = "/zh/:slug/"
   tags = "/:slug/"
 

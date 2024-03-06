@@ -1,4 +1,4 @@
-{{ define "main" }} {{ if eq .Type "blog" "zh" }} {{ if not .Params.menu }}
+{{ define "main" }} {{ if eq .Type "posts" "zh" }} {{ if not .Params.menu }}
 <h1>{{ .Title }}</h1>
 <p>
     <i>
@@ -15,4 +15,5 @@
     {{ end }}
 </p>
 
-{{ partial "comments.html" . }} {{ end }}
+{{ if eq .Type "posts" "zh" }} {{ partial "comments.html" . }} {{ end }} {{ end
+}}
