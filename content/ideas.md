@@ -5,10 +5,7 @@ menu = "main"
 
 ## ideas
 
-<strong style="font-family:Wavefont;font-size:32pt">
-It has been said that "all models are wrong but some models are useful." In other words, any model is at best a useful fiction—there never was, or ever will be, an exactly normal distribution or an exact linear relationship. Nevertheless, enormous progress has been made by entertaining such fictions and using them as approximations.</strong>
-
-<div id="progress"></div>
+<div id="progress">
 <script>
 let now = new Date();
 let startOfYear = new Date(now.getFullYear(), 0, 1);
@@ -24,7 +21,11 @@ for (var i = 0; i < 50; i++) {
         progressBar += "□";
     }
 }
-document.getElementById('progress').innerText = "progress: " + progressBar + " " + percentage + "%";
+document.getElementById('progress').innerText = "year progress: " + progressBar + " " + percentage + "%";
 </script>
+</div>
+
+<strong style="font-family:Wavefont;font-size:24pt">
+It has been said that "all models are wrong but some models are useful." In other words, any model is at best a useful fiction—there never was, or ever will be, an exactly normal distribution or an exact linear relationship. Nevertheless, enormous progress has been made by entertaining such fictions and using them as approximations.</strong>
 
 ***

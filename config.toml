@@ -6,9 +6,9 @@ baseURL = "https://rexarski.com"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "rexarski.log()"
-author = "rui qiu"
-copyright = "Copyright © 2024 rui qiu"
+title = "howaboutqiu"
+author = "Qiū Ruì"
+copyright = "© Qiū Ruì 2022-2024"
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
