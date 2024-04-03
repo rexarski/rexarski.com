@@ -3,7 +3,7 @@ title = "ideas"
 menu = "main"
 +++
 
-## ideas
+## /ideas
 
 <div id="progress">
 <script>

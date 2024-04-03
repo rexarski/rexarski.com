@@ -1,4 +1,5 @@
 {{ define "main" }} {{ if eq .Type "posts" "zh" }} {{ if not .Params.menu }}
+
 <h1>{{ .Title }}</h1>
 <p>
     <i>
@@ -8,6 +9,10 @@
     </i>
 </p>
 {{ end }}{{ end }}
+
+<!-- Vertical layout for certain page types -->
+{{ if eq .Type "vert" }} {{ partial "style-vertical.html" . }} {{ end }}
+
 <content> {{ .Content }} </content>
 <p>
     {{ range (.GetTerms "tags") }}
