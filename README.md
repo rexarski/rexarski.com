@@ -6,7 +6,6 @@ Made with
 
 - [Hugo](https://gohugo.io/)
 - [`hugo-bearblog` ʕ•ᴥ•ʔ](https://github.com/janraasch/hugo-bearblog)
-- [`magick.css`](https://github.com/wintermute-cell/magick.css)
 
 ## Note
 

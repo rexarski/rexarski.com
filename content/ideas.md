@@ -3,7 +3,7 @@ title = "ideas"
 menu = "main"
 +++
 
-## /ideas
+## `/ideas`
 
 <div id="progress">
 <script>
@@ -29,3 +29,5 @@ document.getElementById('progress').innerText = "year progress: " + progressBar 
 It has been said that "all models are wrong but some models are useful." In other words, any model is at best a useful fiction—there never was, or ever will be, an exactly normal distribution or an exact linear relationship. Nevertheless, enormous progress has been made by entertaining such fictions and using them as approximations.</strong>
 
 ***
+
+<!-- ### `ideas/impossible_list` -->

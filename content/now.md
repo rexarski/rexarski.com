@@ -3,7 +3,7 @@ title = "now"
 menu = "main"
 +++
 
-## /now
+## `/now`
 
 - clearing my readwise reading list;
 - reading [Why we sleep](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316) and [Scaling Machine Learning with Spark](https://a.co/d/dxpoenq);
