@@ -160,6 +160,11 @@
         border-radius: 50%;
     }
 
+    // hide all but the first observablehq cell
+    .observablehq:not(:first-of-type) {
+        display: none;
+    }
+
     @media (prefers-color-scheme: dark) {
         body {
             background-color: #333;
