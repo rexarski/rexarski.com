@@ -1,6 +1,5 @@
 +++
 title = "maui"
-draft = true
 +++
 
 ## `/maui`
