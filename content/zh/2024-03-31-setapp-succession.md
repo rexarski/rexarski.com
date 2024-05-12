@@ -1,5 +1,6 @@
 +++
 title = "Setapp 继承计划"
+slug = "setapp-succession"
 date = "2024-03-31"
 description = ""
 tags = ["没事爱折腾"]

@@ -18,10 +18,12 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
-  posts = "/posts/:slug/"
-  ideas = "/ideas/:slug/"
-  zh = "/zh/:slug/"
-  tags = "/:slug/"
+  [permalinks.page]
+    posts = "/posts/:year/:month/:slug/"
+    zh = "/zh/:year/:month/:slug/"
+    ideas = "/ideas/:slug/"
+  [permalinks.term]
+    tags = "/:slug/"
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.

@@ -1,5 +1,6 @@
 +++
 title = "不合适"
+slug = "vertical-layout"
 date = "2023-03-26"
 description = "一次在 Hugo 中尝试使用竖排版的失败经历。"
 tags = ["没事爱折腾", "Hugo"]

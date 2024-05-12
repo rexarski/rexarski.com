@@ -1,6 +1,6 @@
 greetings, traveler! 👋 <img class="avatar" align="right" alt="avatar" src="images/rexarski.jpg" />
 
-welcome to this testing ground maintained by Qiū Ruì.
+welcome to this testing ground maintained by Qiū Ruì, aka `rexarski`.
 
 in this space, i'll try to be bilingual, sharing my thoughts with no filters or formality. everything could be temporary.
 

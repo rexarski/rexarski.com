@@ -1,5 +1,6 @@
 +++
 title = "Kindle Oasis 的短期使用感受"
+slug = "kindle-oasis"
 date = "2023-06-29"
 description = ""
 tags = ["硬件"]

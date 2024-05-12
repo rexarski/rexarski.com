@@ -1,5 +1,6 @@
 +++
 title = "数字难民 2023"
+slug = "switch-apple-store"
 date = "2023-10-09"
 description = "Apple ID 换区比我想象的要简单很多。"
 tags = ["没事爱折腾"]
