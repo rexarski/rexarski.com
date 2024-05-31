@@ -29,7 +29,7 @@
     <small>
       <div>
         {{ range .Site.Taxonomies.tags }}
-        <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
+        <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower}}</a>&nbsp;
         {{ end }}
       </div>
     </small>

@@ -1,4 +1,46 @@
-{{ if ne .Site.Params.hideMadeWithLine true }} © Qiū Ruì 2022-2024 ⋅
+{{ $allPosts := where .Site.RegularPages "Type" "in" (slice "zh" "posts") }} {{
+$nonDraftPosts := where $allPosts "Draft" false }} {{ $currentYear := now.Format
+"2006" }} {{ $postsThisYear := where $nonDraftPosts ".Date.Year" (int
+$currentYear) }}
+<strong style="font-family: Wavefont; font-size: 24pt"
+    >total posts in {{ $currentYear }}: {{ len $postsThisYear }}</strong
+>
+
+<div id="progress">
+    <script>
+        let now = new Date();
+        let currentYear = now.getFullYear();
+        let startOfYear = new Date(now.getFullYear(), 0, 1);
+        let endOfYear = new Date(now.getFullYear(), 11, 31);
+        let totalDays = Math.round(
+            (endOfYear - startOfYear) / (1000 * 60 * 60 * 24)
+        );
+        let passedDays = Math.round(
+            (now - startOfYear) / (1000 * 60 * 60 * 24)
+        );
+        let percentage = Math.round((passedDays / totalDays) * 100);
+        let progressBar = '';
+        let batteryEmoji = 100 - percentage >= 50 ? '🔋' : '🪫';
+        for (var i = 0; i < 20; i++) {
+            if (i < percentage / 5) {
+                progressBar += '■';
+            } else {
+                progressBar += '□';
+            }
+        }
+        document.getElementById('progress').innerText =
+            currentYear +
+            ': ' +
+            progressBar +
+            ' ' +
+            percentage +
+            '% ' +
+            batteryEmoji;
+    </script>
+</div>
+
+{{ if ne .Site.Params.hideMadeWithLine true }} © Qiū Ruì 2022-{{ now.Format
+"2006"}} ⋅
 <a href="/index.xml">rss</a> ⋅
 <a href="https://github.com/rexarski/rexarski.com">source</a>
 {{ end }}

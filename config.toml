@@ -20,7 +20,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
   posts = "/posts/:year/:month/:slug/"
   zh = "/zh/:year/:month/:slug/"
-  ideas = "/ideas/:slug/"
+  links = "/links/:year/:month/:slug/"
   tags = "/:slug/"
 
 [params]

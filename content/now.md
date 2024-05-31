@@ -3,7 +3,7 @@ title = "now"
 menu = "main"
 +++
 
-## `/now`
+## <pre>/now</pre>
 
 🌎
 

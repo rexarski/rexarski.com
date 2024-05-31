@@ -2,7 +2,8 @@
 title = "maui"
 +++
 
-## `/maui🏝️`
+
+## <pre>/maui🏝️</pre>
 
 Updated on 2024-05-11
 

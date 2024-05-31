@@ -160,9 +160,68 @@
         border-radius: 50%;
     }
 
+    .minimalist-list {
+        margin: 5px 0;
+        // background: #f7f7f7;
+        border-radius: 8px;
+    }
+
+    .minimalist-item {
+        margin-bottom: 8px;
+        line-height: 1.6;
+    }
+
+    .minimalist-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .post-date {
+        font-weight: bold;
+    }
+
+    .minimalist-item a {
+        color: #0077cc;
+        text-decoration: none;
+    }
+
+    .minimalist-item a:hover {
+        text-decoration: underline;
+    }
+
     // hide all but the first observablehq cell
     .observablehq:not(:first-of-type) {
         display: none;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid lightgray;
+    }
+
+    th,
+    td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    @media screen and (max-width: 600px) {
+        table {
+            width: 100%;
+            display: block;
+            overflow-x: auto; /* Table scroll on small screens */
+        }
+
+        th,
+        td {
+            padding: 10px; /* Larger tap targets on mobile */
+        }
     }
 
     @media (prefers-color-scheme: dark) {
