@@ -24,7 +24,7 @@
         {{- partial "style.html" . -}}
 
         <!-- Vertical layout for certain page types -->
-        {{ if eq .Type "vert" }} {{ partial "style-vertical.html" . }} {{ end }}
+        {{ if eq .Type "vert" }} {{ partial "style_vertical.html" . }} {{ end }}
 
         <!-- A partial to be overwritten by the user.
         Simply place a custom_head.html into

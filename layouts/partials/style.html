@@ -1,10 +1,15 @@
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Chivo&family=Fira+Mono&display=swap&family=Wavefont:wght@200');
+    @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Fira+Mono&display=swap&family=Wavefont:wght@200');
 
     // noto serif sc not used yet
 
+    // this prevents safari rendering too bold fonts
+    * {
+        font-synthesis: none !important;
+    }
+
     body {
-        font-family: 'Chivo', sans-serif;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
         margin: auto;
         padding: 20px;
         max-width: 960px; /* 720px; */
