@@ -5,26 +5,12 @@ title = "maui"
 
 ## <pre>/maui🏝️</pre>
 
-Updated on 2024-05-11
+Updated on 2024-07-28
 
-<img src="/images/Haleakala.gif" alt="8 seconds of sunset on Haleakalā" style="flex: 1; max-width: 50%; margin-right: 10px">
-
-<div id="observablehq-1082f973" style="flex: 1; max-width: 50%;"></div>
-    <!-- <p>Credit: <a href="https://observablehq.com/@rexarski/countdown">Countdown by Observable</a></p> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
-    <script type="module">
-    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-    import define from "https://api.observablehq.com/@rexarski/countdown.js?v=4";
-    new Runtime().module(define, Inspector.into("#observablehq-1082f973"));
-    </script>
-
-<div style="display: flex; justify-content: flex-end;">
-<blockquote style="display: inline;">
-    <p>Island breeze whispers,</p>
-    <p>Palm trees sway as hearts unite—</p>
-    <p>Maui love glows bright.</p>
-</blockquote>
+<div style="text-align: center;">
+  <img src="/images/Haleakala.gif" alt="8 seconds of sunset on Haleakalā" style="flex: 1; max-width: 50%; margin-right: 10px; display: inline-block;">
 </div>
+
 <!-- {{< youtube u7xXI3uF1Nc >}} -->
 
 Hey, thanks for being here! Hope you enjoy your stay on the island(s). I do wanna share some of tips and recommendations based our prior experience in Hawaii. Of course, I'll keep it updated before the wedding. Cheers! (Rui)
@@ -61,6 +47,18 @@ Hey, thanks for being here! Hope you enjoy your stay on the island(s). I do wann
 #### Maui
 
 - Road to Hana could be exhausting. Manage your expectation.
+- Snorkeling at Molokini Crater.
+- If you are visiting Haleakalā, make sure to check the weather forecast. It could be freezing up there.
+  - Sunrise is beautiful but it’s a long drive and you need to book a spot in advance.
+  - Sunset is also beautiful but could be crowded. (See gif above!)
+- If you are visiting Lanai Island and a cat person, Lanai Cat Sanctuary is a must-go.
+- Four Seasons Resort Maui at Wailea. That's where they shot the first season of the White Lotus. Dining option is great.
+- Maui Humane Society.
+- [Merriman's Kapalua](https://www.merrimanshawaii.com/kapalua/).
+- [Mama's Fish House](https://mamasfishhouse.com)
+- [Gather on Maui](https://gatheronmaui.com).
+- [Feast at Mōkapu](https://feastatmokapu.com).
+- Don't eat too much shaved ice.
 
 #### Big island
 
@@ -70,15 +68,22 @@ Not many food recommendations and probably you’ve already planned some point o
   - 🚗 If you decide to visit Waipio valley (there’s a beautiful black sand beach down there), park your car up the hill unless you are driving a 4x4 and confident to handle some extreme driving conditions.
   - 🌋 Best time to observe volcanoes/lava is sunset, and it’s a flexible time. You get an overview of the surrounding and you the lava is more observable when sun goes dow.
 
-<!-- ### Tips in general
-  - Drone
-  - Dont bring excessive amount of T-shirts
-  - Sunscreen -->
+### Tips in general
+
+- Drone. Trust me as someone who has flown drones in Hawaii, you will regret not bringing one. But at the same time, you will regret not paying attention to regulations. Rule of thumb: Use the following [four apps](https://www.faa.gov/uas/getting_started/b4ufly) to check if you can fly your drone at the location.
+- Don't bring excessive amount of T-shirts. There are plenty of souvenir shops (ABC etc.) that sell T-shirts at a reasonable price. Wear touristy T-shirts and blend in! Just like Agent 47.
+- Sunscreens! Sunscreens! Sunscreens!
 
 ### References
 
-- [Bill & Lisa's Food and Travel](https://youtube.com/@billandlisa)
-- [Amanda & Felix Eats](https://www.youtube.com/@AmandaFelixEats)
+- [YouTube - Bill & Lisa's Food and Travel](https://youtube.com/@billandlisa)
+- [YouTube - Amanda & Felix Eats](https://www.youtube.com/@AmandaFelixEats)
+- [r/MauiVisitors](https://www.reddit.com/r/MauiVisitors/)
+- [r/Hawaii](https://www.reddit.com/r/Hawaii/)
+- [r/VisitingHawaii](https://www.reddit.com/r/VisitingHawaii/)
+- [Lonely Planet Best of Hawaii 2nd edition](https://www.amazon.com/Lonely-Planet-Best-Hawaii-Country/dp/1787013863/)
+- [Lonely Planet Experience Hawaii](https://www.amazon.com/Experience-Hawaii-1-Lonely-Planet/dp/1838694838/)
+- [Shaka Guide](https://www.shakaguide.com). Great audio companion for road trips!
 
 ***
 
