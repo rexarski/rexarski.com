@@ -83,7 +83,14 @@ Not many food recommendations and probably you’ve already planned some point o
 - [r/VisitingHawaii](https://www.reddit.com/r/VisitingHawaii/)
 - [Lonely Planet Best of Hawaii 2nd edition](https://www.amazon.com/Lonely-Planet-Best-Hawaii-Country/dp/1787013863/)
 - [Lonely Planet Experience Hawaii](https://www.amazon.com/Experience-Hawaii-1-Lonely-Planet/dp/1838694838/)
-- [Shaka Guide](https://www.shakaguide.com). Great audio companion for road trips!
+- [Shaka Guide: Audio Tour Guide](https://www.shakaguide.com). Great audio companion for road trips!
+- [Charles Lindbergh](https://en.wikipedia.org/wiki/Charles_Lindbergh?useskin=vector)
+- [Duke Kahanamoku](https://en.wikipedia.org/wiki/Duke_Kahanamoku?useskin=vector)
+- [AllTrails: Trail Guides & Maps for Hiking, Camping, and Running | AllTrails](https://www.alltrails.com/)
+- [Vol.5 夏威夷的友情与背叛 - 游荡集 | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/episode/664f51dcc59d1e57573d299d)
+- [《PAGE SEVEN》-《夏威夷的卡拉卡瓦（一 探索群岛）》- Apple 播客](https://podcasts.apple.com/cn/podcast/%E5%A4%8F%E5%A8%81%E5%A4%B7%E7%9A%84%E5%8D%A1%E6%8B%89%E5%8D%A1%E7%93%A6-%E4%B8%80-%E6%8E%A2%E7%B4%A2%E7%BE%A4%E5%B2%9B/id532842401?i=1000334523836)
+- [《PAGE SEVEN》-《夏威夷的卡拉卡瓦（二 环球旅行）》- Apple 播客](https://podcasts.apple.com/cn/podcast/%E5%A4%8F%E5%A8%81%E5%A4%B7%E7%9A%84%E5%8D%A1%E6%8B%89%E5%8D%A1%E7%93%A6-%E4%BA%8C-%E7%8E%AF%E7%90%83%E6%97%85%E8%A1%8C/id532842401?i=1000334523837)
+- [《PAGE SEVEN》-《夏威夷的卡拉卡瓦（三 快乐君王）》- Apple 播客](https://podcasts.apple.com/cn/podcast/%E5%A4%8F%E5%A8%81%E5%A4%B7%E7%9A%84%E5%8D%A1%E6%8B%89%E5%8D%A1%E7%93%A6-%E4%B8%89-%E5%BF%AB%E4%B9%90%E5%90%9B%E7%8E%8B/id532842401?i=1000334523838)
 
 ***
 
