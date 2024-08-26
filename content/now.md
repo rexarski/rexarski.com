@@ -8,8 +8,8 @@ menu = "main"
 🌎
 
 - [Johnny Decimal](https://johnnydecimal.com/);
-- bbq;
-- binge reading;
-- pixel art❓
+- learn to grill with charcoal, aka play with fire;
+- binge read books i bought this year (and years before);
+- catch up with *Rowing with Josh* from Apple Fitness+;
 
 ***
