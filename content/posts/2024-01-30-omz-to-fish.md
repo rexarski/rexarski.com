@@ -5,6 +5,15 @@ description = ""
 tags = ["cli"]
 +++
 
+- <mark>Updated on 2024-09-06:</mark> Since `exa` is no longer maintained, we need to add the following in `~/.config/fish/config.fish` instead:
+
+```fish
+if type -q eza
+    alias ll "eza -l -g --icons"
+    alias lla "ll -a"
+end
+```
+
 - Decided to [say goodbye to oh-my-zsh](https://news.ycombinator.com/item?id=39100308) after a decade and pursue the pure joy of simplicity.[^1]
 - Uninstalled oh-my-zsh with `uninstall_oh_my_zsh`. (This is handy, I'll give it that.)
 - Installed [fish](https://fishshell.com/) from Homebrew `brew install fish`
@@ -13,7 +22,7 @@ tags = ["cli"]
 - Restarted the CLI and ran command: `chsh -s /opt/homebrew/bin/fish`.
 - Restarted the CLI and added brew binaries in fish path: `fish_add_path /opt/homebrew/bin`
 - Added a few aliases frequently used in `~/.config/fish/config.fish`.
-- Added a snippet to use `exa` easily. Credit to [Ruihao Li](https://ruihao-li.github.io/blog/fish-shell-customization/).
+- Added a snippet to use ~~`exa`~~ `eza` easily. Credit to [Ruihao Li](https://ruihao-li.github.io/blog/fish-shell-customization/).
 - Used `cmd+shift+p` in VSC to install `code` command in `PATH`.
 - Used `fish_config` to customize my shell prompt.
 
