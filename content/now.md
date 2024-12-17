@@ -7,29 +7,36 @@ menu = "main"
 
 🌎
 
-- learn to [bbq](https://www.kamadojoe.com/products/joe-jr-with-cast-iron-stand) + [🍕](https://ooni.com/products/ooni-karu-12g) with charcoal, aka play with fire
+- learn to bbq + 🍕 with charcoal
 - catch up with *Rowing with [Josh](https://www.instagram.com/joshcrosbyfitness/?hl=en)* from [Apple Fitness+](https://www.apple.com/apple-fitness-plus/)
-- [Reggie's Portra](https://www.youtube.com/watch?v=t15X8HGt1ms) is a great Fujifilm recipe
-- built a new link site ([links.rexarski.com](http://links.rexarski.com)) as a bookmark manager via [`BroadcastChannel`](https://github.com/ccbikai/BroadcastChannel)
+- got a new <kbd>[bsky]((https://bsky.app/profile/rqiu.bsky.social))</kbd> account but don't really wanna post anything there
 - reading:
-  - [毫无意义的工作](https://m.douban.com/book/subject/35929434/)
+  - [Play Nice](https://neodb.social/book/5v1wd4MXksYCRPSjfmrGCn)
   - [Scaling Machine Learning with Spark](https://www.oreilly.com/library/view/scaling-machine-learning/9781098106812/)
-- listening: bought an iPod classic from ebay, so anything nostalgic goes into it
+  - 迷宫饭 Vol 3
 - watching:
-  - [The Legend of Vox Machina S3](https://www.imdb.com/title/tt11247158/)
   - [Pachinko S2](https://www.imdb.com/title/tt8888462/)
   - [Like a Dragon: Yakuza S1](https://www.imdb.com/title/tt32536952/episodes/?season=1)
-  - [Delicious in Dungeon S1](https://www.imdb.com/title/tt21621494/episodes/?season=1)
-  - [Arcane S2](https://www.imdb.com/title/tt11126994/)
+  - [陌生人：对话圣战分子 第一季](https://neodb.social/tv/season/4r0SibQawf9OrCyTgaCqyJ)
 - playing:
-  - [Black Myth Wukong](https://store.steampowered.com/app/2358720/_/)
-  - [Pokémon Brilliant Diamond](https://diamondpearl.pokemon.com/en-us/)
-  - [Balatro](https://store.steampowered.com/app/2379780/Balatro/)
-  - [Beat Saber](https://beatsaber.com)
-  - [Batman Arkham Shadow](https://www.meta.com/experiences/batman-arkham-shadow/3551691271620960/)
-  - [The Operator](https://store.steampowered.com/app/1771980/_The_Operator/)
-  - [Just a To the Moon Series Beach Episode](https://store.steampowered.com/app/2159210/Just_a_To_the_Moon_Series_Beach_Episode/)
-  - [HighFleet](https://store.steampowered.com/app/1434950/HighFleet/)
-  - [Football Manager 2024](https://store.steampowered.com/app/2252570/Football_Manager_2024/)
+  - macOS
+    - [Football Manager 2024](https://store.steampowered.com/app/2252570/Football_Manager_2024/)
+    - Balatro 🃏
+    - [Brigador](https://store.steampowered.com/app/274500/Brigador_UpArmored_Edition/)
+  - Switch
+    - [Pokémon Brilliant Diamond](https://diamondpearl.pokemon.com/en-us/)
+    - [Stardew Valley](https://store.steampowered.com/app/413150)
+  - iOS
+    - Pokémon TCGP
+    - [Monument Valley 3](https://apps.apple.com/us/app/monument-valley-3-netflix/id6450062082)
+  - Steam Deck
+    - Just a To the Moon Series - Beach Episode
+    - Skul The Hero Slayer
+    - Ghost Trick: Phantom Detective
+    - The Expanse: A Telltale Series
+  - PC
+    - [HighFleet](https://store.steampowered.com/app/1434950/HighFleet/)
+- listening to:
+  - SPEC 游戏音乐创作漫谈（6）
 
 ***
