@@ -1,17 +1,18 @@
 +++
-title = "now"
+title = "Now"
 menu = "main"
 +++
 
-## <pre>/now</pre>
+## <pre>/Now</pre>
 
 <div class="terminal-frame">
-~ ❯❯❯ 更新于 2024-12-31
+~ ❯❯❯ 更新于 2025-01-11
 
-- 跟 <a href="https://www.instagram.com/joshcrosbyfitness/?hl=en" target="_blank" style="color: #00ff00;">Josh</a> 一起划船
-- 翻新了一台 iPod Video
 - Digital declutter 清空 readwise reader
-- Set up a Hobonichi techo 
+- 把 Hobonichi techo 用成了简单的子弹日记
+- 把接下来一段时间要做的事情用 OBTF 的方法记录在一个随时可以回看并修改的地方 (nothing against Things 就还是追求一个「速度」和「陪伴感」)
+- 近期出去吃饭的体验让我和小梁都自诩为「精神地中海人」
+- 重新组织了一下这个博客，把（绝大多数）英文内容都做了翻译；从此以后也奠定了中文博客的基调，尽量减少一些冗余和重复。
 
 </div>
 
@@ -31,9 +32,6 @@ menu = "main"
 
 ### <mark>在看</mark>
 
-- [如龙](https://neodb.social/tv/season/6xF7BvdSKiE8agGvbjt2s7)
-- [再见爱人4](https://neodb.social/tv/season/7KTIRPOZk9WR3CKpP2VNOq)
-- [The Legend of Vox Machina S03](https://neodb.social/tv/season/3f2rq1uoI4SUEQD1x6trVd)
 - [Senna](https://neodb.social/tv/season/1VSX3TO7WzphXPwnHWbnsJ)
 - [河殇](https://neodb.social/tv/62HIy7hXN60VlHrCPxtTJw)
 - [陌生人：对话圣战分子](https://neodb.social/tv/season/4r0SibQawf9OrCyTgaCqyJ)
@@ -52,8 +50,6 @@ menu = "main"
 ### <mark>在听</mark>
 
 - [GADIO SPEC 游戏音乐创作漫谈（6）](https://www.gcores.com/albums/144)
+- GADIO SPEC G君的游戏故事位面之旅（5+1）
 - [Diamond Jubilee](https://cindylee.bandcamp.com/album/diamond-jubilee) - Cindy Lee
-
-***
-
-<iframe style="border: 0; width: 350px; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=369930710/size=large/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://cindylee.bandcamp.com/album/diamond-jubilee">Diamond Jubilee by Cindy Lee</a></iframe>
+- [Fujii Kaze Stadium Live "Feelin' Good"](https://music.apple.com/us/album/fujii-kaze-stadium-live-feelin-good/1777393466)

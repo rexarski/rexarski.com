@@ -1,9 +1,13 @@
 +++
-title = "Adversarial attacks with TextAttack"
+title = "使用 TextAttack 进行对抗性攻击"
 date = "2023-01-25"
 description = ""
 tags = ["nlp"]
 +++
+
+<details>
+
+<summary>原文 Adversarial attacks with TextAttack</summary>
 
 > A companion slides can be found [here](https://gamma.app/embed/ixlmda005wxpxfg).
 
@@ -121,3 +125,113 @@ But the story should never end here. Just like we should never feel satisfied wi
 - [What are adversarial examples in NLP?](https://towardsdatascience.com/what-are-adversarial-examples-in-nlp-f928c574478e)
 - [Everything you need to know about Adversarial Training in NLP](https://medium.com/analytics-vidhya/everything-you-need-to-know-about-adversarial-training-in-nlp-b249301b6229)
 - [Improving the Adversarial Robustness of NLP Models by Information Bottleneck](https://arxiv.org/abs/2206.05511)
+
+</details>
+
+<mark>以下为 GPT-4o 翻译内容：</mark>
+
+> 可在[这里](https://gamma.app/embed/ixlmda005wxpxfg)找到相关幻灯片。
+
+想象一下，您刚刚开发了一个用于情感分析的最先进的自然语言处理模型。您的模型能够以高准确率预测给定文本的情感。然而，在现实世界中，问题不仅仅在于模型在正确标记的数据上的表现如何，还在于它如何处理那些被专门设计来欺骗它的输入。
+
+在本次演示中，我们将介绍NLP中对抗性样本的基础知识，演示如何使用TextAttack进行攻击，并讨论对抗性鲁棒性作为评估模型安全性的指标。
+
+## 友好的角色扮演
+
+昨天我和[ChatGPT](https://chat.openai.com/)进行了交谈，让它扮演情感分析模型的角色。
+
+![](/images/posts/adversarial-01.jpg)
+
+看起来我骗了一次，但没骗两次。我试图喂给ChatGPT的“拼写错误”被称为**对抗性样本**。
+
+## 什么是对抗性？
+
+计算机视觉的对抗性样本：
+
+![img](https://textattack.readthedocs.io/en/latest/_images/pig_airliner.png)
+
+更一般地：
+
+| 术语             | 描述                                               |
+| ---------------- | -------------------------------------------------- |
+| **对抗性样本**   | 用于欺骗机器学习模型的输入。[^1]                   |
+| **对抗性扰动**   | 作为对良性输入的更改而制作的对抗性样本。           |
+| **对抗性攻击**   | 生成对抗性扰动的方法。                             |
+| **对抗性鲁棒性** | 评估模型在输入的小变化下做出正确预测的灵活性指标。 |
+
+## TextAttack[^2]
+
+NLP中的对抗性攻击涉及制作输入（文本）以欺骗模型做出错误预测。这就是[TextAttack](https://github.com/QData/TextAttack)的用武之地，它是一个Python包，使得在文本模型上执行这些攻击并分析其结果变得容易。
+
+攻击可以根据两种“相似性”（视觉和语义）分为两类：
+
+![](https://textattack.readthedocs.io/en/latest/_images/mr_aes.png)
+
+另一个极端的例子：
+
+![](/images/posts/adversarial-02.jpg)
+
+## 攻击工作流程
+
+![](https://github.com/QData/TextAttack/raw/master/docs/_static/imgs/overview.png)
+
+总结工作流程，我们需要：
+
+1. 使用`model_wrapper`包装模型（称为“受害者”）。
+2. 定义包含4个组件（`GoalFunction`、`Constraint`、`Transformation`、`SearchMethod`）的`Attack`对象，或使用预定义的攻击方案[^3]。
+3. 创建一个`Attacker`对象，提供数据集并启动攻击。
+
+## 对抗性鲁棒性：一个指标
+
+- 衡量模型在输入的小变化下做出正确预测的灵活性。
+- **攻击成功率**和**攻击下的准确率**是TextAttack中两个常见的鲁棒性度量。前者是*攻击后做出不一致预测的百分比*。
+- 有关*对抗性鲁棒性*的更详细介绍可以在[这里](https://adversarial-ml-tutorial.org/introduction/)找到。
+
+## 演示
+
+在`sklearn`模型上进行TextAttack的[快速演示](https://colab.research.google.com/drive/1T9dXwhyNjn85A1jyPJ_3nnlggItM2t14?usp=sharing)+命令行使用攻击方案的用例。
+
+一些关键点：
+
+- 涉及的两个模型分别是`sklearn`的`LogisticRegression`，在IMDB电影评论数据集的词袋统计和tf-idf统计上进行训练。
+- TextAttack包括一个内置的模型包装器`SklearnModelWrapper`用于`sklearn`模型。对于其他不支持的模型，我们需要从头开始构建包装器。（这是[一个例子](https://textattack.readthedocs.io/en/latest/2notebook/Example_2_allennlp.html)。）
+- 一旦包装器准备就绪，在受害者模型上应用`attack_recipe`对象`TextFoolerJin2019`。
+- 从`rotten_tomatoes`数据集中加载样本数据并开始攻击。
+
+这可能需要一段时间，但结果非常明显：
+
+| 攻击结果             |        |
+| :------------------- | :----- |
+| 成功攻击的数量：     | 5      |
+| 失败攻击的数量：     | 0      |
+| 跳过攻击的数量：     | 5      |
+| 原始准确率：         | 50.0%  |
+| 攻击下的准确率：     | 0.0%   |
+| 攻击成功率：         | 100.0% |
+| 平均扰动词百分比：   | 6.08%  |
+| 每个输入的平均词数： | 19.5   |
+| 平均查询次数：       | 57.6   |
+
+- 另一个用例是直接在命令行中调用攻击方案：
+
+```bash
+textattack attack --model bert-base-uncased-sst2 --recipe textfooler --num-examples 20
+```
+
+这可以翻译为：使用[TextFooler](https://textattack.readthedocs.io/en/latest/3recipes/attack_recipes.html#textfooler-is-bert-really-robust)方案攻击一个预训练的[BERT-uncased模型](https://huggingface.co/textattack/bert-base-uncased-SST-2)，专门针对数据集[*The Stanford Sentiment Treebank*](https://huggingface.co/datasets/sst2)（sst2），并给出20个例子。根据方案和例子的数量，这可能需要更多时间。
+
+## 结语
+
+TextAttack的一个非常突出的特点是其可重复性。例如，我们可以从A和B的论文中提取搜索方法，而不改变其他任何东西。换句话说，组件是可互换的，以便进行受控实验。此外，预训练模型为研究社区提供了基准。
+
+但故事不应止于此。就像我们不应该对F1分数感到满意一样。回到训练过程，结合[对抗性训练](https://adversarial-ml-tutorial.org/adversarial_training/)并推动模型鲁棒性的边界，自然是下一步。但这又是另一个故事。
+
+![](https://miro.medium.com/max/1400/0*dQNOGdJTPrkdCtUP)
+
+## 参考资料
+
+- [对抗性鲁棒性 - 理论与实践](https://adversarial-ml-tutorial.org/) (2018)，来自CMU的教程。
+- [对抗性鲁棒性工具箱](https://adversarial-robustness-toolbox.org/)，一个用于ML安全性的Python库。[文档](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)。
+- [NLP中的对抗性样本是什么？](https://towardsdatascience.com/what-are-adversarial-examples-in-nlp-f928c574478e)
+- [您需要了解的关于NLP中对抗性训练的一切](https://medium.com/analytics-vidhya/everything-you-need-to-know-about-adversarial-training-in-nlp-b249301b6229)
+- [通过信息瓶颈提高NLP模型的对抗性鲁棒性](https://arxiv.org/abs/2206.05511)

@@ -17,7 +17,6 @@ To cross it off my backlog, I followed an interactive tutorial on [Learn Git Bra
 
 > It is said that 98% of job applicants with a 'Git' in skill section are only using `git add`, `git commit` and `git push`. (I made this up, but I bet the reality is not far from this.)
 
-
 ## 1. Branching on `main` (locally)
 
 - Branch early, branch often.
@@ -137,6 +136,7 @@ pick 871adf OK, feature Z is fully implemented      --- newer commit
 
 [...]
 ```
+
       1. Be aware of the reverse order.
       2. Replace `pick` with `squash` or `s` for squashable commits.
       3. Save and close the temp file.

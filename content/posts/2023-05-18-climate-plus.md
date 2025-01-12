@@ -5,13 +5,11 @@ description = ""
 tags = ["nlp"]
 +++
 
-*Updated on 2023-03-28.*
-
 Hello and welcome to our multi-part blog post on our work-in-progress project, [climate-plus](https://github.com/rexarski/climate-plus). In this project, we are building on top of [*ClimateBERT*](https://www.chatclimate.ai/climatebert)[^1], a transformer-based language model fine-tuned for climate-related text, to develop a tool that can classify financial disclosures according to the [*Task Force on Climate-related Financial Disclosures (TCFD)*](https://www.fsb-tcfd.org/) framework.
 
 [^1]: ClimateBERT is a project by [ChatClimate](https://www.chatclimate.ai/). The website has revamped several times since we started this project.
 
-## Aperitivo
+## 1
 
 One of the first challenges we encountered was acquiring adequate data sources for TCFD classification. Luckily, the TCFD provides example disclosures on their website, which we decided to use as a starting point for our project. However, we quickly realized that scraping these examples was not as straightforward as we had hoped.
 
@@ -27,9 +25,7 @@ After successfully downloading the PDF files, we then parsed them into raw text 
 
 In the next part of this series, we will explore the feasibility of using <mark>gpt-3.5</mark> to extract top evidence from the raw text of a report, as well as the potential for hallucination originated from large language models.
 
-## Antipasto
-
-*Updated on 2023-05-11.*
+## 2
 
 It's been quite a while since the first installment of this humble series. Things happened in the meantime: the team and I presented this project to the cohort; I, again, presented it to my colleagues; and most importantly, the ClimateBERT team updated their website and disclosed both datasets and downstream task models. In other words, our attempt to extend the functionality of ClimateBERT seems to be in vain. Nevertheless, due to computational limitations, we managed to approach the same question in a "lite" manner where we skipped the step to train a LLM with a dedicated climate-related corpus and instead fine-tuned a `distilroberta` directly with some available data.
 
@@ -63,19 +59,17 @@ The code to generate answers was recycled from another project, "[chitchat](http
 
 In this way, we are able to augment our dataset to a usable size of 500+.
 
-## Primo
-
-*Updated on 2023-05-18.*
+## 3
 
 In this section, we will briefly discuss the process of fine-tuning a base model, specifically `distilroberta`, using the augmented data collected from our [previous efforts](https://rexarski.com/posts/climate-plus-part-2-data-augmentation/). However, it's important to note that ClimateBERT takes a different approach by initially empowering the base model with a climate-related corpus before fine-tuning it with task-specific data.
 
 In contrast to ClimateBERT's focus on classifying four classes, we aimed to tackle the more ambitious goal of classifying all 11 subclasses in the [TCFD report](https://www.fsb-tcfd.org/recommendations/).
 
-## Secondo
+## 4
 
 Similar to the fact-checking task, we employed a classification approach. The only difference lies in the usage of a special token to connect the claim and evidence, ensuring a cohesive analysis.
 
-## Digestivo
+## 5
 
 Following a hiatus of a few months, the ClimateBERT team [released their latest update](https://www.chatclimate.ai/climatebert) in early May, revealing the data and result models used for five of their downstream tasks. Unfortunately, when we conducted our experiments, we only had access to a limited amount of the data used to fine-tune their models, and their models were not open-source.
 

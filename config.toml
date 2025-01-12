@@ -19,7 +19,6 @@ disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
   posts = "/posts/:year/:month/:slug/"
-  zh = "/zh/:year/:month/:slug/"
   tags = "/:slug/"
 
 [params]

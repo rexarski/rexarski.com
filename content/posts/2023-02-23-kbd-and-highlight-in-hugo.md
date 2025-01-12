@@ -1,5 +1,5 @@
 +++
-title = "How to add inline keyboard keys and highlighting in Hugo"
+title = "如何在 Hugo 中添加行内键盘按键和高亮显示"
 date = "2023-02-23"
 description = ""
 tags = ["hugo"]
