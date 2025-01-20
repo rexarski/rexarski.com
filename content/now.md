@@ -6,9 +6,9 @@ menu = "main"
 ## <pre>/Now</pre>
 
 <div class="terminal-frame">
-~ ❯❯❯ 更新于 2025-01-11
+~ ❯❯❯ 更新于 2025-01-19
 
-- Digital declutter 清空 readwise reader
+- VR 让我太晕了
 - 把 Hobonichi techo 用成了简单的子弹日记
 - 把接下来一段时间要做的事情用 OBTF 的方法记录在一个随时可以回看并修改的地方 (nothing against Things 就还是追求一个「速度」和「陪伴感」)
 - 近期出去吃饭的体验让我和小梁都自诩为「精神地中海人」
@@ -32,20 +32,20 @@ menu = "main"
 
 ### <mark>在看</mark>
 
+- [Severance S2](https://neodb.social/tv/season/2iGcyQRlEuz7fvMuAIlsKK)
+- [Chef & My Fridge S2](https://neodb.social/tv/season/0ScPjGF8F7v5dIXXJZio7y)
+- [SAKAMOTO DAYS S1](https://neodb.social/tv/season/6En2oxib1Fi9gzrcGXDdbq)
 - [Senna](https://neodb.social/tv/season/1VSX3TO7WzphXPwnHWbnsJ)
 - [河殇](https://neodb.social/tv/62HIy7hXN60VlHrCPxtTJw)
 - [陌生人：对话圣战分子](https://neodb.social/tv/season/4r0SibQawf9OrCyTgaCqyJ)
 
 ### <mark>在玩</mark>
 
+- [Teardown]()
 - [Stardew Valley](https://store.steampowered.com/app/413150) - macOS
 - [Football Manager 2024](https://store.steampowered.com/app/2252570/Football_Manager_2024/) - macOS
-- [Balatro](https://store.steampowered.com/app/2379780/Balatro/) 🃏 - macOS
 - [Wildermyth](https://store.steampowered.com/app/763890/Wildermyth/) - macOS
 - [Pokémon Brilliant Diamond](https://diamondpearl.pokemon.com/en-us/) - Switch
-- [Pokémon TCGP](https://tcgpocket.pokemon.com/en-us/) - iOS
-- [Hearthstone](https://hearthstone.blizzard.com/en-us) - iOS
-- [Overwatch 2](https://overwatch.blizzard.com/en-us/) - PC
 
 ### <mark>在听</mark>
 
