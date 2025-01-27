@@ -39,5 +39,8 @@ Temporary Items
 public
 isableFastRender
 
+### vscode generated files ###
+.vscode
+
 # End of https://www.toptal.com/developers/gitignore/api/macos
 n
