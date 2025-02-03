@@ -1,5 +1,6 @@
 +++
 title = "maui"
+menu = "not on main"
 +++
 
 

@@ -35,4 +35,16 @@ $currentYear) }}
 {{ if ne .Site.Params.hideMadeWithLine true }} © Qiū Ruì 2022-{{ now.Format
 "2006"}} ⋅
 <a href="/index.xml">/RSS</a>
-{{ end }}
+<div class="badgebox">
+    <a href="/index.xml"
+        ><img class="badge" src="/images/rss.gif" alt="rss-badge"
+    /></a>
+    <a href="https://mastodon.social/@rexarski"
+        ><img class="badge" src="/images/mastodon.gif" alt="mastodon-badge"
+    /></a>
+    <a href="https://bsky.app/profile/rqiu.bsky.social"
+        ><img class="badge" src="/images/bluesky.gif" alt="bsky-badge"
+    /></a>
+</div>
+Retro badges made by <a href="https://lmnt.me/badges/">Louie Mantia, Jr.</a> {{
+end }}

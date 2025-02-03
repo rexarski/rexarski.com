@@ -105,7 +105,7 @@
 
     footer {
         padding: 25px;
-        text-align: center;
+        text-align: left;
     }
 
     .helptext {
@@ -216,7 +216,7 @@
         padding: 8px;
     }
 
-    /* terminal-frame -------- start*/
+    /* terminal-frame */
     .terminal-frame {
         background-color: #1e1e1e;
         color: #00ff00;
@@ -232,6 +232,40 @@
     }
     .terminal-frame li {
         margin: none
+    }
+
+    /* badge design */
+    li img.badge, aside img.badge {
+        image-rendering: pixelated;
+        width: 44px !important;
+        height: 15.5px !important;
+        vertical-align: middle;
+    }
+
+    img.badge {
+        image-rendering: pixelated;
+        width: 88px !important;
+        height: 31px !important;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    img.badge:hover {
+        opacity: 0.75;
+    }
+
+    div.badgebox a {
+        width: 88px !important;
+        height: 31px !important;
+    }
+
+    div.badgebox {
+        margin: 0.5em 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 4px;
+        max-width: 364px;
     }
 
     /* Responsive design */
