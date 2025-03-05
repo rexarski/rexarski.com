@@ -7,7 +7,7 @@ menu = "main"
 
 <div class="terminal-frame">
 
-~ ❯❯❯ 更新于 2025-02-21
+~ ❯❯❯ 更新于 2025-02-24
 
 - 受 [LMNT](https://lmnt.me/) 的影响也想要绘制一些复古的「[网站徽章](https://lmnt.me/badges/)」
 - 二月份要继续深化 Hobonichi 的使用
@@ -15,7 +15,8 @@ menu = "main"
 - 近期出去吃饭的体验让我和小梁都自诩为「精神地中海人」
 - 重新组织了一下这个博客，把（绝大多数）英文内容都做了翻译；从此以后也奠定了中文博客的基调，尽量减少一些冗余和重复
 - 每天看一点实体书和 Kindle 上的存书
-- 大爱 [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz)
+- 大爱 [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz) -> Best Game 2025?
+- Tapestry 大一统时间线，没有什么不是可以错过的
 
 </div>
 
