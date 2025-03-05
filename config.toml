@@ -9,7 +9,7 @@ theme = 'hugo-bearblog'
 title = "howaboutqiu"
 author = "Qiū Ruì"
 copyright = "© Qiū Ruì 2022-2024"
-languageCode = "en-US"
+languageCode = "zh-CN"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true

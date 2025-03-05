@@ -2,7 +2,7 @@
 $nonDraftPosts := where $allPosts "Draft" false }} {{ $currentYear := now.Format
 "2006" }} {{ $postsThisYear := where $nonDraftPosts ".Date.Year" (int
 $currentYear) }}
-<strong style="font-family: Wavefont; font-size: 24pt"
+<strong style="font-family: Wavefont; font-size: 47px"
     >total posts in {{ $currentYear }}: {{ len $postsThisYear }}</strong
 >
 
@@ -20,7 +20,7 @@ $currentYear) }}
         );
         let percentage = Math.round((passedDays / totalDays) * 100);
         let progressBar = '';
-        for (var i = 0; i < 20; i++) {
+        for (var i = 0; i < 25; i++) {
             if (i < percentage / 5) {
                 progressBar += '■';
             } else {
@@ -33,8 +33,7 @@ $currentYear) }}
 </div>
 
 {{ if ne .Site.Params.hideMadeWithLine true }} © Qiū Ruì 2022-{{ now.Format
-"2006"}} ⋅
-<a href="/index.xml">/RSS</a>
+"2006"}}
 <div class="badgebox">
     <a href="/index.xml"
         ><img class="badge" src="/images/rss.gif" alt="rss-badge"
@@ -46,5 +45,9 @@ $currentYear) }}
         ><img class="badge" src="/images/bluesky.gif" alt="bsky-badge"
     /></a>
 </div>
-Retro badges made by <a href="https://lmnt.me/badges/">Louie Mantia, Jr.</a> {{
-end }}
+Made with
+<a href="https://gohugo.io">Hugo</a> ⋅ Theme by
+<a href="https://github.com/janraasch/hugo-bearblog/">Bearblog</a> ⋅ Retro
+badges made by
+<a href="https://lmnt.me/badges/">Louie Mantia, Jr.</a>
+{{ end }}
