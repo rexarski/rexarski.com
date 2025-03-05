@@ -1,9 +1,9 @@
 +++
-title = "Now"
+title = "now"
 menu = "main"
 +++
 
-## <pre>/Now</pre>
+## <pre>/now</pre>
 
 <div class="terminal-frame">
 
