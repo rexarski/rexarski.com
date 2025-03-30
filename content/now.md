@@ -5,7 +5,7 @@ menu = "main"
 
 ## <pre>/now</pre>
 
-❯❯❯ 更新于 2025-03-18
+❯❯❯ 更新于 2025-03-29
 
 - 受 [LMNT](https://lmnt.me/) 的影响也想要绘制一些复古的「[网站徽章](https://lmnt.me/badges/)」
 - 把接下来一段时间要做的事情用 OBTF 的方法记录在一个随时可以回看并修改的地方 (nothing against Things 就还是追求一个「速度」和「陪伴感」)
@@ -15,11 +15,9 @@ menu = "main"
   - [Getting Things Done](https://neodb.social/book/7mJzGDRnyTPlAJv4jbNheN)
   - What to Expect When you are Expecting
 - 在看
-  - [坂本的日常 第一季](https://neodb.social/tv/season/6En2oxib1Fi9gzrcGXDdbq)
   - [Chef & My Fridge S2](https://neodb.social/tv/season/0ScPjGF8F7v5dIXXJZio7y)
   - [白莲花度假村 第三季](https://neodb.social/tv/season/5V2AkD56wwmE7x9T2aR6Wg)
   - [人生切割术 第二季](https://neodb.social/tv/season/2iGcyQRlEuz7fvMuAIlsKK)
-  - [使女的故事 第五季](https://neodb.social/tv/season/39n49rMSiaIoz0ybAk7zRA)
   - [夜魔侠：重生 第一季](https://neodb.social/tv/season/5CfMCnaDKv7ZAXT21aGf0t)
 - 在玩
   - [足球经理 2024](https://store.steampowered.com/app/2252570/Football_Manager_2024/)
@@ -29,6 +27,7 @@ menu = "main"
   - [双影奇境](https://neodb.social/game/1tSJDqu9inXkPtclZB3gPI)
   - [对马岛之鬼：导演剪辑版](https://neodb.social/game/0IKvbYx0t7AmW9xguygREg)
   - [布兰特爵士的生平和苦难](https://neodb.social/game/3fDZTwyB43AKGKwntvYSIa)
+  - [漫威蜘蛛侠 复刻版](https://neodb.social/game/6nlN3afE53oRDcBK2Q5MjL)
 - 在听
   - 方大同 (R.I.P.) 的专辑
   - 陶喆 《[太平盛世](https://neodb.social/album/3p6OYCNDjrsyACg7YszbW2)》
