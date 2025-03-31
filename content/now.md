@@ -5,11 +5,13 @@ menu = "main"
 
 ## <pre>/now</pre>
 
-❯❯❯ 更新于 2025-03-29
+❯❯❯ 更新于 2025-03-30
 
 - 受 [LMNT](https://lmnt.me/) 的影响也想要绘制一些复古的「[网站徽章](https://lmnt.me/badges/)」
 - 把接下来一段时间要做的事情用 OBTF 的方法记录在一个随时可以回看并修改的地方 (nothing against Things 就还是追求一个「速度」和「陪伴感」)
-- 大爱 [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz) -> Best Game 2025?
+- Best game(s) in 2025
+    - [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz)
+    - [双影奇境](https://neodb.social/game/1tSJDqu9inXkPtclZB3gPI)
 - 在读
   - [Scaling Machine Learning with Spark](https://neodb.social/book/0R8bOjkTvV0nSz52LpE8zw)
   - [Getting Things Done](https://neodb.social/book/7mJzGDRnyTPlAJv4jbNheN)
@@ -19,19 +21,20 @@ menu = "main"
   - [白莲花度假村 第三季](https://neodb.social/tv/season/5V2AkD56wwmE7x9T2aR6Wg)
   - [人生切割术 第二季](https://neodb.social/tv/season/2iGcyQRlEuz7fvMuAIlsKK)
   - [夜魔侠：重生 第一季](https://neodb.social/tv/season/5CfMCnaDKv7ZAXT21aGf0t)
+  - Adolescence
+  - Court of Gold
+  - Neon Genesis Evangelion
 - 在玩
   - [足球经理 2024](https://store.steampowered.com/app/2252570/Football_Manager_2024/)
   - [宝可梦晶灿钻石](https://diamondpearl.pokemon.com/en-us/)
   - [星露谷物语](https://store.steampowered.com/app/413150)
   - [拉力赛艺术](https://neodb.social/game/771YP1aVCigKs2tHcLeuYo)
-  - [双影奇境](https://neodb.social/game/1tSJDqu9inXkPtclZB3gPI)
   - [对马岛之鬼：导演剪辑版](https://neodb.social/game/0IKvbYx0t7AmW9xguygREg)
-  - [布兰特爵士的生平和苦难](https://neodb.social/game/3fDZTwyB43AKGKwntvYSIa)
   - [漫威蜘蛛侠 复刻版](https://neodb.social/game/6nlN3afE53oRDcBK2Q5MjL)
 - 在听
   - 方大同 (R.I.P.) 的专辑
   - 陶喆 《[太平盛世](https://neodb.social/album/3p6OYCNDjrsyACg7YszbW2)》
-
+ 
 ***
 
 ## whoami, really?
