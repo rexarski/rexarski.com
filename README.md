@@ -16,3 +16,11 @@ Made with
 ```bash
 git submodule update --remote --merge
 ```
+
+## In Netlify
+
+Set environment variables:
+
+- `HUGO_ENV` to `production`
+- `HUGO_VERSION` to `0.145.0`
+- `HUGO_ENABLEGITINFO` to `true`

@@ -82,13 +82,29 @@ $type }} {{ $response := resources.GetRemote $url }} {{ if $response }} {{ $json
     .item-title {
         display: block;
         font-size: 0.8rem;
-        color: #333;
+        font-weight: bold;
+        color: var(--text-color, #333); /* Default to dark text */
         text-align: center;
         margin-top: 0.5rem;
         max-width: 90px;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+    }
+
+    /* Adapt to dark mode */
+    @media (prefers-color-scheme: dark) {
+        .item-title {
+            color: var(--text-color-dark, #ddd); /* Default to light text */
+        }
+
+        .rate {
+            color: #aaa;
+        }
+
+        .rating-count {
+            color: #888;
+        }
     }
 
     @media (max-width: 600px) {
