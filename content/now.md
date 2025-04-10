@@ -59,6 +59,9 @@ Retro badges made/inspired by
     <a href="https://notbyai.fyi/">
         <img class="badge" src="/images/badges/not-by-ai.png" alt="not-by-ai-badge"/>
     </a>
+    <a href="https://app.netlify.com/sites/rexarski/deploys">
+        <img class="badge" src="https://api.netlify.com/api/v1/badges/7b30b16b-f3d1-43e2-abf5-c1708e515cbf/deploy-status" alt="Netlify Status" />
+    </a>
     <a href="/index.xml">
         <img class="badge" src="/images/badges/rss.gif" alt="rss-badge"/>
     </a>
@@ -68,8 +71,12 @@ Retro badges made/inspired by
     <a href="https://bsky.app/profile/rqiu.bsky.social">
         <img class="badge" src="/images/badges/bluesky.gif" alt="bsky-badge"/>
     </a>
-    <img class="badge" src="/images/badges/ie_logo.gif" alt="ie-badge"/>
-    <img class="badge" src="/images/badges/ns_logo.gif" alt="ns-badge"/>
+    <a href="en.wikipedia.org/wiki/Internet_Explorer">
+        <img class="badge" src="/images/badges/ie_logo.gif" alt="ie-badge"/>
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Netscape_(web_browser)">
+        <img class="badge" src="/images/badges/ns_logo.gif" alt="ns-badge"/>
+    </a>
 </div>
 
 ***
