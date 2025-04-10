@@ -5,26 +5,25 @@ menu = "main"
 
 ## <pre>/now</pre>
 
-更新于 <mark>2025-04-07</mark>
+更新于 <mark>2025-04-09</mark>
 
 - 受 [LMNT](https://lmnt.me/) 的影响也想要绘制一些复古的「[网站徽章](https://lmnt.me/badges/)」
 - 把接下来一段时间要做的事情用 OBTF 的方法记录在一个随时可以回看并修改的地方 (nothing against Things 就还是追求一个「速度」和「陪伴感」)
 - Best game(s) in 2025
   - [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz)
   - [双影奇境](https://neodb.social/game/1tSJDqu9inXkPtclZB3gPI)
-- 给 Now page 添加了动态的 neodb 进度更新
 
 ### ❯❯❯ 在读
 
-{{< neodb book progress >}}
+{{< neodb category="book" >}}
 
 ### ❯❯❯ 在看
 
-{{< neodb tv progress >}}
+{{< neodb category="tv" >}}
 
 ### ❯❯❯ 在玩
 
-{{< neodb game progress >}}
+{{< neodb category="game" >}}
 
 ### ❯❯❯ 在听
 
@@ -57,18 +56,20 @@ Retro badges made/inspired by
 <a href="https://lmnt.me/badges/">Louie Mantia, Jr.</a>
 
 <div class="badgebox">
-    <a href="https://rexarski.com"
-        ><img class="badge" src="/images/blog.png" alt="blog-badge"
-    /></a>
-    <a href="/index.xml"
-        ><img class="badge" src="/images/rss.gif" alt="rss-badge"
-    /></a>
-    <a href="https://mastodon.social/@rexarski"
-        ><img class="badge" src="/images/mastodon.gif" alt="mastodon-badge"
-    /></a>
-    <a href="https://bsky.app/profile/rqiu.bsky.social"
-        ><img class="badge" src="/images/bluesky.gif" alt="bsky-badge"
-    /></a>
+    <a href="https://notbyai.fyi/">
+        <img class="badge" src="/images/badges/not-by-ai.png" alt="not-by-ai-badge"/>
+    </a>
+    <a href="/index.xml">
+        <img class="badge" src="/images/badges/rss.gif" alt="rss-badge"/>
+    </a>
+    <a href="https://mastodon.social/@rexarski">
+        <img class="badge" src="/images/badges/mastodon.gif" alt="mastodon-badge"/>
+    </a>
+    <a href="https://bsky.app/profile/rqiu.bsky.social">
+        <img class="badge" src="/images/badges/bluesky.gif" alt="bsky-badge"/>
+    </a>
+    <img class="badge" src="/images/badges/ie_logo.gif" alt="ie-badge"/>
+    <img class="badge" src="/images/badges/ns_logo.gif" alt="ns-badge"/>
 </div>
 
 ***

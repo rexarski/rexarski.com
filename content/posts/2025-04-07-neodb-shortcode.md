@@ -1,10 +1,14 @@
 +++
-title = "将 NeoDB 记录整合到 Hugo 中 (2025)"
+title = "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)"
 date = "2025-04-07"
 slug = "neodb-shortcode"
 description = "neodb -> Hugo"
 tags = ["hugo", "neodb"]
 +++
+
+⚠️ **注意：这篇文章是一个不完美的解决方案，详情请参考[修正版]({{< ref "posts/2025-04-09-neodb-shortcode-fixed.md" >}})。**
+
+***
 
 结合了这两篇：
 

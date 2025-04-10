@@ -17,10 +17,15 @@ Made with
 git submodule update --remote --merge
 ```
 
-## In Netlify
+## Token in `.env` file
 
-Set environment variables:
+```bash
+echo ".env" >> .gitignore
+echo 'NEODB_BEARER_TOKEN="*********"' > .env
+```
 
-- `HUGO_ENV` to `production`
-- `HUGO_VERSION` to `0.145.0`
-- `HUGO_ENABLEGITINFO` to `true`
+## Local testing
+
+```bash
+hugo server --gc -D --disableFastRender --buildFuture
+```
