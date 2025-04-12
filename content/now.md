@@ -5,13 +5,15 @@ menu = "main"
 
 ## <pre>/now</pre>
 
-更新于 <mark>2025-04-09</mark>
+更新于 <mark>2025-04-11</mark>
 
 - 受 [LMNT](https://lmnt.me/) 的影响也想要绘制一些复古的「[网站徽章](https://lmnt.me/badges/)」
 - 把接下来一段时间要做的事情用 OBTF 的方法记录在一个随时可以回看并修改的地方 (nothing against Things 就还是追求一个「速度」和「陪伴感」)
-- Best game(s) in 2025
+- Best in 2025
   - [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz)
   - [双影奇境](https://neodb.social/game/1tSJDqu9inXkPtclZB3gPI)
+  - 黑镜 s07e01
+  - [House In The Woods](https://neodb.social/album/4hX2M2f76jMRCAKYwuSRje) by Low Roar
 
 ### ❯❯❯ 在读
 
