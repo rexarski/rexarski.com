@@ -5,32 +5,23 @@ menu = "main"
 
 ## <pre>/now</pre>
 
-更新于 <mark>2025-04-11</mark>
-
-- 受 [LMNT](https://lmnt.me/) 的影响也想要绘制一些复古的「[网站徽章](https://lmnt.me/badges/)」
 - 把接下来一段时间要做的事情用 OBTF 的方法记录在一个随时可以回看并修改的地方 (nothing against Things 就还是追求一个「速度」和「陪伴感」)
-- Best in 2025
+- 最近发现很喜欢的两个工具/网站: [Plain Text Sports](https://plaintextsports.com/) 和 [circumflex](https://github.com/bensadeh/circumflex). 前者是在网页上模拟看类似终端的体验，后者是在终端上看网页的内容。
+- 🔵 Best in 2025
   - [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz)
   - [双影奇境](https://neodb.social/game/1tSJDqu9inXkPtclZB3gPI)
   - 黑镜 s07e01
+  - [To The Wilder](https://youtu.be/ZYwNeNuxtIc?si=JTGj5MuUuzw08zRq) by Woodkid
   - [House In The Woods](https://neodb.social/album/4hX2M2f76jMRCAKYwuSRje) by Low Roar
-
-### ❯❯❯ 在读
-
+- 🟢 在读
 {{< neodb category="book" >}}
-
-### ❯❯❯ 在看
-
+- 🟢 在看
 {{< neodb category="tv" >}}
-
-### ❯❯❯ 在玩
-
+- 🟢 在玩
 {{< neodb category="game" >}}
-
-### ❯❯❯ 在听
-
-- 方大同 (R.I.P.) 的专辑
-- 陶喆 《[太平盛世](https://neodb.social/album/3p6OYCNDjrsyACg7YszbW2)》
+- 🟢 在听
+  - 方大同 (R.I.P.) 的专辑
+  - 陶喆 《[太平盛世](https://neodb.social/album/3p6OYCNDjrsyACg7YszbW2)》
 
 ***
 
@@ -54,8 +45,7 @@ menu = "main"
 
 ## ❯❯❯ Badge collection
 
-Retro badges made/inspired by
-<a href="https://lmnt.me/badges/">Louie Mantia, Jr.</a>
+受 Louie Mantia, Jr 的 [LMNT](https://lmnt.me/badges/) 的影响搞了这个：
 
 <div class="badgebox">
     <a href="https://notbyai.fyi/">
@@ -65,19 +55,7 @@ Retro badges made/inspired by
         <img class="badge" src="https://api.netlify.com/api/v1/badges/7b30b16b-f3d1-43e2-abf5-c1708e515cbf/deploy-status" alt="Netlify Status" />
     </a>
     <a href="/index.xml">
-        <img class="badge" src="/images/badges/rss.gif" alt="rss-badge"/>
-    </a>
-    <a href="https://mastodon.social/@rexarski">
-        <img class="badge" src="/images/badges/mastodon.gif" alt="mastodon-badge"/>
-    </a>
-    <a href="https://bsky.app/profile/rqiu.bsky.social">
-        <img class="badge" src="/images/badges/bluesky.gif" alt="bsky-badge"/>
-    </a>
-    <a href="en.wikipedia.org/wiki/Internet_Explorer">
-        <img class="badge" src="/images/badges/ie_logo.gif" alt="ie-badge"/>
-    </a>
-    <a href="https://en.wikipedia.org/wiki/Netscape_(web_browser)">
-        <img class="badge" src="/images/badges/ns_logo.gif" alt="ns-badge"/>
+        <img class="badge" src="/images/badges/rss.png" alt="rss-badge"/>
     </a>
 </div>
 
