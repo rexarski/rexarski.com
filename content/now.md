@@ -7,21 +7,21 @@ menu = "main"
 
 - 把接下来一段时间要做的事情用 OBTF 的方法记录在一个随时可以回看并修改的地方 (nothing against Things 就还是追求一个「速度」和「陪伴感」)
 - 最近发现很喜欢的两个工具/网站: [Plain Text Sports](https://plaintextsports.com/) 和 [circumflex](https://github.com/bensadeh/circumflex). 前者是在网页上模拟看类似终端的体验，后者是在终端上看网页的内容。
-- 🔵 Best in 2025
+- ***Best in 2025***
   - [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz)
   - [双影奇境](https://neodb.social/game/1tSJDqu9inXkPtclZB3gPI)
   - 黑镜 s07e01
   - [To The Wilder](https://youtu.be/ZYwNeNuxtIc?si=JTGj5MuUuzw08zRq) by Woodkid
   - [House In The Woods](https://neodb.social/album/4hX2M2f76jMRCAKYwuSRje) by Low Roar
-- 🟢 在读
+  - 陶喆的歌实在太好听了，我晚了 20 年！
+- <mark>*Reading*</mark>
 {{< neodb category="book" >}}
-- 🟢 在看
+- <mark>*Watching*</mark>
 {{< neodb category="tv" >}}
-- 🟢 在玩
+- <mark>*Playing*</mark>
 {{< neodb category="game" >}}
-- 🟢 在听
+- <mark>*Listening*</mark>
   - 方大同 (R.I.P.) 的专辑
-  - 陶喆 《[太平盛世](https://neodb.social/album/3p6OYCNDjrsyACg7YszbW2)》
 
 ***
 
@@ -31,9 +31,10 @@ menu = "main"
   - 常用 id: rexarski.
   - DMV 打工人，stat head.
   - 大概爱好 🚶🎷⚽🏀🎮🏎️📊📚
+  - 游戏产业的守护者（ Steam 上这么称呼我的）
   - 原力非敏感光剑持有人
   - 现实中的[松鼠](https://thevarsity.ca/2003/02/10/breeding-unease-in-queens-park/)召唤师
-  - 大机率挑到甜的水果
+  - 被动技能：大机率挑到甜的水果
 - in games
   - [澡盆](https://splatoonwiki.org/wiki/Bloblobber)玩家守门员、打工苦手
   - SL流派足球经理，专业执教低级别联赛小球队
@@ -43,11 +44,11 @@ menu = "main"
 
 ***
 
-## ❯❯❯ Badge collection
+<!-- ## ❯❯❯ Badge collection -->
 
-受 Louie Mantia, Jr 的 [LMNT](https://lmnt.me/badges/) 的影响搞了这个：
+<!-- 受 Louie Mantia, Jr 的 [LMNT](https://lmnt.me/badges/) 的影响搞了这个： -->
 
-<div class="badgebox">
+<!-- <div class="badgebox">
     <a href="https://notbyai.fyi/">
         <img class="badge" src="/images/badges/not-by-ai.png" alt="not-by-ai-badge"/>
     </a>
@@ -57,6 +58,6 @@ menu = "main"
     <a href="/index.xml">
         <img class="badge" src="/images/badges/rss.png" alt="rss-badge"/>
     </a>
-</div>
+</div> -->
 
-***
+<!-- *** -->
