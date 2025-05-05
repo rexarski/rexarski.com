@@ -5,6 +5,8 @@ menu = "main"
 
 ## <pre>/now</pre>
 
+- 最近把 Day One 里接近十年 4000 多篇日记迁移到了 Obsidian. 虽然过程很轻松，但结果并不是很满意。想另外写一篇记录一下。
+- 刚刚抛售了咖啡机就发现自己并没有制作咖啡的工具了，因为连手冲需要的 grinder 都已经卖掉了。orz
 - 把接下来一段时间要做的事情用 OBTF 的方法记录在一个随时可以回看并修改的地方 (nothing against Things 就还是追求一个「速度」和「陪伴感」)
 - 最近发现很喜欢的两个工具/网站: [Plain Text Sports](https://plaintextsports.com/) 和 [circumflex](https://github.com/bensadeh/circumflex). 前者是在网页上模拟看类似终端的体验，后者是在终端上看网页的内容。
 - ***Best in 2025***
