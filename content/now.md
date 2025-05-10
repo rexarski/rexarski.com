@@ -5,10 +5,15 @@ menu = "main"
 
 ## <pre>/now</pre>
 
+- 开始了一个新的爱好：🚴
 - 最近把 Day One 里接近十年 4000 多篇日记迁移到了 Obsidian. 虽然过程很轻松，但结果并不是很满意。想另外写一篇记录一下。
 - 刚刚抛售了咖啡机就发现自己并没有制作咖啡的工具了，因为连手冲需要的 grinder 都已经卖掉了。orz
 - 把接下来一段时间要做的事情用 OBTF 的方法记录在一个随时可以回看并修改的地方 (nothing against Things 就还是追求一个「速度」和「陪伴感」)
 - 最近发现很喜欢的两个工具/网站: [Plain Text Sports](https://plaintextsports.com/) 和 [circumflex](https://github.com/bensadeh/circumflex). 前者是在网页上模拟看类似终端的体验，后者是在终端上看网页的内容。
+- 三个正在记录的项目
+  - [🧰 `toolbox`](/toolbox): 更新我常用的软件
+  - [🔨 How2: 家庭手工指南](/how2home)：以问答的形式记录第一次成为 homeowner 所经历的大大小小维修的经历
+  - [💯 给个人博客加 100 点技能](/blog100)：受 [Dayu](https://anotherdayu.com/2025/6940/) 影响（他又受 [James 影响](https://jamesg.blog/2024/02/19/personal-website-ideas)）而开启的新任务
 - ***Best in 2025***
   - [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz)
   - [双影奇境](https://neodb.social/game/1tSJDqu9inXkPtclZB3gPI)

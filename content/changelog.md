@@ -3,11 +3,14 @@ title = "Changelog"
 menu = "not-main"
 +++
 
-# <pre>/Changelog</pre>
+## <pre>/Changelog</pre>
 
 <div class="terminal-frame">
 
 ~ ❯❯❯ 记录一下网站的更新日志
+
+- 2025-05-09
+  - 增加了三个顶级页面: toolbox, blog100, how2home
 
 - 2025-04-29
   - 优化了 now.md 页面的格式和内容
