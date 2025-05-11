@@ -3,7 +3,7 @@ title = "闲话"
 menu = "main"
 +++
 
-## <pre>/闲话</pre>
+# <pre>/闲话</pre>
 
 <!-- Your CSS -->
 <link href="/js/mastodon-timeline.min.css" rel="stylesheet" />

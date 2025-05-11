@@ -3,7 +3,7 @@ title = "Changelog"
 menu = "not-main"
 +++
 
-## <pre>/Changelog</pre>
+# <pre>/Changelog</pre>
 
 <div class="terminal-frame">
 

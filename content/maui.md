@@ -3,7 +3,7 @@ title = "maui"
 menu = "not on main"
 +++
 
-## <pre>/maui🏝️</pre>
+# <pre>/maui🏝️</pre>
 
 Updated on 2024-07-28
 
@@ -15,9 +15,9 @@ Updated on 2024-07-28
 
 Hey, thanks for being here! Hope you enjoy your stay on the island(s). I do wanna share some of tips and recommendations based our prior experience in Hawaii. Of course, I'll keep it updated before the wedding. Cheers! (Rui)
 
-### Recommendations
+## Recommendations
 
-#### O’ahu
+### O’ahu
 
 - 🏖 Waikiki
   - 💡 If you stay at Waikiki and do not want to pay for overnight parking, you can park along Kalakaua Ave near Kapiolani regional park, lots of spots when the surfers go home.
@@ -44,7 +44,7 @@ Hey, thanks for being here! Hope you enjoy your stay on the island(s). I do wann
   - 🦈 [Shark’s Cove](https://maps.app.goo.gl/3Lkt2eKZnnGYCMzCA).
   - 🧑‍🦲 [Da Bald Guy](https://maps.app.goo.gl/45k6dsjqYqxn3J6N6). He was on Netflix! Love the garlic shrimps here
 
-#### Maui
+### Maui
 
 - Road to Hana could be exhausting. Manage your expectation.
 - Snorkeling at Molokini Crater.
@@ -60,7 +60,7 @@ Hey, thanks for being here! Hope you enjoy your stay on the island(s). I do wann
 - [Feast at Mōkapu](https://feastatmokapu.com).
 - Don't eat too much shaved ice.
 
-#### Big island
+### Big island
 
 Not many food recommendations and probably you’ve already planned some point of interest to visit.
 
@@ -68,13 +68,13 @@ Not many food recommendations and probably you’ve already planned some point o
   - 🚗 If you decide to visit Waipio valley (there’s a beautiful black sand beach down there), park your car up the hill unless you are driving a 4x4 and confident to handle some extreme driving conditions.
   - 🌋 Best time to observe volcanoes/lava is sunset, and it’s a flexible time. You get an overview of the surrounding and you the lava is more observable when sun goes dow.
 
-### Tips in general
+## Tips in general
 
 - Drone. Trust me as someone who has flown drones in Hawaii, you will regret not bringing one. But at the same time, you will regret not paying attention to regulations. Rule of thumb: Use the following [four apps](https://www.faa.gov/uas/getting_started/b4ufly) to check if you can fly your drone at the location.
 - Don't bring excessive amount of T-shirts. There are plenty of souvenir shops (ABC etc.) that sell T-shirts at a reasonable price. Wear touristy T-shirts and blend in! Just like Agent 47.
 - Sunscreens! Sunscreens! Sunscreens!
 
-### References
+## References
 
 - [YouTube - Bill & Lisa's Food and Travel](https://youtube.com/@billandlisa)
 - [YouTube - Amanda & Felix Eats](https://www.youtube.com/@AmandaFelixEats)
