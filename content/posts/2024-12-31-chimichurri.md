@@ -2,7 +2,7 @@
 title = "Chimichurri 酱"
 date = "2024-12-31"
 description = ""
-tags = ["recipe"]
+tags = ["新人厨师"]
 +++
 
 <details>

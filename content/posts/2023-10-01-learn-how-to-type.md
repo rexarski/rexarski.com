@@ -3,7 +3,7 @@ title = "在2023年学习打字：双拼输入法和Iris分体键盘"
 slug = "learn-how-to-type"
 date = "2023-10-01"
 description = ""
-tags = ["没事爱折腾", "硬件"]
+tags = ["捣鼓硬件"]
 +++
 
 

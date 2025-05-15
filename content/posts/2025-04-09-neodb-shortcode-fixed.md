@@ -3,7 +3,7 @@ title = "将 NeoDB 记录整合到 Hugo 中（修正版）"
 date = "2025-04-09"
 slug = "neodb-shortcode-fixed"
 description = "neodb -> Hugo but better"
-tags = ["hugo", "neodb"]
+tags = ["没事折腾"]
 +++
 
 [上一篇]({{< ref "posts/2025-04-07-neodb-shortcode.md" >}})中我们其实碰到了一个问题，虽然理论上我们认为 Cloudflare 上部署的 worker 会动态抓取 API 提供的数据，但总会存在这样那样的问题——其表现形式就是 neodb shortcode 并不会更新[^1]。

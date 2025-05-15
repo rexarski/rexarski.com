@@ -3,6 +3,8 @@ title = "How2home: 家庭手工指南"
 menu = "not on main"
 +++
 
+# How2home: 家庭手工指南
+
 > 如何瞎折腾以及顺带手成为一个合格的 homeowner，简称 how2home.
 
 ## 关于 how2home
@@ -10,38 +12,6 @@ menu = "not on main"
 - 从买房的时候就开始这一块那一块记笔记，想这或许以后可以整理一下发到网上帮助同样的朋友少走弯路。
 - 或许也会文不对题地添加一点如何 lifehack 的内容。
 - 原本使用 Obsidian 在本地编写，然后通过 [Quartz 4](https://quartz.jzhao.xyz) 将笔记渲染为一个颇有意思的 digital garden. 但后来取消了这套方案，索性集成到这个博客当中。
-
-<!-- ## 待办项目
-
-- [ ] 如何深度清洁陶瓷烤炉 How to deep clean Kamado Joe jr, https://youtu.be/C1uZ8UJtW9I?si=0-J1KDiT00oyGd1P, https://youtu.be/PbrAj6Pseq8?si=R7hZCbWXkVrQf0Za
-- [ ] [How to remove coffee stains from yeti : r/answers](https://www.reddit.com/r/answers/comments/swj3o1/how_to_remove_coffee_stains_from_yeti/) 亲测好用
-- [ ] Repair drywall?
-- [ ] 如何清洁屏幕
-- [ ] 如何清洁布艺沙发
-- [ ] 如何吸尘
-- [ ] 如何处理电路相关的问题
-- [ ] 如何保持马桶周边地区的卫生
-- [ ] 如何修补墙面的小瑕疵
-- [ ] 如何安装免治马桶
-- [ ] 如何护理大理石台面 和 木头台面
-- [ ] 如何安装智能门锁
-- [ ] 如何构建智能家居系统
-- [ ] 剃须能不能跟冲进洗面器
-- [ ] 如何给墙打洞
-- [ ] 如何处理玻璃制品垃圾 <https://www.fairfaxcounty.gov/publicworks/recycling-trash/glass>
-- [ ] 如何清洁水壶
-- [ ] 如何重置扫地机器人 （关闭手机cellular）
-- [ ] 如何选择更换空调滤网 （一定不要买错牌子！尺寸重要 厚度是三维中最不重要的）
-- [ ] 如何通排雨水排水管：发现其中一根有点堵，想着从下往上能不能完全疏通（但明显这个治标不治本）。可惜把无人机卖了。但是仔细一想，这也是禁飞区，所以怎么办呢找人上门看吧。本来没想过说旁边树比房子矮还能有树叶积进去的。
-- [ ] 如何洗车道上的机油 baking soda usage <https://www.reddit.com/r/MechanicAdvice/s/AgnZSZj7wD>
-- [ ] 如何回收废旧电池 <https://www.fairfaxcounty.gov/publicworks/recycling-trash/batteries>
-- [ ] Caulk the gaps wall and floor + homedepot <https://www.reddit.com/r/HomeImprovement/s/DY1TNXxhaR>
-- [ ] [Serious question: Should I flatten out the boxes so I have more room? : r/legostarwars](https://www.reddit.com/r/legostarwars/comments/1dj1jhh/serious_question_should_i_flatten_out_the_boxes/)
-- [ ] 清洁方太油烟机 https://youtu.be/aonQ0uVnx3c?si=CTp-6gJqwhfAdvoS, https://youtu.be/P8YrLSCKabo?si=99gTClZgMupmJNOG
-- [ ] Roborock 多层怎么办？
-- [ ] 大块的泡沫塑料如何回收？
-- [ ] 好工具顺手很重要，质量更重要，外观最不重要。大多数人说好的，一定好。
-- [ ] 大件东西看着不重，不过体积是阻碍发力的一个重要因素 -->
 
 ## 如何磨刀
 

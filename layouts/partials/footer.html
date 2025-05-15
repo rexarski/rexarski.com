@@ -2,9 +2,6 @@
 $nonDraftPosts := where $allPosts "Draft" false }} {{ $currentYear := now.Format
 "2006" }} {{ $postsThisYear := where $nonDraftPosts ".Date.Year" (int
 $currentYear) }}
-<strong style="font-family: Wavefont; font-size: 47px"
-    >total posts in {{ $currentYear }}: {{ len $postsThisYear }}</strong
->
 
 <div id="progress">
     <script>
@@ -30,6 +27,10 @@ $currentYear) }}
         document.getElementById('progress').innerText =
             currentYear + ': ' + progressBar + ' ' + percentage + '% ';
     </script>
+
+    <strong style="font-family: Wavefont; font-size: 47px"
+        >total posts in {{ $currentYear }}: {{ len $postsThisYear }}</strong
+    >
 </div>
 
 {{ if ne .Site.Params.hideMadeWithLine true }} © Qiū Ruì 2022-{{ now.Format

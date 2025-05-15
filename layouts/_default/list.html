@@ -28,11 +28,109 @@
   {{else}}
     <small>
       <div>
-        {{ range .Site.Taxonomies.tags }}
-        <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower}}</a>&nbsp;
+        {{ range .Site.Taxonomies.tags.ByCount }}
+        <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower}}</a><span style="font-size: 0.8em;"> ({{ .Count }})</span>&nbsp;
         {{ end }}
+      </div>
+      <div style="margin-top: 1em; width: 50%;">
+        <canvas id="postFrequency" height="50"></canvas>
       </div>
     </small>
     {{ end }}
 </content>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all post dates
+  const posts = Array.from(document.querySelectorAll('time')).map(time => new Date(time.getAttribute('datetime')));
+
+  // Get current date
+  const now = new Date();
+  const currentYear = now.getFullYear();
+  const currentMonth = now.getMonth();
+
+  // Create array for last 12 months
+  const monthlyData = new Array(12).fill(0);
+  const monthLabels = new Array(12);
+
+  // Chinese month names
+  const chineseMonths = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
+
+  // Fill data for last 12 months
+  for (let i = 0; i < 12; i++) {
+    const monthIndex = (currentMonth - i + 12) % 12;
+    const year = currentMonth - i < 0 ? currentYear - 1 : currentYear;
+    monthLabels[11 - i] = `${year}年${chineseMonths[monthIndex]}`;
+
+    // Count posts for this month
+    posts.forEach(date => {
+      if (date.getFullYear() === year && date.getMonth() === monthIndex) {
+        monthlyData[11 - i]++;
+      }
+    });
+  }
+
+  // Create sparkline chart
+  const ctx = document.getElementById('postFrequency').getContext('2d');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: monthLabels,
+      datasets: [{
+        data: monthlyData,
+        borderColor: '#3273dc',
+        borderWidth: 1,
+        pointRadius: 0,
+        tension: 0.4,
+        fill: true,
+        backgroundColor: 'rgba(50, 115, 220, 0.1)'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: false
+        },
+        tooltip: {
+          enabled: true,
+          mode: 'index',
+          intersect: false,
+          callbacks: {
+            title: function(tooltipItems) {
+              return tooltipItems[0].label;
+            },
+            label: function(context) {
+              return context.raw;
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          display: true,
+          ticks: {
+            callback: function(value, index) {
+              // Only show first and last labels
+              if (index === 0 || index === 11) {
+                return this.getLabelForValue(value);
+              }
+              return '';
+            },
+            font: {
+              size: 10
+            }
+          }
+        },
+        y: {
+          display: false,
+          beginAtZero: true
+        }
+      }
+    }
+  });
+});
+</script>
 {{ end }}

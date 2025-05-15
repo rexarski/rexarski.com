@@ -2,7 +2,7 @@
 title = "Sentiment analysis 只是有点用处"
 date = "2022-09-05"
 description = ""
-tags = ["nlp"]
+tags = ["自然语言"]
 +++
 
 <details>

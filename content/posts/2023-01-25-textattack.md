@@ -2,7 +2,7 @@
 title = "使用 TextAttack 进行对抗性攻击"
 date = "2023-01-25"
 description = ""
-tags = ["nlp"]
+tags = ["自然语言"]
 +++
 
 <details>

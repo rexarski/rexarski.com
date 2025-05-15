@@ -3,7 +3,7 @@ title = "Setapp 继承计划"
 slug = "setapp-succession"
 date = "2024-03-31"
 description = ""
-tags = ["没事爱折腾"]
+tags = ["没事折腾"]
 +++
 
 Student discount 结束之后细想自己用 Setapp 的频率和场景也没有那么高了，最重要的 killer app 往往也都有免费的替代品可以使用。

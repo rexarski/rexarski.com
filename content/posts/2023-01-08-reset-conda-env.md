@@ -2,7 +2,7 @@
 title = "如何重置一个 conda 环境"
 date = "2023-01-08"
 description = ""
-tags = ["conda", "snippet"]
+tags = ["代码经验"]
 +++
 
 <details>

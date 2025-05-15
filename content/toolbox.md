@@ -1,9 +1,11 @@
 +++
-title = "rexarski's toolbox (a no so minimal setup guide)"
+title = "rexarski's toolbox"
 menu = "not on main"
 +++
 
-# rexarski's toolbox (a no so minimal setup guide)
+# rexarski's toolbox
+
+> A not-so-minimal setup guide.
 
 ## Todos
 

@@ -3,7 +3,7 @@ title = "Kindle Oasis 的短期使用感受"
 slug = "kindle-oasis"
 date = "2023-06-29"
 description = ""
-tags = ["硬件"]
+tags = ["捣鼓硬件"]
 +++
 
 上一台 Kindle 设备使用了近两年，是21年买的 paperwhite. 又爱又恨：喜欢能发亮的屏幕，不论是白天还是晚上的适用场景都得到了扩展；少了实体按键总觉得不够「传统」，翻页也总觉得卡顿。

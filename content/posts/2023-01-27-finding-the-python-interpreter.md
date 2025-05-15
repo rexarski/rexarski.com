@@ -1,7 +1,7 @@
 +++
 title = "如何找到 Python 解释器"
 date = "2023-01-27T21:36:27-05:00"
-tags = ["conda"]
+tags = ["代码经验"]
 +++
 
 <details>

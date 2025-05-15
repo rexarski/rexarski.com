@@ -2,7 +2,7 @@
 title = "如何 git commit"
 date = "2023-04-02"
 description = ""
-tags = ["git"]
+tags = ["代码经验"]
 +++
 
 <p align="center">

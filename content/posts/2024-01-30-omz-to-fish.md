@@ -2,7 +2,7 @@
 title = "回归 vanilla (fish) shell"
 date = "2024-01-30"
 description = ""
-tags = ["cli"]
+tags = ["代码经验"]
 +++
 
 <details>

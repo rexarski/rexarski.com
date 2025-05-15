@@ -6,25 +6,22 @@ menu = "main"
 # <pre>/now</pre>
 
 - 开始了一个新的爱好：🚴
-- 最近把 Day One 里接近十年 4000 多篇日记迁移到了 Obsidian. 虽然过程很轻松，但结果并不是很满意。想另外写一篇记录一下。
-- 刚刚抛售了咖啡机就发现自己并没有制作咖啡的工具了，因为连手冲需要的 grinder 都已经卖掉了。orz
-- 把接下来一段时间要做的事情用 OBTF 的方法记录在一个随时可以回看并修改的地方 (nothing against Things 就还是追求一个「速度」和「陪伴感」)
-- 最近发现很喜欢的两个工具/网站: [Plain Text Sports](https://plaintextsports.com/) 和 [circumflex](https://github.com/bensadeh/circumflex). 前者是在网页上模拟看类似终端的体验，后者是在终端上看网页的内容。
-- 两个正在记录的项目
-  - [🧰 `toolbox`](/toolbox): 更新我常用的软件
-  - [🔨 How2home: 家庭手工指南](/how2home)：以问答的形式记录第一次成为 homeowner 所经历的大大小小维修的经历
-- 💯 给个人博客加 100 点技能：受 [Dayu](https://anotherdayu.com/2025/6940/) 影响（他又受 [James 影响](https://jamesg.blog/2024/02/19/personal-website-ideas)）而开启的新任务。筛选了一下，以下内容可以作为接下来的发展目标：
+- 很喜欢的网站: [Plain Text Sports](https://plaintextsports.com/)
+- [🧰 `toolbox`](/toolbox): 更新我常用的软件
+- [🔨 How2home: 家庭手工指南](/how2home)：以问答的形式记录第一次成为 homeowner 所经历的大大小小维修的经历
+- 受 [Dayu](https://anotherdayu.com/2025/6940/) 影响（他又受 [James 影响](https://jamesg.blog/2024/02/19/personal-website-ideas)）而开启的新任务。筛选了一下，以下内容可以作为接下来的发展目标：
   - [ ] 使用 WAVE （Web Accessibility Evaluation Tool）工具检查网站的无障碍访问性。
   - [ ] 创建一个“反向图书馆”清单，记录你拥有但未读的书籍。
   - [ ] 为网站设计一个专属吉祥物。
   - [ ] 制作并添加一个 88×31 像素的小按钮图标，通常用于网页、博客、论坛等地方的链接按钮或标识图标。这种按钮图标在早期互联网时代非常流行，经常用于交换链接、展示合作伙伴或赞助商的链接。
-  - [ ] 使用迷你图（sparkline）展示文章发布频率。Sparkline 是指通过一种小巧、简洁的折线或柱状图，以极小的空间清晰地展现文章发布数量在一段时间内的变化趋势。热图也是一个很好的选择。
+  - [x] 使用迷你图（sparkline）展示文章发布频率。Sparkline 是指通过一种小巧、简洁的折线或柱状图，以极小的空间清晰地展现文章发布数量在一段时间内的变化趋势。热图也是一个很好的选择。
 - ***Best in 2025***
   - [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz)
   - [双影奇境](https://neodb.social/game/1tSJDqu9inXkPtclZB3gPI)
   - 黑镜 s07e01
-  - [To The Wilder](https://youtu.be/ZYwNeNuxtIc?si=JTGj5MuUuzw08zRq) by Woodkid
-  - [House In The Woods](https://neodb.social/album/4hX2M2f76jMRCAKYwuSRje) by Low Roar
+  - [To The Wilder](https://youtu.be/ZYwNeNuxtIc?si=JTGj5MuUuzw08zRq) - *Woodkid*
+  - [House In The Woods](https://neodb.social/album/4hX2M2f76jMRCAKYwuSRje) - *Low Roar*
+  - [梦想家](https://neodb.social/album/7APUZWwgTnkKWR1FmtDNr5) - *方大同*
   - 陶喆的歌实在太好听了，我晚了 20 年！
 - <mark>*Reading*</mark>
 {{< neodb category="book" >}}

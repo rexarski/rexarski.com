@@ -3,7 +3,7 @@ title = "不合适"
 slug = "vertical-layout"
 date = "2023-03-26"
 description = "一次在 Hugo 中尝试使用竖排版的失败经历。"
-tags = ["没事爱折腾", "Hugo"]
+tags = ["没事折腾"]
 +++
 
 考虑给自己的中文博客添加竖排版的支持，类似[一天世界](https://blog.yitianshijie.net/)在每一篇博文后给出的[竖排版](https://tategaki.github.io/en/)选项。于是给自己的 hugo 主题增添了对于文本类别的判断——`zh` 内容会加载额外的 CSS style. 简单的解决方法如下：
