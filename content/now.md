@@ -7,14 +7,8 @@ menu = "main"
 
 - 开始了一个新的爱好：🚴
 - 很喜欢的网站: [Plain Text Sports](https://plaintextsports.com/)
-- [🧰 `toolbox`](/toolbox): 更新我常用的软件
-- [🔨 How2home: 家庭手工指南](/how2home)：以问答的形式记录第一次成为 homeowner 所经历的大大小小维修的经历
-- 受 [Dayu](https://anotherdayu.com/2025/6940/) 影响（他又受 [James 影响](https://jamesg.blog/2024/02/19/personal-website-ideas)）而开启的新任务。筛选了一下，以下内容可以作为接下来的发展目标：
-  - [ ] 使用 WAVE （Web Accessibility Evaluation Tool）工具检查网站的无障碍访问性。
-  - [ ] 创建一个“反向图书馆”清单，记录你拥有但未读的书籍。
-  - [ ] 为网站设计一个专属吉祥物。
-  - [ ] 制作并添加一个 88×31 像素的小按钮图标，通常用于网页、博客、论坛等地方的链接按钮或标识图标。这种按钮图标在早期互联网时代非常流行，经常用于交换链接、展示合作伙伴或赞助商的链接。
-  - [x] 使用迷你图（sparkline）展示文章发布频率。Sparkline 是指通过一种小巧、简洁的折线或柱状图，以极小的空间清晰地展现文章发布数量在一段时间内的变化趋势。热图也是一个很好的选择。
+- [🧰 toolbox](/toolbox): 更新我常用的软件
+- [🔨 How2home 家庭手工指南](/how2home)：以问答的形式记录第一次成为 homeowner 所经历的大大小小维修的经历
 - ***Best in 2025***
   - [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz)
   - [双影奇境](https://neodb.social/game/1tSJDqu9inXkPtclZB3gPI)

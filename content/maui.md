@@ -7,6 +7,8 @@ menu = "not on main"
 
 Updated on 2024-07-28
 
+{{< toc >}}
+
 <div style="text-align: center;">
   <img src="/images/Haleakala.gif" alt="8 seconds of sunset on Haleakalā" style="flex: 1; max-width: 50%; margin-right: 10px; display: inline-block;">
 </div>

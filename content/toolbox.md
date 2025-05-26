@@ -5,6 +5,8 @@ menu = "not on main"
 
 # rexarski's toolbox
 
+{{< toc >}}
+
 > A not-so-minimal setup guide.
 
 ## Todos

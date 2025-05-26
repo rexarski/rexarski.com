@@ -1,0 +1,38 @@
+<div class="toc-wrapper">
+    <div class="toc-container">
+        <div class="toc-header text-sm font-mono">目录</div>
+        <aside class="toc-content font-mono 'Atkinson Hyperlegible'">
+            {{ .Page.TableOfContents }}
+        </aside>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const wrapper = document.querySelector('.toc-wrapper');
+        if (wrapper) {
+            // Create border elements
+            const leftBorder = document.createElement('div');
+            leftBorder.className = 'left-border';
+            leftBorder.textContent = '│';
+
+            const rightBorder = document.createElement('div');
+            rightBorder.className = 'right-border';
+            rightBorder.textContent = '│';
+
+            const bottomLeft = document.createElement('div');
+            bottomLeft.className = 'bottom-left';
+            bottomLeft.textContent = '└─';
+
+            const bottomRight = document.createElement('div');
+            bottomRight.className = 'bottom-right';
+            bottomRight.textContent = '─┘';
+
+            // Add border elements to wrapper
+            wrapper.appendChild(leftBorder);
+            wrapper.appendChild(rightBorder);
+            wrapper.appendChild(bottomLeft);
+            wrapper.appendChild(bottomRight);
+        }
+    });
+</script>

@@ -53,3 +53,8 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [markup.goldmark.renderer]
   unsafe= true
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 6
+  ordered = false
