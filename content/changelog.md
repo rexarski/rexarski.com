@@ -11,6 +11,7 @@ menu = "not-main"
 
 - 2025-05-26
   - 参考 [Roger Steve Ruiz](https://write.rog.gr/writing/table-of-contents-for-your-hugo-pages/) 增加了对于页面内目录的支持（使用 \{\{< toc >\}\}）即可调用
+  - 删除了 footer 中 wavefont 的彩蛋，修改了若干字体样式
 - 2025-05-14
   - 重新规划了文章的标签：保证文章单篇只有一个四字标签
   - 在文章列表页的标签按数量从高到低排列
