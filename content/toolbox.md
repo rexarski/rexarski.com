@@ -84,6 +84,7 @@ menu = "not on main"
 - [Deliveries](https://deliveries.app/en.html). 
 - [DEVONthink 4](https://www.devontechnologies.com/apps/devonthink) 🎫
 - [Discord](https://discord.com/). `brew install --cask discord` 🍺
+- [DockDoor](https://dockdoor.net/). `brew install --cask dockdoor` 🍺
 - [Downie](https://software.charliemonroe.net/downie/) 🎫
 - **[Drafts](https://getdrafts.com/)**. For drafting. 🔁
   - `Cmd` + `Shift` + `1` = Drafts main window
@@ -164,6 +165,8 @@ menu = "not on main"
 
 - **[Obsidian](https://obsidian.md/)**. Second brain/digital garden/Zettelkasten. Go subscribe to [Obsidian Sync](https://obsidian.md/sync) to support the development!
 - [Obsidian Web Clipper](https://stephango.com/obsidian-web-clipper). 
+  - option + shift + O: Open Obsidian Clipper
+  - option + shift + T: Toggle highlights with Obsidian Clipper
 - [Ollama](https://github.com/jmorganca/ollama). LocalLLM.
 - [OrbStack](https://orbstack.dev/). A light-weight Docker and Linux runtime management. `brew install --cask orbstack` 🍺
 
