@@ -59,6 +59,8 @@ menu = "not on main"
 - [Affinity Publisher 2](https://affinity.serif.com/en-us/publisher/). 🎫
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12). Keep the machine awake. `Cmd` + `Shift` + `A`: turn on/off 
 - [Anki](https://apps.ankiweb.net/)
+- [Antinote](https://antinote.io/). 🎫
+  - ⌥ + A to toggle it.
 - [Applite](https://github.com/milanvarady/Applite), user-friendly GUI macOS application for Homebrew Casks. `brew install --cask applite` 🍺
 - [Aseprite](https://www.aseprite.org/). A animated pixel art editor. Purchased on [Steam](https://store.steampowered.com/app/431730/Aseprite/). 🎫
 
@@ -75,6 +77,12 @@ menu = "not on main"
 - [calibre](https://calibre-ebook.com/). E-book management. `brew install --cask calibre` 🍺
   - [calibre-douban](https://github.com/fugary/calibre-douban). 豆瓣插件.
   - [Fix Kindle Ebook Cover](https://github.com/bookfere/Fix-Kindle-Ebook-Cover). A tool to fix damaged cover for Kindle.
+  - EpubCheck
+  - Kobo Metadata
+  - New Douban Books
+  - [GitHub - noDRM/DeDRM\_tools: DeDRM tools for ebooks](https://github.com/noDRM/DeDRM_tools)
+  - Highlights to Obsidian
+  - Obok DeDRM
 - [Countdown Timer Pro](https://apps.apple.com/us/app/countdown-timer-pro/id6744842468?mt=12). 
 
 ### D
@@ -159,7 +167,6 @@ menu = "not on main"
 ### N
 
 - [Nicotine+](https://nicotine-plus.org), a graphical client for Soulseek.
-- [Numi](https://numi.app/). NLP + calculator. `brew install --cask numi` 🍺
 
 ### O
 
@@ -269,7 +276,9 @@ menu = "not on main"
 
 ## Archive
 
-For those applications/packages that are not in use.
+<details>
+
+<summary>For those applications/packages that are not in use.</summary>
 
 - [AlDente](https://github.com/davidwernhart/AlDente) 🎫
 - [Alfred](https://www.alfredapp.com/) `Option` + `Space`: Activate Aflred search bar. 🎫
@@ -303,6 +312,7 @@ For those applications/packages that are not in use.
 - [MiaoYan 妙言](https://github.com/tw93/MiaoYan/)
 - [Moom](https://manytricks.com/moom/) `Cmd` + `Option` + `M`: toggle Moom keyboard control. 🎫
 - [NetNewsWire](https://ranchero.com/netnewswire/). For RSS. `brew instlal --cask netnewswire` 🍺
+- [Numi](https://numi.app/). NLP + calculator. `brew install --cask numi` 🍺
 - [OpenEmu](https://github.com/OpenEmu/OpenEmu).
 - [Parcel](https://apps.apple.com/us/app/parcel-delivery-tracking/id639968404?mt=12). Track your packages. 
 - [Pins](https://get-pins.app/) 
@@ -328,3 +338,5 @@ For those applications/packages that are not in use.
 - [Yoink](https://eternalstorms.at/yoink/mac/) 
 - [Zoom](https://zoom.us/)
 - [小宇宙](https://www.xiaoyuzhoufm.com/) 
+
+</details>

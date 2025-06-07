@@ -23,8 +23,6 @@ menu = "main"
 {{< neodb category="tv" >}}
 - <mark>*Playing*</mark>
 {{< neodb category="game" >}}
-- <mark>*Listening*</mark>
-  - 方大同 (R.I.P.) 的专辑
 
 ***
 
