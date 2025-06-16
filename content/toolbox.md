@@ -45,7 +45,7 @@ menu = "not on main"
 - Stop Time Machine local snapshots. `tmutil disablelocal` was deprecated since Mojave. Use  [TimeMachineEditor](https://tclementdev.com/timemachineeditor/) instead.
 - Create a global `gitignore` file at `~/.gitignore`. See [this one](/config/.gitignore) as an example: `git config --global core.excludesfile ~/.gitignore`
 - Generate and add SSH key to GitHub account.
-- Turn off the Spotlight.
+- ~~Turn off the Spotlight.~~ Set Spotlight shortcut to Option + Space.
 - Turn off the auto boot feature (if this is a MacBook.) `sudo nvram AutoBoot=%00`. Turn it back on by `sudo nvram AutoBoot=%03` or use `nvram -p` to check the current value.
 - Generate and add SSH key to GitHub account.
 - In Safari, go to Preferences - Advanced, turn on "Show Develop menu in menu bar".
@@ -77,6 +77,8 @@ menu = "not on main"
 - [calibre](https://calibre-ebook.com/). E-book management. `brew install --cask calibre` 🍺
   - [calibre-douban](https://github.com/fugary/calibre-douban). 豆瓣插件.
   - [Fix Kindle Ebook Cover](https://github.com/bookfere/Fix-Kindle-Ebook-Cover). A tool to fix damaged cover for Kindle.
+  - [Kindle Previewer](https://www.amazon.com/Kindle-Previewer/b?ie=UTF8&node=21381691011)
+  - [Kindle Comic Converter](https://github.com/ciromattia/kcc). 🍺
   - EpubCheck
   - Kobo Metadata
   - New Douban Books
@@ -135,7 +137,6 @@ menu = "not on main"
   - `Hyper` == `Cmd + Ctrl + Option + Shift`
   - `Shift` + `Backspace`: Forward delete
   - Complex modifications: [Change `caps_lock` to `Cmd + Ctrl + Option + Shift`](https://ke-complex-modifications.pqrs.org/#modifier-keys).
-- [`kcc`](https://github.com/ciromattia/kcc), Kindle Comic Converter.
 - [Keepa](https://keepa.com/#). Amazon price tracker. 
 - [Keka](https://www.keka.io/en/) `brew install --cask keka` 🍺
 - [KeyClu](https://sergii.tatarenkov.name/keyclu/support/). Cheatsheet alternative
@@ -201,7 +202,7 @@ menu = "not on main"
 - [R](https://www.r-project.org/).
 - [Reeder](https://reeder.app) 🔁.
 - [RStudio](https://www.rstudio.com/). IDE for R.
-- [Raycast](https://www.raycast.com/). Extendable launcher substitute to Spotlight, with an extension store. `Cmd` + `Space`: Activate Raycast. (Disable this shortcut for Spotlight) `brew install --cask raycast` 🍺
+- [Raycast](https://www.raycast.com/). Extendable launcher substitute to Spotlight, with an extension store. `Cmd` + `Space`: Activate Raycast. `brew install --cask raycast` 🍺
 - [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar) `brew install --cask reminders-menubar` 🍺]
 - [Rocket](https://matthewpalmer.net/rocket/). Emoji launcher with one-key shortcut. Use `:` to trigger the app. 🎫
 - [RSSHub Radar](https://apps.apple.com/us/app/rsshub-radar/id1610744717). Discover RSS feeds from current website. 
@@ -305,7 +306,6 @@ menu = "not on main"
 - [Itsycal for Mac](https://www.mowglii.com/itsycal/)
 - [julia](https://julialang.org/) `brew install --cask julia` 🍺
 - [KeyCastr](https://github.com/keycastr/keycastr) `Hyper` + `K`: Toggle capturing
-- Kindle.
 - [LM Studio](https://lmstudio.ai/)
 - [Maccy](https://maccy.app/). Clipboard. `brew install --cask maccy` 🍺
 - [Mactracker](https://mactracker.ca/) 

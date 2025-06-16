@@ -29,3 +29,9 @@ echo 'NEODB_BEARER_TOKEN="*********"' > .env
 ```bash
 hugo server --gc -D --disableFastRender --buildFuture
 ```
+
+## Fetch latest NeoDB data
+
+```bash
+bash neodb_data.sh
+```

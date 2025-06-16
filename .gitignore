@@ -47,3 +47,7 @@ n
 
 ### environment file ###
 .env
+
+### local dev script ###
+
+dev.sh
