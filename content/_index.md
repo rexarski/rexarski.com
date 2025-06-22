@@ -4,7 +4,12 @@
 
 [^1]: Taxodium - [什么是订阅源](https://taxodium.ink/about-feeds.html)
 
-我的其他互联网栖所： <kbd>[github](https://github.com/rexarski)</kbd> / <kbd>[mastodon](https://mastodon.social/@rexarski)</kbd> / <kbd>[bsky](https://bsky.app/profile/rqiu.bsky.social)</kbd> / <kbd>[neodb](https://neodb.social/users/rexarski/)</kbd> / <kbd>[steam](https://steamcommunity.com/id/rexarski)</kbd>
+我的其他互联网栖所
+
+- <kbd>[github](https://github.com/rexarski)</kbd>
+- <kbd>[mastodon](https://mastodon.social/@rexarski)</kbd> / <kbd>[bsky](https://bsky.app/profile/rqiu.bsky.social)</kbd>
+- <kbd>[neodb](https://neodb.social/users/rexarski/)</kbd> / <kbd>[letterboxd](https://letterboxd.com/rexarski/)</kbd>
+- <kbd>[steam](https://steamcommunity.com/id/rexarski)</kbd> / <kbd>[backlogd](https://backloggd.com/u/rexarski/)</kbd>
 
 ***
 
