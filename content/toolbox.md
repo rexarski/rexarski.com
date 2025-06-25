@@ -107,6 +107,7 @@ menu = "not on main"
 
 ### F
 
+- [Fantastical](https://flexibits.com/fantastical) `Hyper +`F`: create new event/reminder 🎫
 - [Final Cut Pro](https://www.apple.com/final-cut-pro/). 
   - [Motion](https://www.apple.com/final-cut-pro/motion/). 
   - [Compressor](https://www.apple.com/final-cut-pro/compressor/). 
@@ -291,13 +292,13 @@ menu = "not on main"
 - [Blink](https://apps.apple.com/us/app/blink-home-monitor/id1013961111) 
 - [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn). Screensaver inspired by Apple's Event on October 30, 2018.
 - [Buckets](https://www.budgetwithbuckets.com/) 🎫
+- [Calendr](https://github.com/pakerwreah/Calendr). Menu bar calendar.
 - [Cardhop](https://flexibits.com/cardhop). 🎫
 - [CARROT Weather](https://www.meetcarrot.com/weather/) 🔁
 - [coconutBattery](https://coconut-flavour.com/coconutbattery/)
 - [Dark Noise](https://darknoise.app/) 
 - [Darkroom](https://darkroom.co/) 🎫
 - [Day One](https://dayoneapp.com/). 🔁
-- [Fantastical](https://flexibits.com/fantastical) `Hyper +`F`: create new event/reminder 🎫
 - [Figma](https://www.figma.com/)
 - [Fliqlo Flip Clock](https://fliqlo.com/). The classic screensaver.
 - [fruit](https://github.com/Corkscrews/fruit). Retro Apple screensaver.
