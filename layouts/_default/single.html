@@ -20,5 +20,28 @@
     {{ end }}
 </p>
 
-<!--{{ if eq .Type "posts" "zh" }} {{ partial "comments.html" . }} {{ end }}-->
+<!-- Next/Previous Post Navigation -->
+{{ if eq .Type "posts" "zh" }}
+<div class="post-navigation">
+    <div class="nav-container">
+        {{ with .PrevInSection }}
+        <div class="nav-item">
+            <span class="nav-label">← 前一篇</span><br />
+            <a href="{{ .Permalink }}" class="nav-title">{{ .Title }}</a>
+        </div>
+        {{ else }}
+        <div></div>
+        {{ end }} {{ with .NextInSection }}
+        <div class="nav-item next">
+            <span class="nav-label">下一篇 →</span><br />
+            <a href="{{ .Permalink }}" class="nav-title">{{ .Title }}</a>
+        </div>
+        {{ else }}
+        <div></div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+<!-- {{ if eq .Type "posts" "zh" }} {{ partial "comments.html" . }} {{ end
+}} -->
 {{ end }}

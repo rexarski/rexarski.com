@@ -1,8 +1,7 @@
 <a href="{{ "/" | relURL }}">主页</a>
-{{ range .Site.Menus.main }}
-<a href="{{ .URL }}">{{ .Name }}</a>
-{{ end }}
 {{ with .Site.GetPage "/posts" }}
 <a href="{{ "/posts" | relURL }}">博文</a>
 {{ end }}
-<a href="{{ "/index.xml" }}">rss</a>
+{{ range .Site.Menus.main }}
+<a href="{{ .URL }}">{{ .Name }}</a>
+{{ end }}

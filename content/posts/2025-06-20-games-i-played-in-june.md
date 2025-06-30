@@ -2,7 +2,7 @@
 title: "六月玩了什么"
 date: 2025-06-20
 slug: "games-i-played-in-june"
-tags: ["日日更"]
+tags: ["日日谈"]
 ---
 
 作为游戏产业的守护者」，说说最近玩了一些什么吧。
@@ -17,7 +17,7 @@ tags: ["日日更"]
 
 六月说是 month of motorsports 也不为过。先后有 F1 夏休前的几场分站，24小时勒芒，还有 Apple 重资、布拉德皮特儿主演的 F1: Apex（中文名译作「F1：极速争锋」）上映。那么在此之下，还有什么比上个月刚刚上市的年货游戏 F1 25 更合适来一解手瘾呢？我作为一个没有模拟器的手柄玩家，在参考了一些网友推荐的设置之后感觉还是过于 Arcade 了一些，很难说有什么驾驶的乐趣，更多的是一种生涯模式下、满足平行宇宙 what if 们的意淫快乐吧！另外依旧很不喜欢 micro transaction + battle pass.
 
-话说 simulation game 的乐趣都如此吧？我都玩了十几年的 Football Manager 了，每年依然乐此不疲。 
+话说 simulation game 的乐趣都如此吧？我都玩了十几年的 Football Manager 了，每年依然乐此不疲。
 
 ## The Alters
 

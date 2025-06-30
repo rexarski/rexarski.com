@@ -393,6 +393,43 @@
         border-radius: 0.2rem;
     }
 
+    /* Next/Previous Post Navigation */
+    .post-navigation {
+        margin: 2rem 0;
+        padding: 1rem 0;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+
+    .post-navigation .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .post-navigation .nav-item {
+        text-align: left;
+    }
+
+    .post-navigation .nav-item.next {
+        text-align: right;
+    }
+
+    .post-navigation .nav-label {
+        font-size: 0.9rem;
+        color: #666;
+    }
+
+    .post-navigation .nav-title {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+    }
+
+    .post-navigation .nav-title:hover {
+        text-decoration: underline;
+    }
+
     @media (prefers-color-scheme: dark) {
         .toc-container {
             color: #999;
@@ -419,22 +456,7 @@
             color: #fff;
             background-color: #856404;
         }
-    }
 
-    @media screen and (max-width: 600px) {
-        table {
-            width: 100%;
-            display: block;
-            overflow-x: auto; /* Table scroll on small screens */
-        }
-
-        th,
-        td {
-            padding: 10px; /* Larger tap targets on mobile */
-        }
-    }
-
-    @media (prefers-color-scheme: dark) {
         body {
             background-color: #333;
             color: #ddd;
@@ -480,6 +502,36 @@
         mark {
             background-color: gold;
             color: #333;
+        }
+
+        .post-navigation {
+            border-top-color: #555;
+            border-bottom-color: #555;
+        }
+
+        .post-navigation .nav-label {
+            color: #aaa;
+        }
+
+        .post-navigation .nav-title {
+            color: #ddd;
+        }
+
+        .post-navigation .nav-title:hover {
+            color: #fff;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        table {
+            width: 100%;
+            display: block;
+            overflow-x: auto; /* Table scroll on small screens */
+        }
+
+        th,
+        td {
+            padding: 10px; /* Larger tap targets on mobile */
         }
     }
 </style>

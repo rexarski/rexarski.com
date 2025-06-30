@@ -5,24 +5,26 @@ menu = "main"
 
 # <pre>/now</pre>
 
-- 开始了一个新的爱好：🚴
-- 很喜欢的网站: [Plain Text Sports](https://plaintextsports.com/)
-- [🧰 toolbox](/toolbox): 更新我常用的软件
+- <mark>*在读*</mark>
+{{< neodb category="book" >}}
+- <mark>*在看*</mark>
+{{< neodb category="tv" >}}
+- <mark>*在玩*</mark>
+{{< neodb category="game" >}}
+- [🧰 toolbox](/toolbox) 更新
 - [🔨 How2home 家庭手工指南](/how2home)：以问答的形式记录第一次成为 homeowner 所经历的大大小小维修的经历
 - ***Best in 2025***
+  - 一个网站：[Plain Text Sports](https://plaintextsports.com/)
   - [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz)
   - [双影奇境](https://neodb.social/game/1tSJDqu9inXkPtclZB3gPI)
-  - 黑镜 s07e01
+  - [黑镜 S07E01 - Common People](https://www.imdb.com/title/tt30127325/)
+  - 新兴趣：🚴
   - [To The Wilder](https://youtu.be/ZYwNeNuxtIc?si=JTGj5MuUuzw08zRq) - *Woodkid*
   - [House In The Woods](https://neodb.social/album/4hX2M2f76jMRCAKYwuSRje) - *Low Roar*
   - [梦想家](https://neodb.social/album/7APUZWwgTnkKWR1FmtDNr5) - *方大同*
-  - 陶喆的歌实在太好听了，我晚了 20 年！
-- <mark>*Reading*</mark>
-{{< neodb category="book" >}}
-- <mark>*Watching*</mark>
-{{< neodb category="tv" >}}
-- <mark>*Playing*</mark>
-{{< neodb category="game" >}}
+  - 陶喆的歌
+  - [冷宴](https://neodb.social/book/0ABYBI61QH0A0BMZYHLXvl) - *Joe Abercrombie*
+  - 新兴趣：桌游
 
 ***
 

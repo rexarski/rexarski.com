@@ -1,13 +1,8 @@
 <!-- This is layouts/shortcodes/postslist.html -->
 <div class="minimalist-list">
-    {{ $now := now }} {{ $twelveMonthsAgo := $now.AddDate -1 0 0 }} {{
-    $recentPosts := where (where .Site.RegularPages "Type" "in" (slice "zh"
-    "posts")) "Params.draft" "!=" true }} {{ $recentPosts = where $recentPosts
-    "Date" ">=" $twelveMonthsAgo }} {{ $recentPosts =
-    $recentPosts.ByDate.Reverse }} {{ $postCount := len $recentPosts }} {{ if lt
-    $postCount 14 }} {{ $recentPosts = first 14 (where (where .Site.RegularPages
-    "Type" "in" (slice "zh" "posts")) "Params.draft" "!=" true).ByDate.Reverse
-    }} {{ end }} {{ range $recentPosts }}
+    {{ $posts := where (where .Site.RegularPages "Type" "in" (slice "zh"
+    "posts")) "Params.draft" "!=" true }} {{ $recentPosts := first 7
+    ($posts.ByDate.Reverse) }} {{ range $recentPosts }}
     <div class="minimalist-item">
         <span class="post-date">{{ .Date.Format "2006-01-02" }} </span>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>

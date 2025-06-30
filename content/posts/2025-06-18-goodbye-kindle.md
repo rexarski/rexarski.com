@@ -2,7 +2,7 @@
 title: "Kindle: What’s yours is mine"
 date: 2025-06-18
 slug: "goodbye-kindle"
-tags: ["日日更"]
+tags: ["日日谈"]
 ---
 
 说再见从来都不简单。这周中把用了两年的 Kindle Oasis，也就是最后一代的 Oasis 通过 eBay 出了二手。虽然前两个月才刚刚写过越狱的体验，主要原因有三个：
