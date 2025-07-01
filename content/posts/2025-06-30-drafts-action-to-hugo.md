@@ -73,3 +73,5 @@ if (!success) {
 	context.fail();
 }
 ```
+
+可以通过 [Drafts Directory](https://directory.getdrafts.com/a/2ZK) 直接安装。
