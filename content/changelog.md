@@ -5,10 +5,6 @@ menu = "not-main"
 
 # <pre>/Changelog</pre>
 
-<div class="terminal-frame">
-
-~ ❯❯❯ 记录一下网站的更新日志
-
 - 2025-05-26
   - 参考 [Roger Steve Ruiz](https://write.rog.gr/writing/table-of-contents-for-your-hugo-pages/) 增加了对于页面内目录的支持（使用 \{\{< toc >\}\}）即可调用
   - 删除了 footer 中 wavefont 的彩蛋，修改了若干字体样式
@@ -25,5 +21,3 @@ menu = "not-main"
   - RSS 链接从导航栏移到了 footer
   - 优化了文章列表显示，现在会动态显示最近 7 篇
   - 博客列表除去近 12 个月的文章剩下都会按年份归类
-
-</div>
