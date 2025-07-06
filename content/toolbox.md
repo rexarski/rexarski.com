@@ -220,7 +220,6 @@ menu = "not on main"
 - [skim](https://skim-app.sourceforge.io/). PDF viewer. `brew install --cask skim` 🍺
 - [Sleeve 2](https://replay.software/sleeve). 🎫
 - [Steam](https://store.steampowered.com/)
-  - [`balatro-mod-manager`](https://github.com/skyline69/balatro-mod-manager)
 
 ### T
 
