@@ -33,5 +33,6 @@ hugo server --gc -D --disableFastRender --buildFuture
 ## Fetch latest NeoDB data
 
 ```bash
+source .env
 bash neodb_data.sh
 ```

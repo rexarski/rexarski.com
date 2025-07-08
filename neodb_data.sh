@@ -1,6 +1,3 @@
-# Load environment variables from .env file
-source .env
-
 # Fetch and process book data
 curl -X 'GET' 'https://neodb.social/api/me/shelf/progress?category=book&page=1' \
     -H 'accept: application/json' \
