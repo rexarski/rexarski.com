@@ -8,7 +8,7 @@
 
 - <kbd>[github](https://github.com/rexarski)</kbd>
 - <kbd>[mastodon](https://mastodon.social/@rexarski)</kbd> / <kbd>[bsky](https://bsky.app/profile/rqiu.bsky.social)</kbd>
-- <kbd>[neodb](https://neodb.social/users/rexarski/)</kbd> / <kbd>[letterboxd](https://letterboxd.com/rexarski/)</kbd> / <kbd>[steam](https://steamcommunity.com/id/rexarski)</kbd> / <kbd>[backlogd](https://backloggd.com/u/rexarski/)</kbd> / <kbd>[bbg](https://boardgamegeek.com/user/rexarski)</kbd> / <kbd>[.jpg](https://www.instagram.com/howaboutqiu)</kbd>
+- <kbd>[neodb](https://neodb.social/users/rexarski/)</kbd> / <kbd>[letterboxd](https://letterboxd.com/rexarski/)</kbd> / <kbd>[steam](https://steamcommunity.com/id/bob606bob/)</kbd> / <kbd>[backlogd](https://backloggd.com/u/rexarski/)</kbd> / <kbd>[bbg](https://boardgamegeek.com/user/rexarski)</kbd> / <kbd>[.jpg](https://www.instagram.com/howaboutqiu)</kbd>
 <!-- - <kbd>[异常](https://outlier.rexarski.com/)</kbd> -->
 
 <br>
