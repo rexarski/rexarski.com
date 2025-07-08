@@ -1,0 +1,62 @@
+# This is a GitHub Action workflow file.
+# It should be placed in your repository at: .github/workflows/update-data.yml
+
+name: Update NeoDB Data
+
+# Controls when the action will run.
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # Runs the workflow every 12 hours at 12 AM and 12 PM ET (4:00 and 16:00 UTC)
+  schedule:
+    - cron: '0 4,16 * * *'
+
+jobs:
+  # A single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # A sequence of tasks that will be executed as part of the job
+    steps:
+      # Step 1: Check out the repository's code so the workflow can access it.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Make the shell script executable.
+      # This is necessary for the script to be run in the Linux environment.
+      - name: Make neodb_data.sh executable
+        run: chmod +x ./neodb_data.sh
+
+      # Step 3: Run the shell script.
+      # This is the core step that executes your data update logic.
+      # It uses the secret token stored in the repository's settings.
+      - name: Run neodb_data.sh to update data
+        env:
+          NEODB_BEARER_TOKEN: ${{ secrets.NEODB_BEARER_TOKEN }}
+        run: ./neodb_data.sh
+
+      # Step 4: Configure Git.
+      # This sets the author information for the commit that the action will create.
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      # Step 5: Commit and push changes if any exist.
+      - name: Commit and push if there are changes
+        run: |
+          # Check if there are any changes to commit.
+          if [[ -z $(git status --porcelain) ]]; then
+            echo "No changes to commit."
+          else
+            echo "Changes detected. Committing and pushing..."
+            # Stage all changes.
+            git add .
+            # Commit the changes with a dynamic date in the message.
+            git commit -m "feat(data): update neodb data on $(date +'%Y-%m-%d')"
+            # Push the changes to the main branch.
+            git push
+          fi
+
