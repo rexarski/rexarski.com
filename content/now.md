@@ -19,7 +19,7 @@ menu = "main"
   - [双影奇境](https://neodb.social/game/1tSJDqu9inXkPtclZB3gPI)
   - [黑镜 S07E01 - Common People](https://www.imdb.com/title/tt30127325/)
   - 新兴趣：🚴
-  - [To The Wilder](https://youtu.be/ZYwNeNuxtIc?si=JTGj5MuUuzw08zRq) - *Woodkid*
+  - [WOODKID FOR DEATH STRANDING 2: ON THE BEACH](https://music.apple.com/us/album/woodkid-for-death-stranding-2-on-the-beach/1818147007) - Woodkid*
   - [House In The Woods](https://neodb.social/album/4hX2M2f76jMRCAKYwuSRje) - *Low Roar*
   - [梦想家](https://neodb.social/album/7APUZWwgTnkKWR1FmtDNr5) - *方大同*
   - 陶喆的歌
