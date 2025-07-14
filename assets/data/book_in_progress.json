@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "id": "https://neodb.social/book/5ebH8XOoPI3bDknW9SfVxc",
+      "title": "英雄",
+      "created_time": "2025-06-24T00:58:43.286Z"
+    },
+    {
+      "id": "https://neodb.social/book/28zL9lfeu4CZT19cLqWyI3",
+      "title": "What to Expect When You're Expecting",
+      "created_time": "2025-03-31T20:01:09.374Z"
+    },
+    {
+      "id": "https://neodb.social/book/10bdiWlZUD9mB14OhVDMJ3",
+      "title": "迷宮飯(03)",
+      "created_time": "2024-12-24T00:55:02.997Z"
+    },
+    {
+      "id": "https://neodb.social/book/0R8bOjkTvV0nSz52LpE8zw",
+      "title": "Scaling Machine Learning with Spark",
+      "created_time": "2023-12-04T00:16:23.680Z"
+    }
+  ]
+}
