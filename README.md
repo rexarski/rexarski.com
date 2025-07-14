@@ -36,3 +36,12 @@ hugo server --gc -D --disableFastRender --buildFuture
 source .env
 bash neodb_data.sh
 ```
+
+## Refer to a previous blog post (with file path)
+
+```markdown
+# use ref
+[text]({{< ref "posts/yyyy-mm-dd-slug.md" >}})
+# use relref if both target and destination posts are in the same path
+[text]({{< relref "yyyy-mm-dd-slug.md" >}})
+```

@@ -107,7 +107,6 @@ menu = "not on main"
 
 ### F
 
-- [Fantastical](https://flexibits.com/fantastical) `Hyper +`F`: create new event/reminder 🎫
 - [Final Cut Pro](https://www.apple.com/final-cut-pro/). 
   - [Motion](https://www.apple.com/final-cut-pro/motion/). 
   - [Compressor](https://www.apple.com/final-cut-pro/compressor/). 
@@ -192,6 +191,7 @@ menu = "not on main"
 - [Picotron](https://www.lexaloffle.com/picotron.php). A fantasy workstation. 🎫
 - [Play](https://apps.apple.com/cn/app/play-save-videos-watch-later/id1596506190). Watch it later(s). 
 - [Plex](https://www.plex.tv/). `brew install --cask plex` 🍺
+- [Positron](https://positron.posit.co/)
 
 ### Q
 
@@ -202,7 +202,6 @@ menu = "not on main"
 
 - [R](https://www.r-project.org/).
 - [Reeder](https://reeder.app) 🔁.
-- [RStudio](https://www.rstudio.com/). IDE for R.
 - [Raycast](https://www.raycast.com/). Extendable launcher substitute to Spotlight, with an extension store. `Cmd` + `Space`: Activate Raycast. `brew install --cask raycast` 🍺
 - [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar) `brew install --cask reminders-menubar` 🍺]
 - [Rocket](https://matthewpalmer.net/rocket/). Emoji launcher with one-key shortcut. Use `:` to trigger the app. 🎫
@@ -291,13 +290,13 @@ menu = "not on main"
 - [Blink](https://apps.apple.com/us/app/blink-home-monitor/id1013961111) 
 - [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn). Screensaver inspired by Apple's Event on October 30, 2018.
 - [Buckets](https://www.budgetwithbuckets.com/) 🎫
-- [Calendr](https://github.com/pakerwreah/Calendr). Menu bar calendar.
 - [Cardhop](https://flexibits.com/cardhop). 🎫
 - [CARROT Weather](https://www.meetcarrot.com/weather/) 🔁
 - [coconutBattery](https://coconut-flavour.com/coconutbattery/)
 - [Dark Noise](https://darknoise.app/) 
 - [Darkroom](https://darkroom.co/) 🎫
 - [Day One](https://dayoneapp.com/). 🔁
+- [Fantastical](https://flexibits.com/fantastical) `Hyper +`F`: create new event/reminder 🎫
 - [Figma](https://www.figma.com/)
 - [Fliqlo Flip Clock](https://fliqlo.com/). The classic screensaver.
 - [fruit](https://github.com/Corkscrews/fruit). Retro Apple screensaver.
@@ -324,6 +323,7 @@ menu = "not on main"
 - [RIME | 中州韵输入法](https://rime.im/). "Rime Input Method Engine, rimes with your keystrokes."
   - [东风破](https://github.com/rime/plum)
   - [雾凇拼音](https://github.com/iDvel/rime-ice): `bash rime-install iDvel/rime-ice:others/recipes/full`
+- [RStudio](https://www.rstudio.com/). IDE for R.
 - [SD Card Formatter](https://www.sdcard.org/downloads/formatter/).
 - [Scratchpad](https://apps.apple.com/us/app/scratchpad/id6504040051). 
 - [Spotify](https://open.spotify.com/)
