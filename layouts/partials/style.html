@@ -1,5 +1,5 @@
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Serif+SC:wght@200..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Noto+Serif+SC:wght@200..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
     /* noto serif sc not used yet */
 
@@ -12,13 +12,14 @@
         font-family: 'Noto Sans Serif SC', 'Atkinson Hyperlegible', sans-serif;
         margin: auto;
         padding: 20px;
-        max-width: 720px; /* 960px; */
+        max-width: 960px; /* 960px; */
         text-align: left;
         background-color: #fefefe;
         word-wrap: break-word;
         overflow-wrap: break-word;
         line-height: 1.5;
         color: #444;
+        overflow-y: scroll; /* Force to show scrollbar to prevent layout shift */
     }
 
     h1,

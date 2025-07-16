@@ -3,11 +3,15 @@ title = "Changelog"
 menu = "not-main"
 +++
 
-# <pre>/Changelog</pre>
+# <pre>changelog</pre>
 
+- 2025-07-15
+  - 简化了博客列表页面，移除了"近期"分类，统一按年份分组显示
+  - 修复了页面布局偏移问题，通过强制显示滚动条保持一致的页面宽度
+  - 将网站最大宽度从 720px 调整为 960px
 - 2025-07-13
   - 统一了博客列表页和首页文章列表的日期格式为 "2006 · 01"
-  - 增加了 minimalist-list 中日期和标题之间的间距（margin-right: 2rem）
+  - 增加了 `minimalist-list` 中日期和标题之间的间距 (`margin-right: 2rem`)
 - 2025-06-29
   - 单篇博客添加了前进和后退的导航按钮
   - RSS 链接从导航栏移到了 footer

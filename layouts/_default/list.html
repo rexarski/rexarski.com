@@ -7,17 +7,14 @@
   </small>
   {{ end }}
 
-  {{ if .Pages }}
-    {{ $now := now }}
-    {{ $oneYearAgo := $now.AddDate -1 0 0 }}
-    {{ $recentPosts := where .Pages "Date" "ge" $oneYearAgo }}
-    {{ $oldPosts := where .Pages "Date" "lt" $oneYearAgo }}
+  <h1><b>全部博文</b></h1>
 
-    <!-- Recent posts (within 1 year) -->
-    {{ if $recentPosts }}
-      <h3>近期</h3>
+  {{ if .Pages }}
+    {{ $postsByYear := .Pages.GroupByDate "2006" }}
+    {{ range $postsByYear }}
+      <h2>{{ .Key }}</h2>
       <ul class="blog-posts">
-        {{ range $recentPosts }}
+        {{ range .Pages }}
         <li>
           <span>
             <i>
@@ -30,29 +27,7 @@
         </li>
         {{ end }}
       </ul>
-    {{ end }}
-
-    <!-- Older posts grouped by year -->
-    {{ if $oldPosts }}
-      {{ $postsByYear := $oldPosts.GroupByDate "2006" }}
-      {{ range $postsByYear }}
-        <h3>{{ .Key }}</h3>
-        <ul class="blog-posts">
-          {{ range .Pages }}
-          <li>
-            <span>
-              <i>
-                <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-                  {{ .Date.Format "2006 · 01" }}
-                </time>
-              </i>
-            </span>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
-          {{ end }}
-        </ul>
       {{ end }}
-    {{ end }}
   {{ else }}
     <ul class="blog-posts">
       <li>

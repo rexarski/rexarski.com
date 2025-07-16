@@ -13,7 +13,9 @@
 
 <br>
 
-## <pre>/近期博客</pre>
+***
+
+## **最近更新**
 
 <!-- Shows 7 most recent posts -->
 {{< postslist >}}

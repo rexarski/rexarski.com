@@ -32,9 +32,19 @@ hugo server --gc -D --disableFastRender --buildFuture
 
 ## Fetch latest NeoDB data
 
+My go-to script for serve testing:
+
 ```bash
+#!/bin/bash
+
+# Load environment variables from .env file
 source .env
+
+# Run neodb_data.sh first
 bash neodb_data.sh
+
+# Then start hugo server
+hugo server --gc -D --disableFastRender --buildFuture
 ```
 
 ## Refer to a previous blog post (with file path)
