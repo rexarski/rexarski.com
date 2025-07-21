@@ -205,7 +205,6 @@ menu = "not on main"
 - [Raycast](https://www.raycast.com/). Extendable launcher substitute to Spotlight, with an extension store. `Cmd` + `Space`: Activate Raycast. `brew install --cask raycast` 🍺
 - [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar) `brew install --cask reminders-menubar` 🍺]
 - [Rocket](https://matthewpalmer.net/rocket/). Emoji launcher with one-key shortcut. Use `:` to trigger the app. 🎫
-- [RSSHub Radar](https://apps.apple.com/us/app/rsshub-radar/id1610744717). Discover RSS feeds from current website. 
 
 ### S
 
