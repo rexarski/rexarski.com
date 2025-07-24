@@ -5,11 +5,13 @@ menu = "main"
 
 # Now
 
-- 新兴趣：🚴
-- 新兴趣：桌游
-- 在迎接新生命到来前做 digital housekeeping
-- 沉迷于每天睡前在 Kobo 上用 [KOReader](https://github.com/koreader/koreader) 看书停不下来，并且为离开 Kindle 毫无悔意
+- 《蕉力全开》极有可能是我的年度游戏了，带来的是那种最本能的快乐
+- 因为本地 pizza 店推出了 40 刀一个月的 pizza pass 而每天下班都去领一块（真的没有那么不健康）
 - **多** 拍 照 片，以记录珍贵的家庭影像
+- 沉迷于每天睡前在 Kobo 上用 [KOReader](https://github.com/koreader/koreader) 看书停不下来，并且为离开 Kindle 毫无悔意
+- 在迎接新生命到来前做 digital housekeeping
+- 新兴趣：桌游
+- 新兴趣：🚴
 
 ## 书影音
 
@@ -32,6 +34,7 @@ menu = "main"
 - [冷宴](https://neodb.social/book/0ABYBI61QH0A0BMZYHLXvl) - *Joe Abercrombie*
 - [WOODKID FOR DEATH STRANDING 2: ON THE BEACH](https://music.apple.com/us/album/woodkid-for-death-stranding-2-on-the-beach/1818147007) - *Woodkid*
 - [龙年](https://music.apple.com/us/album/%E9%BE%99%E5%B9%B4/1818975832) - *华云龙 KLE*
+- 蕉力全开 (WIP)
 
 ***
 
