@@ -3,7 +3,7 @@ title = "now"
 menu = "main"
 +++
 
-# Now
+## Now
 
 - 《蕉力全开》极有可能是我的年度游戏了，带来的是那种最本能的快乐
 - 因为本地 pizza 店推出了 40 刀一个月的 pizza pass 而每天下班都去领一块（真的没有那么不健康）
@@ -13,16 +13,21 @@ menu = "main"
 - 新兴趣：桌游
 - 新兴趣：🚴
 
-## 书影音
+### 书影音
 
-- <mark>*在读*</mark>
+#### <mark>*在读*</mark>
+
 {{< neodb category="book" >}}
-- <mark>*在看*</mark>
+
+#### <mark>*在看*</mark>
+
 {{< neodb category="tv" >}}
-- <mark>*在玩*</mark>
+
+#### <mark>*在玩*</mark>
+
 {{< neodb category="game" >}}
 
-## Best in 2025
+### 年度最佳 (2025)
 
 - 一个网站：[Plain Text Sports](https://plaintextsports.com/)
 - [Tactical Breach Wizards](https://neodb.social/game/3xbuq2fGswthJXazbuaHKz)
@@ -37,40 +42,3 @@ menu = "main"
 - 蕉力全开 (WIP)
 
 ***
-
-## whoami
-
-- in reality
-  - 常用 id: rexarski.
-  - DMV 打工人，stat head.
-  - 大概爱好 🚶🎷⚽🏀🎮🏎️📊📚
-  - 游戏产业的守护者（ Steam 上这么称呼我的）
-  - 原力非敏感光剑持有人
-  - 现实中的[松鼠](https://thevarsity.ca/2003/02/10/breeding-unease-in-queens-park/)召唤师
-  - 被动技能：大机率挑到甜的水果
-- in games
-  - [澡盆](https://splatoonwiki.org/wiki/Bloblobber)玩家守门员、打工苦手
-  - SL流派足球经理，专业执教低级别联赛小球队
-  - TF2 永远的 [combo pyro](https://www.youtube.com/watch?v=3gh47cWmOxI)
-  - 曾经的「上一次传说就退休」炉石旅人
-  - 入门卡牌收藏家
-
-***
-
-<!-- ## ❯❯❯ Badge collection -->
-
-<!-- 受 Louie Mantia, Jr 的 [LMNT](https://lmnt.me/badges/) 的影响搞了这个： -->
-
-<!-- <div class="badgebox">
-    <a href="https://notbyai.fyi/">
-        <img class="badge" src="/images/badges/not-by-ai.png" alt="not-by-ai-badge"/>
-    </a>
-    <a href="https://app.netlify.com/sites/rexarski/deploys">
-        <img class="badge" src="https://api.netlify.com/api/v1/badges/7b30b16b-f3d1-43e2-abf5-c1708e515cbf/deploy-status" alt="Netlify Status" />
-    </a>
-    <a href="/index.xml">
-        <img class="badge" src="/images/badges/rss.png" alt="rss-badge"/>
-    </a>
-</div> -->
-
-<!-- *** -->
