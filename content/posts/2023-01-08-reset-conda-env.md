@@ -1,7 +1,7 @@
 +++
 title = "如何重置一个 conda 环境"
 date = "2023-01-08"
-description = ""
+description = "提供重置和清理 conda 环境的完整步骤，包括环境克隆、重新创建和清理缓存的方法。"
 tags = ["代码经验"]
 +++
 

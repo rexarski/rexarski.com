@@ -1,7 +1,7 @@
 +++
 title = "如何在 Hugo 中添加行内键盘按键和高亮显示"
 date = "2023-02-23"
-description = ""
+description = "介绍在 Hugo 博客中为键盘按键和高亮文本添加自定义样式的方法，包括 CSS 配置和用法。"
 tags = ["没事折腾"]
 +++
 

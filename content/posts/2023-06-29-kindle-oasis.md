@@ -2,7 +2,7 @@
 title = "Kindle Oasis 的短期使用感受"
 slug = "kindle-oasis"
 date = "2023-06-29"
-description = ""
+description = "从 Kindle Paperwhite 升级到 Oasis 的一周使用体验，对比两款设备的差异，重点分享物理按键、响应速度、自动旋转等功能的实际感受。"
 tags = ["捣鼓硬件"]
 +++
 

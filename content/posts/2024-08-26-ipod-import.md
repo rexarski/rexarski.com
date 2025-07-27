@@ -2,7 +2,7 @@
 title = "在 2024 年给 iPod 填充音乐的工作流程"
 slug = "ipod-import"
 date = "2024-08-26"
-description = ""
+description = "整了台 iPod 并想着办法给它填满音乐。"
 tags = ["捣鼓硬件"]
 +++
 

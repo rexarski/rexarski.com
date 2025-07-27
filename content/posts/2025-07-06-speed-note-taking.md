@@ -2,6 +2,7 @@
 title: "唯快不破"
 date: 2025-07-06T23:33:18-04:00
 slug: "speed-note-taking"
+description: "发现Apple Watch的听写功能配合Drafts应用进行快速记录，简化日记写作流程的体验。"
 tags: ["日日谈"]
 ---
 

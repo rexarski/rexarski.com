@@ -2,7 +2,7 @@
 title = "半放弃了双拼输入法"
 slug = "shuangpin"
 date = "2024-05-09"
-description = ""
+description = "双拼输入法对打字是思维的限制让我暂时放弃了它。"
 tags = ["没事折腾"]
 +++
 

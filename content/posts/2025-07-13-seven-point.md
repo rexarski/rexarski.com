@@ -2,6 +2,7 @@
 title: "七分制"
 date: 2025-07-13T23:35:18-04:00
 slug: "seven-point"
+description: "介绍 Steph Ango 的七分制评分体系，分析其相比五分制和十分制的优势，并提供评分对照表。"
 tags: ["日日谈"]
 ---
 

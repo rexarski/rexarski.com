@@ -1,7 +1,7 @@
 +++
 title = "Sentiment analysis 只是有点用处"
 date = "2022-09-05"
-description = ""
+description = "探讨情感分析在文本挖掘中的局限性，指出其在实际应用中的不足和过度使用的问题。"
 tags = ["自然语言"]
 +++
 

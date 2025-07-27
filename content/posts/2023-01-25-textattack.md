@@ -1,7 +1,7 @@
 +++
 title = "使用 TextAttack 进行对抗性攻击"
 date = "2023-01-25"
-description = ""
+description = "介绍如何利用 TextAttack 工具在自然语言处理任务中进行对抗性攻击，并评估模型的鲁棒性。"
 tags = ["自然语言"]
 +++
 

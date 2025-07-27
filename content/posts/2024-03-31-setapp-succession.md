@@ -2,7 +2,7 @@
 title = "Setapp 继承计划"
 slug = "setapp-succession"
 date = "2024-03-31"
-description = ""
+description = "Setapp 包含的产品的替代品有什么。"
 tags = ["没事折腾"]
 +++
 

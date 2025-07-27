@@ -1,7 +1,7 @@
 +++
 title = "回归 vanilla (fish) shell"
 date = "2024-01-30"
-description = ""
+description = "从使用十年的 oh-my-zsh 切换到 fish shell 的完整迁移指南，包括卸载、安装、配置默认 shell、路径设置和常用别名配置的详细步骤。"
 tags = ["代码经验"]
 +++
 
@@ -62,11 +62,3 @@ end
 - 从 Homebrew 安装了 [fish](https://fishshell.com/)：`brew install fish`
 - 根据这个 [gist](https://gist.github.com/gagarine/cf3f65f9be6aa0e105b184376f765262) 将 `fish` 设置为默认shell。由于近年来macOS的更新，文档可能已经过时，因为 fish 的默认路径现在不同：`/opt/homebrew/bin/fish`。
 - 添加了“已知 shell ”列表：`sudo sh -c 'echo /opt/homebrew/bin/fish >> /etc/shells'`
-- 重启 CLI 并运行命令：`chsh -s /opt/homebrew/bin/fish`。
-- 重启 CLI 并在fish路径中添加brew二进制文件：`fish_add_path /opt/homebrew/bin`
-- 在 `~/.config/fish/config.fish` 中添加了一些常用的别名。
-- 添加了一个片段以便轻松使用~~`exa`~~ `eza`。感谢 [Ruihao Li](https://ruihao-li.github.io/blog/fish-shell-customization/)。
-- 在 VSC 中使用 `cmd+shift+p` 将 `code` 命令加入到 `PATH` 中。
-- 使用 `fish_config` 自定义我的 shell 提示符。
-
-我终于平静了。

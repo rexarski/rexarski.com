@@ -1,7 +1,7 @@
 +++
 title = "如何 git commit"
 date = "2023-04-02"
-description = ""
+description = "总结 git commit message 的个人规范和格式建议，强调手写提交信息的重要性和自定义分类。"
 tags = ["代码经验"]
 +++
 

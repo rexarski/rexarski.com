@@ -1,7 +1,8 @@
 ---
-title: "Kindle: What’s yours is mine"
+title: "Kindle: What's yours is mine"
 date: 2025-06-18
 slug: "goodbye-kindle"
+description: "告别 Kindle Oasis，讨论 Amazon 封闭策略对数字所有权的影响，以及转向 Kobo 阅读器的体验。"
 tags: ["日日谈"]
 ---
 

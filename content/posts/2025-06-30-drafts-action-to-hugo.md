@@ -2,6 +2,7 @@
 title: "用 Drafts Action 自动化发布到 Hugo 博客的尝试"
 date: 2025-06-30T21:13:24-04:00
 slug: "drafts-action-to-hugo"
+description: "详细介绍如何使用 Drafts Action 自动化将文章发布到 Hugo 客，包括 JavaScript 代码实现和 x-callback-url 集成。"
 tags: ["日日谈"]
 ---
 
@@ -36,22 +37,22 @@ let safeTitle = draft.processTemplate("[[safe_title]]");
 let slug = safeTitle.replace(/ +/g, "-").toLowerCase();
 // 如果 title 中包含非拉丁字母，则改为在提示框中手动输入
 if (!/^[0-9a-z-]+$/.test(slug)) {
-	let p = Prompt.create();
-	p.title = "Enter slug for the post";
-	p.addTextField("slug", "Slug (a-z, 0-9, -)", "");
-	p.addButton("OK"); // add this line!
-	if (p.show()) { 
-		slug = p.fieldValues["slug"]; 
-	} else { 
-		context.cancel(); 
-	}
+ let p = Prompt.create();
+ p.title = "Enter slug for the post";
+ p.addTextField("slug", "Slug (a-z, 0-9, -)", "");
+ p.addButton("OK"); // add this line!
+ if (p.show()) {
+  slug = p.fieldValues["slug"];
+ } else {
+  context.cancel();
+ }
 }
 // 草稿的 tag 也会变成 list of strings 的 tag 格式
 let tags = draft.tags;
 let tagsYaml = tags.length ? `tags: [${ tags.map(t=> `"${t}"`).join(", ") }]` : "";
 
 // 基于以上内容生成包含 frontmatter 的 markdown 文本内容
-let frontMatter = 
+let frontMatter =
 `---
 title: "${title}"
 date: ${dateTime}
@@ -69,8 +70,8 @@ let cb = CallbackURL.create();
 cb.baseURL = `working-copy://x-callback-url/write?key=MYWORKINGCOPYKEY&repo=rexarski.com&clipboard=yes&mode=safe&no_text=empty&path=content/posts/${yyyy}-${MM}-${dd}-${slug}.md`
 let success = cb.open();
 if (!success) {
-	console.error(cb.status + ": " + cb.callbackResponse);
-	context.fail();
+ console.error(cb.status + ": " + cb.callbackResponse);
+ context.fail();
 }
 ```
 

@@ -2,6 +2,7 @@
 title: "六月玩了什么"
 date: 2025-06-20
 slug: "games-i-played-in-june"
+description: "分享六月玩过的游戏体验，包括 Mario Kart World、F1 25、The Alters 等，以及对不同游戏类型的感受。"
 tags: ["日日谈"]
 ---
 

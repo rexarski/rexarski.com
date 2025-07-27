@@ -1,7 +1,7 @@
 +++
 title = "climate-plus"
 date = "2023-05-18"
-description = ""
+description = "记录基于 ClimateBERT 的气候相关文本分类项目，从数据采集、处理到模型微调的全过程与挑战。"
 tags = ["自然语言"]
 +++
 

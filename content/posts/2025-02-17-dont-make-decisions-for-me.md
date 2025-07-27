@@ -1,7 +1,7 @@
 +++
 title = "你别替我决定"
 date = "2025-02-17"
-description = "每年写，今年如何写得不同呢？"
+description = "感谢 reddit 网友。"
 tags = ["胡思乱想"]
 +++
 

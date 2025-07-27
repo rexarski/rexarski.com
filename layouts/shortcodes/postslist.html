@@ -1,7 +1,7 @@
 <!-- This is layouts/shortcodes/postslist.html -->
 <div class="latest-post">
     {{ $posts := where (where .Site.RegularPages "Type" "in" (slice "zh"
-    "posts")) "Params.draft" "!=" true }} {{ $recentPost := first 1
+    "posts")) "Params.draft" "!=" true }} {{ $recentPost := first 3
     ($posts.ByDate.Reverse) }} {{ range $recentPost }}
     <div class="latest-post-item">
         <div class="post-header">

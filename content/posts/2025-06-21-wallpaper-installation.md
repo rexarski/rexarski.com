@@ -2,6 +2,7 @@
 title: "贴墙纸"
 date: 2025-06-21
 slug: "wallpaper-installation"
+description: "贴现实中的墙纸比换桌面壁纸可难多了。"
 tags: ["日日谈"]
 ---
 

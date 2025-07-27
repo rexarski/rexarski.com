@@ -1,6 +1,7 @@
 +++
 title = "如何找到 Python 解释器"
 date = "2023-01-27T21:36:27-05:00"
+description = "提醒在创建 conda 环境时需显式指定 Python 版本，否则环境中不会自动包含 Python 解释器。"
 tags = ["代码经验"]
 +++
 
