@@ -5,6 +5,8 @@ menu = "not-main"
 
 # <pre>changelog</pre>
 
+- 2025-07-27
+  - now 页面增加了喜爱的独立博客
 - 2025-07-26
   - 给过去的博文增加了 description
   - 简化了首页布局，增加了 about 页面

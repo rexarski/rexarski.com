@@ -16,6 +16,6 @@
 
 本站还包括：
 
-- [博文](./posts/)
-- [how2home](./how2home/)
+- [博文归档](./posts/)
+- [how2home: 家庭杂务指南](./how2home/)
 - [toolbox](./toolbox/)
