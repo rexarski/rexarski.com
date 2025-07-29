@@ -49,6 +49,7 @@ menu = "not on main"
 - Turn off the auto boot feature (if this is a MacBook.) `sudo nvram AutoBoot=%00`. Turn it back on by `sudo nvram AutoBoot=%03` or use `nvram -p` to check the current value.
 - Generate and add SSH key to GitHub account.
 - In Safari, go to Preferences - Advanced, turn on "Show Develop menu in menu bar".
+- Themes I use in general: [Flexoki](https://stephango.com/flexoki), [Copilot Theme](https://marketplace.visualstudio.com/items?itemName=BenjaminBenais.copilot-theme), [Dracula](https://draculatheme.com/), and [Cobalt 2](https://github.com/wesbos/cobalt2).
 
 ## Application list
 
@@ -86,6 +87,7 @@ menu = "not on main"
   - Highlights to Obsidian
   - Obok DeDRM
 - [Countdown Timer Pro](https://apps.apple.com/us/app/countdown-timer-pro/id6744842468?mt=12). 
+- [Cursor](https://cursor.com/en)
 
 ### D
 
