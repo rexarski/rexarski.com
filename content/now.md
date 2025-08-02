@@ -37,15 +37,14 @@ menu = "main"
 - [梦想家](https://neodb.social/album/7APUZWwgTnkKWR1FmtDNr5) - *方大同*
 - 陶喆的歌
 - [冷宴](https://neodb.social/book/0ABYBI61QH0A0BMZYHLXvl) - *Joe Abercrombie*
+- [英雄](https://neodb.social/book/5ebH8XOoPI3bDknW9SfVxc) - *Joe Abercrombie*
 - [WOODKID FOR DEATH STRANDING 2: ON THE BEACH](https://music.apple.com/us/album/woodkid-for-death-stranding-2-on-the-beach/1818147007) - *Woodkid*
 - [龙年](https://music.apple.com/us/album/%E9%BE%99%E5%B9%B4/1818975832) - *华云龙 KLE*
-- 蕉力全开 (WIP)
+- [咚奇刚 蕉力全开](https://neodb.social/game/00G9kqUJsYZuOVppGDnwES)
 
-***
+### Blogroll
 
-### 每次更新都会读的博客
-
-或因为内容，或因为设计，但最主要还是因为喜欢他们的内容和持续写作的状态。
+或因为内容，或因为设计，但最主要还是因为喜欢他们的持续写作的状态，这些是「每次更新都会读的博客」。
 
 也因为不愿意错过每一次更新，所以在 feed name 之前都加了一个额外的符号以代替 [Reeder](https://reederapp.com) 中缺乏的 tag.
 
@@ -54,6 +53,7 @@ menu = "main"
 - [cbvivi](https://cbvivi.today)
 - [Chip Huyen](https://huyenchip.com/blog/)
 - [Christian Selig](https://christianselig.com)
+- [Craig Mod](https://craigmod.com/)
 - [Daring Fireball](https://daringfireball.net)
 - [Dr Dominic Royé](https://dominicroye.github.io/blog/)
 - [Eugene Yan](https://eugeneyan.com/writing/)
