@@ -5,11 +5,10 @@ menu = "main"
 
 ## Now
 
+- 新头衔获得：爸爸
 - 《蕉力全开》极有可能是我的年度游戏了，带来的是那种最本能的快乐
-- 因为本地 pizza 店推出了 40 刀一个月的 pizza pass 而每天下班都去领一块（真的没有那么不健康）
 - **多** 拍 照 片，以记录珍贵的家庭影像
-- 沉迷于每天睡前在 Kobo 上用 [KOReader](https://github.com/koreader/koreader) 看书停不下来，并且为离开 Kindle 毫无悔意
-- 在迎接新生命到来前做 digital housekeeping
+- 喜欢 Kobo, 喜欢 [KOReader](https://github.com/koreader/koreader)
 - 新兴趣：桌游
 - 新兴趣：🚴
 
