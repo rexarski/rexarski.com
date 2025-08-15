@@ -60,6 +60,10 @@ menu = "not on main"
 
 ***2025-05-11 更新***：个人认为 Philips 的总体比 Oral-B 的更好用。
 
+### 如何清洁马桶（缸）
+
+时间长了会有水垢和霉斑，日常清洁用硬毛刷 + Clorox Toiletwand 即可，但是如果出现了顽固的污垢则可以用以下的 acidic toilet bowl cleaner. 浸润五分钟然后再用硬毛刷清洁。
+
 ***
 
 ## 清洁
