@@ -6,7 +6,7 @@ slug: "anti-consumerism"
 tags: ["日日谈"]
 ---
 
-Insta360 Go Ultra 宣传视频下面的一条评论：
+Insta360 Go Ultra [宣传视频](https://youtu.be/aerfumuugbM)下面的一条评论：
 
 > I'm going to buy it, tear open the box like it's Christmas morning, record a couple days of nonsense, then binge 87 YouTube tutorials where a guy in his basement explains settings I'll never use. Then I'll proudly place it right next to my computer as a decorative paperweight because life's daily chaos will make sure I never actually touch it again.
 
