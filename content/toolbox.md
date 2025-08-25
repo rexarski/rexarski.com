@@ -55,6 +55,7 @@ menu = "not on main"
 
 ### A
 
+- [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html). For downloading and reading Kobo epub.
 - [Affinity Designer 2](https://affinity.serif.com/en-us/designer/). 🎫
 - [Affinity Photo 2](https://affinity.serif.com/en-us/photo/). 🎫
 - [Affinity Publisher 2](https://affinity.serif.com/en-us/publisher/). 🎫
