@@ -1,7 +1,7 @@
 ---
 title: "橙味浓缩咖啡汤力水"
 date: 2025-08-29T17:02:37-04:00
-description: ""
+description: "相比冷萃我还是喜欢浓缩。"
 slug: "orange-espresso-tonic"
 tags: ["新人厨师"]
 ---
