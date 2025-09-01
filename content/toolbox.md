@@ -70,7 +70,20 @@ menu = "not on main"
 
 - [BetterDisplay](https://github.com/waydabber/BetterDisplay#readme). Display customization tool. From the same developer of [Monitor Control](https://github.com/MonitorControl/MonitorControl). 🎫
 - [BetterTouchTool](https://folivora.ai), input (not only trackpad!) customization. 🎫
-  - Use Right `Cmd` + `Space` to activate clipboard manager.
+  - All apps
+    - rotate right = volume up
+    - rotate left = volume down
+    - 2 fingers tap = mission control
+    - 2 fingers click = play/pause
+    - 3 fingers tap = command + w
+    - 3 fingers click = close window under cursor
+    - 3 fingers pinch in = command +shift + 4 = shottr active window screenshot
+    - 4 fingers tap = minimize window under cursor
+    - 4 fingers click = quit app under cursor
+    - 5 fingers tap = application expose
+  - Preview
+    - 2 fingers swipe right = rotate right
+    - 2 fingers swipe left = rotate left
 - [bun](https://bun.sh/) `curl -fsSL https://bun.sh/install | bash`
 
 ### C

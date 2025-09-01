@@ -5,10 +5,10 @@ menu = "main"
 
 ## Now
 
-- 新头衔获得：爸爸
+- 带娃缺觉中…… 
 - 《蕉力全开》极有可能是我的年度游戏了，带来的是那种最本能的快乐
 - **多** 拍 照 片，以记录珍贵的家庭影像
-- 喜欢 Kobo, 喜欢 [KOReader](https://github.com/koreader/koreader)
+- KOReader makes e-ink great again
 - 新兴趣：桌游
 - 新兴趣：🚴
 
@@ -40,6 +40,7 @@ menu = "main"
 - [WOODKID FOR DEATH STRANDING 2: ON THE BEACH](https://music.apple.com/us/album/woodkid-for-death-stranding-2-on-the-beach/1818147007) - *Woodkid*
 - [龙年](https://music.apple.com/us/album/%E9%BE%99%E5%B9%B4/1818975832) - *华云龙 KLE*
 - [咚奇刚 蕉力全开](https://neodb.social/game/00G9kqUJsYZuOVppGDnwES)
+- Kobo Clara Color + [KOReader](https://github.com/koreader/koreader)
 
 ### Blogroll
 
