@@ -5,6 +5,8 @@ menu = "not-main"
 
 # <pre>changelog</pre>
 
+- 2025-09-07
+  - single post 页面增加了对于 frontmatter 里 description 的渲染 (tl;dr)
 - 2025-07-27
   - now 页面增加了喜爱的独立博客
 - 2025-07-26
