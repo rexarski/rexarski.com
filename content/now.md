@@ -41,3 +41,6 @@ menu = "main"
 - [龙年](https://music.apple.com/us/album/%E9%BE%99%E5%B9%B4/1818975832) - *华云龙 KLE*
 - [咚奇刚 蕉力全开](https://neodb.social/game/00G9kqUJsYZuOVppGDnwES)
 - Kobo Clara Color + [KOReader](https://github.com/koreader/koreader)
+- [JetPens](https://www.jetpens.com) 一个卖日本文具的网站
+- Baby Lou
+ 

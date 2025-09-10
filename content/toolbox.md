@@ -68,7 +68,6 @@ menu = "not on main"
 
 ### B
 
-- [BetterDisplay](https://github.com/waydabber/BetterDisplay#readme). Display customization tool. From the same developer of [Monitor Control](https://github.com/MonitorControl/MonitorControl). 🎫
 - [BetterTouchTool](https://folivora.ai), input (not only trackpad!) customization. 🎫
   - All apps
     - rotate right = volume up
@@ -100,6 +99,7 @@ menu = "not on main"
   - [GitHub - noDRM/DeDRM\_tools: DeDRM tools for ebooks](https://github.com/noDRM/DeDRM_tools)
   - Highlights to Obsidian
   - Obok DeDRM
+- [Concept2 Utility](https://www.concept2.com/support/software/utility) 
 - [Countdown Timer Pro](https://apps.apple.com/us/app/countdown-timer-pro/id6744842468?mt=12). 
 - [Cursor](https://cursor.com/en)
 
@@ -143,6 +143,7 @@ menu = "not on main"
 
 ### I
 
+- [iA Writer](https://ia.net/writer)
 - [Ice](https://github.com/jordanbaird/Ice). Bartender alternative. `brew install --cask jordanbaird-ice` 🍺
 - [IINA](https://iina.io/). Media player. `brew install --cask iina` 🍺
 - [Ivory for Mastodon](https://tapbots.com/ivory/mac/). 🔁
@@ -169,6 +170,7 @@ menu = "not on main"
 - [Loop](https://github.com/MrKai77/Loop). Alternative to Moom.
   - Left `Ctrl` to activate a selector ring.
   - `brew install --cask loop` 🍺
+- [Lunar](https://lunar.fyi/)
 
 ### M
 
@@ -302,6 +304,7 @@ menu = "not on main"
 - [Android File Transfer](https://www.android.com/filetransfer/)
 - [Audacity](https://www.audacityteam.org/)
 - [Beekeeper Studio Community Edition](https://github.com/beekeeper-studio/beekeeper-studio)
+- [BetterDisplay](https://github.com/waydabber/BetterDisplay#readme). Display customization tool. From the same developer of [Monitor Control](https://github.com/MonitorControl/MonitorControl). 🎫
 - [Blink](https://apps.apple.com/us/app/blink-home-monitor/id1013961111) 
 - [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn). Screensaver inspired by Apple's Event on October 30, 2018.
 - [Buckets](https://www.budgetwithbuckets.com/) 🎫
