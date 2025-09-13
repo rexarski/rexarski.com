@@ -5,26 +5,13 @@ menu = "main"
 
 ## Now
 
-- 带娃缺觉中…… 
+- 带娃缺觉中……
 - 《蕉力全开》极有可能是我的年度游戏了，带来的是那种最本能的快乐
 - **多** 拍 照 片，以记录珍贵的家庭影像
 - KOReader makes e-ink great again
 - 新兴趣：桌游
 - 新兴趣：🚴
-
-### 书影音
-
-#### <mark>*在读*</mark>
-
-{{< neodb category="book" >}}
-
-#### <mark>*在看*</mark>
-
-{{< neodb category="tv" >}}
-
-#### <mark>*在玩*</mark>
-
-{{< neodb category="game" >}}
+- [正在读的书、追的剧、打的游戏](/neodb/)
 
 ### 年度最佳 (2025)
 
@@ -43,4 +30,3 @@ menu = "main"
 - Kobo Clara Color + [KOReader](https://github.com/koreader/koreader)
 - [JetPens](https://www.jetpens.com) 一个卖日本文具的网站
 - Baby Lou
- 

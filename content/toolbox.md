@@ -83,6 +83,7 @@ menu = "not on main"
   - Preview
     - 2 fingers swipe right = rotate right
     - 2 fingers swipe left = rotate left
+- [Buckets](https://www.budgetwithbuckets.com/) 🎫
 - [bun](https://bun.sh/) `curl -fsSL https://bun.sh/install | bash`
 
 ### C
@@ -99,7 +100,7 @@ menu = "not on main"
   - [GitHub - noDRM/DeDRM\_tools: DeDRM tools for ebooks](https://github.com/noDRM/DeDRM_tools)
   - Highlights to Obsidian
   - Obok DeDRM
-- [Concept2 Utility](https://www.concept2.com/support/software/utility) 
+- [Concept2 Utility](https://www.concept2.com/support/software/utility)
 - [Countdown Timer Pro](https://apps.apple.com/us/app/countdown-timer-pro/id6744842468?mt=12). 
 - [Cursor](https://cursor.com/en)
 
@@ -307,7 +308,6 @@ menu = "not on main"
 - [BetterDisplay](https://github.com/waydabber/BetterDisplay#readme). Display customization tool. From the same developer of [Monitor Control](https://github.com/MonitorControl/MonitorControl). 🎫
 - [Blink](https://apps.apple.com/us/app/blink-home-monitor/id1013961111) 
 - [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn). Screensaver inspired by Apple's Event on October 30, 2018.
-- [Buckets](https://www.budgetwithbuckets.com/) 🎫
 - [Cardhop](https://flexibits.com/cardhop). 🎫
 - [CARROT Weather](https://www.meetcarrot.com/weather/) 🔁
 - [coconutBattery](https://coconut-flavour.com/coconutbattery/)
