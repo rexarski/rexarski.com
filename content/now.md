@@ -6,6 +6,8 @@ menu = "main"
 ## Now
 
 - 带娃缺觉中……
+- The Pete Plan 🚣 [入门级别计划](https://thepeteplan.wordpress.com/beginner-training/)
+  - Reddit 上有网友分享了一个[可以打印的计划表](https://www.reddit.com/r/concept2/s/rgsBUU9rix)
 - 《蕉力全开》极有可能是我的年度游戏了，带来的是那种最本能的快乐
 - **多** 拍 照 片，以记录珍贵的家庭影像
 - KOReader makes e-ink great again
@@ -29,4 +31,7 @@ menu = "main"
 - [咚奇刚 蕉力全开](https://neodb.social/game/00G9kqUJsYZuOVppGDnwES)
 - Kobo Clara Color + [KOReader](https://github.com/koreader/koreader)
 - [JetPens](https://www.jetpens.com) 一个卖日本文具的网站
+  - [Free downloads and printables](https://www.jetpens.com/blog/Free-Downloads-Printables-Coloring-Pages-Cursive-Worksheets-More/pt/484)
+  - [Best planners for 2026](https://www.jetpens.com/blog/The-Best-Planners-for-2026/pt/97)
 - Baby Lou
+- [The Pete Plan - Beginner Training](https://thepeteplan.wordpress.com/beginner-training/) 
