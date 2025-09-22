@@ -5,22 +5,17 @@ menu = "main"
 
 ## Now
 
-- 带娃缺觉中……
-- The Pete Plan 🚣 [入门级别计划](https://thepeteplan.wordpress.com/beginner-training/)
-  - Reddit 上有网友分享了一个[可以打印的计划表](https://www.reddit.com/r/concept2/s/rgsBUU9rix)
-- 《蕉力全开》极有可能是我的年度游戏了，带来的是那种最本能的快乐
-- **多** 拍 照 片，以记录珍贵的家庭影像
-- KOReader makes e-ink great again
-- 新兴趣：桌游
-- 新兴趣：🚴
+- 带娃缺觉中……开展一个 Project Nursing Chair.
+- 🚣 尝试 The Pete Plan 的[入门级别计划](https://thepeteplan.wordpress.com/beginner-training/)
+- 被下一年的 Hobonichi 种草，所以重新捡起了今年的本子。
 
 ### 在读
 
-{{< neodb category=“book” >}}
+{{< neodb category="book" >}}
 
 ### 在看
 
-{{< neodb category=“tv” >}}
+{{< neodb category="tv" >}}
 
 ### 年度最佳 (2025)
 
