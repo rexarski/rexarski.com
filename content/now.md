@@ -6,7 +6,7 @@ menu = "main"
 ## Now
 
 - 带娃缺觉中……开展一个 Project Nursing Chair.
-- 🚣 尝试 The Pete Plan 的[入门级别计划](https://thepeteplan.wordpress.com/beginner-training/)
+- 🚣 尝试 The Pete Plan 的[入门级别计划](https://thepeteplan.wordpress.com/beginner-training/)。
 - 被下一年的 Hobonichi 种草，所以重新捡起了今年的本子。
 
 ### 在读
@@ -36,4 +36,4 @@ menu = "main"
   - [Free downloads and printables](https://www.jetpens.com/blog/Free-Downloads-Printables-Coloring-Pages-Cursive-Worksheets-More/pt/484)
   - [Best planners for 2026](https://www.jetpens.com/blog/The-Best-Planners-for-2026/pt/97)
 - Baby Lou
-- [The Pete Plan - Beginner Training](https://thepeteplan.wordpress.com/beginner-training/) 
+- [The Pete Plan - Beginner Training](https://thepeteplan.wordpress.com/beginner-training/)

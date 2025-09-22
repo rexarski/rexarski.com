@@ -42,6 +42,40 @@
         /* color: #ff5e6c; */
     }
 
+    /* 只针对正文内容中的链接添加荧光笔效果 */
+    .content a,
+    .post-content a,
+    .single-content a,
+    main
+        a:not(.title):not(.nav-title):not(.post-title):not(
+            .minimalist-item a
+        ):not(.post-description a):not(.blog-posts a):not(small a):not(
+            .latest-post a
+        ) {
+        text-decoration: none;
+        position: relative;
+    }
+
+    .content a::after,
+    .post-content a::after,
+    .single-content a::after,
+    main
+        a:not(.title):not(.nav-title):not(.post-title):not(
+            .minimalist-item a
+        ):not(.post-description a):not(.blog-posts a):not(small a):not(
+            .latest-post a
+        )::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 3px;
+        width: 100%;
+        height: 5px;
+        background-color: rgba(144, 238, 144, 0.4);
+        border-radius: 1px;
+        z-index: -1;
+    }
+
     .title {
         text-decoration: none;
         border: 0;
@@ -499,6 +533,18 @@
 
         a {
             color: #8cc2dd;
+        }
+
+        .content a::after,
+        .post-content a::after,
+        .single-content a::after,
+        main
+            a:not(.title):not(.nav-title):not(.post-title):not(
+                .minimalist-item a
+            ):not(.post-description a):not(.blog-posts a):not(small a):not(
+                .latest-post a
+            )::after {
+            background-color: rgba(255, 255, 224, 0.4);
         }
 
         code {

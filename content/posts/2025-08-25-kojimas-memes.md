@@ -47,7 +47,7 @@ tags: ["日日谈"]
 25. Christophe Chaboute. [_Alone 孤独一人_](https://www.goodreads.com/book/show/30753657-alone)。
 26. Louis Malle. [_Elevator to the Gallows 通往绞刑架的电梯_](https://boxd.it/294u)。
 27. Philipp Stölzl. [_North Face 北壁_](https://boxd.it/1K66)。
-28. Martin Scorsese. [_Taxi Driver 出租车司机](https://boxd.it/2b8y)。
+28. Martin Scorsese. [_Taxi Driver 出租车司机_](https://boxd.it/2b8y)。
 29. William Link & Richard Levinson. [_Columbo “Publish or Perish”, 神探科伦坡 第三终章_](https://www.imdb.com/title/tt0071349/)。
 30. _日曜洋画剧场四十周年纪念 淀川长治的著名影片解说_。
 31. [_Be Witched 家有仙妻_](https://movie.douban.com/subject/2212156/)，[_Little House on the Prairie 大草原上的小木屋_](https://www.imdb.com/title/tt0071007)，[_蜡笔小新_](https://movie.douban.com/subject/1431683/)
@@ -65,19 +65,19 @@ tags: ["日日谈"]
 另外摘抄这么两段：
 
 > 所以我想通过本书，把书籍给予我的“连接着”的感觉也传达给别人。
-> 
+>
 > 这种连接的媒介，就是MEME。相信很多人都知道，这是由进化生物学家理查德•道金斯所提出的概念。与生物学上的基因不同，是指将文化、习惯、价值观之类的信息传承至下一世代。故事，我以说是MEME的一种形态。通过话语、文字，文化不停进行着传承。
-> 
+>
 > 就像人与人之间的连接通过基因进行着传递一样，人与书籍、电影之间的连接则由MEME所继承。
-> 
+>
 > ...
-> 
+>
 > 说起来，之前在E3上发布的首部先导预告里使用了Low Roar乐队的歌曲，这当中的相遇就是如此。
-> 
+>
 > 那还是《死亡搁浅》连影子都还没有的时候。我去冰岛旅行，当时乘坐的出租车的司机是有着“冰岛JOY DIVISION”之称的乐队KIMONO的成员。我去了他推荐的一家CD店，选了些心仪的CD。在收银台准备付钱的时候，当时店里播放的歌曲引起了我的注意，一问之下才知道那是Low Roar的歌，于是一并买回了国。
-> 
+>
 > 在这个时点，还只是ME，还并没有发生相遇。虽然在我的意识深处已经有所成形，但尚未作为新的MEME诞生。
-> 
+>
 > 在不断尝试预告片的选曲过程中，Low Roar的“I’ll Keep Coming”就那么突然浮现在了我的脑海里。
-> 
+>
 > 如同一开始就已经定好了似的，ME和ME结合到一起，诞生了新的MEME。
