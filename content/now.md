@@ -37,3 +37,4 @@ menu = "main"
   - [Best planners for 2026](https://www.jetpens.com/blog/The-Best-Planners-for-2026/pt/97)
 - Baby Lou
 - [The Pete Plan - Beginner Training](https://thepeteplan.wordpress.com/beginner-training/)
+- [Heartbeat Pineapple Habanero](https://www.heartbeathotsauce.com/products/pineapple) hot sauce
