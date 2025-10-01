@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "id": "https://neodb.social/tv/season/3cMg6eupq6mkNbpQS4Q8GT",
-      "title": "悬案解码 (悬案密码)",
-      "created_time": "2025-09-27T19:50:20.963Z"
-    },
-    {
       "id": "https://neodb.social/tv/season/0gXKnAw3TFxPlBoC3WeAmB",
       "title": "炙热游戏：百厨大战",
       "created_time": "2025-09-26T00:25:39.460Z"
@@ -29,11 +24,6 @@
       "id": "https://neodb.social/tv/season/3icgXsW62hahofgwSD1Zru",
       "title": "和平使者 第二季",
       "created_time": "2025-08-22T04:50:16.810Z"
-    },
-    {
-      "id": "https://neodb.social/tv/season/6En2oxib1Fi9gzrcGXDdbq",
-      "title": "SAKAMOTO DAYS (坂本日常)",
-      "created_time": "2025-07-16T21:15:51.533Z"
     }
   ]
 }
