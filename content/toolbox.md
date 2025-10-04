@@ -167,7 +167,7 @@ menu = "not on main"
 
 - [Latest](https://github.com/mangerlahn/Latest). Checks applications' latest update on macOS.
  `brew install --cask latest` 🍺
-- [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html). Customize Logitech peripherals.
+- [LocalSend](https://localsend.org). File transfer between Android and other devices.
 - [Loop](https://github.com/MrKai77/Loop). Alternative to Moom.
   - Left `Ctrl` to activate a selector ring.
   - `brew install --cask loop` 🍺
@@ -323,7 +323,7 @@ menu = "not on main"
 - [Itsycal for Mac](https://www.mowglii.com/itsycal/)
 - [julia](https://julialang.org/) `brew install --cask julia` 🍺
 - [KeyCastr](https://github.com/keycastr/keycastr) `Hyper` + `K`: Toggle capturing
-- [LM Studio](https://lmstudio.ai/)
+- [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html). Customize Logitech peripherals.
 - [Maccy](https://maccy.app/). Clipboard. `brew install --cask maccy` 🍺
 - [Mactracker](https://mactracker.ca/) 
 - [MiaoYan 妙言](https://github.com/tw93/MiaoYan/)

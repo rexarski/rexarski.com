@@ -34,7 +34,7 @@ menu = "main"
 
 ### Colophon
 
-草稿多数来自于 [Drafts](https://getdrafts.com) 或者 [Obsidian](https://obsidian.md) 中的日记。
+草稿多数来自于 [iA Writer](https://ia.net/writer) 或者 [Obsidian](https://obsidian.md) 中的日记。
 
 编辑器最常使用的是 [Cursor](https://cursor.com/en) (macOS) 和 [Working Copy](https://workingcopy.app) / [Textastic](https://www.textasticapp.com) (iPadOS).
 
