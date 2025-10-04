@@ -13,7 +13,7 @@ tags = ["捣鼓硬件"]
 上周在 eBay 上激情消费了一款 [gen 6](https://en.wikipedia.org/wiki/IPod_Classic#6th_generation) 的 iPod Classic 80 GB，银色。2008 年款，和我的第一台 Apple，iPod Nano gen 3 同年。买完之后才通过 YouTube 和 reddit 了解到 gen 5 或者 5.5，也就是所谓的 iPod Video 才是其中最优的选择：一是因为 DAC 更为人所追捧，二是后盖更好拆装，所以自行改装门槛低。
 
 <div style="display: flex; justify-content: center;">
-<img src="https://raw.githubusercontent.com/rexarski/oss/main/uPic/2024-08-26-iPod-01.jpg" alt="iPod Classic 6th gen" style="max-width: 50%;">
+<img src="https://raw.githubusercontent.com/rexarski/oss/main/2024-08-26-iPod-01.jpg" alt="iPod Classic 6th gen" style="max-width: 50%;">
 </div>
 
 按下不表，今天收到设备之后把玩了一番有这么几个槽点：
@@ -29,10 +29,8 @@ tags = ["捣鼓硬件"]
 那么接下来有请我经过尝试而且颇为满意的工作流程：
 
 <div style="display: flex; justify-content: center;">
-<img src="https://raw.githubusercontent.com/rexarski/oss/main/uPic/2024-08-26-iPod-02.jpg" alt="iPod music workflow" style="max-width: 50%;">
+<img src="https://raw.githubusercontent.com/rexarski/oss/main/2024-08-26-iPod-02.jpg" alt="iPod music workflow" style="max-width: 50%;">
 </div>
-
-![img](https://raw.githubusercontent.com/rexarski/oss/main/uPic/2024-08-26-iPod-02.HEIC)
 
 1. 用外接光驱打开 CD；
 2. 告诉 Music 别每次都问我要不要导入 CD 内容（Settings - General - When a CD is inserted - Show CD 这就够了)；
