@@ -111,7 +111,6 @@ menu = "not on main"
 - [Deliveries](https://deliveries.app/en.html). 
 - [DEVONthink 4](https://www.devontechnologies.com/apps/devonthink) 🎫
 - [Discord](https://discord.com/). `brew install --cask discord` 🍺
-- [DockDoor](https://dockdoor.net/). `brew install --cask dockdoor` 🍺
 - [Downie](https://software.charliemonroe.net/downie/) 🎫
 - **[Drafts](https://getdrafts.com/)**. For drafting. 🔁
   - `Cmd` + `Shift` + `1` = Drafts main window
@@ -222,7 +221,6 @@ menu = "not on main"
 - [R](https://www.r-project.org/).
 - [Reeder](https://reeder.app) 🔁.
 - [Raycast](https://www.raycast.com/). Extendable launcher substitute to Spotlight, with an extension store. `Cmd` + `Space`: Activate Raycast. `brew install --cask raycast` 🍺
-- [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar) `brew install --cask reminders-menubar` 🍺]
 - [Rocket](https://matthewpalmer.net/rocket/). Emoji launcher with one-key shortcut. Use `:` to trigger the app. 🎫
 
 ### S
@@ -314,6 +312,7 @@ menu = "not on main"
 - [Dark Noise](https://darknoise.app/) 
 - [Darkroom](https://darkroom.co/) 🎫
 - [Day One](https://dayoneapp.com/). 🔁
+- [DockDoor](https://dockdoor.net/). `brew install --cask dockdoor` 🍺
 - [Fantastical](https://flexibits.com/fantastical) `Hyper +`F`: create new event/reminder 🎫
 - [Figma](https://www.figma.com/)
 - [Fliqlo Flip Clock](https://fliqlo.com/). The classic screensaver.
@@ -338,6 +337,7 @@ menu = "not on main"
 - [Processing](https://processing.org/)
 - [Quitter](https://marco.org/apps)
 - [Reeder 5 -> Reeder Classic](https://reederapp.com/). 
+- [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar) `brew install --cask reminders-menubar` 🍺]
 - [RIME | 中州韵输入法](https://rime.im/). "Rime Input Method Engine, rimes with your keystrokes."
   - [东风破](https://github.com/rime/plum)
   - [雾凇拼音](https://github.com/iDvel/rime-ice): `bash rime-install iDvel/rime-ice:others/recipes/full`

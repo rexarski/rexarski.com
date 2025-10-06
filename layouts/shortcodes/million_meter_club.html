@@ -1,0 +1,13 @@
+{{- $goal := 1000000 -}} {{/* Accept meters either as named param m=... or
+positional */}} {{- $m := or (.Get "m") (.Get 0) -}} {{- if not $m -}} {{-
+errorf "million_meter_club shortcode needs 'm' (meters) or a positional value"
+-}} {{- end -}} {{- $m = int $m -}} {{/* Percent (float), clamped 0–100 */}} {{-
+$percent := div (mul (float $m) 100.0) (float $goal) -}} {{- $percent = math.Min
+100.0 (math.Max 0.0 $percent) -}} {{/* Bar geometry */}} {{- $width := 30 -}}
+{{/* change bar width here */}} {{- $filled := int (math.Floor (div (mul
+$percent $width) 100.0)) -}} {{- $empty := sub $width $filled -}} {{/*
+Characters for filled/empty (swap if you prefer) */}} {{- $fillChar := "█" -}}
+{{- $emptyChar := "░" -}} {{- $bar := printf "[%s%s]" (strings.Repeat $filled
+$fillChar) (strings.Repeat $empty $emptyChar) -}} {{/* Simple number formatting
+*/}} {{- $mFmt := printf "%d" $m -}} {{- $goalFmt := printf "%d" $goal -}} {{-
+printf "%s %0.1f%% — %s / %s m" $bar $percent $mFmt $goalFmt -}}
