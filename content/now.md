@@ -5,11 +5,13 @@ menu = "main"
 
 ## Now
 
-- 带娃缺觉中……开展一个 Project Nursing Chair.
-- 被下一年的 Hobonichi 种草，所以重新捡起了今年的本子。
-- 🚣 尝试 The Pete Plan 的[入门级别划船计划](https://thepeteplan.wordpress.com/beginner-training/)
+- 带娃 + 缺觉
+- 在按照[这个列表](https://www.headphonesty.com/2025/09/albums-everyone-listen-life-audiophiles/)的推荐听老歌
+- 尝试 The Pete Plan 的[入门级别划船计划](https://thepeteplan.wordpress.com/beginner-training/)
+- 思考明年的 Hobonichi 怎么用，陷入了日本文具的消费主义陷阱
+- 想了解一下篮球的高阶数据都是怎么计算的
 
-{{< million_meter_club  m=257536 >}}
+{{< million_meter_club >}}
 
 ### 在读
 

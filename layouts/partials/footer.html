@@ -1,33 +1,5 @@
 {{ $allPosts := where .Site.RegularPages "Type" "in" (slice "zh" "posts") }} {{
 $nonDraftPosts := where $allPosts "Draft" false }} {{ $currentYear := now.Format
 "2006" }} {{ $postsThisYear := where $nonDraftPosts ".Date.Year" (int
-$currentYear) }}
-
-<div id="progress">
-    <script>
-        let now = new Date();
-        let currentYear = now.getFullYear();
-        let startOfYear = new Date(now.getFullYear(), 0, 1);
-        let endOfYear = new Date(now.getFullYear(), 11, 31);
-        let totalDays = Math.round(
-            (endOfYear - startOfYear) / (1000 * 60 * 60 * 24)
-        );
-        let passedDays = Math.round(
-            (now - startOfYear) / (1000 * 60 * 60 * 24)
-        );
-        let percentage = Math.round((passedDays / totalDays) * 100);
-        let progressBar = '';
-        for (var i = 0; i < 19; i++) {
-            if (i < percentage / 5) {
-                progressBar += '■';
-            } else {
-                progressBar += '□';
-            }
-        }
-        document.getElementById('progress').innerText =
-            currentYear + ': ' + progressBar + ' ' + percentage + '% ';
-    </script>
-</div>
-
-{{ if ne .Site.Params.hideMadeWithLine true }} © Qiū Ruì 2022-{{ now.Format
-"2006"}}{{ end }} ⋅ <a href="{{ "/index.xml" }}">RSS</a>
+$currentYear) }} {{ if ne .Site.Params.hideMadeWithLine true }} © Qiū Ruì
+2022-{{ now.Format "2006"}}{{ end }}

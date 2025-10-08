@@ -5,8 +5,9 @@ menu = "not-main"
 
 # <pre>changelog</pre>
 
-- 2025-09-22
-  - 修改了页面内链接的样式
+- 2025-10-08
+  - 简化了 footer 和 nav
+  - 增加了对于自动化获取 Concept2 划船数据的相关内容
 - 2025-09-07
   - single post 页面增加了对于 frontmatter 里 description 的渲染 (tl;dr)
 - 2025-07-27

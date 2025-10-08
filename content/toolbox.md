@@ -100,8 +100,6 @@ menu = "not on main"
   - [GitHub - noDRM/DeDRM\_tools: DeDRM tools for ebooks](https://github.com/noDRM/DeDRM_tools)
   - Highlights to Obsidian
   - Obok DeDRM
-- [Concept2 Utility](https://www.concept2.com/support/software/utility)
-- [Countdown Timer Pro](https://apps.apple.com/us/app/countdown-timer-pro/id6744842468?mt=12). 
 - [Cursor](https://cursor.com/en)
 
 ### D
@@ -139,7 +137,6 @@ menu = "not on main"
 
 - [Handbrake](https://handbrake.fr). Open source video transcoder. `brew install —cask handbrake` 🍺
   - iPod 5.5 gen - 7 gen compatible video preset: [github](https://github.com/HandBrake/HandBrake/issues/4040), [reddit discussion](https://www.reddit.com/r/ipod/comments/jccdm1/guide_to_ipod_classic_and_nano_video_formats/)
-- [Hush](https://github.com/oblador/hush). Content blocker for Safari. 
 
 ### I
 
@@ -154,13 +151,11 @@ menu = "not on main"
   - `Hyper` == `Cmd + Ctrl + Option + Shift`
   - `Shift` + `Backspace`: Forward delete
   - Complex modifications: [Change `caps_lock` to `Cmd + Ctrl + Option + Shift`](https://ke-complex-modifications.pqrs.org/#modifier-keys).
-- [Keepa](https://keepa.com/#). Amazon price tracker. 
 - [Keka](https://www.keka.io/en/) `brew install --cask keka` 🍺
 - [KeyClu](https://sergii.tatarenkov.name/keyclu/support/). Cheatsheet alternative
   - Double press cmd and hold to activate the cheatsheet.
   - Double press cmd and quick release to activate Siri.
   - `brew install —cask keyclu` 🍺
-- [Klack](https://tryklack.com/). Fun app with keyboard sound. 
 
 ### L
 
@@ -176,7 +171,6 @@ menu = "not on main"
 
 - [**mac-cleanup-py**](https://github.com/mac-cleanup/mac-cleanup-py) clean up script for macos. `brew tap mac-cleanup/mac-cleanup-py; brew install mac-cleanup-py` 🍺
 - [Marked 2](https://marked2app.com/) 🎫
-- [Min Browser](https://github.com/minbrowser/min). `brew install --cask min` 🍺
 - [`monolith`](https://github.com/Y2Z/monolith).`brew install monolith` 🍺
 - [MultiViewer for F1](https://beta.f1mv.com/)
 - [Musicbrainz Picard](https://picard.musicbrainz.org/)
@@ -205,7 +199,6 @@ menu = "not on main"
 - [Permute 3](https://software.charliemonroe.net/permute/) 🎫
 - [PhotoBulk](https://photobulkeditor.com/). Quick photo editor. 
 - [PICO-8](https://www.lexaloffle.com/pico-8.php). Fantasy retro console game engine. 🎫
-- [Pictogram](https://pictogramapp.com/). Only to replace Zen Browser and X Raw Studios' icons.
 - [Picotron](https://www.lexaloffle.com/picotron.php). A fantasy workstation. 🎫
 - [Play](https://apps.apple.com/cn/app/play-save-videos-watch-later/id1596506190). Watch it later(s). 
 - [Plex](https://www.plex.tv/). `brew install --cask plex` 🍺
@@ -213,7 +206,6 @@ menu = "not on main"
 
 ### Q
 
-- [QLMarkdown](https://github.com/sbarex/QLMarkdown). macOS Quick Look extension for markdown files. `brew install --cask qlmarkdown` 🍺
 - [Quarto](https://quarto.org/). An open source scientific and technical publishing system built on Pandoc. `brew install --cask quarto` 🍺
 
 ### R
@@ -225,7 +217,6 @@ menu = "not on main"
 
 ### S
 
-- [Sequel](https://www.getsequel.app/). Keep track of the movies, shows, games, books and audiobooks. 
 - [Shareful](https://sindresorhus.com/shareful). 
 - [Shottr](https://shottr.cc/). Great substitute to CleanShot X. 🎫
   - `Cmd` + `Shift` + `3` = Shottr area screenshot
@@ -248,6 +239,8 @@ menu = "not on main"
 
 ### U
 
+- [undercut-f1](https://github.com/JustAman62/undercut-f1). F1 Live Timing TUI for all F1 sessions with variable delay to sync to your TV.
+- [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698). 
 - [upic](https://github.com/gee1k/uPic). Image (and small file) upload tool for macOS. `brew install bigwig-club/brew/upic --cask` 🍺
 
 ### W
@@ -309,6 +302,8 @@ menu = "not on main"
 - [Cardhop](https://flexibits.com/cardhop). 🎫
 - [CARROT Weather](https://www.meetcarrot.com/weather/) 🔁
 - [coconutBattery](https://coconut-flavour.com/coconutbattery/)
+- [Concept2 Utility](https://www.concept2.com/support/software/utility)
+- [Countdown Timer Pro](https://apps.apple.com/us/app/countdown-timer-pro/id6744842468?mt=12). 
 - [Dark Noise](https://darknoise.app/) 
 - [Darkroom](https://darkroom.co/) 🎫
 - [Day One](https://dayoneapp.com/). 🔁
@@ -318,23 +313,29 @@ menu = "not on main"
 - [Fliqlo Flip Clock](https://fliqlo.com/). The classic screensaver.
 - [fruit](https://github.com/Corkscrews/fruit). Retro Apple screensaver.
 - Ghostty. `brew install —cask ghostly`
+- [Hush](https://github.com/oblador/hush). Content blocker for Safari. 
 - [iMazing 3](https://imazing.com/) 🎫
 - [Itsycal for Mac](https://www.mowglii.com/itsycal/)
 - [julia](https://julialang.org/) `brew install --cask julia` 🍺
+- [Keepa](https://keepa.com/#). Amazon price tracker. 
 - [KeyCastr](https://github.com/keycastr/keycastr) `Hyper` + `K`: Toggle capturing
+- [Klack](https://tryklack.com/). Fun app with keyboard sound. 
 - [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html). Customize Logitech peripherals.
 - [Maccy](https://maccy.app/). Clipboard. `brew install --cask maccy` 🍺
 - [Mactracker](https://mactracker.ca/) 
 - [MiaoYan 妙言](https://github.com/tw93/MiaoYan/)
+- [Min Browser](https://github.com/minbrowser/min). `brew install --cask min` 🍺
 - [Moom](https://manytricks.com/moom/) `Cmd` + `Option` + `M`: toggle Moom keyboard control. 🎫
 - [NetNewsWire](https://ranchero.com/netnewswire/). For RSS. `brew instlal --cask netnewswire` 🍺
 - [Numi](https://numi.app/). NLP + calculator. `brew install --cask numi` 🍺
 - [OpenEmu](https://github.com/OpenEmu/OpenEmu).
 - [Parcel](https://apps.apple.com/us/app/parcel-delivery-tracking/id639968404?mt=12). Track your packages. 
+- [Pictogram](https://pictogramapp.com/). Only to replace Zen Browser and X Raw Studios' icons.
 - [Pins](https://get-pins.app/) 
 - [Plain Text Editor](https://apps.apple.com/us/app/plain-text-editor/id1572202501?mt=12). 
 - [Pocket Casts](https://pocketcasts.com/) 🎫
 - [Processing](https://processing.org/)
+- [QLMarkdown](https://github.com/sbarex/QLMarkdown). macOS Quick Look extension for markdown files. `brew install --cask qlmarkdown` 🍺
 - [Quitter](https://marco.org/apps)
 - [Reeder 5 -> Reeder Classic](https://reederapp.com/). 
 - [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar) `brew install --cask reminders-menubar` 🍺]
@@ -342,8 +343,9 @@ menu = "not on main"
   - [东风破](https://github.com/rime/plum)
   - [雾凇拼音](https://github.com/iDvel/rime-ice): `bash rime-install iDvel/rime-ice:others/recipes/full`
 - [RStudio](https://www.rstudio.com/). IDE for R.
-- [SD Card Formatter](https://www.sdcard.org/downloads/formatter/).
 - [Scratchpad](https://apps.apple.com/us/app/scratchpad/id6504040051). 
+- [SD Card Formatter](https://www.sdcard.org/downloads/formatter/).
+- [Sequel](https://www.getsequel.app/). Keep track of the movies, shows, games, books and audiobooks. 
 - [Spotify](https://open.spotify.com/)
 - [Stats](https://github.com/exelban/stats). System monitor in menu bar. `brew install --cask stats` 🍺
 - [SynologyAssistant](https://www.synology.com/en-us/support/download).

@@ -6,7 +6,7 @@ source .env
 # Function to fetch data for a category with error handling
 fetch_category_data() {
     local category=$1
-    local output_file="./assets/data/${category}_in_progress.json"
+    local output_file="./data/${category}_in_progress.json"
 
     echo "Fetching ${category} data..."
 
@@ -29,7 +29,7 @@ if [[ -z "$NEODB_BEARER_TOKEN" ]]; then
 fi
 
 # Create data directory if it doesn't exist
-mkdir -p ./assets/data
+mkdir -p ./data
 
 # Fetch data for all categories
 categories=("book" "tv" "game")

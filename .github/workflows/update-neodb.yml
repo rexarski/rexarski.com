@@ -1,7 +1,7 @@
 # This is a GitHub Action workflow file.
 # It should be placed in your repository at: .github/workflows/update-data.yml
 
-name: Update NeoDB Data
+name: Update Site Data
 
 # Controls when the action will run.
 on:
@@ -24,27 +24,32 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v4
 
-            # Step 2: Make the shell script executable.
-            # This is necessary for the script to be run in the Linux environment.
-            - name: Make neodb_data.sh executable
-              run: chmod +x ./neodb_data.sh
+            # Step 2: Make the shell scripts executable.
+            # This is necessary for the scripts to be run in the Linux environment.
+            - name: Make scripts executable
+              run: |
+                  chmod +x ./neodb_data.sh
+                  chmod +x ./concept2_scraper.sh
 
-            # Step 3: Run the shell script.
-            # This is the core step that executes your data update logic.
-            # It uses the secret token stored in the repository's settings.
-            - name: Run neodb_data.sh to update data
+            # Step 3: Run neodb_data.sh to update NeoDB data.
+            # This uses the secret token stored in the repository's settings.
+            - name: Run neodb_data.sh to update NeoDB data
               env:
                   NEODB_BEARER_TOKEN: ${{ secrets.NEODB_BEARER_TOKEN }}
               run: ./neodb_data.sh
 
-            # Step 4: Configure Git.
+            # Step 4: Run concept2_scraper.sh to update Concept2 data.
+            - name: Run concept2_scraper.sh to update Concept2 data
+              run: ./concept2_scraper.sh
+
+            # Step 5: Configure Git.
             # This sets the author information for the commit that the action will create.
             - name: Configure Git
               run: |
                   git config --global user.name 'github-actions[bot]'
                   git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-            # Step 5: Commit and push changes if any exist.
+            # Step 6: Commit and push changes if any exist.
             - name: Commit and push if there are changes
               run: |
                   # Check if there are any changes to commit.
@@ -55,7 +60,7 @@ jobs:
                     # Stage all changes.
                     git add .
                     # Commit the changes with a dynamic date in the message.
-                    git commit -m "feat(data): update neodb data on $(date +'%Y-%m-%d')"
+                    git commit -m "feat(data): update site data on $(date +'%Y-%m-%d')"
                     # Push the changes to the main branch.
                     git push
                   fi

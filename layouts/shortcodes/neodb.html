@@ -1,12 +1,11 @@
-{{ $category := .Get "category" }} {{ $jsonFile := resources.Get (printf
-"data/%s_in_progress.json" $category) }} {{ $data := $jsonFile.Content |
-transform.Unmarshal }}
+{{- $category := .Get "category" -}} {{- $data := index .Site.Data (printf
+"%s_in_progress" $category) -}}
 
 <ul>
-    {{ range $data.data }}
+    {{- range $data.data -}}
     <li>
         <a href="{{ .id }}">{{ .title }}</a>
         <span>({{ .created_time | time.Format "2006-01-02" }})</span>
     </li>
-    {{ end }}
+    {{- end -}}
 </ul>
