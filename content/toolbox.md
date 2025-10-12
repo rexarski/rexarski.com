@@ -49,7 +49,6 @@ menu = "not on main"
 - Turn off the auto boot feature (if this is a MacBook.) `sudo nvram AutoBoot=%00`. Turn it back on by `sudo nvram AutoBoot=%03` or use `nvram -p` to check the current value.
 - Generate and add SSH key to GitHub account.
 - In Safari, go to Preferences - Advanced, turn on "Show Develop menu in menu bar".
-- Themes I use in general: [Flexoki](https://stephango.com/flexoki), [Copilot Theme](https://marketplace.visualstudio.com/items?itemName=BenjaminBenais.copilot-theme), [Dracula](https://draculatheme.com/), and [Cobalt 2](https://github.com/wesbos/cobalt2).
 
 ## Application list
 
@@ -88,7 +87,6 @@ menu = "not on main"
 
 ### C
 
-- [Calendr](https://github.com/pakerwreah/Calendr). Menu bar calendar.
 - [calibre](https://calibre-ebook.com/). E-book management. `brew install --cask calibre` 🍺
   - [calibre-douban](https://github.com/fugary/calibre-douban). 豆瓣插件.
   - [Fix Kindle Ebook Cover](https://github.com/bookfere/Fix-Kindle-Ebook-Cover). A tool to fix damaged cover for Kindle.
@@ -110,7 +108,7 @@ menu = "not on main"
 - [DEVONthink 4](https://www.devontechnologies.com/apps/devonthink) 🎫
 - [Discord](https://discord.com/). `brew install --cask discord` 🍺
 - [Downie](https://software.charliemonroe.net/downie/) 🎫
-- **[Drafts](https://getdrafts.com/)**. For drafting. 🔁
+- [Drafts](https://getdrafts.com/). For drafting. 🔁
   - `Cmd` + `Shift` + `1` = Drafts main window
   - `Cmd` + `Shift` + `2` = Drafts quick entry
 - **[Due](https://www.dueapp.com/)**. Aggressive reminder. 🔁.
@@ -297,13 +295,10 @@ menu = "not on main"
 - [Audacity](https://www.audacityteam.org/)
 - [Beekeeper Studio Community Edition](https://github.com/beekeeper-studio/beekeeper-studio)
 - [BetterDisplay](https://github.com/waydabber/BetterDisplay#readme). Display customization tool. From the same developer of [Monitor Control](https://github.com/MonitorControl/MonitorControl). 🎫
-- [Blink](https://apps.apple.com/us/app/blink-home-monitor/id1013961111) 
 - [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn). Screensaver inspired by Apple's Event on October 30, 2018.
-- [Cardhop](https://flexibits.com/cardhop). 🎫
-- [CARROT Weather](https://www.meetcarrot.com/weather/) 🔁
+- [Calendr](https://github.com/pakerwreah/Calendr). Menu bar calendar.
 - [coconutBattery](https://coconut-flavour.com/coconutbattery/)
 - [Concept2 Utility](https://www.concept2.com/support/software/utility)
-- [Countdown Timer Pro](https://apps.apple.com/us/app/countdown-timer-pro/id6744842468?mt=12). 
 - [Dark Noise](https://darknoise.app/) 
 - [Darkroom](https://darkroom.co/) 🎫
 - [Day One](https://dayoneapp.com/). 🔁
@@ -312,7 +307,7 @@ menu = "not on main"
 - [Figma](https://www.figma.com/)
 - [Fliqlo Flip Clock](https://fliqlo.com/). The classic screensaver.
 - [fruit](https://github.com/Corkscrews/fruit). Retro Apple screensaver.
-- Ghostty. `brew install —cask ghostly`
+- Ghostty. `brew install —cask ghostty`
 - [Hush](https://github.com/oblador/hush). Content blocker for Safari. 
 - [iMazing 3](https://imazing.com/) 🎫
 - [Itsycal for Mac](https://www.mowglii.com/itsycal/)
