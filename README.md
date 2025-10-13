@@ -6,6 +6,7 @@ Made with
 
 - [Hugo](https://gohugo.io/)
 - [`hugo-bearblog` ʕ•ᴥ•ʔ](https://github.com/janraasch/hugo-bearblog)
+- Atkinson Hyperlegible, Fraunces, Noto Serif SC, Victor Mono
 
 ## Note
 

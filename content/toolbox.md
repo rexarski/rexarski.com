@@ -62,6 +62,7 @@ menu = "not on main"
 - [Anki](https://apps.ankiweb.net/)
 - [Antinote](https://antinote.io/). 🎫
   - ⌥ + A to toggle it.
+- Anybox. 
 - [Applite](https://github.com/milanvarady/Applite), user-friendly GUI macOS application for Homebrew Casks. `brew install --cask applite` 🍺
 - [Aseprite](https://www.aseprite.org/). A animated pixel art editor. Purchased on [Steam](https://store.steampowered.com/app/431730/Aseprite/). 🎫
 
