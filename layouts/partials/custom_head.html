@@ -16,3 +16,74 @@
     async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 ></script> -->
+
+<script>
+    // Dark mode functionality with three states: auto, force-light, force-dark
+    function toggleDarkMode() {
+        const body = document.body;
+        const toggle = document.getElementById('dark-mode-toggle');
+        
+        // Remove any existing mode classes
+        body.classList.remove('force-light', 'force-dark');
+        
+        // Check current state and cycle through: auto -> force-light -> force-dark -> auto
+        const currentMode = localStorage.getItem('darkMode');
+        
+        if (!currentMode || currentMode === 'auto') {
+            // Switch to force light
+            body.classList.add('force-light');
+            toggle.textContent = '○';
+            localStorage.setItem('darkMode', 'force-light');
+        } else if (currentMode === 'force-light') {
+            // Switch to force dark
+            body.classList.add('force-dark');
+            toggle.textContent = '●';
+            localStorage.setItem('darkMode', 'force-dark');
+        } else if (currentMode === 'force-dark') {
+            // Switch back to auto
+            toggle.textContent = '●';
+            localStorage.setItem('darkMode', 'auto');
+        }
+    }
+
+    // Initialize dark mode on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        const savedMode = localStorage.getItem('darkMode');
+        const toggle = document.getElementById('dark-mode-toggle');
+        const body = document.body;
+        
+        // Remove any existing mode classes first
+        body.classList.remove('force-light', 'force-dark');
+        
+        if (savedMode === 'force-light') {
+            body.classList.add('force-light');
+            toggle.textContent = '○';
+        } else if (savedMode === 'force-dark') {
+            body.classList.add('force-dark');
+            toggle.textContent = '●';
+        } else {
+            // Auto mode - show appropriate icon based on system preference
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                toggle.textContent = '●'; // System is dark, show moon
+            } else {
+                toggle.textContent = '●'; // System is light, show moon
+            }
+            localStorage.setItem('darkMode', 'auto');
+        }
+        
+        // Listen for system theme changes in auto mode
+        if (window.matchMedia) {
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+                const currentMode = localStorage.getItem('darkMode');
+                if (currentMode === 'auto') {
+                    // Update icon when system theme changes in auto mode
+                    if (e.matches) {
+                        toggle.textContent = '●';
+                    } else {
+                        toggle.textContent = '●';
+                    }
+                }
+            });
+        }
+    });
+</script>

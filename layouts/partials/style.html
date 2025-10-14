@@ -454,108 +454,262 @@
         color: #0077cc;
     }
 
+    /* Auto dark mode - follows system preference */
     @media (prefers-color-scheme: dark) {
-        .toc-container {
-            color: #999;
+        body:not(.force-light):not(.force-dark) {
+            background-color: #333 !important;
+            color: #ddd !important;
         }
 
-        .toc-wrapper::before,
-        .toc-wrapper::after,
-        .toc-wrapper .left-border,
-        .toc-wrapper .right-border,
-        .toc-wrapper .bottom-left,
-        .toc-wrapper .bottom-right {
-            color: #999;
+        body:not(.force-light):not(.force-dark) h1,
+        body:not(.force-light):not(.force-dark) h2,
+        body:not(.force-light):not(.force-dark) h3,
+        body:not(.force-light):not(.force-dark) h4,
+        body:not(.force-light):not(.force-dark) h5,
+        body:not(.force-light):not(.force-dark) h6,
+        body:not(.force-light):not(.force-dark) strong,
+        body:not(.force-light):not(.force-dark) b {
+            color: #eee !important;
         }
 
-        .toc-header {
-            border-bottom-color: #999;
+        body:not(.force-light):not(.force-dark) a {
+            color: #8cc2dd !important;
         }
 
-        .toc-content a {
-            color: #999;
+        body:not(.force-light):not(.force-dark) code {
+            background-color: #777 !important;
         }
 
-        .toc-content a:hover {
-            color: #fff;
-            background-color: #856404;
+        body:not(.force-light):not(.force-dark) pre code {
+            color: #ddd !important;
         }
 
-        body {
-            background-color: #333;
-            color: #ddd;
+        body:not(.force-light):not(.force-dark) blockquote {
+            color: #ccc !important;
         }
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        strong,
-        b {
-            color: #eee;
+        body:not(.force-light):not(.force-dark) textarea,
+        body:not(.force-light):not(.force-dark) input {
+            background-color: #252525 !important;
+            color: #ddd !important;
         }
 
-        a {
-            color: #8cc2dd;
+        body:not(.force-light):not(.force-dark) .helptext {
+            color: #aaa !important;
         }
 
-        code {
-            background-color: #777;
+        body:not(.force-light):not(.force-dark) mark {
+            background-color: gold !important;
+            color: #1a1a1a !important;
         }
 
-        pre code {
-            color: #ddd;
+        body:not(.force-light):not(.force-dark) .post-navigation {
+            border-top-color: #555 !important;
+            border-bottom-color: #555 !important;
         }
 
-        blockquote {
-            color: #ccc;
+        body:not(.force-light):not(.force-dark) .post-navigation .nav-label {
+            color: #aaa !important;
         }
 
-        textarea,
-        input {
-            background-color: #252525;
-            color: #ddd;
+        body:not(.force-light):not(.force-dark) .post-navigation .nav-title {
+            color: #ddd !important;
         }
 
-        .helptext {
-            color: #aaa;
+        body:not(.force-light):not(.force-dark) .post-navigation .nav-title:hover {
+            color: #fff !important;
         }
 
-        mark {
-            background-color: gold;
-            color: #1a1a1a;
+        body:not(.force-light):not(.force-dark) .latest-post-item {
+            border-bottom-color: #555 !important;
         }
 
-        .post-navigation {
-            border-top-color: #555;
-            border-bottom-color: #555;
+        body:not(.force-light):not(.force-dark) .post-description {
+            color: #aaa !important;
         }
 
-        .post-navigation .nav-label {
-            color: #aaa;
+        body:not(.force-light):not(.force-dark) .post-description:hover {
+            color: #8cc2dd !important;
         }
 
-        .post-navigation .nav-title {
-            color: #ddd;
+        body:not(.force-light):not(.force-dark) .toc-container {
+            color: #999 !important;
         }
 
-        .post-navigation .nav-title:hover {
-            color: #fff;
+        body:not(.force-light):not(.force-dark) .toc-wrapper::before,
+        body:not(.force-light):not(.force-dark) .toc-wrapper::after,
+        body:not(.force-light):not(.force-dark) .toc-wrapper .left-border,
+        body:not(.force-light):not(.force-dark) .toc-wrapper .right-border,
+        body:not(.force-light):not(.force-dark) .toc-wrapper .bottom-left,
+        body:not(.force-light):not(.force-dark) .toc-wrapper .bottom-right {
+            color: #999 !important;
         }
 
-        .latest-post-item {
-            border-bottom-color: #555;
+        body:not(.force-light):not(.force-dark) .toc-header {
+            border-bottom-color: #999 !important;
         }
 
-        .post-description {
-            color: #aaa;
+        body:not(.force-light):not(.force-dark) .toc-content a {
+            color: #999 !important;
         }
 
-        .post-description:hover {
-            color: #8cc2dd;
+        body:not(.force-light):not(.force-dark) .toc-content a:hover {
+            color: #fff !important;
+            background-color: #856404 !important;
         }
+    }
+
+    /* Manual dark mode styles - controlled by JavaScript */
+    .force-dark {
+        /* Prevent Dark Reader from interfering */
+        filter: none !important;
+        -webkit-filter: none !important;
+    }
+
+    /* Additional protection against Dark Reader */
+    html[data-darkreader-scheme="dark"] {
+        filter: none !important;
+        -webkit-filter: none !important;
+    }
+
+    html[data-darkreader-mode="dynamic"] {
+        filter: none !important;
+        -webkit-filter: none !important;
+    }
+
+    /* Ensure our dark mode styles take precedence */
+    .force-dark * {
+        filter: none !important;
+        -webkit-filter: none !important;
+    }
+
+    /* Manual dark mode styles */
+    body.force-dark {
+        background-color: #333 !important;
+        color: #ddd !important;
+    }
+
+    body.force-dark .toc-container {
+        color: #999 !important;
+    }
+
+    body.force-dark .toc-wrapper::before,
+    body.force-dark .toc-wrapper::after,
+    body.force-dark .toc-wrapper .left-border,
+    body.force-dark .toc-wrapper .right-border,
+    body.force-dark .toc-wrapper .bottom-left,
+    body.force-dark .toc-wrapper .bottom-right {
+        color: #999 !important;
+    }
+
+    body.force-dark .toc-header {
+        border-bottom-color: #999 !important;
+    }
+
+    body.force-dark .toc-content a {
+        color: #999 !important;
+    }
+
+    body.force-dark .toc-content a:hover {
+        color: #fff !important;
+        background-color: #856404 !important;
+    }
+
+    body.force-dark h1,
+    body.force-dark h2,
+    body.force-dark h3,
+    body.force-dark h4,
+    body.force-dark h5,
+    body.force-dark h6,
+    body.force-dark strong,
+    body.force-dark b {
+        color: #eee !important;
+    }
+
+    body.force-dark a {
+        color: #8cc2dd !important;
+    }
+
+    body.force-dark code {
+        background-color: #777 !important;
+    }
+
+    body.force-dark pre code {
+        color: #ddd !important;
+    }
+
+    body.force-dark blockquote {
+        color: #ccc !important;
+    }
+
+    body.force-dark textarea,
+    body.force-dark input {
+        background-color: #252525 !important;
+        color: #ddd !important;
+    }
+
+    body.force-dark .helptext {
+        color: #aaa !important;
+    }
+
+    body.force-dark mark {
+        background-color: gold !important;
+        color: #1a1a1a !important;
+    }
+
+    body.force-dark .post-navigation {
+        border-top-color: #555 !important;
+        border-bottom-color: #555 !important;
+    }
+
+    body.force-dark .post-navigation .nav-label {
+        color: #aaa !important;
+    }
+
+    body.force-dark .post-navigation .nav-title {
+        color: #ddd !important;
+    }
+
+    body.force-dark .post-navigation .nav-title:hover {
+        color: #fff !important;
+    }
+
+    body.force-dark .latest-post-item {
+        border-bottom-color: #555 !important;
+    }
+
+    body.force-dark .post-description {
+        color: #aaa !important;
+    }
+
+    body.force-dark .post-description:hover {
+        color: #8cc2dd !important;
+    }
+
+    /* Dark mode toggle button styles */
+    #dark-mode-toggle {
+        background: none !important;
+        border: none !important;
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: 10px;
+        padding: 0;
+        color: inherit;
+        transition: transform 0.2s ease;
+    }
+
+    #dark-mode-toggle:hover {
+        transform: scale(1.1);
+    }
+
+    /* Button colors for different states */
+    body.force-dark #dark-mode-toggle,
+    body:not(.force-light):not(.force-dark) #dark-mode-toggle {
+        color: #ddd;
+    }
+
+    body.force-light #dark-mode-toggle {
+        color: #333;
     }
 
     @media screen and (max-width: 600px) {

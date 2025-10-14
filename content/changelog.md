@@ -5,6 +5,9 @@ menu = "not-main"
 
 # <pre>changelog</pre>
 
+- 2025-10-14
+  - 简化了 toolbox 的重装系统的操作
+  - 在自动暗色模式的基础上增加了手动调节的选择
 - 2025-10-08
   - 简化了 footer 和 nav
   - 增加了对于自动化获取 Concept2 划船数据的相关内容
