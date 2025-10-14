@@ -18,7 +18,7 @@
 ></script> -->
 
 <script>
-    // Dark mode functionality with three states: auto, force-light, force-dark
+    // Dark mode functionality with two states: auto vs opposite
     function toggleDarkMode() {
         const body = document.body;
         const toggle = document.getElementById('dark-mode-toggle');
@@ -26,21 +26,24 @@
         // Remove any existing mode classes
         body.classList.remove('force-light', 'force-dark');
         
-        // Check current state and cycle through: auto -> force-light -> force-dark -> auto
         const currentMode = localStorage.getItem('darkMode');
+        const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
         
         if (!currentMode || currentMode === 'auto') {
-            // Switch to force light
-            body.classList.add('force-light');
-            toggle.textContent = '○';
-            localStorage.setItem('darkMode', 'force-light');
-        } else if (currentMode === 'force-light') {
-            // Switch to force dark
-            body.classList.add('force-dark');
-            toggle.textContent = '●';
-            localStorage.setItem('darkMode', 'force-dark');
-        } else if (currentMode === 'force-dark') {
-            // Switch back to auto
+            // Currently auto, switch to opposite of system preference
+            if (systemPrefersDark) {
+                // System is dark, force light
+                body.classList.add('force-light');
+                toggle.textContent = '○';
+                localStorage.setItem('darkMode', 'force-light');
+            } else {
+                // System is light, force dark
+                body.classList.add('force-dark');
+                toggle.textContent = '●';
+                localStorage.setItem('darkMode', 'force-dark');
+            }
+        } else {
+            // Currently forced, switch back to auto
             toggle.textContent = '●';
             localStorage.setItem('darkMode', 'auto');
         }
@@ -62,12 +65,8 @@
             body.classList.add('force-dark');
             toggle.textContent = '●';
         } else {
-            // Auto mode - show appropriate icon based on system preference
-            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                toggle.textContent = '●'; // System is dark, show moon
-            } else {
-                toggle.textContent = '●'; // System is light, show moon
-            }
+            // Auto mode - always show moon icon
+            toggle.textContent = '●';
             localStorage.setItem('darkMode', 'auto');
         }
         
@@ -76,12 +75,8 @@
             window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
                 const currentMode = localStorage.getItem('darkMode');
                 if (currentMode === 'auto') {
-                    // Update icon when system theme changes in auto mode
-                    if (e.matches) {
-                        toggle.textContent = '●';
-                    } else {
-                        toggle.textContent = '●';
-                    }
+                    // In auto mode, icon stays the same but theme changes automatically
+                    // No need to update icon since it always shows moon in auto mode
                 }
             });
         }
