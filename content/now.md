@@ -43,3 +43,4 @@ menu = "main"
 - [The Pete Plan - Beginner Training](https://thepeteplan.wordpress.com/beginner-training/)
 - [Heartbeat Pineapple Habanero](https://www.heartbeathotsauce.com/products/pineapple) hot sauce
 - [无印良品 Insulated can holder 11.8 fl oz](https://www.muji.us/products/insulated-can-holder-11-8-fl-oz-mdp33a3s)，保温效果非常好，冰块放在里头一夜都不会全化；11.8 oz 大小非常合适一口闷水，不知不觉喝水也变多了
+- [Oh Lord](https://www.youtube.com/watch?v=Om_VWBua0_M) - *Foxy Shazam*

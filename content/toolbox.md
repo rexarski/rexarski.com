@@ -1,358 +1,296 @@
 +++
-title = "rexarski's toolbox"
+title = "toolbox minimalized"
 menu = "not on main"
 +++
 
-# rexarski's toolbox
+# toolbox minimalized
 
 {{< toc >}}
 
-> A not-so-minimal setup guide.
+updated on 2025-10-13
 
-## Todos
+**新的设备到手之后最好还是从头设置一遍**。我就有点后悔去年的 Mac Mini 是从 time machine 恢复的，至今还能在里头找到很多「前世记忆」。
 
-- Set up iCloud account.
-- Install **[1Password](https://1password.com/)**. THE password manager for the last decade. Requires yearly subscription. `Cmd` + `Option` + `P`: Open 1Password 🔁
-- Install [Maestral](https://maestral.app/). Open source Dropbox client, simpler, smaller, less memory needed. `brew install --cask maestral` 🍺
-- Install **[iTerm 2](https://iterm2.com/)**. Terminal, but better than Terminal.
-  - Snazzy theme: `(curl -Ls https://raw.githubusercontent.com/sindresorhus/iterm2-snazzy/main/Snazzy.itermcolors > /tmp/Snazzy.itermcolors && open /tmp/Snazzy.itermcolors)`
-  - [fish](https://fishshell.com/). The friendly interactive shell.
-    - Follow this [gist](https://gist.github.com/gagarine/cf3f65f9be6aa0e105b184376f765262) to set `fish` as default
-- Install **[Homebrew](https://brew.sh/)**. THE package manager for macOS. `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-  - `asciinema`
-  - `bat` <- `cat`
-  - `btop` <- `htop` and `top`
-  - **`emacs`**
-  - `exiftool`
-  - `eza` <- `ls` and `exa`
-  - `fx`
-  - `fzf`
-  - `jq`
-  - `neofetch`
-  - `neovim` <- `vim`
-  - `procs` <- `ps`
-  - `scc`
-  - `tldr`
-  - `tre` (`brew install tre-command`) <- `tree`
-  - `tmux`
-  - **`uv`**
-  - `vizdata`
-  - `you-get`
-- [Change computer and host name](https://apple.stackexchange.com/questions/66611/how-to-change-computer-name-so-terminal-displays-it-in-mac-os-x-mountain-lion):
-  - `sudo scutil --set ComputerName "newname"`
-  - `sudo scutil --set LocalHostName "newname"`
-  - `sudo scutil --set HostName "newname"`
-- Stop Time Machine local snapshots. `tmutil disablelocal` was deprecated since Mojave. Use  [TimeMachineEditor](https://tclementdev.com/timemachineeditor/) instead.
-- Create a global `gitignore` file at `~/.gitignore`. See [this one](/config/.gitignore) as an example: `git config --global core.excludesfile ~/.gitignore`
-- Generate and add SSH key to GitHub account.
-- ~~Turn off the Spotlight.~~ Set Spotlight shortcut to Option + Space.
-- Turn off the auto boot feature (if this is a MacBook.) `sudo nvram AutoBoot=%00`. Turn it back on by `sudo nvram AutoBoot=%03` or use `nvram -p` to check the current value.
-- Generate and add SSH key to GitHub account.
-- In Safari, go to Preferences - Advanced, turn on "Show Develop menu in menu bar".
+## 基调
 
-## Application list
+一，尽量不要对 app 做太多个性化的更改，开箱即用是最好的；如果复杂到需要单独导入设置备份，那么就单独拎出来提一嘴。
 
-### A
+二，尽量用 `brew install --cask` 来安装。
 
-- [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html). For downloading and reading Kobo epub.
-- [Affinity Designer 2](https://affinity.serif.com/en-us/designer/). 🎫
-- [Affinity Photo 2](https://affinity.serif.com/en-us/photo/). 🎫
-- [Affinity Publisher 2](https://affinity.serif.com/en-us/publisher/). 🎫
-- [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12). Keep the machine awake. `Cmd` + `Shift` + `A`: turn on/off 
-- [Anki](https://apps.ankiweb.net/)
-- [Antinote](https://antinote.io/). 🎫
-  - ⌥ + A to toggle it.
-- Anybox. 
-- [Applite](https://github.com/milanvarady/Applite), user-friendly GUI macOS application for Homebrew Casks. `brew install --cask applite` 🍺
-- [Aseprite](https://www.aseprite.org/). A animated pixel art editor. Purchased on [Steam](https://store.steampowered.com/app/431730/Aseprite/). 🎫
+## 实操
 
-### B
+第一步，安装 homebrew. `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-- [BetterTouchTool](https://folivora.ai), input (not only trackpad!) customization. 🎫
-  - All apps
-    - rotate right = volume up
-    - rotate left = volume down
-    - 2 fingers tap = mission control
-    - 2 fingers click = play/pause
-    - 3 fingers tap = command + w
-    - 3 fingers click = close window under cursor
-    - 3 fingers pinch in = command +shift + 4 = shottr active window screenshot
-    - 4 fingers tap = minimize window under cursor
-    - 4 fingers click = quit app under cursor
-    - 5 fingers tap = application expose
-  - Preview
-    - 2 fingers swipe right = rotate right
-    - 2 fingers swipe left = rotate left
-- [Buckets](https://www.budgetwithbuckets.com/) 🎫
-- [bun](https://bun.sh/) `curl -fsSL https://bun.sh/install | bash`
+第二步，新建一个脚本文件 `brew_setup.sh`
 
-### C
+```bash
+#!/usr/bin/env bash
+set -e  # exit on error
 
-- [calibre](https://calibre-ebook.com/). E-book management. `brew install --cask calibre` 🍺
-  - [calibre-douban](https://github.com/fugary/calibre-douban). 豆瓣插件.
-  - [Fix Kindle Ebook Cover](https://github.com/bookfere/Fix-Kindle-Ebook-Cover). A tool to fix damaged cover for Kindle.
-  - [Kindle Previewer](https://www.amazon.com/Kindle-Previewer/b?ie=UTF8&node=21381691011)
-  - [Kindle Comic Converter](https://github.com/ciromattia/kcc). 🍺
-  - EpubCheck
-  - Kobo Metadata
-  - New Douban Books
-  - [GitHub - noDRM/DeDRM\_tools: DeDRM tools for ebooks](https://github.com/noDRM/DeDRM_tools)
-  - Highlights to Obsidian
-  - Obok DeDRM
-- [Cursor](https://cursor.com/en)
+# Update brew first
+brew update && brew upgrade
 
-### D
+# tools
+cli_tools=(
+  bat btop emacs eza fish git jq neofetch
+  neovim procs r tmux uv you-get zoxide
+)
 
-- [DaisyDisk](https://daisydiskapp.com/). Disk usage in a wind rose diagram. 
-- [Datasette](https://datasette.io/). A tool for exploring and publishing data.
-- [Deliveries](https://deliveries.app/en.html). 
-- [DEVONthink 4](https://www.devontechnologies.com/apps/devonthink) 🎫
-- [Discord](https://discord.com/). `brew install --cask discord` 🍺
-- [Downie](https://software.charliemonroe.net/downie/) 🎫
-- [Drafts](https://getdrafts.com/). For drafting. 🔁
-  - `Cmd` + `Shift` + `1` = Drafts main window
-  - `Cmd` + `Shift` + `2` = Drafts quick entry
-- **[Due](https://www.dueapp.com/)**. Aggressive reminder. 🔁.
+# apps
+cask_apps=(
+  1password 1password-cli ghostty antinote applite maestral
+  raycast anki chatgpt cursor
+  font-jetbrains-mono-nerd-font font-victor-mono
+  iina keka latest obsidian maccy pearcleaner r
+  shottr skim steam telegram positron
+)
 
-### E
+# tap repo(s)
+brew tap mac-cleanup/mac-cleanup-py
 
-- [Eagle](https://eagle.cool/). Organize images. 🎫
+# install
+brew install "${cli_tools[@]}"
+brew install mac-cleanup-py
+brew install --cask "${cask_apps[@]}"
+```
 
-### F
+第三步，运行以上脚本文件安装。
 
-- [Final Cut Pro](https://www.apple.com/final-cut-pro/). 
-  - [Motion](https://www.apple.com/final-cut-pro/motion/). 
-  - [Compressor](https://www.apple.com/final-cut-pro/compressor/). 
-- [Flighty](https://apps.apple.com/us/app/flighty-live-flight-tracker/id1358823008). 
-- [Fujifilm X RAW Studio](https://fujifilm-x.com/en-us/support/download/software/x-raw-studio/).
+```bash
+chmod +x brew_setup.sh
+./brew_setup.sh
+```
 
-### G
+第四步，从 Mac App Store 里安装以下：things 3, goodliness, Anybox, ia writer, reeder, play, ivory, xcode. 另外还有以下 safari 插件：sink it for reddit, ublock origin lite, dark reader, keepa.
 
-- [Gemini](https://macpaw.com/gemini). Duplicate finder. 🎫
-- [GitHub Desktop](https://desktop.github.com/). Easy-to-use Git GUI.
-- [GoodLinks](https://apps.apple.com/us/app/goodlinks/id1474335294). 
+第五步，从网站下载安装 pico-8, love2d.
 
-### H
+第六步，fish 设置成默认 shell.
 
-- [Handbrake](https://handbrake.fr). Open source video transcoder. `brew install —cask handbrake` 🍺
-  - iPod 5.5 gen - 7 gen compatible video preset: [github](https://github.com/HandBrake/HandBrake/issues/4040), [reddit discussion](https://www.reddit.com/r/ipod/comments/jccdm1/guide_to_ipod_classic_and_nano_video_formats/)
+```bash
+# 确认 fish 位置
+which fish
+# 应该是 /opt/homebrew/bin/fish
+# 路径添加到允许的 shell 列表
+echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
+# 改为默认 shell
+chsh -s /opt/homebrew/bin/fish
+# 重开 terminal 确认
+echo $SHELL
+# One more thing
+fish_add_path /opt/homebrew/bin
+# 打开在浏览器中设置
+fish_config
+```
 
-### I
+在 `config.fish` 文件中添加：
 
-- [iA Writer](https://ia.net/writer)
-- [Ice](https://github.com/jordanbaird/Ice). Bartender alternative. `brew install --cask jordanbaird-ice` 🍺
-- [IINA](https://iina.io/). Media player. `brew install --cask iina` 🍺
-- [Ivory for Mastodon](https://tapbots.com/ivory/mac/). 🔁
+Add the following lines to `~/.config/fish/config.fish`
 
-### K
+```fish
+zoxide init fish | source
 
-- [Karabiner Elements](https://karabiner-elements.pqrs.org/). Key mapping customizer.
-  - `Hyper` == `Cmd + Ctrl + Option + Shift`
-  - `Shift` + `Backspace`: Forward delete
-  - Complex modifications: [Change `caps_lock` to `Cmd + Ctrl + Option + Shift`](https://ke-complex-modifications.pqrs.org/#modifier-keys).
-- [Keka](https://www.keka.io/en/) `brew install --cask keka` 🍺
-- [KeyClu](https://sergii.tatarenkov.name/keyclu/support/). Cheatsheet alternative
-  - Double press cmd and hold to activate the cheatsheet.
-  - Double press cmd and quick release to activate Siri.
-  - `brew install —cask keyclu` 🍺
+# aliases
+alias pip=pip3
+alias python=python3
 
-### L
+# eza file listing
+if type -q eza
+    alias ll "eza -l -g --icons"
+    alias lla "ll -a"
+end
+```
 
-- [Latest](https://github.com/mangerlahn/Latest). Checks applications' latest update on macOS.
- `brew install --cask latest` 🍺
-- [LocalSend](https://localsend.org). File transfer between Android and other devices.
-- [Loop](https://github.com/MrKai77/Loop). Alternative to Moom.
-  - Left `Ctrl` to activate a selector ring.
-  - `brew install --cask loop` 🍺
-- [Lunar](https://lunar.fyi/)
+第七步，单独的 app 设置。主要是两个：1password 和 raycast. 前者从云端回复备份，后者在免费版的情况下需要从本地设置备份恢复。
 
-### M
+第八步，配置 git. 用 1password 里的 ssh-agent 生成并添加 ssh key 给 github 账号。另外可以创建一个全局的 gitignore 文件。`git config --global core.excludesfile ~/.gitignore_global`
 
-- [**mac-cleanup-py**](https://github.com/mac-cleanup/mac-cleanup-py) clean up script for macos. `brew tap mac-cleanup/mac-cleanup-py; brew install mac-cleanup-py` 🍺
-- [Marked 2](https://marked2app.com/) 🎫
-- [`monolith`](https://github.com/Y2Z/monolith).`brew install monolith` 🍺
-- [MultiViewer for F1](https://beta.f1mv.com/)
-- [Musicbrainz Picard](https://picard.musicbrainz.org/)
-- [MusicBox](https://apps.apple.com/us/app/musicbox-save-music-for-later/id1614730313). Bookmark music. 
-- [MusicHarbor](https://apps.apple.com/cn/app/musicharbor-new-music-tracker/id1440405750). 
+第九步，safari - preferences - advanced, 打开 show develop menu in menu bar.
 
-### N
+第十步，根据 synology 的[操作步骤](https://kb.synology.com/en-us/DSM/tutorial/How_to_back_up_files_from_Mac_to_Synology_NAS_with_Time_Machine)在 NAS 里单独创建一个 time machine 备份。
 
-- [Nicotine+](https://nicotine-plus.org), a graphical client for Soulseek.
+第十一步，修改以下的 keyboard shortcuts:
 
-### O
+- system settings - keyboard - keyboard shortcuts
+  - input sources - select next source in input menu: shift + command + space
+  - screenshots: turn them off
+  - spotlight - show spotlight search: option + space
+- shottr
+  - cmd + shift + 3: free select
+  - cmd + shift + 4: select window
+  - cmd + shift + 5: fullscreen
+- things 3 - quick entry: ctrl + space
+- clipboard history app (pastebot, raycast, or maccy) - cmd + shift + v
+- raycast
+  - invoke: cmd + space
+  - hyperkey: caps lock
+  - hyperkey + specific letter = launch an app, e.g. hyper + P = quick access to 1password, hyper + F = calendar app (多少因为 fantastical 时期留下来的习惯), hyper + O = obsidian (如果有 bettertouchtool 则交给它管理)
+  - emoji selector: ctrl + cmd + space
 
-- **[Obsidian](https://obsidian.md/)**. Second brain/digital garden/Zettelkasten. Go subscribe to [Obsidian Sync](https://obsidian.md/sync) to support the development!
-- [Obsidian Web Clipper](https://stephango.com/obsidian-web-clipper). 
-  - option + shift + O: Open Obsidian Clipper
-  - option + shift + T: Toggle highlights with Obsidian Clipper
-- [Ollama](https://github.com/jmorganca/ollama). LocalLLM.
-- [OrbStack](https://orbstack.dev/). A light-weight Docker and Linux runtime management. `brew install --cask orbstack` 🍺
+第十二步，去 system settings 里做三件事：
 
-### P
+- 除非万不得已，关闭绝大多数 app 的 notifications.
+- 尽量减少 menu bar 中的项目，有些也在各自 app 中设置。
+- 减少 login items 和 app background activity 允许的 app.
 
-- [PasteBot](https://tapbots.com/pastebot/) 🎫
-- [PCalc](https://pcalc.com/) 
-- [PDF Expert](https://pdfexpert.com/) 🎫
-- [Pearcleaner](https://github.com/alienator88/Pearcleaner). A free, source-available and fair-code licensed mac app cleaner. `brew install pearcleaner` 🍺
-- [Permute 3](https://software.charliemonroe.net/permute/) 🎫
-- [PhotoBulk](https://photobulkeditor.com/). Quick photo editor. 
-- [PICO-8](https://www.lexaloffle.com/pico-8.php). Fantasy retro console game engine. 🎫
-- [Picotron](https://www.lexaloffle.com/picotron.php). A fantasy workstation. 🎫
-- [Play](https://apps.apple.com/cn/app/play-save-videos-watch-later/id1596506190). Watch it later(s). 
-- [Plex](https://www.plex.tv/). `brew install --cask plex` 🍺
-- [Positron](https://positron.posit.co/)
+第十三步，更改 computer name, host name 和 local host name:
 
-### Q
+```fish
+# check
+scutil --get ComputerName; scutil --get LocalHostName; scutil --get HostName
 
-- [Quarto](https://quarto.org/). An open source scientific and technical publishing system built on Pandoc. `brew install --cask quarto` 🍺
+# set
+sudo scutil --set ComputerName new-computer-name
+sudo scutil --set LocalHostName new-local-host-name
+sudo scutil --set HostName new-host-name
+```
 
-### R
+我的习惯是把 computer name 用我的常用 handle + 数字组合，hostname 则用一个简单的名字。
 
-- [R](https://www.r-project.org/).
-- [Reeder](https://reeder.app) 🔁.
-- [Raycast](https://www.raycast.com/). Extendable launcher substitute to Spotlight, with an extension store. `Cmd` + `Space`: Activate Raycast. `brew install --cask raycast` 🍺
-- [Rocket](https://matthewpalmer.net/rocket/). Emoji launcher with one-key shortcut. Use `:` to trigger the app. 🎫
-
-### S
-
-- [Shareful](https://sindresorhus.com/shareful). 
-- [Shottr](https://shottr.cc/). Great substitute to CleanShot X. 🎫
-  - `Cmd` + `Shift` + `3` = Shottr area screenshot
-  - `Cmd` + `Shift` + `4` = Shottr active window screenshot
-  - `Cmd` + `Shift` + `5` = Shottr fullscreen screenshot
-- [Sink it for Reddit](https://apps.apple.com/us/app/sink-it-for-reddit/id6449873635). 
-- [skim](https://skim-app.sourceforge.io/). PDF viewer. `brew install --cask skim` 🍺
-- [Sleeve 2](https://replay.software/sleeve). 🎫
-- [Steam](https://store.steampowered.com/)
-
-### T
-
-- [Tapestry](https://usetapestry.com/). A unified and chronological timeline of blogs and social media. 
-- [Telegram](https://telegram.org/). `brew install --cask telegram` 🍺
-- **[Things 3](https://culturedcode.com/things/)**. The best GTD. 
-  - `Ctrl` + `Space`: quick entry.
-  - `Hyper` + `T`: quick entry with autofill. This requires [Things Helper](https://culturedcode.com/things/help/things-sandboxing-helper-things3/).
-- [TimeMachineEditor](https://tclementdev.com/timemachineeditor/). Manually control Time Machine backup schedule. `brew install --cask timemachineeditor` 🍺
-- [Transmission](https://transmissionbt.com) `brew install --cask transmission` 🍺
-
-### U
-
-- [undercut-f1](https://github.com/JustAman62/undercut-f1). F1 Live Timing TUI for all F1 sessions with variable delay to sync to your TV.
-- [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698). 
-- [upic](https://github.com/gee1k/uPic). Image (and small file) upload tool for macOS. `brew install bigwig-club/brew/upic --cask` 🍺
-
-### W
-
-- [微信 WeChat](https://www.wechat.com/). `brew install --cask wechat` 🍺
-
-### X
-
-- [Xcode](https://developer.apple.com/xcode/). 
-- [xld](https://tmkk.undo.jp/xld/index_e.html). Lossless audio decoder for macOS.
-
-### Y
-
-- [YACReader](https://www.yacreader.com/) `brew install --cask yacreader`. 🍺
-
-### Z
-
-- **[Zed](https://zed.dev/)**. Might be better than VSC. `brew install --cask zed` 🍺
-- [Zen Browser](https://zen-browser.app). Might be better than Firefox. Plugins associated with Firefox should be synced.
-
-## Font selections
-
-- [Lexend](https://www.lexend.com/), sans-serif
-- Roboto family
-  - [Roboto](https://fonts.google.com/specimen/Roboto), sans-serif
-  - [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed), sans-serif
-  - [Roboto Serif](https://fonts.google.com/specimen/Roboto+Serif), serif
-  - [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono), monospace
-- [IBM 3270](https://github.com/rbanffy/3270font), monospace
-- [JetBrains Mono](https://www.jetbrains.com/lp/mono/), monospace
-- [Ubuntu Monospace](https://design.ubuntu.com/font/), monospace
-- [Noto Mono for Powerline](https://github.com/powerline/fonts/), monospace
-- Amazon Ember and Bookerly from [Amazon Complete Font Set](https://developer.amazon.com/en-US/alexa/branding/echo-guidelines/identity-guidelines/typography), sans serif, serif
-- [LXGW WenKai / 霞鹜文楷](https://github.com/lxgw/LxgwWenKai), serif
-- [LXGW Neo XiHei / 霞鹜新晰黑](https://github.com/lxgw/LxgwNeoXiHei), sans-serif
-- [喜鹊宋体](https://xiquezaozi.taobao.com/), serif
-- [Atkinson Hyperlegible](https://brailleinstitute.org/freefont), sans-serif
-- [Charis SIL](https://software.sil.org/charis/), serif
-- [Server Mono](https://servermono.com/), monospace
+到这里就算是完工了。
 
 ***
 
-## Archive
+## toolbox maximalism
 
-<details>
+之前我喜欢把自己电脑上**目前**安装的 app 做成一个不定期更新的列表，然后把**当下**没有安装，但是**以前**用过的 app 放在后面。现在觉得太麻烦了，尤其是有 mini + air 两台设备之后，维护就更添一分精力。
 
-<summary>For those applications/packages that are not in use.</summary>
+索性做一个大合集堆在一起，也不做简单描述了，纯粹作为一个记录。如果未来的我在设置新电脑的时候有需要可以快速瞥一眼过一遍——反正最核心的需求已经在上述的安装过程中满足了。
 
-- [AlDente](https://github.com/davidwernhart/AlDente) 🎫
-- [Alfred](https://www.alfredapp.com/) `Option` + `Space`: Activate Aflred search bar. 🎫
-- [Anaconda](https://www.anaconda.com/)
-  - `conda config —set auto_activate_base false`. [Do not activate `conda` by default](https://stackoverflow.com/questions/54429210/how-do-i-prevent-conda-from-activating-the-base-environment-by-default).
+-  mac app store 购买
+- 🎫 license 购买
+
+Here we go.
+
+- [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html)
+- [🎫 Affinity Designer 2](https://affinity.serif.com/en-us/designer/)
+- [🎫 Affinity Photo 2](https://affinity.serif.com/en-us/photo/)
+- [🎫 Affinity Publisher 2](https://affinity.serif.com/en-us/publisher/)
+- [🎫 AlDente](https://github.com/davidwernhart/AlDente)
+- [🎫 Alfred](https://www.alfredapp.com/)
+- [ Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 - [Android File Transfer](https://www.android.com/filetransfer/)
+- [Aseprite](https://www.aseprite.org/)
 - [Audacity](https://www.audacityteam.org/)
-- [Beekeeper Studio Community Edition](https://github.com/beekeeper-studio/beekeeper-studio)
-- [BetterDisplay](https://github.com/waydabber/BetterDisplay#readme). Display customization tool. From the same developer of [Monitor Control](https://github.com/MonitorControl/MonitorControl). 🎫
-- [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn). Screensaver inspired by Apple's Event on October 30, 2018.
-- [Calendr](https://github.com/pakerwreah/Calendr). Menu bar calendar.
+- [🎫 BetterDisplay](https://github.com/waydabber/BetterDisplay#readme)
+- [🎫 BetterTouchTool](https://folivora.ai)
+- [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn)
+- [🎫 Buckets](https://www.budgetwithbuckets.com/)
+- [bun](https://bun.sh/)
+- [Calendr](https://github.com/pakerwreah/Calendr)
+- [calibre](https://calibre-ebook.com/)
 - [coconutBattery](https://coconut-flavour.com/coconutbattery/)
 - [Concept2 Utility](https://www.concept2.com/support/software/utility)
-- [Dark Noise](https://darknoise.app/) 
-- [Darkroom](https://darkroom.co/) 🎫
-- [Day One](https://dayoneapp.com/). 🔁
-- [DockDoor](https://dockdoor.net/). `brew install --cask dockdoor` 🍺
-- [Fantastical](https://flexibits.com/fantastical) `Hyper +`F`: create new event/reminder 🎫
+- [ DaisyDisk](https://daisydiskapp.com/)
+- [ Dark Noise](https://darknoise.app/)
+- [ Darkroom](https://darkroom.co/)
+- [Datasette](https://datasette.io/) `brew install datasette`
+- [ Day One](https://dayoneapp.com/)
+- [ Deliveries](https://deliveries.app/en.html)
+- [🎫 DEVONthink 4](https://www.devontechnologies.com/apps/devonthink)
+- [Discord](https://discord.com/)
+- [DockDoor](https://dockdoor.net/)
+- [🎫 Downie](https://software.charliemonroe.net/downie/)
+- [ Drafts](https://getdrafts.com/)
+- [ Due](https://www.dueapp.com/)
+- [🎫 Eagle](https://eagle.cool/)
+- [Fantastical](https://flexibits.com/fantastical)
 - [Figma](https://www.figma.com/)
-- [Fliqlo Flip Clock](https://fliqlo.com/). The classic screensaver.
-- [fruit](https://github.com/Corkscrews/fruit). Retro Apple screensaver.
-- Ghostty. `brew install —cask ghostty`
-- [Hush](https://github.com/oblador/hush). Content blocker for Safari. 
-- [iMazing 3](https://imazing.com/) 🎫
+- [ Final Cut Pro](https://www.apple.com/final-cut-pro/)
+- [ Motion](https://www.apple.com/final-cut-pro/motion/)
+- [ Compressor](https://www.apple.com/final-cut-pro/compressor/)
+- [ Flighty](https://apps.apple.com/us/app/flighty-live-flight-tracker/id1358823008)
+- [Fliqlo Flip Clock](https://fliqlo.com/)
+- [fruit](https://github.com/Corkscrews/fruit)
+- [Fujifilm X RAW Studio](https://fujifilm-x.com/en-us/support/download/software/x-raw-studio/)
+- [🎫 Gemini](https://macpaw.com/gemini)
+- [GitHub Desktop](https://desktop.github.com/)
+- [Handbrake](https://handbrake.fr)
+- [ Hush](https://github.com/oblador/hush)
+- [Ice](https://github.com/jordanbaird/Ice)
+- [iTerm2](https://iterm2.com)
 - [Itsycal for Mac](https://www.mowglii.com/itsycal/)
-- [julia](https://julialang.org/) `brew install --cask julia` 🍺
-- [Keepa](https://keepa.com/#). Amazon price tracker. 
-- [KeyCastr](https://github.com/keycastr/keycastr) `Hyper` + `K`: Toggle capturing
-- [Klack](https://tryklack.com/). Fun app with keyboard sound. 
-- [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html). Customize Logitech peripherals.
-- [Maccy](https://maccy.app/). Clipboard. `brew install --cask maccy` 🍺
-- [Mactracker](https://mactracker.ca/) 
+- [julia](https://julialang.org/)
+- [Karabiner Elements](https://karabiner-elements.pqrs.org/)
+- [KeyCastr](https://github.com/keycastr/keycastr)
+- [KeyClu](https://sergii.tatarenkov.name/keyclu/support/)
+- [ Klack](https://tryklack.com/)
+- [ LocalSend](https://localsend.org)
+- [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html)
+- [Loop](https://github.com/MrKai77/Loop)
+- [Lunar](https://lunar.fyi/)
+- [ Mactracker](https://mactracker.ca/) 
+- [🎫 Marked 2](https://marked2app.com/)
 - [MiaoYan 妙言](https://github.com/tw93/MiaoYan/)
-- [Min Browser](https://github.com/minbrowser/min). `brew install --cask min` 🍺
-- [Moom](https://manytricks.com/moom/) `Cmd` + `Option` + `M`: toggle Moom keyboard control. 🎫
-- [NetNewsWire](https://ranchero.com/netnewswire/). For RSS. `brew instlal --cask netnewswire` 🍺
-- [Numi](https://numi.app/). NLP + calculator. `brew install --cask numi` 🍺
+- [Min Browser](https://github.com/minbrowser/min)
+- [`monolith`](https://github.com/Y2Z/monolith)`brew install monolith` 
+- [🎫 Moom](https://manytricks.com/moom/)
+- [MultiViewer for F1](https://multiviewer.app)
+- [Musicbrainz Picard](https://picard.musicbrainz.org/)
+- [ MusicBox](https://apps.apple.com/us/app/musicbox-save-music-for-later/id1614730313)
+- [ MusicHarbor](https://apps.apple.com/cn/app/musicharbor-new-music-tracker/id1440405750)
+- [NetNewsWire](https://ranchero.com/netnewswire/)
+- [Nicotine+](https://nicotine-plus.org) `brew install nicotine-plus`
+- [Numi](https://numi.app/)
+- [ Obsidian Web Clipper](https://stephango.com/obsidian-web-clipper)
+- [Ollama](https://github.com/jmorganca/ollama). LocalLLM.
 - [OpenEmu](https://github.com/OpenEmu/OpenEmu).
-- [Parcel](https://apps.apple.com/us/app/parcel-delivery-tracking/id639968404?mt=12). Track your packages. 
-- [Pictogram](https://pictogramapp.com/). Only to replace Zen Browser and X Raw Studios' icons.
-- [Pins](https://get-pins.app/) 
-- [Plain Text Editor](https://apps.apple.com/us/app/plain-text-editor/id1572202501?mt=12). 
-- [Pocket Casts](https://pocketcasts.com/) 🎫
-- [Processing](https://processing.org/)
-- [QLMarkdown](https://github.com/sbarex/QLMarkdown). macOS Quick Look extension for markdown files. `brew install --cask qlmarkdown` 🍺
-- [Quitter](https://marco.org/apps)
-- [Reeder 5 -> Reeder Classic](https://reederapp.com/). 
-- [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar) `brew install --cask reminders-menubar` 🍺]
-- [RIME | 中州韵输入法](https://rime.im/). "Rime Input Method Engine, rimes with your keystrokes."
+- [OrbStack](https://orbstack.dev/)
+- [🎫 PasteBot](https://tapbots.com/pastebot/)
+- [ Parcel](https://apps.apple.com/us/app/parcel-delivery-tracking/id639968404?mt=12)
+- [ PCalc](https://pcalc.com/)
+- [🎫 PDF Expert](https://pdfexpert.com/)
+- [Pearcleaner](https://github.com/alienator88/Pearcleaner)
+- [🎫 Permute 3](https://software.charliemonroe.net/permute/)
+- [ PhotoBulk](https://photobulkeditor.com/)
+- [Pictogram](https://pictogramapp.com/)
+- [🎫 PICO-8](https://www.lexaloffle.com/pico-8.php)
+- [🎫 Picotron](https://www.lexaloffle.com/picotron.php)
+- [ Pins](https://get-pins.app/)
+- [ Plain Text Editor](https://apps.apple.com/us/app/plain-text-editor/id1572202501)
+- [Plex](https://www.plex.tv/)
+- [Pocket Casts](https://pocketcasts.com/)
+- [Quarto](https://quarto.org/)
+- [ Reeder Classic](https://reederapp.com/)
+- [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar)
+- [RIME | 中州韵输入法](https://rime.im/)
   - [东风破](https://github.com/rime/plum)
   - [雾凇拼音](https://github.com/iDvel/rime-ice): `bash rime-install iDvel/rime-ice:others/recipes/full`
-- [RStudio](https://www.rstudio.com/). IDE for R.
-- [Scratchpad](https://apps.apple.com/us/app/scratchpad/id6504040051). 
-- [SD Card Formatter](https://www.sdcard.org/downloads/formatter/).
-- [Sequel](https://www.getsequel.app/). Keep track of the movies, shows, games, books and audiobooks. 
+- [🎫 Rocket](https://matthewpalmer.net/rocket/)
+- [RStudio](https://www.rstudio.com/)
+- [ Scratchpad](https://apps.apple.com/us/app/scratchpad/id6504040051)
+- [SD Card Formatter](https://www.sdcard.org/downloads/formatter/)
+- [ Sequel](https://www.getsequel.app/)
+- [ Shareful](https://sindresorhus.com/shareful)
+- [🎫 Sleeve 2](https://replay.software/sleeve)
 - [Spotify](https://open.spotify.com/)
-- [Stats](https://github.com/exelban/stats). System monitor in menu bar. `brew install --cask stats` 🍺
-- [SynologyAssistant](https://www.synology.com/en-us/support/download).
-- [Synology Drive Client](https://kb.synology.com/en-us/DSM/help/SynologyDriveClient/synologydriveclient?version=7)
-- [Take a break](https://apps.apple.com/us/app/take-a-break-timer-reminder/id1457158844?mt=12). 
-- [texifier](https://www.texifier.com/) 🎫
-- [Transmit](https://panic.com/transmit/) 🎫
-- [Visual Studio Code](https://code.visualstudio.com/). `brew install --cask visual-studio-code` 🍺
-- [VLC](https://www.videolan.org/) `brew install --cask vlc` 🍺
-- [Yoink](https://eternalstorms.at/yoink/mac/) 
-- [Zoom](https://zoom.us/)
-- [小宇宙](https://www.xiaoyuzhoufm.com/) 
-
-</details>
+- [ Tapestry](https://usetapestry.com/)
+- [🎫 texifier](https://www.texifier.com/)
+- [TimeMachineEditor](https://tclementdev.com/timemachineeditor/)
+- [Transmission](https://transmissionbt.com)
+- [🎫 Transmit](https://panic.com/transmit/)
+- [undercut-f1](https://github.com/JustAman62/undercut-f1) `brew install undercutf1`
+- [upic](https://github.com/gee1k/uPic)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [VLC](https://www.videolan.org/)
+- [微信 WeChat](https://www.wechat.com/)
+- [xld](https://tmkk.undo.jp/xld/index_e.html)
+- [YACReader](https://www.yacreader.com/)
+- [Zed](https://zed.dev/)
+- [Zen Browser](https://zen-browser.app)
+- fonts
+  - [Lexend](https://www.lexend.com/), sans-serif, `brew install --cask font-lexend`
+  - [Roboto](https://fonts.google.com/specimen/Roboto), sans-serif, `brew install --cask font-roboto`
+  - [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed), sans-serif, `brew install --cask font-roboto-condensed`
+  - [Roboto Serif](https://fonts.google.com/specimen/Roboto+Serif), serif, `brew install --cask font-roboto-serif`
+  - [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono), monospace, `brew install --cask font-roboto-mono`
+  - [IBM 3270](https://github.com/rbanffy/3270font), monospace, `brew install --cask font-3270`, `brew install --cask font-3270-nerd-font`
+  - [JetBrains Maple Mono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono), monospace, `brew install --cask font-jetbrains-maple-mono`, `brew install --cask font-jetbrains-maple-mono-nf`
+  - [Ubuntu Monospace](https://design.ubuntu.com/font/), monospace, `brew install mono`
+  - Amazon Ember and Bookerly from [Amazon Complete Font Set](https://developer.amazon.com/en-US/alexa/branding/echo-guidelines/identity-guidelines/typography), sans serif, serif
+  - [LXGW WenKai / 霞鹜文楷](https://github.com/lxgw/LxgwWenKai), serif
+  - [LXGW Neo XiHei / 霞鹜新晰黑](https://github.com/lxgw/LxgwNeoXiHei), sans-serif
+  - [喜鹊宋体](https://xiquezaozi.taobao.com/), serif, paid
+  - [Atkinson Hyperlegible](https://brailleinstitute.org/freefont), sans-serif, `brew install --cask font-atkinson-hyperlegible`
+  - [Charis SIL](https://software.sil.org/charis/), serif, `brew install --cask font-charis-sil`
+  - [Server Mono](https://servermono.com/), monospace, `brew install --cask font-server-mono`
