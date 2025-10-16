@@ -13,9 +13,9 @@ updated on 2025-10-13
 
 ## 基调
 
-一，尽量不要对 app 做太多个性化的更改，开箱即用是最好的；如果复杂到需要单独导入设置备份，那么就单独拎出来提一嘴。
+==一，尽量不要对 app 做太多个性化的更改，开箱即用是最好的；如果复杂到需要单独导入设置备份，那么就单独拎出来提一嘴。==
 
-二，尽量用 `brew install --cask` 来安装。
+==二，尽量用 `brew install --cask` 来安装。==
 
 ## 实操
 
@@ -32,8 +32,8 @@ brew update && brew upgrade
 
 # tools
 cli_tools=(
-  bat btop emacs eza fish git jq neofetch
-  neovim procs r tmux uv you-get zoxide
+  bat btop codex emacs-plus eza fish git jq neofetch
+  neovim ollama procs r tmux uv you-get zoxide
 )
 
 # apps
@@ -41,17 +41,22 @@ cask_apps=(
   1password 1password-cli ghostty antinote applite maestral
   raycast anki chatgpt cursor
   font-jetbrains-mono-nerd-font font-victor-mono
-  iina keka latest obsidian maccy pearcleaner r
-  shottr skim steam telegram positron
+  iina keka obsidian maccy pearcleaner r
+  shottr skim steam telegram positron zed
 )
 
 # tap repo(s)
 brew tap mac-cleanup/mac-cleanup-py
+brew tap d12frosted/emacs-plus
 
 # install
 brew install "${cli_tools[@]}"
 brew install mac-cleanup-py
 brew install --cask "${cask_apps[@]}"
+
+# start services
+# brew services start ollama
+# brew services stop ollama
 ```
 
 第三步，运行以上脚本文件安装。
@@ -147,6 +152,8 @@ sudo scutil --set HostName new-host-name
 
 我的习惯是把 computer name 用我的常用 handle + 数字组合，hostname 则用一个简单的名字。
 
+潜在的第十四步，doom emacs 需要单独配置一下，这里就不赘述了。先前选择用 `emacs-plus` 而不是 homebrew 直接安装 `emacs`，也是因为需要 built with native compilation support.
+
 到这里就算是完工了。
 
 ***
@@ -215,15 +222,16 @@ Here we go.
 - [KeyCastr](https://github.com/keycastr/keycastr)
 - [KeyClu](https://sergii.tatarenkov.name/keyclu/support/)
 - [ Klack](https://tryklack.com/)
+- [Latest](https://max.codes/latest/) `brew install --cask latest`
 - [ LocalSend](https://localsend.org)
 - [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html)
 - [Loop](https://github.com/MrKai77/Loop)
 - [Lunar](https://lunar.fyi/)
-- [ Mactracker](https://mactracker.ca/) 
+- [ Mactracker](https://mactracker.ca/)
 - [🎫 Marked 2](https://marked2app.com/)
 - [MiaoYan 妙言](https://github.com/tw93/MiaoYan/)
 - [Min Browser](https://github.com/minbrowser/min)
-- [`monolith`](https://github.com/Y2Z/monolith)`brew install monolith` 
+- [`monolith`](https://github.com/Y2Z/monolith)`brew install monolith`
 - [🎫 Moom](https://manytricks.com/moom/)
 - [MultiViewer for F1](https://multiviewer.app)
 - [Musicbrainz Picard](https://picard.musicbrainz.org/)
