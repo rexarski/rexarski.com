@@ -33,7 +33,7 @@ brew update && brew upgrade
 # tools
 cli_tools=(
   bat btop codex emacs-plus eza fish git jq neofetch
-  neovim ollama procs r tmux uv you-get zoxide
+  neovim ollama procs r tmux uv wget you-get zoxide
 )
 
 # apps
@@ -42,7 +42,7 @@ cask_apps=(
   raycast anki chatgpt cursor
   font-jetbrains-mono-nerd-font font-victor-mono
   iina keka obsidian maccy pearcleaner r
-  shottr skim steam telegram positron zed
+  shottr skim squirrel-app steam telegram positron
 )
 
 # tap repo(s)
@@ -262,6 +262,7 @@ Here we go.
 - [ Reeder Classic](https://reederapp.com/)
 - [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar)
 - [RIME | 中州韵输入法](https://rime.im/)
+  - [鼠须管](https://rime.im/download/)
   - [东风破](https://github.com/rime/plum)
   - [雾凇拼音](https://github.com/iDvel/rime-ice): `bash rime-install iDvel/rime-ice:others/recipes/full`
 - [🎫 Rocket](https://matthewpalmer.net/rocket/)
