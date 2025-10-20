@@ -32,7 +32,7 @@ brew update && brew upgrade
 
 # tools
 cli_tools=(
-  bat btop codex emacs-plus eza fish git jq neofetch
+  bat btop codex emacs-plus eza fish fx git jq neofetch
   neovim ollama procs r tmux uv wget you-get zoxide
 )
 
@@ -42,7 +42,7 @@ cask_apps=(
   raycast anki chatgpt cursor
   font-jetbrains-mono-nerd-font font-victor-mono
   iina keka obsidian maccy pearcleaner r
-  shottr skim squirrel-app steam telegram positron
+  shottr skim squirrel-app steam telegram positron zen
 )
 
 # tap repo(s)

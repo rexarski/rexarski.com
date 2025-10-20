@@ -1,7 +1,14 @@
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Noto+Serif+SC:wght@200..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
-    /* noto serif sc not used yet */
+    @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+    
+    /* Chinese font */
+    @font-face {
+        font-family: 'LXGW WenKai';
+        src: url('/fonts/LXGWWenKaiScreen.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
 
     /* this prevents safari rendering too bold fonts */
     * {
@@ -9,7 +16,7 @@
     }
 
     body {
-        font-family: 'Noto Sans Serif SC', 'Atkinson Hyperlegible', sans-serif;
+        font-family: 'LXGW WenKai', 'Atkinson Hyperlegible', sans-serif;
         margin: auto;
         padding: 20px;
         max-width: 720px; /* 960px; */

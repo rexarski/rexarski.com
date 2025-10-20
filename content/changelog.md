@@ -5,6 +5,9 @@ menu = "not-main"
 
 # <pre>changelog</pre>
 
+- 2025-10-19
+  - 将中文字体从 Google Fonts 的 Noto Serif SC 更换为本地字体霞鹜文楷屏幕阅读版 (LXGW WenKai Screen)
+  - 首页 postslist 最近更新显示文章数从 3 变成了 7
 - 2025-10-14
   - 简化了 toolbox 的重装系统的操作
   - 在自动暗色模式的基础上增加了手动调节的选择

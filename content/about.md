@@ -42,7 +42,7 @@ menu = "main"
 
 代码托管在 GitHub 上，自动部署则交由 Netlify.
 
-字体用的是 [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont/), [Fraunces](https://fraunces.undercase.xyz), [Noto Serif SC](https://fonts.google.com/noto/specimen/Noto+Serif+SC) 以及 [Victor Mono](https://rubjo.github.io/victor-mono/).
+字体用的是 [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont/), [Fraunces](https://fraunces.undercase.xyz), [Victor Mono](https://rubjo.github.io/victor-mono/), 以及 [霞鹜文楷屏幕阅读版](https://github.com/lxgw/LxgwWenKai-Screen/)。
 
 ### Blogroll
 
