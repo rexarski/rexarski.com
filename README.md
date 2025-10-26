@@ -6,7 +6,7 @@ Made with
 
 - [Hugo](https://gohugo.io/)
 - [`hugo-bearblog` ʕ•ᴥ•ʔ](https://github.com/janraasch/hugo-bearblog)
-- Atkinson Hyperlegible, Fraunces, Noto Serif SC, Victor Mono
+- [LXGW WenKai Screen 霞鹜文楷屏幕阅读版](https://github.com/lxgw/LxgwWenKai-Screen), [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [Fraunces](https://fonts.google.com/specimen/Fraunces), [Victor Mono](https://rubjo.github.io/victor-mono/)
 
 ## Note
 
@@ -43,6 +43,9 @@ source .env
 
 # Run neodb_data.sh first
 bash neodb_data.sh
+
+# Run concept2_scraper.sh
+bash concept2_scraper.sh
 
 # Then start hugo server
 hugo server --gc -D --disableFastRender --buildFuture

@@ -1,6 +1,6 @@
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-    
+    @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
     /* Chinese font */
     @font-face {
         font-family: 'LXGW WenKai';
@@ -16,17 +16,19 @@
     }
 
     body {
-        font-family: 'LXGW WenKai', 'Atkinson Hyperlegible', sans-serif;
+        font-family: 'LXGW WenKai', 'Atkinson Hyperlegible Next', sans-serif;
         margin: auto;
         padding: 20px;
-        max-width: 720px; /* 960px; */
+        max-width: 720px;
+        /* 960px; */
         text-align: left;
         background-color: #fefefe;
         word-wrap: break-word;
         overflow-wrap: break-word;
         line-height: 1.5;
         color: #444;
-        overflow-y: scroll; /* Force to show scrollbar to prevent layout shift */
+        overflow-y: scroll;
+        /* Force to show scrollbar to prevent layout shift */
     }
 
     h1,
@@ -104,6 +106,22 @@
         color: unset;
     }
 
+    /* Fix syntax highlighting for dark mode - make comments more visible */
+    @media (prefers-color-scheme: dark) {
+
+        div.highlight pre[style*="background-color:#272822"] span[style*="color:#75715e"],
+        div.highlight pre[style*="background-color:#272822"] span[style*="color: #75715e"] {
+            color: #9ca3af !important;
+            /* Light gray for better visibility */
+        }
+    }
+
+    body.force-dark div.highlight pre[style*="background-color:#272822"] span[style*="color:#75715e"],
+    body.force-dark div.highlight pre[style*="background-color:#272822"] span[style*="color: #75715e"] {
+        color: #9ca3af !important;
+        /* Light gray for better visibility */
+    }
+
     blockquote {
         border-left: 1px solid #999;
         color: #222;
@@ -113,7 +131,8 @@
 
     footer {
         margin: auto;
-        max-width: 720px; /* 960px; */
+        max-width: 720px;
+        /* 960px; */
         text-align: left;
     }
 
@@ -274,7 +293,8 @@
     /* table of contents */
     .toc-wrapper {
         width: 61.8%;
-        max-width: 445px; /* 720px * 0.618 */
+        max-width: 445px;
+        /* 720px * 0.618 */
         margin: 1rem 0;
         position: relative;
     }
@@ -723,12 +743,14 @@
         table {
             width: 100%;
             display: block;
-            overflow-x: auto; /* Table scroll on small screens */
+            overflow-x: auto;
+            /* Table scroll on small screens */
         }
 
         th,
         td {
-            padding: 10px; /* Larger tap targets on mobile */
+            padding: 10px;
+            /* Larger tap targets on mobile */
         }
     }
 </style>

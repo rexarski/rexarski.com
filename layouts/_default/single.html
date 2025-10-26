@@ -10,9 +10,6 @@
 </p>
 {{ end }}{{ end }}
 
-<!-- Vertical layout for certain page types -->
-{{ if eq .Type "vert" }} {{ partial "style_vertical.html" . }} {{ end }}
-
 <!-- Render description as quote for posts -->
 {{ if and (or (eq .Type "posts") (eq .Type "zh")) .Params.description }}
 <blockquote><b>tl;dr</b><br />{{ .Params.description }}</blockquote>
