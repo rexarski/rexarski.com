@@ -258,6 +258,7 @@ Here we go.
 - [Plex](https://www.plex.tv/)
 - [Pocket Casts](https://pocketcasts.com/)
 - [Quarto](https://quarto.org/)
+- [ Radiccio](https://radiccio.music/)
 - [ Reeder Classic](https://reederapp.com/)
 - [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar)
 - [RIME | 中州韵输入法](https://rime.im/)

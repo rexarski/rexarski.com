@@ -3,9 +3,8 @@
 $concept2Data.lifetime_meters -}} {{- else -}} {{- errorf
 "concept2_distance.json not found" -}} {{- end -}} {{- $m = int $m -}} {{-
 $percent := div (mul (float $m) 100.0) (float $goal) -}} {{- $percent = math.Min
-100.0 (math.Max 0.0 $percent) -}} {{- $width := 30 -}} {{- $filled := int
+100.0 (math.Max 0.0 $percent) -}} {{- $width := 20 -}} {{- $filled := int
 (math.Floor (div (mul $percent $width) 100.0)) -}} {{- $empty := sub $width
 $filled -}} {{- $fillChar := "█" -}} {{- $emptyChar := "░" -}} {{- $bar :=
 printf "[%s%s]" (strings.Repeat $filled $fillChar) (strings.Repeat $empty
-$emptyChar) -}} {{- $mFmt := printf "%d" $m -}} {{- $goalFmt := printf "%d"
-$goal -}} {{- printf "%s %0.1f%% — %s / %s m" $bar $percent $mFmt $goalFmt -}}
+$emptyChar) -}} {{- $mFmt := printf "%d" $m -}} {{- $goalFmt := printf "%d" $goal -}} {{- printf "%s %0.2f%% — %s / %s m" $bar $percent $mFmt $goalFmt -}}
