@@ -5,13 +5,13 @@ menu = "main"
 
 ## Now
 
-- 带娃 + 缺觉
-- 在按照[这个列表](https://www.headphonesty.com/2025/09/albums-everyone-listen-life-audiophiles/)的推荐听老歌
 - 尝试 The Pete Plan 的[入门级别划船计划](https://thepeteplan.wordpress.com/beginner-training/)
+  - {{< million_meter_club >}}
 - 思考明年的 Hobonichi 怎么用，陷入了日本文具的消费主义陷阱
 - 想了解一下篮球的高阶数据都是怎么计算的
-
-{{< million_meter_club >}}
+- 在没有 espresso machine 的情况下尝试其他咖啡因摄取方式
+- 读远比自己想象多的育儿书，project nursing chair 进度一再推迟；现在还有一堆童书没有搬上楼
+- 尝试一个 Rule 5-5-5：同时最多消费 5 本书，5 部剧，5 款游戏 (*Focus!*)
 
 ### 在读
 
@@ -20,6 +20,10 @@ menu = "main"
 ### 在看
 
 {{< neodb category="tv" >}}
+
+### 在玩
+
+{{< neodb category="game" >}}
 
 ### 年度最佳 (2025)
 
@@ -39,8 +43,10 @@ menu = "main"
 - [JetPens](https://www.jetpens.com) 一个卖日本文具的网站
   - [Free downloads and printables](https://www.jetpens.com/blog/Free-Downloads-Printables-Coloring-Pages-Cursive-Worksheets-More/pt/484)
   - [Best planners for 2026](https://www.jetpens.com/blog/The-Best-Planners-for-2026/pt/97)
-- Baby Lou
+- Baby Lou 🍼
 - [The Pete Plan - Beginner Training](https://thepeteplan.wordpress.com/beginner-training/)
 - [Heartbeat Pineapple Habanero](https://www.heartbeathotsauce.com/products/pineapple) hot sauce
 - [无印良品 Insulated can holder 11.8 fl oz](https://www.muji.us/products/insulated-can-holder-11-8-fl-oz-mdp33a3s)，保温效果非常好，冰块放在里头一夜都不会全化；11.8 oz 大小非常合适一口闷水，不知不觉喝水也变多了
 - [Oh Lord](https://www.youtube.com/watch?v=Om_VWBua0_M) - *Foxy Shazam*
+- MacBook Air M4 15"
+- Bass brushing technique

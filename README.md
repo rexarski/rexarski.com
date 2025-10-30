@@ -6,7 +6,7 @@ Made with
 
 - [Hugo](https://gohugo.io/)
 - [`hugo-bearblog` ʕ•ᴥ•ʔ](https://github.com/janraasch/hugo-bearblog)
-- [LXGW WenKai Screen 霞鹜文楷屏幕阅读版](https://github.com/lxgw/LxgwWenKai-Screen), [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [Fraunces](https://fonts.google.com/specimen/Fraunces), [Victor Mono](https://rubjo.github.io/victor-mono/)
+- [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [Fraunces](https://fonts.google.com/specimen/Fraunces), [Victor Mono](https://rubjo.github.io/victor-mono/)
 
 ## Note
 

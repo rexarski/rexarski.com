@@ -9,7 +9,6 @@ menu = "not-main"
   - 删除了 vertical layout
   - Atkinson Hyperlegible 替换为了 Atkinson Hyperlegible Next
 - 2025-10-19
-  - 将中文字体从 Google Fonts 的 Noto Serif SC 更换为本地字体霞鹜文楷屏幕阅读版 (LXGW WenKai Screen)
   - 首页 postslist 最近更新显示文章数从 3 变成了 7
 - 2025-10-14
   - 简化了 toolbox 的重装系统的操作
