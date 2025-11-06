@@ -1,0 +1,51 @@
+{{- $page := . -}}
+{{- $db := site.Data.post_embeddings -}}
+{{- if not $db }}
+  {{- /* No embedding database available */ -}}
+{{- else }}
+  {{- $posts := $db.posts -}}
+  {{- if $posts }}
+    {{- $scratch := newScratch -}}
+    {{- $pageKey := "" -}}
+    {{- with $page.File }}
+      {{- $pageKey = .Path -}}
+    {{- end }}
+    {{- if not $pageKey }}
+      {{- $pageKey = printf "%s/%s.md" $page.Section $page.File.BaseFileName -}}
+    {{- end }}
+    {{- $scratch.Set "entry" (index $posts $pageKey) -}}
+    {{- if not ($scratch.Get "entry") }}
+      {{- $base := strings.TrimSuffix ".md" $pageKey -}}
+      {{- range $posts }}
+        {{- if eq (default "" .content_path) $base }}
+          {{- $scratch.Set "entry" . -}}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+    {{- with $scratch.Get "entry" }}
+      {{- $related := .top_similar -}}
+      {{- if gt (len $related) 0 }}
+        <div class="related-posts">
+          <h3>相关博文</h3>
+          <ul>
+            {{- range $related }}
+              {{- $targetPath := default "" .content_path -}}
+              {{- $targetPage := cond (ne $targetPath "") (site.GetPage $targetPath) nil -}}
+              {{- if $targetPage }}
+                <li>
+                  <a href="{{ $targetPage.RelPermalink }}">{{ default "Untitled" .title }}</a>
+                  <span class="related-score">({{ printf "%.3f" .score }})</span>
+                </li>
+              {{- else }}
+                <li>
+                  {{ default "Untitled" .title }}
+                  <span class="related-score">({{ printf "%.3f" .score }})</span>
+                </li>
+              {{- end }}
+            {{- end }}
+          </ul>
+        </div>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}

@@ -185,6 +185,7 @@ Here we go.
 - [bun](https://bun.sh/)
 - [Calendr](https://github.com/pakerwreah/Calendr)
 - [calibre](https://calibre-ebook.com/)
+- Claude `brew install --cask claude`
 - [coconutBattery](https://coconut-flavour.com/coconutbattery/)
 - [Concept2 Utility](https://www.concept2.com/support/software/utility)
 - [🍎 DaisyDisk](https://daisydiskapp.com/)
@@ -208,7 +209,7 @@ Here we go.
 - [🍎 Flighty](https://apps.apple.com/us/app/flighty-live-flight-tracker/id1358823008)
 - [Fliqlo Flip Clock](https://fliqlo.com/)
 - [fruit](https://github.com/Corkscrews/fruit)
-- [Fujifilm X RAW Studio](https://fujifilm-x.com/en-us/support/download/software/x-raw-studio/)
+- [Fujifilm X RAW Studio](https://fujifilm-x.com/en-us/support/download/software/x-raw-studio/) `brew install --cask fujifilm-x-raw-studio`
 - [🎫 Gemini](https://macpaw.com/gemini)
 - [GitHub Desktop](https://desktop.github.com/)
 - [Handbrake](https://handbrake.fr)

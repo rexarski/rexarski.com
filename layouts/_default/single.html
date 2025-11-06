@@ -22,6 +22,10 @@
     {{ end }}
 </p>
 
+{{ if eq .Section "posts" }}
+{{ partial "related-posts.html" . }}
+{{ end }}
+
 <!-- Next/Previous Post Navigation -->
 {{ if eq .Type "posts" "zh" }}
 <div class="post-navigation">

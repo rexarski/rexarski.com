@@ -5,6 +5,9 @@ menu = "not-main"
 
 # <pre>changelog</pre>
 
+- 2025-10-26
+  - 增加了基于 Ollama 的文章向量脚本，支持增量更新并输出相关博文数据
+  - single post 模板默认展示「相关博文」，统一使用中文标题并读取生成的缓存
 - 2025-10-25
   - 删除了 vertical layout
   - Atkinson Hyperlegible 替换为了 Atkinson Hyperlegible Next
