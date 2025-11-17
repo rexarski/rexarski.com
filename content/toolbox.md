@@ -45,12 +45,11 @@ cask_apps=(
 )
 
 # tap repo(s)
-brew tap mac-cleanup/mac-cleanup-py
+brew install tw93/tap/mole
 brew tap d12frosted/emacs-plus
 
 # install
 brew install "${cli_tools[@]}"
-brew install mac-cleanup-py
 brew install --cask "${cask_apps[@]}"
 
 # start services
@@ -180,6 +179,7 @@ Here we go.
 - [Audacity](https://www.audacityteam.org/)
 - [🎫 BetterDisplay](https://github.com/waydabber/BetterDisplay#readme)
 - [🎫 BetterTouchTool](https://folivora.ai)
+- [Boring Notch](https://github.com/TheBoredTeam/boring.notch/) `brew install --cask TheBoredTeam/boring-notch/boring-notch --no-quarantine`
 - [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn)
 - [🎫 Buckets](https://www.budgetwithbuckets.com/)
 - [bun](https://bun.sh/)
@@ -228,6 +228,7 @@ Here we go.
 - [Loop](https://github.com/MrKai77/Loop)
 - [Lunar](https://lunar.fyi/)
 - [🍎 Mactracker](https://mactracker.ca/)
+- [mac-cleanup-py](https://github.com/mac-cleanup/mac-cleanup-py) `brew install mac-cleanup-py`
 - [🎫 Marked 2](https://marked2app.com/)
 - [MiaoYan 妙言](https://github.com/tw93/MiaoYan/)
 - [Min Browser](https://github.com/minbrowser/min)

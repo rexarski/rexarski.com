@@ -1,6 +1,6 @@
 {
   "model": "embeddinggemma",
-  "generated_at": "2025-11-06T02:09:55.724398+00:00",
+  "generated_at": "2025-11-17T01:53:23.777276+00:00",
   "posts": {
     "posts/2022-09-05-sentiment-analysis.md": {
       "title": "Sentiment analysis 只是有点用处",
@@ -777,7 +777,7 @@
         0.01815836,
         0.02713819
       ],
-      "updated_at": "2025-11-06T01:43:59.430842+00:00",
+      "updated_at": "2025-11-17T01:53:23.451930+00:00",
       "similarities": {
         "posts/2022-09-14-shapley-and-explainability.md": 0.5593641052065631,
         "posts/2023-01-04-ac2022.md": 0.40878255024642995,
@@ -864,7 +864,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2893032714087731,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.26798769836543707,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2670521147727796,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.23798636172923307
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.23798636172923307,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.30398044287833376
       },
       "top_similar": [
         {
@@ -1662,7 +1663,7 @@
         -0.038499273,
         0.019734517
       ],
-      "updated_at": "2025-11-06T01:43:59.689199+00:00",
+      "updated_at": "2025-11-17T01:53:23.452101+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.5593641052065631,
         "posts/2023-01-04-ac2022.md": 0.3253244365560631,
@@ -1749,7 +1750,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2258033657241542,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.20262599288610345,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2428746061809071,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.1901452918575968
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.1901452918575968,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.22853038118327265
       },
       "top_similar": [
         {
@@ -2547,7 +2549,7 @@
         -0.0053095687,
         -0.027134214
       ],
-      "updated_at": "2025-11-06T01:44:00.289969+00:00",
+      "updated_at": "2025-11-17T01:53:23.452103+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.40878255024642995,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3253244365560631,
@@ -2634,7 +2636,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.4109301103736974,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.4156435792692545,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3687040139452852,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.40896275304969715
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.40896275304969715,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.4641275480472668
       },
       "top_similar": [
         {
@@ -3432,7 +3435,7 @@
         0.051234588,
         0.009943337
       ],
-      "updated_at": "2025-11-06T01:44:00.538165+00:00",
+      "updated_at": "2025-11-17T01:53:23.452104+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.34938756025914,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2565277991117527,
@@ -3519,7 +3522,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.42250613304273665,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2757716099554924,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3787251415711498,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.22903994841440414
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.22903994841440414,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.45619033606866327
       },
       "top_similar": [
         {
@@ -4317,7 +4321,7 @@
         0.043700907,
         0.008162518
       ],
-      "updated_at": "2025-11-06T01:44:00.928435+00:00",
+      "updated_at": "2025-11-17T01:53:23.452105+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.33917222225791704,
         "posts/2022-09-14-shapley-and-explainability.md": 0.28284202873876196,
@@ -4404,7 +4408,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3949501892155346,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.14877359416202732,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3026584377258294,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.21586473020786412
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.21586473020786412,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3774327304603534
       },
       "top_similar": [
         {
@@ -5202,7 +5207,7 @@
         -0.0037912582,
         0.005963458
       ],
-      "updated_at": "2025-11-06T01:44:01.106315+00:00",
+      "updated_at": "2025-11-17T01:53:23.452106+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.38943124327937273,
         "posts/2022-09-14-shapley-and-explainability.md": 0.31045712489473903,
@@ -5289,7 +5294,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.31148810076245803,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.19322994618428804,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2514754131218951,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.165964199181318
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.165964199181318,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.2634384889712925
       },
       "top_similar": [
         {
@@ -6087,7 +6093,7 @@
         -0.03878675,
         -0.039188
       ],
-      "updated_at": "2025-11-06T01:44:09.074517+00:00",
+      "updated_at": "2025-11-17T01:53:23.452107+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36452750232653786,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2953804519286415,
@@ -6174,7 +6180,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.4456762380094217,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.22493727421614224,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.31006346070336044,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.26395783617571456
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.26395783617571456,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.4042739333958697
       },
       "top_similar": [
         {
@@ -6972,7 +6979,7 @@
         -0.048420537,
         -0.009333742
       ],
-      "updated_at": "2025-11-06T01:44:13.010738+00:00",
+      "updated_at": "2025-11-17T01:53:23.452108+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.32384457493914737,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3183649771089597,
@@ -7059,7 +7066,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3202545244628254,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2479068563592531,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.30279445500271746,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.24799927492952795
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.24799927492952795,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.39092166304345033
       },
       "top_similar": [
         {
@@ -7857,7 +7865,7 @@
         -0.017898047,
         0.0017770788
       ],
-      "updated_at": "2025-11-06T01:44:16.159950+00:00",
+      "updated_at": "2025-11-17T01:53:23.452108+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.5855674827368584,
         "posts/2022-09-14-shapley-and-explainability.md": 0.5408470200728976,
@@ -7944,7 +7952,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2935856394577939,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.16633345719707446,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.22386960024819452,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.19512082944269932
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.19512082944269932,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.33206161708537346
       },
       "top_similar": [
         {
@@ -8742,7 +8751,7 @@
         0.034251336,
         0.038604684
       ],
-      "updated_at": "2025-11-06T01:44:16.395566+00:00",
+      "updated_at": "2025-11-17T01:53:23.452109+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3474198574034678,
         "posts/2022-09-14-shapley-and-explainability.md": 0.34823071347276735,
@@ -8829,7 +8838,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3397556593615688,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.1553793702473659,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.23423316952121442,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2413648861591233
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2413648861591233,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.38665303148457697
       },
       "top_similar": [
         {
@@ -9627,7 +9637,7 @@
         0.031165423,
         0.046603207
       ],
-      "updated_at": "2025-11-06T01:44:16.820382+00:00",
+      "updated_at": "2025-11-17T01:53:23.452110+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.23956613672667165,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20673633761490015,
@@ -9714,7 +9724,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2763078354482715,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.1423697681546838,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.24415287120773804,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.14005618072412118
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.14005618072412118,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.37102719179695043
       },
       "top_similar": [
         {
@@ -10512,7 +10523,7 @@
         -0.015865102,
         0.0043443036
       ],
-      "updated_at": "2025-11-06T01:44:17.007142+00:00",
+      "updated_at": "2025-11-17T01:53:23.452110+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3282408139726366,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2333813239210212,
@@ -10599,7 +10610,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.32110651741544,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2516305737927867,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2600118151695407,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2060599499712141
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2060599499712141,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3460778625990188
       },
       "top_similar": [
         {
@@ -11397,7 +11409,7 @@
         0.01786032,
         0.019188879
       ],
-      "updated_at": "2025-11-06T01:44:17.262961+00:00",
+      "updated_at": "2025-11-17T01:53:23.452111+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.27982822796958734,
         "posts/2022-09-14-shapley-and-explainability.md": 0.24763630713082907,
@@ -11484,7 +11496,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2322465251399645,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.1835818312073407,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2805333954174567,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.1633324154825989
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.1633324154825989,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.29897400818495196
       },
       "top_similar": [
         {
@@ -12282,7 +12295,7 @@
         -0.020043518,
         -0.058088526
       ],
-      "updated_at": "2025-11-06T01:44:17.961180+00:00",
+      "updated_at": "2025-11-17T01:53:23.452112+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.45696762058707074,
         "posts/2022-09-14-shapley-and-explainability.md": 0.47963617143326814,
@@ -12369,7 +12382,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2392350481831896,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.12715687804705375,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.21251966861731775,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.11583890928989164
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.11583890928989164,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.2259951117165975
       },
       "top_similar": [
         {
@@ -13167,7 +13181,7 @@
         -0.008045208,
         -0.026894348
       ],
-      "updated_at": "2025-11-06T01:44:18.200156+00:00",
+      "updated_at": "2025-11-17T01:53:23.452112+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.4109661129722115,
         "posts/2022-09-14-shapley-and-explainability.md": 0.38708942059631785,
@@ -13254,7 +13268,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2758173909193318,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.1456739601694501,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2120448735863953,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.14960387945080356
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.14960387945080356,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.23964535706853643
       },
       "top_similar": [
         {
@@ -14052,7 +14067,7 @@
         -0.02376636,
         0.020854093
       ],
-      "updated_at": "2025-11-06T01:44:18.322238+00:00",
+      "updated_at": "2025-11-17T01:53:23.452113+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.32735114451466574,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2776509443229473,
@@ -14139,7 +14154,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.25102605774530357,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3708160448020164,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2693131894069269,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.29568572283986777
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.29568572283986777,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.5130861504547773
       },
       "top_similar": [
         {
@@ -14937,7 +14953,7 @@
         -0.024759201,
         0.00025651374
       ],
-      "updated_at": "2025-11-06T01:44:19.106404+00:00",
+      "updated_at": "2025-11-17T01:53:23.452114+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.45245912628503543,
         "posts/2022-09-14-shapley-and-explainability.md": 0.4285833051915708,
@@ -15024,7 +15040,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.485682658719246,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.32177700214144583,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.39966902908919943,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.32125832871235205
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.32125832871235205,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.44940955769701063
       },
       "top_similar": [
         {
@@ -15822,7 +15839,7 @@
         0.0011766779,
         -0.021624604
       ],
-      "updated_at": "2025-11-06T01:44:20.114147+00:00",
+      "updated_at": "2025-11-17T01:53:23.452115+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.41662853493814733,
         "posts/2022-09-14-shapley-and-explainability.md": 0.351125186738305,
@@ -15909,7 +15926,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.47732009305548445,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3876377447573876,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.4148924266848098,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.37147236288509905
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.37147236288509905,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.5035858338635003
       },
       "top_similar": [
         {
@@ -16707,7 +16725,7 @@
         -0.026025206,
         -0.04801782
       ],
-      "updated_at": "2025-11-06T01:44:20.256397+00:00",
+      "updated_at": "2025-11-17T01:53:23.452116+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3049053701347904,
         "posts/2022-09-14-shapley-and-explainability.md": 0.1996475842205516,
@@ -16794,7 +16812,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.43125301564629454,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.29423247081435144,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.4936505855361525,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.33024482990920845
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.33024482990920845,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3451960096522933
       },
       "top_similar": [
         {
@@ -17592,7 +17611,7 @@
         0.0004287588,
         -0.048019756
       ],
-      "updated_at": "2025-11-06T01:44:20.457370+00:00",
+      "updated_at": "2025-11-17T01:53:23.452117+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3354640564459701,
         "posts/2022-09-14-shapley-and-explainability.md": 0.256962524922234,
@@ -17679,7 +17698,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.422586431397814,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.22724188176051235,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3768009418800454,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.29115989978736406
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.29115989978736406,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.4160558929710555
       },
       "top_similar": [
         {
@@ -18477,7 +18497,7 @@
         -0.011706718,
         -0.04282112
       ],
-      "updated_at": "2025-11-06T01:44:23.543619+00:00",
+      "updated_at": "2025-11-17T01:53:23.452117+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.4435570842277131,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3741274760703831,
@@ -18564,7 +18584,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.42268543761318333,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.4025108302956754,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.4079457400098798,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.4219174704728639
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.4219174704728639,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.4170679463024315
       },
       "top_similar": [
         {
@@ -19362,7 +19383,7 @@
         -0.005908352,
         -0.011693518
       ],
-      "updated_at": "2025-11-06T01:44:23.953886+00:00",
+      "updated_at": "2025-11-17T01:53:23.452118+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3234536198777019,
         "posts/2022-09-14-shapley-and-explainability.md": 0.33918746169308117,
@@ -19449,7 +19470,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.5185828707407261,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2561084050073701,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.37968259043318614,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2888381099824222
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2888381099824222,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3907013025268631
       },
       "top_similar": [
         {
@@ -20247,7 +20269,7 @@
         -0.01862923,
         0.008031057
       ],
-      "updated_at": "2025-11-06T01:44:25.899085+00:00",
+      "updated_at": "2025-11-17T01:53:23.452119+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.49246641814019865,
         "posts/2022-09-14-shapley-and-explainability.md": 0.49918142764280393,
@@ -20334,7 +20356,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2681259193249431,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.23805039516373713,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.20618193265096385,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.18194570779112612
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.18194570779112612,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3035976631978214
       },
       "top_similar": [
         {
@@ -21132,7 +21155,7 @@
         -0.0047024754,
         -0.008808304
       ],
-      "updated_at": "2025-11-06T01:44:26.938281+00:00",
+      "updated_at": "2025-11-17T01:53:23.452119+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.4819233135468161,
         "posts/2022-09-14-shapley-and-explainability.md": 0.47900613399837993,
@@ -21219,7 +21242,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2782530885453062,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.23053232475052668,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.24113479773198276,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.18318496681595683
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.18318496681595683,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.35688689431459353
       },
       "top_similar": [
         {
@@ -22017,7 +22041,7 @@
         -0.00041969723,
         -0.0008559554
       ],
-      "updated_at": "2025-11-06T01:44:31.614496+00:00",
+      "updated_at": "2025-11-17T01:53:23.452120+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3394800730891303,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2724541597286922,
@@ -22104,7 +22128,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.5371219137137124,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.24180833755330566,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3822904911309985,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.24846063440666147
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.24846063440666147,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3910981826030827
       },
       "top_similar": [
         {
@@ -22902,7 +22927,7 @@
         -0.0106201125,
         -0.0075383377
       ],
-      "updated_at": "2025-11-06T01:44:32.663902+00:00",
+      "updated_at": "2025-11-17T01:53:23.452121+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.5187153416236893,
         "posts/2022-09-14-shapley-and-explainability.md": 0.49649680825321235,
@@ -22989,7 +23014,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.31737447805424557,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.26919203486876087,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2416125058557843,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.18877884403272926
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.18877884403272926,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.33271104166511556
       },
       "top_similar": [
         {
@@ -23787,7 +23813,7 @@
         0.011078309,
         0.020513488
       ],
-      "updated_at": "2025-11-06T01:44:32.731123+00:00",
+      "updated_at": "2025-11-17T01:53:23.452122+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2502581912712584,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20564933660907805,
@@ -23874,7 +23900,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.40815704115741325,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.23713727866561865,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.38774023501807414,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2575133894569991
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2575133894569991,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.33311903158526074
       },
       "top_similar": [
         {
@@ -24672,7 +24699,7 @@
         -0.038939726,
         -0.012414148
       ],
-      "updated_at": "2025-11-06T01:44:33.038491+00:00",
+      "updated_at": "2025-11-17T01:53:23.452122+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36160206764839503,
         "posts/2022-09-14-shapley-and-explainability.md": 0.24608610127202274,
@@ -24759,7 +24786,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.4438520479823221,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3061788780917159,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.5082895555658116,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2896272575362231
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2896272575362231,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.4288800657387592
       },
       "top_similar": [
         {
@@ -25557,7 +25585,7 @@
         -0.07072749,
         0.019479262
       ],
-      "updated_at": "2025-11-06T01:44:33.163182+00:00",
+      "updated_at": "2025-11-17T01:53:23.452123+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3135938678895389,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20005252367934293,
@@ -25644,7 +25672,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.20962731550542216,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.32852022317112806,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2141122137890885,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.294983586457103
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.294983586457103,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.29763167778724653
       },
       "top_similar": [
         {
@@ -26442,7 +26471,7 @@
         0.014715945,
         -0.027922567
       ],
-      "updated_at": "2025-11-06T01:44:33.432304+00:00",
+      "updated_at": "2025-11-17T01:53:23.452123+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.30985796962146667,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2277476090132158,
@@ -26529,7 +26558,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.5502783976979476,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.27960809049915125,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.45539801835833993,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.30936568424209016
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.30936568424209016,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.41998110478051376
       },
       "top_similar": [
         {
@@ -27327,7 +27357,7 @@
         0.0063041756,
         0.0476648
       ],
-      "updated_at": "2025-11-06T01:44:33.578292+00:00",
+      "updated_at": "2025-11-17T01:53:23.452124+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2713546213130489,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2101101763693028,
@@ -27414,7 +27444,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.21868149884314636,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.20928841172326582,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.18421434277075005,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.24579767736139496
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.24579767736139496,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.19442215732574336
       },
       "top_similar": [
         {
@@ -28212,7 +28243,7 @@
         -0.0022176218,
         0.0108819585
       ],
-      "updated_at": "2025-11-06T01:44:33.751030+00:00",
+      "updated_at": "2025-11-17T01:53:23.452125+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2815217842130843,
         "posts/2022-09-14-shapley-and-explainability.md": 0.19265163882206823,
@@ -28299,7 +28330,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3734043472760613,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.23901404126541148,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.40983419195603016,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2743159030945717
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2743159030945717,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.42407976240086853
       },
       "top_similar": [
         {
@@ -29097,7 +29129,7 @@
         -0.0012316873,
         -0.041999806
       ],
-      "updated_at": "2025-11-06T01:44:34.763759+00:00",
+      "updated_at": "2025-11-17T01:53:23.452125+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.38392380400402154,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3110786482336849,
@@ -29184,7 +29216,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.38649798153021797,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.4110404459460453,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3701017406236466,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.39102763502702936
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.39102763502702936,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.49004942572806015
       },
       "top_similar": [
         {
@@ -29982,7 +30015,7 @@
         0.03827838,
         0.025481584
       ],
-      "updated_at": "2025-11-06T01:44:34.838632+00:00",
+      "updated_at": "2025-11-17T01:53:23.452126+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.21818539187696212,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21944191730145274,
@@ -30069,7 +30102,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3521559052291751,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.21948605401635626,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.36355629896294395,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.315897078480373
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.315897078480373,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3244421987077857
       },
       "top_similar": [
         {
@@ -30867,7 +30901,7 @@
         -0.018286169,
         -0.008998655
       ],
-      "updated_at": "2025-11-06T01:44:34.969515+00:00",
+      "updated_at": "2025-11-17T01:53:23.452127+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.35283521659635986,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3032540604309679,
@@ -30954,7 +30988,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.45001917729471347,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.35267896682497224,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3888336531948109,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.34934973728757984
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.34934973728757984,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.6288138071915808
       },
       "top_similar": [
         {
@@ -31752,7 +31787,7 @@
         -0.021153456,
         -0.07743044
       ],
-      "updated_at": "2025-11-06T01:44:35.543370+00:00",
+      "updated_at": "2025-11-17T01:53:23.452127+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36653706493150984,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2771280890010904,
@@ -31839,7 +31874,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.36751337203106954,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.41925302425189037,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.33461956530819625,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.38760674102127235
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.38760674102127235,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.4307628756041187
       },
       "top_similar": [
         {
@@ -32637,7 +32673,7 @@
         -0.03491111,
         -0.012842343
       ],
-      "updated_at": "2025-11-06T01:44:41.015565+00:00",
+      "updated_at": "2025-11-17T01:53:23.452128+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.35748204686502727,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3265779006500081,
@@ -32724,7 +32760,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.4034166577054601,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3068346450867126,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3510658700620209,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.29807638999791225
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.29807638999791225,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.46481191720865805
       },
       "top_similar": [
         {
@@ -33522,7 +33559,7 @@
         -0.028217515,
         -0.0377895
       ],
-      "updated_at": "2025-11-06T01:44:41.657635+00:00",
+      "updated_at": "2025-11-17T01:53:23.452129+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.33090420282751415,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2948689595191978,
@@ -33609,7 +33646,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.38426549512067515,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3103145373247013,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3423247884737198,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2751219000763152
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2751219000763152,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.44117870424199407
       },
       "top_similar": [
         {
@@ -34407,7 +34445,7 @@
         -0.016381258,
         -0.070180275
       ],
-      "updated_at": "2025-11-06T01:44:41.803170+00:00",
+      "updated_at": "2025-11-17T01:53:23.452129+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3390122191611975,
         "posts/2022-09-14-shapley-and-explainability.md": 0.23865288446337712,
@@ -34494,7 +34532,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.4339937562228933,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2813174580474314,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.5308379652562605,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3360399870780288
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3360399870780288,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.4100322589461964
       },
       "top_similar": [
         {
@@ -35292,7 +35331,7 @@
         -0.03578973,
         -0.008309866
       ],
-      "updated_at": "2025-11-06T01:44:41.878385+00:00",
+      "updated_at": "2025-11-17T01:53:23.452130+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.28461343323470106,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21524067291672824,
@@ -35379,7 +35418,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.24157686664325767,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2873117337651573,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.29263968522256056,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3583767394424683
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3583767394424683,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.23249588995964177
       },
       "top_similar": [
         {
@@ -36177,7 +36217,7 @@
         -0.03652799,
         -0.031908654
       ],
-      "updated_at": "2025-11-06T01:44:41.960016+00:00",
+      "updated_at": "2025-11-17T01:53:23.452131+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2309351934913755,
         "posts/2022-09-14-shapley-and-explainability.md": 0.15797665095170602,
@@ -36264,7 +36304,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.19174147915365897,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2659770150350413,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2230267977170375,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2231366564151945
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2231366564151945,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.21559662285548328
       },
       "top_similar": [
         {
@@ -37062,7 +37103,7 @@
         -0.028478976,
         0.035098314
       ],
-      "updated_at": "2025-11-06T01:44:42.099732+00:00",
+      "updated_at": "2025-11-17T01:53:23.452131+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.35198941953663193,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2763094029560707,
@@ -37149,7 +37190,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2947767577557573,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3369523018503564,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.29357260193187684,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.37159197381224096
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.37159197381224096,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.5552645815931394
       },
       "top_similar": [
         {
@@ -37947,7 +37989,7 @@
         -0.019115765,
         -0.06790528
       ],
-      "updated_at": "2025-11-06T01:44:42.201810+00:00",
+      "updated_at": "2025-11-17T01:53:23.452132+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3233539767407909,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2225789473592685,
@@ -38034,7 +38076,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.32210906542549306,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.35342770253951783,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3691742719453609,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3525247029063215
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3525247029063215,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3705956788278717
       },
       "top_similar": [
         {
@@ -38832,7 +38875,7 @@
         -0.07319293,
         0.033557884
       ],
-      "updated_at": "2025-11-06T01:44:42.398209+00:00",
+      "updated_at": "2025-11-17T01:53:23.452133+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.30683446861278824,
         "posts/2022-09-14-shapley-and-explainability.md": 0.27753753797834246,
@@ -38919,7 +38962,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3239271079205496,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3795452181164555,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.27146855775603335,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.30666274620774886
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.30666274620774886,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3066725441016148
       },
       "top_similar": [
         {
@@ -39717,7 +39761,7 @@
         -0.0399977,
         -0.032128256
       ],
-      "updated_at": "2025-11-06T01:44:42.471219+00:00",
+      "updated_at": "2025-11-17T01:53:23.452133+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.24500112458082843,
         "posts/2022-09-14-shapley-and-explainability.md": 0.17699707504465367,
@@ -39804,7 +39848,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2553245870880187,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.26855342929083764,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.25373484266368795,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.30342065212272856
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.30342065212272856,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.25723230373173944
       },
       "top_similar": [
         {
@@ -40602,7 +40647,7 @@
         -0.061847243,
         -0.0021249333
       ],
-      "updated_at": "2025-11-06T01:44:42.600434+00:00",
+      "updated_at": "2025-11-17T01:53:23.452134+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.32450092255454377,
         "posts/2022-09-14-shapley-and-explainability.md": 0.30016318133073316,
@@ -40689,7 +40734,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.30211721430347077,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3700123109995598,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.26810538949699636,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3327207075692822
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3327207075692822,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3260786425361064
       },
       "top_similar": [
         {
@@ -41487,7 +41533,7 @@
         -0.04303522,
         0.010732028
       ],
-      "updated_at": "2025-11-06T01:44:42.688806+00:00",
+      "updated_at": "2025-11-17T01:53:23.452135+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.30889388227257203,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2164833346166163,
@@ -41574,7 +41620,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.16103367713399508,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.23685033638385863,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.22653442702818974,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.250380885025222
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.250380885025222,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.2146283961521748
       },
       "top_similar": [
         {
@@ -42372,7 +42419,7 @@
         -0.0031011836,
         -0.0006697827
       ],
-      "updated_at": "2025-11-06T01:44:42.784255+00:00",
+      "updated_at": "2025-11-17T01:53:23.452135+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2105082865070418,
         "posts/2022-09-14-shapley-and-explainability.md": 0.17354399554949462,
@@ -42459,7 +42506,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.25122966012708836,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.350375695697836,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2415652596035465,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2970590709419706
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2970590709419706,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.21461717524589405
       },
       "top_similar": [
         {
@@ -43257,7 +43305,7 @@
         0.00077686773,
         0.05470582
       ],
-      "updated_at": "2025-11-06T01:44:42.925689+00:00",
+      "updated_at": "2025-11-17T01:53:23.452136+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2994337120453576,
         "posts/2022-09-14-shapley-and-explainability.md": 0.19760522068557598,
@@ -43344,7 +43392,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.1830999553917899,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2924676743670232,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.21321381633986888,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.20779025557226308
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.20779025557226308,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.1770308705358122
       },
       "top_similar": [
         {
@@ -44142,7 +44191,7 @@
         -0.0035339347,
         -0.02819458
       ],
-      "updated_at": "2025-11-06T01:44:42.999009+00:00",
+      "updated_at": "2025-11-17T01:53:23.452137+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.19189717333879555,
         "posts/2022-09-14-shapley-and-explainability.md": 0.10969029594802447,
@@ -44229,7 +44278,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.18877620722562638,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.20583029843043427,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.14163141371365925,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.220478994291773
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.220478994291773,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.1547522213938644
       },
       "top_similar": [
         {
@@ -45027,7 +45077,7 @@
         -0.010464164,
         -0.053348236
       ],
-      "updated_at": "2025-11-06T01:44:43.519480+00:00",
+      "updated_at": "2025-11-17T01:53:23.452137+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36469980361505927,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3016601707788893,
@@ -45114,7 +45164,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3666086766658712,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.26402918479368853,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3750746986164254,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.28026759640734195
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.28026759640734195,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3935631058728637
       },
       "top_similar": [
         {
@@ -45912,7 +45963,7 @@
         -0.029768484,
         0.0064175706
       ],
-      "updated_at": "2025-11-06T01:44:43.586037+00:00",
+      "updated_at": "2025-11-17T01:53:23.452138+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2540607138699828,
         "posts/2022-09-14-shapley-and-explainability.md": 0.19073680239771998,
@@ -45999,7 +46050,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.24205073638482547,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2649600862582194,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.22566575442170078,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2633546120341246
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2633546120341246,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.23041598387316634
       },
       "top_similar": [
         {
@@ -46797,7 +46849,7 @@
         -0.03546113,
         -0.010732678
       ],
-      "updated_at": "2025-11-06T01:44:43.732809+00:00",
+      "updated_at": "2025-11-17T01:53:23.452139+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.285669876631903,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25537025117250634,
@@ -46884,7 +46936,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.280885483208866,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3063486725975196,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2859601030309427,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3341551128972329
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3341551128972329,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.33370885278344453
       },
       "top_similar": [
         {
@@ -47682,7 +47735,7 @@
         -0.006405947,
         0.022082618
       ],
-      "updated_at": "2025-11-06T01:44:43.924734+00:00",
+      "updated_at": "2025-11-17T01:53:23.452139+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.18305669615205064,
         "posts/2022-09-14-shapley-and-explainability.md": 0.1184718687192798,
@@ -47769,7 +47822,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.21458597941628743,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2734912086014206,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.19087490077728997,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.29737164546423
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.29737164546423,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.2768035952749491
       },
       "top_similar": [
         {
@@ -48567,7 +48621,7 @@
         -0.03178446,
         -0.08281059
       ],
-      "updated_at": "2025-11-06T01:44:43.994436+00:00",
+      "updated_at": "2025-11-17T01:53:23.452140+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3067787072610585,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25513582399227436,
@@ -48654,7 +48708,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3059383105033681,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2559477252468343,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3395639141025817,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.25925332567718207
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.25925332567718207,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.2962539315811987
       },
       "top_similar": [
         {
@@ -49452,7 +49507,7 @@
         -0.0031714656,
         -0.025914876
       ],
-      "updated_at": "2025-11-06T01:44:44.065455+00:00",
+      "updated_at": "2025-11-17T01:53:23.452140+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3058302872042573,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25447315054303815,
@@ -49539,7 +49594,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3265970864718159,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.36351044919322456,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3339615859669643,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.34748000572347915
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.34748000572347915,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.20669997409339097
       },
       "top_similar": [
         {
@@ -50337,7 +50393,7 @@
         -0.030226942,
         -0.023140246
       ],
-      "updated_at": "2025-11-06T01:44:44.176192+00:00",
+      "updated_at": "2025-11-17T01:53:23.452141+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2637932025392426,
         "posts/2022-09-14-shapley-and-explainability.md": 0.18223864260105185,
@@ -50424,7 +50480,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2548480749030828,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.34948660959772915,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2863681323697157,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3096165844620744
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3096165844620744,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.25600291822591237
       },
       "top_similar": [
         {
@@ -51222,7 +51279,7 @@
         0.018901832,
         -0.0108794505
       ],
-      "updated_at": "2025-11-06T01:44:44.243787+00:00",
+      "updated_at": "2025-11-17T01:53:23.452142+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.233435367682145,
         "posts/2022-09-14-shapley-and-explainability.md": 0.18194289343404219,
@@ -51309,7 +51366,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.22285999765311723,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.25503416682424684,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.29707324465833673,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.29381390366946875
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.29381390366946875,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.27414891574279726
       },
       "top_similar": [
         {
@@ -52107,7 +52165,7 @@
         0.02424557,
         -0.0103749605
       ],
-      "updated_at": "2025-11-06T01:44:44.454466+00:00",
+      "updated_at": "2025-11-17T01:53:23.452142+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.33942070909875927,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3272522396541069,
@@ -52194,7 +52252,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.23600075970576764,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3560438281140001,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.25266117613475503,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2657804099012655
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2657804099012655,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.22592506050021258
       },
       "top_similar": [
         {
@@ -52992,7 +53051,7 @@
         0.0040532155,
         -0.04488162
       ],
-      "updated_at": "2025-11-06T01:44:44.539213+00:00",
+      "updated_at": "2025-11-17T01:53:23.452143+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3799659043670856,
         "posts/2022-09-14-shapley-and-explainability.md": 0.27334200424211164,
@@ -53079,7 +53138,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3892666681262934,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2831942935154908,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.39405112337130815,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.29120415704233626
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.29120415704233626,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.31030216440067615
       },
       "top_similar": [
         {
@@ -53877,7 +53937,7 @@
         -0.06243006,
         -0.0034637768
       ],
-      "updated_at": "2025-11-06T01:44:44.695906+00:00",
+      "updated_at": "2025-11-17T01:53:23.452144+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.31852344682947553,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2438798756912555,
@@ -53964,7 +54024,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.4609010209861252,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.44166423189253845,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.42018699683964456,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.42695592916225994
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.42695592916225994,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.6512397780267938
       },
       "top_similar": [
         {
@@ -53974,16 +54035,16 @@
           "score": 0.661994
         },
         {
+          "post_key": "posts/2025-11-16-kobo-koreader-reset.md",
+          "content_path": "posts/2025-11-16-kobo-koreader-reset",
+          "title": "Kobo KOReader Setup",
+          "score": 0.65124
+        },
+        {
           "post_key": "posts/2023-10-01-learn-how-to-type.md",
           "content_path": "posts/2023-10-01-learn-how-to-type",
           "title": "在2023年学习打字：双拼输入法和Iris分体键盘",
           "score": 0.571282
-        },
-        {
-          "post_key": "posts/2025-06-18-goodbye-kindle.md",
-          "content_path": "posts/2025-06-18-goodbye-kindle",
-          "title": "Kindle: What's yours is mine",
-          "score": 0.563196
         }
       ]
     },
@@ -54762,7 +54823,7 @@
         -0.035008907,
         0.013009399
       ],
-      "updated_at": "2025-11-06T01:44:44.816194+00:00",
+      "updated_at": "2025-11-17T01:53:23.452144+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3550564684603161,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2919229286482158,
@@ -54849,7 +54910,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.25302964330079475,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2822996153836859,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2286759334164256,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.21916858236882894
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.21916858236882894,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3034188495669675
       },
       "top_similar": [
         {
@@ -55647,7 +55709,7 @@
         -0.041224703,
         0.0125323655
       ],
-      "updated_at": "2025-11-06T01:44:44.975765+00:00",
+      "updated_at": "2025-11-17T01:53:23.452145+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3467703141846651,
         "posts/2022-09-14-shapley-and-explainability.md": 0.27958603957797246,
@@ -55734,7 +55796,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.28093475588246836,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.46445958379663416,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.290976416978897,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3529413977750869
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3529413977750869,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.45840795400212236
       },
       "top_similar": [
         {
@@ -56532,7 +56595,7 @@
         0.010759042,
         -0.046319768
       ],
-      "updated_at": "2025-11-06T01:44:45.145685+00:00",
+      "updated_at": "2025-11-17T01:53:23.452146+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.37246906185438505,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2853246161480075,
@@ -56619,7 +56682,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.33761526850601414,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.42228539648992686,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2994930483743259,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3514376154983482
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3514376154983482,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.37412475549270163
       },
       "top_similar": [
         {
@@ -57417,7 +57481,7 @@
         -0.02318063,
         -0.017843988
       ],
-      "updated_at": "2025-11-06T01:44:45.215735+00:00",
+      "updated_at": "2025-11-17T01:53:23.452146+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2496055348105398,
         "posts/2022-09-14-shapley-and-explainability.md": 0.17659022722315382,
@@ -57504,7 +57568,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2308905154536359,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.33017968299103595,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.1916836359545114,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3575108834354673
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3575108834354673,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.26260277635697266
       },
       "top_similar": [
         {
@@ -58302,7 +58367,7 @@
         -0.018316919,
         0.0381684
       ],
-      "updated_at": "2025-11-06T01:44:45.284172+00:00",
+      "updated_at": "2025-11-17T01:53:23.452147+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2417089647671,
         "posts/2022-09-14-shapley-and-explainability.md": 0.159705481493386,
@@ -58389,7 +58454,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2719582301293972,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3169399508588532,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2335716211106943,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2779486541346729
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2779486541346729,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.2537571406216811
       },
       "top_similar": [
         {
@@ -59187,7 +59253,7 @@
         0.02316566,
         -0.015949281
       ],
-      "updated_at": "2025-11-06T01:44:45.431178+00:00",
+      "updated_at": "2025-11-17T01:53:23.452148+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3392383391811563,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2395190307195004,
@@ -59274,7 +59340,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.27439327425548937,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2933334155697202,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.28172518899314386,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.26679539419033976
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.26679539419033976,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.29715344798327087
       },
       "top_similar": [
         {
@@ -60072,7 +60139,7 @@
         0.0078041963,
         0.0023917982
       ],
-      "updated_at": "2025-11-06T01:44:45.515086+00:00",
+      "updated_at": "2025-11-17T01:53:23.452148+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3069517494118117,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21355365945167512,
@@ -60159,7 +60226,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.31218616920176423,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.513606316230539,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.26610328405334427,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.35753299248429493
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.35753299248429493,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3761632225599155
       },
       "top_similar": [
         {
@@ -60957,7 +61025,7 @@
         -0.010849859,
         0.020402882
       ],
-      "updated_at": "2025-11-06T01:44:45.612118+00:00",
+      "updated_at": "2025-11-17T01:53:23.452149+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.28541556524656053,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21689435609461521,
@@ -61044,7 +61112,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3289427754708013,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3618250168758293,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3085264908794331,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.39151577572071344
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.39151577572071344,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.32528091775769685
       },
       "top_similar": [
         {
@@ -61842,7 +61911,7 @@
         -0.039841007,
         -0.0075450065
       ],
-      "updated_at": "2025-11-06T01:44:45.693467+00:00",
+      "updated_at": "2025-11-17T01:53:23.452149+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.29072960956124866,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2055639783519665,
@@ -61929,7 +61998,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.24756072747150587,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3348297030418032,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.25810452589927396,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.32345937461301866
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.32345937461301866,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.16916074263188657
       },
       "top_similar": [
         {
@@ -62727,7 +62797,7 @@
         -0.019468917,
         0.024328707
       ],
-      "updated_at": "2025-11-06T01:44:45.773033+00:00",
+      "updated_at": "2025-11-17T01:53:23.452150+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.39601035913087373,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2951845650484783,
@@ -62814,7 +62884,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2543818236802097,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.29126257463777055,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.23559996432664385,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2856855326689056
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2856855326689056,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.2568724359152538
       },
       "top_similar": [
         {
@@ -63612,7 +63683,7 @@
         -0.031494938,
         0.016580038
       ],
-      "updated_at": "2025-11-06T01:44:46.430072+00:00",
+      "updated_at": "2025-11-17T01:53:23.452151+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3958583221393872,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3199520194816894,
@@ -63699,7 +63770,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2955381062023458,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.4453418363645536,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2653317344804995,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.31195360927407284
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.31195360927407284,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.46043142625335437
       },
       "top_similar": [
         {
@@ -64497,7 +64569,7 @@
         -0.051173203,
         -0.06688106
       ],
-      "updated_at": "2025-11-06T01:44:46.563480+00:00",
+      "updated_at": "2025-11-17T01:53:23.452151+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36245227515214434,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3156694896130191,
@@ -64584,7 +64656,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2937747761370241,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.35552615555128053,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3552136585695154,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.32416011300794983
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.32416011300794983,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.44432089317330004
       },
       "top_similar": [
         {
@@ -65382,7 +65455,7 @@
         -0.07349683,
         -0.035569075
       ],
-      "updated_at": "2025-11-06T01:44:46.646621+00:00",
+      "updated_at": "2025-11-17T01:53:23.452152+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.23293357658972821,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20092058157244516,
@@ -65469,7 +65542,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.24907263959535608,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.24484851301826874,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.23853453064215752,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.30509915870943827
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.30509915870943827,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.2682893400078169
       },
       "top_similar": [
         {
@@ -66267,7 +66341,7 @@
         -0.0023191655,
         -0.0736499
       ],
-      "updated_at": "2025-11-06T01:44:47.610658+00:00",
+      "updated_at": "2025-11-17T01:53:23.452153+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.40065725885089193,
         "posts/2022-09-14-shapley-and-explainability.md": 0.29601004518650254,
@@ -66354,7 +66428,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.4460017112087263,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.4266397355181034,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.4249768445131665,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.373281104526785
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.373281104526785,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.497033942871928
       },
       "top_similar": [
         {
@@ -67152,7 +67227,7 @@
         -0.036760163,
         -0.03989493
       ],
-      "updated_at": "2025-11-06T01:44:47.754333+00:00",
+      "updated_at": "2025-11-17T01:53:23.452153+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.34110127498995285,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25239376342546327,
@@ -67239,7 +67314,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.31066108625599587,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.5271070346752427,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3092558803312785,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3761971445145549
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3761971445145549,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3817304141740609
       },
       "top_similar": [
         {
@@ -68037,7 +68113,7 @@
         -0.04797785,
         0.025440032
       ],
-      "updated_at": "2025-11-06T01:44:48.148078+00:00",
+      "updated_at": "2025-11-17T01:53:23.452154+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3718621968649295,
         "posts/2022-09-14-shapley-and-explainability.md": 0.29655057240248434,
@@ -68124,7 +68200,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3265577424440584,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.7251971630700276,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.25773243001492485,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3327164176737865
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3327164176737865,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.35694771774277095
       },
       "top_similar": [
         {
@@ -68922,7 +68999,7 @@
         -0.04090496,
         0.0078122327
       ],
-      "updated_at": "2025-11-06T01:44:48.250105+00:00",
+      "updated_at": "2025-11-17T01:53:23.452155+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2874185208638336,
         "posts/2022-09-14-shapley-and-explainability.md": 0.22631070564371447,
@@ -69009,7 +69086,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.30404761702455546,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.46183194816859374,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.23886644409335148,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.380405891170296
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.380405891170296,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.22103688813961295
       },
       "top_similar": [
         {
@@ -69807,7 +69885,7 @@
         -0.0028248266,
         -0.03785791
       ],
-      "updated_at": "2025-11-06T01:44:48.419313+00:00",
+      "updated_at": "2025-11-17T01:53:23.452156+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2502034434453025,
         "posts/2022-09-14-shapley-and-explainability.md": 0.24726324992865645,
@@ -69894,7 +69972,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.23971210148056224,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.30210757203386074,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.26615110671167674,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3303371275369217
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3303371275369217,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.27210461959676935
       },
       "top_similar": [
         {
@@ -70692,7 +70771,7 @@
         -0.00405431,
         0.014411197
       ],
-      "updated_at": "2025-11-06T01:44:48.519332+00:00",
+      "updated_at": "2025-11-17T01:53:23.452157+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.23732700821671723,
         "posts/2022-09-14-shapley-and-explainability.md": 0.17546654796720546,
@@ -70779,7 +70858,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.305405063954248,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.3980976869576695,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.27518288864372215,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3687126708397591
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3687126708397591,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.2913293890005142
       },
       "top_similar": [
         {
@@ -71577,7 +71657,7 @@
         -0.022396192,
         -0.024736393
       ],
-      "updated_at": "2025-11-06T01:44:48.639108+00:00",
+      "updated_at": "2025-11-17T01:53:23.452158+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.28661890447428934,
         "posts/2022-09-14-shapley-and-explainability.md": 0.18218962594283689,
@@ -71664,7 +71744,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.4187699210564474,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2126848628794923,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.44451712225301726,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.239069290884872
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.239069290884872,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3937493011091887
       },
       "top_similar": [
         {
@@ -72462,7 +72543,7 @@
         -0.0041408064,
         0.0134857595
       ],
-      "updated_at": "2025-11-06T01:44:48.719430+00:00",
+      "updated_at": "2025-11-17T01:53:23.452159+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.31459039190404503,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21138612491056563,
@@ -72549,9 +72630,16 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.31595899981963727,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.22579355647938157,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.28398228794654873,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2611206580218467
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2611206580218467,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.7142390479681425
       },
       "top_similar": [
+        {
+          "post_key": "posts/2025-11-16-kobo-koreader-reset.md",
+          "content_path": "posts/2025-11-16-kobo-koreader-reset",
+          "title": "Kobo KOReader Setup",
+          "score": 0.714239
+        },
         {
           "post_key": "posts/2025-07-26-weekend-problem-solving-session.md",
           "content_path": "posts/2025-07-26-weekend-problem-solving-session",
@@ -72563,12 +72651,6 @@
           "content_path": "posts/2025-03-04-make-internet-experience-great-again",
           "title": "复古就是 Make Internet Experience Great Again",
           "score": 0.517904
-        },
-        {
-          "post_key": "posts/2025-06-18-goodbye-kindle.md",
-          "content_path": "posts/2025-06-18-goodbye-kindle",
-          "title": "Kindle: What's yours is mine",
-          "score": 0.430853
         }
       ]
     },
@@ -73347,7 +73429,7 @@
         -0.035564765,
         -0.045492385
       ],
-      "updated_at": "2025-11-06T01:44:49.275519+00:00",
+      "updated_at": "2025-11-17T01:53:23.452159+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3026162444862855,
         "posts/2022-09-14-shapley-and-explainability.md": 0.24944418950878777,
@@ -73434,7 +73516,8 @@
         "posts/2025-10-16-tahoe-menu-bar.md": 0.44085230008598336,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.25340426349552975,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.35030654818784523,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.24432534445714255
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.24432534445714255,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3620180111204786
       },
       "top_similar": [
         {
@@ -74232,7 +74315,7 @@
         0.011921324,
         -0.01588936
       ],
-      "updated_at": "2025-11-06T01:44:49.800465+00:00",
+      "updated_at": "2025-11-17T01:53:23.452160+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2893032714087731,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2258033657241542,
@@ -74319,7 +74402,8 @@
         "posts/2025-10-16-doom-emacs-macos-installation.md": 0.44085230008598336,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2758350439557905,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.526209921529323,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3086563911473062
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3086563911473062,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.34447942567977735
       },
       "top_similar": [
         {
@@ -75117,7 +75201,7 @@
         -0.07883187,
         -0.028716471
       ],
-      "updated_at": "2025-11-06T01:44:49.967301+00:00",
+      "updated_at": "2025-11-17T01:53:23.452161+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.26798769836543707,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20262599288610345,
@@ -75204,7 +75288,8 @@
         "posts/2025-10-16-doom-emacs-macos-installation.md": 0.25340426349552975,
         "posts/2025-10-16-tahoe-menu-bar.md": 0.2758350439557905,
         "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.22631798866142716,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.32579510338362877
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.32579510338362877,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.2566995828539868
       },
       "top_similar": [
         {
@@ -76002,7 +76087,7 @@
         0.0054565277,
         -0.034048557
       ],
-      "updated_at": "2025-11-06T01:44:50.223782+00:00",
+      "updated_at": "2025-11-17T01:53:23.452161+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2670521147727796,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2428746061809071,
@@ -76089,7 +76174,8 @@
         "posts/2025-10-16-doom-emacs-macos-installation.md": 0.35030654818784523,
         "posts/2025-10-16-tahoe-menu-bar.md": 0.526209921529323,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.22631798866142716,
-        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3198576392730857
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3198576392730857,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.30998501112036836
       },
       "top_similar": [
         {
@@ -76887,7 +76973,7 @@
         -0.07308003,
         -0.053932242
       ],
-      "updated_at": "2025-11-06T01:44:50.331117+00:00",
+      "updated_at": "2025-11-17T01:53:23.452162+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.23798636172923307,
         "posts/2022-09-14-shapley-and-explainability.md": 0.1901452918575968,
@@ -76974,7 +77060,8 @@
         "posts/2025-10-16-doom-emacs-macos-installation.md": 0.24432534445714255,
         "posts/2025-10-16-tahoe-menu-bar.md": 0.3086563911473062,
         "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.32579510338362877,
-        "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3198576392730857
+        "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3198576392730857,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.2765909423526324
       },
       "top_similar": [
         {
@@ -76994,6 +77081,892 @@
           "content_path": "posts/2023-01-04-ac2022",
           "title": "2022年简单回顾和2023新年展望",
           "score": 0.408963
+        }
+      ]
+    },
+    "posts/2025-11-16-kobo-koreader-reset.md": {
+      "title": "Kobo KOReader Setup",
+      "slug": "kobo-koreader-reset",
+      "content_path": "posts/2025-11-16-kobo-koreader-reset",
+      "content_hash": "73e954ed603868895aaf5b316f7d98c218afc3d5a1e89293beee842d17ce24e9",
+      "embedding": [
+        -0.091590814,
+        -0.05508397,
+        0.03636283,
+        -0.019081166,
+        -0.018789228,
+        -0.0046402025,
+        -0.0029859785,
+        -0.043627515,
+        0.030426798,
+        -0.04846518,
+        -0.05064464,
+        -0.02626145,
+        0.02358852,
+        0.023080364,
+        -0.036002778,
+        -0.008939589,
+        0.018415663,
+        0.034898587,
+        -0.08227886,
+        0.010300868,
+        0.009712296,
+        0.024045223,
+        -0.02652702,
+        0.035283245,
+        -0.028129006,
+        -0.048250988,
+        0.07073957,
+        0.0263484,
+        0.032517347,
+        -0.019932054,
+        -0.021907656,
+        0.005342413,
+        -0.019783502,
+        0.019107183,
+        0.069322355,
+        0.06066499,
+        -0.02014278,
+        -0.010662066,
+        -0.0142371,
+        -0.029845763,
+        0.03214498,
+        0.035717584,
+        -0.016917175,
+        0.049028065,
+        0.022914689,
+        -0.07853781,
+        0.027845753,
+        -0.025135474,
+        -0.031992633,
+        -0.030163012,
+        0.015982639,
+        0.10507389,
+        0.003082707,
+        -0.012129429,
+        -0.08017029,
+        0.044073515,
+        0.050703917,
+        -0.04475826,
+        -0.04674682,
+        0.014988438,
+        -0.023316558,
+        -0.018113261,
+        -0.059948515,
+        0.0133111905,
+        0.101290286,
+        -0.008468713,
+        -0.017296594,
+        0.03881428,
+        -0.012122407,
+        0.109928705,
+        -0.008025934,
+        -0.049930748,
+        -0.030053828,
+        -0.06545799,
+        0.13952978,
+        0.08800849,
+        -0.03158184,
+        -0.006990979,
+        -0.021413047,
+        0.011143866,
+        0.022222927,
+        -0.01864669,
+        -0.043824136,
+        -0.075623386,
+        0.008510276,
+        0.017262803,
+        0.01077467,
+        0.017193848,
+        0.041760534,
+        -0.01871517,
+        0.01833494,
+        0.037961777,
+        -0.0124139665,
+        0.009662646,
+        0.023489978,
+        -0.02067613,
+        -0.02504836,
+        -0.026198795,
+        -0.08188113,
+        -0.019872885,
+        -0.037579957,
+        0.00320076,
+        0.05539951,
+        0.028489044,
+        0.011527476,
+        0.030996036,
+        -0.039247308,
+        0.0001287191,
+        -0.06564048,
+        -0.015714787,
+        0.037628837,
+        0.05214131,
+        -0.03201627,
+        0.015652204,
+        0.019458367,
+        -0.0020749967,
+        0.015790027,
+        -0.018821463,
+        -0.007393054,
+        -0.008748997,
+        -0.007683744,
+        -0.042161755,
+        -0.009650983,
+        0.03791685,
+        0.025023611,
+        0.03893763,
+        0.0076135853,
+        -0.013545545,
+        -0.03454639,
+        0.028207859,
+        -0.01958741,
+        0.022837626,
+        -0.008649132,
+        0.023618463,
+        -0.030008676,
+        -0.02967065,
+        -0.014389899,
+        -0.013859138,
+        0.01586362,
+        -0.025182003,
+        -0.005029539,
+        -0.05289077,
+        -0.00390256,
+        -0.018082796,
+        -0.015225253,
+        0.011276642,
+        -0.08186681,
+        -0.016172798,
+        -0.05175849,
+        -0.011165515,
+        0.021538377,
+        0.042554203,
+        -0.030792104,
+        -0.0012330747,
+        -0.041713823,
+        0.0037350298,
+        0.049405977,
+        -0.007969261,
+        0.00015351865,
+        -0.044263035,
+        0.0032405131,
+        -0.0042095534,
+        -0.03653815,
+        0.056362458,
+        0.045691665,
+        0.08499558,
+        0.0026372024,
+        0.01499831,
+        -0.0208633,
+        -0.008672407,
+        -0.031741116,
+        -0.0344754,
+        0.022493657,
+        0.0483426,
+        0.03604553,
+        0.005252201,
+        -0.041940004,
+        0.017421573,
+        0.06747256,
+        -0.043017797,
+        0.029964123,
+        -0.024852144,
+        -0.014702087,
+        0.008763232,
+        -0.07454028,
+        -0.031274565,
+        -0.048186515,
+        0.021110334,
+        0.01417507,
+        0.014197028,
+        0.01213168,
+        0.016501388,
+        -0.04851478,
+        -0.02297457,
+        0.01109645,
+        -0.011233676,
+        0.07244351,
+        0.0035937668,
+        0.0011802722,
+        0.03506537,
+        0.035522822,
+        0.040867273,
+        -0.008345527,
+        -0.026342545,
+        0.07486197,
+        0.03074317,
+        -0.02241002,
+        0.010767016,
+        -0.059103742,
+        0.02466563,
+        -0.033183392,
+        -0.013146536,
+        -0.03874408,
+        0.03955414,
+        0.007239272,
+        -0.004553606,
+        -0.009376335,
+        0.005766104,
+        0.03710969,
+        -0.029776324,
+        -0.047484003,
+        -0.0036359972,
+        -0.034916375,
+        -0.03422758,
+        0.03920683,
+        0.048742704,
+        -0.015614316,
+        -0.0111061465,
+        0.015372362,
+        0.025805764,
+        -0.0152568305,
+        0.014318469,
+        0.026216319,
+        0.05618033,
+        -0.007355097,
+        0.050371952,
+        -0.09133281,
+        -0.043662686,
+        -0.12179939,
+        0.059036803,
+        0.021872673,
+        -0.00919093,
+        0.038141202,
+        0.033286054,
+        0.017061913,
+        -0.013728226,
+        0.016768629,
+        -0.01579249,
+        -0.024129633,
+        -0.016809564,
+        0.03227972,
+        0.030909942,
+        0.023624435,
+        -0.017260175,
+        -0.0029295732,
+        0.030934054,
+        0.012348133,
+        -0.013739691,
+        -0.020322291,
+        -0.02010164,
+        0.059135213,
+        -0.04592623,
+        -0.007391882,
+        0.0055396995,
+        0.04522501,
+        0.02370572,
+        0.04282402,
+        0.03254313,
+        -0.11587485,
+        -0.026505753,
+        0.027600305,
+        -0.052926112,
+        0.052028287,
+        -0.029263247,
+        -0.044563904,
+        0.002888799,
+        0.005691958,
+        0.054100405,
+        -0.007873346,
+        -0.06637215,
+        -0.023824388,
+        0.03752825,
+        0.02933212,
+        0.03470256,
+        0.045002654,
+        -0.05105619,
+        0.022971053,
+        -0.02879925,
+        -0.037166,
+        0.024034614,
+        -0.047333423,
+        -0.013367538,
+        -0.029164946,
+        0.034762785,
+        0.02481896,
+        0.0045120316,
+        -0.06018912,
+        0.018780561,
+        -0.040021054,
+        0.000761225,
+        0.07684697,
+        -0.0019349833,
+        0.04261265,
+        0.03120026,
+        0.00020552237,
+        0.029286658,
+        -0.050265994,
+        -0.077878885,
+        0.0005505729,
+        0.043517612,
+        -0.021291936,
+        0.017989831,
+        0.0013332139,
+        -0.014605658,
+        0.04742414,
+        0.048138667,
+        0.06133477,
+        0.025627287,
+        0.030865306,
+        0.02700048,
+        0.041182578,
+        0.050717637,
+        -0.0014898805,
+        -0.031121768,
+        0.014808638,
+        -0.088553,
+        0.026420502,
+        0.021403829,
+        -0.11485905,
+        -0.030742098,
+        0.016923515,
+        -0.036450405,
+        0.07666676,
+        -0.026694253,
+        -0.028538086,
+        0.018564763,
+        0.026765756,
+        0.020913843,
+        0.031227589,
+        0.00077462057,
+        0.026752697,
+        0.010037102,
+        0.04236108,
+        -0.0137534095,
+        0.0342092,
+        0.048514094,
+        0.030886425,
+        0.009743045,
+        -0.00661023,
+        -0.026693122,
+        0.004127939,
+        -0.0169561,
+        -0.027979728,
+        0.0906351,
+        -0.07352991,
+        0.034230135,
+        -0.0044290125,
+        0.05975045,
+        0.064690545,
+        0.021417033,
+        -0.0042983806,
+        -0.06232446,
+        0.023580123,
+        0.006140169,
+        -0.005672509,
+        -0.0036520904,
+        -0.020781677,
+        0.027563583,
+        0.023248559,
+        0.059199534,
+        0.023912497,
+        0.029653743,
+        0.0074446667,
+        0.03840842,
+        -0.111763984,
+        -0.023329917,
+        7.463185e-05,
+        -0.041953094,
+        0.006336684,
+        -0.009196704,
+        -0.05172309,
+        -0.0010226244,
+        -0.0345731,
+        -0.032062087,
+        0.020502698,
+        0.013157247,
+        -0.013589483,
+        -0.030620614,
+        0.027065365,
+        0.064106695,
+        -0.035807703,
+        0.0369319,
+        -0.019936292,
+        -0.038078796,
+        0.004202662,
+        -0.034686454,
+        0.010139055,
+        -0.054170325,
+        -0.013692548,
+        0.035036884,
+        0.030503461,
+        -0.029914314,
+        -0.06390366,
+        -0.022609135,
+        0.0016003231,
+        0.027637072,
+        0.010457816,
+        -0.007999906,
+        -0.013155441,
+        0.024913946,
+        0.02892416,
+        -0.07145046,
+        0.03346904,
+        0.062580705,
+        0.023611613,
+        -0.049116097,
+        -0.016327813,
+        0.033034768,
+        0.008775998,
+        0.008686988,
+        -0.007814484,
+        0.015570163,
+        0.018107561,
+        0.007621506,
+        0.028221795,
+        0.03682367,
+        -0.0052445587,
+        -0.041443534,
+        0.028079433,
+        0.00580596,
+        0.008661715,
+        0.009375841,
+        -0.028184576,
+        -0.014911736,
+        0.06323467,
+        0.016750975,
+        -0.008301572,
+        0.0047713607,
+        0.023908239,
+        0.0441549,
+        -0.09008003,
+        0.014292731,
+        0.0067143543,
+        -0.0018643524,
+        -0.006689511,
+        -0.0074085766,
+        -0.013954118,
+        -0.030625245,
+        -0.036192086,
+        0.043735318,
+        -0.014611738,
+        -0.042989597,
+        -0.0073076286,
+        0.0070084347,
+        0.00011926785,
+        -0.010289097,
+        0.0044851378,
+        -0.03918874,
+        -0.010272379,
+        0.0031554967,
+        -0.028895598,
+        -0.018708961,
+        -0.02050941,
+        -0.03118631,
+        -0.019825192,
+        0.013495301,
+        -0.005008401,
+        -0.0029735551,
+        -0.008701319,
+        -0.0347507,
+        -0.007055206,
+        0.035779417,
+        -0.0203466,
+        0.015758937,
+        -0.025452802,
+        -0.020100966,
+        -0.091023825,
+        0.012386924,
+        0.0040991176,
+        0.0052291662,
+        -0.025395308,
+        0.02073806,
+        0.02457798,
+        0.034647327,
+        0.019185366,
+        0.023679089,
+        -0.07106128,
+        -0.021350121,
+        0.007529147,
+        -0.03133572,
+        0.06638844,
+        -0.02748391,
+        -0.026166432,
+        0.044978168,
+        -0.037404217,
+        0.062110964,
+        0.013894325,
+        -0.08754298,
+        0.02353634,
+        0.0071896017,
+        -0.03612897,
+        -0.05847971,
+        0.011850371,
+        0.0033268938,
+        -0.03328768,
+        -0.014697799,
+        -0.03145457,
+        -0.06512368,
+        0.00026756854,
+        0.038910225,
+        -0.008943404,
+        -0.011599259,
+        -0.02269986,
+        0.029240774,
+        0.023485728,
+        0.0050381646,
+        -0.01730168,
+        0.0008976549,
+        0.015006612,
+        0.054396227,
+        0.012464833,
+        -0.092554145,
+        -0.034351002,
+        -0.0036996373,
+        0.060127553,
+        0.0013845788,
+        -0.053196736,
+        0.016187936,
+        0.03187177,
+        -0.025715787,
+        -0.02134249,
+        0.04489767,
+        -0.0051384014,
+        0.033651,
+        -0.042111505,
+        -0.015857285,
+        -0.014305465,
+        -0.03882593,
+        -0.009102247,
+        -0.027593104,
+        -0.059955332,
+        -0.0292619,
+        0.028356764,
+        -0.03318058,
+        0.044083524,
+        -0.024809713,
+        0.0647379,
+        -0.04545851,
+        -0.011286338,
+        -0.00077894144,
+        -0.015841926,
+        -0.0021324577,
+        -0.017944042,
+        -0.030897975,
+        0.0071909195,
+        0.0041053034,
+        0.048130307,
+        0.017479258,
+        -0.0051272544,
+        -0.01780273,
+        0.057740588,
+        -0.015147942,
+        -0.041883815,
+        0.044590063,
+        0.024651738,
+        0.051189415,
+        -0.030276647,
+        -0.02298605,
+        -0.064752035,
+        0.045534715,
+        0.0044991937,
+        0.03249393,
+        -0.043059446,
+        0.012729888,
+        0.047126036,
+        -0.03732537,
+        0.019276809,
+        0.00071071327,
+        -0.05184908,
+        -0.0053750984,
+        -0.006158613,
+        -0.0023121275,
+        -0.021058712,
+        0.006530663,
+        -0.03905361,
+        0.0575814,
+        -0.056256488,
+        0.038011033,
+        0.046402305,
+        0.0024107243,
+        -0.021303302,
+        0.02896949,
+        0.015385642,
+        0.025489254,
+        0.039841194,
+        0.009342465,
+        0.06836934,
+        0.016896965,
+        -0.0025146962,
+        0.007141006,
+        0.077810824,
+        -0.018182786,
+        -0.018825313,
+        -0.017344696,
+        0.033037964,
+        0.027888719,
+        0.05989822,
+        -0.08441873,
+        0.007971991,
+        0.0402954,
+        -0.015625421,
+        -0.018966056,
+        -0.0728613,
+        -0.0042362637,
+        0.023477184,
+        -0.005406377,
+        0.061505135,
+        -0.10543201,
+        0.056248773,
+        -0.0123878475,
+        0.0050750524,
+        -0.003333566,
+        0.026134048,
+        0.053642467,
+        -0.019861126,
+        -0.020549096,
+        0.018063132,
+        0.0040626633,
+        0.041857738,
+        0.0025904041,
+        0.028821819,
+        0.017014235,
+        0.02880481,
+        0.072071165,
+        0.031541437,
+        -0.021567788,
+        0.05113853,
+        0.0448391,
+        0.025382362,
+        0.033868067,
+        0.030215744,
+        -0.0027844738,
+        -0.021103848,
+        0.06369137,
+        0.0011783006,
+        -0.011618417,
+        -0.042464852,
+        0.006657551,
+        -0.04180665,
+        -0.032270756,
+        0.03826772,
+        -0.029554049,
+        0.0037744148,
+        0.04468693,
+        0.012954289,
+        -0.035368815,
+        -0.020025028,
+        0.070128165,
+        0.038177036,
+        -0.023171477,
+        0.034296613,
+        0.042059813,
+        0.017434305,
+        -0.025912678,
+        -0.037779074,
+        -0.005967306,
+        0.0076385355,
+        0.11204612,
+        0.018710759,
+        0.05664342,
+        -0.0058555035,
+        0.04728923,
+        0.023989294,
+        -0.018742641,
+        0.032459617,
+        -0.021781987,
+        0.03481669,
+        0.010998519,
+        0.022960803,
+        0.014717709,
+        -0.014151103,
+        -0.049371567,
+        -0.020499704,
+        0.03675481,
+        0.023891876,
+        -0.011520112,
+        -0.006584185,
+        0.028207596,
+        -0.03781701,
+        0.02493281,
+        -0.045895,
+        0.031467836,
+        0.013168191,
+        -0.004422645,
+        0.01308637,
+        0.019040177,
+        -0.008434814,
+        -0.014495303,
+        0.020924663,
+        0.008277797,
+        0.04213957,
+        0.023619121,
+        -0.015367658,
+        -0.01046951,
+        -0.046377882,
+        -0.0041075493,
+        0.044044256,
+        0.0052168453,
+        -0.034622714,
+        0.01632499,
+        -0.05153133,
+        0.030873554,
+        -0.0068030343,
+        0.041991968,
+        -0.005921152,
+        -0.0019794486,
+        0.020935532,
+        -0.0289712,
+        -0.016521161,
+        0.042561024,
+        -0.020590717,
+        -0.017243413,
+        0.019544208,
+        -0.029272305,
+        -0.010292649,
+        0.0069466634,
+        0.044543326,
+        0.022244154,
+        0.04724115,
+        0.057981525,
+        0.079806484,
+        0.04909662,
+        -0.0051536337,
+        0.0048294803,
+        0.038578708,
+        0.01407549,
+        0.018695332,
+        -0.0064121913,
+        0.026120381,
+        -0.0048139966,
+        0.023091601,
+        0.013845631,
+        -0.00033878593,
+        -0.058931418,
+        -0.019853355,
+        -0.03909181,
+        -0.0023143694,
+        -0.002541419,
+        -0.014417547,
+        -0.0039558862,
+        -0.02459184,
+        -0.009271289,
+        0.017377568,
+        0.0038795255,
+        0.04351565,
+        0.025066886,
+        -0.10326756,
+        -0.029797982,
+        -0.0054047257,
+        -0.03508885,
+        0.020920368,
+        0.027318368,
+        -0.014679273,
+        0.020225476,
+        -0.016436808,
+        0.032915916,
+        -0.0056847935,
+        0.017067261
+      ],
+      "updated_at": "2025-11-17T01:53:16.816799+00:00",
+      "similarities": {
+        "posts/2022-09-05-sentiment-analysis.md": 0.30398044287833376,
+        "posts/2022-09-14-shapley-and-explainability.md": 0.22853038118327265,
+        "posts/2023-01-04-ac2022.md": 0.4641275480472668,
+        "posts/2023-01-06-rime.md": 0.45619033606866327,
+        "posts/2023-01-08-reset-conda-env.md": 0.3774327304603534,
+        "posts/2023-01-09-group-by-and-rename.md": 0.2634384889712925,
+        "posts/2023-01-14-snippets.md": 0.4042739333958697,
+        "posts/2023-01-24-git-review.md": 0.39092166304345033,
+        "posts/2023-01-25-textattack.md": 0.33206161708537346,
+        "posts/2023-01-27-finding-the-python-interpreter.md": 0.38665303148457697,
+        "posts/2023-02-23-kbd-and-highlight-in-hugo.md": 0.37102719179695043,
+        "posts/2023-03-26-vertical-layout.md": 0.3460778625990188,
+        "posts/2023-04-02-commit-messages.md": 0.29897400818495196,
+        "posts/2023-05-18-climate-plus.md": 0.2259951117165975,
+        "posts/2023-05-20-chitchat.md": 0.23964535706853643,
+        "posts/2023-06-29-kindle-oasis.md": 0.5130861504547773,
+        "posts/2023-09-26-starship.md": 0.44940955769701063,
+        "posts/2023-10-01-learn-how-to-type.md": 0.5035858338635003,
+        "posts/2023-10-29-switch-apple-store.md": 0.3451960096522933,
+        "posts/2023-11-20-app-defaults-2023.md": 0.4160558929710555,
+        "posts/2023-12-31-ac2023.md": 0.4170679463024315,
+        "posts/2024-01-30-omz-to-fish.md": 0.3907013025268631,
+        "posts/2024-02-29-distillm-01.md": 0.3035976631978214,
+        "posts/2024-03-31-distillm-02.md": 0.35688689431459353,
+        "posts/2024-03-31-setapp-succession.md": 0.3910981826030827,
+        "posts/2024-05-01-distillm-03.md": 0.33271104166511556,
+        "posts/2024-05-09-shuangpin.md": 0.33311903158526074,
+        "posts/2024-08-26-ipod-import.md": 0.4288800657387592,
+        "posts/2024-12-01-wukong.md": 0.29763167778724653,
+        "posts/2024-12-03-app-defaults-2024.md": 0.41998110478051376,
+        "posts/2024-12-31-chimichurri.md": 0.19442215732574336,
+        "posts/2024-12-31-ipod-mod.md": 0.42407976240086853,
+        "posts/2025-01-01-ac2024.md": 0.49004942572806015,
+        "posts/2025-02-17-dont-make-decisions-for-me.md": 0.3244421987077857,
+        "posts/2025-03-04-make-internet-experience-great-again.md": 0.6288138071915808,
+        "posts/2025-03-31-202503.md": 0.4307628756041187,
+        "posts/2025-04-07-neodb-shortcode.md": 0.46481191720865805,
+        "posts/2025-04-09-neodb-shortcode-fixed.md": 0.44117870424199407,
+        "posts/2025-05-14-day-one-migration.md": 0.4100322589461964,
+        "posts/2025-06-16-daikon.md": 0.23249588995964177,
+        "posts/2025-06-17-ears.md": 0.21559662285548328,
+        "posts/2025-06-18-goodbye-kindle.md": 0.5552645815931394,
+        "posts/2025-06-19-hobonichi.md": 0.3705956788278717,
+        "posts/2025-06-20-games-i-played-in-june.md": 0.3066725441016148,
+        "posts/2025-06-21-wallpaper-installation.md": 0.25723230373173944,
+        "posts/2025-06-22-brisket.md": 0.3260786425361064,
+        "posts/2025-06-23-nba-finals.md": 0.2146283961521748,
+        "posts/2025-06-24-time-capsule.md": 0.21461717524589405,
+        "posts/2025-06-26-f1-the-movie.md": 0.1770308705358122,
+        "posts/2025-06-27-eat-well.md": 0.1547522213938644,
+        "posts/2025-06-30-drafts-action-to-hugo.md": 0.3935631058728637,
+        "posts/2025-07-02-turbulence.md": 0.23041598387316634,
+        "posts/2025-07-04-uncharted.md": 0.33370885278344453,
+        "posts/2025-07-05-family-days.md": 0.2768035952749491,
+        "posts/2025-07-06-speed-note-taking.md": 0.2962539315811987,
+        "posts/2025-07-07-two-watches.md": 0.20669997409339097,
+        "posts/2025-07-09-iceland.md": 0.25600291822591237,
+        "posts/2025-07-11-daikon-2.md": 0.27414891574279726,
+        "posts/2025-07-13-seven-point.md": 0.22592506050021258,
+        "posts/2025-07-23-x-rant.md": 0.31030216440067615,
+        "posts/2025-07-26-weekend-problem-solving-session.md": 0.6512397780267938,
+        "posts/2025-07-27-bball-analytics.md": 0.3034188495669675,
+        "posts/2025-07-29-books-preordered.md": 0.45840795400212236,
+        "posts/2025-08-07-things-im-not-doing-anymore.md": 0.37412475549270163,
+        "posts/2025-08-13-other-things.md": 0.26260277635697266,
+        "posts/2025-08-15-other-things-ii.md": 0.2537571406216811,
+        "posts/2025-08-16-best-time-to-be-a-man-united-fan-possibly.md": 0.29715344798327087,
+        "posts/2025-08-17-babysitting-book-challenge.md": 0.3761632225599155,
+        "posts/2025-08-20-on-cooking.md": 0.32528091775769685,
+        "posts/2025-08-21-anti-consumerism.md": 0.16916074263188657,
+        "posts/2025-08-22-rehire.md": 0.2568724359152538,
+        "posts/2025-08-25-kojimas-memes.md": 0.46043142625335437,
+        "posts/2025-08-29-hardware-bandwidth.md": 0.44432089317330004,
+        "posts/2025-08-29-orange-espresso-tonic.md": 0.2682893400078169,
+        "posts/2025-09-01-my-productivity-workflow-2025.md": 0.497033942871928,
+        "posts/2025-09-06-embrace-the-white-space.md": 0.3817304141740609,
+        "posts/2025-09-10-cribsheet.md": 0.35694771774277095,
+        "posts/2025-09-19-late-night-food.md": 0.22103688813961295,
+        "posts/2025-09-28-margherita-1.md": 0.27210461959676935,
+        "posts/2025-10-03-stardew-valley-concert.md": 0.2913293890005142,
+        "posts/2025-10-04-ipod-with-rockbox.md": 0.3937493011091887,
+        "posts/2025-10-15-dictionary.md": 0.7142390479681425,
+        "posts/2025-10-16-doom-emacs-macos-installation.md": 0.3620180111204786,
+        "posts/2025-10-16-tahoe-menu-bar.md": 0.34447942567977735,
+        "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2566995828539868,
+        "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.30998501112036836,
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2765909423526324
+      },
+      "top_similar": [
+        {
+          "post_key": "posts/2025-10-15-dictionary.md",
+          "content_path": "posts/2025-10-15-dictionary",
+          "title": "给 KOReader 加字典",
+          "score": 0.714239
+        },
+        {
+          "post_key": "posts/2025-07-26-weekend-problem-solving-session.md",
+          "content_path": "posts/2025-07-26-weekend-problem-solving-session",
+          "title": "KOReader 和 Stokke Tripp Trapp screw",
+          "score": 0.65124
+        },
+        {
+          "post_key": "posts/2025-03-04-make-internet-experience-great-again.md",
+          "content_path": "posts/2025-03-04-make-internet-experience-great-again",
+          "title": "复古就是 Make Internet Experience Great Again",
+          "score": 0.628814
         }
       ]
     }

@@ -5,13 +5,13 @@ menu = "main"
 
 ## Now
 
-- 尝试 The Pete Plan 的[入门级别划船计划](https://thepeteplan.wordpress.com/beginner-training/)
+- ~~尝试 The Pete Plan 的[入门级别划船计划](https://thepeteplan.wordpress.com/beginner-training/)~~
   - {{< million_meter_club >}}
 - 思考明年的 Hobonichi 怎么用，陷入了日本文具的消费主义陷阱
 - 想了解一下篮球的高阶数据都是怎么计算的
 - 在没有 espresso machine 的情况下尝试其他咖啡因摄取方式
-- 读远比自己想象多的育儿书，project nursing chair 进度一再推迟；现在还有一堆童书没有搬上楼
-- 尝试一个 Rule 5-5-5：同时最多消费 5 本书，5 部剧，5 款游戏 (*Focus!*)
+- 盘核桃
+- 学习刮痧
 
 ### 在读
 
