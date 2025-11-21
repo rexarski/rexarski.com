@@ -60,7 +60,6 @@ save_to_json() {
     cat > "$temp_file" << EOF
 {
   "lifetime_meters": $meters,
-  "last_updated": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
   "source_url": "$CONCEPT2_URL"
 }
 EOF

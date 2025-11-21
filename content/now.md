@@ -5,9 +5,7 @@ menu = "main"
 
 ## Now
 
-- ~~尝试 The Pete Plan 的[入门级别划船计划](https://thepeteplan.wordpress.com/beginner-training/)~~
-  - {{< million_meter_club >}}
-- 思考明年的 Hobonichi 怎么用，陷入了日本文具的消费主义陷阱
+- 划船进度 {{< million_meter_club >}}
 - 想了解一下篮球的高阶数据都是怎么计算的
 - 在没有 espresso machine 的情况下尝试其他咖啡因摄取方式
 - 盘核桃
