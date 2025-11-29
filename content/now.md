@@ -6,10 +6,7 @@ menu = "main"
 ## Now
 
 - 划船进度 {{< million_meter_club >}}
-- 想了解一下篮球的高阶数据都是怎么计算的
-- 在没有 espresso machine 的情况下尝试其他咖啡因摄取方式
-- 盘核桃
-- 学习刮痧
+- 在没有 espresso machine 的情况下尝试其他咖啡因摄取方式，然后就入了 Aeropress 的坑
 
 ### 在读
 
@@ -48,3 +45,6 @@ menu = "main"
 - [Oh Lord](https://www.youtube.com/watch?v=Om_VWBua0_M) - *Foxy Shazam*
 - MacBook Air M4 15"
 - Bass brushing technique
+- [Dwarkesh Patel](https://www.youtube.com/@DwarkeshPatel) YouTube channel
+- [Things That Aren't Doing the Thing](https://strangestloop.io/essays/things-that-arent-doing-the-thing): *"Making a to-do list for the thing isn't doing the thing."*
+- [AeroPress Go](https://aeropress.com/products/aeropress-go-travel-coffee-press) 直接把我在没有意式浓缩的咖啡因摄入提升了一个档次。
