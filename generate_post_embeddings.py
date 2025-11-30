@@ -330,10 +330,15 @@ def main() -> None:
         existing_posts = database.get("posts", {})
         if not isinstance(existing_posts, dict):
             existing_posts = {}
+        
+        # Track if any changes were made
+        has_changes = False
+        
         # Drop records for deleted posts.
         for stale_key in list(existing_posts.keys()):
             if stale_key not in records:
                 existing_posts.pop(stale_key, None)
+                has_changes = True
 
         posts_data: Dict[str, Dict[str, object]] = {}
         for key, record in records.items():
@@ -360,6 +365,7 @@ def main() -> None:
         ]
 
         if to_process:
+            has_changes = True
             render_progress(0, len(to_process), "Embedding posts     ")
             for index, key in enumerate(to_process, start=1):
                 text_body = bodies[key]
@@ -382,7 +388,11 @@ def main() -> None:
 
         compute_similarities(posts_data)
         database["posts"] = posts_data
-        database["generated_at"] = datetime.now(timezone.utc).isoformat()
+        
+        # Only update generated_at if there were actual changes
+        if has_changes or args.refresh:
+            database["generated_at"] = datetime.now(timezone.utc).isoformat()
+        
         with DB_PATH.open("w", encoding="utf-8") as fh:
             json.dump(database, fh, ensure_ascii=False, indent=2)
         print(f"Wrote embedding database to {DB_PATH}")
