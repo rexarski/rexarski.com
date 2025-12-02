@@ -13,9 +13,9 @@ updated on 2025-10-25
 
 ## 基调
 
-==一，尽量不要对 app 做太多个性化的更改，开箱即用是最好的；如果复杂到需要单独导入设置备份，那么就单独拎出来提一嘴。==
+<mark>一，尽量不要对 app 做太多个性化的更改，开箱即用是最好的；如果复杂到需要单独导入设置备份，那么就单独拎出来提一嘴。</mark>
 
-==二，尽量用 `brew install --cask` 来安装。==
+<mark>二，尽量用 `brew install --cask` 来安装。</mark>
 
 ## 实操
 
@@ -167,7 +167,7 @@ sudo scutil --set HostName new-host-name
 
 Here we go.
 
-- [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html)
+- [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html) `brew install --cask adobe-digital-editions`
 - [🎫 Affinity Designer 2](https://affinity.serif.com/en-us/designer/)
 - [🎫 Affinity Photo 2](https://affinity.serif.com/en-us/photo/)
 - [🎫 Affinity Publisher 2](https://affinity.serif.com/en-us/publisher/)
@@ -177,30 +177,27 @@ Here we go.
 - [Android File Transfer](https://www.android.com/filetransfer/)
 - [Aseprite](https://www.aseprite.org/)
 - [Audacity](https://www.audacityteam.org/)
-- [🎫 BetterDisplay](https://github.com/waydabber/BetterDisplay#readme)
-- [🎫 BetterTouchTool](https://folivora.ai)
-- [Boring Notch](https://github.com/TheBoredTeam/boring.notch/) `brew install --cask TheBoredTeam/boring-notch/boring-notch --no-quarantine`
+- [🎫 BetterTouchTool](https://folivora.ai) `brew install --cask bettertouchtool`
 - [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn)
 - [🎫 Buckets](https://www.budgetwithbuckets.com/)
 - [bun](https://bun.sh/)
 - [Calendr](https://github.com/pakerwreah/Calendr)
-- [calibre](https://calibre-ebook.com/)
+- [calibre](https://calibre-ebook.com/) `brew install --cask calibre`
 - Claude `brew install --cask claude`
 - [coconutBattery](https://coconut-flavour.com/coconutbattery/)
 - [Concept2 Utility](https://www.concept2.com/support/software/utility)
 - [🍎 DaisyDisk](https://daisydiskapp.com/)
 - [🍎 Dark Noise](https://darknoise.app/)
 - [🍎 Darkroom](https://darkroom.co/)
-- [Datasette](https://datasette.io/) `brew install datasette`
 - [🍎 Day One](https://dayoneapp.com/)
 - [🍎 Deliveries](https://deliveries.app/en.html)
-- [🎫 DEVONthink 4](https://www.devontechnologies.com/apps/devonthink)
+- [🎫 DEVONthink 4](https://www.devontechnologies.com/apps/devonthink) `brew install --cask devonthink`
 - [Discord](https://discord.com/)
 - [DockDoor](https://dockdoor.net/)
-- [🎫 Downie](https://software.charliemonroe.net/downie/)
+- [🎫 Downie](https://software.charliemonroe.net/downie/) `brew install --cask downie`
 - [🍎 Drafts](https://getdrafts.com/)
 - [🍎 Due](https://www.dueapp.com/)
-- [🎫 Eagle](https://eagle.cool/)
+- [🎫 Eagle](https://eagle.cool/) `brew install --cask ogdesign-eagle`
 - [Fantastical](https://flexibits.com/fantastical)
 - [Figma](https://www.figma.com/)
 - [🍎 Final Cut Pro](https://www.apple.com/final-cut-pro/)
@@ -210,7 +207,7 @@ Here we go.
 - [Fliqlo Flip Clock](https://fliqlo.com/)
 - [fruit](https://github.com/Corkscrews/fruit)
 - [Fujifilm X RAW Studio](https://fujifilm-x.com/en-us/support/download/software/x-raw-studio/) `brew install --cask fujifilm-x-raw-studio`
-- [🎫 Gemini](https://macpaw.com/gemini)
+- [🎫 Gemini](https://macpaw.com/gemini) `brew install --cask gemini`
 - [GitHub Desktop](https://desktop.github.com/)
 - [Handbrake](https://handbrake.fr)
 - [🍎 Hush](https://github.com/oblador/hush)
@@ -225,17 +222,17 @@ Here we go.
 - [Latest](https://max.codes/latest/) `brew install --cask latest`
 - [🍎 LocalSend](https://localsend.org)
 - [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html)
-- [Loop](https://github.com/MrKai77/Loop)
-- [Lunar](https://lunar.fyi/)
+- [Loop](https://github.com/MrKai77/Loop) `brew install --cask loop`
+- [Lunar](https://lunar.fyi/) `brew install --cask lunar`
 - [🍎 Mactracker](https://mactracker.ca/)
 - [mac-cleanup-py](https://github.com/mac-cleanup/mac-cleanup-py) `brew install mac-cleanup-py`
-- [🎫 Marked 2](https://marked2app.com/)
+- [🎫 Marked 2](https://marked2app.com/) `brew install —cask marked-app`
 - [MiaoYan 妙言](https://github.com/tw93/MiaoYan/)
 - [Min Browser](https://github.com/minbrowser/min)
-- [`monolith`](https://github.com/Y2Z/monolith)`brew install monolith`
+- [`monolith`](https://github.com/Y2Z/monolith) `brew install monolith`
 - [🎫 Moom](https://manytricks.com/moom/)
 - [MultiViewer for F1](https://multiviewer.app)
-- [Musicbrainz Picard](https://picard.musicbrainz.org/)
+- [Musicbrainz Picard](https://picard.musicbrainz.org/) `brew install --cask musicbrainz-picard`
 - [🍎 MusicBox](https://apps.apple.com/us/app/musicbox-save-music-for-later/id1614730313)
 - [🍎 MusicHarbor](https://apps.apple.com/cn/app/musicharbor-new-music-tracker/id1440405750)
 - [NetNewsWire](https://ranchero.com/netnewswire/)
@@ -248,16 +245,15 @@ Here we go.
 - [🎫 PasteBot](https://tapbots.com/pastebot/)
 - [🍎 Parcel](https://apps.apple.com/us/app/parcel-delivery-tracking/id639968404?mt=12)
 - [🍎 PCalc](https://pcalc.com/)
-- [🎫 PDF Expert](https://pdfexpert.com/)
 - [Pearcleaner](https://github.com/alienator88/Pearcleaner)
-- [🎫 Permute 3](https://software.charliemonroe.net/permute/)
+- [🎫 Permute 3](https://software.charliemonroe.net/permute/) `brew install --cask permute`
 - [🍎 PhotoBulk](https://photobulkeditor.com/)
 - [Pictogram](https://pictogramapp.com/)
 - [🎫 PICO-8](https://www.lexaloffle.com/pico-8.php)
 - [🎫 Picotron](https://www.lexaloffle.com/picotron.php)
 - [🍎 Pins](https://get-pins.app/)
 - [🍎 Plain Text Editor](https://apps.apple.com/us/app/plain-text-editor/id1572202501)
-- [Plex](https://www.plex.tv/)
+- [Plex](https://www.plex.tv/) `brew install --cask plex`
 - [Pocket Casts](https://pocketcasts.com/)
 - [Quarto](https://quarto.org/)
 - [🍎 Radiccio](https://radiccio.music/)
@@ -269,10 +265,12 @@ Here we go.
   - [雾凇拼音](https://github.com/iDvel/rime-ice): `bash rime-install iDvel/rime-ice:others/recipes/full`
 - [🎫 Rocket](https://matthewpalmer.net/rocket/)
 - [RStudio](https://www.rstudio.com/)
+- [SaneSideButtons](https://github.com/thealpa/SaneSideButtons) `brew install --cask sanesidebuttons`
 - [🍎 Scratchpad](https://apps.apple.com/us/app/scratchpad/id6504040051)
 - [SD Card Formatter](https://www.sdcard.org/downloads/formatter/)
 - [🍎 Sequel](https://www.getsequel.app/)
 - [🍎 Shareful](https://sindresorhus.com/shareful)
+- skim `brew install —cask skim`
 - [🎫 Sleeve 2](https://replay.software/sleeve)
 - [Spotify](https://open.spotify.com/)
 - [🍎 Tapestry](https://usetapestry.com/)
@@ -284,11 +282,11 @@ Here we go.
 - [upic](https://github.com/gee1k/uPic)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [VLC](https://www.videolan.org/)
-- [微信 WeChat](https://www.wechat.com/)
+- [微信 WeChat](https://www.wechat.com/) `brew install --cask wechat`
 - [xld](https://tmkk.undo.jp/xld/index_e.html)
 - [YACReader](https://www.yacreader.com/)
 - [Zed](https://zed.dev/)
-- [Zen Browser](https://zen-browser.app)
+- [Zen Browser](https://zen-browser.app) `brew install --cask zen`
 - fonts
   - [Lexend](https://www.lexend.com/), sans-serif, `brew install --cask font-lexend`
   - [Roboto](https://fonts.google.com/specimen/Roboto), sans-serif, `brew install --cask font-roboto`

@@ -48,3 +48,4 @@ menu = "main"
 - [Dwarkesh Patel](https://www.youtube.com/@DwarkeshPatel) YouTube channel
 - [Things That Aren't Doing the Thing](https://strangestloop.io/essays/things-that-arent-doing-the-thing): *"Making a to-do list for the thing isn't doing the thing."*
 - [AeroPress Go](https://aeropress.com/products/aeropress-go-travel-coffee-press) 直接把我在没有意式浓缩的咖啡因摄入提升了一个档次。
+- [Coffee grind size chart](https://honestcoffeeguide.com/coffee-grind-size-chart/)
