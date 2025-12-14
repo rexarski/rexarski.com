@@ -287,6 +287,7 @@ Here we go.
 - [YACReader](https://www.yacreader.com/)
 - [Zed](https://zed.dev/)
 - [Zen Browser](https://zen-browser.app) `brew install --cask zen`
+- [Zwift](https://www.zwift.com) `brew install --cask zwift`
 - fonts
   - [Lexend](https://www.lexend.com/), sans-serif, `brew install --cask font-lexend`
   - [Roboto](https://fonts.google.com/specimen/Roboto), sans-serif, `brew install --cask font-roboto`
