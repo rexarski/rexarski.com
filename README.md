@@ -18,34 +18,25 @@ Made with
 git submodule update --remote --merge
 ```
 
-## Token in `.env` file
-
-```bash
-echo ".env" >> .gitignore
-echo 'NEODB_BEARER_TOKEN="*********"' > .env
-```
-
 ## Local testing
 
 ```bash
 hugo server --gc -D --disableFastRender --buildFuture
 ```
 
-## Fetch latest NeoDB data
+## Dev script
 
-My go-to script for serve testing:
+My go-to script for local development:
 
 ```bash
 #!/bin/bash
 
-# Load environment variables from .env file
-source .env
-
-# Run neodb_data.sh first
-bash neodb_data.sh
-
 # Run concept2_scraper.sh
 bash concept2_scraper.sh
+
+# Run generate_post_embeddings.py
+# add a --refresh flag if a rebuild is needed
+python3 generate_post_embeddings.py
 
 # Then start hugo server
 hugo server --gc -D --disableFastRender --buildFuture

@@ -32,15 +32,15 @@ brew update && brew upgrade
 
 # tools
 cli_tools=(
-  bat btop codex emacs-plus eza fish fx git jq neofetch
+  bat btop emacs-plus eza fish fx git jq neofetch
   neovim ollama procs r tmux uv wget you-get zoxide
 )
 
 # apps
 cask_apps=(
   1password 1password-cli ghostty antinote applite maestral
-  raycast anki chatgpt cursor iina keka obsidian maccy
-  pearcleaner r shottr skim squirrel-app steam telegram
+  raycast anki cursor iina keka obsidian maccy
+  pearcleaner r shottr skim squirrel-app steam 
   positron zen
 )
 
@@ -64,7 +64,7 @@ chmod +x brew_setup.sh
 ./brew_setup.sh
 ```
 
-第四步，从 Mac App Store 里安装 things 3, goodlinks, anybox, ia writer, reeder, play, ivory, xcode. 另外还有以下 safari 插件：sink it for reddit, ublock origin lite, dark reader, keepa.
+第四步，从 Mac App Store 里安装 things 3, ia writer, reeder, ivory, xcode. 另外还有以下 safari 插件：sink it for reddit, ublock origin lite, dark reader, keepa, singlefile, untrap.
 
 第五步，从网站下载安装 pico-8, love2d.
 
@@ -175,6 +175,7 @@ Here we go.
 - [🎫 Alfred](https://www.alfredapp.com/)
 - [🍎 Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 - [Android File Transfer](https://www.android.com/filetransfer/)
+- 🍎 Anybox
 - [Aseprite](https://www.aseprite.org/)
 - [Audacity](https://www.audacityteam.org/)
 - [🎫 BetterTouchTool](https://folivora.ai) `brew install --cask bettertouchtool`
@@ -183,7 +184,10 @@ Here we go.
 - [bun](https://bun.sh/)
 - [Calendr](https://github.com/pakerwreah/Calendr)
 - [calibre](https://calibre-ebook.com/) `brew install --cask calibre`
+- ChatGPT `brew install --cask chatgpt`
+  - Codex `brew install --cask codex`
 - Claude `brew install --cask claude`
+  - Claude Code `brew install --cask claude-code`
 - [coconutBattery](https://coconut-flavour.com/coconutbattery/)
 - [Concept2 Utility](https://www.concept2.com/support/software/utility)
 - [🍎 DaisyDisk](https://daisydiskapp.com/)
@@ -201,14 +205,15 @@ Here we go.
 - [Fantastical](https://flexibits.com/fantastical)
 - [Figma](https://www.figma.com/)
 - [🍎 Final Cut Pro](https://www.apple.com/final-cut-pro/)
-- [🍎 Motion](https://www.apple.com/final-cut-pro/motion/)
-- [🍎 Compressor](https://www.apple.com/final-cut-pro/compressor/)
+  - [🍎 Motion](https://www.apple.com/final-cut-pro/motion/)
+  - [🍎 Compressor](https://www.apple.com/final-cut-pro/compressor/)
 - [🍎 Flighty](https://apps.apple.com/us/app/flighty-live-flight-tracker/id1358823008)
 - [Fliqlo Flip Clock](https://fliqlo.com/)
 - [fruit](https://github.com/Corkscrews/fruit)
 - [Fujifilm X RAW Studio](https://fujifilm-x.com/en-us/support/download/software/x-raw-studio/) `brew install --cask fujifilm-x-raw-studio`
 - [🎫 Gemini](https://macpaw.com/gemini) `brew install --cask gemini`
 - [GitHub Desktop](https://desktop.github.com/)
+- 🍎 GoodLinks
 - [Handbrake](https://handbrake.fr)
 - [🍎 Hush](https://github.com/oblador/hush)
 - [Ice](https://github.com/jordanbaird/Ice)
@@ -253,6 +258,7 @@ Here we go.
 - [🎫 Picotron](https://www.lexaloffle.com/picotron.php)
 - [🍎 Pins](https://get-pins.app/)
 - [🍎 Plain Text Editor](https://apps.apple.com/us/app/plain-text-editor/id1572202501)
+- 🍎 Play
 - [Plex](https://www.plex.tv/) `brew install --cask plex`
 - [Pocket Casts](https://pocketcasts.com/)
 - [Quarto](https://quarto.org/)
@@ -274,6 +280,7 @@ Here we go.
 - [🎫 Sleeve 2](https://replay.software/sleeve)
 - [Spotify](https://open.spotify.com/)
 - [🍎 Tapestry](https://usetapestry.com/)
+- Telegram
 - [🎫 texifier](https://www.texifier.com/)
 - [TimeMachineEditor](https://tclementdev.com/timemachineeditor/)
 - [Transmission](https://transmissionbt.com)

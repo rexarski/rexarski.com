@@ -5,6 +5,9 @@ menu = "not-main"
 
 # <pre>changelog</pre>
 
+- 2025-12-28
+  - 移除了 NeoDB 进度展示功能及相关 shortcode、数据文件和 GitHub Actions 自动更新
+  - 简化了首页 postslist 样式，移除了 description 和分割线
 - 2025-10-26
   - 增加了基于 Ollama 的文章向量脚本，支持增量更新并输出相关博文数据
   - single post 模板默认展示「相关博文」，统一使用中文标题并读取生成的缓存
