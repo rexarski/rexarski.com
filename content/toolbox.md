@@ -1,13 +1,13 @@
 +++
-title = "toolbox minimalized"
+title = "toolbox"
 menu = "not on main"
 +++
 
-# toolbox minimalized
+# toolbox
 
 {{< toc >}}
 
-updated on 2025-10-25
+updated on 2025-12-29
 
 **新的设备到手之后最好还是从头设置一遍**。我就有点后悔去年的 Mac Mini 是从 time machine 恢复的，至今还能在里头找到很多「前世记忆」。
 
@@ -162,153 +162,27 @@ sudo scutil --set HostName new-host-name
 
 索性做一个大合集堆在一起，也不做简单描述了，纯粹作为一个记录。如果未来的我在设置新电脑的时候有需要可以快速瞥一眼过一遍——反正最核心的需求已经在上述的安装过程中满足了。
 
-- 🍎 mac app store 购买
-- 🎫 license 购买
+> [1Password](https://1password.com), [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html), [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12), [Anki](https://apps.ankiweb.net), [Anybox](https://anybox.app), [Antinote](https://antinote.io), [Applite](https://github.com/milanvarady/Applite), [Aseprite](https://www.aseprite.org/), [BetterTouchTool](https://folivora.ai), [Buckets](https://www.budgetwithbuckets.com/), [calibre](https://calibre-ebook.com/), ChatGPT + [Codex](https://openai.com/codex/), Claude + [Claude Code](https://claude.com/product/claude-code), [Cursor](https://cursor.com), [DaisyDisk](https://daisydiskapp.com/), [DEVONthink 4](https://www.devontechnologies.com/apps/devonthink), [Discord](https://discord.com/), [Downie](https://software.charliemonroe.net/downie/), [Drafts](https://getdrafts.com/), [Due](https://www.dueapp.com/), [Eagle](https://eagle.cool/), [Fujifilm X RAW Studio](https://fujifilm-x.com/en-us/support/download/software/x-raw-studio/), [Gemini](https://macpaw.com/gemini), [Ghostty](https://ghostty.org), [GoodLinks](https://goodlinks.app), [Hush](https://github.com/oblador/hush), [iina](https://iina.io), [iTerm2](https://iterm2.com), [Keka](https://www.keka.io/en/), [Lunar](https://lunar.fyi/), [Maccy](https://github.com/p0deje/Maccy), [Maestral](https://maestral.app), [Marked 2](https://marked2app.com/), [`mole`](https://github.com/tw93/Mole), [MultiViewer for F1](https://multiviewer.app), [Musicbrainz Picard](https://picard.musicbrainz.org/), [MusicBox](https://apps.apple.com/us/app/musicbox-save-music-for-later/id1614730313), [MusicHarbor](https://apps.apple.com/cn/app/musicharbor-new-music-tracker/id1440405750), [Nicotine+](https://nicotine-plus.org), [Obsidian](https://obsidian.md), [Obsidian Web Clipper](https://stephango.com/obsidian-web-clipper), [Ollama](https://github.com/jmorganca/ollama), [OrbStack](https://orbstack.dev/), [PasteBot](https://tapbots.com/pastebot/), [PCalc](https://pcalc.com/), [Pearcleaner](https://github.com/alienator88/Pearcleaner), [Permute 3](https://software.charliemonroe.net/permute/), [PhotoBulk](https://photobulkeditor.com/), [PICO-8](https://www.lexaloffle.com/pico-8.php), [Picotron](https://www.lexaloffle.com/picotron.php), [Play](https://apps.apple.com/us/app/play-save-videos-watch-later/id1596506190), [Plex](https://www.plex.tv/), [Positron](https://positron.posit.co), [Raycast](https://www.raycast.com), [RIME | 中州韵输入法](https://rime.im/) ([鼠须管](https://rime.im/download/), [东风破](https://github.com/rime/plum), [雾凇拼音](https://github.com/iDvel/rime-ice)), [SaneSideButtons](https://github.com/thealpa/SaneSideButtons), [Sequel](https://www.getsequel.app/), [Shareful](https://sindresorhus.com/shareful), [Shottr](https://shottr.cc), [Skim](https://skim-app.sourceforge.io), [Sleeve 2](https://replay.software/sleeve), [Steam](https://store.steampowered.com), [Telegram](https://www.telegram.org), [Transmission](https://transmissionbt.com), [undercut-f1](https://github.com/JustAman62/undercut-f1), [微信 WeChat](https://www.wechat.com/), [xld](https://tmkk.undo.jp/xld/index_e.html), [Zen Browser](https://zen-browser.app), [Zwift](https://www.zwift.com)
 
-Here we go.
 
-- [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html) `brew install --cask adobe-digital-editions`
-- [🎫 Affinity Designer 2](https://affinity.serif.com/en-us/designer/)
-- [🎫 Affinity Photo 2](https://affinity.serif.com/en-us/photo/)
-- [🎫 Affinity Publisher 2](https://affinity.serif.com/en-us/publisher/)
-- [🎫 AlDente](https://github.com/davidwernhart/AlDente)
-- [🎫 Alfred](https://www.alfredapp.com/)
-- [🍎 Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
-- [Android File Transfer](https://www.android.com/filetransfer/)
-- 🍎 Anybox
-- [Aseprite](https://www.aseprite.org/)
-- [Audacity](https://www.audacityteam.org/)
-- [🎫 BetterTouchTool](https://folivora.ai) `brew install --cask bettertouchtool`
-- [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn)
-- [🎫 Buckets](https://www.budgetwithbuckets.com/)
-- [bun](https://bun.sh/)
-- [Calendr](https://github.com/pakerwreah/Calendr)
-- [calibre](https://calibre-ebook.com/) `brew install --cask calibre`
-- ChatGPT `brew install --cask chatgpt`
-  - Codex `brew install --cask codex`
-- Claude `brew install --cask claude`
-  - Claude Code `brew install --cask claude-code`
-- [coconutBattery](https://coconut-flavour.com/coconutbattery/)
-- [Concept2 Utility](https://www.concept2.com/support/software/utility)
-- [🍎 DaisyDisk](https://daisydiskapp.com/)
-- [🍎 Dark Noise](https://darknoise.app/)
-- [🍎 Darkroom](https://darkroom.co/)
-- [🍎 Day One](https://dayoneapp.com/)
-- [🍎 Deliveries](https://deliveries.app/en.html)
-- [🎫 DEVONthink 4](https://www.devontechnologies.com/apps/devonthink) `brew install --cask devonthink`
-- [Discord](https://discord.com/)
-- [DockDoor](https://dockdoor.net/)
-- [🎫 Downie](https://software.charliemonroe.net/downie/) `brew install --cask downie`
-- [🍎 Drafts](https://getdrafts.com/)
-- [🍎 Due](https://www.dueapp.com/)
-- [🎫 Eagle](https://eagle.cool/) `brew install --cask ogdesign-eagle`
-- [Fantastical](https://flexibits.com/fantastical)
-- [Figma](https://www.figma.com/)
-- [🍎 Final Cut Pro](https://www.apple.com/final-cut-pro/)
-  - [🍎 Motion](https://www.apple.com/final-cut-pro/motion/)
-  - [🍎 Compressor](https://www.apple.com/final-cut-pro/compressor/)
-- [🍎 Flighty](https://apps.apple.com/us/app/flighty-live-flight-tracker/id1358823008)
-- [Fliqlo Flip Clock](https://fliqlo.com/)
-- [fruit](https://github.com/Corkscrews/fruit)
-- [Fujifilm X RAW Studio](https://fujifilm-x.com/en-us/support/download/software/x-raw-studio/) `brew install --cask fujifilm-x-raw-studio`
-- [🎫 Gemini](https://macpaw.com/gemini) `brew install --cask gemini`
-- [GitHub Desktop](https://desktop.github.com/)
-- 🍎 GoodLinks
-- [Handbrake](https://handbrake.fr)
-- [🍎 Hush](https://github.com/oblador/hush)
-- [Ice](https://github.com/jordanbaird/Ice)
-- [iTerm2](https://iterm2.com)
-- [Itsycal for Mac](https://www.mowglii.com/itsycal/)
-- [julia](https://julialang.org/)
-- [Karabiner Elements](https://karabiner-elements.pqrs.org/)
-- [KeyCastr](https://github.com/keycastr/keycastr)
-- [KeyClu](https://sergii.tatarenkov.name/keyclu/support/)
-- [🍎 Klack](https://tryklack.com/)
-- [Latest](https://max.codes/latest/) `brew install --cask latest`
-- [🍎 LocalSend](https://localsend.org)
-- [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html)
-- [Loop](https://github.com/MrKai77/Loop) `brew install --cask loop`
-- [Lunar](https://lunar.fyi/) `brew install --cask lunar`
-- [🍎 Mactracker](https://mactracker.ca/)
-- [mac-cleanup-py](https://github.com/mac-cleanup/mac-cleanup-py) `brew install mac-cleanup-py`
-- [🎫 Marked 2](https://marked2app.com/) `brew install —cask marked-app`
-- [MiaoYan 妙言](https://github.com/tw93/MiaoYan/)
-- [Min Browser](https://github.com/minbrowser/min)
-- [`monolith`](https://github.com/Y2Z/monolith) `brew install monolith`
-- [🎫 Moom](https://manytricks.com/moom/)
-- [MultiViewer for F1](https://multiviewer.app)
-- [Musicbrainz Picard](https://picard.musicbrainz.org/) `brew install --cask musicbrainz-picard`
-- [🍎 MusicBox](https://apps.apple.com/us/app/musicbox-save-music-for-later/id1614730313)
-- [🍎 MusicHarbor](https://apps.apple.com/cn/app/musicharbor-new-music-tracker/id1440405750)
-- [NetNewsWire](https://ranchero.com/netnewswire/)
-- [Nicotine+](https://nicotine-plus.org) `brew install nicotine-plus`
-- [Numi](https://numi.app/)
-- [🍎 Obsidian Web Clipper](https://stephango.com/obsidian-web-clipper)
-- [Ollama](https://github.com/jmorganca/ollama). LocalLLM.
-- [OpenEmu](https://github.com/OpenEmu/OpenEmu).
-- [OrbStack](https://orbstack.dev/) `brew install orbstack`
-- [🎫 PasteBot](https://tapbots.com/pastebot/)
-- [🍎 Parcel](https://apps.apple.com/us/app/parcel-delivery-tracking/id639968404?mt=12)
-- [🍎 PCalc](https://pcalc.com/)
-- [Pearcleaner](https://github.com/alienator88/Pearcleaner)
-- [🎫 Permute 3](https://software.charliemonroe.net/permute/) `brew install --cask permute`
-- [🍎 PhotoBulk](https://photobulkeditor.com/)
-- [Pictogram](https://pictogramapp.com/)
-- [🎫 PICO-8](https://www.lexaloffle.com/pico-8.php)
-- [🎫 Picotron](https://www.lexaloffle.com/picotron.php)
-- [🍎 Pins](https://get-pins.app/)
-- [🍎 Plain Text Editor](https://apps.apple.com/us/app/plain-text-editor/id1572202501)
-- 🍎 Play
-- [Plex](https://www.plex.tv/) `brew install --cask plex`
-- [Pocket Casts](https://pocketcasts.com/)
-- [Quarto](https://quarto.org/)
-- [🍎 Radiccio](https://radiccio.music/)
-- [🍎 Reeder Classic](https://reederapp.com/)
-- [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar)
-- [RIME | 中州韵输入法](https://rime.im/)
-  - [鼠须管](https://rime.im/download/)
-  - [东风破](https://github.com/rime/plum)
-  - [雾凇拼音](https://github.com/iDvel/rime-ice): `bash rime-install iDvel/rime-ice:others/recipes/full`
-- [🎫 Rocket](https://matthewpalmer.net/rocket/)
-- [RStudio](https://www.rstudio.com/)
-- [SaneSideButtons](https://github.com/thealpa/SaneSideButtons) `brew install --cask sanesidebuttons`
-- [🍎 Scratchpad](https://apps.apple.com/us/app/scratchpad/id6504040051)
-- [SD Card Formatter](https://www.sdcard.org/downloads/formatter/)
-- [🍎 Sequel](https://www.getsequel.app/)
-- [🍎 Shareful](https://sindresorhus.com/shareful)
-- skim `brew install —cask skim`
-- [🎫 Sleeve 2](https://replay.software/sleeve)
-- [Spotify](https://open.spotify.com/)
-- [🍎 Tapestry](https://usetapestry.com/)
-- Telegram
-- [🎫 texifier](https://www.texifier.com/)
-- [TimeMachineEditor](https://tclementdev.com/timemachineeditor/)
-- [Transmission](https://transmissionbt.com)
-- [🎫 Transmit](https://panic.com/transmit/)
-- [undercut-f1](https://github.com/JustAman62/undercut-f1) `brew install undercutf1`
-- [upic](https://github.com/gee1k/uPic)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [VLC](https://www.videolan.org/)
-- [微信 WeChat](https://www.wechat.com/) `brew install --cask wechat`
-- [xld](https://tmkk.undo.jp/xld/index_e.html)
-- [YACReader](https://www.yacreader.com/)
-- [Zed](https://zed.dev/)
-- [Zen Browser](https://zen-browser.app) `brew install --cask zen`
-- [Zwift](https://www.zwift.com) `brew install --cask zwift`
-- fonts
-  - [Lexend](https://www.lexend.com/), sans-serif, `brew install --cask font-lexend`
-  - [Roboto](https://fonts.google.com/specimen/Roboto), sans-serif, `brew install --cask font-roboto`
-  - [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono), monospace, `brew install --cask font-roboto-mono`
-  - [IBM 3270](https://github.com/rbanffy/3270font), monospace, `brew install --cask font-3270`, `brew install --cask font-3270-nerd-font`
-  - [JetBrains Maple Mono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono), monospace, `brew install --cask font-jetbrains-maple-mono`, `brew install --cask font-jetbrains-maple-mono-nf`
-  - [Victor Mono](https://rubjo.github.io/victor-mono/), monospace, `brew install --cask font-victor-mono`
-  - [Ubuntu Mono](https://design.ubuntu.com/font/), monospace, `brew install --cask font-ubuntu-mono`
-  - Amazon Ember and Bookerly from [Amazon Complete Font Set](https://developer.amazon.com/en-US/alexa/branding/echo-guidelines/identity-guidelines/typography), sans serif, serif
-  - [LXGW WenKai / 霞鹜文楷](https://github.com/lxgw/LxgwWenKai), serif
-  - [LXGW Neo XiHei / 霞鹜新晰黑](https://github.com/lxgw/LxgwNeoXiHei), sans-serif
-  - [喜鹊宋体](https://xiquezaozi.taobao.com/), serif, paid
-  - [Atkinson Hyperlegible](https://brailleinstitute.org/freefont), sans-serif, `brew install --cask font-atkinson-hyperlegible`
-    - Next, sans-serif, `brew install --cask font-atkinson-hyperlegible-next`
-    - Mono, monospace, `brew install --cask font-atkinson-hyperlegible-mono`
-  - [Charis SIL](https://software.sil.org/charis/), serif, `brew install --cask font-charis-sil`
-  - [Server Mono](https://servermono.com/), monospace, `brew install --cask font-server-mono`
+### 字体
+- [Lexend](https://www.lexend.com/), sans-serif, `brew install --cask font-lexend`
+- [Roboto](https://fonts.google.com/specimen/Roboto), sans-serif, `brew install --cask font-roboto`
+- [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono), monospace, `brew install --cask font-roboto-mono`
+- [IBM 3270](https://github.com/rbanffy/3270font), monospace, `brew install --cask font-3270`, `brew install --cask font-3270-nerd-font`
+- [JetBrains Maple Mono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono), monospace, `brew install --cask font-jetbrains-maple-mono`, `brew install --cask font-jetbrains-maple-mono-nf`
+- [Victor Mono](https://rubjo.github.io/victor-mono/), monospace, `brew install --cask font-victor-mono`
+- [Ubuntu Mono](https://design.ubuntu.com/font/), monospace, `brew install --cask font-ubuntu-mono`
+- Amazon Ember and Bookerly from [Amazon Complete Font Set](https://developer.amazon.com/en-US/alexa/branding/echo-guidelines/identity-guidelines/typography), sans serif, serif
+- [LXGW WenKai / 霞鹜文楷](https://github.com/lxgw/LxgwWenKai), serif
+- [LXGW Neo XiHei / 霞鹜新晰黑](https://github.com/lxgw/LxgwNeoXiHei), sans-serif
+- [喜鹊宋体](https://xiquezaozi.taobao.com/), serif, paid
+- [Atkinson Hyperlegible](https://brailleinstitute.org/freefont), sans-serif, `brew install --cask font-atkinson-hyperlegible`
+  - Next, sans-serif, `brew install --cask font-atkinson-hyperlegible-next`
+  - Mono, monospace, `brew install --cask font-atkinson-hyperlegible-mono`
+- [Charis SIL](https://software.sil.org/charis/), serif, `brew install --cask font-charis-sil`
+- [Server Mono](https://servermono.com/), monospace, `brew install --cask font-server-mono`
+
+### 归档
+
+> [Affinity V2 Suite](https://store.serif.com/en-us/update/universal-licence/), [AlDente](https://github.com/davidwernhart/AlDente), [Alfred](https://www.alfredapp.com/), [Android File Transfer](https://www.android.com/filetransfer/), [Audacity](https://www.audacityteam.org/), [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn), [coconutBattery](https://coconut-flavour.com/coconutbattery/), [Concept2 Utility](https://www.concept2.com/support/software/utility), [Dark Noise](https://darknoise.app/), [Darkroom](https://darkroom.co/), [Day One](https://dayoneapp.com/), [Deliveries](https://deliveries.app/en.html), [Fantastical](https://flexibits.com/fantastical), [Figma](https://www.figma.com/), Final Cut Pro + Motion + Compressor, [Flighty](https://apps.apple.com/us/app/flighty-live-flight-tracker/id1358823008), [Fliqlo Flip Clock](https://fliqlo.com/), [GitHub Desktop](https://desktop.github.com/), [Handbrake](https://handbrake.fr), [Ice](https://github.com/jordanbaird/Ice), [Itsycal for Mac](https://www.mowglii.com/itsycal/), [Karabiner Elements](https://karabiner-elements.pqrs.org/), [KeyCastr](https://github.com/keycastr/keycastr), [KeyClu](https://sergii.tatarenkov.name/keyclu/support/), [Klack](https://tryklack.com/), [Latest](https://max.codes/latest/), [LocalSend](https://localsend.org), [Loop](https://github.com/MrKai77/Loop), [Mactracker](https://mactracker.ca/), [mac-cleanup-py](https://github.com/mac-cleanup/mac-cleanup-py), [Min Browser](https://github.com/minbrowser/min), [`monolith`](https://github.com/Y2Z/monolith), [Moom](https://manytricks.com/moom/), [NetNewsWire](https://ranchero.com/netnewswire/), [Numi](https://numi.app/), [OpenEmu](https://github.com/OpenEmu/OpenEmu), [Pictogram](https://pictogramapp.com/), [Pins](https://get-pins.app/), [Plain Text Editor](https://apps.apple.com/us/app/plain-text-editor/id1572202501), [Pocket Casts](https://pocketcasts.com/), [Reeder Classic](https://reederapp.com/), [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar), [Rocket](https://matthewpalmer.net/rocket/), [Scratchpad](https://apps.apple.com/us/app/scratchpad/id6504040051), [SD Card Formatter](https://www.sdcard.org/downloads/formatter/), [Spotify](https://open.spotify.com/), [Tapestry](https://usetapestry.com/), [texifier](https://www.texifier.com/), [TimeMachineEditor](https://tclementdev.com/timemachineeditor/), [Transmit](https://panic.com/transmit/), [Visual Studio Code](https://code.visualstudio.com/), [VLC](https://www.videolan.org/), [YACReader](https://www.yacreader.com/), [Zed](https://zed.dev/)
