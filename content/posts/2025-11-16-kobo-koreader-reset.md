@@ -23,7 +23,8 @@ tags: ["日日谈"]
     - [Cirn09/calibre-do-not-translate-my-path](https://github.com/Cirn09/calibre-do-not-translate-my-path)
     - [fugary/calibre-douban](https://github.com/fugary/calibre-douban)
 - 2025-11-10 更新 第六步：安装额外的 [user patches](https://koreader.rocks/user_guide/#L2-userpatches). Inspired by [this reddit post](https://www.reddit.com/r/koreader/comments/1osqlxf/show_your_koreader_ui/)
-  - [GitHub - SeriousHornet/KOReader.patches: Some of the patches I created for KOReader.](https://github.com/SeriousHornet/KOReader.patches)
-  - and this additional user patch with **[book receipt shortcut and lockscreen](https://github.com/omer-faruq/koreader-user-patches)**.
+  - [SeriousHornet/KOReader.patches](https://github.com/SeriousHornet/KOReader.patches). Everything except `2--rounded-corners.lua` and `2--disable-all-CB-widgets.lua`
+  - 2 users patches [medinauta/Koreader-Patches](https://github.com/medinauta/Koreader-Patches/tree/main)
+  - **[Book receipt shortcut and lockscreen](https://github.com/omer-faruq/koreader-user-patches)**
 
 我非常喜欢最后那个锁屏封面的效果，该有的内容都有，而且非常鼓励我接着回去把书读完。
