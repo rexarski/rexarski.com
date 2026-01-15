@@ -25,6 +25,5 @@ tags: ["日日谈"]
 - 2025-11-10 更新 第六步：安装额外的 [user patches](https://koreader.rocks/user_guide/#L2-userpatches). Inspired by [this reddit post](https://www.reddit.com/r/koreader/comments/1osqlxf/show_your_koreader_ui/)
   - [SeriousHornet/KOReader.patches](https://github.com/SeriousHornet/KOReader.patches). Everything except `2--rounded-corners.lua` and `2--disable-all-CB-widgets.lua`
   - 2 users patches [medinauta/Koreader-Patches](https://github.com/medinauta/Koreader-Patches/tree/main)
-  - **[Book receipt shortcut and lockscreen](https://github.com/omer-faruq/koreader-user-patches)**
-
-我非常喜欢最后那个锁屏封面的效果，该有的内容都有，而且非常鼓励我接着回去把书读完。
+  - **[Book receipt shortcut and lockscreen](https://github.com/omer-faruq/koreader-user-patches)** 我非常喜欢这个锁屏封面的效果，该有的内容都有，而且非常鼓励我接着回去把书读完。
+- 2026-01-08 更新：增加额外的 [reading statistics user patch](https://github.com/quanganhdo/koreader-user-patches)

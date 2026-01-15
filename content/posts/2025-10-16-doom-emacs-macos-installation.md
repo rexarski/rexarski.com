@@ -95,3 +95,20 @@ Doom 的启动脚本有时候会提示非 POSIX shell 的 warning。因为我用
 ](https://github.com/doomemacs/doomemacs/issues/8136)。
 
 看起来这只是 Doom 对 fish 的兼容性问题——并不会真的影响使用。我打算先放着，毕竟 Emacs 的世界，总有点混沌是正常的。
+
+***
+
+2026-01-12 更新：
+
+- `nano ~/.config/fish/config.fish` 增加两个 aliases：前者在当前窗口打开 doom emacs 后者使用单独的 gui
+
+```
+# Emacs aliases
+function em
+    emacs -nw $argv
+end
+
+function emacsgui
+    emacs $argv
+end
+```
