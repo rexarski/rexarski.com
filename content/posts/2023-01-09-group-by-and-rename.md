@@ -1,9 +1,9 @@
-+++
-title = "如何同时使用 `group_by` + `rename`"
-date = "2023-01-09"
-description = "介绍在 R 语言中使用 dplyr 包同时进行分组和重命名列的高级技巧。"
-tags = ["代码经验"]
-+++
+---
+title: "如何同时使用 `group_by` + `rename`"
+date: "2023-01-09"
+description: "介绍在 R 语言中使用 dplyr 包同时进行分组和重命名列的高级技巧。"
+tags: ["代码经验"]
+---
 
 <details>
 <summary>原文 How to do group_by() + rename() at the same time</summary>

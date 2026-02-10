@@ -1,0 +1,22 @@
+{{ define "main" }}
+<content>
+  {{ .Content }}
+
+  <ul class="blog-posts toolbox-list">
+    {{ range .Pages }}
+    {{ if .IsSection }}
+    <li class="toolbox-section">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <ul class="toolbox-sublist">
+        {{ range .Pages }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </li>
+    {{ else }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    {{ end }}
+  </ul>
+</content>
+{{ end }}

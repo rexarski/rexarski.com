@@ -1,9 +1,9 @@
-+++
-title = "复古就是 Make Internet Experience Great Again"
-date = "2025-03-04"
-description = "在某种程度上，还是以前的体验好"
-tags = ["胡思乱想"]
-+++
+---
+title: "复古就是 Make Internet Experience Great Again"
+date: "2025-03-04"
+description: "在某种程度上，还是以前的体验好"
+tags: ["胡思乱想"]
+---
 
 近来三个很喜欢的软件：
 

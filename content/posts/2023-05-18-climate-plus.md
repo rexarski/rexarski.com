@@ -1,9 +1,9 @@
-+++
-title = "climate-plus"
-date = "2023-05-18"
-description = "记录基于 ClimateBERT 的气候相关文本分类项目，从数据采集、处理到模型微调的全过程与挑战。"
-tags = ["自然语言"]
-+++
+---
+title: "climate-plus"
+date: "2023-05-18"
+description: "记录基于 ClimateBERT 的气候相关文本分类项目，从数据采集、处理到模型微调的全过程与挑战。"
+tags: ["自然语言"]
+---
 
 Hello and welcome to our multi-part blog post on our work-in-progress project, [climate-plus](https://github.com/rexarski/climate-plus). In this project, we are building on top of [*ClimateBERT*](https://www.chatclimate.ai/climatebert)[^1], a transformer-based language model fine-tuned for climate-related text, to develop a tool that can classify financial disclosures according to the [*Task Force on Climate-related Financial Disclosures (TCFD)*](https://www.fsb-tcfd.org/) framework.
 

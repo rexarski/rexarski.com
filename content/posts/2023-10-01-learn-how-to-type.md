@@ -1,10 +1,10 @@
-+++
-title = "在2023年学习打字：双拼输入法和Iris分体键盘"
-slug = "learn-how-to-type"
-date = "2023-10-01"
-description = "2023年学习双拼输入法和配置 Iris 分体键盘的完整记录，包括小鹤双拼方案选择、ortholinear 布局适应、Via 键位映射配置和打字速度提升的实践过程。"
-tags = ["捣鼓硬件"]
-+++
+---
+title: "在2023年学习打字：双拼输入法和Iris分体键盘"
+slug: "learn-how-to-type"
+date: "2023-10-01"
+description: "2023年学习双拼输入法和配置 Iris 分体键盘的完整记录，包括小鹤双拼方案选择、ortholinear 布局适应、Via 键位映射配置和打字速度提升的实践过程。"
+tags: ["捣鼓硬件"]
+---
 
 
 其实说到底这些都不是刚需，就是爱折腾。

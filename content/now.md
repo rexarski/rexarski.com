@@ -9,3 +9,4 @@ menu = "main"
 - 冬日 [Zwift](http://zwift.com)ing
 - 等 Fellow Espresso Series 1
 - [读书/观影/追剧/游玩记录 (neodb)](https://neodb.social/users/rexarski/)
+- 用 [things-mcp](https://github.com/hald/things-mcp) + claude 对自己的 GTD 系统进行每周圆桌讨论

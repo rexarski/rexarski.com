@@ -1,10 +1,10 @@
-+++
-title = "在 2024 年给 iPod 填充音乐的工作流程"
-slug = "ipod-import"
-date = "2024-08-26"
-description = "整了台 iPod 并想着办法给它填满音乐。"
-tags = ["捣鼓硬件"]
-+++
+---
+title: "在 2024 年给 iPod 填充音乐的工作流程"
+slug: "ipod-import"
+date: "2024-08-26"
+description: "整了台 iPod 并想着办法给它填满音乐。"
+tags: ["捣鼓硬件"]
+---
 
 首先感慨一下 eBay 上 iPod Classic 仍然颇有市场，相比之下我在淘宝上搜寻 iPod Classic 零件却难有收获。（或许我应该试试看闲鱼？）
 

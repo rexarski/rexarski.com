@@ -1,10 +1,10 @@
-+++
-title = "Kindle Oasis 的短期使用感受"
-slug = "kindle-oasis"
-date = "2023-06-29"
-description = "从 Kindle Paperwhite 升级到 Oasis 的一周使用体验，对比两款设备的差异，重点分享物理按键、响应速度、自动旋转等功能的实际感受。"
-tags = ["捣鼓硬件"]
-+++
+---
+title: "Kindle Oasis 的短期使用感受"
+slug: "kindle-oasis"
+date: "2023-06-29"
+description: "从 Kindle Paperwhite 升级到 Oasis 的一周使用体验，对比两款设备的差异，重点分享物理按键、响应速度、自动旋转等功能的实际感受。"
+tags: ["捣鼓硬件"]
+---
 
 上一台 Kindle 设备使用了近两年，是21年买的 paperwhite. 又爱又恨：喜欢能发亮的屏幕，不论是白天还是晚上的适用场景都得到了扩展；少了实体按键总觉得不够「传统」，翻页也总觉得卡顿。
 

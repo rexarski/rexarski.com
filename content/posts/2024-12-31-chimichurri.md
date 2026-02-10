@@ -1,9 +1,9 @@
-+++
-title = "Chimichurri 酱"
-date = "2024-12-31"
-description = "菜，不对，酱谱。"
-tags = ["新人厨师"]
-+++
+---
+title: "Chimichurri 酱"
+date: "2024-12-31"
+description: "菜，不对，酱谱。"
+tags: ["新人厨师"]
+---
 
 <details>
 

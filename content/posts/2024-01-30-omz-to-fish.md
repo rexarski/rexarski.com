@@ -1,9 +1,9 @@
-+++
-title = "回归 vanilla (fish) shell"
-date = "2024-01-30"
-description = "从使用十年的 oh-my-zsh 切换到 fish shell 的完整迁移指南，包括卸载、安装、配置默认 shell、路径设置和常用别名配置的详细步骤。"
-tags = ["代码经验"]
-+++
+---
+title: "回归 vanilla (fish) shell"
+date: "2024-01-30"
+description: "从使用十年的 oh-my-zsh 切换到 fish shell 的完整迁移指南，包括卸载、安装、配置默认 shell、路径设置和常用别名配置的详细步骤。"
+tags: ["代码经验"]
+---
 
 <details>
 <summary>原文 Back to a vanilla (fish) shell</summary>

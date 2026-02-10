@@ -1,9 +1,9 @@
-+++
-title = "Explainability, interpretability, 和一个半成功的尝试"
-date = "2022-09-14"
-description = "探讨机器学习中可解释性和可理解性的区别，并提出基于 SHapley 值比较模型可解释性的方法。"
-tags = ["机器学习"]
-+++
+---
+title: "Explainability, interpretability, 和一个半成功的尝试"
+date: "2022-09-14"
+description: "探讨机器学习中可解释性和可理解性的区别，并提出基于 SHapley 值比较模型可解释性的方法。"
+tags: ["自然语言"]
+---
 
 <details>
 

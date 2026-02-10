@@ -1,9 +1,9 @@
-+++
-title = "A concise summary of all you need to know about Git, maybe"
-date = "2023-01-24"
-description = "I had this piece of text in my Drafts for too long. Finally decide to get it done."
-tags = ["代码经验"]
-+++
+---
+title: "A concise summary of all you need to know about Git, maybe"
+date: "2023-01-24"
+description: "I had this piece of text in my Drafts for too long. Finally decide to get it done."
+tags: ["代码经验"]
+---
 
 Last week I was asked a question:
 
