@@ -30,7 +30,7 @@ brew update && brew upgrade
 
 # tools
 cli_tools=(
-  bat btop emacs-plus eza fish fx git jq neofetch
+  bat btop emacs-plus eza fish fx git jq lazygit neofetch
   neovim ollama procs r tmux uv wget you-get zoxide
 )
 
@@ -151,3 +151,6 @@ sudo scutil --set HostName new-host-name
 潜在的第十四步，doom emacs 需要单独配置一下，这里就不赘述了。先前选择用 `emacs-plus` 而不是 homebrew 直接安装 `emacs`，也是因为需要 built with native compilation support.
 
 到这里就算是完工了。
+
+【更新】第十四步：依照这个 [gist](https://gist.github.com/rexarski/b80b90add76830b21e907539fac27644) 对 ghostty config 做修改。
+
