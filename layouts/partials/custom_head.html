@@ -18,66 +18,63 @@
 ></script> -->
 
 <script>
-    // Dark mode functionality with two states: auto vs opposite
-    function toggleDarkMode() {
+    function isPageDark() {
+        const body = document.body;
+        const mode = localStorage.getItem('darkMode');
+        if (body.classList.contains('force-dark')) return true;
+        if (body.classList.contains('force-light')) return false;
+        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+
+    function syncThemeUI() {
         const body = document.body;
         const toggle = document.getElementById('dark-mode-toggle');
-        
-        // Remove any existing mode classes
-        body.classList.remove('force-light', 'force-dark');
-        
-        const currentMode = localStorage.getItem('darkMode');
-        const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        
-        if (!currentMode || currentMode === 'auto') {
-            // Currently auto, switch to opposite of system preference
-            if (systemPrefersDark) {
-                // System is dark, force light
-                body.classList.add('force-light');
-                toggle.textContent = '○';
-                localStorage.setItem('darkMode', 'force-light');
-            } else {
-                // System is light, force dark
-                body.classList.add('force-dark');
-                toggle.textContent = '●';
-                localStorage.setItem('darkMode', 'force-dark');
-            }
+        const dark = isPageDark();
+        if (dark) {
+            body.classList.add('theme-dark');
+            toggle.setAttribute('aria-label', 'Switch to light mode');
+            toggle.setAttribute('title', 'Switch to light mode');
         } else {
-            // Currently forced, switch back to auto
-            toggle.textContent = '●';
-            localStorage.setItem('darkMode', 'auto');
+            body.classList.remove('theme-dark');
+            toggle.setAttribute('aria-label', 'Switch to dark mode');
+            toggle.setAttribute('title', 'Switch to dark mode');
         }
     }
 
-    // Initialize dark mode on page load
-    document.addEventListener('DOMContentLoaded', function() {
-        const savedMode = localStorage.getItem('darkMode');
-        const toggle = document.getElementById('dark-mode-toggle');
+    function toggleDarkMode() {
         const body = document.body;
-        
-        // Remove any existing mode classes first
         body.classList.remove('force-light', 'force-dark');
-        
-        if (savedMode === 'force-light') {
-            body.classList.add('force-light');
-            toggle.textContent = '○';
-        } else if (savedMode === 'force-dark') {
-            body.classList.add('force-dark');
-            toggle.textContent = '●';
+
+        const currentMode = localStorage.getItem('darkMode');
+        const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (!currentMode || currentMode === 'auto') {
+            if (systemPrefersDark) {
+                body.classList.add('force-light');
+                localStorage.setItem('darkMode', 'force-light');
+            } else {
+                body.classList.add('force-dark');
+                localStorage.setItem('darkMode', 'force-dark');
+            }
         } else {
-            // Auto mode - always show moon icon
-            toggle.textContent = '●';
             localStorage.setItem('darkMode', 'auto');
         }
-        
-        // Listen for system theme changes in auto mode
+        syncThemeUI();
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const savedMode = localStorage.getItem('darkMode');
+        const body = document.body;
+        body.classList.remove('force-light', 'force-dark');
+
+        if (savedMode === 'force-light') body.classList.add('force-light');
+        else if (savedMode === 'force-dark') body.classList.add('force-dark');
+
+        syncThemeUI();
+
         if (window.matchMedia) {
-            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
-                const currentMode = localStorage.getItem('darkMode');
-                if (currentMode === 'auto') {
-                    // In auto mode, icon stays the same but theme changes automatically
-                    // No need to update icon since it always shows moon in auto mode
-                }
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+                if (localStorage.getItem('darkMode') === 'auto') syncThemeUI();
             });
         }
     });

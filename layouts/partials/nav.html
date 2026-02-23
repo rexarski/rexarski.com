@@ -1,9 +1,9 @@
-<a href="{{ "/" | relURL }}">主页</a>
+<a href="{{ "/" | relURL }}"{{ if eq .RelPermalink "/" }} class="active"{{ end }}>主页</a>
 {{ with .Site.GetPage "/posts" }}
-<a href="{{ "/posts" | relURL }}">博文</a>
+<a href="{{ "/posts" | relURL }}"{{ if hasPrefix $.RelPermalink "/posts" }} class="active"{{ end }}>博文</a>
 {{ end }}
 {{ range .Site.Menus.main }}
-<a href="{{ .URL }}">{{ .Name }}</a>
+<a href="{{ .URL }}"{{ if eq $.RelPermalink .URL }} class="active"{{ end }}>{{ .Name }}</a>
 {{ end }}
 <a href="{{ "/index.xml" }}">RSS</a>
-<button id="dark-mode-toggle" onclick="toggleDarkMode()" style="background: none; border: none; cursor: pointer; font-size: 16px; margin-left: 10px;">●</button>
+<button id="dark-mode-toggle" type="button" onclick="toggleDarkMode()" class="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"><span class="theme-icon" aria-hidden="true"></span></button>

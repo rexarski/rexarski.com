@@ -1,4 +1,13 @@
-<a href="{{ "" | relURL }}" class="title">
-  <h1>{{ .Site.Title }}</h1>
-</a>
+<div class="header-inner">
+  <a href="{{ "" | relURL }}" class="title site-wordmark" aria-label="{{ .Site.Title }}">
+    <svg class="wordmark" viewBox="0 0 240 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <text x="0" y="22" font-family="'Fraunces', serif" font-size="22" font-weight="600" fill="currentColor" letter-spacing="0.02em">howabout</text>
+      <circle cx="118" cy="14" r="2.5" class="wordmark-dot"/>
+      <text x="128" y="22" font-family="'Fraunces', serif" font-size="22" font-weight="600" fill="currentColor" letter-spacing="0.02em">qiu</text>
+    </svg>
+  </a>
+  {{ with .Site.Params.siteDescription }}
+    <p class="site-description">{{ . }}</p>
+  {{ end }}
+</div>
 <nav>{{- partial "nav.html" . -}}</nav>
