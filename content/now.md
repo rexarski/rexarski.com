@@ -5,9 +5,7 @@ menu = "main"
 
 ## Nownownow
 
-{{< signature_animation >}}
-
-{{< now_progress_bars >}}
+{{< blog_heatmap >}}
 
 {{< now_marquee >}}
 - 1️⃣ 冬日 [Zwift](http://zwift.com)ing
@@ -19,6 +17,6 @@ menu = "main"
 - 7️⃣ 卖掉了 kamado joe jr 😢
 {{< /now_marquee >}}
 
-{{< blog_heatmap >}}
+{{< now_progress_bars >}}
 
-{{< dithering_photo src="/images/Haleakala.gif" caption="Haleakalā" >}}
+{{< signature_animation >}}

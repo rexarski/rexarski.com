@@ -1,0 +1,107 @@
+{{ define "main" }}
+<content class="graph-page">
+  <h2>{{ .Title }}</h2>
+  <div id="graph-container"></div>
+</content>
+
+<link href="https://unpkg.com/vis-network/standalone/umd/vis-network.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<style>
+.graph-page #graph-container { width: 100%; height: 80vh; min-height: 400px; border-radius: 8px; background: var(--code-bg); }
+</style>
+<script>
+(function() {
+  var container = document.getElementById('graph-container');
+  if (!container) return;
+
+  function render(data) {
+    if (!data || !data.nodes || !data.nodes.length) {
+      container.innerHTML = '<p>暂无博文数据或未生成 embeddings。</p>';
+      return;
+    }
+
+    function strip(s) {
+      if (typeof s !== 'string') return s;
+      return s.replace(/^["'\s]+|["'\s]+$/g, '');
+    }
+    data.nodes = data.nodes.map(function(n) {
+      return { id: strip(n.id), label: strip(n.label), url: strip(n.url) };
+    });
+
+    var edgeMap = {};
+    function edgeKey(a, b) { a = strip(a); b = strip(b); return a < b ? a + '\0' + b : b + '\0' + a; }
+    (data.edgesSimilarity || []).forEach(function(e) {
+      var k = edgeKey(e.from, e.to);
+      edgeMap[k] = { from: strip(e.from), to: strip(e.to), weight: e.weight };
+    });
+    (data.edgesRefs || []).forEach(function(e) {
+      var k = edgeKey(e.from, e.to);
+      edgeMap[k] = { from: strip(e.from), to: strip(e.to), weight: e.weight };
+    });
+    var edges = Object.values(edgeMap);
+
+    var nodeIds = {};
+    data.nodes.forEach(function(n) { nodeIds[n.id] = true; });
+    edges = edges.filter(function(e) { return nodeIds[e.from] && nodeIds[e.to]; });
+
+    var nodes = new vis.DataSet(data.nodes.map(function(n) {
+      return { id: n.id, label: n.label, url: n.url, font: { size: 14 } };
+    }));
+    var edgesSet = new vis.DataSet(edges.map(function(e) {
+      var w = Math.max(0.1, Math.min(1, e.weight || 0.5));
+      var length = 80 + (1 - w) * 160;
+      return { from: e.from, to: e.to, length: length, width: 1 };
+    }));
+
+    var graphData = { nodes: nodes, edges: edgesSet };
+    var isDark = document.body.classList.contains('theme-dark') || document.body.classList.contains('force-dark');
+    var options = {
+      nodes: {
+        shape: 'dot',
+        size: 16,
+        color: isDark ? { background: '#b0b0b0', border: '#888' } : undefined,
+        font: isDark ? { color: '#e0e0e0', size: 14 } : { size: 14 }
+      },
+      edges: {
+        smooth: false,
+        color: isDark ? { color: '#a5a5a5' } : undefined
+      },
+      physics: {
+        enabled: true,
+        forceAtlas2Based: {
+          gravitationalConstant: -50,
+          centralGravity: 0.005,
+          springLength: 150,
+          springConstant: 0.08
+        },
+        solver: 'forceAtlas2Based',
+        stabilization: { iterations: 200 }
+      },
+      interaction: { hover: true, tooltipDelay: 100 }
+    };
+    var network = new vis.Network(container, graphData, options);
+    setTimeout(function() {
+      network.setOptions({ physics: false });
+    }, 3000);
+    network.on('click', function(params) {
+      if (params.nodes.length) {
+        var id = params.nodes[0];
+        var n = data.nodes.find(function(x) { return x.id === id; });
+        if (n && n.url) {
+          var u = n.url.startsWith('http') ? n.url : (n.url.startsWith('/') ? n.url : '/' + n.url);
+          (window.top || window).location.href = u;
+        }
+      }
+    });
+  }
+
+  var jsonUrl = 'index.json';
+  fetch(jsonUrl)
+    .then(function(r) { return r.json(); })
+    .then(render)
+    .catch(function() {
+      container.innerHTML = '<p>加载关系图数据失败。</p>';
+    });
+})();
+</script>
+{{ end }}

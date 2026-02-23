@@ -1,7 +1,8 @@
-```
-$ ssh rexarski@thoughts
-Connected. Start writing...
-```
++++
+title = "Home"
++++
+
+{{< dithering_photo src="/images/Haleakala.gif" caption="Haleakalā" >}}
 
 ## 最近更新
 

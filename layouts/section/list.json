@@ -1,0 +1,66 @@
+{{- if eq .Section "graph" -}}
+{{ $db := site.Data.post_embeddings }}
+{{ $postsData := default dict $db.posts }}
+{"nodes":[
+{{- $scratch := newScratch -}}
+{{- $scratch.Set "nfirst" true -}}
+{{- range $key, $entry := $postsData }}
+{{- $contentPath := default (strings.TrimSuffix ".md" $key) $entry.content_path }}
+{{- $page := site.GetPage $contentPath }}
+{{- if $page }}
+{{- if not ($scratch.Get "nfirst") }},{{ end }}
+{"id":{{ $contentPath | jsonify }},"label":{{ (default $entry.title $page.Title) | jsonify }},"url":{{ $page.RelPermalink | jsonify }}}
+{{- $scratch.Set "nfirst" false -}}
+{{- end }}
+{{- end }}
+],"edgesSimilarity":[
+{{- $scratch.Set "sfirst" true -}}
+{{- range $key, $entry := $postsData }}
+{{- $fromPath := default (strings.TrimSuffix ".md" $key) $entry.content_path }}
+{{- range $entry.top_similar }}
+{{- $toKey := .post_key }}
+{{- $toPath := strings.TrimSuffix ".md" $toKey }}
+{{- if not (strings.HasSuffix $toKey ".md") }}{{ $toPath = $toKey }}{{ end }}
+{{- $peer := index $postsData $toKey }}
+{{- if not $peer }}{{ $peer = index $postsData (printf "%s.md" $toKey) }}{{ end }}
+{{- if $peer }}{{ $toPath = default $toPath $peer.content_path }}{{ end }}
+{{- if not ($scratch.Get "sfirst") }},{{ end }}
+{"from":{{ $fromPath | jsonify }},"to":{{ $toPath | jsonify }},"weight":{{ .score }}}
+{{- $scratch.Set "sfirst" false -}}
+{{- end }}
+{{- end }}
+],"edgesRefs":[
+{{- $scratch.Set "rfirst" true -}}
+{{- range where site.RegularPages "Section" "posts" }}
+{{- $currentPage := . }}
+{{- $raw := default "" .RawContent }}
+{{- $fromPath := strings.TrimSuffix ".md" .File.Path }}
+{{- $refs := findRESubmatch `relref "([^"]+)"` $raw }}
+{{- range $refs }}
+{{- $path := index . 1 }}
+{{- $path = strings.TrimSuffix ".md" $path }}
+{{- if not (strings.HasPrefix $path "posts/") }}{{ $path = printf "posts/%s" $path }}{{ end }}
+{{- $targetPage := site.GetPage $path }}
+{{- if and $targetPage (ne $targetPage $currentPage) }}
+{{- if not ($scratch.Get "rfirst") }},{{ end }}
+{"from":{{ $fromPath | jsonify }},"to":{{ (strings.TrimSuffix ".md" $targetPage.File.Path) | jsonify }},"weight":1.0}
+{{- $scratch.Set "rfirst" false -}}
+{{- end }}
+{{- end }}
+{{- $refs2 := findRESubmatch `ref "([^"]+)"` $raw }}
+{{- range $refs2 }}
+{{- $path := index . 1 }}
+{{- $path = strings.TrimSuffix ".md" $path }}
+{{- if not (strings.HasPrefix $path "posts/") }}{{ $path = printf "posts/%s" $path }}{{ end }}
+{{- $targetPage := site.GetPage $path }}
+{{- if and $targetPage (ne $targetPage $currentPage) }}
+{{- if not ($scratch.Get "rfirst") }},{{ end }}
+{"from":{{ $fromPath | jsonify }},"to":{{ (strings.TrimSuffix ".md" $targetPage.File.Path) | jsonify }},"weight":1.0}
+{{- $scratch.Set "rfirst" false -}}
+{{- end }}
+{{- end }}
+{{- end }}
+]}
+{{- else -}}
+{"nodes":[],"edgesSimilarity":[],"edgesRefs":[]}
+{{- end -}}

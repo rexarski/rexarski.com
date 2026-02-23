@@ -7,7 +7,7 @@
   </small>
   {{ end }}
 
-  <h2>全部博文</h2>
+  <h2 class="posts-list-heading">全部博文</h2>
 
   {{ if .Pages }}
     {{ $postsByYear := .Pages.GroupByDate "2006" }}
@@ -37,6 +37,135 @@
   {{ end }}
 
   {{ if not .Data.Singular }}
+    <div id="graph-overlay" class="graph-overlay" aria-hidden="true">
+      <button type="button" class="graph-overlay-close" id="graph-close-btn" aria-label="关闭">×</button>
+      <div id="graph-canvas-container" class="graph-canvas-container"></div>
+    </div>
+    <link href="https://unpkg.com/vis-network/standalone/umd/vis-network.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <script>
+    (function() {
+      function init() {
+        var btn = document.getElementById('graph-open-btn');
+        var overlay = document.getElementById('graph-overlay');
+        var container = document.getElementById('graph-canvas-container');
+        var closeBtn = document.getElementById('graph-close-btn');
+        if (!btn || !overlay || !container) return;
+
+      var network = null;
+
+      function render(data) {
+        if (!data || !data.nodes || !data.nodes.length) {
+          container.innerHTML = '<p class="graph-overlay-msg">暂无博文数据或未生成 embeddings。</p>';
+          return;
+        }
+        function strip(s) {
+          if (typeof s !== 'string') return s;
+          return s.replace(/^["'\s]+|["'\s]+$/g, '');
+        }
+        data.nodes = data.nodes.map(function(n) {
+          return { id: strip(n.id), label: strip(n.label), url: strip(n.url) };
+        });
+        var edgeMap = {};
+        function edgeKey(a, b) { a = strip(a); b = strip(b); return a < b ? a + '\0' + b : b + '\0' + a; }
+        (data.edgesSimilarity || []).forEach(function(e) {
+          var k = edgeKey(e.from, e.to);
+          edgeMap[k] = { from: strip(e.from), to: strip(e.to), weight: e.weight };
+        });
+        (data.edgesRefs || []).forEach(function(e) {
+          var k = edgeKey(e.from, e.to);
+          edgeMap[k] = { from: strip(e.from), to: strip(e.to), weight: e.weight };
+        });
+        var edges = Object.values(edgeMap);
+        var nodeIds = {};
+        data.nodes.forEach(function(n) { nodeIds[n.id] = true; });
+        edges = edges.filter(function(e) { return nodeIds[e.from] && nodeIds[e.to]; });
+
+        var nodes = new vis.DataSet(data.nodes.map(function(n) {
+          return { id: n.id, label: n.label, url: n.url, font: { size: 14 } };
+        }));
+        var edgesSet = new vis.DataSet(edges.map(function(e) {
+          var w = Math.max(0.1, Math.min(1, e.weight || 0.5));
+          var length = 80 + (1 - w) * 160;
+          return { from: e.from, to: e.to, length: length, width: 1 };
+        }));
+
+        var isDark = document.body.classList.contains('theme-dark') || document.body.classList.contains('force-dark');
+        var options = {
+          nodes: {
+            shape: 'dot',
+            size: 16,
+            color: isDark ? { background: '#b0b0b0', border: '#888' } : undefined,
+            font: isDark ? { color: '#e0e0e0', size: 14 } : { size: 14 }
+          },
+          edges: {
+            smooth: false,
+            color: isDark ? { color: '#a5a5a5' } : undefined
+          },
+          physics: {
+            enabled: true,
+            forceAtlas2Based: {
+              gravitationalConstant: -50,
+              centralGravity: 0.005,
+              springLength: 150,
+              springConstant: 0.08
+            },
+            solver: 'forceAtlas2Based',
+            stabilization: { iterations: 200 }
+          },
+          interaction: { hover: true, tooltipDelay: 100 }
+        };
+        network = new vis.Network(container, { nodes: nodes, edges: edgesSet }, options);
+        setTimeout(function() {
+          if (network) network.setOptions({ physics: false });
+        }, 3000);
+        network.on('click', function(params) {
+          if (params.nodes.length) {
+            var n = data.nodes.find(function(x) { return x.id === params.nodes[0]; });
+            if (n && n.url) {
+              var u = n.url.startsWith('http') ? n.url : (n.url.startsWith('/') ? n.url : '/' + n.url);
+              window.location.href = u;
+            }
+          }
+        });
+      }
+
+      function openGraph() {
+        overlay.classList.add('graph-overlay-open');
+        overlay.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        container.innerHTML = '<p class="graph-overlay-msg">加载中…</p>';
+        fetch('{{ "/graph/index.json" | relURL }}')
+          .then(function(r) { return r.json(); })
+          .then(render)
+          .catch(function() {
+            container.innerHTML = '<p class="graph-overlay-msg">加载关系图数据失败。</p>';
+          });
+      }
+
+      function closeGraph() {
+        overlay.classList.remove('graph-overlay-open');
+        overlay.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        if (network) {
+          network.destroy();
+          network = null;
+        }
+        container.innerHTML = '';
+      }
+
+      btn.addEventListener('click', function(e) { e.preventDefault(); openGraph(); });
+      if (closeBtn) closeBtn.addEventListener('click', closeGraph);
+      document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeGraph(); });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+      } else {
+        init();
+      }
+    })();
+    </script>
     <small>
       <div>
         {{ range .Site.Taxonomies.tags.ByCount }}
@@ -44,6 +173,9 @@
         {{ end }}
       </div>
     </small>
+    <p class="graph-easter-egg">
+      <button type="button" class="graph-view-btn-easter" id="graph-open-btn" title="博文关系图">关系图</button>
+    </p>
   {{ end }}
 </content>
 {{ end }}

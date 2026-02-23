@@ -12,20 +12,7 @@
   var inner = wrap.querySelector('.dithering-photo-inner');
   var src = (wrap.getAttribute('data-src') || '').trim();
 
-  function getAccentRgb() {
-    var accent = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim();
-    if (!accent || accent.charAt(0) !== '#') return { r: 0, g: 0, b: 0 };
-    var hex = accent.slice(1);
-    if (hex.length === 3) hex = hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];
-    if (hex.length !== 6) return { r: 0, g: 0, b: 0 };
-    return {
-      r: parseInt(hex.slice(0,2), 16),
-      g: parseInt(hex.slice(2,4), 16),
-      b: parseInt(hex.slice(4,6), 16)
-    };
-  }
-
-  // Bayer 4x4 threshold map (ordered dithering, see visualrambling.space/dithering-part-2)
+  // Bayer 4x4 threshold map
   var bayer4 = [
     [0, 8, 2, 10],
     [12, 4, 14, 6],
@@ -63,8 +50,8 @@
     var w = sourceCanvas.width, h = sourceCanvas.height;
     var ctx = sourceCanvas.getContext('2d');
     var imageData = ctx.getImageData(0, 0, w, h);
-    var accentRgb = getAccentRgb();
-    var dithered = ditherImageData(imageData, w, h, accentRgb);
+    var darkRgb = { r: 0, g: 0, b: 0 };
+    var dithered = ditherImageData(imageData, w, h, darkRgb);
     var out = document.createElement('canvas');
     out.width = w;
     out.height = h;
@@ -118,8 +105,8 @@
       var rect = wrap.getBoundingClientRect();
       var x = (e.clientX - rect.left) / rect.width - 0.5;
       var y = (e.clientY - rect.top) / rect.height - 0.5;
-      var rotateY = x * 14;
-      var rotateX = -y * 14;
+      var rotateY = x * 22;
+      var rotateX = -y * 22;
       inner.style.transform = 'rotateX(' + rotateX + 'deg) rotateY(' + rotateY + 'deg)';
     });
     wrap.addEventListener('mouseleave', function() {

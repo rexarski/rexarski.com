@@ -6,10 +6,21 @@ menu = "not-main"
 # <pre>changelog</pre>
 
 - 2026-02-23
-  - 设计：版心与字体层级、单一强调色、暗色切换、日期格式统一；首页字标、站点描述、列表与 terminus 风格 intro；博文正文可读性（间距、blockquote、外链样式）
-  - About / Now 改版：About 改为卡片块并增加 Changelog·Toolbox 链接；Now 为走马灯、signature 动画、博文周历 heatmap、进度条（百万米 + 2026 博文目标 24）；heatmap 移动端适配
-  - Now 页：dithered 照片（Haleakalā）使用 accent 色、caption 置于图内底部居中、3D 随鼠标倾斜
-  - RSS feed 浏览器内 XSL 美化（参考 Cassidy Williams、Playdate 风格）；移除已弃用的 frontmatter lang 与列表语言标签
+  - 新增
+    - 头部 SVG 字标 + 站点描述
+    - 导航当前页高亮、RSS 黄线下划线、规范暗色模式按钮
+    - 页脚 toolbox / changelog / RSS 链接
+    - 页面顶部 3px 强调条、正文/标题/引用等版式微调
+    - 暗色模式（含首屏防闪、多组件适配）
+    - 首页 dithering 图、Now 页热力图 / 轮播 / 进度条 / 签名动画
+    - 博文列表页「关系图」全屏 overlay
+    - RSS 带 XSL 的 pretty feed、section 输出 JSON
+    - 全站 3px 统一下划线
+  - 删除 / 简化
+    - 原先纯文字站点标题，改为字标
+    - 首页 “GREETINGS, TRAVELER.” 问候语
+    - Now 页旧列表式内容（如百万米俱乐部等），改为模块化区块
+    - 链接紫色已访问色、独立 `--link-hover` 变量
 - 2025-12-28
   - 移除了 NeoDB 进度展示功能及相关 shortcode、数据文件和 GitHub Actions 自动更新
   - 简化了首页 postslist 样式，移除了 description 和分割线

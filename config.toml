@@ -17,9 +17,16 @@ enableRobotsTXT = true
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
+
+[outputs]
+section = ["HTML", "JSON"]
+
 [permalinks]
   posts = "/posts/:year/:month/:slug/"
   tags = "/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe= true
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
@@ -52,9 +59,6 @@ ignoreErrors = ["error-disable-taxonomy"]
   # for details. An example TOML config that uses [ISO
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   dateFormat = "2006-01-02"
-
-[markup.goldmark.renderer]
-  unsafe= true
 
 [markup.tableOfContents]
   startLevel = 2

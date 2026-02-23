@@ -1,0 +1,50 @@
+{{ $db := site.Data.post_embeddings }}
+{{ $postsData := default dict $db.posts }}
+{"nodes":[
+{{- range $key, $entry := $postsData }}
+{{- $contentPath := default (strings.TrimSuffix ".md" $key) $entry.content_path }}
+{{- $page := site.GetPage $contentPath }}
+{{- if $page }}
+{"id":{{ $contentPath | jsonify }},"label":{{ (default $entry.title $page.Title) | jsonify }},"url":{{ $page.RelPermalink | jsonify }} },
+{{- end }}
+{{- end }}
+],"edgesSimilarity":[
+{{- range $key, $entry := $postsData }}
+{{- $fromPath := default (strings.TrimSuffix ".md" $key) $entry.content_path }}
+{{- range $entry.top_similar }}
+{{- $toKey := .post_key }}
+{{- $toPath := strings.TrimSuffix ".md" $toKey }}
+{{- if not (strings.HasSuffix $toKey ".md") }}{{ $toPath = $toKey }}{{ end }}
+{{- $peer := index $postsData $toKey }}
+{{- if not $peer }}{{ $peer = index $postsData (printf "%s.md" $toKey) }}{{ end }}
+{{- if $peer }}{{ $toPath = default $toPath $peer.content_path }}{{ end }}
+{"from":{{ $fromPath | jsonify }},"to":{{ $toPath | jsonify }},"weight":{{ .score }} },
+{{- end }}
+{{- end }}
+],"edgesRefs":[
+{{- range where site.RegularPages "Section" "posts" }}
+{{- $currentPage := . }}
+{{- $raw := default "" .RawContent }}
+{{- $fromPath := strings.TrimSuffix ".md" .File.Path }}
+{{- $refs := findRESubmatch `relref "([^"]+)"` $raw }}
+{{- range $refs }}
+{{- $path := index . 1 }}
+{{- $path = strings.TrimSuffix ".md" $path }}
+{{- if not (strings.HasPrefix $path "posts/") }}{{ $path = printf "posts/%s" $path }}{{ end }}
+{{- $targetPage := site.GetPage $path }}
+{{- if and $targetPage (ne $targetPage $currentPage) }}
+{"from":{{ $fromPath | jsonify }},"to":{{ (strings.TrimSuffix ".md" $targetPage.File.Path) | jsonify }},"weight":1.0 },
+{{- end }}
+{{- end }}
+{{- $refs2 := findRESubmatch `ref "([^"]+)"` $raw }}
+{{- range $refs2 }}
+{{- $path := index . 1 }}
+{{- $path = strings.TrimSuffix ".md" $path }}
+{{- if not (strings.HasPrefix $path "posts/") }}{{ $path = printf "posts/%s" $path }}{{ end }}
+{{- $targetPage := site.GetPage $path }}
+{{- if and $targetPage (ne $targetPage $currentPage) }}
+{"from":{{ $fromPath | jsonify }},"to":{{ (strings.TrimSuffix ".md" $targetPage.File.Path) | jsonify }},"weight":1.0 },
+{{- end }}
+{{- end }}
+{{- end }}
+]}

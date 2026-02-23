@@ -2,4 +2,4 @@
 $nonDraftPosts := where $allPosts "Draft" false }} {{ $currentYear := now.Format
 "2006" }} {{ $postsThisYear := where $nonDraftPosts ".Date.Year" (int
 $currentYear) }} {{ if ne .Site.Params.hideMadeWithLine true }} © Qiū Ruì
-2022-{{ now.Format "2006"}}{{ end }}
+2022-{{ now.Format "2006"}} · <a href="{{ "/toolbox/" | relURL }}">toolbox</a> · <a href="{{ "/changelog/" | relURL }}">changelog</a> · <a href="{{ "/index.xml" | relURL }}" class="rss-link">RSS</a>{{ end }}

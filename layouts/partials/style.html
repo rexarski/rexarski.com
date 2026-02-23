@@ -133,6 +133,15 @@
         color: var(--accent);
     }
 
+    .rss-link {
+        text-decoration: none;
+        border-bottom: 3px solid #b8860b;
+    }
+
+    .rss-link:hover {
+        border-bottom-color: #8b6914;
+    }
+
     body::before {
         content: '';
         display: block;
@@ -171,6 +180,118 @@
     content h2 {
         margin-top: 2.25rem;
         margin-bottom: 0.6rem;
+    }
+
+    .posts-list-heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .graph-view-link {
+        font-size: 0.85rem;
+        font-weight: 500;
+        text-decoration: none;
+        color: var(--accent);
+    }
+
+    .graph-view-link:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+    }
+
+    button.graph-view-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font: inherit;
+        padding: 0;
+        color: var(--accent);
+    }
+
+    button.graph-view-btn:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+    }
+
+    .graph-easter-egg {
+        text-align: center;
+        margin: 0.5rem 0 0;
+    }
+
+    .graph-view-btn-easter {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 0.7rem;
+        color: var(--muted);
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .graph-view-btn-easter:hover {
+        color: var(--muted-strong);
+    }
+
+    .graph-overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 1000;
+        display: flex;
+        align-items: stretch;
+        justify-content: stretch;
+        box-sizing: border-box;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.2s ease, visibility 0.2s ease;
+        background: var(--code-bg);
+    }
+
+    .graph-overlay.graph-overlay-open {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .graph-overlay-close {
+        position: absolute;
+        top: 0.75rem;
+        right: 0.75rem;
+        z-index: 10;
+        width: 2.25rem;
+        height: 2.25rem;
+        padding: 0;
+        border: none;
+        border-radius: 50%;
+        background: var(--border);
+        color: var(--text);
+        font-size: 1.5rem;
+        line-height: 1;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.85;
+    }
+
+    .graph-overlay-close:hover {
+        opacity: 1;
+        background: var(--muted-strong);
+    }
+
+    .graph-canvas-container {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        min-height: 0;
+    }
+
+    .graph-overlay-msg {
+        margin: 0;
+        padding: 2rem;
+        color: var(--muted);
+        text-align: center;
     }
 
     content h2:first-child {
@@ -256,6 +377,7 @@
 
     .single-post content a[href^="http"]:hover {
         text-decoration: underline;
+        text-decoration-thickness: 3px;
     }
 
     .single-post content a[href^="http"]::after {
@@ -264,102 +386,10 @@
         opacity: 0.8;
     }
 
-    /* Homepage: terminus-style code block (index has no <content> wrapper) */
-    main.home pre:first-of-type {
-        font-family: var(--font-mono);
-        font-size: 0.875rem;
-        padding: 0;
-        border: none;
-        border-radius: 8px;
-        background: #1a1b26;
-        color: #c0caf5;
-        margin: 1.25rem 0 1.5rem 0;
-        letter-spacing: 0.02em;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-        overflow: hidden;
-    }
-
-    main.home pre:first-of-type::before {
-        content: 'rexarski@thoughts';
-        display: block;
-        padding: 0.5rem 1rem;
-        background: #16161e;
-        color: #565f89;
-        font-size: 0.75rem;
-        border-bottom: 1px solid #24283b;
-    }
-
-    main.home pre:first-of-type code {
-        display: block;
-        background: none;
-        padding: 1rem 1rem 1.25rem 1rem;
-        font-size: inherit;
-        color: inherit;
-    }
-
-    main.home pre:first-of-type code::after {
-        content: '▌';
-        animation: terminus-blink 1s step-end infinite;
-        color: #7aa2f7;
-        margin-left: 0.15em;
-    }
-
-    @keyframes terminus-blink {
-        0%, 50% { opacity: 1; }
-        51%, 100% { opacity: 0; }
-    }
-
-    /* Signature animation + rapid logo (Onyx-style), now page */
+    /* Signature animation strip, now page */
     .signature-animation {
         margin: 2rem 0 1.5rem 0;
         padding: 0;
-    }
-
-    .rapid-logo {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 1.25rem;
-    }
-
-    .rapid-logo-slot {
-        position: relative;
-        width: 9rem;
-        height: 9rem;
-        color: var(--accent);
-    }
-
-    .rapid-logo-item {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        visibility: hidden;
-        animation: rapid-logo-cycle 6s steps(1) infinite;
-    }
-
-    .rapid-logo-item:nth-child(1) { animation-delay: 0s; }
-    .rapid-logo-item:nth-child(2) { animation-delay: -1.2s; }
-    .rapid-logo-item:nth-child(3) { animation-delay: -2.4s; }
-    .rapid-logo-item:nth-child(4) { animation-delay: -3.6s; }
-    .rapid-logo-item:nth-child(5) { animation-delay: -4.8s; }
-
-    .rapid-logo-item svg {
-        width: 100%;
-        height: 100%;
-        display: block;
-        object-fit: contain;
-        flex-shrink: 0;
-    }
-
-    @keyframes rapid-logo-cycle {
-        0% { opacity: 1; visibility: visible; }
-        20% { opacity: 0; visibility: hidden; }
-        100% { opacity: 0; visibility: hidden; }
     }
 
     .signature-animation-strip {
@@ -373,8 +403,8 @@
 
     .signature-animation-item {
         display: inline-flex;
-        opacity: 0.35;
-        animation: signature-strip-sync 6s steps(1) infinite;
+        opacity: 0.6;
+        animation: signature-strip-sync 6s ease-in-out infinite;
     }
 
     .signature-animation-item:nth-child(1) { animation-delay: 0s; }
@@ -391,9 +421,11 @@
     }
 
     @keyframes signature-strip-sync {
-        0% { opacity: 1; }
-        20% { opacity: 0.35; }
-        100% { opacity: 0.35; }
+        0% { opacity: 0.95; }
+        15% { opacity: 0.55; }
+        20% { opacity: 0.55; }
+        35% { opacity: 0.95; }
+        100% { opacity: 0.55; }
     }
 
     /* Homepage: dithered photo with 3D tilt (ordered dithering, see visualrambling.space) */
@@ -678,22 +710,20 @@
     }
 
     .now-progress-item {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
         align-items: center;
-        gap: 0.5rem 1rem;
+        gap: 0 1rem;
     }
 
     .now-progress-label {
         font-size: 0.9rem;
         font-weight: 600;
         color: var(--text);
-        flex: 0 0 auto;
         min-width: 6rem;
     }
 
     .now-progress-track {
-        flex: 1 1 12rem;
         min-width: 0;
         height: 0.75rem;
         background: var(--border);
@@ -711,7 +741,8 @@
     .now-progress-meta {
         font-size: 0.85rem;
         color: var(--muted);
-        flex: 0 0 auto;
+        min-width: 22ch;
+        text-align: right;
     }
 
     /* Now page: 走马灯 marquee */
@@ -800,6 +831,7 @@
     .minimalist-item a:hover {
         color: var(--accent);
         text-decoration: underline;
+        text-decoration-thickness: 3px;
     }
 
     .observablehq:not(:first-of-type) {
@@ -1001,6 +1033,7 @@
 
     .post-navigation .nav-title:hover {
         text-decoration: underline;
+        text-decoration-thickness: 3px;
         color: var(--nav-title-hover);
     }
 
@@ -1056,7 +1089,6 @@
 
     .post-list-item {
         padding: 0.35rem 0;
-        border-bottom: 1px solid var(--border);
     }
 
     .post-list-item:last-child {
@@ -1170,6 +1202,22 @@
     body.force-dark * {
         filter: none !important;
         -webkit-filter: none !important;
+    }
+
+    body.force-dark .rss-link {
+        border-bottom-color: #e8c547;
+    }
+
+    body.force-dark .rss-link:hover {
+        border-bottom-color: #f5e076;
+    }
+
+    body.theme-dark .rss-link {
+        border-bottom-color: #e8c547;
+    }
+
+    body.theme-dark .rss-link:hover {
+        border-bottom-color: #f5e076;
     }
 
     /* Additional protection against Dark Reader */
