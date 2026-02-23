@@ -8,6 +8,7 @@ menu = "not-main"
 - 2026-02-23
   - 设计：版心与字体层级、单一强调色、暗色切换、日期格式统一；首页字标、站点描述、列表与 terminus 风格 intro；博文正文可读性（间距、blockquote、外链样式）
   - About / Now 改版：About 改为卡片块并增加 Changelog·Toolbox 链接；Now 为走马灯、signature 动画、博文周历 heatmap、进度条（百万米 + 2026 博文目标 24）；heatmap 移动端适配
+  - Now 页：dithered 照片（Haleakalā）使用 accent 色、caption 置于图内底部居中、3D 随鼠标倾斜
   - RSS feed 浏览器内 XSL 美化（参考 Cassidy Williams、Playdate 风格）；移除已弃用的 frontmatter lang 与列表语言标签
 - 2025-12-28
   - 移除了 NeoDB 进度展示功能及相关 shortcode、数据文件和 GitHub Actions 自动更新

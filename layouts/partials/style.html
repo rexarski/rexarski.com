@@ -323,8 +323,8 @@
 
     .rapid-logo-slot {
         position: relative;
-        width: 4rem;
-        height: 4rem;
+        width: 9rem;
+        height: 9rem;
         color: var(--accent);
     }
 
@@ -338,24 +338,28 @@
         align-items: center;
         justify-content: center;
         opacity: 0;
-        animation: rapid-logo-cycle 5s steps(1) infinite;
+        visibility: hidden;
+        animation: rapid-logo-cycle 6s steps(1) infinite;
     }
 
     .rapid-logo-item:nth-child(1) { animation-delay: 0s; }
-    .rapid-logo-item:nth-child(2) { animation-delay: -1s; }
-    .rapid-logo-item:nth-child(3) { animation-delay: -2s; }
-    .rapid-logo-item:nth-child(4) { animation-delay: -3s; }
-    .rapid-logo-item:nth-child(5) { animation-delay: -4s; }
+    .rapid-logo-item:nth-child(2) { animation-delay: -1.2s; }
+    .rapid-logo-item:nth-child(3) { animation-delay: -2.4s; }
+    .rapid-logo-item:nth-child(4) { animation-delay: -3.6s; }
+    .rapid-logo-item:nth-child(5) { animation-delay: -4.8s; }
 
     .rapid-logo-item svg {
         width: 100%;
         height: 100%;
+        display: block;
+        object-fit: contain;
+        flex-shrink: 0;
     }
 
     @keyframes rapid-logo-cycle {
-        0% { opacity: 1; }
-        20% { opacity: 0; }
-        100% { opacity: 0; }
+        0% { opacity: 1; visibility: visible; }
+        20% { opacity: 0; visibility: hidden; }
+        100% { opacity: 0; visibility: hidden; }
     }
 
     .signature-animation-strip {
@@ -369,24 +373,64 @@
 
     .signature-animation-item {
         display: inline-flex;
-        opacity: 0.5;
-        animation: signature-flash 3s ease-in-out infinite;
+        opacity: 0.35;
+        animation: signature-strip-sync 6s steps(1) infinite;
     }
 
     .signature-animation-item:nth-child(1) { animation-delay: 0s; }
-    .signature-animation-item:nth-child(2) { animation-delay: 0.6s; }
-    .signature-animation-item:nth-child(3) { animation-delay: 1.2s; }
-    .signature-animation-item:nth-child(4) { animation-delay: 1.8s; }
-    .signature-animation-item:nth-child(5) { animation-delay: 2.4s; }
+    .signature-animation-item:nth-child(2) { animation-delay: -1.2s; }
+    .signature-animation-item:nth-child(3) { animation-delay: -2.4s; }
+    .signature-animation-item:nth-child(4) { animation-delay: -3.6s; }
+    .signature-animation-item:nth-child(5) { animation-delay: -4.8s; }
 
     .signature-animation-item svg {
         width: 2.5rem;
         height: 2.5rem;
+        display: block;
+        object-fit: contain;
     }
 
-    @keyframes signature-flash {
-        0%, 100% { opacity: 0.35; transform: scale(0.92); }
-        50% { opacity: 1; transform: scale(1); }
+    @keyframes signature-strip-sync {
+        0% { opacity: 1; }
+        20% { opacity: 0.35; }
+        100% { opacity: 0.35; }
+    }
+
+    /* Homepage: dithered photo with 3D tilt (ordered dithering, see visualrambling.space) */
+    .dithering-photo {
+        perspective: 1200px;
+        margin: 2rem 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .dithering-photo-inner {
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 0.12s ease-out;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+
+    .dithering-photo-inner canvas {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+
+    .dithering-photo-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        padding: 0.6rem 0.75rem;
+        font-size: 0.9rem;
+        color: rgba(255,255,255,0.95);
+        text-align: center;
+        background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 100%);
     }
 
     /* Blog heatmap: stripes by week (nodaysoff-style) */

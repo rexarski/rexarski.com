@@ -1,0 +1,130 @@
+{{ $src := .Get "src" | default "" }}
+{{ $caption := .Get "caption" | default "" }}
+<div class="dithering-photo" data-src="{{ $src }}" aria-hidden="true">
+  <div class="dithering-photo-inner">
+    {{ if $caption }}<p class="dithering-photo-caption">{{ $caption }}</p>{{ end }}
+  </div>
+</div>
+<script>
+(function() {
+  var wrap = document.querySelector('.dithering-photo');
+  if (!wrap) return;
+  var inner = wrap.querySelector('.dithering-photo-inner');
+  var src = (wrap.getAttribute('data-src') || '').trim();
+
+  function getAccentRgb() {
+    var accent = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim();
+    if (!accent || accent.charAt(0) !== '#') return { r: 0, g: 0, b: 0 };
+    var hex = accent.slice(1);
+    if (hex.length === 3) hex = hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];
+    if (hex.length !== 6) return { r: 0, g: 0, b: 0 };
+    return {
+      r: parseInt(hex.slice(0,2), 16),
+      g: parseInt(hex.slice(2,4), 16),
+      b: parseInt(hex.slice(4,6), 16)
+    };
+  }
+
+  // Bayer 4x4 threshold map (ordered dithering, see visualrambling.space/dithering-part-2)
+  var bayer4 = [
+    [0, 8, 2, 10],
+    [12, 4, 14, 6],
+    [3, 11, 1, 9],
+    [15, 7, 13, 5]
+  ];
+
+  function luminance(r, g, b) {
+    return 0.299 * r + 0.587 * g + 0.114 * b;
+  }
+
+  function ditherImageData(data, width, height, accentRgb) {
+    var out = new ImageData(width, height);
+    var darkR = accentRgb.r, darkG = accentRgb.g, darkB = accentRgb.b;
+    for (var y = 0; y < height; y++) {
+      for (var x = 0; x < width; x++) {
+        var i = (y * width + x) * 4;
+        var r = data.data[i], g = data.data[i + 1], b = data.data[i + 2];
+        var L = luminance(r, g, b) / 255;
+        var thresh = bayer4[y % 4][x % 4] / 16;
+        if (L > thresh) {
+          out.data[i] = out.data[i + 1] = out.data[i + 2] = 255;
+        } else {
+          out.data[i] = darkR;
+          out.data[i + 1] = darkG;
+          out.data[i + 2] = darkB;
+        }
+        out.data[i + 3] = 255;
+      }
+    }
+    return out;
+  }
+
+  function runDither(sourceCanvas) {
+    var w = sourceCanvas.width, h = sourceCanvas.height;
+    var ctx = sourceCanvas.getContext('2d');
+    var imageData = ctx.getImageData(0, 0, w, h);
+    var accentRgb = getAccentRgb();
+    var dithered = ditherImageData(imageData, w, h, accentRgb);
+    var out = document.createElement('canvas');
+    out.width = w;
+    out.height = h;
+    out.getContext('2d').putImageData(dithered, 0, 0);
+    var captionEl = inner.querySelector('.dithering-photo-caption');
+    inner.innerHTML = '';
+    inner.appendChild(out);
+    if (captionEl) inner.appendChild(captionEl);
+  }
+
+  function drawGradientAndDither() {
+    var w = 400, h = 300;
+    var c = document.createElement('canvas');
+    c.width = w;
+    c.height = h;
+    var ctx = c.getContext('2d');
+    var gr = ctx.createRadialGradient(w/2, h/2, 0, w/2, h/2, Math.max(w,h)*0.6);
+    gr.addColorStop(0, '#333');
+    gr.addColorStop(0.4, '#666');
+    gr.addColorStop(0.7, '#aaa');
+    gr.addColorStop(1, '#eee');
+    ctx.fillStyle = gr;
+    ctx.fillRect(0, 0, w, h);
+    runDither(c);
+  }
+
+  if (src) {
+    var img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = function() {
+      var c = document.createElement('canvas');
+      var maxSide = 500;
+      var scale = Math.min(1, maxSide / img.width, maxSide / img.height);
+      c.width = Math.round(img.width * scale);
+      c.height = Math.round(img.height * scale);
+      var ctx = c.getContext('2d');
+      ctx.drawImage(img, 0, 0, c.width, c.height);
+      runDither(c);
+      addTilt();
+    };
+    img.onerror = function() { drawGradientAndDither(); addTilt(); };
+    img.src = src;
+  } else {
+    drawGradientAndDither();
+    addTilt();
+  }
+
+  function addTilt() {
+    inner.style.transform = 'rotateX(0deg) rotateY(0deg)';
+    wrap.addEventListener('mousemove', function(e) {
+      var rect = wrap.getBoundingClientRect();
+      var x = (e.clientX - rect.left) / rect.width - 0.5;
+      var y = (e.clientY - rect.top) / rect.height - 0.5;
+      var rotateY = x * 14;
+      var rotateX = -y * 14;
+      inner.style.transform = 'rotateX(' + rotateX + 'deg) rotateY(' + rotateY + 'deg)';
+    });
+    wrap.addEventListener('mouseleave', function() {
+      inner.style.transform = 'rotateX(0deg) rotateY(0deg)';
+    });
+  }
+})();
+</script>
