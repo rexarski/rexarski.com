@@ -3,8 +3,6 @@ title = "toolbox maximalism"
 weight = 2
 +++
 
-# toolbox maximalism
-
 之前我喜欢把自己电脑上**目前**安装的 app 做成一个不定期更新的列表，然后把**当下**没有安装，但是**以前**用过的 app 放在后面。现在觉得太麻烦了，尤其是有 mini + air 两台设备之后，维护就更添一分精力。
 
 索性做一个大合集堆在一起，也不做简单描述了，纯粹作为一个记录。如果未来的我在设置新电脑的时候有需要可以快速瞥一眼过一遍——反正最核心的需求已经在上述的安装过程中满足了。
@@ -84,7 +82,7 @@ weight = 2
 - [yazi](https://yazi-rs.github.io)
 - [Zen Browser](https://zen-browser.app)
 
-### 归档
+## 归档
 
 以前用过、目前未在用的 app，留档备查。
 
