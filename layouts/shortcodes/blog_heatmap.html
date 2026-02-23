@@ -1,0 +1,77 @@
+{{ $pages := where (where .Page.Site.RegularPages "Type" "in" (slice "posts" "zh")) "Params.draft" "!=" true }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "weeks" dict }}
+{{ range $pages }}
+  {{ $y := .Date.Year }}
+  {{ $yd := .Date.YearDay }}
+  {{ $w := add (div (sub $yd 1) 7) 1 }}
+  {{ $key := printf "%d-%d" $y $w }}
+  {{ $m := $scratch.Get "weeks" }}
+  {{ $cur := index $m $key | default 0 }}
+  {{ $scratch.SetInMap "weeks" $key (add $cur 1) }}
+{{ end }}
+{{ $weeks := $scratch.Get "weeks" }}
+{{ $yearList := slice }}
+{{ range $pages }}
+  {{ $yearList = $yearList | append .Date.Year }}
+{{ end }}
+{{ $years := $yearList | uniq | sort }}
+{{ $years = collections.Reverse $years }}
+{{ $cy := now.Year }}
+{{ $cyd := now.YearDay }}
+{{ $cw := add (div (sub $cyd 1) 7) 1 }}
+{{ $total := add (mul $cy 53) $cw }}
+{{ $scratch.Set "streak" 0 }}
+{{ $scratch.Set "streak_done" false }}
+{{ range seq 0 400 }}
+  {{ $i := . }}
+  {{ $t := sub $total $i }}
+  {{ $yy := div $t 53 }}
+  {{ $ww := mod $t 53 }}
+  {{ if eq $ww 0 }}
+    {{ $scratch.Set "iter_key" (printf "%d-%d" (sub $yy 1) 53) }}
+  {{ else }}
+    {{ $scratch.Set "iter_key" (printf "%d-%d" $yy $ww) }}
+  {{ end }}
+  {{ $key := $scratch.Get "iter_key" }}
+  {{ $cnt := index $weeks $key | default 0 }}
+  {{ if and (not ($scratch.Get "streak_done")) (eq $cnt 0) }}
+    {{ $scratch.Set "streak" $i }}
+    {{ $scratch.Set "streak_done" true }}
+  {{ end }}
+{{ end }}
+{{ $streak := $scratch.Get "streak" }}
+
+<div class="blog-heatmap" aria-label="Blog posts by week">
+  <div class="blog-heatmap-header">
+    <span class="blog-heatmap-title">Posts by week</span>
+    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-0"></span> 0</span>
+    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-1"></span> 1</span>
+    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-2"></span> 2</span>
+    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-3"></span> 3</span>
+    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-4"></span> 4+</span>
+    <span class="blog-heatmap-streak">{{ $streak }} week streak</span>
+  </div>
+  <div class="blog-heatmap-grid">
+    {{ range $years }}
+      {{ $y := . }}
+      <div class="blog-heatmap-row">
+        <span class="blog-heatmap-year">{{ $y }}</span>
+        <div class="blog-heatmap-stripes" role="img" aria-label="{{ $y }} weeks">
+          {{ range seq 1 53 }}
+            {{ $key := printf "%d-%d" $y . }}
+            {{ $cnt := index $weeks $key | default 0 }}
+            {{ $class := "count-0" }}
+            {{ if ge $cnt 4 }}{{ $class = "count-4" }}{{ else if eq $cnt 3 }}{{ $class = "count-3" }}{{ else if eq $cnt 2 }}{{ $class = "count-2" }}{{ else if eq $cnt 1 }}{{ $class = "count-1" }}{{ end }}
+            <span class="blog-heatmap-cell {{ $class }}" title="{{ $y }} week {{ . }}{{ if gt $cnt 0 }} · {{ $cnt }} post(s){{ end }}"></span>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+  <div class="blog-heatmap-week-labels">
+    <span>W1</span>
+    <span>W27</span>
+    <span>W53</span>
+  </div>
+</div>

@@ -1,6 +1,6 @@
 ```
 $ ssh rexarski@thoughts
-Connected. 公开地写.
+Connected. Start writing...
 ```
 
 ## 最近更新

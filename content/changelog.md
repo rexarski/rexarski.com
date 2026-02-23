@@ -5,6 +5,10 @@ menu = "not-main"
 
 # <pre>changelog</pre>
 
+- 2026-02-23
+  - About 页：whoami / Elsewhere / Colophon / Blogroll 改为卡片块（about_card shortcode），边框与阴影统一
+  - Now 页：最近动态改为走马灯 marquee；增加 signature 动画（rapid logo 轮播 + 条纹闪烁）、博文周历 heatmap（按周条纹、1–4+ 帖分色、周连续 streak 显示于右上）
+  - 首页：intro 代码块改为 terminus 风格（深色窗、标题栏 rexarski@thoughts、闪烁光标）
 - 2026-02-22
   - 设计更新：版心与字体层级（660px、Fraunces 标题、Victor Mono 代码）、单一强调色仅用于链接悬停 / 当前导航 / 顶部装饰条
   - 首页：SVG 字标、全站显示站点描述、最近更新列表首条突出且含日期与同行语言标签、intro 改为终端风「ssh rexarski@thoughts」卡片

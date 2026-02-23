@@ -1,0 +1,6 @@
+<div class="about-card">
+  <h3 class="about-card-title">{{ .Get 0 }}</h3>
+  <div class="about-card-body">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

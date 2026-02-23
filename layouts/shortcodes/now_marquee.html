@@ -1,0 +1,7 @@
+{{ $content := .Inner | .Page.RenderString }}
+<div class="now-marquee" aria-label="Now">
+  <div class="now-marquee-track">
+    <div class="now-marquee-inner">{{ $content }}</div>
+    <div class="now-marquee-inner" aria-hidden="true">{{ $content }}</div>
+  </div>
+</div>
