@@ -1,0 +1,38 @@
+{{- $goalM := 1000000 -}}
+{{- $m := 0 -}}
+{{- with .Site.Data.concept2_distance -}}
+  {{- $m = int .lifetime_meters -}}
+{{- end -}}
+{{- $pctM := 0.0 -}}
+{{- if gt $goalM 0 -}}
+  {{- $pctM = div (mul (float $m) 100.0) (float $goalM) -}}
+  {{- $pctM = math.Min 100.0 (math.Max 0.0 $pctM) -}}
+{{- end -}}
+
+{{- $targetPosts := 24 -}}
+{{- $posts := where .Site.RegularPages "Type" "in" (slice "posts" "zh") -}}
+{{- $posts = where $posts "Params.draft" "!=" true -}}
+{{- $posts2026 := where $posts "Date.Year" 2026 -}}
+{{- $count2026 := len $posts2026 -}}
+{{- $pctPosts := 0.0 -}}
+{{- if gt $targetPosts 0 -}}
+  {{- $pctPosts = div (mul (float $count2026) 100.0) (float $targetPosts) -}}
+  {{- $pctPosts = math.Min 100.0 (math.Max 0.0 $pctPosts) -}}
+{{- end -}}
+
+<div class="now-progress-bars" aria-label="Progress">
+  <div class="now-progress-item">
+    <span class="now-progress-label">百万米俱乐部</span>
+    <div class="now-progress-track" role="progressbar" aria-valuenow="{{ $m }}" aria-valuemin="0" aria-valuemax="{{ $goalM }}" aria-label="Concept2 百万米">
+      <div class="now-progress-fill" style="width: {{ $pctM }}%;"></div>
+    </div>
+    <span class="now-progress-meta">{{ $m }} / {{ $goalM }} m</span>
+  </div>
+  <div class="now-progress-item">
+    <span class="now-progress-label">2026 博文</span>
+    <div class="now-progress-track" role="progressbar" aria-valuenow="{{ $count2026 }}" aria-valuemin="0" aria-valuemax="{{ $targetPosts }}" aria-label="2026 博文篇数">
+      <div class="now-progress-fill" style="width: {{ $pctPosts }}%;"></div>
+    </div>
+    <span class="now-progress-meta">{{ $count2026 }} / {{ $targetPosts }} 篇</span>
+  </div>
+</div>

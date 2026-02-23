@@ -1,6 +1,6 @@
 {
   "model": "embeddinggemma",
-  "generated_at": "2026-02-23T05:39:21.112769+00:00",
+  "generated_at": "2026-02-23T16:29:15.113157+00:00",
   "posts": {
     "posts/2022-09-05-sentiment-analysis.md": {
       "title": "Sentiment analysis 只是有点用处",
@@ -867,7 +867,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.31654773357607624,
         "posts/2026-01-01-ac2025.md": 0.3643865677129122,
         "posts/2026-01-17-orb.md": 0.3361382581644895,
-        "posts/2026-02-23-adulting.md": 0.31076708682711046
+        "posts/2026-02-23-adulting.md": 0.31076708682711046,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2931366066584364
       },
       "top_similar": [
         {
@@ -1755,7 +1756,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.24128834520576783,
         "posts/2026-01-01-ac2025.md": 0.3181691052860836,
         "posts/2026-01-17-orb.md": 0.2502854217145751,
-        "posts/2026-02-23-adulting.md": 0.25157951259909445
+        "posts/2026-02-23-adulting.md": 0.25157951259909445,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2558193452558707
       },
       "top_similar": [
         {
@@ -2643,7 +2645,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4987607566563804,
         "posts/2026-01-01-ac2025.md": 0.8945520640323885,
         "posts/2026-01-17-orb.md": 0.3247830056690311,
-        "posts/2026-02-23-adulting.md": 0.5593080662777318
+        "posts/2026-02-23-adulting.md": 0.5593080662777318,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.29487711715580944
       },
       "top_similar": [
         {
@@ -3531,7 +3534,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4671791513145423,
         "posts/2026-01-01-ac2025.md": 0.45067820472850834,
         "posts/2026-01-17-orb.md": 0.224759356757207,
-        "posts/2026-02-23-adulting.md": 0.33617109466465206
+        "posts/2026-02-23-adulting.md": 0.33617109466465206,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3816695771998065
       },
       "top_similar": [
         {
@@ -4419,7 +4423,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.37295583162579465,
         "posts/2026-01-01-ac2025.md": 0.3569040670279173,
         "posts/2026-01-17-orb.md": 0.14336083383788786,
-        "posts/2026-02-23-adulting.md": 0.28554097245783316
+        "posts/2026-02-23-adulting.md": 0.28554097245783316,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2675432714806366
       },
       "top_similar": [
         {
@@ -5307,7 +5312,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2690618694890658,
         "posts/2026-01-01-ac2025.md": 0.275404444295244,
         "posts/2026-01-17-orb.md": 0.17218602626099888,
-        "posts/2026-02-23-adulting.md": 0.21876115240933589
+        "posts/2026-02-23-adulting.md": 0.21876115240933589,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3031377699862221
       },
       "top_similar": [
         {
@@ -6195,7 +6201,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.43424966969564477,
         "posts/2026-01-01-ac2025.md": 0.48927710060995955,
         "posts/2026-01-17-orb.md": 0.18876467781516518,
-        "posts/2026-02-23-adulting.md": 0.29717906322862614
+        "posts/2026-02-23-adulting.md": 0.29717906322862614,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3695736415447527
       },
       "top_similar": [
         {
@@ -7083,7 +7090,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4133026362809636,
         "posts/2026-01-01-ac2025.md": 0.5016536014746209,
         "posts/2026-01-17-orb.md": 0.23476588558252562,
-        "posts/2026-02-23-adulting.md": 0.23335013009251984
+        "posts/2026-02-23-adulting.md": 0.23335013009251984,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.31964463931386905
       },
       "top_similar": [
         {
@@ -7971,7 +7979,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.33524272980279995,
         "posts/2026-01-01-ac2025.md": 0.41649568169045487,
         "posts/2026-01-17-orb.md": 0.21607300415109884,
-        "posts/2026-02-23-adulting.md": 0.19294480103347147
+        "posts/2026-02-23-adulting.md": 0.19294480103347147,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.26529397752692413
       },
       "top_similar": [
         {
@@ -8859,7 +8868,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3863783288094607,
         "posts/2026-01-01-ac2025.md": 0.3389381961990559,
         "posts/2026-01-17-orb.md": 0.18822447989682153,
-        "posts/2026-02-23-adulting.md": 0.21860989762972816
+        "posts/2026-02-23-adulting.md": 0.21860989762972816,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.23425245785849966
       },
       "top_similar": [
         {
@@ -9747,7 +9757,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.37558833190719515,
         "posts/2026-01-01-ac2025.md": 0.2826460138674446,
         "posts/2026-01-17-orb.md": 0.13717105014157738,
-        "posts/2026-02-23-adulting.md": 0.15967138292610583
+        "posts/2026-02-23-adulting.md": 0.15967138292610583,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.39754113679210534
       },
       "top_similar": [
         {
@@ -10635,7 +10646,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.34878760016971233,
         "posts/2026-01-01-ac2025.md": 0.34233312414682737,
         "posts/2026-01-17-orb.md": 0.26353671880885815,
-        "posts/2026-02-23-adulting.md": 0.24115727050725058
+        "posts/2026-02-23-adulting.md": 0.24115727050725058,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.418810570929583
       },
       "top_similar": [
         {
@@ -11523,7 +11535,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.305981556713321,
         "posts/2026-01-01-ac2025.md": 0.3363424093257963,
         "posts/2026-01-17-orb.md": 0.20966132236432033,
-        "posts/2026-02-23-adulting.md": 0.16653414143924408
+        "posts/2026-02-23-adulting.md": 0.16653414143924408,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.29624177289217307
       },
       "top_similar": [
         {
@@ -12411,7 +12424,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.22898207525986855,
         "posts/2026-01-01-ac2025.md": 0.31443872652321325,
         "posts/2026-01-17-orb.md": 0.16389026514273677,
-        "posts/2026-02-23-adulting.md": 0.15352834954604147
+        "posts/2026-02-23-adulting.md": 0.15352834954604147,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.20004559997836005
       },
       "top_similar": [
         {
@@ -13299,7 +13313,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.25655082219631736,
         "posts/2026-01-01-ac2025.md": 0.3083455543436821,
         "posts/2026-01-17-orb.md": 0.1696399519618155,
-        "posts/2026-02-23-adulting.md": 0.19789901240692065
+        "posts/2026-02-23-adulting.md": 0.19789901240692065,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2918963508735416
       },
       "top_similar": [
         {
@@ -14187,7 +14202,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.522179544659221,
         "posts/2026-01-01-ac2025.md": 0.42424189014913954,
         "posts/2026-01-17-orb.md": 0.26688019457222023,
-        "posts/2026-02-23-adulting.md": 0.37124258842299884
+        "posts/2026-02-23-adulting.md": 0.37124258842299884,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.23928857641248288
       },
       "top_similar": [
         {
@@ -15075,7 +15091,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4723730715860753,
         "posts/2026-01-01-ac2025.md": 0.6236836399579613,
         "posts/2026-01-17-orb.md": 0.30614043109595307,
-        "posts/2026-02-23-adulting.md": 0.3891974679477533
+        "posts/2026-02-23-adulting.md": 0.3891974679477533,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.41661630536859445
       },
       "top_similar": [
         {
@@ -15963,7 +15980,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.5272351950571457,
         "posts/2026-01-01-ac2025.md": 0.6987497835689348,
         "posts/2026-01-17-orb.md": 0.3504953676082703,
-        "posts/2026-02-23-adulting.md": 0.5059548386556114
+        "posts/2026-02-23-adulting.md": 0.5059548386556114,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.38684380554906345
       },
       "top_similar": [
         {
@@ -16851,7 +16869,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.34886074874307743,
         "posts/2026-01-01-ac2025.md": 0.43848070086620244,
         "posts/2026-01-17-orb.md": 0.22173489792669876,
-        "posts/2026-02-23-adulting.md": 0.36543456167998345
+        "posts/2026-02-23-adulting.md": 0.36543456167998345,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.24626089617979013
       },
       "top_similar": [
         {
@@ -17739,7 +17758,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.44256189957935227,
         "posts/2026-01-01-ac2025.md": 0.5899567204403315,
         "posts/2026-01-17-orb.md": 0.14988603886379,
-        "posts/2026-02-23-adulting.md": 0.3668134981775012
+        "posts/2026-02-23-adulting.md": 0.3668134981775012,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.366088376024118
       },
       "top_similar": [
         {
@@ -18627,7 +18647,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.44113049119706893,
         "posts/2026-01-01-ac2025.md": 0.8632796066950199,
         "posts/2026-01-17-orb.md": 0.3465279561850209,
-        "posts/2026-02-23-adulting.md": 0.5565991863240062
+        "posts/2026-02-23-adulting.md": 0.5565991863240062,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3093516995104896
       },
       "top_similar": [
         {
@@ -19515,7 +19536,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.408079906751843,
         "posts/2026-01-01-ac2025.md": 0.5103966113104986,
         "posts/2026-01-17-orb.md": 0.2152819067066551,
-        "posts/2026-02-23-adulting.md": 0.33378348346097475
+        "posts/2026-02-23-adulting.md": 0.33378348346097475,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.38360303944706603
       },
       "top_similar": [
         {
@@ -20403,7 +20425,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.31844131088123795,
         "posts/2026-01-01-ac2025.md": 0.47612195375672045,
         "posts/2026-01-17-orb.md": 0.22250022920297874,
-        "posts/2026-02-23-adulting.md": 0.19721116444749742
+        "posts/2026-02-23-adulting.md": 0.19721116444749742,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.23896572844196876
       },
       "top_similar": [
         {
@@ -21291,7 +21314,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3740385464038331,
         "posts/2026-01-01-ac2025.md": 0.5257165785173536,
         "posts/2026-01-17-orb.md": 0.20847639482973904,
-        "posts/2026-02-23-adulting.md": 0.2462473826913758
+        "posts/2026-02-23-adulting.md": 0.2462473826913758,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2445332339282658
       },
       "top_similar": [
         {
@@ -22179,7 +22203,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.42195504029045366,
         "posts/2026-01-01-ac2025.md": 0.4654562193937196,
         "posts/2026-01-17-orb.md": 0.2395627921998039,
-        "posts/2026-02-23-adulting.md": 0.3145997045530558
+        "posts/2026-02-23-adulting.md": 0.3145997045530558,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3513013385835488
       },
       "top_similar": [
         {
@@ -23067,7 +23092,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3482124138258807,
         "posts/2026-01-01-ac2025.md": 0.5106471340211619,
         "posts/2026-01-17-orb.md": 0.1992965976108759,
-        "posts/2026-02-23-adulting.md": 0.2385923224642266
+        "posts/2026-02-23-adulting.md": 0.2385923224642266,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3082505406270275
       },
       "top_similar": [
         {
@@ -23955,7 +23981,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3251803816577257,
         "posts/2026-01-01-ac2025.md": 0.3828225820251799,
         "posts/2026-01-17-orb.md": 0.2918165035826182,
-        "posts/2026-02-23-adulting.md": 0.3337186791158989
+        "posts/2026-02-23-adulting.md": 0.3337186791158989,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2538609187360648
       },
       "top_similar": [
         {
@@ -24843,7 +24870,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4480448830665703,
         "posts/2026-01-01-ac2025.md": 0.4346145453454931,
         "posts/2026-01-17-orb.md": 0.2613405170714606,
-        "posts/2026-02-23-adulting.md": 0.329171338070412
+        "posts/2026-02-23-adulting.md": 0.329171338070412,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.39580636901698923
       },
       "top_similar": [
         {
@@ -25731,7 +25759,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.302010799765849,
         "posts/2026-01-01-ac2025.md": 0.3674505232968221,
         "posts/2026-01-17-orb.md": 0.34641110049981444,
-        "posts/2026-02-23-adulting.md": 0.451993372005647
+        "posts/2026-02-23-adulting.md": 0.451993372005647,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2258330048902864
       },
       "top_similar": [
         {
@@ -26619,7 +26648,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.44375496744172926,
         "posts/2026-01-01-ac2025.md": 0.5506920614690066,
         "posts/2026-01-17-orb.md": 0.1773670620796995,
-        "posts/2026-02-23-adulting.md": 0.3735283269522875
+        "posts/2026-02-23-adulting.md": 0.3735283269522875,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.4063230974775366
       },
       "top_similar": [
         {
@@ -27507,7 +27537,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.21335452435698127,
         "posts/2026-01-01-ac2025.md": 0.3374688262192457,
         "posts/2026-01-17-orb.md": 0.18612450325267035,
-        "posts/2026-02-23-adulting.md": 0.20889863556953941
+        "posts/2026-02-23-adulting.md": 0.20889863556953941,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.22413918794080348
       },
       "top_similar": [
         {
@@ -28395,7 +28426,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.43364926473256243,
         "posts/2026-01-01-ac2025.md": 0.388250377594674,
         "posts/2026-01-17-orb.md": 0.19581641261819058,
-        "posts/2026-02-23-adulting.md": 0.2810137370572398
+        "posts/2026-02-23-adulting.md": 0.2810137370572398,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3125774328064056
       },
       "top_similar": [
         {
@@ -29283,7 +29315,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.5294127625837138,
         "posts/2026-01-01-ac2025.md": 0.8130213186883937,
         "posts/2026-01-17-orb.md": 0.32582766416530273,
-        "posts/2026-02-23-adulting.md": 0.5166781830358999
+        "posts/2026-02-23-adulting.md": 0.5166781830358999,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.305292031215194
       },
       "top_similar": [
         {
@@ -30171,7 +30204,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3136350874821833,
         "posts/2026-01-01-ac2025.md": 0.30021684438170243,
         "posts/2026-01-17-orb.md": 0.2917834924579198,
-        "posts/2026-02-23-adulting.md": 0.283627347427083
+        "posts/2026-02-23-adulting.md": 0.283627347427083,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.26308527492581973
       },
       "top_similar": [
         {
@@ -31059,7 +31093,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.6464067728517717,
         "posts/2026-01-01-ac2025.md": 0.5709404258388417,
         "posts/2026-01-17-orb.md": 0.27984514784934855,
-        "posts/2026-02-23-adulting.md": 0.41178819854660037
+        "posts/2026-02-23-adulting.md": 0.41178819854660037,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.36280277048709486
       },
       "top_similar": [
         {
@@ -31947,7 +31982,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4558734681626409,
         "posts/2026-01-01-ac2025.md": 0.714231109564782,
         "posts/2026-01-17-orb.md": 0.34923924387353983,
-        "posts/2026-02-23-adulting.md": 0.5949435479184597
+        "posts/2026-02-23-adulting.md": 0.5949435479184597,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.28094848351079216
       },
       "top_similar": [
         {
@@ -32835,7 +32871,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4831904198935109,
         "posts/2026-01-01-ac2025.md": 0.5200623988968525,
         "posts/2026-01-17-orb.md": 0.27719190078951755,
-        "posts/2026-02-23-adulting.md": 0.3202542942470873
+        "posts/2026-02-23-adulting.md": 0.3202542942470873,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.4635013158179917
       },
       "top_similar": [
         {
@@ -33723,7 +33760,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.46927225220120267,
         "posts/2026-01-01-ac2025.md": 0.47863776547259007,
         "posts/2026-01-17-orb.md": 0.27130506553895467,
-        "posts/2026-02-23-adulting.md": 0.335099563564313
+        "posts/2026-02-23-adulting.md": 0.335099563564313,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.44661356520400564
       },
       "top_similar": [
         {
@@ -34611,7 +34649,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.41347814068615707,
         "posts/2026-01-01-ac2025.md": 0.48261728823849204,
         "posts/2026-01-17-orb.md": 0.2779878710852625,
-        "posts/2026-02-23-adulting.md": 0.4065718635963831
+        "posts/2026-02-23-adulting.md": 0.4065718635963831,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.30514477902387727
       },
       "top_similar": [
         {
@@ -35499,7 +35538,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2394913894744498,
         "posts/2026-01-01-ac2025.md": 0.34433852341855115,
         "posts/2026-01-17-orb.md": 0.2656622905594504,
-        "posts/2026-02-23-adulting.md": 0.34797128500448343
+        "posts/2026-02-23-adulting.md": 0.34797128500448343,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.217127804307044
       },
       "top_similar": [
         {
@@ -36387,7 +36427,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2188046044293107,
         "posts/2026-01-01-ac2025.md": 0.3316293979099385,
         "posts/2026-01-17-orb.md": 0.20719257288923784,
-        "posts/2026-02-23-adulting.md": 0.4026559425457821
+        "posts/2026-02-23-adulting.md": 0.4026559425457821,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.19599636872979728
       },
       "top_similar": [
         {
@@ -37275,7 +37316,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.5568012394968253,
         "posts/2026-01-01-ac2025.md": 0.4482128799401122,
         "posts/2026-01-17-orb.md": 0.2729888072406781,
-        "posts/2026-02-23-adulting.md": 0.3688258939038309
+        "posts/2026-02-23-adulting.md": 0.3688258939038309,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.23371997857084506
       },
       "top_similar": [
         {
@@ -38163,7 +38205,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3801021435903798,
         "posts/2026-01-01-ac2025.md": 0.5173777250022594,
         "posts/2026-01-17-orb.md": 0.3650612860239204,
-        "posts/2026-02-23-adulting.md": 0.46842498556783274
+        "posts/2026-02-23-adulting.md": 0.46842498556783274,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3051363609314628
       },
       "top_similar": [
         {
@@ -39051,7 +39094,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3139928271943273,
         "posts/2026-01-01-ac2025.md": 0.5005056323482885,
         "posts/2026-01-17-orb.md": 0.32356864355828313,
-        "posts/2026-02-23-adulting.md": 0.47111553609887047
+        "posts/2026-02-23-adulting.md": 0.47111553609887047,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.20801448059713165
       },
       "top_similar": [
         {
@@ -39939,7 +39983,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.25302311181597054,
         "posts/2026-01-01-ac2025.md": 0.3272685554210658,
         "posts/2026-01-17-orb.md": 0.2586609381164357,
-        "posts/2026-02-23-adulting.md": 0.36771780812700583
+        "posts/2026-02-23-adulting.md": 0.36771780812700583,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.27023246061096606
       },
       "top_similar": [
         {
@@ -40827,7 +40872,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.33936331780742096,
         "posts/2026-01-01-ac2025.md": 0.4359024971152289,
         "posts/2026-01-17-orb.md": 0.2828032344576027,
-        "posts/2026-02-23-adulting.md": 0.4147650404696016
+        "posts/2026-02-23-adulting.md": 0.4147650404696016,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.24795424013009545
       },
       "top_similar": [
         {
@@ -41715,7 +41761,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.21288301444330066,
         "posts/2026-01-01-ac2025.md": 0.33192169539582966,
         "posts/2026-01-17-orb.md": 0.228611982815163,
-        "posts/2026-02-23-adulting.md": 0.3125801858860706
+        "posts/2026-02-23-adulting.md": 0.3125801858860706,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.18233474620794318
       },
       "top_similar": [
         {
@@ -42603,7 +42650,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2283819283787203,
         "posts/2026-01-01-ac2025.md": 0.41918312382317,
         "posts/2026-01-17-orb.md": 0.294331954184261,
-        "posts/2026-02-23-adulting.md": 0.3566095906059275
+        "posts/2026-02-23-adulting.md": 0.3566095906059275,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.18989282671050536
       },
       "top_similar": [
         {
@@ -43491,7 +43539,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.18556461091661286,
         "posts/2026-01-01-ac2025.md": 0.2845427731910641,
         "posts/2026-01-17-orb.md": 0.26944782661319056,
-        "posts/2026-02-23-adulting.md": 0.33337005017932275
+        "posts/2026-02-23-adulting.md": 0.33337005017932275,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.19884423885865743
       },
       "top_similar": [
         {
@@ -44379,7 +44428,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.15037249525270402,
         "posts/2026-01-01-ac2025.md": 0.2953265077062695,
         "posts/2026-01-17-orb.md": 0.199620646044361,
-        "posts/2026-02-23-adulting.md": 0.21770787452471874
+        "posts/2026-02-23-adulting.md": 0.21770787452471874,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.19575079393719091
       },
       "top_similar": [
         {
@@ -45267,7 +45317,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.40534909647637496,
         "posts/2026-01-01-ac2025.md": 0.4494270936745515,
         "posts/2026-01-17-orb.md": 0.28518392241204654,
-        "posts/2026-02-23-adulting.md": 0.3305556343899065
+        "posts/2026-02-23-adulting.md": 0.3305556343899065,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.4361823840754602
       },
       "top_similar": [
         {
@@ -46155,7 +46206,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.23890678523377162,
         "posts/2026-01-01-ac2025.md": 0.4490662830956478,
         "posts/2026-01-17-orb.md": 0.2703013703339098,
-        "posts/2026-02-23-adulting.md": 0.42375838840156027
+        "posts/2026-02-23-adulting.md": 0.42375838840156027,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.13643430402932696
       },
       "top_similar": [
         {
@@ -47043,7 +47095,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.34324436954780085,
         "posts/2026-01-01-ac2025.md": 0.4877389677806411,
         "posts/2026-01-17-orb.md": 0.28679888011465543,
-        "posts/2026-02-23-adulting.md": 0.4653382115086073
+        "posts/2026-02-23-adulting.md": 0.4653382115086073,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.24821950309437213
       },
       "top_similar": [
         {
@@ -47931,7 +47984,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3016779679566674,
         "posts/2026-01-01-ac2025.md": 0.30254643739625914,
         "posts/2026-01-17-orb.md": 0.21926030047151077,
-        "posts/2026-02-23-adulting.md": 0.28016312351801376
+        "posts/2026-02-23-adulting.md": 0.28016312351801376,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.18454423144226798
       },
       "top_similar": [
         {
@@ -48819,7 +48873,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.30132585626900965,
         "posts/2026-01-01-ac2025.md": 0.36472016765777343,
         "posts/2026-01-17-orb.md": 0.2334062599555181,
-        "posts/2026-02-23-adulting.md": 0.34150047023725444
+        "posts/2026-02-23-adulting.md": 0.34150047023725444,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.23911968166250702
       },
       "top_similar": [
         {
@@ -49707,7 +49762,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.21744661575469576,
         "posts/2026-01-01-ac2025.md": 0.40065943839887325,
         "posts/2026-01-17-orb.md": 0.2849104868187859,
-        "posts/2026-02-23-adulting.md": 0.35966586534953326
+        "posts/2026-02-23-adulting.md": 0.35966586534953326,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.24888243434196922
       },
       "top_similar": [
         {
@@ -50595,7 +50651,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2644484274657329,
         "posts/2026-01-01-ac2025.md": 0.41256129264565505,
         "posts/2026-01-17-orb.md": 0.32043684481999996,
-        "posts/2026-02-23-adulting.md": 0.4070147694736921
+        "posts/2026-02-23-adulting.md": 0.4070147694736921,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.22777169651888138
       },
       "top_similar": [
         {
@@ -51483,7 +51540,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.28371387268015863,
         "posts/2026-01-01-ac2025.md": 0.3024015239348784,
         "posts/2026-01-17-orb.md": 0.21019089191236295,
-        "posts/2026-02-23-adulting.md": 0.29873057348750975
+        "posts/2026-02-23-adulting.md": 0.29873057348750975,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.19947992166222303
       },
       "top_similar": [
         {
@@ -52371,7 +52429,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.24297786459498816,
         "posts/2026-01-01-ac2025.md": 0.38253618099191883,
         "posts/2026-01-17-orb.md": 0.27004336421076075,
-        "posts/2026-02-23-adulting.md": 0.3392336711806561
+        "posts/2026-02-23-adulting.md": 0.3392336711806561,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3044761121737392
       },
       "top_similar": [
         {
@@ -53259,7 +53318,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.31295044567015456,
         "posts/2026-01-01-ac2025.md": 0.361455668962622,
         "posts/2026-01-17-orb.md": 0.24935122401028148,
-        "posts/2026-02-23-adulting.md": 0.3477025683096172
+        "posts/2026-02-23-adulting.md": 0.3477025683096172,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.46356438479980994
       },
       "top_similar": [
         {
@@ -53269,16 +53329,16 @@
           "score": 0.498819
         },
         {
+          "post_key": "posts/2026-02-24-hugo-rss-pretty-feed.md",
+          "content_path": "posts/2026-02-24-hugo-rss-pretty-feed",
+          "title": "如何美化 Hugo 的 RSS",
+          "score": 0.463564
+        },
+        {
           "post_key": "posts/2025-05-14-day-one-migration.md",
           "content_path": "posts/2025-05-14-day-one-migration",
           "title": "Day One 日记搬家",
           "score": 0.460871
-        },
-        {
-          "post_key": "posts/2025-08-07-things-im-not-doing-anymore.md",
-          "content_path": "posts/2025-08-07-things-im-not-doing-anymore",
-          "title": "我不再做的事",
-          "score": 0.452087
         }
       ]
     },
@@ -54147,7 +54207,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.6456049729463844,
         "posts/2026-01-01-ac2025.md": 0.5062547703833438,
         "posts/2026-01-17-orb.md": 0.2881860364141349,
-        "posts/2026-02-23-adulting.md": 0.4526330844392315
+        "posts/2026-02-23-adulting.md": 0.4526330844392315,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3104130170058876
       },
       "top_similar": [
         {
@@ -55035,7 +55096,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3264292274967694,
         "posts/2026-01-01-ac2025.md": 0.4634698377238064,
         "posts/2026-01-17-orb.md": 0.26591015281842767,
-        "posts/2026-02-23-adulting.md": 0.2856071650816447
+        "posts/2026-02-23-adulting.md": 0.2856071650816447,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.29684124759447045
       },
       "top_similar": [
         {
@@ -55923,7 +55985,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4875610634758309,
         "posts/2026-01-01-ac2025.md": 0.5528199289892016,
         "posts/2026-01-17-orb.md": 0.29343505540184495,
-        "posts/2026-02-23-adulting.md": 0.431551450657763
+        "posts/2026-02-23-adulting.md": 0.431551450657763,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.262158038980923
       },
       "top_similar": [
         {
@@ -56811,7 +56874,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.396294232305442,
         "posts/2026-01-01-ac2025.md": 0.5634302578593725,
         "posts/2026-01-17-orb.md": 0.3423994639677861,
-        "posts/2026-02-23-adulting.md": 0.49584033413047846
+        "posts/2026-02-23-adulting.md": 0.49584033413047846,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.30873481867386054
       },
       "top_similar": [
         {
@@ -57699,7 +57763,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2787617365634386,
         "posts/2026-01-01-ac2025.md": 0.473141842612469,
         "posts/2026-01-17-orb.md": 0.2715579153735677,
-        "posts/2026-02-23-adulting.md": 0.49182721554675524
+        "posts/2026-02-23-adulting.md": 0.49182721554675524,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.19728764791283424
       },
       "top_similar": [
         {
@@ -58587,7 +58652,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.27553388330276424,
         "posts/2026-01-01-ac2025.md": 0.42156323767084625,
         "posts/2026-01-17-orb.md": 0.22759722751034803,
-        "posts/2026-02-23-adulting.md": 0.396011608689641
+        "posts/2026-02-23-adulting.md": 0.396011608689641,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.1817525439452042
       },
       "top_similar": [
         {
@@ -59475,7 +59541,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.31151020260549284,
         "posts/2026-01-01-ac2025.md": 0.46960450758321504,
         "posts/2026-01-17-orb.md": 0.23803582977849844,
-        "posts/2026-02-23-adulting.md": 0.3193253224652035
+        "posts/2026-02-23-adulting.md": 0.3193253224652035,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.28797237008411886
       },
       "top_similar": [
         {
@@ -60363,7 +60430,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.39500144501088685,
         "posts/2026-01-01-ac2025.md": 0.42306373045539886,
         "posts/2026-01-17-orb.md": 0.26435484711419577,
-        "posts/2026-02-23-adulting.md": 0.4109334587128706
+        "posts/2026-02-23-adulting.md": 0.4109334587128706,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.28059457766147966
       },
       "top_similar": [
         {
@@ -61251,7 +61319,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3404470250420224,
         "posts/2026-01-01-ac2025.md": 0.5271423072284411,
         "posts/2026-01-17-orb.md": 0.2596149456162939,
-        "posts/2026-02-23-adulting.md": 0.4384523342646079
+        "posts/2026-02-23-adulting.md": 0.4384523342646079,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.25534639344599913
       },
       "top_similar": [
         {
@@ -62139,7 +62208,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.16972748083109368,
         "posts/2026-01-01-ac2025.md": 0.3336463715618994,
         "posts/2026-01-17-orb.md": 0.2541906094436948,
-        "posts/2026-02-23-adulting.md": 0.35577584998083583
+        "posts/2026-02-23-adulting.md": 0.35577584998083583,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.16278642620381856
       },
       "top_similar": [
         {
@@ -63027,7 +63097,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.26511663388836987,
         "posts/2026-01-01-ac2025.md": 0.4768016447012574,
         "posts/2026-01-17-orb.md": 0.3162674271768796,
-        "posts/2026-02-23-adulting.md": 0.32198349072382787
+        "posts/2026-02-23-adulting.md": 0.32198349072382787,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.29008470721204116
       },
       "top_similar": [
         {
@@ -63915,7 +63986,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4973634293652825,
         "posts/2026-01-01-ac2025.md": 0.622141844966566,
         "posts/2026-01-17-orb.md": 0.39224562421420367,
-        "posts/2026-02-23-adulting.md": 0.4573760602674796
+        "posts/2026-02-23-adulting.md": 0.4573760602674796,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.25976030469275413
       },
       "top_similar": [
         {
@@ -64803,7 +64875,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4483640404148798,
         "posts/2026-01-01-ac2025.md": 0.46199069503309453,
         "posts/2026-01-17-orb.md": 0.3011246944637927,
-        "posts/2026-02-23-adulting.md": 0.39971250992537166
+        "posts/2026-02-23-adulting.md": 0.39971250992537166,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.25329190880910707
       },
       "top_similar": [
         {
@@ -65691,7 +65764,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2769150005107723,
         "posts/2026-01-01-ac2025.md": 0.30052971680833174,
         "posts/2026-01-17-orb.md": 0.21579212658042432,
-        "posts/2026-02-23-adulting.md": 0.3065347891951337
+        "posts/2026-02-23-adulting.md": 0.3065347891951337,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.27191205234674587
       },
       "top_similar": [
         {
@@ -66579,7 +66653,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.5269865554100837,
         "posts/2026-01-01-ac2025.md": 0.7190797364536192,
         "posts/2026-01-17-orb.md": 0.3443541699274692,
-        "posts/2026-02-23-adulting.md": 0.5233296628129254
+        "posts/2026-02-23-adulting.md": 0.5233296628129254,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.37504088627189675
       },
       "top_similar": [
         {
@@ -67467,7 +67542,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3969317321123157,
         "posts/2026-01-01-ac2025.md": 0.5072690166896567,
         "posts/2026-01-17-orb.md": 0.30683193022284183,
-        "posts/2026-02-23-adulting.md": 0.5403929364350001
+        "posts/2026-02-23-adulting.md": 0.5403929364350001,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.26937554998342284
       },
       "top_similar": [
         {
@@ -68355,7 +68431,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.38336048202166223,
         "posts/2026-01-01-ac2025.md": 0.5175923398706519,
         "posts/2026-01-17-orb.md": 0.2823740901627743,
-        "posts/2026-02-23-adulting.md": 0.46278466106371624
+        "posts/2026-02-23-adulting.md": 0.46278466106371624,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3015695148833755
       },
       "top_similar": [
         {
@@ -69243,7 +69320,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.22743872234572096,
         "posts/2026-01-01-ac2025.md": 0.46330085893194606,
         "posts/2026-01-17-orb.md": 0.33975413745843225,
-        "posts/2026-02-23-adulting.md": 0.44243844820512485
+        "posts/2026-02-23-adulting.md": 0.44243844820512485,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.22872339943770126
       },
       "top_similar": [
         {
@@ -70131,7 +70209,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2885475368191601,
         "posts/2026-01-01-ac2025.md": 0.35486545903872013,
         "posts/2026-01-17-orb.md": 0.20999026403946913,
-        "posts/2026-02-23-adulting.md": 0.3373389050649507
+        "posts/2026-02-23-adulting.md": 0.3373389050649507,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.24029218802338434
       },
       "top_similar": [
         {
@@ -71019,7 +71098,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.29780570281446406,
         "posts/2026-01-01-ac2025.md": 0.4494705320643181,
         "posts/2026-01-17-orb.md": 0.2994886314525502,
-        "posts/2026-02-23-adulting.md": 0.41693300597865623
+        "posts/2026-02-23-adulting.md": 0.41693300597865623,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.21208672570319667
       },
       "top_similar": [
         {
@@ -71907,7 +71987,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.40232712509318913,
         "posts/2026-01-01-ac2025.md": 0.32165044470802023,
         "posts/2026-01-17-orb.md": 0.21850715005540472,
-        "posts/2026-02-23-adulting.md": 0.1871641710159101
+        "posts/2026-02-23-adulting.md": 0.1871641710159101,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.34968601879123395
       },
       "top_similar": [
         {
@@ -72795,7 +72876,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.699598035978142,
         "posts/2026-01-01-ac2025.md": 0.324788650180335,
         "posts/2026-01-17-orb.md": 0.22673740839451242,
-        "posts/2026-02-23-adulting.md": 0.25724632982911366
+        "posts/2026-02-23-adulting.md": 0.25724632982911366,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.29117955605827245
       },
       "top_similar": [
         {
@@ -73683,7 +73765,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3862480251022511,
         "posts/2026-01-01-ac2025.md": 0.40052631412616185,
         "posts/2026-01-17-orb.md": 0.2317627784289639,
-        "posts/2026-02-23-adulting.md": 0.38161854679848534
+        "posts/2026-02-23-adulting.md": 0.38161854679848534,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.32627714459937796
       },
       "top_similar": [
         {
@@ -74571,7 +74654,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.35395939121338793,
         "posts/2026-01-01-ac2025.md": 0.38809400895494006,
         "posts/2026-01-17-orb.md": 0.20022145781549036,
-        "posts/2026-02-23-adulting.md": 0.27728729861546886
+        "posts/2026-02-23-adulting.md": 0.27728729861546886,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.32713527018639404
       },
       "top_similar": [
         {
@@ -75459,7 +75543,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.27139537858546503,
         "posts/2026-01-01-ac2025.md": 0.40128525076981886,
         "posts/2026-01-17-orb.md": 0.2996436670424722,
-        "posts/2026-02-23-adulting.md": 0.46814498013356715
+        "posts/2026-02-23-adulting.md": 0.46814498013356715,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.27743466906214337
       },
       "top_similar": [
         {
@@ -76347,7 +76432,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.30546752751217315,
         "posts/2026-01-01-ac2025.md": 0.3457920672314275,
         "posts/2026-01-17-orb.md": 0.1882419757863617,
-        "posts/2026-02-23-adulting.md": 0.27967361002096375
+        "posts/2026-02-23-adulting.md": 0.27967361002096375,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2888153867151976
       },
       "top_similar": [
         {
@@ -77235,7 +77321,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2761903286683156,
         "posts/2026-01-01-ac2025.md": 0.42471076888669446,
         "posts/2026-01-17-orb.md": 0.2534212976484163,
-        "posts/2026-02-23-adulting.md": 0.39063965844299686
+        "posts/2026-02-23-adulting.md": 0.39063965844299686,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.25520993678529014
       },
       "top_similar": [
         {
@@ -78123,7 +78210,8 @@
         "posts/2025-10-31-halloween-and-lost-candies.md": 0.2761903286683156,
         "posts/2026-01-01-ac2025.md": 0.46003993590056863,
         "posts/2026-01-17-orb.md": 0.23586705504911384,
-        "posts/2026-02-23-adulting.md": 0.28897836375048913
+        "posts/2026-02-23-adulting.md": 0.28897836375048913,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.30040635305734015
       },
       "top_similar": [
         {
@@ -79011,7 +79099,8 @@
         "posts/2025-10-31-halloween-and-lost-candies.md": 0.42471076888669446,
         "posts/2025-11-16-kobo-koreader-reset.md": 0.46003993590056863,
         "posts/2026-01-17-orb.md": 0.35734949687600354,
-        "posts/2026-02-23-adulting.md": 0.5495297835949869
+        "posts/2026-02-23-adulting.md": 0.5495297835949869,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2903985687289884
       },
       "top_similar": [
         {
@@ -79899,7 +79988,8 @@
         "posts/2025-10-31-halloween-and-lost-candies.md": 0.2534212976484163,
         "posts/2025-11-16-kobo-koreader-reset.md": 0.23586705504911384,
         "posts/2026-01-01-ac2025.md": 0.35734949687600354,
-        "posts/2026-02-23-adulting.md": 0.31247825568317183
+        "posts/2026-02-23-adulting.md": 0.31247825568317183,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.20231439919865774
       },
       "top_similar": [
         {
@@ -80697,7 +80787,6 @@
         -0.053578086,
         0.014347169
       ],
-      "updated_at": "2026-02-23T05:39:20.731021+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.31076708682711046,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25157951259909445,
@@ -80788,7 +80877,8 @@
         "posts/2025-10-31-halloween-and-lost-candies.md": 0.39063965844299686,
         "posts/2025-11-16-kobo-koreader-reset.md": 0.28897836375048913,
         "posts/2026-01-01-ac2025.md": 0.5495297835949869,
-        "posts/2026-01-17-orb.md": 0.31247825568317183
+        "posts/2026-01-17-orb.md": 0.31247825568317183,
+        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.22081286924304422
       },
       "top_similar": [
         {
@@ -80808,6 +80898,896 @@
           "content_path": "posts/2023-12-31-ac2023",
           "title": "2023 年的年度总结应该起什么名字",
           "score": 0.556599
+        }
+      ]
+    },
+    "posts/2026-02-24-hugo-rss-pretty-feed.md": {
+      "title": "如何美化 Hugo 的 RSS",
+      "slug": "hugo-rss-pretty-feed",
+      "content_path": "posts/2026-02-24-hugo-rss-pretty-feed",
+      "content_hash": "5c8c8540ae0d4b2257db707eaf3682021a673269a824a02b6f8508982341ed82",
+      "embedding": [
+        -0.083208375,
+        -0.02299007,
+        -0.05142817,
+        -0.021528604,
+        0.038681068,
+        -0.010839193,
+        -0.010660666,
+        0.039943844,
+        0.0033700229,
+        -0.028043503,
+        0.041250896,
+        -0.0058437637,
+        0.03832857,
+        -0.043421187,
+        -0.03450417,
+        -0.052847724,
+        0.034564406,
+        0.01909912,
+        -0.0031665922,
+        -0.057549343,
+        0.019492438,
+        0.009149552,
+        0.0022298044,
+        0.028129147,
+        0.027832406,
+        0.0061200038,
+        0.053550895,
+        0.03148996,
+        0.032359764,
+        0.017219536,
+        0.045342486,
+        -0.0005140636,
+        -0.002104548,
+        -0.00656392,
+        0.042495262,
+        0.0104396725,
+        -0.03784793,
+        -0.026752487,
+        -0.007561567,
+        -0.039906524,
+        -0.025715902,
+        -0.013436006,
+        -0.005577037,
+        0.07959733,
+        0.011290741,
+        -0.078263566,
+        0.014729984,
+        -0.029044926,
+        -0.014513903,
+        -0.0034426865,
+        0.010093014,
+        0.024537776,
+        -0.041348908,
+        0.01443526,
+        -0.040972553,
+        -0.03012781,
+        0.0121227065,
+        0.05219403,
+        0.07715923,
+        -0.0026615825,
+        -0.074407436,
+        -0.006953485,
+        -0.025364831,
+        -0.04873483,
+        0.0021542595,
+        0.015003349,
+        0.02139438,
+        -0.026056824,
+        0.01598625,
+        0.10743661,
+        -0.04869441,
+        0.010424794,
+        0.00047556055,
+        -0.04875471,
+        0.084649436,
+        0.020717185,
+        -0.0058893897,
+        -0.06197273,
+        0.0038812037,
+        0.023484396,
+        -0.0085441535,
+        0.07015986,
+        -0.017045643,
+        -0.022871565,
+        0.0312746,
+        0.04107487,
+        -0.047251392,
+        0.060227137,
+        0.025089962,
+        -0.0073643657,
+        -0.058145728,
+        -0.022105556,
+        0.08865647,
+        -0.03856408,
+        0.011125299,
+        -0.032039993,
+        0.008103361,
+        0.016396133,
+        -0.041225523,
+        -0.050353847,
+        0.00357081,
+        -0.015711833,
+        -0.0016175022,
+        -0.017053174,
+        -0.0035957943,
+        -0.02012993,
+        -0.023588123,
+        0.07415686,
+        -0.022462975,
+        0.014618103,
+        -0.0088297315,
+        0.04330194,
+        -0.012359739,
+        -0.0071559153,
+        0.015078718,
+        -0.037660573,
+        -0.03482072,
+        0.03585583,
+        0.06399703,
+        0.0039482913,
+        0.0028548338,
+        -0.02937964,
+        -0.06717713,
+        0.007899322,
+        0.045091495,
+        0.022346443,
+        0.05100909,
+        -0.104584895,
+        -0.06292693,
+        -0.0011809367,
+        0.029104605,
+        0.02024061,
+        -0.0031958655,
+        0.020870939,
+        -0.061994623,
+        -0.0042294096,
+        -0.009418705,
+        0.013746962,
+        -0.015065683,
+        0.057832748,
+        -0.012352213,
+        -0.08212361,
+        0.010513305,
+        0.049687844,
+        -0.041162264,
+        -0.0014587409,
+        -0.11920606,
+        -0.020424077,
+        -0.098390974,
+        0.005737513,
+        0.011619946,
+        0.011725922,
+        0.00077681924,
+        -0.026615206,
+        -0.039253056,
+        -0.009780694,
+        -0.024736745,
+        -0.017527105,
+        0.04679925,
+        0.05628959,
+        -0.009245598,
+        0.041014306,
+        0.0621907,
+        0.055618715,
+        0.0075359126,
+        0.035970412,
+        0.099090196,
+        -0.01399108,
+        0.014673838,
+        -0.015787626,
+        -0.049103666,
+        -0.008656908,
+        -0.022125745,
+        -0.024098769,
+        -0.008460037,
+        0.089507036,
+        -0.03587906,
+        -0.016047947,
+        0.039802324,
+        0.020884044,
+        0.03937082,
+        0.012044821,
+        -0.030287823,
+        0.055670116,
+        0.009944453,
+        -0.023388084,
+        0.009646337,
+        0.006624108,
+        0.08785521,
+        0.01662619,
+        0.0045979987,
+        -0.035817273,
+        0.043430526,
+        0.03341597,
+        -0.011796681,
+        -0.00041884516,
+        0.059303522,
+        -0.01631361,
+        -0.039466936,
+        0.0047515086,
+        0.016803334,
+        0.026180603,
+        0.027296256,
+        0.04299927,
+        -0.03124136,
+        -0.0038552,
+        0.021254601,
+        -0.03825279,
+        -0.08260423,
+        -0.008738569,
+        0.010274705,
+        0.039378595,
+        -0.011312639,
+        0.05213346,
+        0.030497866,
+        0.053033397,
+        -0.018874994,
+        0.009846897,
+        -0.0035167912,
+        -0.071594745,
+        -0.019061891,
+        0.05835896,
+        -0.06662024,
+        0.003764508,
+        0.028967861,
+        0.058621895,
+        -0.022508811,
+        -0.018883012,
+        0.00980001,
+        0.0048055896,
+        0.035351645,
+        -0.027158808,
+        0.013040311,
+        0.025737412,
+        -0.022502124,
+        0.061643776,
+        0.010719573,
+        -0.023132065,
+        -0.04893447,
+        0.0032168783,
+        -0.024929162,
+        -0.021077937,
+        -0.011715716,
+        0.00016254351,
+        -0.017198844,
+        -0.027634028,
+        0.001830147,
+        0.017912284,
+        -0.06476769,
+        -0.03294715,
+        -0.051481552,
+        0.08168163,
+        0.018890161,
+        -0.031575415,
+        0.004797298,
+        -0.037160076,
+        -0.018042525,
+        0.01587268,
+        0.048984006,
+        0.019433757,
+        0.038678218,
+        0.05442821,
+        -0.014007639,
+        0.07532692,
+        -0.02989417,
+        -0.0017496699,
+        0.019887267,
+        0.051147707,
+        -0.07345672,
+        -0.027320893,
+        0.007893037,
+        -0.021928797,
+        0.028492173,
+        0.033586398,
+        -0.024669118,
+        -0.020915678,
+        -0.026551314,
+        -0.009582793,
+        0.005225631,
+        -0.02682918,
+        0.0028376454,
+        -0.00727446,
+        0.0347244,
+        0.019324116,
+        0.0055250297,
+        0.02418845,
+        -0.038546123,
+        -0.10068673,
+        -0.0051418375,
+        -0.051581413,
+        -0.006214253,
+        -0.04972289,
+        0.0016270359,
+        -0.032419655,
+        -0.023345163,
+        -0.02827527,
+        -0.06684884,
+        0.00054908777,
+        0.041740082,
+        -0.044825792,
+        0.08412833,
+        0.02835669,
+        -0.026493005,
+        -0.0685329,
+        0.045752868,
+        0.011583855,
+        -0.087648615,
+        -0.039156016,
+        0.005280009,
+        0.02233982,
+        -0.0005596097,
+        -0.025612962,
+        0.040536527,
+        0.0071266857,
+        0.037596155,
+        0.015455415,
+        -0.021159561,
+        -0.027171392,
+        0.01365336,
+        -0.005817646,
+        0.028968625,
+        0.059360206,
+        -0.00805369,
+        0.05434011,
+        0.009543099,
+        0.069447786,
+        0.017868742,
+        0.0029076699,
+        -0.061943155,
+        -0.030667128,
+        -0.00051633123,
+        0.06501209,
+        0.037256308,
+        -0.037241742,
+        -0.03900835,
+        0.03171353,
+        -0.0020671114,
+        0.0051071574,
+        -0.024816792,
+        0.05681679,
+        0.059072156,
+        -0.023071136,
+        0.032204054,
+        -0.009125482,
+        -0.021294165,
+        0.068753436,
+        -0.04814851,
+        -0.016690211,
+        0.047020324,
+        0.0131139085,
+        0.008920372,
+        -0.022796871,
+        -0.0038098886,
+        -0.014675542,
+        -0.051617593,
+        0.0056531103,
+        -0.008581757,
+        0.0076435166,
+        0.015794434,
+        0.0052765054,
+        0.027472103,
+        -0.080443606,
+        -0.02456581,
+        0.029620495,
+        0.02727112,
+        0.012915315,
+        0.008523215,
+        -0.021364275,
+        0.016154354,
+        0.008249176,
+        -0.013638817,
+        0.047977984,
+        -0.00012170328,
+        -0.016648106,
+        -0.013548268,
+        0.034380585,
+        0.036675513,
+        0.0106304195,
+        0.07393009,
+        0.026494345,
+        -0.032380853,
+        0.025668653,
+        -0.019550925,
+        -0.0021139896,
+        -0.05336911,
+        0.017713148,
+        0.015189282,
+        0.010123929,
+        0.021250224,
+        0.030676017,
+        0.02605384,
+        -0.04300023,
+        0.0074478467,
+        -0.02951183,
+        0.025395721,
+        -0.039766405,
+        0.00095494144,
+        -0.036720514,
+        0.017334405,
+        0.023874126,
+        -0.054241307,
+        0.0032700321,
+        -0.06513614,
+        -0.015903378,
+        0.0359132,
+        0.040937386,
+        0.030600803,
+        0.024392338,
+        -0.046874575,
+        -0.0068658665,
+        -0.034562845,
+        -0.10344962,
+        -0.002432931,
+        0.016837262,
+        -0.0025854574,
+        -0.031243421,
+        0.023030147,
+        0.034730945,
+        -0.0101591,
+        0.028533429,
+        -0.03772907,
+        -0.032672033,
+        0.023448123,
+        0.03651552,
+        0.01686418,
+        -0.01801803,
+        0.0090337675,
+        0.023913683,
+        0.024373183,
+        -0.009029084,
+        0.06163709,
+        -0.0058429497,
+        -0.015703294,
+        0.040833782,
+        0.06796234,
+        -0.031178748,
+        -0.003108626,
+        0.03359742,
+        0.007786423,
+        0.053722262,
+        -0.014617854,
+        0.029340096,
+        0.016610654,
+        0.049161345,
+        0.008801117,
+        -0.020555733,
+        -0.047050495,
+        -0.037163757,
+        -0.004945097,
+        0.08653178,
+        -0.036978513,
+        -0.0104090655,
+        -0.029099943,
+        -0.022336641,
+        -0.060731824,
+        0.07915924,
+        0.039931167,
+        -0.030776614,
+        -0.018386321,
+        0.011321515,
+        -0.018104058,
+        0.0011648345,
+        0.028832529,
+        -0.012238899,
+        0.018388025,
+        -0.023910202,
+        -0.021909252,
+        0.012307813,
+        0.014456236,
+        -0.021002075,
+        0.019435085,
+        0.009818288,
+        -0.019331641,
+        0.023242502,
+        -0.021763353,
+        -0.012210391,
+        0.0033293217,
+        0.05387999,
+        0.015564421,
+        -0.034964047,
+        -0.005947612,
+        0.05477271,
+        0.044525523,
+        -0.024329357,
+        0.07431904,
+        0.006781173,
+        -0.027602002,
+        0.009155393,
+        -0.03933888,
+        0.0048372485,
+        0.05176917,
+        0.05292097,
+        0.03845583,
+        0.037614577,
+        0.04243836,
+        0.019210799,
+        -0.03700732,
+        -0.038338188,
+        0.03369748,
+        -0.035608158,
+        -0.03349236,
+        0.0399346,
+        -0.011720475,
+        0.016008018,
+        -0.030756934,
+        0.025849275,
+        0.013058574,
+        -0.06657457,
+        0.03251426,
+        0.034936562,
+        -0.021789443,
+        -0.041391086,
+        0.0038174393,
+        0.043795478,
+        -0.051238123,
+        -0.015411334,
+        -0.102340445,
+        -0.009974694,
+        -0.008132141,
+        0.035679944,
+        -0.07159858,
+        0.07813432,
+        -0.023092013,
+        -0.03988778,
+        0.036068525,
+        -0.024038747,
+        -0.015852815,
+        0.013982606,
+        0.028930532,
+        0.090943344,
+        -0.015073698,
+        -0.0014094192,
+        0.030998625,
+        -0.03926513,
+        0.013518568,
+        -0.025077192,
+        0.0156109305,
+        -0.03652515,
+        0.037005883,
+        -0.058225464,
+        0.01624737,
+        0.022507563,
+        0.019593375,
+        0.012898673,
+        0.056594115,
+        -0.058071487,
+        0.0042496035,
+        -0.047270983,
+        0.07506653,
+        0.026933506,
+        0.040086467,
+        -0.004618175,
+        -0.009183235,
+        0.0049000364,
+        0.025315823,
+        -0.020213077,
+        -0.034885053,
+        0.019287325,
+        0.026055602,
+        -0.038616195,
+        -0.033172324,
+        -0.035077933,
+        -0.039882604,
+        0.047243696,
+        -0.06937557,
+        -0.038126063,
+        -0.0050819023,
+        0.01655723,
+        -0.003160399,
+        -0.0033595222,
+        0.003714129,
+        -0.011147898,
+        0.0035851304,
+        -0.031620838,
+        0.037308328,
+        -0.052701622,
+        -0.031879593,
+        -0.040618423,
+        0.00905226,
+        0.04615953,
+        0.04815052,
+        -0.014308687,
+        0.055599395,
+        0.0034163895,
+        0.024924738,
+        0.0056772414,
+        -0.05692554,
+        -0.00066033466,
+        0.00671599,
+        0.07613796,
+        -0.016127529,
+        -0.03258965,
+        0.03294131,
+        -0.03376134,
+        0.01802014,
+        0.0098348595,
+        0.03054421,
+        0.0540268,
+        0.002988865,
+        -0.02910971,
+        0.004788209,
+        -0.014302677,
+        -0.0064272024,
+        -0.060684443,
+        0.043058407,
+        -0.009025302,
+        0.0002729369,
+        0.011606348,
+        -0.0048280326,
+        0.08797865,
+        -0.035331823,
+        -0.05188692,
+        -0.050242446,
+        0.0040874677,
+        -0.028538788,
+        -0.032169264,
+        0.014012146,
+        -0.047636006,
+        0.0031256957,
+        -0.007624092,
+        0.017302537,
+        0.011533446,
+        0.0376042,
+        0.024177246,
+        0.019232163,
+        0.019728089,
+        0.031970773,
+        -0.036084868,
+        0.013203642,
+        0.016622623,
+        0.010106791,
+        0.025739584,
+        0.028877243,
+        0.006810353,
+        0.010838408,
+        0.011459277,
+        0.021108402,
+        0.039229523,
+        -0.0063122422,
+        -0.029507834,
+        0.0019723312,
+        0.00064989546,
+        0.016021674,
+        0.11163932,
+        0.038091876,
+        -0.038350087,
+        0.013600049,
+        0.0029282474,
+        -0.027321994,
+        0.02429556,
+        -0.06664457,
+        0.019016564,
+        -0.035668217,
+        -0.012331991,
+        0.0280298,
+        -0.018470544,
+        -0.010931818,
+        0.012754304,
+        -0.04218186,
+        0.029509371,
+        0.008630456,
+        0.01733288,
+        0.038521636,
+        -0.049203455,
+        -0.037104826,
+        0.0250976,
+        0.019477403,
+        -0.041437067,
+        0.041709535,
+        0.041200478,
+        0.008018097,
+        -0.031712435,
+        0.021800233,
+        -0.058967974,
+        0.01230579,
+        0.002758774,
+        -0.05058539,
+        0.06641389,
+        0.0045109596,
+        -0.012689227,
+        -0.004582849,
+        -0.02369677,
+        -0.02568901,
+        0.0052797524,
+        0.051630747,
+        -0.00016107148,
+        0.017558057,
+        -0.01667711,
+        -0.0063454793,
+        0.0010274015,
+        0.0015623582,
+        0.03961212,
+        -0.008583492,
+        -0.025257742,
+        0.020045636,
+        0.005260972,
+        -0.05927579,
+        -0.045796126,
+        0.05819903,
+        0.04054697,
+        -0.00067742256,
+        -0.048511147,
+        0.059959535,
+        0.0025412084,
+        0.047172613,
+        0.004203012,
+        2.593832e-05,
+        0.041380074,
+        0.06094347,
+        0.03796273,
+        -0.042529352,
+        -0.06300823,
+        -0.072125845,
+        0.046842065,
+        0.010088838,
+        -0.017035391,
+        -0.03988936,
+        -0.02743381,
+        -0.027623907,
+        -0.0053458023,
+        -0.024758207,
+        -0.053014997,
+        0.029159168,
+        -0.040930822,
+        0.005517006,
+        0.03884444,
+        0.011970553,
+        -0.085236125,
+        -0.009824006,
+        0.059299957,
+        0.07762504,
+        -0.015684895,
+        -0.029251758,
+        -0.007710729,
+        -0.048139796,
+        0.005721082,
+        0.0034683978,
+        0.034479447,
+        0.06631414,
+        0.03451626,
+        0.035862602,
+        -0.031602778,
+        0.008054821,
+        -0.033483267,
+        -0.00965463,
+        0.033216868,
+        -0.0031872906,
+        0.048590105,
+        -0.006978864,
+        0.009234878,
+        -0.023172041,
+        -0.016637444,
+        0.06807054,
+        0.011984061,
+        -0.003388095,
+        0.005610954,
+        -0.035452437,
+        -0.039916087,
+        0.01583564,
+        0.024226801,
+        -0.013344042,
+        -0.010426283,
+        0.028544705,
+        -0.043448105,
+        -0.012915152,
+        0.00042024767,
+        -0.033818465,
+        -0.022358561
+      ],
+      "updated_at": "2026-02-23T16:29:14.710700+00:00",
+      "similarities": {
+        "posts/2022-09-05-sentiment-analysis.md": 0.2931366066584364,
+        "posts/2022-09-14-shapley-and-explainability.md": 0.2558193452558707,
+        "posts/2023-01-04-ac2022.md": 0.29487711715580944,
+        "posts/2023-01-06-rime.md": 0.3816695771998065,
+        "posts/2023-01-08-reset-conda-env.md": 0.2675432714806366,
+        "posts/2023-01-09-group-by-and-rename.md": 0.3031377699862221,
+        "posts/2023-01-14-snippets.md": 0.3695736415447527,
+        "posts/2023-01-24-git-review.md": 0.31964463931386905,
+        "posts/2023-01-25-textattack.md": 0.26529397752692413,
+        "posts/2023-01-27-finding-the-python-interpreter.md": 0.23425245785849966,
+        "posts/2023-02-23-kbd-and-highlight-in-hugo.md": 0.39754113679210534,
+        "posts/2023-03-26-vertical-layout.md": 0.418810570929583,
+        "posts/2023-04-02-commit-messages.md": 0.29624177289217307,
+        "posts/2023-05-18-climate-plus.md": 0.20004559997836005,
+        "posts/2023-05-20-chitchat.md": 0.2918963508735416,
+        "posts/2023-06-29-kindle-oasis.md": 0.23928857641248288,
+        "posts/2023-09-26-starship.md": 0.41661630536859445,
+        "posts/2023-10-01-learn-how-to-type.md": 0.38684380554906345,
+        "posts/2023-10-29-switch-apple-store.md": 0.24626089617979013,
+        "posts/2023-11-20-app-defaults-2023.md": 0.366088376024118,
+        "posts/2023-12-31-ac2023.md": 0.3093516995104896,
+        "posts/2024-01-30-omz-to-fish.md": 0.38360303944706603,
+        "posts/2024-02-29-distillm-01.md": 0.23896572844196876,
+        "posts/2024-03-31-distillm-02.md": 0.2445332339282658,
+        "posts/2024-03-31-setapp-succession.md": 0.3513013385835488,
+        "posts/2024-05-01-distillm-03.md": 0.3082505406270275,
+        "posts/2024-05-09-shuangpin.md": 0.2538609187360648,
+        "posts/2024-08-26-ipod-import.md": 0.39580636901698923,
+        "posts/2024-12-01-wukong.md": 0.2258330048902864,
+        "posts/2024-12-03-app-defaults-2024.md": 0.4063230974775366,
+        "posts/2024-12-31-chimichurri.md": 0.22413918794080348,
+        "posts/2024-12-31-ipod-mod.md": 0.3125774328064056,
+        "posts/2025-01-01-ac2024.md": 0.305292031215194,
+        "posts/2025-02-17-dont-make-decisions-for-me.md": 0.26308527492581973,
+        "posts/2025-03-04-make-internet-experience-great-again.md": 0.36280277048709486,
+        "posts/2025-03-31-202503.md": 0.28094848351079216,
+        "posts/2025-04-07-neodb-shortcode.md": 0.4635013158179917,
+        "posts/2025-04-09-neodb-shortcode-fixed.md": 0.44661356520400564,
+        "posts/2025-05-14-day-one-migration.md": 0.30514477902387727,
+        "posts/2025-06-16-daikon.md": 0.217127804307044,
+        "posts/2025-06-17-ears.md": 0.19599636872979728,
+        "posts/2025-06-18-goodbye-kindle.md": 0.23371997857084506,
+        "posts/2025-06-19-hobonichi.md": 0.3051363609314628,
+        "posts/2025-06-20-games-i-played-in-june.md": 0.20801448059713165,
+        "posts/2025-06-21-wallpaper-installation.md": 0.27023246061096606,
+        "posts/2025-06-22-brisket.md": 0.24795424013009545,
+        "posts/2025-06-23-nba-finals.md": 0.18233474620794318,
+        "posts/2025-06-24-time-capsule.md": 0.18989282671050536,
+        "posts/2025-06-26-f1-the-movie.md": 0.19884423885865743,
+        "posts/2025-06-27-eat-well.md": 0.19575079393719091,
+        "posts/2025-06-30-drafts-action-to-hugo.md": 0.4361823840754602,
+        "posts/2025-07-02-turbulence.md": 0.13643430402932696,
+        "posts/2025-07-04-uncharted.md": 0.24821950309437213,
+        "posts/2025-07-05-family-days.md": 0.18454423144226798,
+        "posts/2025-07-06-speed-note-taking.md": 0.23911968166250702,
+        "posts/2025-07-07-two-watches.md": 0.24888243434196922,
+        "posts/2025-07-09-iceland.md": 0.22777169651888138,
+        "posts/2025-07-11-daikon-2.md": 0.19947992166222303,
+        "posts/2025-07-13-seven-point.md": 0.3044761121737392,
+        "posts/2025-07-23-x-rant.md": 0.46356438479980994,
+        "posts/2025-07-26-weekend-problem-solving-session.md": 0.3104130170058876,
+        "posts/2025-07-27-bball-analytics.md": 0.29684124759447045,
+        "posts/2025-07-29-books-preordered.md": 0.262158038980923,
+        "posts/2025-08-07-things-im-not-doing-anymore.md": 0.30873481867386054,
+        "posts/2025-08-13-other-things.md": 0.19728764791283424,
+        "posts/2025-08-15-other-things-ii.md": 0.1817525439452042,
+        "posts/2025-08-16-best-time-to-be-a-man-united-fan-possibly.md": 0.28797237008411886,
+        "posts/2025-08-17-babysitting-book-challenge.md": 0.28059457766147966,
+        "posts/2025-08-20-on-cooking.md": 0.25534639344599913,
+        "posts/2025-08-21-anti-consumerism.md": 0.16278642620381856,
+        "posts/2025-08-22-rehire.md": 0.29008470721204116,
+        "posts/2025-08-25-kojimas-memes.md": 0.25976030469275413,
+        "posts/2025-08-29-hardware-bandwidth.md": 0.25329190880910707,
+        "posts/2025-08-29-orange-espresso-tonic.md": 0.27191205234674587,
+        "posts/2025-09-01-my-productivity-workflow-2025.md": 0.37504088627189675,
+        "posts/2025-09-06-embrace-the-white-space.md": 0.26937554998342284,
+        "posts/2025-09-10-cribsheet.md": 0.3015695148833755,
+        "posts/2025-09-19-late-night-food.md": 0.22872339943770126,
+        "posts/2025-09-28-margherita-1.md": 0.24029218802338434,
+        "posts/2025-10-03-stardew-valley-concert.md": 0.21208672570319667,
+        "posts/2025-10-04-ipod-with-rockbox.md": 0.34968601879123395,
+        "posts/2025-10-15-dictionary.md": 0.29117955605827245,
+        "posts/2025-10-16-doom-emacs-macos-installation.md": 0.32627714459937796,
+        "posts/2025-10-16-tahoe-menu-bar.md": 0.32713527018639404,
+        "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.27743466906214337,
+        "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2888153867151976,
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.25520993678529014,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.30040635305734015,
+        "posts/2026-01-01-ac2025.md": 0.2903985687289884,
+        "posts/2026-01-17-orb.md": 0.20231439919865774,
+        "posts/2026-02-23-adulting.md": 0.22081286924304422
+      },
+      "top_similar": [
+        {
+          "post_key": "posts/2025-07-23-x-rant.md",
+          "content_path": "posts/2025-07-23-x-rant",
+          "title": "Xcruciating",
+          "score": 0.463564
+        },
+        {
+          "post_key": "posts/2025-04-07-neodb-shortcode.md",
+          "content_path": "posts/2025-04-07-neodb-shortcode",
+          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+          "score": 0.463501
+        },
+        {
+          "post_key": "posts/2025-04-09-neodb-shortcode-fixed.md",
+          "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
+          "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
+          "score": 0.446614
         }
       ]
     }

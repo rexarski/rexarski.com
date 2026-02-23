@@ -6,9 +6,6 @@
       <article class="post-list-featured">
         <div class="post-list-featured-meta">
           <span class="post-list-featured-date">{{ $p.Date.Format "2006 01 02" }}</span>
-          {{ with $p.Params.lang }}
-            <span class="post-list-lang" aria-hidden="true">{{ if eq . "zh" }}中{{ else }}EN{{ end }}</span>
-          {{ end }}
         </div>
         <a href="{{ $p.RelPermalink }}" class="post-list-featured-link">
           <h2 class="post-list-featured-title">{{ $p.Title }}</h2>
@@ -22,9 +19,6 @@
         <a href="{{ $p.RelPermalink }}" class="post-list-item-link">
           <span class="post-list-item-date">{{ $p.Date.Format "2006 01 02" }}</span>
           <span class="post-list-item-title">{{ $p.Title }}</span>
-          {{ with $p.Params.lang }}
-            <span class="post-list-lang post-list-lang--small" aria-hidden="true">{{ if eq . "zh" }}中{{ else }}EN{{ end }}</span>
-          {{ end }}
         </a>
       </article>
     {{ end }}

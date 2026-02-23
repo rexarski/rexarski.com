@@ -6,15 +6,9 @@ menu = "not-main"
 # <pre>changelog</pre>
 
 - 2026-02-23
-  - About 页：whoami / Elsewhere / Colophon / Blogroll 改为卡片块（about_card shortcode），边框与阴影统一
-  - Now 页：最近动态改为走马灯 marquee；增加 signature 动画（rapid logo 轮播 + 条纹闪烁）、博文周历 heatmap（按周条纹、1–4+ 帖分色、周连续 streak 显示于右上）
-  - 首页：intro 代码块改为 terminus 风格（深色窗、标题栏 rexarski@thoughts、闪烁光标）
-- 2026-02-22
-  - 设计更新：版心与字体层级（660px、Fraunces 标题、Victor Mono 代码）、单一强调色仅用于链接悬停 / 当前导航 / 顶部装饰条
-  - 首页：SVG 字标、全站显示站点描述、最近更新列表首条突出且含日期与同行语言标签、intro 改为终端风「ssh rexarski@thoughts」卡片
-  - 暗色切换：纯 CSS 日月图标、修复点击后图标即时刷新
-  - 博文正文：段落与标题间距、blockquote 强调色左边框、外链仅正文内显示 ⤴；列表页 / toolbox 不再应用外链样式，列表恢复紧凑间距
-  - 日期展示统一为「年 月 日」空格分隔
+  - 设计：版心与字体层级、单一强调色、暗色切换、日期格式统一；首页字标、站点描述、列表与 terminus 风格 intro；博文正文可读性（间距、blockquote、外链样式）
+  - About / Now 改版：About 改为卡片块并增加 Changelog·Toolbox 链接；Now 为走马灯、signature 动画、博文周历 heatmap、进度条（百万米 + 2026 博文目标 24）；heatmap 移动端适配
+  - RSS feed 浏览器内 XSL 美化（参考 Cassidy Williams、Playdate 风格）；移除已弃用的 frontmatter lang 与列表语言标签
 - 2025-12-28
   - 移除了 NeoDB 进度展示功能及相关 shortcode、数据文件和 GitHub Actions 自动更新
   - 简化了首页 postslist 样式，移除了 description 和分割线

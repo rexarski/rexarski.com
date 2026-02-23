@@ -622,6 +622,54 @@
         margin-bottom: 0;
     }
 
+    /* Now page: progress bars */
+    .now-progress-bars {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 1.25rem 0;
+        padding: 1rem 0;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+    }
+
+    .now-progress-item {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem 1rem;
+    }
+
+    .now-progress-label {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: var(--text);
+        flex: 0 0 auto;
+        min-width: 6rem;
+    }
+
+    .now-progress-track {
+        flex: 1 1 12rem;
+        min-width: 0;
+        height: 0.75rem;
+        background: var(--border);
+        border-radius: 999px;
+        overflow: hidden;
+    }
+
+    .now-progress-fill {
+        height: 100%;
+        background: var(--accent);
+        border-radius: 999px;
+        transition: width 0.25s ease;
+    }
+
+    .now-progress-meta {
+        font-size: 0.85rem;
+        color: var(--muted);
+        flex: 0 0 auto;
+    }
+
     /* Now page: 走马灯 marquee */
     .now-marquee {
         overflow: hidden;
@@ -962,10 +1010,6 @@
         max-width: 38em;
     }
 
-    .post-list-featured .post-list-lang {
-        margin-left: 0;
-    }
-
     .post-list-item {
         padding: 0.35rem 0;
         border-bottom: 1px solid var(--border);
@@ -997,20 +1041,6 @@
 
     .post-list-item-title {
         font-weight: 500;
-    }
-
-    .post-list-lang {
-        display: inline-block;
-        font-size: 0.7rem;
-        font-family: var(--font-mono);
-        color: var(--muted);
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        margin-left: 0.5rem;
-    }
-
-    .post-list-lang--small {
-        font-size: 0.65rem;
     }
 
     /* Auto dark mode - follows system preference */
@@ -1184,6 +1214,52 @@
         th,
         td {
             padding: 10px;
+        }
+    }
+
+    /* Blog heatmap: mobile (no streak overlap, fit width) */
+    @media screen and (max-width: 480px) {
+        .blog-heatmap {
+            max-width: 100%;
+            box-sizing: border-box;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .blog-heatmap-header {
+            padding-right: 0;
+        }
+
+        .blog-heatmap-streak {
+            position: static;
+            flex-basis: 100%;
+            margin-top: 0.5rem;
+            order: 10;
+        }
+
+        .blog-heatmap-legend {
+            flex-shrink: 0;
+        }
+
+        .blog-heatmap-year {
+            flex: 0 0 2rem;
+            font-size: 0.75rem;
+        }
+
+        .blog-heatmap-stripes {
+            gap: 1px;
+            min-width: 0;
+        }
+
+        .blog-heatmap-cell {
+            min-width: 2px;
+            max-width: 8px;
+            height: 12px;
+        }
+
+        .blog-heatmap-week-labels {
+            padding-left: 2.5rem;
+            font-size: 0.65rem;
         }
     }
 </style>
