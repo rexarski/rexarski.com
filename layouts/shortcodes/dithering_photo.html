@@ -2,7 +2,9 @@
 {{ $caption := .Get "caption" | default "" }}
 <div class="dithering-photo" data-src="{{ $src }}" aria-hidden="true">
   <div class="dithering-photo-inner">
-    {{ if $caption }}<p class="dithering-photo-caption">{{ $caption }}</p>{{ end }}
+    <div class="dithering-photo-face">
+      {{ if $caption }}<p class="dithering-photo-caption">{{ $caption }}</p>{{ end }}
+    </div>
   </div>
 </div>
 <script>
@@ -10,15 +12,172 @@
   var wrap = document.querySelector('.dithering-photo');
   if (!wrap) return;
   var inner = wrap.querySelector('.dithering-photo-inner');
+  var face = inner && inner.querySelector('.dithering-photo-face');
+  var targetEl = face || inner;
   var src = (wrap.getAttribute('data-src') || '').trim();
 
-  // Bayer 4x4 threshold map
-  var bayer4 = [
-    [0, 8, 2, 10],
-    [12, 4, 14, 6],
-    [3, 11, 1, 9],
-    [15, 7, 13, 5]
-  ];
+  // Void-and-cluster (blue noise) – follows SaChiaChe/Void-and-Cluster and Ulichney
+  // https://github.com/SaChiaChe/Void-and-Cluster
+  var blueNoiseMap = null;
+
+  function gaussianKernel(size, sigma) {
+    var k = [];
+    var half = (size - 1) / 2;
+    var sum = 0;
+    for (var dy = 0; dy < size; dy++) {
+      k[dy] = [];
+      for (var dx = 0; dx < size; dx++) {
+        var x = dx - half, y = dy - half;
+        var v = Math.exp(-0.5 * (x * x + y * y) / (sigma * sigma));
+        k[dy][dx] = v;
+        sum += v;
+      }
+    }
+    for (var i = 0; i < size; i++)
+      for (var j = 0; j < size; j++) k[i][j] /= sum;
+    return k;
+  }
+
+  function convolve(pattern, width, height, kernel) {
+    var kw = kernel[0].length, kh = kernel.length;
+    var half = (kw - 1) / 2;
+    var out = [];
+    for (var y = 0; y < height; y++) {
+      out[y] = [];
+      for (var x = 0; x < width; x++) {
+        var v = 0;
+        for (var dy = 0; dy < kh; dy++) {
+          for (var dx = 0; dx < kw; dx++) {
+            var ny = (y + dy - half + height) % height;
+            var nx = (x + dx - half + width) % width;
+            v += pattern[ny][nx] * kernel[dy][dx];
+          }
+        }
+        out[y][x] = v;
+      }
+    }
+    return out;
+  }
+
+  function getClusterScore(pattern, width, height, kernel) {
+    var score = convolve(pattern, width, height, kernel);
+    for (var y = 0; y < height; y++)
+      for (var x = 0; x < width; x++)
+        if (pattern[y][x] === 0) score[y][x] = 0;
+    return score;
+  }
+
+  function getVoidScore(pattern, width, height, kernel) {
+    var inv = [];
+    for (var y = 0; y < height; y++) {
+      inv[y] = [];
+      for (var x = 0; x < width; x++) inv[y][x] = 1 - pattern[y][x];
+    }
+    var score = convolve(inv, width, height, kernel);
+    for (var y = 0; y < height; y++)
+      for (var x = 0; x < width; x++)
+        if (pattern[y][x] === 1) score[y][x] = 0;
+    return score;
+  }
+
+  function findArgmax(score, width, height) {
+    var maxV = -Infinity, maxX = 0, maxY = 0;
+    for (var y = 0; y < height; y++) {
+      for (var x = 0; x < width; x++) {
+        if (score[y][x] > maxV) {
+          maxV = score[y][x];
+          maxY = y;
+          maxX = x;
+        }
+      }
+    }
+    return { x: maxX, y: maxY };
+  }
+
+  function buildVoidAndClusterMap(size) {
+    var n = size * size;
+    var kernel = gaussianKernel(9, 1.5);
+    var maxIter = 2500;
+
+    // Random initial binary pattern with mean < 0.5 (fewer 1s)
+    var pattern = [];
+    var ones = 0;
+    for (var y = 0; y < size; y++) {
+      pattern[y] = [];
+      for (var x = 0; x < size; x++) {
+        var v = Math.random() < 0.35 ? 1 : 0;
+        pattern[y][x] = v;
+        if (v) ones++;
+      }
+    }
+    if (ones > n / 2) {
+      ones = n - ones;
+      for (var y = 0; y < size; y++)
+        for (var x = 0; x < size; x++) pattern[y][x] = 1 - pattern[y][x];
+    }
+
+    // Operation 1: relaxation – swap tightest cluster with largest void
+    for (var iter = 0; iter < maxIter; iter++) {
+      var clusterScore = getClusterScore(pattern, size, size, kernel);
+      var clusterPos = findArgmax(clusterScore, size, size);
+      var voidScore = getVoidScore(pattern, size, size, kernel);
+      var voidPos = findArgmax(voidScore, size, size);
+      if (clusterPos.x === voidPos.x && clusterPos.y === voidPos.y) break;
+      pattern[clusterPos.y][clusterPos.x] = 0;
+      pattern[voidPos.y][voidPos.x] = 1;
+    }
+
+    var prototype = [];
+    for (var y = 0; y < size; y++) {
+      prototype[y] = [];
+      for (var x = 0; x < size; x++) prototype[y][x] = pattern[y][x];
+    }
+    var onesCount = 0;
+    for (var y = 0; y < size; y++)
+      for (var x = 0; x < size; x++) if (prototype[y][x]) onesCount++;
+
+    var dither = [];
+    for (var y = 0; y < size; y++) {
+      dither[y] = [];
+      for (var x = 0; x < size; x++) dither[y][x] = 0;
+    }
+
+    // Operation 2 Phase I: assign low ranks to cluster pixels (remove tightest cluster, rank = ones-1 .. 0)
+    var pat = [];
+    for (var y = 0; y < size; y++) {
+      pat[y] = [];
+      for (var x = 0; x < size; x++) pat[y][x] = prototype[y][x];
+    }
+    for (var rank = onesCount - 1; rank >= 0; rank--) {
+      var clusterScore = getClusterScore(pat, size, size, kernel);
+      var pos = findArgmax(clusterScore, size, size);
+      dither[pos.y][pos.x] = rank;
+      pat[pos.y][pos.x] = 0;
+    }
+
+    // Operation 2 Phase II: assign high ranks to void pixels (fill largest void, rank = ones .. n-1)
+    for (var y = 0; y < size; y++) {
+      for (var x = 0; x < size; x++) pat[y][x] = prototype[y][x];
+    }
+    for (var rank = onesCount; rank < n; rank++) {
+      var voidScore = getVoidScore(pat, size, size, kernel);
+      var pos = findArgmax(voidScore, size, size);
+      dither[pos.y][pos.x] = rank;
+      pat[pos.y][pos.x] = 1;
+    }
+
+    var map = [];
+    for (var y = 0; y < size; y++) {
+      map[y] = [];
+      for (var x = 0; x < size; x++) map[y][x] = dither[y][x] / n;
+    }
+    return map;
+  }
+
+  function getBlueNoiseMap() {
+    if (!blueNoiseMap) blueNoiseMap = buildVoidAndClusterMap(32);
+    return blueNoiseMap;
+  }
 
   function luminance(r, g, b) {
     return 0.299 * r + 0.587 * g + 0.114 * b;
@@ -27,12 +186,14 @@
   function ditherImageData(data, width, height, accentRgb) {
     var out = new ImageData(width, height);
     var darkR = accentRgb.r, darkG = accentRgb.g, darkB = accentRgb.b;
+    var map = getBlueNoiseMap();
+    var mapSize = map.length;
     for (var y = 0; y < height; y++) {
       for (var x = 0; x < width; x++) {
         var i = (y * width + x) * 4;
         var r = data.data[i], g = data.data[i + 1], b = data.data[i + 2];
         var L = luminance(r, g, b) / 255;
-        var thresh = bayer4[y % 4][x % 4] / 16;
+        var thresh = map[y % mapSize][x % mapSize];
         if (L > thresh) {
           out.data[i] = out.data[i + 1] = out.data[i + 2] = 255;
         } else {
@@ -56,10 +217,10 @@
     out.width = w;
     out.height = h;
     out.getContext('2d').putImageData(dithered, 0, 0);
-    var captionEl = inner.querySelector('.dithering-photo-caption');
-    inner.innerHTML = '';
-    inner.appendChild(out);
-    if (captionEl) inner.appendChild(captionEl);
+    var captionEl = targetEl.querySelector('.dithering-photo-caption');
+    targetEl.innerHTML = '';
+    targetEl.appendChild(out);
+    if (captionEl) targetEl.appendChild(captionEl);
   }
 
   function drawGradientAndDither() {
@@ -100,13 +261,14 @@
   }
 
   function addTilt() {
+    if (!inner) return;
     inner.style.transform = 'rotateX(0deg) rotateY(0deg)';
     wrap.addEventListener('mousemove', function(e) {
       var rect = wrap.getBoundingClientRect();
       var x = (e.clientX - rect.left) / rect.width - 0.5;
       var y = (e.clientY - rect.top) / rect.height - 0.5;
-      var rotateY = x * 22;
-      var rotateX = -y * 22;
+      var rotateY = x * 30;
+      var rotateX = -y * 30;
       inner.style.transform = 'rotateX(' + rotateX + 'deg) rotateY(' + rotateY + 'deg)';
     });
     wrap.addEventListener('mouseleave', function() {

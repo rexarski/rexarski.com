@@ -1,5 +1,5 @@
 {{ $allPosts := where .Site.RegularPages "Type" "in" (slice "zh" "posts") }} {{
 $nonDraftPosts := where $allPosts "Draft" false }} {{ $currentYear := now.Format
 "2006" }} {{ $postsThisYear := where $nonDraftPosts ".Date.Year" (int
-$currentYear) }} {{ if ne .Site.Params.hideMadeWithLine true }} © Qiū Ruì
-2022-{{ now.Format "2006"}} · <a href="{{ "/toolbox/" | relURL }}">toolbox</a> · <a href="{{ "/changelog/" | relURL }}">changelog</a> · <a href="{{ "/index.xml" | relURL }}" class="rss-link">RSS</a>{{ end }}
+$currentYear) }} {{ if ne .Site.Params.hideMadeWithLine true }}
+<p class="footer-line"><span class="footer-copy">© Qiū Ruì 2022-{{ now.Format "2006"}}</span><span class="footer-links"><a href="{{ "/toolbox/" | relURL }}">toolbox</a> · <a href="{{ "/changelog/" | relURL }}">changelog</a> · <a href="{{ "/index.xml" | relURL }}" class="rss-link">RSS</a></span></p>{{ end }}

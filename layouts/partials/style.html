@@ -578,6 +578,19 @@
         text-align: left;
     }
 
+    .footer-line {
+        margin: 0;
+    }
+
+    .footer-copy {
+        display: block;
+    }
+
+    .footer-links {
+        display: block;
+        margin-top: 0.35rem;
+    }
+
     .helptext {
         color: var(--helptext);
         font-size: small;
@@ -1311,6 +1324,10 @@
 
     /* Blog heatmap: mobile (no streak overlap, fit width) */
     @media screen and (max-width: 480px) {
+        .footer-line {
+            font-size: 0.9rem;
+        }
+
         .blog-heatmap {
             max-width: 100%;
             box-sizing: border-box;
@@ -1352,6 +1369,26 @@
         .blog-heatmap-week-labels {
             padding-left: 2.5rem;
             font-size: 0.65rem;
+        }
+
+        /* Now progress bars: stack so track uses full width */
+        .now-progress-item {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto;
+            gap: 0.25rem 0;
+        }
+
+        .now-progress-label {
+            min-width: 0;
+        }
+
+        .now-progress-track {
+            width: 100%;
+        }
+
+        .now-progress-meta {
+            min-width: 0;
+            text-align: left;
         }
     }
 </style>
