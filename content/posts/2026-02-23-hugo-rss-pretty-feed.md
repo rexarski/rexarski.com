@@ -1,6 +1,6 @@
 ---
 title: "如何美化 Hugo 的 RSS"
-date: "2026-02-24"
+date: "2026-02-23T10:00:00-05:00"
 slug: "hugo-rss-pretty-feed"
 description: "用 XSL 把 feed 在浏览器里变成可读页，范例和参考交给 agent 搞定。"
 tags: ["没事折腾"]

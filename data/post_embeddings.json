@@ -1,6 +1,6 @@
 {
   "model": "embeddinggemma",
-  "generated_at": "2026-02-23T16:29:15.113157+00:00",
+  "generated_at": "2026-02-24T03:22:16.238322+00:00",
   "posts": {
     "posts/2022-09-05-sentiment-analysis.md": {
       "title": "Sentiment analysis 只是有点用处",
@@ -777,7 +777,6 @@
         0.01815836,
         0.02713819
       ],
-      "updated_at": "2026-02-23T21:13:27.245708+00:00",
       "similarities": {
         "posts/2022-09-14-shapley-and-explainability.md": 0.5593641052065631,
         "posts/2023-01-04-ac2022.md": 0.40878255024642995,
@@ -868,8 +867,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.31654773357607624,
         "posts/2026-01-01-ac2025.md": 0.3643865677129122,
         "posts/2026-01-17-orb.md": 0.3361382581644895,
-        "posts/2026-02-23-adulting.md": 0.31076708682711046,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2931366066584364
+        "posts/2026-02-22-adulting.md": 0.31076708682711046,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2931366066584364,
+        "posts/2026-02-24-akotsk-s1.md": 0.28806583464247015
       },
       "top_similar": [
         {
@@ -1667,7 +1667,6 @@
         -0.038499273,
         0.019734517
       ],
-      "updated_at": "2026-02-23T21:13:27.245864+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.5593641052065631,
         "posts/2023-01-04-ac2022.md": 0.3253244365560631,
@@ -1758,8 +1757,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.24128834520576783,
         "posts/2026-01-01-ac2025.md": 0.3181691052860836,
         "posts/2026-01-17-orb.md": 0.2502854217145751,
-        "posts/2026-02-23-adulting.md": 0.25157951259909445,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2558193452558707
+        "posts/2026-02-22-adulting.md": 0.25157951259909445,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2558193452558707,
+        "posts/2026-02-24-akotsk-s1.md": 0.21415337226298067
       },
       "top_similar": [
         {
@@ -2557,7 +2557,6 @@
         -0.0053095687,
         -0.027134214
       ],
-      "updated_at": "2026-02-23T21:13:27.245866+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.40878255024642995,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3253244365560631,
@@ -2648,8 +2647,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4987607566563804,
         "posts/2026-01-01-ac2025.md": 0.8945520640323885,
         "posts/2026-01-17-orb.md": 0.3247830056690311,
-        "posts/2026-02-23-adulting.md": 0.5593080662777318,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.29487711715580944
+        "posts/2026-02-22-adulting.md": 0.5593080662777318,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.29487711715580944,
+        "posts/2026-02-24-akotsk-s1.md": 0.42626058484940105
       },
       "top_similar": [
         {
@@ -3447,7 +3447,6 @@
         0.051234588,
         0.009943337
       ],
-      "updated_at": "2026-02-23T21:13:27.245867+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.34938756025914,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2565277991117527,
@@ -3538,8 +3537,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4671791513145423,
         "posts/2026-01-01-ac2025.md": 0.45067820472850834,
         "posts/2026-01-17-orb.md": 0.224759356757207,
-        "posts/2026-02-23-adulting.md": 0.33617109466465206,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3816695771998065
+        "posts/2026-02-22-adulting.md": 0.33617109466465206,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3816695771998065,
+        "posts/2026-02-24-akotsk-s1.md": 0.29649482384403114
       },
       "top_similar": [
         {
@@ -4337,7 +4337,6 @@
         0.043700907,
         0.008162518
       ],
-      "updated_at": "2026-02-23T21:13:27.245868+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.33917222225791704,
         "posts/2022-09-14-shapley-and-explainability.md": 0.28284202873876196,
@@ -4428,8 +4427,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.37295583162579465,
         "posts/2026-01-01-ac2025.md": 0.3569040670279173,
         "posts/2026-01-17-orb.md": 0.14336083383788786,
-        "posts/2026-02-23-adulting.md": 0.28554097245783316,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2675432714806366
+        "posts/2026-02-22-adulting.md": 0.28554097245783316,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2675432714806366,
+        "posts/2026-02-24-akotsk-s1.md": 0.2544728340561212
       },
       "top_similar": [
         {
@@ -5227,7 +5227,6 @@
         -0.0037912582,
         0.005963458
       ],
-      "updated_at": "2026-02-23T21:13:27.245870+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.38943124327937273,
         "posts/2022-09-14-shapley-and-explainability.md": 0.31045712489473903,
@@ -5318,8 +5317,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2690618694890658,
         "posts/2026-01-01-ac2025.md": 0.275404444295244,
         "posts/2026-01-17-orb.md": 0.17218602626099888,
-        "posts/2026-02-23-adulting.md": 0.21876115240933589,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3031377699862221
+        "posts/2026-02-22-adulting.md": 0.21876115240933589,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3031377699862221,
+        "posts/2026-02-24-akotsk-s1.md": 0.20943390485435512
       },
       "top_similar": [
         {
@@ -6117,7 +6117,6 @@
         -0.03878675,
         -0.039188
       ],
-      "updated_at": "2026-02-23T21:13:27.245871+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36452750232653786,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2953804519286415,
@@ -6208,8 +6207,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.43424966969564477,
         "posts/2026-01-01-ac2025.md": 0.48927710060995955,
         "posts/2026-01-17-orb.md": 0.18876467781516518,
-        "posts/2026-02-23-adulting.md": 0.29717906322862614,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3695736415447527
+        "posts/2026-02-22-adulting.md": 0.29717906322862614,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3695736415447527,
+        "posts/2026-02-24-akotsk-s1.md": 0.2338750803301936
       },
       "top_similar": [
         {
@@ -7007,7 +7007,6 @@
         -0.048420537,
         -0.009333742
       ],
-      "updated_at": "2026-02-23T21:13:27.245872+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.32384457493914737,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3183649771089597,
@@ -7098,8 +7097,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4133026362809636,
         "posts/2026-01-01-ac2025.md": 0.5016536014746209,
         "posts/2026-01-17-orb.md": 0.23476588558252562,
-        "posts/2026-02-23-adulting.md": 0.23335013009251984,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.31964463931386905
+        "posts/2026-02-22-adulting.md": 0.23335013009251984,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.31964463931386905,
+        "posts/2026-02-24-akotsk-s1.md": 0.2337938150053148
       },
       "top_similar": [
         {
@@ -7897,7 +7897,6 @@
         -0.017898047,
         0.0017770788
       ],
-      "updated_at": "2026-02-23T21:13:27.245873+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.5855674827368584,
         "posts/2022-09-14-shapley-and-explainability.md": 0.5408470200728976,
@@ -7988,8 +7987,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.33524272980279995,
         "posts/2026-01-01-ac2025.md": 0.41649568169045487,
         "posts/2026-01-17-orb.md": 0.21607300415109884,
-        "posts/2026-02-23-adulting.md": 0.19294480103347147,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.26529397752692413
+        "posts/2026-02-22-adulting.md": 0.19294480103347147,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.26529397752692413,
+        "posts/2026-02-24-akotsk-s1.md": 0.2096769810189781
       },
       "top_similar": [
         {
@@ -8787,7 +8787,6 @@
         0.034251336,
         0.038604684
       ],
-      "updated_at": "2026-02-23T21:13:27.245874+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3474198574034678,
         "posts/2022-09-14-shapley-and-explainability.md": 0.34823071347276735,
@@ -8878,8 +8877,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3863783288094607,
         "posts/2026-01-01-ac2025.md": 0.3389381961990559,
         "posts/2026-01-17-orb.md": 0.18822447989682153,
-        "posts/2026-02-23-adulting.md": 0.21860989762972816,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.23425245785849966
+        "posts/2026-02-22-adulting.md": 0.21860989762972816,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.23425245785849966,
+        "posts/2026-02-24-akotsk-s1.md": 0.24910508898377465
       },
       "top_similar": [
         {
@@ -9677,7 +9677,6 @@
         0.031165423,
         0.046603207
       ],
-      "updated_at": "2026-02-23T21:13:27.245875+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.23956613672667165,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20673633761490015,
@@ -9768,8 +9767,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.37558833190719515,
         "posts/2026-01-01-ac2025.md": 0.2826460138674446,
         "posts/2026-01-17-orb.md": 0.13717105014157738,
-        "posts/2026-02-23-adulting.md": 0.15967138292610583,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.39754113679210534
+        "posts/2026-02-22-adulting.md": 0.15967138292610583,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.39754113679210534,
+        "posts/2026-02-24-akotsk-s1.md": 0.23474962215062833
       },
       "top_similar": [
         {
@@ -10567,7 +10567,6 @@
         -0.015865102,
         0.0043443036
       ],
-      "updated_at": "2026-02-23T21:13:27.245875+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3282408139726366,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2333813239210212,
@@ -10658,8 +10657,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.34878760016971233,
         "posts/2026-01-01-ac2025.md": 0.34233312414682737,
         "posts/2026-01-17-orb.md": 0.26353671880885815,
-        "posts/2026-02-23-adulting.md": 0.24115727050725058,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.418810570929583
+        "posts/2026-02-22-adulting.md": 0.24115727050725058,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.418810570929583,
+        "posts/2026-02-24-akotsk-s1.md": 0.27718819791448845
       },
       "top_similar": [
         {
@@ -11457,7 +11457,6 @@
         0.01786032,
         0.019188879
       ],
-      "updated_at": "2026-02-23T21:13:27.245876+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.27982822796958734,
         "posts/2022-09-14-shapley-and-explainability.md": 0.24763630713082907,
@@ -11548,8 +11547,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.305981556713321,
         "posts/2026-01-01-ac2025.md": 0.3363424093257963,
         "posts/2026-01-17-orb.md": 0.20966132236432033,
-        "posts/2026-02-23-adulting.md": 0.16653414143924408,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.29624177289217307
+        "posts/2026-02-22-adulting.md": 0.16653414143924408,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.29624177289217307,
+        "posts/2026-02-24-akotsk-s1.md": 0.1652137609846902
       },
       "top_similar": [
         {
@@ -12347,7 +12347,6 @@
         -0.020043518,
         -0.058088526
       ],
-      "updated_at": "2026-02-23T21:13:27.245877+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.45696762058707074,
         "posts/2022-09-14-shapley-and-explainability.md": 0.47963617143326814,
@@ -12438,8 +12437,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.22898207525986855,
         "posts/2026-01-01-ac2025.md": 0.31443872652321325,
         "posts/2026-01-17-orb.md": 0.16389026514273677,
-        "posts/2026-02-23-adulting.md": 0.15352834954604147,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.20004559997836005
+        "posts/2026-02-22-adulting.md": 0.15352834954604147,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.20004559997836005,
+        "posts/2026-02-24-akotsk-s1.md": 0.13975921846492267
       },
       "top_similar": [
         {
@@ -13237,7 +13237,6 @@
         -0.008045208,
         -0.026894348
       ],
-      "updated_at": "2026-02-23T21:13:27.245878+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.4109661129722115,
         "posts/2022-09-14-shapley-and-explainability.md": 0.38708942059631785,
@@ -13328,8 +13327,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.25655082219631736,
         "posts/2026-01-01-ac2025.md": 0.3083455543436821,
         "posts/2026-01-17-orb.md": 0.1696399519618155,
-        "posts/2026-02-23-adulting.md": 0.19789901240692065,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2918963508735416
+        "posts/2026-02-22-adulting.md": 0.19789901240692065,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2918963508735416,
+        "posts/2026-02-24-akotsk-s1.md": 0.2119499454575488
       },
       "top_similar": [
         {
@@ -14127,7 +14127,6 @@
         -0.02376636,
         0.020854093
       ],
-      "updated_at": "2026-02-23T21:13:27.245879+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.32735114451466574,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2776509443229473,
@@ -14218,8 +14217,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.522179544659221,
         "posts/2026-01-01-ac2025.md": 0.42424189014913954,
         "posts/2026-01-17-orb.md": 0.26688019457222023,
-        "posts/2026-02-23-adulting.md": 0.37124258842299884,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.23928857641248288
+        "posts/2026-02-22-adulting.md": 0.37124258842299884,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.23928857641248288,
+        "posts/2026-02-24-akotsk-s1.md": 0.3911595258153332
       },
       "top_similar": [
         {
@@ -15017,7 +15017,6 @@
         -0.024759201,
         0.00025651374
       ],
-      "updated_at": "2026-02-23T21:13:27.245879+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.45245912628503543,
         "posts/2022-09-14-shapley-and-explainability.md": 0.4285833051915708,
@@ -15108,8 +15107,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4723730715860753,
         "posts/2026-01-01-ac2025.md": 0.6236836399579613,
         "posts/2026-01-17-orb.md": 0.30614043109595307,
-        "posts/2026-02-23-adulting.md": 0.3891974679477533,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.41661630536859445
+        "posts/2026-02-22-adulting.md": 0.3891974679477533,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.41661630536859445,
+        "posts/2026-02-24-akotsk-s1.md": 0.32168707407006875
       },
       "top_similar": [
         {
@@ -15907,7 +15907,6 @@
         0.0011766779,
         -0.021624604
       ],
-      "updated_at": "2026-02-23T21:13:27.245880+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.41662853493814733,
         "posts/2022-09-14-shapley-and-explainability.md": 0.351125186738305,
@@ -15998,8 +15997,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.5272351950571457,
         "posts/2026-01-01-ac2025.md": 0.6987497835689348,
         "posts/2026-01-17-orb.md": 0.3504953676082703,
-        "posts/2026-02-23-adulting.md": 0.5059548386556114,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.38684380554906345
+        "posts/2026-02-22-adulting.md": 0.5059548386556114,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.38684380554906345,
+        "posts/2026-02-24-akotsk-s1.md": 0.4280652716263196
       },
       "top_similar": [
         {
@@ -16797,7 +16797,6 @@
         -0.026025206,
         -0.04801782
       ],
-      "updated_at": "2026-02-23T21:13:27.245881+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3049053701347904,
         "posts/2022-09-14-shapley-and-explainability.md": 0.1996475842205516,
@@ -16888,8 +16887,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.34886074874307743,
         "posts/2026-01-01-ac2025.md": 0.43848070086620244,
         "posts/2026-01-17-orb.md": 0.22173489792669876,
-        "posts/2026-02-23-adulting.md": 0.36543456167998345,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.24626089617979013
+        "posts/2026-02-22-adulting.md": 0.36543456167998345,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.24626089617979013,
+        "posts/2026-02-24-akotsk-s1.md": 0.2577371625244439
       },
       "top_similar": [
         {
@@ -17687,7 +17687,6 @@
         0.0004287588,
         -0.048019756
       ],
-      "updated_at": "2026-02-23T21:13:27.245882+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3354640564459701,
         "posts/2022-09-14-shapley-and-explainability.md": 0.256962524922234,
@@ -17778,8 +17777,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.44256189957935227,
         "posts/2026-01-01-ac2025.md": 0.5899567204403315,
         "posts/2026-01-17-orb.md": 0.14988603886379,
-        "posts/2026-02-23-adulting.md": 0.3668134981775012,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.366088376024118
+        "posts/2026-02-22-adulting.md": 0.3668134981775012,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.366088376024118,
+        "posts/2026-02-24-akotsk-s1.md": 0.30647780622020554
       },
       "top_similar": [
         {
@@ -18577,7 +18577,6 @@
         -0.011706718,
         -0.04282112
       ],
-      "updated_at": "2026-02-23T21:13:27.245884+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.4435570842277131,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3741274760703831,
@@ -18668,8 +18667,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.44113049119706893,
         "posts/2026-01-01-ac2025.md": 0.8632796066950199,
         "posts/2026-01-17-orb.md": 0.3465279561850209,
-        "posts/2026-02-23-adulting.md": 0.5565991863240062,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3093516995104896
+        "posts/2026-02-22-adulting.md": 0.5565991863240062,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3093516995104896,
+        "posts/2026-02-24-akotsk-s1.md": 0.3764207271766113
       },
       "top_similar": [
         {
@@ -19467,7 +19467,6 @@
         -0.005908352,
         -0.011693518
       ],
-      "updated_at": "2026-02-23T21:13:27.245885+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3234536198777019,
         "posts/2022-09-14-shapley-and-explainability.md": 0.33918746169308117,
@@ -19558,8 +19557,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.408079906751843,
         "posts/2026-01-01-ac2025.md": 0.5103966113104986,
         "posts/2026-01-17-orb.md": 0.2152819067066551,
-        "posts/2026-02-23-adulting.md": 0.33378348346097475,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.38360303944706603
+        "posts/2026-02-22-adulting.md": 0.33378348346097475,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.38360303944706603,
+        "posts/2026-02-24-akotsk-s1.md": 0.2546081959762008
       },
       "top_similar": [
         {
@@ -20357,7 +20357,6 @@
         -0.01862923,
         0.008031057
       ],
-      "updated_at": "2026-02-23T21:13:27.245885+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.49246641814019865,
         "posts/2022-09-14-shapley-and-explainability.md": 0.49918142764280393,
@@ -20448,8 +20447,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.31844131088123795,
         "posts/2026-01-01-ac2025.md": 0.47612195375672045,
         "posts/2026-01-17-orb.md": 0.22250022920297874,
-        "posts/2026-02-23-adulting.md": 0.19721116444749742,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.23896572844196876
+        "posts/2026-02-22-adulting.md": 0.19721116444749742,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.23896572844196876,
+        "posts/2026-02-24-akotsk-s1.md": 0.18094141036983216
       },
       "top_similar": [
         {
@@ -21247,7 +21247,6 @@
         -0.0047024754,
         -0.008808304
       ],
-      "updated_at": "2026-02-23T21:13:27.245886+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.4819233135468161,
         "posts/2022-09-14-shapley-and-explainability.md": 0.47900613399837993,
@@ -21338,8 +21337,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3740385464038331,
         "posts/2026-01-01-ac2025.md": 0.5257165785173536,
         "posts/2026-01-17-orb.md": 0.20847639482973904,
-        "posts/2026-02-23-adulting.md": 0.2462473826913758,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2445332339282658
+        "posts/2026-02-22-adulting.md": 0.2462473826913758,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2445332339282658,
+        "posts/2026-02-24-akotsk-s1.md": 0.2315808247375952
       },
       "top_similar": [
         {
@@ -22137,7 +22137,6 @@
         -0.00041969723,
         -0.0008559554
       ],
-      "updated_at": "2026-02-23T21:13:27.245887+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3394800730891303,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2724541597286922,
@@ -22228,8 +22227,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.42195504029045366,
         "posts/2026-01-01-ac2025.md": 0.4654562193937196,
         "posts/2026-01-17-orb.md": 0.2395627921998039,
-        "posts/2026-02-23-adulting.md": 0.3145997045530558,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3513013385835488
+        "posts/2026-02-22-adulting.md": 0.3145997045530558,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3513013385835488,
+        "posts/2026-02-24-akotsk-s1.md": 0.2607780619968888
       },
       "top_similar": [
         {
@@ -23027,7 +23027,6 @@
         -0.0106201125,
         -0.0075383377
       ],
-      "updated_at": "2026-02-23T21:13:27.245888+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.5187153416236893,
         "posts/2022-09-14-shapley-and-explainability.md": 0.49649680825321235,
@@ -23118,8 +23117,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3482124138258807,
         "posts/2026-01-01-ac2025.md": 0.5106471340211619,
         "posts/2026-01-17-orb.md": 0.1992965976108759,
-        "posts/2026-02-23-adulting.md": 0.2385923224642266,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3082505406270275
+        "posts/2026-02-22-adulting.md": 0.2385923224642266,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3082505406270275,
+        "posts/2026-02-24-akotsk-s1.md": 0.22712991064273735
       },
       "top_similar": [
         {
@@ -23917,7 +23917,6 @@
         0.011078309,
         0.020513488
       ],
-      "updated_at": "2026-02-23T21:13:27.245889+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2502581912712584,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20564933660907805,
@@ -24008,8 +24007,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3251803816577257,
         "posts/2026-01-01-ac2025.md": 0.3828225820251799,
         "posts/2026-01-17-orb.md": 0.2918165035826182,
-        "posts/2026-02-23-adulting.md": 0.3337186791158989,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2538609187360648
+        "posts/2026-02-22-adulting.md": 0.3337186791158989,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2538609187360648,
+        "posts/2026-02-24-akotsk-s1.md": 0.3207665981340909
       },
       "top_similar": [
         {
@@ -24807,7 +24807,6 @@
         -0.038939726,
         -0.012414148
       ],
-      "updated_at": "2026-02-23T21:13:27.245889+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36160206764839503,
         "posts/2022-09-14-shapley-and-explainability.md": 0.24608610127202274,
@@ -24898,8 +24897,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4480448830665703,
         "posts/2026-01-01-ac2025.md": 0.4346145453454931,
         "posts/2026-01-17-orb.md": 0.2613405170714606,
-        "posts/2026-02-23-adulting.md": 0.329171338070412,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.39580636901698923
+        "posts/2026-02-22-adulting.md": 0.329171338070412,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.39580636901698923,
+        "posts/2026-02-24-akotsk-s1.md": 0.3111159793718831
       },
       "top_similar": [
         {
@@ -25697,7 +25697,6 @@
         -0.07072749,
         0.019479262
       ],
-      "updated_at": "2026-02-23T21:13:27.245890+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3135938678895389,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20005252367934293,
@@ -25788,8 +25787,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.302010799765849,
         "posts/2026-01-01-ac2025.md": 0.3674505232968221,
         "posts/2026-01-17-orb.md": 0.34641110049981444,
-        "posts/2026-02-23-adulting.md": 0.451993372005647,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2258330048902864
+        "posts/2026-02-22-adulting.md": 0.451993372005647,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2258330048902864,
+        "posts/2026-02-24-akotsk-s1.md": 0.38354955685480957
       },
       "top_similar": [
         {
@@ -26587,7 +26587,6 @@
         0.014715945,
         -0.027922567
       ],
-      "updated_at": "2026-02-23T21:13:27.245891+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.30985796962146667,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2277476090132158,
@@ -26678,8 +26677,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.44375496744172926,
         "posts/2026-01-01-ac2025.md": 0.5506920614690066,
         "posts/2026-01-17-orb.md": 0.1773670620796995,
-        "posts/2026-02-23-adulting.md": 0.3735283269522875,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.4063230974775366
+        "posts/2026-02-22-adulting.md": 0.3735283269522875,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.4063230974775366,
+        "posts/2026-02-24-akotsk-s1.md": 0.3250695223229167
       },
       "top_similar": [
         {
@@ -27477,7 +27477,6 @@
         0.0063041756,
         0.0476648
       ],
-      "updated_at": "2026-02-23T21:13:27.245892+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2713546213130489,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2101101763693028,
@@ -27568,8 +27567,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.21335452435698127,
         "posts/2026-01-01-ac2025.md": 0.3374688262192457,
         "posts/2026-01-17-orb.md": 0.18612450325267035,
-        "posts/2026-02-23-adulting.md": 0.20889863556953941,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.22413918794080348
+        "posts/2026-02-22-adulting.md": 0.20889863556953941,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.22413918794080348,
+        "posts/2026-02-24-akotsk-s1.md": 0.15776018762795008
       },
       "top_similar": [
         {
@@ -28367,7 +28367,6 @@
         -0.0022176218,
         0.0108819585
       ],
-      "updated_at": "2026-02-23T21:13:27.245893+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2815217842130843,
         "posts/2022-09-14-shapley-and-explainability.md": 0.19265163882206823,
@@ -28458,8 +28457,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.43364926473256243,
         "posts/2026-01-01-ac2025.md": 0.388250377594674,
         "posts/2026-01-17-orb.md": 0.19581641261819058,
-        "posts/2026-02-23-adulting.md": 0.2810137370572398,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3125774328064056
+        "posts/2026-02-22-adulting.md": 0.2810137370572398,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3125774328064056,
+        "posts/2026-02-24-akotsk-s1.md": 0.2995302328674481
       },
       "top_similar": [
         {
@@ -29257,7 +29257,6 @@
         -0.0012316873,
         -0.041999806
       ],
-      "updated_at": "2026-02-23T21:13:27.245893+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.38392380400402154,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3110786482336849,
@@ -29348,8 +29347,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.5294127625837138,
         "posts/2026-01-01-ac2025.md": 0.8130213186883937,
         "posts/2026-01-17-orb.md": 0.32582766416530273,
-        "posts/2026-02-23-adulting.md": 0.5166781830358999,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.305292031215194
+        "posts/2026-02-22-adulting.md": 0.5166781830358999,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.305292031215194,
+        "posts/2026-02-24-akotsk-s1.md": 0.42100481927943795
       },
       "top_similar": [
         {
@@ -30147,7 +30147,6 @@
         0.03827838,
         0.025481584
       ],
-      "updated_at": "2026-02-23T21:13:27.245894+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.21818539187696212,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21944191730145274,
@@ -30238,8 +30237,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3136350874821833,
         "posts/2026-01-01-ac2025.md": 0.30021684438170243,
         "posts/2026-01-17-orb.md": 0.2917834924579198,
-        "posts/2026-02-23-adulting.md": 0.283627347427083,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.26308527492581973
+        "posts/2026-02-22-adulting.md": 0.283627347427083,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.26308527492581973,
+        "posts/2026-02-24-akotsk-s1.md": 0.26083205181757046
       },
       "top_similar": [
         {
@@ -31037,7 +31037,6 @@
         -0.018286169,
         -0.008998655
       ],
-      "updated_at": "2026-02-23T21:13:27.245895+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.35283521659635986,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3032540604309679,
@@ -31128,8 +31127,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.6464067728517717,
         "posts/2026-01-01-ac2025.md": 0.5709404258388417,
         "posts/2026-01-17-orb.md": 0.27984514784934855,
-        "posts/2026-02-23-adulting.md": 0.41178819854660037,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.36280277048709486
+        "posts/2026-02-22-adulting.md": 0.41178819854660037,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.36280277048709486,
+        "posts/2026-02-24-akotsk-s1.md": 0.4213385821864464
       },
       "top_similar": [
         {
@@ -31927,7 +31927,6 @@
         -0.021153456,
         -0.07743044
       ],
-      "updated_at": "2026-02-23T21:13:27.245896+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36653706493150984,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2771280890010904,
@@ -32018,8 +32017,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4558734681626409,
         "posts/2026-01-01-ac2025.md": 0.714231109564782,
         "posts/2026-01-17-orb.md": 0.34923924387353983,
-        "posts/2026-02-23-adulting.md": 0.5949435479184597,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.28094848351079216
+        "posts/2026-02-22-adulting.md": 0.5949435479184597,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.28094848351079216,
+        "posts/2026-02-24-akotsk-s1.md": 0.420839095188396
       },
       "top_similar": [
         {
@@ -32817,7 +32817,6 @@
         -0.03491111,
         -0.012842343
       ],
-      "updated_at": "2026-02-23T21:13:27.245897+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.35748204686502727,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3265779006500081,
@@ -32908,8 +32907,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4831904198935109,
         "posts/2026-01-01-ac2025.md": 0.5200623988968525,
         "posts/2026-01-17-orb.md": 0.27719190078951755,
-        "posts/2026-02-23-adulting.md": 0.3202542942470873,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.4635013158179917
+        "posts/2026-02-22-adulting.md": 0.3202542942470873,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.4635013158179917,
+        "posts/2026-02-24-akotsk-s1.md": 0.2963224843250222
       },
       "top_similar": [
         {
@@ -33707,7 +33707,6 @@
         -0.028217515,
         -0.0377895
       ],
-      "updated_at": "2026-02-23T21:13:27.245898+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.33090420282751415,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2948689595191978,
@@ -33798,8 +33797,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.46927225220120267,
         "posts/2026-01-01-ac2025.md": 0.47863776547259007,
         "posts/2026-01-17-orb.md": 0.27130506553895467,
-        "posts/2026-02-23-adulting.md": 0.335099563564313,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.44661356520400564
+        "posts/2026-02-22-adulting.md": 0.335099563564313,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.44661356520400564,
+        "posts/2026-02-24-akotsk-s1.md": 0.31225681372496483
       },
       "top_similar": [
         {
@@ -34597,7 +34597,6 @@
         -0.016381258,
         -0.070180275
       ],
-      "updated_at": "2026-02-23T21:13:27.245898+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3390122191611975,
         "posts/2022-09-14-shapley-and-explainability.md": 0.23865288446337712,
@@ -34688,8 +34687,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.41347814068615707,
         "posts/2026-01-01-ac2025.md": 0.48261728823849204,
         "posts/2026-01-17-orb.md": 0.2779878710852625,
-        "posts/2026-02-23-adulting.md": 0.4065718635963831,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.30514477902387727
+        "posts/2026-02-22-adulting.md": 0.4065718635963831,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.30514477902387727,
+        "posts/2026-02-24-akotsk-s1.md": 0.3164115610693937
       },
       "top_similar": [
         {
@@ -35487,7 +35487,6 @@
         -0.03578973,
         -0.008309866
       ],
-      "updated_at": "2026-02-23T21:13:27.245899+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.28461343323470106,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21524067291672824,
@@ -35578,8 +35577,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2394913894744498,
         "posts/2026-01-01-ac2025.md": 0.34433852341855115,
         "posts/2026-01-17-orb.md": 0.2656622905594504,
-        "posts/2026-02-23-adulting.md": 0.34797128500448343,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.217127804307044
+        "posts/2026-02-22-adulting.md": 0.34797128500448343,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.217127804307044,
+        "posts/2026-02-24-akotsk-s1.md": 0.2366294955051376
       },
       "top_similar": [
         {
@@ -36377,7 +36377,6 @@
         -0.03652799,
         -0.031908654
       ],
-      "updated_at": "2026-02-23T21:13:27.245900+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2309351934913755,
         "posts/2022-09-14-shapley-and-explainability.md": 0.15797665095170602,
@@ -36468,13 +36467,14 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2188046044293107,
         "posts/2026-01-01-ac2025.md": 0.3316293979099385,
         "posts/2026-01-17-orb.md": 0.20719257288923784,
-        "posts/2026-02-23-adulting.md": 0.4026559425457821,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.19599636872979728
+        "posts/2026-02-22-adulting.md": 0.4026559425457821,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.19599636872979728,
+        "posts/2026-02-24-akotsk-s1.md": 0.27356316081128645
       },
       "top_similar": [
         {
-          "post_key": "posts/2026-02-23-adulting.md",
-          "content_path": "posts/2026-02-23-adulting",
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
           "title": "Adulting",
           "score": 0.402656
         },
@@ -37267,7 +37267,6 @@
         -0.028478976,
         0.035098314
       ],
-      "updated_at": "2026-02-23T21:13:27.245901+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.35198941953663193,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2763094029560707,
@@ -37358,8 +37357,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.5568012394968253,
         "posts/2026-01-01-ac2025.md": 0.4482128799401122,
         "posts/2026-01-17-orb.md": 0.2729888072406781,
-        "posts/2026-02-23-adulting.md": 0.3688258939038309,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.23371997857084506
+        "posts/2026-02-22-adulting.md": 0.3688258939038309,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.23371997857084506,
+        "posts/2026-02-24-akotsk-s1.md": 0.3800373908489063
       },
       "top_similar": [
         {
@@ -38157,7 +38157,6 @@
         -0.019115765,
         -0.06790528
       ],
-      "updated_at": "2026-02-23T21:13:27.245901+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3233539767407909,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2225789473592685,
@@ -38248,8 +38247,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3801021435903798,
         "posts/2026-01-01-ac2025.md": 0.5173777250022594,
         "posts/2026-01-17-orb.md": 0.3650612860239204,
-        "posts/2026-02-23-adulting.md": 0.46842498556783274,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3051363609314628
+        "posts/2026-02-22-adulting.md": 0.46842498556783274,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3051363609314628,
+        "posts/2026-02-24-akotsk-s1.md": 0.38261941430821894
       },
       "top_similar": [
         {
@@ -39047,7 +39047,6 @@
         -0.07319293,
         0.033557884
       ],
-      "updated_at": "2026-02-23T21:13:27.245902+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.30683446861278824,
         "posts/2022-09-14-shapley-and-explainability.md": 0.27753753797834246,
@@ -39138,8 +39137,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3139928271943273,
         "posts/2026-01-01-ac2025.md": 0.5005056323482885,
         "posts/2026-01-17-orb.md": 0.32356864355828313,
-        "posts/2026-02-23-adulting.md": 0.47111553609887047,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.20801448059713165
+        "posts/2026-02-22-adulting.md": 0.47111553609887047,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.20801448059713165,
+        "posts/2026-02-24-akotsk-s1.md": 0.40747775096035327
       },
       "top_similar": [
         {
@@ -39937,7 +39937,6 @@
         -0.0399977,
         -0.032128256
       ],
-      "updated_at": "2026-02-23T21:13:27.245903+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.24500112458082843,
         "posts/2022-09-14-shapley-and-explainability.md": 0.17699707504465367,
@@ -40028,8 +40027,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.25302311181597054,
         "posts/2026-01-01-ac2025.md": 0.3272685554210658,
         "posts/2026-01-17-orb.md": 0.2586609381164357,
-        "posts/2026-02-23-adulting.md": 0.36771780812700583,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.27023246061096606
+        "posts/2026-02-22-adulting.md": 0.36771780812700583,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.27023246061096606,
+        "posts/2026-02-24-akotsk-s1.md": 0.308326184270084
       },
       "top_similar": [
         {
@@ -40827,7 +40827,6 @@
         -0.061847243,
         -0.0021249333
       ],
-      "updated_at": "2026-02-23T21:13:27.245904+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.32450092255454377,
         "posts/2022-09-14-shapley-and-explainability.md": 0.30016318133073316,
@@ -40918,8 +40917,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.33936331780742096,
         "posts/2026-01-01-ac2025.md": 0.4359024971152289,
         "posts/2026-01-17-orb.md": 0.2828032344576027,
-        "posts/2026-02-23-adulting.md": 0.4147650404696016,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.24795424013009545
+        "posts/2026-02-22-adulting.md": 0.4147650404696016,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.24795424013009545,
+        "posts/2026-02-24-akotsk-s1.md": 0.3423207001364255
       },
       "top_similar": [
         {
@@ -41717,7 +41717,6 @@
         -0.04303522,
         0.010732028
       ],
-      "updated_at": "2026-02-23T21:13:27.245905+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.30889388227257203,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2164833346166163,
@@ -41808,8 +41807,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.21288301444330066,
         "posts/2026-01-01-ac2025.md": 0.33192169539582966,
         "posts/2026-01-17-orb.md": 0.228611982815163,
-        "posts/2026-02-23-adulting.md": 0.3125801858860706,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.18233474620794318
+        "posts/2026-02-22-adulting.md": 0.3125801858860706,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.18233474620794318,
+        "posts/2026-02-24-akotsk-s1.md": 0.29995585800454727
       },
       "top_similar": [
         {
@@ -42607,7 +42607,6 @@
         -0.0031011836,
         -0.0006697827
       ],
-      "updated_at": "2026-02-23T21:13:27.245906+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2105082865070418,
         "posts/2022-09-14-shapley-and-explainability.md": 0.17354399554949462,
@@ -42698,8 +42697,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2283819283787203,
         "posts/2026-01-01-ac2025.md": 0.41918312382317,
         "posts/2026-01-17-orb.md": 0.294331954184261,
-        "posts/2026-02-23-adulting.md": 0.3566095906059275,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.18989282671050536
+        "posts/2026-02-22-adulting.md": 0.3566095906059275,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.18989282671050536,
+        "posts/2026-02-24-akotsk-s1.md": 0.2508351273634281
       },
       "top_similar": [
         {
@@ -43497,7 +43497,6 @@
         0.00077686773,
         0.05470582
       ],
-      "updated_at": "2026-02-23T21:13:27.245907+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2994337120453576,
         "posts/2022-09-14-shapley-and-explainability.md": 0.19760522068557598,
@@ -43588,8 +43587,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.18556461091661286,
         "posts/2026-01-01-ac2025.md": 0.2845427731910641,
         "posts/2026-01-17-orb.md": 0.26944782661319056,
-        "posts/2026-02-23-adulting.md": 0.33337005017932275,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.19884423885865743
+        "posts/2026-02-22-adulting.md": 0.33337005017932275,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.19884423885865743,
+        "posts/2026-02-24-akotsk-s1.md": 0.3603960531117565
       },
       "top_similar": [
         {
@@ -44387,7 +44387,6 @@
         -0.0035339347,
         -0.02819458
       ],
-      "updated_at": "2026-02-23T21:13:27.245907+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.19189717333879555,
         "posts/2022-09-14-shapley-and-explainability.md": 0.10969029594802447,
@@ -44478,8 +44477,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.15037249525270402,
         "posts/2026-01-01-ac2025.md": 0.2953265077062695,
         "posts/2026-01-17-orb.md": 0.199620646044361,
-        "posts/2026-02-23-adulting.md": 0.21770787452471874,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.19575079393719091
+        "posts/2026-02-22-adulting.md": 0.21770787452471874,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.19575079393719091,
+        "posts/2026-02-24-akotsk-s1.md": 0.26009924079566193
       },
       "top_similar": [
         {
@@ -45277,7 +45277,6 @@
         -0.010464164,
         -0.053348236
       ],
-      "updated_at": "2026-02-23T21:13:27.245908+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36469980361505927,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3016601707788893,
@@ -45368,8 +45367,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.40534909647637496,
         "posts/2026-01-01-ac2025.md": 0.4494270936745515,
         "posts/2026-01-17-orb.md": 0.28518392241204654,
-        "posts/2026-02-23-adulting.md": 0.3305556343899065,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.4361823840754602
+        "posts/2026-02-22-adulting.md": 0.3305556343899065,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.4361823840754602,
+        "posts/2026-02-24-akotsk-s1.md": 0.3173977360663343
       },
       "top_similar": [
         {
@@ -46167,7 +46167,6 @@
         -0.029768484,
         0.0064175706
       ],
-      "updated_at": "2026-02-23T21:13:27.245909+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2540607138699828,
         "posts/2022-09-14-shapley-and-explainability.md": 0.19073680239771998,
@@ -46258,8 +46257,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.23890678523377162,
         "posts/2026-01-01-ac2025.md": 0.4490662830956478,
         "posts/2026-01-17-orb.md": 0.2703013703339098,
-        "posts/2026-02-23-adulting.md": 0.42375838840156027,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.13643430402932696
+        "posts/2026-02-22-adulting.md": 0.42375838840156027,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.13643430402932696,
+        "posts/2026-02-24-akotsk-s1.md": 0.24873062887237754
       },
       "top_similar": [
         {
@@ -47057,7 +47057,6 @@
         -0.03546113,
         -0.010732678
       ],
-      "updated_at": "2026-02-23T21:13:27.245910+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.285669876631903,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25537025117250634,
@@ -47148,8 +47147,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.34324436954780085,
         "posts/2026-01-01-ac2025.md": 0.4877389677806411,
         "posts/2026-01-17-orb.md": 0.28679888011465543,
-        "posts/2026-02-23-adulting.md": 0.4653382115086073,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.24821950309437213
+        "posts/2026-02-22-adulting.md": 0.4653382115086073,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.24821950309437213,
+        "posts/2026-02-24-akotsk-s1.md": 0.32724712607249
       },
       "top_similar": [
         {
@@ -47947,7 +47947,6 @@
         -0.006405947,
         0.022082618
       ],
-      "updated_at": "2026-02-23T21:13:27.245911+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.18305669615205064,
         "posts/2022-09-14-shapley-and-explainability.md": 0.1184718687192798,
@@ -48038,8 +48037,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3016779679566674,
         "posts/2026-01-01-ac2025.md": 0.30254643739625914,
         "posts/2026-01-17-orb.md": 0.21926030047151077,
-        "posts/2026-02-23-adulting.md": 0.28016312351801376,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.18454423144226798
+        "posts/2026-02-22-adulting.md": 0.28016312351801376,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.18454423144226798,
+        "posts/2026-02-24-akotsk-s1.md": 0.20832585884357643
       },
       "top_similar": [
         {
@@ -48837,7 +48837,6 @@
         -0.03178446,
         -0.08281059
       ],
-      "updated_at": "2026-02-23T21:13:27.245911+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3067787072610585,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25513582399227436,
@@ -48928,8 +48927,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.30132585626900965,
         "posts/2026-01-01-ac2025.md": 0.36472016765777343,
         "posts/2026-01-17-orb.md": 0.2334062599555181,
-        "posts/2026-02-23-adulting.md": 0.34150047023725444,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.23911968166250702
+        "posts/2026-02-22-adulting.md": 0.34150047023725444,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.23911968166250702,
+        "posts/2026-02-24-akotsk-s1.md": 0.31834040738027
       },
       "top_similar": [
         {
@@ -49727,7 +49727,6 @@
         -0.0031714656,
         -0.025914876
       ],
-      "updated_at": "2026-02-23T21:13:27.245912+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3058302872042573,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25447315054303815,
@@ -49818,8 +49817,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.21744661575469576,
         "posts/2026-01-01-ac2025.md": 0.40065943839887325,
         "posts/2026-01-17-orb.md": 0.2849104868187859,
-        "posts/2026-02-23-adulting.md": 0.35966586534953326,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.24888243434196922
+        "posts/2026-02-22-adulting.md": 0.35966586534953326,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.24888243434196922,
+        "posts/2026-02-24-akotsk-s1.md": 0.3030762125233724
       },
       "top_similar": [
         {
@@ -50617,7 +50617,6 @@
         -0.030226942,
         -0.023140246
       ],
-      "updated_at": "2026-02-23T21:13:27.245913+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2637932025392426,
         "posts/2022-09-14-shapley-and-explainability.md": 0.18223864260105185,
@@ -50708,8 +50707,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2644484274657329,
         "posts/2026-01-01-ac2025.md": 0.41256129264565505,
         "posts/2026-01-17-orb.md": 0.32043684481999996,
-        "posts/2026-02-23-adulting.md": 0.4070147694736921,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.22777169651888138
+        "posts/2026-02-22-adulting.md": 0.4070147694736921,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.22777169651888138,
+        "posts/2026-02-24-akotsk-s1.md": 0.3535936449630654
       },
       "top_similar": [
         {
@@ -51507,7 +51507,6 @@
         0.018901832,
         -0.0108794505
       ],
-      "updated_at": "2026-02-23T21:13:27.245914+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.233435367682145,
         "posts/2022-09-14-shapley-and-explainability.md": 0.18194289343404219,
@@ -51598,8 +51597,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.28371387268015863,
         "posts/2026-01-01-ac2025.md": 0.3024015239348784,
         "posts/2026-01-17-orb.md": 0.21019089191236295,
-        "posts/2026-02-23-adulting.md": 0.29873057348750975,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.19947992166222303
+        "posts/2026-02-22-adulting.md": 0.29873057348750975,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.19947992166222303,
+        "posts/2026-02-24-akotsk-s1.md": 0.23407066301304855
       },
       "top_similar": [
         {
@@ -52397,7 +52397,6 @@
         0.02424557,
         -0.0103749605
       ],
-      "updated_at": "2026-02-23T21:13:27.245915+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.33942070909875927,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3272522396541069,
@@ -52488,8 +52487,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.24297786459498816,
         "posts/2026-01-01-ac2025.md": 0.38253618099191883,
         "posts/2026-01-17-orb.md": 0.27004336421076075,
-        "posts/2026-02-23-adulting.md": 0.3392336711806561,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3044761121737392
+        "posts/2026-02-22-adulting.md": 0.3392336711806561,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3044761121737392,
+        "posts/2026-02-24-akotsk-s1.md": 0.38284230796787855
       },
       "top_similar": [
         {
@@ -53287,7 +53287,6 @@
         0.0040532155,
         -0.04488162
       ],
-      "updated_at": "2026-02-23T21:13:27.245915+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3799659043670856,
         "posts/2022-09-14-shapley-and-explainability.md": 0.27334200424211164,
@@ -53378,8 +53377,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.31295044567015456,
         "posts/2026-01-01-ac2025.md": 0.361455668962622,
         "posts/2026-01-17-orb.md": 0.24935122401028148,
-        "posts/2026-02-23-adulting.md": 0.3477025683096172,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.46356438479980994
+        "posts/2026-02-22-adulting.md": 0.3477025683096172,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.46356438479980994,
+        "posts/2026-02-24-akotsk-s1.md": 0.28434829075121265
       },
       "top_similar": [
         {
@@ -53389,8 +53389,8 @@
           "score": 0.498819
         },
         {
-          "post_key": "posts/2026-02-24-hugo-rss-pretty-feed.md",
-          "content_path": "posts/2026-02-24-hugo-rss-pretty-feed",
+          "post_key": "posts/2026-02-23-hugo-rss-pretty-feed.md",
+          "content_path": "posts/2026-02-23-hugo-rss-pretty-feed",
           "title": "如何美化 Hugo 的 RSS",
           "score": 0.463564
         },
@@ -54177,7 +54177,6 @@
         -0.06243006,
         -0.0034637768
       ],
-      "updated_at": "2026-02-23T21:13:27.245916+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.31852344682947553,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2438798756912555,
@@ -54268,8 +54267,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.6456049729463844,
         "posts/2026-01-01-ac2025.md": 0.5062547703833438,
         "posts/2026-01-17-orb.md": 0.2881860364141349,
-        "posts/2026-02-23-adulting.md": 0.4526330844392315,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3104130170058876
+        "posts/2026-02-22-adulting.md": 0.4526330844392315,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3104130170058876,
+        "posts/2026-02-24-akotsk-s1.md": 0.39205167781846695
       },
       "top_similar": [
         {
@@ -55067,7 +55067,6 @@
         -0.035008907,
         0.013009399
       ],
-      "updated_at": "2026-02-23T21:13:27.245917+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3550564684603161,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2919229286482158,
@@ -55158,8 +55157,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3264292274967694,
         "posts/2026-01-01-ac2025.md": 0.4634698377238064,
         "posts/2026-01-17-orb.md": 0.26591015281842767,
-        "posts/2026-02-23-adulting.md": 0.2856071650816447,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.29684124759447045
+        "posts/2026-02-22-adulting.md": 0.2856071650816447,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.29684124759447045,
+        "posts/2026-02-24-akotsk-s1.md": 0.3016616959460741
       },
       "top_similar": [
         {
@@ -55957,7 +55957,6 @@
         -0.041224703,
         0.0125323655
       ],
-      "updated_at": "2026-02-23T21:13:27.245918+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3467703141846651,
         "posts/2022-09-14-shapley-and-explainability.md": 0.27958603957797246,
@@ -56048,8 +56047,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4875610634758309,
         "posts/2026-01-01-ac2025.md": 0.5528199289892016,
         "posts/2026-01-17-orb.md": 0.29343505540184495,
-        "posts/2026-02-23-adulting.md": 0.431551450657763,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.262158038980923
+        "posts/2026-02-22-adulting.md": 0.431551450657763,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.262158038980923,
+        "posts/2026-02-24-akotsk-s1.md": 0.4437165559914083
       },
       "top_similar": [
         {
@@ -56847,7 +56847,6 @@
         0.010759042,
         -0.046319768
       ],
-      "updated_at": "2026-02-23T21:13:27.245918+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.37246906185438505,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2853246161480075,
@@ -56938,8 +56937,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.396294232305442,
         "posts/2026-01-01-ac2025.md": 0.5634302578593725,
         "posts/2026-01-17-orb.md": 0.3423994639677861,
-        "posts/2026-02-23-adulting.md": 0.49584033413047846,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.30873481867386054
+        "posts/2026-02-22-adulting.md": 0.49584033413047846,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.30873481867386054,
+        "posts/2026-02-24-akotsk-s1.md": 0.3470063987919269
       },
       "top_similar": [
         {
@@ -57737,7 +57737,6 @@
         -0.02318063,
         -0.017843988
       ],
-      "updated_at": "2026-02-23T21:13:27.245919+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2496055348105398,
         "posts/2022-09-14-shapley-and-explainability.md": 0.17659022722315382,
@@ -57828,8 +57827,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2787617365634386,
         "posts/2026-01-01-ac2025.md": 0.473141842612469,
         "posts/2026-01-17-orb.md": 0.2715579153735677,
-        "posts/2026-02-23-adulting.md": 0.49182721554675524,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.19728764791283424
+        "posts/2026-02-22-adulting.md": 0.49182721554675524,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.19728764791283424,
+        "posts/2026-02-24-akotsk-s1.md": 0.29297727577304455
       },
       "top_similar": [
         {
@@ -57845,8 +57845,8 @@
           "score": 0.551833
         },
         {
-          "post_key": "posts/2026-02-23-adulting.md",
-          "content_path": "posts/2026-02-23-adulting",
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
           "title": "Adulting",
           "score": 0.491827
         }
@@ -58627,7 +58627,6 @@
         -0.018316919,
         0.0381684
       ],
-      "updated_at": "2026-02-23T21:13:27.245920+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2417089647671,
         "posts/2022-09-14-shapley-and-explainability.md": 0.159705481493386,
@@ -58718,8 +58717,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.27553388330276424,
         "posts/2026-01-01-ac2025.md": 0.42156323767084625,
         "posts/2026-01-17-orb.md": 0.22759722751034803,
-        "posts/2026-02-23-adulting.md": 0.396011608689641,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.1817525439452042
+        "posts/2026-02-22-adulting.md": 0.396011608689641,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.1817525439452042,
+        "posts/2026-02-24-akotsk-s1.md": 0.2731460798581212
       },
       "top_similar": [
         {
@@ -59517,7 +59517,6 @@
         0.02316566,
         -0.015949281
       ],
-      "updated_at": "2026-02-23T21:13:27.245921+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3392383391811563,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2395190307195004,
@@ -59608,8 +59607,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.31151020260549284,
         "posts/2026-01-01-ac2025.md": 0.46960450758321504,
         "posts/2026-01-17-orb.md": 0.23803582977849844,
-        "posts/2026-02-23-adulting.md": 0.3193253224652035,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.28797237008411886
+        "posts/2026-02-22-adulting.md": 0.3193253224652035,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.28797237008411886,
+        "posts/2026-02-24-akotsk-s1.md": 0.34996794997045916
       },
       "top_similar": [
         {
@@ -60407,7 +60407,6 @@
         0.0078041963,
         0.0023917982
       ],
-      "updated_at": "2026-02-23T21:13:27.245922+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3069517494118117,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21355365945167512,
@@ -60498,8 +60497,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.39500144501088685,
         "posts/2026-01-01-ac2025.md": 0.42306373045539886,
         "posts/2026-01-17-orb.md": 0.26435484711419577,
-        "posts/2026-02-23-adulting.md": 0.4109334587128706,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.28059457766147966
+        "posts/2026-02-22-adulting.md": 0.4109334587128706,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.28059457766147966,
+        "posts/2026-02-24-akotsk-s1.md": 0.36703336971257405
       },
       "top_similar": [
         {
@@ -61297,7 +61297,6 @@
         -0.010849859,
         0.020402882
       ],
-      "updated_at": "2026-02-23T21:13:27.245922+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.28541556524656053,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21689435609461521,
@@ -61388,8 +61387,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3404470250420224,
         "posts/2026-01-01-ac2025.md": 0.5271423072284411,
         "posts/2026-01-17-orb.md": 0.2596149456162939,
-        "posts/2026-02-23-adulting.md": 0.4384523342646079,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.25534639344599913
+        "posts/2026-02-22-adulting.md": 0.4384523342646079,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.25534639344599913,
+        "posts/2026-02-24-akotsk-s1.md": 0.37390917458103873
       },
       "top_similar": [
         {
@@ -62187,7 +62187,6 @@
         -0.039841007,
         -0.0075450065
       ],
-      "updated_at": "2026-02-23T21:13:27.245923+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.29072960956124866,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2055639783519665,
@@ -62278,8 +62277,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.16972748083109368,
         "posts/2026-01-01-ac2025.md": 0.3336463715618994,
         "posts/2026-01-17-orb.md": 0.2541906094436948,
-        "posts/2026-02-23-adulting.md": 0.35577584998083583,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.16278642620381856
+        "posts/2026-02-22-adulting.md": 0.35577584998083583,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.16278642620381856,
+        "posts/2026-02-24-akotsk-s1.md": 0.2476390296267963
       },
       "top_similar": [
         {
@@ -63077,7 +63077,6 @@
         -0.019468917,
         0.024328707
       ],
-      "updated_at": "2026-02-23T21:13:27.245924+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.39601035913087373,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2951845650484783,
@@ -63168,8 +63167,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.26511663388836987,
         "posts/2026-01-01-ac2025.md": 0.4768016447012574,
         "posts/2026-01-17-orb.md": 0.3162674271768796,
-        "posts/2026-02-23-adulting.md": 0.32198349072382787,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.29008470721204116
+        "posts/2026-02-22-adulting.md": 0.32198349072382787,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.29008470721204116,
+        "posts/2026-02-24-akotsk-s1.md": 0.3230216626889375
       },
       "top_similar": [
         {
@@ -63967,7 +63967,6 @@
         -0.031494938,
         0.016580038
       ],
-      "updated_at": "2026-02-23T21:13:27.245925+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3958583221393872,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3199520194816894,
@@ -64058,8 +64057,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4973634293652825,
         "posts/2026-01-01-ac2025.md": 0.622141844966566,
         "posts/2026-01-17-orb.md": 0.39224562421420367,
-        "posts/2026-02-23-adulting.md": 0.4573760602674796,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.25976030469275413
+        "posts/2026-02-22-adulting.md": 0.4573760602674796,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.25976030469275413,
+        "posts/2026-02-24-akotsk-s1.md": 0.4642961741191939
       },
       "top_similar": [
         {
@@ -64857,7 +64857,6 @@
         -0.051173203,
         -0.06688106
       ],
-      "updated_at": "2026-02-23T21:13:27.245926+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36245227515214434,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3156694896130191,
@@ -64948,8 +64947,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.4483640404148798,
         "posts/2026-01-01-ac2025.md": 0.46199069503309453,
         "posts/2026-01-17-orb.md": 0.3011246944637927,
-        "posts/2026-02-23-adulting.md": 0.39971250992537166,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.25329190880910707
+        "posts/2026-02-22-adulting.md": 0.39971250992537166,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.25329190880910707,
+        "posts/2026-02-24-akotsk-s1.md": 0.33935622551782546
       },
       "top_similar": [
         {
@@ -65747,7 +65747,6 @@
         -0.07349683,
         -0.035569075
       ],
-      "updated_at": "2026-02-23T21:13:27.245926+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.23293357658972821,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20092058157244516,
@@ -65838,8 +65837,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2769150005107723,
         "posts/2026-01-01-ac2025.md": 0.30052971680833174,
         "posts/2026-01-17-orb.md": 0.21579212658042432,
-        "posts/2026-02-23-adulting.md": 0.3065347891951337,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.27191205234674587
+        "posts/2026-02-22-adulting.md": 0.3065347891951337,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.27191205234674587,
+        "posts/2026-02-24-akotsk-s1.md": 0.2799814914875788
       },
       "top_similar": [
         {
@@ -66637,7 +66637,6 @@
         -0.0023191655,
         -0.0736499
       ],
-      "updated_at": "2026-02-23T21:13:27.245927+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.40065725885089193,
         "posts/2022-09-14-shapley-and-explainability.md": 0.29601004518650254,
@@ -66728,8 +66727,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.5269865554100837,
         "posts/2026-01-01-ac2025.md": 0.7190797364536192,
         "posts/2026-01-17-orb.md": 0.3443541699274692,
-        "posts/2026-02-23-adulting.md": 0.5233296628129254,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.37504088627189675
+        "posts/2026-02-22-adulting.md": 0.5233296628129254,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.37504088627189675,
+        "posts/2026-02-24-akotsk-s1.md": 0.45070765340703317
       },
       "top_similar": [
         {
@@ -67527,7 +67527,6 @@
         -0.036760163,
         -0.03989493
       ],
-      "updated_at": "2026-02-23T21:13:27.245928+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.34110127498995285,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25239376342546327,
@@ -67618,8 +67617,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3969317321123157,
         "posts/2026-01-01-ac2025.md": 0.5072690166896567,
         "posts/2026-01-17-orb.md": 0.30683193022284183,
-        "posts/2026-02-23-adulting.md": 0.5403929364350001,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.26937554998342284
+        "posts/2026-02-22-adulting.md": 0.5403929364350001,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.26937554998342284,
+        "posts/2026-02-24-akotsk-s1.md": 0.4041846035856778
       },
       "top_similar": [
         {
@@ -68417,7 +68417,6 @@
         -0.04797785,
         0.025440032
       ],
-      "updated_at": "2026-02-23T21:13:27.245929+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3718621968649295,
         "posts/2022-09-14-shapley-and-explainability.md": 0.29655057240248434,
@@ -68508,8 +68507,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.38336048202166223,
         "posts/2026-01-01-ac2025.md": 0.5175923398706519,
         "posts/2026-01-17-orb.md": 0.2823740901627743,
-        "posts/2026-02-23-adulting.md": 0.46278466106371624,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.3015695148833755
+        "posts/2026-02-22-adulting.md": 0.46278466106371624,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3015695148833755,
+        "posts/2026-02-24-akotsk-s1.md": 0.33730455032208956
       },
       "top_similar": [
         {
@@ -69307,7 +69307,6 @@
         -0.04090496,
         0.0078122327
       ],
-      "updated_at": "2026-02-23T21:13:27.245930+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2874185208638336,
         "posts/2022-09-14-shapley-and-explainability.md": 0.22631070564371447,
@@ -69398,8 +69397,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.22743872234572096,
         "posts/2026-01-01-ac2025.md": 0.46330085893194606,
         "posts/2026-01-17-orb.md": 0.33975413745843225,
-        "posts/2026-02-23-adulting.md": 0.44243844820512485,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.22872339943770126
+        "posts/2026-02-22-adulting.md": 0.44243844820512485,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.22872339943770126,
+        "posts/2026-02-24-akotsk-s1.md": 0.3634432472802415
       },
       "top_similar": [
         {
@@ -70197,7 +70197,6 @@
         -0.0028248266,
         -0.03785791
       ],
-      "updated_at": "2026-02-23T21:13:27.245930+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2502034434453025,
         "posts/2022-09-14-shapley-and-explainability.md": 0.24726324992865645,
@@ -70288,8 +70287,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2885475368191601,
         "posts/2026-01-01-ac2025.md": 0.35486545903872013,
         "posts/2026-01-17-orb.md": 0.20999026403946913,
-        "posts/2026-02-23-adulting.md": 0.3373389050649507,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.24029218802338434
+        "posts/2026-02-22-adulting.md": 0.3373389050649507,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.24029218802338434,
+        "posts/2026-02-24-akotsk-s1.md": 0.2711517778749665
       },
       "top_similar": [
         {
@@ -71087,7 +71087,6 @@
         -0.00405431,
         0.014411197
       ],
-      "updated_at": "2026-02-23T21:13:27.245931+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.23732700821671723,
         "posts/2022-09-14-shapley-and-explainability.md": 0.17546654796720546,
@@ -71178,8 +71177,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.29780570281446406,
         "posts/2026-01-01-ac2025.md": 0.4494705320643181,
         "posts/2026-01-17-orb.md": 0.2994886314525502,
-        "posts/2026-02-23-adulting.md": 0.41693300597865623,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.21208672570319667
+        "posts/2026-02-22-adulting.md": 0.41693300597865623,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.21208672570319667,
+        "posts/2026-02-24-akotsk-s1.md": 0.27778494812495436
       },
       "top_similar": [
         {
@@ -71977,7 +71977,6 @@
         -0.022396192,
         -0.024736393
       ],
-      "updated_at": "2026-02-23T21:13:27.245932+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.28661890447428934,
         "posts/2022-09-14-shapley-and-explainability.md": 0.18218962594283689,
@@ -72068,8 +72067,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.40232712509318913,
         "posts/2026-01-01-ac2025.md": 0.32165044470802023,
         "posts/2026-01-17-orb.md": 0.21850715005540472,
-        "posts/2026-02-23-adulting.md": 0.1871641710159101,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.34968601879123395
+        "posts/2026-02-22-adulting.md": 0.1871641710159101,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.34968601879123395,
+        "posts/2026-02-24-akotsk-s1.md": 0.2504025920879684
       },
       "top_similar": [
         {
@@ -72867,7 +72867,6 @@
         -0.0041408064,
         0.0134857595
       ],
-      "updated_at": "2026-02-23T21:13:27.245933+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.31459039190404503,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21138612491056563,
@@ -72958,8 +72957,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.699598035978142,
         "posts/2026-01-01-ac2025.md": 0.324788650180335,
         "posts/2026-01-17-orb.md": 0.22673740839451242,
-        "posts/2026-02-23-adulting.md": 0.25724632982911366,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.29117955605827245
+        "posts/2026-02-22-adulting.md": 0.25724632982911366,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.29117955605827245,
+        "posts/2026-02-24-akotsk-s1.md": 0.3041765302648448
       },
       "top_similar": [
         {
@@ -73757,7 +73757,6 @@
         -0.03406812,
         -0.043515086
       ],
-      "updated_at": "2026-02-23T21:13:27.245933+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3100394845938615,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25692520182359335,
@@ -73848,8 +73847,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.3862480251022511,
         "posts/2026-01-01-ac2025.md": 0.40052631412616185,
         "posts/2026-01-17-orb.md": 0.2317627784289639,
-        "posts/2026-02-23-adulting.md": 0.38161854679848534,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.32627714459937796
+        "posts/2026-02-22-adulting.md": 0.38161854679848534,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.32627714459937796,
+        "posts/2026-02-24-akotsk-s1.md": 0.2855968001455793
       },
       "top_similar": [
         {
@@ -74647,7 +74647,6 @@
         0.011921324,
         -0.01588936
       ],
-      "updated_at": "2026-02-23T21:13:27.245934+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2893032714087731,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2258033657241542,
@@ -74738,8 +74737,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.35395939121338793,
         "posts/2026-01-01-ac2025.md": 0.38809400895494006,
         "posts/2026-01-17-orb.md": 0.20022145781549036,
-        "posts/2026-02-23-adulting.md": 0.27728729861546886,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.32713527018639404
+        "posts/2026-02-22-adulting.md": 0.27728729861546886,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.32713527018639404,
+        "posts/2026-02-24-akotsk-s1.md": 0.18067525507471463
       },
       "top_similar": [
         {
@@ -75537,7 +75537,6 @@
         -0.07883187,
         -0.028716471
       ],
-      "updated_at": "2026-02-23T21:13:27.245935+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.26798769836543707,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20262599288610345,
@@ -75628,8 +75627,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.27139537858546503,
         "posts/2026-01-01-ac2025.md": 0.40128525076981886,
         "posts/2026-01-17-orb.md": 0.2996436670424722,
-        "posts/2026-02-23-adulting.md": 0.46814498013356715,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.27743466906214337
+        "posts/2026-02-22-adulting.md": 0.46814498013356715,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.27743466906214337,
+        "posts/2026-02-24-akotsk-s1.md": 0.2809537159172466
       },
       "top_similar": [
         {
@@ -76427,7 +76427,6 @@
         0.0054565277,
         -0.034048557
       ],
-      "updated_at": "2026-02-23T21:13:27.245936+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2670521147727796,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2428746061809071,
@@ -76518,8 +76517,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.30546752751217315,
         "posts/2026-01-01-ac2025.md": 0.3457920672314275,
         "posts/2026-01-17-orb.md": 0.1882419757863617,
-        "posts/2026-02-23-adulting.md": 0.27967361002096375,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2888153867151976
+        "posts/2026-02-22-adulting.md": 0.27967361002096375,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2888153867151976,
+        "posts/2026-02-24-akotsk-s1.md": 0.172583693074969
       },
       "top_similar": [
         {
@@ -77317,7 +77317,6 @@
         -0.07308003,
         -0.053932242
       ],
-      "updated_at": "2026-02-23T21:13:27.245937+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.23798636172923307,
         "posts/2022-09-14-shapley-and-explainability.md": 0.1901452918575968,
@@ -77408,8 +77407,9 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.2761903286683156,
         "posts/2026-01-01-ac2025.md": 0.42471076888669446,
         "posts/2026-01-17-orb.md": 0.2534212976484163,
-        "posts/2026-02-23-adulting.md": 0.39063965844299686,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.25520993678529014
+        "posts/2026-02-22-adulting.md": 0.39063965844299686,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.25520993678529014,
+        "posts/2026-02-24-akotsk-s1.md": 0.2428421834128254
       },
       "top_similar": [
         {
@@ -78207,7 +78207,6 @@
         0.0020656756,
         0.013653437
       ],
-      "updated_at": "2026-02-23T21:13:27.245937+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.31654773357607624,
         "posts/2022-09-14-shapley-and-explainability.md": 0.24128834520576783,
@@ -78298,8 +78297,9 @@
         "posts/2025-10-31-halloween-and-lost-candies.md": 0.2761903286683156,
         "posts/2026-01-01-ac2025.md": 0.46003993590056863,
         "posts/2026-01-17-orb.md": 0.23586705504911384,
-        "posts/2026-02-23-adulting.md": 0.28897836375048913,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.30040635305734015
+        "posts/2026-02-22-adulting.md": 0.28897836375048913,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.30040635305734015,
+        "posts/2026-02-24-akotsk-s1.md": 0.3653315688063044
       },
       "top_similar": [
         {
@@ -79097,7 +79097,6 @@
         -0.013715801,
         -0.040963054
       ],
-      "updated_at": "2026-02-23T21:13:27.245938+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3643865677129122,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3181691052860836,
@@ -79188,8 +79187,9 @@
         "posts/2025-10-31-halloween-and-lost-candies.md": 0.42471076888669446,
         "posts/2025-11-16-kobo-koreader-reset.md": 0.46003993590056863,
         "posts/2026-01-17-orb.md": 0.35734949687600354,
-        "posts/2026-02-23-adulting.md": 0.5495297835949869,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.2903985687289884
+        "posts/2026-02-22-adulting.md": 0.5495297835949869,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2903985687289884,
+        "posts/2026-02-24-akotsk-s1.md": 0.39112380628241133
       },
       "top_similar": [
         {
@@ -79987,7 +79987,6 @@
         0.00073268573,
         -0.0027410442
       ],
-      "updated_at": "2026-02-23T21:13:27.245939+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3361382581644895,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2502854217145751,
@@ -80078,8 +80077,9 @@
         "posts/2025-10-31-halloween-and-lost-candies.md": 0.2534212976484163,
         "posts/2025-11-16-kobo-koreader-reset.md": 0.23586705504911384,
         "posts/2026-01-01-ac2025.md": 0.35734949687600354,
-        "posts/2026-02-23-adulting.md": 0.31247825568317183,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.20231439919865774
+        "posts/2026-02-22-adulting.md": 0.31247825568317183,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.20231439919865774,
+        "posts/2026-02-24-akotsk-s1.md": 0.28378500091208225
       },
       "top_similar": [
         {
@@ -80102,10 +80102,10 @@
         }
       ]
     },
-    "posts/2026-02-23-adulting.md": {
+    "posts/2026-02-22-adulting.md": {
       "title": "Adulting",
       "slug": "adulting",
-      "content_path": "posts/2026-02-23-adulting",
+      "content_path": "posts/2026-02-22-adulting",
       "content_hash": "ac9d3094c5f94a91afc7092c45d9d25147263345792022be09fb9ff623030c2a",
       "embedding": [
         -0.030604493,
@@ -80877,7 +80877,7 @@
         -0.053578086,
         0.014347169
       ],
-      "updated_at": "2026-02-23T21:13:27.245941+00:00",
+      "updated_at": "2026-02-24T03:22:15.540019+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.31076708682711046,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25157951259909445,
@@ -80969,7 +80969,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.28897836375048913,
         "posts/2026-01-01-ac2025.md": 0.5495297835949869,
         "posts/2026-01-17-orb.md": 0.31247825568317183,
-        "posts/2026-02-24-hugo-rss-pretty-feed.md": 0.22081286924304422
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.22081286924304422,
+        "posts/2026-02-24-akotsk-s1.md": 0.3822218381667726
       },
       "top_similar": [
         {
@@ -80992,10 +80993,10 @@
         }
       ]
     },
-    "posts/2026-02-24-hugo-rss-pretty-feed.md": {
+    "posts/2026-02-23-hugo-rss-pretty-feed.md": {
       "title": "如何美化 Hugo 的 RSS",
       "slug": "hugo-rss-pretty-feed",
-      "content_path": "posts/2026-02-24-hugo-rss-pretty-feed",
+      "content_path": "posts/2026-02-23-hugo-rss-pretty-feed",
       "content_hash": "5c8c8540ae0d4b2257db707eaf3682021a673269a824a02b6f8508982341ed82",
       "embedding": [
         -0.083208375,
@@ -81767,7 +81768,7 @@
         -0.033818465,
         -0.022358561
       ],
-      "updated_at": "2026-02-23T16:29:14.710700+00:00",
+      "updated_at": "2026-02-24T03:22:15.650102+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2931366066584364,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2558193452558707,
@@ -81859,7 +81860,8 @@
         "posts/2025-11-16-kobo-koreader-reset.md": 0.30040635305734015,
         "posts/2026-01-01-ac2025.md": 0.2903985687289884,
         "posts/2026-01-17-orb.md": 0.20231439919865774,
-        "posts/2026-02-23-adulting.md": 0.22081286924304422
+        "posts/2026-02-22-adulting.md": 0.22081286924304422,
+        "posts/2026-02-24-akotsk-s1.md": 0.247878303033907
       },
       "top_similar": [
         {
@@ -81879,6 +81881,897 @@
           "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
           "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
           "score": 0.446614
+        }
+      ]
+    },
+    "posts/2026-02-24-akotsk-s1.md": {
+      "title": "七王国的骑士 第一季",
+      "slug": "a-knight-of-the-seven-kingdoms-s1",
+      "content_path": "posts/2026-02-24-akotsk-s1",
+      "content_hash": "4ffbab5283cce4ceb8b1094466491ba3619cfb7a4eeb5df14e8e0e2010544f70",
+      "embedding": [
+        -0.045408778,
+        0.0066232653,
+        0.0028169074,
+        -0.03989572,
+        -0.036181092,
+        -0.029516628,
+        0.00156701,
+        0.050244894,
+        -0.0235953,
+        -0.037625376,
+        0.026623486,
+        -0.058857303,
+        -0.0056794174,
+        -0.0350268,
+        -0.12370504,
+        -0.045309618,
+        0.017345767,
+        0.017146878,
+        -0.022512367,
+        -0.006551832,
+        0.03220998,
+        -0.0032894437,
+        -0.0075842435,
+        -0.014966268,
+        -0.07061818,
+        0.013431352,
+        0.05046253,
+        -0.042569745,
+        0.021059124,
+        0.037698843,
+        -0.011624967,
+        0.048265897,
+        -0.0046982244,
+        0.003182939,
+        0.020887977,
+        0.053197,
+        -0.06869893,
+        0.022141267,
+        -0.081155136,
+        0.032210913,
+        -0.007761368,
+        -0.0054217563,
+        -0.022387095,
+        0.0025621736,
+        -0.03488158,
+        -0.016875923,
+        0.06433439,
+        -0.047263663,
+        0.013170927,
+        -0.036671117,
+        0.06778284,
+        0.0853388,
+        -0.021681989,
+        0.0062777135,
+        -0.05102097,
+        -0.047061916,
+        -0.009426973,
+        0.018457731,
+        0.0013914183,
+        -0.04398889,
+        -0.053273145,
+        -0.060930897,
+        0.031380907,
+        -0.034119457,
+        0.055230092,
+        -0.0070016296,
+        -0.04114275,
+        0.0044206865,
+        -0.015245834,
+        0.11779626,
+        -0.0062127737,
+        0.008639319,
+        -0.015129538,
+        0.0547176,
+        0.15381409,
+        -0.008277041,
+        0.00852076,
+        -0.033758797,
+        -0.063697234,
+        0.026767911,
+        -0.013169794,
+        0.028821483,
+        -0.00056778145,
+        0.022717642,
+        0.0043082195,
+        -0.0020333063,
+        0.06469533,
+        -0.044351466,
+        0.03909512,
+        -0.016511766,
+        0.050147567,
+        0.036471657,
+        0.0049639945,
+        -0.030132353,
+        0.0627473,
+        -0.030354552,
+        -0.033445805,
+        -0.027484363,
+        0.04125705,
+        -0.0069997967,
+        0.013706787,
+        0.013082386,
+        0.021461705,
+        0.03724196,
+        0.064278804,
+        -0.019561302,
+        -0.005880133,
+        -0.004332369,
+        -0.012079267,
+        0.0022003748,
+        -0.042352922,
+        -0.044069007,
+        -0.0020000224,
+        0.07665416,
+        0.077461,
+        0.014674359,
+        0.028888913,
+        0.010459245,
+        -0.043047834,
+        0.01760929,
+        0.002906608,
+        -0.030704435,
+        -0.066436775,
+        0.029655846,
+        -0.020267779,
+        0.0364227,
+        0.061522957,
+        -0.011517673,
+        -0.01945029,
+        0.023090601,
+        0.033545054,
+        -0.021663,
+        -0.033954464,
+        -0.03375311,
+        -0.02349595,
+        -0.0038242114,
+        0.041394018,
+        0.08310857,
+        -0.0005363781,
+        0.007178444,
+        0.026786601,
+        -0.055780444,
+        -0.023727505,
+        0.032326795,
+        0.008583505,
+        0.027160123,
+        0.003769185,
+        -0.018955719,
+        -0.0077138217,
+        -0.0099217,
+        -0.007504067,
+        0.090220176,
+        -0.039406475,
+        0.00973305,
+        -0.01794315,
+        -0.010720531,
+        -0.015723003,
+        -0.031837463,
+        -0.0075553963,
+        0.02337891,
+        0.0320252,
+        -0.020437758,
+        -0.010695496,
+        -0.012401221,
+        0.051073324,
+        0.020318553,
+        -0.0014989224,
+        -0.012395483,
+        0.03251768,
+        -0.034356184,
+        -0.056536205,
+        -0.019216208,
+        0.038649246,
+        0.039904244,
+        -0.060447898,
+        0.018560331,
+        -0.04550017,
+        -0.021508718,
+        0.15780586,
+        -0.01657173,
+        0.034636877,
+        0.0064438316,
+        -0.012595812,
+        0.020091437,
+        0.008564306,
+        0.007785299,
+        -0.009222301,
+        0.057598725,
+        0.005739904,
+        -0.025982402,
+        0.021174822,
+        -0.02975931,
+        -0.019596826,
+        -0.0064531136,
+        0.0053481087,
+        0.051443692,
+        0.041778106,
+        0.0014418088,
+        0.046643823,
+        -0.004730727,
+        0.006117864,
+        -0.042000078,
+        -0.018431801,
+        -0.016631726,
+        0.06852607,
+        -0.018941058,
+        -0.050164863,
+        -0.017168496,
+        -0.0046452824,
+        0.07917193,
+        0.04964483,
+        0.008577878,
+        0.008912726,
+        0.017984962,
+        -0.04911968,
+        -0.0018698268,
+        -0.060941074,
+        0.029230528,
+        0.0014938067,
+        -0.011625175,
+        -0.017157005,
+        -0.021622647,
+        -0.03679708,
+        -0.011633294,
+        0.013931979,
+        0.041084755,
+        0.049043395,
+        0.005563415,
+        0.03384502,
+        0.00963727,
+        0.0038998316,
+        -0.005644495,
+        -0.00028255512,
+        0.049420286,
+        0.011906731,
+        0.031145275,
+        -0.045882836,
+        -0.004489915,
+        -0.027197784,
+        0.060453255,
+        0.0051490758,
+        -0.006502363,
+        0.032758743,
+        0.024440834,
+        -0.0044469363,
+        -0.06740334,
+        -0.009550223,
+        -0.026008042,
+        -0.016427107,
+        -0.008127905,
+        -0.02460911,
+        0.04099999,
+        0.019114172,
+        0.034361634,
+        -0.0074742334,
+        0.0340646,
+        0.011034452,
+        -0.049857765,
+        -0.019792695,
+        0.0031644988,
+        0.05736176,
+        -0.016347492,
+        -0.048826896,
+        0.014944263,
+        0.0059445226,
+        -0.039286993,
+        -0.0041257553,
+        0.025599863,
+        -0.04350305,
+        -0.008369606,
+        0.0030048185,
+        -0.044165853,
+        0.09808587,
+        -0.021222606,
+        -0.025045132,
+        0.011273017,
+        0.031033982,
+        -0.031958733,
+        0.07575153,
+        0.0194071,
+        0.015642049,
+        0.026160445,
+        -0.044384055,
+        0.027696963,
+        -0.011828647,
+        -0.045565747,
+        0.028397083,
+        -0.013008683,
+        -0.029205456,
+        0.0054892064,
+        0.014552101,
+        -0.014264473,
+        0.064922035,
+        -0.033844236,
+        -0.008420895,
+        0.0050455364,
+        -0.06825945,
+        0.04608893,
+        -0.017624587,
+        0.004037761,
+        0.056912947,
+        0.022524422,
+        -0.027213218,
+        -0.003293942,
+        0.0044180844,
+        0.040748965,
+        -0.05969029,
+        -0.08349043,
+        -0.064148046,
+        0.0046518114,
+        0.01481586,
+        -0.015639883,
+        0.009507429,
+        -0.009897591,
+        0.018711407,
+        -0.01988447,
+        -0.022105502,
+        0.019703189,
+        0.037334487,
+        -0.012040809,
+        0.036121067,
+        0.032001786,
+        0.0012776108,
+        -0.022080312,
+        0.03423907,
+        -0.048584234,
+        0.021849597,
+        0.020097546,
+        -0.07051816,
+        -0.04961633,
+        0.015538211,
+        0.0023263367,
+        0.031757105,
+        -0.054285064,
+        -0.041339975,
+        -0.008517094,
+        -0.038656447,
+        0.058891788,
+        -0.019612577,
+        0.0029482066,
+        0.01400409,
+        -0.019741787,
+        -0.015293616,
+        0.010411157,
+        0.008509133,
+        4.7760393e-05,
+        0.033665646,
+        0.031360507,
+        -0.008968191,
+        -0.020632625,
+        -0.033443,
+        0.024311889,
+        -0.0041080555,
+        0.05349491,
+        -0.05939588,
+        0.0057099955,
+        -0.014594427,
+        0.006656486,
+        0.0713831,
+        0.029116515,
+        -0.031006305,
+        -0.083065845,
+        0.0034555572,
+        -0.0039947135,
+        -0.026113765,
+        -0.080007985,
+        0.049685933,
+        -0.011864538,
+        -0.019208184,
+        -0.02744172,
+        -0.014584184,
+        -0.034342762,
+        0.011050931,
+        -0.0031786093,
+        -0.01484869,
+        -0.065717466,
+        -0.048761804,
+        -0.031063309,
+        0.023705503,
+        -0.009880382,
+        0.013957424,
+        -0.0046242625,
+        0.009326345,
+        0.008171585,
+        -0.057132058,
+        0.0067993253,
+        0.014348957,
+        0.01867036,
+        -0.019183582,
+        0.02618035,
+        -0.013352338,
+        0.031169241,
+        -0.020509027,
+        0.022462817,
+        -0.041892096,
+        0.009864238,
+        -0.033727862,
+        -0.02567361,
+        -0.015130138,
+        0.04317505,
+        0.0060678627,
+        0.028551854,
+        -0.06756573,
+        -0.053235553,
+        0.029077167,
+        0.016924277,
+        -0.014767237,
+        0.004794006,
+        -0.0035625186,
+        -0.028666636,
+        -0.008726244,
+        -0.027700288,
+        0.028668202,
+        -0.03472681,
+        0.07245612,
+        0.0019188606,
+        0.009826385,
+        0.036211703,
+        0.026541306,
+        -0.025957368,
+        0.0741092,
+        -0.019911444,
+        -0.01715814,
+        0.0069254586,
+        0.037578754,
+        0.011936491,
+        -0.034412634,
+        0.031271473,
+        0.033600736,
+        -0.030421352,
+        -0.062643506,
+        -0.030670047,
+        -0.0005096052,
+        0.014563309,
+        0.0010434012,
+        -0.06428756,
+        -0.014842154,
+        -0.0036221084,
+        0.00041329372,
+        0.09418861,
+        -0.07171665,
+        -0.048302975,
+        0.008895245,
+        0.0013400846,
+        0.079395436,
+        0.010683629,
+        -0.005229001,
+        -0.006466833,
+        -0.016988695,
+        -0.019467916,
+        -0.0023218906,
+        0.00022611125,
+        -0.07219068,
+        0.004517359,
+        -0.016615232,
+        -0.014634523,
+        -0.014303429,
+        -0.04261189,
+        0.03631818,
+        -0.045272805,
+        -0.014254098,
+        0.021926673,
+        -0.014682834,
+        0.006223727,
+        0.008515717,
+        0.0024546909,
+        0.022467323,
+        0.010629493,
+        -0.04266859,
+        -0.009650103,
+        -0.023624944,
+        0.062364686,
+        0.032623414,
+        -0.034690738,
+        -0.043375622,
+        -0.05793086,
+        0.012832433,
+        0.06922373,
+        -0.010039204,
+        -0.009066536,
+        0.055751406,
+        -0.027536822,
+        0.052064627,
+        -0.06048921,
+        0.04349538,
+        0.05762657,
+        -0.082860135,
+        -0.022946337,
+        -0.07385287,
+        -0.037930075,
+        0.0031554126,
+        -0.01586311,
+        0.040894635,
+        0.037222706,
+        -0.024038324,
+        -0.010622295,
+        0.03983319,
+        0.002807273,
+        0.01808567,
+        -0.03164812,
+        -0.01706789,
+        -0.0010486782,
+        -0.0135337645,
+        -0.053010035,
+        -0.07393272,
+        -0.023378313,
+        0.0058953655,
+        -0.048466727,
+        -0.026445955,
+        -0.0008443459,
+        0.010523034,
+        -0.028685424,
+        0.011567922,
+        0.041286472,
+        0.037531145,
+        -0.0037568742,
+        -0.03174192,
+        -0.00012190938,
+        0.028215956,
+        0.026280414,
+        0.037860278,
+        0.0020538606,
+        -0.027995901,
+        0.012405944,
+        0.019744197,
+        -0.04586675,
+        -0.025818916,
+        0.060591582,
+        0.05152292,
+        0.017199459,
+        -0.005827989,
+        -0.019492485,
+        0.07303198,
+        -0.012077473,
+        0.06009906,
+        0.064919755,
+        -0.013191718,
+        -0.059086423,
+        0.037736475,
+        -0.009346936,
+        0.012025331,
+        -0.03774158,
+        0.009901515,
+        -0.006967667,
+        -0.009017126,
+        -0.060246903,
+        0.080853745,
+        0.02912006,
+        -0.036108583,
+        -0.010848865,
+        0.0316145,
+        0.034164086,
+        0.047310263,
+        -0.008719138,
+        -0.0141573185,
+        -0.04186997,
+        0.027872149,
+        -0.021595886,
+        0.039494544,
+        0.020238943,
+        0.0063867667,
+        -0.032497358,
+        -0.01750128,
+        -0.004066281,
+        -0.022863489,
+        -0.0021176282,
+        0.037918687,
+        -0.031701993,
+        -0.011687668,
+        -0.023602486,
+        -0.0017046697,
+        0.000718738,
+        0.06951175,
+        -0.010990263,
+        0.047797006,
+        -0.112859316,
+        -0.04617975,
+        -0.023617325,
+        0.05270164,
+        0.0847744,
+        0.08358542,
+        -0.0016277335,
+        0.026578354,
+        0.005048816,
+        0.01253057,
+        -0.005005425,
+        0.0116052115,
+        0.018696858,
+        0.038583785,
+        -0.03986749,
+        -0.02165253,
+        -0.032895155,
+        -0.048008535,
+        0.028779516,
+        0.059200656,
+        -0.054565303,
+        -0.026008692,
+        0.038391538,
+        0.026304413,
+        0.005453363,
+        -0.019403737,
+        0.030270841,
+        0.037612718,
+        0.009476446,
+        0.038491275,
+        0.007868116,
+        0.054747377,
+        0.030533684,
+        -0.0032158517,
+        0.0020272578,
+        -0.036963817,
+        -0.017686483,
+        -0.0115224365,
+        0.03524132,
+        -0.003055412,
+        0.0098835975,
+        0.0444604,
+        -0.11021071,
+        0.018031053,
+        -0.072170295,
+        0.08325309,
+        0.05444906,
+        -0.05193,
+        -0.05986614,
+        0.014169891,
+        0.0039691003,
+        -0.009429962,
+        -0.0096625555,
+        0.02908062,
+        0.03675924,
+        0.0010017548,
+        -0.0007066318,
+        0.015678575,
+        0.03445934,
+        -0.031020455,
+        -0.020362705,
+        0.006043264,
+        0.101856045,
+        0.008049844,
+        0.026552442,
+        0.014016882,
+        -0.04366956,
+        0.05559162,
+        0.07345936,
+        -0.01321741,
+        -0.052394893,
+        -0.031185852,
+        -0.0094326055,
+        0.02822878,
+        -0.015657604,
+        -0.008168172,
+        0.041209172,
+        0.005275005,
+        0.045333613,
+        0.014668004,
+        -0.029654909,
+        0.0039589372,
+        0.0049922927,
+        0.034790926,
+        0.05086767,
+        0.0026401002,
+        0.025393786,
+        0.0044210395,
+        0.02586396,
+        -0.022293886,
+        -0.04566506,
+        0.01617901,
+        0.07018891,
+        -0.001612912,
+        0.028418567,
+        0.025612235,
+        0.07352775,
+        0.03379204,
+        -0.018938893,
+        0.034475826,
+        -0.022702754,
+        -0.033771593,
+        -0.017191052,
+        -0.028400097,
+        0.05160909,
+        -0.02114253,
+        -0.010039047,
+        -0.016132519,
+        0.0025267366,
+        0.037612744,
+        -0.013291027,
+        0.016860511,
+        0.00044754506,
+        0.03792294,
+        -0.05305863,
+        1.6088947e-05,
+        0.009797425,
+        0.032592285,
+        -0.022496626,
+        0.045448586,
+        -0.015836082,
+        -0.0073627825,
+        -0.042531103,
+        -0.0120816305,
+        0.07557146,
+        0.008109455,
+        -0.0001930714,
+        0.01848038,
+        -0.0024935547,
+        -0.043077163,
+        -0.03454299,
+        0.044793095,
+        -0.0468248,
+        -0.011776674,
+        0.032415494,
+        -0.01884803,
+        0.0058238395,
+        0.02599321,
+        0.027643448,
+        0.0012706486,
+        -0.0021438927,
+        -0.022636909,
+        -0.027379995,
+        -0.037681084,
+        0.026714997,
+        -0.062789105,
+        -0.00296907,
+        0.05151637,
+        0.015675858,
+        -0.006444592,
+        0.023671973,
+        0.031211147,
+        0.02511791,
+        0.02791115,
+        0.029621491,
+        0.011057998,
+        0.031253953,
+        0.0151635455,
+        -0.0008047456,
+        -0.0061384,
+        0.05046165,
+        0.018233478,
+        -0.06614034,
+        0.018148337,
+        0.030411812,
+        0.0027407452,
+        -0.050080977,
+        0.05823577,
+        -0.06405053,
+        0.044984397,
+        -0.008653225,
+        -0.029696561,
+        -0.01889235,
+        0.0008718136,
+        0.025520513,
+        0.0028993753,
+        -0.04649653,
+        0.07235856,
+        0.023826046,
+        0.043218587,
+        0.021428367,
+        -0.019212391,
+        0.037009824,
+        0.024989294,
+        -0.0070828847,
+        -0.012204162,
+        0.007370761,
+        0.0146145,
+        -0.015013412,
+        0.010499257,
+        0.0135975825,
+        0.026681101,
+        0.04605411
+      ],
+      "updated_at": "2026-02-24T03:22:15.793460+00:00",
+      "similarities": {
+        "posts/2022-09-05-sentiment-analysis.md": 0.28806583464247015,
+        "posts/2022-09-14-shapley-and-explainability.md": 0.21415337226298067,
+        "posts/2023-01-04-ac2022.md": 0.42626058484940105,
+        "posts/2023-01-06-rime.md": 0.29649482384403114,
+        "posts/2023-01-08-reset-conda-env.md": 0.2544728340561212,
+        "posts/2023-01-09-group-by-and-rename.md": 0.20943390485435512,
+        "posts/2023-01-14-snippets.md": 0.2338750803301936,
+        "posts/2023-01-24-git-review.md": 0.2337938150053148,
+        "posts/2023-01-25-textattack.md": 0.2096769810189781,
+        "posts/2023-01-27-finding-the-python-interpreter.md": 0.24910508898377465,
+        "posts/2023-02-23-kbd-and-highlight-in-hugo.md": 0.23474962215062833,
+        "posts/2023-03-26-vertical-layout.md": 0.27718819791448845,
+        "posts/2023-04-02-commit-messages.md": 0.1652137609846902,
+        "posts/2023-05-18-climate-plus.md": 0.13975921846492267,
+        "posts/2023-05-20-chitchat.md": 0.2119499454575488,
+        "posts/2023-06-29-kindle-oasis.md": 0.3911595258153332,
+        "posts/2023-09-26-starship.md": 0.32168707407006875,
+        "posts/2023-10-01-learn-how-to-type.md": 0.4280652716263196,
+        "posts/2023-10-29-switch-apple-store.md": 0.2577371625244439,
+        "posts/2023-11-20-app-defaults-2023.md": 0.30647780622020554,
+        "posts/2023-12-31-ac2023.md": 0.3764207271766113,
+        "posts/2024-01-30-omz-to-fish.md": 0.2546081959762008,
+        "posts/2024-02-29-distillm-01.md": 0.18094141036983216,
+        "posts/2024-03-31-distillm-02.md": 0.2315808247375952,
+        "posts/2024-03-31-setapp-succession.md": 0.2607780619968888,
+        "posts/2024-05-01-distillm-03.md": 0.22712991064273735,
+        "posts/2024-05-09-shuangpin.md": 0.3207665981340909,
+        "posts/2024-08-26-ipod-import.md": 0.3111159793718831,
+        "posts/2024-12-01-wukong.md": 0.38354955685480957,
+        "posts/2024-12-03-app-defaults-2024.md": 0.3250695223229167,
+        "posts/2024-12-31-chimichurri.md": 0.15776018762795008,
+        "posts/2024-12-31-ipod-mod.md": 0.2995302328674481,
+        "posts/2025-01-01-ac2024.md": 0.42100481927943795,
+        "posts/2025-02-17-dont-make-decisions-for-me.md": 0.26083205181757046,
+        "posts/2025-03-04-make-internet-experience-great-again.md": 0.4213385821864464,
+        "posts/2025-03-31-202503.md": 0.420839095188396,
+        "posts/2025-04-07-neodb-shortcode.md": 0.2963224843250222,
+        "posts/2025-04-09-neodb-shortcode-fixed.md": 0.31225681372496483,
+        "posts/2025-05-14-day-one-migration.md": 0.3164115610693937,
+        "posts/2025-06-16-daikon.md": 0.2366294955051376,
+        "posts/2025-06-17-ears.md": 0.27356316081128645,
+        "posts/2025-06-18-goodbye-kindle.md": 0.3800373908489063,
+        "posts/2025-06-19-hobonichi.md": 0.38261941430821894,
+        "posts/2025-06-20-games-i-played-in-june.md": 0.40747775096035327,
+        "posts/2025-06-21-wallpaper-installation.md": 0.308326184270084,
+        "posts/2025-06-22-brisket.md": 0.3423207001364255,
+        "posts/2025-06-23-nba-finals.md": 0.29995585800454727,
+        "posts/2025-06-24-time-capsule.md": 0.2508351273634281,
+        "posts/2025-06-26-f1-the-movie.md": 0.3603960531117565,
+        "posts/2025-06-27-eat-well.md": 0.26009924079566193,
+        "posts/2025-06-30-drafts-action-to-hugo.md": 0.3173977360663343,
+        "posts/2025-07-02-turbulence.md": 0.24873062887237754,
+        "posts/2025-07-04-uncharted.md": 0.32724712607249,
+        "posts/2025-07-05-family-days.md": 0.20832585884357643,
+        "posts/2025-07-06-speed-note-taking.md": 0.31834040738027,
+        "posts/2025-07-07-two-watches.md": 0.3030762125233724,
+        "posts/2025-07-09-iceland.md": 0.3535936449630654,
+        "posts/2025-07-11-daikon-2.md": 0.23407066301304855,
+        "posts/2025-07-13-seven-point.md": 0.38284230796787855,
+        "posts/2025-07-23-x-rant.md": 0.28434829075121265,
+        "posts/2025-07-26-weekend-problem-solving-session.md": 0.39205167781846695,
+        "posts/2025-07-27-bball-analytics.md": 0.3016616959460741,
+        "posts/2025-07-29-books-preordered.md": 0.4437165559914083,
+        "posts/2025-08-07-things-im-not-doing-anymore.md": 0.3470063987919269,
+        "posts/2025-08-13-other-things.md": 0.29297727577304455,
+        "posts/2025-08-15-other-things-ii.md": 0.2731460798581212,
+        "posts/2025-08-16-best-time-to-be-a-man-united-fan-possibly.md": 0.34996794997045916,
+        "posts/2025-08-17-babysitting-book-challenge.md": 0.36703336971257405,
+        "posts/2025-08-20-on-cooking.md": 0.37390917458103873,
+        "posts/2025-08-21-anti-consumerism.md": 0.2476390296267963,
+        "posts/2025-08-22-rehire.md": 0.3230216626889375,
+        "posts/2025-08-25-kojimas-memes.md": 0.4642961741191939,
+        "posts/2025-08-29-hardware-bandwidth.md": 0.33935622551782546,
+        "posts/2025-08-29-orange-espresso-tonic.md": 0.2799814914875788,
+        "posts/2025-09-01-my-productivity-workflow-2025.md": 0.45070765340703317,
+        "posts/2025-09-06-embrace-the-white-space.md": 0.4041846035856778,
+        "posts/2025-09-10-cribsheet.md": 0.33730455032208956,
+        "posts/2025-09-19-late-night-food.md": 0.3634432472802415,
+        "posts/2025-09-28-margherita-1.md": 0.2711517778749665,
+        "posts/2025-10-03-stardew-valley-concert.md": 0.27778494812495436,
+        "posts/2025-10-04-ipod-with-rockbox.md": 0.2504025920879684,
+        "posts/2025-10-15-dictionary.md": 0.3041765302648448,
+        "posts/2025-10-16-doom-emacs-macos-installation.md": 0.2855968001455793,
+        "posts/2025-10-16-tahoe-menu-bar.md": 0.18067525507471463,
+        "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.2809537159172466,
+        "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.172583693074969,
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.2428421834128254,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.3653315688063044,
+        "posts/2026-01-01-ac2025.md": 0.39112380628241133,
+        "posts/2026-01-17-orb.md": 0.28378500091208225,
+        "posts/2026-02-22-adulting.md": 0.3822218381667726,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.247878303033907
+      },
+      "top_similar": [
+        {
+          "post_key": "posts/2025-08-25-kojimas-memes.md",
+          "content_path": "posts/2025-08-25-kojimas-memes",
+          "title": "小岛的 me+me",
+          "score": 0.464296
+        },
+        {
+          "post_key": "posts/2025-09-01-my-productivity-workflow-2025.md",
+          "content_path": "posts/2025-09-01-my-productivity-workflow-2025",
+          "title": "信息流 (2025)",
+          "score": 0.450708
+        },
+        {
+          "post_key": "posts/2025-07-29-books-preordered.md",
+          "content_path": "posts/2025-07-29-books-preordered",
+          "title": "下半年期待的新书",
+          "score": 0.443717
         }
       ]
     }
