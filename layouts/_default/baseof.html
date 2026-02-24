@@ -41,6 +41,29 @@
     <main class="{{ if .IsHome }}home{{ end }}">{{- block "main" . }}{{- end }}</main>
     <footer>{{- partial "footer.html" . -}}</footer>
 
+    <script>
+    (function() {
+        function initHolographic() {
+            document.querySelectorAll('.infobox-image-container').forEach(function(el) {
+                if (el.dataset.holoInit) return;
+                el.dataset.holoInit = '1';
+                el.addEventListener('mousemove', function(e) {
+                    var rect = el.getBoundingClientRect();
+                    var cx = rect.left + rect.width / 2;
+                    var cy = rect.top + rect.height / 2;
+                    var angle = Math.atan2(e.clientY - cy, e.clientX - cx);
+                    el.style.setProperty('--holo-angle', (angle * 180 / Math.PI + 90) + 'deg');
+                });
+                el.addEventListener('mouseleave', function() {
+                    el.style.removeProperty('--holo-angle');
+                });
+            });
+        }
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initHolographic);
+        else initHolographic();
+    })();
+    </script>
+
     <!-- A partial to be overwritten by the user.
         Simply place a custom_body.html into
         your local /layouts/partials-directory -->

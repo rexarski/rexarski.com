@@ -96,8 +96,8 @@
 
   function buildVoidAndClusterMap(size) {
     var n = size * size;
-    var kernel = gaussianKernel(9, 1.5);
-    var maxIter = 2500;
+    var kernel = gaussianKernel(5, 1.5);
+    var maxIter = 800;
 
     // Random initial binary pattern with mean < 0.5 (fewer 1s)
     var pattern = [];
@@ -175,7 +175,7 @@
   }
 
   function getBlueNoiseMap() {
-    if (!blueNoiseMap) blueNoiseMap = buildVoidAndClusterMap(32);
+    if (!blueNoiseMap) blueNoiseMap = buildVoidAndClusterMap(20);
     return blueNoiseMap;
   }
 
@@ -270,9 +270,12 @@
       var rotateY = x * 30;
       var rotateX = -y * 30;
       inner.style.transform = 'rotateX(' + rotateX + 'deg) rotateY(' + rotateY + 'deg)';
+      var angle = Math.atan2(e.clientY - (rect.top + rect.height / 2), e.clientX - (rect.left + rect.width / 2));
+      wrap.style.setProperty('--holo-angle', (angle * 180 / Math.PI + 90) + 'deg');
     });
     wrap.addEventListener('mouseleave', function() {
       inner.style.transform = 'rotateX(0deg) rotateY(0deg)';
+      wrap.style.removeProperty('--holo-angle');
     });
   }
 })();
