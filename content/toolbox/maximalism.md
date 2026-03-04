@@ -73,6 +73,7 @@ weight = 2
 - [Skim](https://skim-app.sourceforge.io)
 - [Sleeve 2](https://replay.software/sleeve)
 - [Steam](https://store.steampowered.com)
+- [Synthing](https://syncthing.net/)
 - [Telegram](https://www.telegram.org)
 - [Transmission](https://transmissionbt.com)
 - [undercut-f1](https://github.com/JustAman62/undercut-f1)
