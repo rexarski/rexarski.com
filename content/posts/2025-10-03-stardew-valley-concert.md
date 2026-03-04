@@ -1,5 +1,5 @@
 ---
-title: "20251003 星露谷物语演奏会"
+title: "星露谷物语演奏会"
 date: 2025-10-03T23:37:47-04:00
 description: "难得「旺」仔。"
 slug: "stardew-valley-concert"

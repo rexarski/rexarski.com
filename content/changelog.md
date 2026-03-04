@@ -5,6 +5,15 @@ menu = "not-main"
 
 # <pre>changelog</pre>
 
+- 2026-03-04
+  - 样式（style partial）
+    - 设计 token 更新：暖色中性色板、新增 `--surface`、统一 accent/边框/代码块等变量
+    - 全站 SVG 颗粒叠加层（fractalNoise）、页面顶部 2px accent 条
+    - 正文 max-width 680px、line-height 1.72，标题 h1–h6 版式与 serif 统一
+    - 导航下划线动效、当前页高亮、RSS 黄线样式
+    - 博文列表入场动画、关系图 overlay、dithering 图与 Balatro 风格 foil 效果
+    - Now 页热力图 / 进度条 / 轮播 / 签名条样式
+    - 暗色模式（系统偏好 + force-dark）及 heatmap、RSS 等组件适配
 - 2026-02-23
   - 新增
     - 头部 SVG 字标 + 站点描述
