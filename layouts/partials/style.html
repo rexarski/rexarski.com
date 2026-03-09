@@ -1,11 +1,18 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+    @font-face {
+        font-family: 'Zpix';
+        src: url('/fonts/zpix.ttf') format('truetype');
+        font-display: swap;
+    }
+
     /* ─── Design Tokens — Light Mode ─────────────────────────── */
     :root {
         --font-body: 'Atkinson Hyperlegible Next', sans-serif;
         --font-serif: 'Fraunces', serif;
         --font-mono: 'Victor Mono', monospace;
+        --font-zpix: 'Zpix', monospace;
 
         --bg: #f8f5f1;
         --surface: #f0ece6;
@@ -70,6 +77,10 @@
         line-height: 1.72;
         color: var(--text);
         overflow-y: scroll;
+    }
+
+    main {
+        margin-top: 2rem;
     }
 
     /* ─── Typography ─────────────────────────────────────────── */
@@ -295,10 +306,35 @@
         text-decoration-thickness: 2px;
     }
 
-    .single-post content a[href^="http"]::after {
-        content: ' ⤴';
-        font-size: 0.72em;
-        opacity: 0.7;
+    /* Changelog: 最近三条展开，其余按年份折叠 */
+    .changelog-body details.changelog-year {
+        margin: 1rem 0 0;
+    }
+
+    .changelog-body details.changelog-year summary {
+        cursor: pointer;
+        font-weight: 600;
+        color: var(--heading);
+        list-style: none;
+    }
+
+    .changelog-body details.changelog-year summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .changelog-body details.changelog-year summary::before {
+        content: '▶ ';
+        display: inline-block;
+        margin-right: 0.25em;
+    }
+
+    .changelog-body details.changelog-year[open] summary::before {
+        content: '▼ ';
+    }
+
+    .changelog-body .changelog-year-list {
+        margin: 0.5rem 0 0;
+        padding-left: 1.25rem;
     }
 
     /* ─── Images ─────────────────────────────────────────────── */
@@ -606,46 +642,82 @@
         margin-right: 2rem;
     }
 
-    /* ─── Signature animation strip ──────────────────────────── */
-    .signature-animation {
-        margin: 2rem 0 1.5rem 0;
-        padding: 0;
+    /* ─── Moments page (LMNT.me/moments-style) ───────────────── */
+    .moments-page {
+        max-width: 42rem;
     }
 
-    .signature-animation-strip {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1.75rem;
-        padding: 1rem 0;
-        color: var(--accent);
+    .moments-title {
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
     }
 
-    .signature-animation-item {
-        display: inline-flex;
-        opacity: 0.6;
-        animation: signature-strip-sync 6s ease-in-out infinite;
+    .moments-intro {
+        margin-bottom: 1.5rem;
+        line-height: 1.6;
+        color: var(--text);
     }
 
-    .signature-animation-item:nth-child(1) { animation-delay: 0s; }
-    .signature-animation-item:nth-child(2) { animation-delay: -1.2s; }
-    .signature-animation-item:nth-child(3) { animation-delay: -2.4s; }
-    .signature-animation-item:nth-child(4) { animation-delay: -3.6s; }
-    .signature-animation-item:nth-child(5) { animation-delay: -4.8s; }
-
-    .signature-animation-item svg {
-        width: 2.5rem;
-        height: 2.5rem;
-        display: block;
-        object-fit: contain;
+    .moments-intro p {
+        margin-bottom: 0.5rem;
     }
 
-    @keyframes signature-strip-sync {
-        0%   { opacity: 0.95; }
-        15%  { opacity: 0.55; }
-        20%  { opacity: 0.55; }
-        35%  { opacity: 0.95; }
-        100% { opacity: 0.55; }
+    .moments-year {
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--heading);
+        margin: 2rem 0 0.5rem;
+    }
+
+    .moments-year:first-of-type {
+        margin-top: 0;
+    }
+
+    .moments-month {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--heading);
+        margin: 1.25rem 0 0.5rem;
+    }
+
+    .moments-entries {
+        list-style-type: disc;
+        padding-left: 1.5rem;
+        margin: 0 0 0.5rem;
+    }
+
+    .moments-entry {
+        margin-bottom: 0.25rem;
+        line-height: 1.5;
+    }
+
+    .moments-icon {
+        margin-right: 0.35em;
+    }
+
+    .moments-day {
+        display: inline-block;
+        min-width: 2.5ch;
+        font-variant-numeric: tabular-nums;
+    }
+
+    .moments-title-inline {
+        font-style: italic;
+    }
+
+    .moments-title-inline em {
+        font-style: italic;
+    }
+
+    .moments-note {
+        color: var(--muted);
+        font-size: 0.95rem;
+    }
+
+    .moments-empty {
+        color: var(--muted);
+        font-size: 0.95rem;
     }
 
     /* ─── Dithering photo + Balatro foil ─────────────────────── */
@@ -917,7 +989,7 @@
     .now-marquee-track {
         display: flex;
         width: max-content;
-        animation: now-marquee-scroll 40s linear infinite;
+        animation: now-marquee-scroll 25s linear infinite;
     }
 
     .now-marquee-track:hover {
@@ -963,15 +1035,14 @@
     .about-card {
         border: 1.5px solid var(--border);
         box-shadow: 2px 3px 0 rgba(60, 40, 20, 0.08);
-        border-radius: 0.5em;
+        border-radius: 0;
         padding: 1.1rem 1.25rem;
         margin: 1.25rem 0;
         background: var(--surface);
-        transition: transform 0.18s ease, box-shadow 0.18s ease;
+        transition: box-shadow 0.18s ease;
     }
 
     .about-card:hover {
-        transform: translateY(-2px);
         box-shadow: 3px 5px 0 rgba(60, 40, 20, 0.12);
     }
 
@@ -988,14 +1059,287 @@
 
     .about-card-body {
         font-size: 0.95rem;
+        line-height: 1.42;
     }
 
-    .about-card-body ul {
-        margin-bottom: 0;
+    .about-card-body p {
+        margin-bottom: 0.4rem;
     }
 
     .about-card-body p:last-child {
         margin-bottom: 0;
+    }
+
+    .about-card-body ul {
+        margin-bottom: 0;
+        margin-top: 0.25rem;
+    }
+
+    .about-card-body li {
+        margin-bottom: 0.15rem;
+    }
+
+    /* Colophon: render each font name in its typeface */
+    .about-card-body .font-atkinson { font-family: var(--font-body); }
+    .about-card-body .font-fraunces { font-family: var(--font-serif); }
+    .about-card-body .font-victor-mono { font-family: var(--font-mono); }
+    .about-card-body .font-zpix { font-family: var(--font-zpix); }
+
+    /* RPG character profile — single CRT unit (Fallout-style green/black) */
+    .rpg-character {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin: 1.25rem 0;
+        padding: 0;
+        background: #0a0c08;
+        border: 2px solid #1a2f1a;
+        border-radius: 18px;
+        font-family: var(--font-zpix);
+        font-size: 0.9rem;
+        color: #33cc33;
+        position: relative;
+        overflow: hidden;
+        box-shadow:
+            inset 0 0 48px rgba(0, 40, 0, 0.3),
+            inset 0 0 80px -20px rgba(0, 0, 0, 0.5),
+            inset 0 -28px 56px -12px rgba(0, 0, 0, 0.55),
+            inset 0 3px 0 rgba(80, 120, 80, 0.18);
+    }
+
+    /* 显像管玻璃：绿色蒙层 + 电视机弧面暗角（加强） */
+    .rpg-character::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        background-image:
+            radial-gradient(
+                ellipse 75% 70% at 50% 45%,
+                transparent 25%,
+                rgba(0, 0, 0, 0.2) 55%,
+                rgba(0, 0, 0, 0.45) 100%
+            ),
+            linear-gradient(180deg, rgba(0, 56, 0, 0.32) 0%, rgba(0, 90, 0, 0.22) 50%, rgba(0, 44, 0, 0.32) 100%);
+        pointer-events: none;
+    }
+
+    /* 显像管玻璃：扫描线 + 表面反光 */
+    .rpg-character::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        background-image:
+            linear-gradient(
+                155deg,
+                rgba(255, 255, 255, 0.12) 0%,
+                rgba(255, 255, 255, 0.04) 18%,
+                transparent 45%
+            ),
+            repeating-linear-gradient(
+                0deg,
+                transparent 0,
+                transparent 2px,
+                rgba(0, 0, 0, 0.12) 2px,
+                rgba(0, 0, 0, 0.12) 4px
+            );
+        pointer-events: none;
+    }
+
+    /* 整块屏幕面板：与整块背景一致，不单独设色避免分隔感 */
+    .rpg-character-panel {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        background: transparent;
+        margin: 0;
+        animation: crt-flicker 2.8s ease-in-out infinite;
+    }
+
+    .rpg-character-header {
+        flex-shrink: 0;
+        padding: 0.75rem 1rem 0.25rem;
+    }
+
+    .rpg-character-name {
+        display: block;
+        font-weight: 700;
+        color: #52ff52;
+        text-shadow: 0 0 8px rgba(82, 255, 82, 0.4);
+        letter-spacing: 0.05em;
+    }
+
+    .terminal-screen {
+        flex: 1;
+        min-height: 0;
+        height: 12rem;
+        overflow: auto;
+        padding: 0.6rem 1rem 0.75rem;
+        color: #33cc33;
+    }
+
+    .terminal-output {
+        font-family: var(--font-zpix);
+        font-size: 0.85rem;
+        line-height: 1.55;
+    }
+
+    .terminal-output p {
+        margin: 0 0 0.5rem;
+    }
+
+    .terminal-output p:last-child {
+        margin-bottom: 0;
+    }
+
+    .terminal-output .terminal-separator {
+        margin: 0 0 0.4rem;
+        color: #2db82d;
+        font-size: 0.9em;
+    }
+
+    .terminal-output ul,
+    .terminal-output ol {
+        margin: 0.35rem 0 0.75rem;
+        padding-left: 1.25rem;
+    }
+
+    .terminal-output ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .terminal-output ul li {
+        margin-bottom: 0.2rem;
+        color: #2db82d;
+    }
+
+    .terminal-output ul li::before {
+        content: '+ ';
+        color: #52ff52;
+    }
+
+    .terminal-output a {
+        color: #52ff52;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+
+    .terminal-output a:hover {
+        color: #6fff6f;
+    }
+
+    .terminal-output strong {
+        color: #52ff52;
+    }
+
+    .terminal-output h1,
+    .terminal-output h2 {
+        font-size: 0.95rem;
+        font-weight: 700;
+        margin: 0.75rem 0 0.35rem;
+        color: #52ff52;
+    }
+
+    .terminal-output h1:first-child,
+    .terminal-output h2:first-child {
+        margin-top: 0;
+    }
+
+    @keyframes crt-flicker {
+        0%, 100% { opacity: 1; filter: brightness(1); transform: translateX(0); }
+        1% { opacity: 0.94; filter: brightness(0.96); transform: translateX(0.2px); }
+        3% { opacity: 1; filter: brightness(1.04); transform: translateX(-0.15px); }
+        5% { opacity: 0.98; filter: brightness(0.98); transform: translateX(0); }
+        7% { opacity: 1; filter: brightness(1.02); transform: translateX(0.1px); }
+        10% { opacity: 0.96; filter: brightness(0.97); transform: translateX(-0.1px); }
+        12% { opacity: 1; filter: brightness(1); transform: translateX(0); }
+        42% { opacity: 1; filter: brightness(1); transform: translateX(0); }
+        44% { opacity: 0.95; filter: brightness(0.94); transform: translateX(-0.2px); }
+        46% { opacity: 1; filter: brightness(1.05); transform: translateX(0.15px); }
+        48% { opacity: 0.97; filter: brightness(0.99); transform: translateX(0); }
+        88% { opacity: 0.96; filter: brightness(0.97); transform: translateX(0.1px); }
+        91% { opacity: 1; filter: brightness(1.03); transform: translateX(-0.1px); }
+        94% { opacity: 0.98; filter: brightness(0.98); transform: translateX(0); }
+        97% { opacity: 1; filter: brightness(1); transform: translateX(0); }
+    }
+
+    .terminal-cursor {
+        display: inline-block;
+        width: 0.6em;
+        height: 1em;
+        margin-left: 2px;
+        vertical-align: text-bottom;
+        background: #52ff52;
+        animation: terminal-cursor-blink 0.8s step-end infinite;
+    }
+
+    @keyframes terminal-cursor-blink {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+    }
+
+    /* Terminal art 小人（与整块显像管风格一致） */
+    /* Art 与 header、terminal 同属 panel 一层，共享背景 */
+    .rpg-character-art {
+        overflow: auto;
+        padding: 0.75rem 1rem 0.5rem;
+    }
+
+    .rpg-character-ascii {
+        position: relative;
+        z-index: 1;
+        margin: 0;
+        font-family: var(--font-zpix);
+        font-size: 0.4rem;
+        line-height: 1.1;
+        color: #52ff52;
+        text-shadow: 0 0 8px rgba(82, 255, 82, 0.4);
+        letter-spacing: 0;
+        white-space: pre;
+    }
+
+    /* 移动端：布局与效果适配 */
+    @media screen and (max-width: 640px) {
+        .rpg-character {
+            border-radius: 14px;
+        }
+
+        .rpg-character-art {
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        .rpg-character-ascii {
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        .terminal-screen {
+            height: 11rem;
+        }
+
+        .rpg-character-panel {
+            animation-duration: 3.2s;
+        }
+
+        .rpg-character::after {
+            background: linear-gradient(
+                155deg,
+                rgba(255, 255, 255, 0.1) 0%,
+                rgba(255, 255, 255, 0.03) 18%,
+                transparent 45%
+            );
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .rpg-character-panel {
+            animation: none;
+        }
     }
 
     .now-kanban {
@@ -1460,36 +1804,36 @@
         opacity: 1;
     }
 
-    /* ─── Dark mode — system preference ─────────────────────── */
+    /* ─── Dark mode — system preference (dark blue–grey) ──────── */
     @media (prefers-color-scheme: dark) {
         body:not(.force-light):not(.force-dark) {
-            --bg: #181512;
-            --surface: #201d1a;
-            --text: #cdc7bf;
-            --heading: #e8e2da;
-            --link: #cdc7bf;
+            --bg: #151922;
+            --surface: #1c2030;
+            --text: #c8cdd6;
+            --heading: #e2e6ef;
+            --link: #c8cdd6;
             --accent: #7ab4d0;
-            --muted: #887f76;
-            --muted-strong: #a09590;
-            --border: #2d2924;
-            --table-border: #3a3530;
-            --code-bg: #242019;
-            --code-color: #cdc7bf;
-            --pre-code-color: #cdc7bf;
+            --muted: #8a8f9e;
+            --muted-strong: #9ca3b2;
+            --border: #2a3142;
+            --table-border: #363d50;
+            --code-bg: #1a1e2c;
+            --code-color: #c8cdd6;
+            --pre-code-color: #c8cdd6;
             --blockquote-border: #7ab4d0;
-            --mark-bg: #8a6d00;
-            --mark-text: #fff;
-            --toc-frame: #887f76;
-            --toc-content-color: #887f76;
-            --toc-hover-bg: #6b5400;
-            --toc-hover-text: #fff;
-            --nav-border: #2d2924;
-            --nav-label-color: #a09590;
-            --nav-title-color: #cdc7bf;
-            --nav-title-hover: #e8e2da;
-            --helptext: #a09590;
-            --form-bg: #201d1a;
-            --form-text: #cdc7bf;
+            --mark-bg: #5a6a8a;
+            --mark-text: #e2e6ef;
+            --toc-frame: #8a8f9e;
+            --toc-content-color: #8a8f9e;
+            --toc-hover-bg: #3a4560;
+            --toc-hover-text: #e2e6ef;
+            --nav-border: #2a3142;
+            --nav-label-color: #9ca3b2;
+            --nav-title-color: #c8cdd6;
+            --nav-title-hover: #e2e6ef;
+            --helptext: #9ca3b2;
+            --form-bg: #1c2030;
+            --form-text: #c8cdd6;
         }
 
         body:not(.force-light):not(.force-dark) .blog-heatmap-cell.count-1,
@@ -1502,37 +1846,37 @@
         body:not(.force-light):not(.force-dark) .blog-heatmap-legend-cell.count-4 { background: #7ab4d0 !important; }
     }
 
-    /* ─── Dark mode — force-dark class ──────────────────────── */
+    /* ─── Dark mode — force-dark class (dark blue–grey) ───────── */
     body.force-dark {
         filter: none !important;
         -webkit-filter: none !important;
-        --bg: #181512;
-        --surface: #201d1a;
-        --text: #cdc7bf;
-        --heading: #e8e2da;
-        --link: #cdc7bf;
+        --bg: #151922;
+        --surface: #1c2030;
+        --text: #c8cdd6;
+        --heading: #e2e6ef;
+        --link: #c8cdd6;
         --accent: #7ab4d0;
-        --muted: #887f76;
-        --muted-strong: #a09590;
-        --border: #2d2924;
-        --table-border: #3a3530;
-        --code-bg: #242019;
-        --code-color: #cdc7bf;
-        --pre-code-color: #cdc7bf;
+        --muted: #8a8f9e;
+        --muted-strong: #9ca3b2;
+        --border: #2a3142;
+        --table-border: #363d50;
+        --code-bg: #1a1e2c;
+        --code-color: #c8cdd6;
+        --pre-code-color: #c8cdd6;
         --blockquote-border: #7ab4d0;
-        --mark-bg: #8a6d00;
-        --mark-text: #fff;
-        --toc-frame: #887f76;
-        --toc-content-color: #887f76;
-        --toc-hover-bg: #6b5400;
-        --toc-hover-text: #fff;
-        --nav-border: #2d2924;
-        --nav-label-color: #a09590;
-        --nav-title-color: #cdc7bf;
-        --nav-title-hover: #e8e2da;
-        --helptext: #a09590;
-        --form-bg: #201d1a;
-        --form-text: #cdc7bf;
+        --mark-bg: #5a6a8a;
+        --mark-text: #e2e6ef;
+        --toc-frame: #8a8f9e;
+        --toc-content-color: #8a8f9e;
+        --toc-hover-bg: #3a4560;
+        --toc-hover-text: #e2e6ef;
+        --nav-border: #2a3142;
+        --nav-label-color: #9ca3b2;
+        --nav-title-color: #c8cdd6;
+        --nav-title-hover: #e2e6ef;
+        --helptext: #9ca3b2;
+        --form-bg: #1c2030;
+        --form-text: #c8cdd6;
     }
 
     body.force-dark .blog-heatmap-cell.count-1,

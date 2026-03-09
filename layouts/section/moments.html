@@ -1,0 +1,51 @@
+{{ define "main" }}
+<content class="moments-page">
+  <h1 class="moments-title">{{ .Title }}</h1>
+
+  <div class="moments-intro">{{ .Content }}</div>
+
+  {{ $moments := .Site.Data.moments.moments }}
+  {{ $typeIcon := dict "show" "📺" "game" "🎮" "music" "🎧" "book" "📚" "movie" "🍿" "podcast" "🎙️" "restaurant" "🍳" }}
+  {{ if $moments }}
+    {{ $sorted := sort $moments "date" "desc" }}
+    {{ $scratch := newScratch }}
+    {{ $scratch.Set "prevYear" "" }}
+    {{ $scratch.Set "prevMonth" "" }}
+
+    {{ range $sorted }}
+      {{ $icon := "" }}
+      {{ if .icon }}{{ $icon = .icon }}{{ else if .type }}{{ $icon = index $typeIcon .type }}{{ end }}
+      {{ $t := time .date }}
+      {{ $y := $t.Year }}
+      {{ $m := $t.Format "January" }}
+      {{ $parts := split .date "-" }}
+      {{ $day := index $parts 2 }}
+
+      {{ if ne $y ($scratch.Get "prevYear") }}
+        {{ $scratch.Set "prevYear" $y }}
+        <p class="moments-year">{{ $y }}</p>
+      {{ end }}
+
+      {{ if ne $m ($scratch.Get "prevMonth") }}
+        {{ if ne ($scratch.Get "prevMonth") "" }}</ul>{{ end }}
+        {{ $scratch.Set "prevMonth" $m }}
+        <h2 class="moments-month">{{ $m }}</h2>
+        <ul class="moments-entries">
+      {{ end }}
+
+      <li class="moments-entry">
+        {{ if $icon }}<span class="moments-icon" aria-hidden="true">{{ $icon }}</span>{{ end }}
+        <span class="moments-day">{{ $day }}</span>
+        <span class="moments-title-inline">
+          {{ if .url }}<a href="{{ .url }}"><em>{{ .title }}</em></a>{{ else }}<em>{{ .title }}</em>{{ end }}
+        </span>
+        {{ if .note }}<span class="moments-note"> {{ .note }}</span>{{ end }}
+      </li>
+    {{ end }}
+    {{ if ne ($scratch.Get "prevMonth") "" }}</ul>{{ end }}
+
+  {{ else }}
+    <p class="moments-empty">No moments yet. Add entries in <code>data/moments.yaml</code>.</p>
+  {{ end }}
+</content>
+{{ end }}

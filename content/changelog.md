@@ -1,35 +1,20 @@
 +++
 title = "Changelog"
 menu = "not-main"
+layout = "changelog"
 +++
 
 # <pre>changelog</pre>
 
+- 2026-03-08
+  - 关于页增加 Fallout 风 RPG 终端（Zpix 字体、Vault Boy 图、弧面与 CRT 抖动），分隔线与列表用「-----」「+」；about 卡片行距收紧
+  - dithering 脚本抽离为 partial；Colophon 增加最像素；移动端 terminal 图写死宽度无滚动条
+  - changelog 页面有了自己单独的样式
 - 2026-03-04
-  - 样式（style partial）
-    - 设计 token 更新：暖色中性色板、新增 `--surface`、统一 accent/边框/代码块等变量
-    - 全站 SVG 颗粒叠加层（fractalNoise）、页面顶部 2px accent 条
-    - 正文 max-width 680px、line-height 1.72，标题 h1–h6 版式与 serif 统一
-    - 导航下划线动效、当前页高亮、RSS 黄线样式
-    - 博文列表入场动画、关系图 overlay、dithering 图与 Balatro 风格 foil 效果
-    - Now 页热力图 / 进度条 / 轮播 / 签名条样式
-    - 暗色模式（系统偏好 + force-dark）及 heatmap、RSS 等组件适配
+  - 样式大改：设计 token（暖色色板、--surface）、全站颗粒层与 2px 顶条、正文与标题版式、导航与 RSS 样式、博文列表动效与 foil、Now 页热力图等、暗色模式适配
 - 2026-02-23
-  - 新增
-    - 头部 SVG 字标 + 站点描述
-    - 导航当前页高亮、RSS 黄线下划线、规范暗色模式按钮
-    - 页脚 toolbox / changelog / RSS 链接
-    - 页面顶部 3px 强调条、正文/标题/引用等版式微调
-    - 暗色模式（含首屏防闪、多组件适配）
-    - 首页 dithering 图、Now 页热力图 / 轮播 / 进度条 / 签名动画
-    - 博文列表页「关系图」全屏 overlay
-    - RSS 带 XSL 的 pretty feed、section 输出 JSON
-    - 全站 3px 统一下划线
-  - 删除 / 简化
-    - 原先纯文字站点标题，改为字标
-    - 首页 “GREETINGS, TRAVELER.” 问候语
-    - Now 页旧列表式内容（如百万米俱乐部等），改为模块化区块
-    - 链接紫色已访问色、独立 `--link-hover` 变量
+  - 新增字标与站点描述、导航与暗色模式、页脚链接、顶部强调条与版式、dithering/关系图/RSS/下划线等
+  - 删除或简化纯文字标题、首页问候语、Now 页旧列表、链接与变量
 - 2025-12-28
   - 移除了 NeoDB 进度展示功能及相关 shortcode、数据文件和 GitHub Actions 自动更新
   - 简化了首页 postslist 样式，移除了 description 和分割线

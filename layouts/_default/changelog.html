@@ -1,0 +1,51 @@
+{{ define "main" }}
+<div class="single-post">
+  <content class="changelog-body">
+    {{ .Content }}
+  </content>
+</div>
+<script>
+(function() {
+  var wrap = document.querySelector('.changelog-body');
+  if (!wrap) return;
+  var ul = wrap.querySelector('ul');
+  if (!ul) return;
+  var items = Array.prototype.slice.call(ul.children).filter(function(el) { return el.tagName === 'LI'; });
+  if (items.length <= 1) return;
+
+  var recent = items.slice(0, 1);
+  var older = items.slice(1);
+
+  function getYear(li) {
+    var text = (li.textContent || '').trim();
+    var match = text.match(/^(\d{4})-\d{2}-\d{2}/);
+    return match ? match[1] : '';
+  }
+
+  var byYear = {};
+  older.forEach(function(li) {
+    var y = getYear(li);
+    if (!byYear[y]) byYear[y] = [];
+    byYear[y].push(li);
+  });
+
+  var years = Object.keys(byYear).sort().reverse();
+
+  ul.innerHTML = '';
+  recent.forEach(function(li) { ul.appendChild(li); });
+
+  years.forEach(function(year) {
+    var details = document.createElement('details');
+    details.className = 'changelog-year';
+    var summary = document.createElement('summary');
+    summary.textContent = year + ' 年';
+    details.appendChild(summary);
+    var yearUl = document.createElement('ul');
+    yearUl.className = 'changelog-year-list';
+    byYear[year].forEach(function(li) { yearUl.appendChild(li); });
+    details.appendChild(yearUl);
+    ul.appendChild(details);
+  });
+})();
+</script>
+{{ end }}

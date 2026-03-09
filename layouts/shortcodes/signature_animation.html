@@ -1,9 +1,0 @@
-{{ "<!-- Signature animation strip (now page) -->" | safeHTML }}
-{{ $logos := slice "wheel" "enso" "mountain" "book" "signal" }}
-<div class="signature-animation" aria-hidden="true">
-  <div class="signature-animation-strip">
-    {{ range $logos }}
-    <span class="signature-animation-item">{{ readFile (printf "static/signature/%s.svg" .) | safeHTML }}</span>
-    {{ end }}
-  </div>
-</div>

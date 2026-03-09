@@ -1,0 +1,22 @@
+# Moments log (LMNT-style).
+# Fields: date (YYYY-MM-DD), title, note (e.g. "S1 E4").
+# Optional: url (link for title); type (show📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳); icon (any emoji, overrides type).
+moments:
+  - date: "2026-03-08"
+    title: "Formula 1: Drive to Survive"
+    note: "S8 E2"
+    type: show
+    url: https://www.imdb.com/title/tt8289930/episodes/?season=8
+  - date: "2026-03-07"
+    title: "Pokémon Pokopia"
+    type: game
+    url: https://pokopia.pokemon.com/en-us/
+  - date: "2026-03-07"
+    title: "Formula 1: Drive to Survive"
+    note: "S8 E1"
+    type: show
+    url: https://www.imdb.com/title/tt8289930/episodes/?season=8
+  - date: "2026-03-07"
+    title: "Formula 1"
+    note: "Australian Grand Prix"
+    icon: 🏎️

@@ -16,6 +16,7 @@ weight = 3
 - [LXGW WenKai / 霞鹜文楷](https://github.com/lxgw/LxgwWenKai), serif
 - [LXGW Neo XiHei / 霞鹜新晰黑](https://github.com/lxgw/LxgwNeoXiHei), sans-serif
 - [喜鹊宋体](https://xiquezaozi.taobao.com/), serif, paid
+- [最像素](https://github.com/SolidZORO/zpix-pixel-font), monospace
 - [Atkinson Hyperlegible](https://brailleinstitute.org/freefont), sans-serif, `brew install --cask font-atkinson-hyperlegible`
   - Next, sans-serif, `brew install --cask font-atkinson-hyperlegible-next`
   - Mono, monospace, `brew install --cask font-atkinson-hyperlegible-mono`

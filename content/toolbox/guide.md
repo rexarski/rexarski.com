@@ -7,7 +7,7 @@ weight = 1
 
 {{< toc >}}
 
-updated on 2026-02-15
+updated on 2026-03-08
 
 ## 基调
 
@@ -30,7 +30,7 @@ brew update && brew upgrade
 
 # tools
 cli_tools=(
-  bat btop emacs-plus eza fish fx git jq lazygit neofetch
+  bat btop emacs-plus eza fish fx git jq lazygit llmfit neofetch
   neovim ollama procs r tmux uv wget you-get zoxide
 )
 

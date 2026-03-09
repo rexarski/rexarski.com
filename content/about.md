@@ -1,45 +1,33 @@
 +++
-title = "about"
+title = "关于"
 menu = "main"
 +++
 
 ## About
 
-{{< about_card "whoami" >}}
-现实中
+{{< rpg_character name="Rui" >}}
+==================== 背景 ====================
 
-- DMV 打工人，stat head.
-- 大概爱好 🚶🎷⚽🏀🎮🏎️📊📚
-- 游戏产业的守护者（ Steam 上这么称呼我的）
-- 原力非敏感光剑持有人
-- 现实中的[松鼠](https://thevarsity.ca/2003/02/10/breeding-unease-in-queens-park/)召唤师
+- NOVA 打工人，游戏产业的守护者
+- 装备：光剑（原力非敏感持有者）
+- 主动技能：[松鼠](https://thevarsity.ca/2003/02/10/breeding-unease-in-queens-park/)召唤术
 - 被动技能：大机率挑到甜的水果
 
-虚拟世界
+==================== 栖息地 ====================
 
-- [澡盆](https://splatoonwiki.org/wiki/Bloblobber)玩家守门员、打工苦手
-- SL流派足球经理，专业执教低级别联赛小球队
-- TF2 永远的 [combo pyro](https://www.youtube.com/watch?v=3gh47cWmOxI)
-- 曾经的「上一次传说就退休」炉石旅人
-- 入门卡牌收藏家
-{{< /about_card >}}
+- mastodon.social/[@rexarski](https://mastodon.social/@rexarski)
+- [@rqiu](https://bsky.app/profile/rqiu.bsky.social).bsky.social
+- [@rexarski](https://neodb.social/users/rexarski/)@neodb.social
+- github.com/[rexarski](https://github.com/rexarski)
+- steamcommunity.com/id/[bob606bob](https://steamcommunity.com/id/bob606bob/)
+<!-- - [异常](https://outlier.rexarski.com/) -->
 
-{{< about_card "Elsewhere" >}}
-- mastodon.social/<kbd>[@rexarski](https://mastodon.social/@rexarski)</kbd>
-- <kbd>[@rqiu](https://bsky.app/profile/rqiu.bsky.social)</kbd>.bsky.social
-- <kbd>[@rexarski](https://neodb.social/users/rexarski/)</kbd>@neodb.social
-- github.com/<kbd>[rexarski](https://github.com/rexarski)</kbd>
-- steamcommunity.com/id/<kbd>[bob606bob](https://steamcommunity.com/id/bob606bob/)</kbd>
-<!-- - <kbd>[异常](https://outlier.rexarski.com/)</kbd> -->
-{{< /about_card >}}
+==================== 其他装备 ====================
 
-{{< about_card "Colophon" >}}
-文本：[Drafts](https://getdrafts.com/), [iA Writer](https://ia.net/writer), [Obsidian](https://obsidian.md). [Cursor](https://cursor.com/en) 和 [Working Copy](https://workingcopy.app)
-
-框架：[Hugo](https://gohugo.io)，[ʕ•ᴥ•ʔ Bear Blog](https://github.com/janraasch/hugo-bearblog/) 主题。
-
-字体：[Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [Fraunces](https://fraunces.undercase.xyz), 以及 [Victor Mono](https://rubjo.github.io/victor-mono/).
-{{< /about_card >}}
+- 文本：[Drafts](https://getdrafts.com/), [iA Writer](https://ia.net/writer), [Obsidian](https://obsidian.md). [Cursor](https://cursor.com/en) 和 [Working Copy](https://workingcopy.app)
+- 框架：[Hugo](https://gohugo.io)，[ʕ•ᴥ•ʔ Bear Blog](https://github.com/janraasch/hugo-bearblog/) 主题
+- 字体：<span class="font-atkinson">[Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/)</span>, <span class="font-fraunces">[Fraunces](https://fraunces.undercase.xyz)</span>, <span class="font-victor-mono">[Victor Mono](https://rubjo.github.io/victor-mono/)</span>，以及 <span class="font-zpix">[最像素](https://github.com/SolidZORO/zpix-pixel-font)</span>
+{{< /rpg_character >}}
 
 {{< about_card "Blogroll" >}}
 喜欢读独立博客是为了发现有趣的灵魂。

@@ -1,0 +1,20 @@
+{{ $name := .Get "name" | default "Rui" }}
+{{/* Vault Boy terminal art from https://github.com/LeonardLeroy/Fallout-Terminal-Configuration */}}
+{{ $art := readFile "static/vault_boy_art.txt" }}
+<div class="rpg-character" role="presentation">
+  <div class="rpg-character-panel">
+    <div class="rpg-character-art" aria-hidden="true">
+      <pre class="rpg-character-ascii">{{ $art }}</pre>
+    </div>
+    <div class="rpg-character-header">
+      <span class="rpg-character-name">{{ $name }}</span>
+    </div>
+    <div class="terminal-screen">
+      <div class="terminal-output">
+        <p class="terminal-separator">-----</p>
+        {{ .Inner | markdownify }}
+        <span class="terminal-cursor" aria-hidden="true"></span>
+      </div>
+    </div>
+  </div>
+</div>
