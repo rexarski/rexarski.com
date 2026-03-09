@@ -1,17 +1,240 @@
 {{ $name := .Get "name" | default "Rui" }}
-{{/* Vault Boy terminal art from https://github.com/LeonardLeroy/Fallout-Terminal-Configuration */}}
-{{ $art := readFile "static/vault_boy_art.txt" }}
 <div class="rpg-character" role="presentation">
   <div class="rpg-character-panel">
     <div class="rpg-character-art" aria-hidden="true">
-      <pre class="rpg-character-ascii">{{ $art }}</pre>
+      <div class="rpg-character-rx">
+        <div class="rpg-character-frame rpg-character-frame--far-left">
+          <pre class="rpg-character-back">RR|         /X
+RR|        / X
+R |       /  X
+R |      /   X
+RR|         XX
+RR|         XX
+R |      \   X
+R |       \  X
+R |        \ X
+R |         \X</pre>
+          <pre class="rpg-character-depth">RR|         /X
+RR|        / X
+R |       /  X
+R |      /   X
+RR|         XX
+RR|         XX
+R |      \   X
+R |       \  X
+R |        \ X
+R |         \X</pre>
+          <pre class="rpg-character-face">RR|         /X
+RR|        / X
+R |       /  X
+R |      /   X
+RR|         XX
+RR|         XX
+R |      \   X
+R |       \  X
+R |        \ X
+R |         \X</pre>
+        </div>
+        <div class="rpg-character-frame rpg-character-frame--left-mid">
+          <pre class="rpg-character-back">RRR|      / XX
+RRR|     /  XX
+R  |    /   X X
+R  |   /    X X
+RRR|        XX
+RRR|        XX
+R R|   \    X X
+R R|    \   X X
+R  |     \  XX
+R  |      \ XX</pre>
+          <pre class="rpg-character-depth">RRR|      / XX
+RRR|     /  XX
+R  |    /   X X
+R  |   /    X X
+RRR|        XX
+RRR|        XX
+R R|   \    X X
+R R|    \   X X
+R  |     \  XX
+R  |      \ XX</pre>
+          <pre class="rpg-character-face">RRR|      / XX
+RRR|     /  XX
+R  |    /   X X
+R  |   /    X X
+RRR|        XX
+RRR|        XX
+R R|   \    X X
+R R|    \   X X
+R  |     \  XX
+R  |      \ XX</pre>
+        </div>
+        <div class="rpg-character-frame rpg-character-frame--left">
+          <pre class="rpg-character-back">RRRR|    / XXX
+R   |   /  X X
+R   |  /   X X
+RRRR|      XXX
+RRRR|      XXX
+R R |      XXX
+R  R|  \   X X
+R   |   \  X X
+R   |    \ XXX
+R   |     \XXX</pre>
+          <pre class="rpg-character-depth">RRRR|    / XXX
+R   |   /  X X
+R   |  /   X X
+RRRR|      XXX
+RRRR|      XXX
+R R |      XXX
+R  R|  \   X X
+R   |   \  X X
+R   |    \ XXX
+R   |     \XXX</pre>
+          <pre class="rpg-character-face">RRRR|    / XXX
+R   |   /  X X
+R   |  /   X X
+RRRR|      XXX
+RRRR|      XXX
+R R |      XXX
+R  R|  \   X X
+R   |   \  X X
+R   |    \ XXX
+R   |     \XXX</pre>
+        </div>
+        <div class="rpg-character-frame rpg-character-frame--center">
+          <pre class="rpg-character-back">RRRRR   XX   XX
+R    R   XX XX
+R    R    XXX
+R    R     X
+RRRRR     XXX
+RRRR      XXX
+R  RR    XX XX
+R   RR  XX   XX
+R    RR XX   XX
+R     RXX     XX</pre>
+          <pre class="rpg-character-depth">RRRRR   XX   XX
+R    R   XX XX
+R    R    XXX
+R    R     X
+RRRRR     XXX
+RRRR      XXX
+R  RR    XX XX
+R   RR  XX   XX
+R    RR XX   XX
+R     RXX     XX</pre>
+          <pre class="rpg-character-face">RRRRR   XX   XX
+R    R   XX XX
+R    R    XXX
+R    R     X
+RRRRR     XXX
+RRRR      XXX
+R  RR    XX XX
+R   RR  XX   XX
+R    RR XX   XX
+R     RXX     XX</pre>
+        </div>
+        <div class="rpg-character-frame rpg-character-frame--right">
+          <pre class="rpg-character-back">|RRRR   XXX\
+|   R   X X \
+|   R   X X  \
+|RRRR   XXX
+|RRRR   XXX
+|R  R   XXX
+|R   R  X X  /
+|R   R  X X /
+|R   R  XXX/
+|R   R  XX/</pre>
+          <pre class="rpg-character-depth">|RRRR   XXX\
+|   R   X X \
+|   R   X X  \
+|RRRR   XXX
+|RRRR   XXX
+|R  R   XXX
+|R   R  X X  /
+|R   R  X X /
+|R   R  XXX/
+|R   R  XX/</pre>
+          <pre class="rpg-character-face">|RRRR   XXX\
+|   R   X X \
+|   R   X X  \
+|RRRR   XXX
+|RRRR   XXX
+|R  R   XXX
+|R   R  X X  /
+|R   R  X X /
+|R   R  XXX/
+|R   R  XX/</pre>
+        </div>
+        <div class="rpg-character-frame rpg-character-frame--right-mid">
+          <pre class="rpg-character-back">|RRR    XX \
+|RRR    XX  \
+|  R   X X   \
+|  R   X X   /
+|RRR    XX
+|RRR    XX
+|R R   X X   \
+|R R   X X   /
+|  R    XX  /
+|  R    XX /</pre>
+          <pre class="rpg-character-depth">|RRR    XX \
+|RRR    XX  \
+|  R   X X   \
+|  R   X X   /
+|RRR    XX
+|RRR    XX
+|R R   X X   \
+|R R   X X   /
+|  R    XX  /
+|  R    XX /</pre>
+          <pre class="rpg-character-face">|RRR    XX \
+|RRR    XX  \
+|  R   X X   \
+|  R   X X   /
+|RRR    XX
+|RRR    XX
+|R R   X X   \
+|R R   X X   /
+|  R    XX  /
+|  R    XX /</pre>
+        </div>
+        <div class="rpg-character-frame rpg-character-frame--far-right">
+          <pre class="rpg-character-back">|RR        X\
+|RR       X \
+| R      X  \
+| R     X   \
+|RR       XX
+|RR       XX
+| R     X   /
+| R      X  /
+| R       X /
+| R        X/</pre>
+          <pre class="rpg-character-depth">|RR        X\
+|RR       X \
+| R      X  \
+| R     X   \
+|RR       XX
+|RR       XX
+| R     X   /
+| R      X  /
+| R       X /
+| R        X/</pre>
+          <pre class="rpg-character-face">|RR        X\
+|RR       X \
+| R      X  \
+| R     X   \
+|RR       XX
+|RR       XX
+| R     X   /
+| R      X  /
+| R       X /
+| R        X/</pre>
+        </div>
+      </div>
     </div>
     <div class="rpg-character-header">
       <span class="rpg-character-name">{{ $name }}</span>
     </div>
     <div class="terminal-screen">
       <div class="terminal-output">
-        <p class="terminal-separator">-----</p>
+        <p class="terminal-separator">{{ strings.Repeat 56 "-" }}</p>
         {{ .Inner | markdownify }}
         <span class="terminal-cursor" aria-hidden="true"></span>
       </div>

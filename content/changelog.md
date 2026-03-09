@@ -7,11 +7,10 @@ layout = "changelog"
 # <pre>changelog</pre>
 
 - 2026-03-08
-  - 关于页增加 Fallout 风 RPG 终端（Zpix 字体、Vault Boy 图、弧面与 CRT 抖动），分隔线与列表用「-----」「+」；about 卡片行距收紧
-  - dithering 脚本抽离为 partial；Colophon 增加最像素；移动端 terminal 图写死宽度无滚动条
-  - changelog 页面有了自己单独的样式
+  - 关于页与 changelog 页完成一轮视觉收束：引入终端化展示语言，统一字形、屏幕质感、列表符号与页面节奏
+  - 重写了 about 页面多处样式
 - 2026-03-04
-  - 样式大改：设计 token（暖色色板、--surface）、全站颗粒层与 2px 顶条、正文与标题版式、导航与 RSS 样式、博文列表动效与 foil、Now 页热力图等、暗色模式适配
+  - 样式大改：设计 token（暖色色板、--surface）、全站颗粒层与 2px 顶条、正文与标题版式、导航与 RSS 样式、博文列表动效、Now 页热力图等、暗色模式适配
 - 2026-02-23
   - 新增字标与站点描述、导航与暗色模式、页脚链接、顶部强调条与版式、dithering/关系图/RSS/下划线等
   - 删除或简化纯文字标题、首页问候语、Now 页旧列表、链接与变量

@@ -1,6 +1,7 @@
 {{ $src := .Get "src" | default "" }}
 {{ $caption := .Get "caption" | default "" }}
-<div class="dithering-photo" data-src="{{ $src }}" aria-hidden="true">
+{{ $dither := .Get "dither" | default "true" }}
+<div class="dithering-photo" data-src="{{ $src }}" data-dither="{{ $dither }}" aria-hidden="true">
   <div class="dithering-photo-inner">
     <div class="dithering-photo-face">
       {{ if $caption }}<p class="dithering-photo-caption">{{ $caption }}</p>{{ end }}

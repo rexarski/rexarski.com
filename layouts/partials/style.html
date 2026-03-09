@@ -720,7 +720,7 @@
         font-size: 0.95rem;
     }
 
-    /* ─── Dithering photo + Balatro foil ─────────────────────── */
+    /* ─── Dithering photo ─────────────────────── */
     .dithering-photo {
         perspective: 1200px;
         margin: 2rem auto;
@@ -730,7 +730,6 @@
     }
 
     .dithering-photo-inner {
-        position: relative;
         transform-style: preserve-3d;
         transition: transform 0.12s ease-out;
         border-radius: 8px;
@@ -738,7 +737,8 @@
         box-shadow: 0 8px 24px rgba(0,0,0,0.12);
     }
 
-    .dithering-photo-inner canvas {
+    .dithering-photo-inner canvas,
+    .dithering-photo-inner img {
         display: block;
         max-width: 100%;
         height: auto;
@@ -747,25 +747,6 @@
 
     .dithering-photo-face {
         position: relative;
-    }
-
-    .dithering-photo-face::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-        border-radius: inherit;
-        pointer-events: none;
-        z-index: 1;
-        opacity: 0.5;
-        mix-blend-mode: screen;
-        background: linear-gradient(
-            var(--holo-angle, 135deg),
-            transparent 0%,
-            transparent 38%,
-            color-mix(in srgb, var(--accent) 22%, white) 50%,
-            transparent 62%,
-            transparent 100%
-        );
     }
 
     .dithering-photo-caption {
@@ -780,47 +761,6 @@
         text-align: center;
         background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 100%);
         z-index: 2;
-    }
-
-    /* Card-style hover effect (Balatro wiki–inspired) */
-    .infobox-image-container {
-        position: relative;
-        perspective: 800px;
-        display: inline-block;
-    }
-
-    .infobox-image-container > * {
-        position: relative;
-        display: block;
-        overflow: hidden;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-        border-radius: 8px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        transform-style: preserve-3d;
-    }
-
-    .infobox-image-container:hover > * {
-        transform: translateY(-6px) rotateX(4deg);
-        box-shadow: 0 12px 28px rgba(0,0,0,0.22);
-    }
-
-    .infobox-image-container > *::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-        border-radius: inherit;
-        pointer-events: none;
-        z-index: 1;
-        opacity: 0.42;
-        mix-blend-mode: overlay;
-        background: linear-gradient(
-            var(--holo-angle, 135deg),
-            transparent 0%,
-            transparent 38%,
-            color-mix(in srgb, var(--accent) 22%, white) 50%,
-            transparent 62%,
-            transparent 100%
-        );
     }
 
     /* ─── Blog heatmap ───────────────────────────────────────── */
@@ -1085,29 +1025,28 @@
     .about-card-body .font-victor-mono { font-family: var(--font-mono); }
     .about-card-body .font-zpix { font-family: var(--font-zpix); }
 
-    /* RPG character profile — single CRT unit (Fallout-style green/black) */
+    /* RPG character profile — single CRT unit (blue phosphor / black) */
     .rpg-character {
         display: flex;
         flex-direction: column;
         align-items: stretch;
         margin: 1.25rem 0;
         padding: 0;
-        background: #0a0c08;
-        border: 2px solid #1a2f1a;
+        background: #09101a;
         border-radius: 18px;
         font-family: var(--font-zpix);
         font-size: 0.9rem;
-        color: #33cc33;
+        color: #72b8ff;
         position: relative;
         overflow: hidden;
         box-shadow:
-            inset 0 0 48px rgba(0, 40, 0, 0.3),
+            inset 0 0 48px rgba(20, 60, 120, 0.24),
             inset 0 0 80px -20px rgba(0, 0, 0, 0.5),
             inset 0 -28px 56px -12px rgba(0, 0, 0, 0.55),
-            inset 0 3px 0 rgba(80, 120, 80, 0.18);
+            inset 0 3px 0 rgba(120, 160, 220, 0.16);
     }
 
-    /* 显像管玻璃：绿色蒙层 + 电视机弧面暗角（加强） */
+    /* 显像管玻璃：蓝色蒙层 + 电视机弧面暗角（加强） */
     .rpg-character::before {
         content: '';
         position: absolute;
@@ -1115,12 +1054,12 @@
         border-radius: inherit;
         background-image:
             radial-gradient(
-                ellipse 75% 70% at 50% 45%,
-                transparent 25%,
-                rgba(0, 0, 0, 0.2) 55%,
-                rgba(0, 0, 0, 0.45) 100%
+                ellipse 80% 74% at 50% 45%,
+                transparent 28%,
+                rgba(0, 0, 0, 0.16) 58%,
+                rgba(0, 0, 0, 0.34) 100%
             ),
-            linear-gradient(180deg, rgba(0, 56, 0, 0.32) 0%, rgba(0, 90, 0, 0.22) 50%, rgba(0, 44, 0, 0.32) 100%);
+            linear-gradient(180deg, rgba(20, 48, 88, 0.28) 0%, rgba(36, 74, 132, 0.18) 50%, rgba(18, 40, 78, 0.28) 100%);
         pointer-events: none;
     }
 
@@ -1133,16 +1072,16 @@
         background-image:
             linear-gradient(
                 155deg,
-                rgba(255, 255, 255, 0.12) 0%,
-                rgba(255, 255, 255, 0.04) 18%,
+                rgba(255, 255, 255, 0.09) 0%,
+                rgba(255, 255, 255, 0.025) 18%,
                 transparent 45%
             ),
             repeating-linear-gradient(
                 0deg,
                 transparent 0,
                 transparent 2px,
-                rgba(0, 0, 0, 0.12) 2px,
-                rgba(0, 0, 0, 0.12) 4px
+                rgba(0, 0, 0, 0.08) 2px,
+                rgba(0, 0, 0, 0.08) 4px
             );
         pointer-events: none;
     }
@@ -1160,15 +1099,23 @@
 
     .rpg-character-header {
         flex-shrink: 0;
-        padding: 0.75rem 1rem 0.25rem;
+        padding: 0.65rem 1rem 0.15rem;
     }
 
     .rpg-character-name {
-        display: block;
+        display: inline-flex;
+        align-items: center;
         font-weight: 700;
-        color: #52ff52;
-        text-shadow: 0 0 8px rgba(82, 255, 82, 0.4);
-        letter-spacing: 0.05em;
+        font-size: 0.78rem;
+        color: #a9d4ff;
+        text-shadow: 0 0 6px rgba(114, 184, 255, 0.34);
+        letter-spacing: 0.08em;
+    }
+
+    .rpg-character-name::before {
+        content: '> ';
+        color: #5b8fcb;
+        margin-right: 0.2rem;
     }
 
     .terminal-screen {
@@ -1176,14 +1123,15 @@
         min-height: 0;
         height: 12rem;
         overflow: auto;
-        padding: 0.6rem 1rem 0.75rem;
-        color: #33cc33;
+        padding: 0.35rem 1rem 0.8rem;
+        color: #72b8ff;
     }
 
     .terminal-output {
         font-family: var(--font-zpix);
-        font-size: 0.85rem;
-        line-height: 1.55;
+        font-size: 0.8rem;
+        line-height: 1.48;
+        color: #86c4ff;
     }
 
     .terminal-output p {
@@ -1195,9 +1143,11 @@
     }
 
     .terminal-output .terminal-separator {
-        margin: 0 0 0.4rem;
-        color: #2db82d;
-        font-size: 0.9em;
+        margin: 0 0 0.55rem;
+        color: #4f7db8;
+        font-size: 0.86em;
+        overflow: hidden;
+        white-space: nowrap;
     }
 
     .terminal-output ul,
@@ -1213,26 +1163,28 @@
 
     .terminal-output ul li {
         margin-bottom: 0.2rem;
-        color: #2db82d;
+        color: #6ea3df;
     }
 
     .terminal-output ul li::before {
         content: '+ ';
-        color: #52ff52;
+        color: #a9d4ff;
+        display: inline-block;
+        width: 0.85rem;
     }
 
     .terminal-output a {
-        color: #52ff52;
+        color: #a9d4ff;
         text-decoration: underline;
         text-underline-offset: 2px;
     }
 
     .terminal-output a:hover {
-        color: #6fff6f;
+        color: #d3e8ff;
     }
 
     .terminal-output strong {
-        color: #52ff52;
+        color: #a9d4ff;
     }
 
     .terminal-output h1,
@@ -1240,7 +1192,7 @@
         font-size: 0.95rem;
         font-weight: 700;
         margin: 0.75rem 0 0.35rem;
-        color: #52ff52;
+        color: #a9d4ff;
     }
 
     .terminal-output h1:first-child,
@@ -1268,11 +1220,12 @@
 
     .terminal-cursor {
         display: inline-block;
-        width: 0.6em;
+        width: 0.52em;
         height: 1em;
         margin-left: 2px;
         vertical-align: text-bottom;
-        background: #52ff52;
+        background: #a9d4ff;
+        box-shadow: 0 0 8px rgba(114, 184, 255, 0.45);
         animation: terminal-cursor-blink 0.8s step-end infinite;
     }
 
@@ -1281,24 +1234,201 @@
         51%, 100% { opacity: 0; }
     }
 
-    /* Terminal art 小人（与整块显像管风格一致） */
-    /* Art 与 header、terminal 同属 panel 一层，共享背景 */
+    /* RX ASCII animation lives inside the same terminal panel */
     .rpg-character-art {
-        overflow: auto;
-        padding: 0.75rem 1rem 0.5rem;
+        overflow: hidden;
+        padding: 0.9rem 1rem 0.35rem;
     }
 
-    .rpg-character-ascii {
+    .rpg-character-rx {
         position: relative;
-        z-index: 1;
+        height: 9.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        perspective: 420px;
+        animation: rx-bob 4.8s ease-in-out infinite;
+    }
+
+    .rpg-character-frame {
+        position: absolute;
+        transform-origin: center;
+        opacity: 0;
+        inset: 0;
+    }
+
+    .rpg-character-face,
+    .rpg-character-depth,
+    .rpg-character-back {
+        position: absolute;
+        top: 50%;
+        left: 50%;
         margin: 0;
         font-family: var(--font-zpix);
-        font-size: 0.4rem;
-        line-height: 1.1;
-        color: #52ff52;
-        text-shadow: 0 0 8px rgba(82, 255, 82, 0.4);
+        font-size: 0.92rem;
+        line-height: 1;
         letter-spacing: 0;
         white-space: pre;
+        transform: translate(-50%, -50%);
+    }
+
+    .rpg-character-face {
+        color: #a9d4ff;
+        text-shadow: 0 0 10px rgba(114, 184, 255, 0.42);
+    }
+
+    .rpg-character-depth {
+        color: rgba(86, 132, 214, 0.9);
+        text-shadow: 0 0 7px rgba(58, 99, 176, 0.34);
+        transform: translate(calc(-50% + 0.65rem), calc(-50% + 0.2rem));
+        filter: blur(0.25px);
+    }
+
+    .rpg-character-back {
+        color: rgba(38, 66, 112, 0.96);
+        text-shadow: 0 0 3px rgba(38, 66, 112, 0.24);
+        transform: translate(calc(-50% + 1.6rem), calc(-50% + 0.58rem));
+        filter: blur(0.5px);
+    }
+
+    @keyframes rx-bob {
+        0%, 100% {
+            transform: translateY(0) rotateZ(0deg);
+        }
+        20% {
+            transform: translateY(-0.08rem) rotateZ(-0.15deg);
+        }
+        50% {
+            transform: translateY(0.06rem) rotateZ(0.2deg);
+        }
+        80% {
+            transform: translateY(-0.05rem) rotateZ(-0.12deg);
+        }
+    }
+
+    .rpg-character-frame--far-left {
+        animation: rx-rotate-far-left 6.6s linear infinite;
+    }
+
+    .rpg-character-frame--left-mid {
+        animation: rx-rotate-left-mid 6.6s linear infinite;
+    }
+
+    .rpg-character-frame--left {
+        animation: rx-rotate-left 6.6s linear infinite;
+    }
+
+    .rpg-character-frame--center {
+        animation: rx-rotate-center 6.6s linear infinite;
+    }
+
+    .rpg-character-frame--right {
+        animation: rx-rotate-right 6.6s linear infinite;
+    }
+
+    .rpg-character-frame--right-mid {
+        animation: rx-rotate-right-mid 6.6s linear infinite;
+    }
+
+    .rpg-character-frame--far-right {
+        animation: rx-rotate-far-right 6.6s linear infinite;
+    }
+
+    @keyframes rx-rotate-far-left {
+        0%, 10% {
+            opacity: 1;
+            transform: perspective(420px) rotateY(44deg) scaleX(0.5) skewY(-4deg) translateX(-1.25rem) translateY(0.05rem) rotateZ(-0.5deg);
+        }
+        13%, 100% {
+            opacity: 0;
+            transform: perspective(420px) rotateY(44deg) scaleX(0.5) skewY(-4deg) translateX(-1.18rem) translateY(-0.03rem) rotateZ(0.18deg);
+        }
+    }
+
+    @keyframes rx-rotate-left-mid {
+        0%, 11% {
+            opacity: 0;
+            transform: perspective(420px) rotateY(30deg) scaleX(0.66) skewY(-2deg) translateX(-0.76rem) translateY(-0.02rem) rotateZ(0.16deg);
+        }
+        14%, 24% {
+            opacity: 1;
+            transform: perspective(420px) rotateY(30deg) scaleX(0.66) skewY(-2deg) translateX(-0.82rem) translateY(0.05rem) rotateZ(-0.35deg);
+        }
+        27%, 100% {
+            opacity: 0;
+            transform: perspective(420px) rotateY(30deg) scaleX(0.66) skewY(-2deg) translateX(-0.74rem) translateY(-0.03rem) rotateZ(0.12deg);
+        }
+    }
+
+    @keyframes rx-rotate-left {
+        0%, 25% {
+            opacity: 0;
+            transform: perspective(420px) rotateY(16deg) scaleX(0.84) skewY(-1deg) translateX(-0.31rem) translateY(-0.02rem) rotateZ(0.14deg);
+        }
+        28%, 38% {
+            opacity: 1;
+            transform: perspective(420px) rotateY(16deg) scaleX(0.84) skewY(-1deg) translateX(-0.36rem) translateY(0.04rem) rotateZ(-0.22deg);
+        }
+        41%, 100% {
+            opacity: 0;
+            transform: perspective(420px) rotateY(16deg) scaleX(0.84) skewY(-1deg) translateX(-0.3rem) translateY(-0.03rem) rotateZ(0.1deg);
+        }
+    }
+
+    @keyframes rx-rotate-center {
+        0%, 39% {
+            opacity: 0;
+            transform: perspective(420px) rotateY(0deg) scaleX(1) translateX(0) translateY(-0.02rem) rotateZ(0.08deg);
+        }
+        42%, 58% {
+            opacity: 1;
+            transform: perspective(420px) rotateY(0deg) scaleX(1) translateX(0) translateY(0.05rem) rotateZ(-0.12deg);
+        }
+        61%, 100% {
+            opacity: 0;
+            transform: perspective(420px) rotateY(0deg) scaleX(1) translateX(0) translateY(-0.03rem) rotateZ(0.06deg);
+        }
+    }
+
+    @keyframes rx-rotate-right {
+        0%, 59% {
+            opacity: 0;
+            transform: perspective(420px) rotateY(-16deg) scaleX(0.84) skewY(1deg) translateX(0.31rem) translateY(-0.02rem) rotateZ(-0.14deg);
+        }
+        62%, 72% {
+            opacity: 1;
+            transform: perspective(420px) rotateY(-16deg) scaleX(0.84) skewY(1deg) translateX(0.36rem) translateY(0.04rem) rotateZ(0.22deg);
+        }
+        75%, 100% {
+            opacity: 0;
+            transform: perspective(420px) rotateY(-16deg) scaleX(0.84) skewY(1deg) translateX(0.3rem) translateY(-0.03rem) rotateZ(-0.1deg);
+        }
+    }
+
+    @keyframes rx-rotate-right-mid {
+        0%, 73% {
+            opacity: 0;
+            transform: perspective(420px) rotateY(-30deg) scaleX(0.66) skewY(2deg) translateX(0.76rem) translateY(-0.02rem) rotateZ(-0.16deg);
+        }
+        76%, 86% {
+            opacity: 1;
+            transform: perspective(420px) rotateY(-30deg) scaleX(0.66) skewY(2deg) translateX(0.82rem) translateY(0.05rem) rotateZ(0.35deg);
+        }
+        89%, 100% {
+            opacity: 0;
+            transform: perspective(420px) rotateY(-30deg) scaleX(0.66) skewY(2deg) translateX(0.74rem) translateY(-0.03rem) rotateZ(-0.12deg);
+        }
+    }
+
+    @keyframes rx-rotate-far-right {
+        0%, 87% {
+            opacity: 0;
+            transform: perspective(420px) rotateY(-44deg) scaleX(0.5) skewY(4deg) translateX(1.18rem) translateY(-0.03rem) rotateZ(-0.18deg);
+        }
+        90%, 100% {
+            opacity: 1;
+            transform: perspective(420px) rotateY(-44deg) scaleX(0.5) skewY(4deg) translateX(1.25rem) translateY(0.05rem) rotateZ(0.5deg);
+        }
     }
 
     /* 移动端：布局与效果适配 */
@@ -1311,26 +1441,38 @@
             width: 100%;
             max-width: 100%;
             overflow: hidden;
+            padding-top: 0.7rem;
         }
 
-        .rpg-character-ascii {
-            max-width: 100%;
-            overflow: hidden;
+        .rpg-character-rx {
+            height: 7.4rem;
+        }
+
+        .rpg-character-face,
+        .rpg-character-depth,
+        .rpg-character-back {
+            font-size: 0.58rem;
         }
 
         .terminal-screen {
             height: 11rem;
+            padding: 0.3rem 0.85rem 0.75rem;
         }
 
         .rpg-character-panel {
             animation-duration: 3.2s;
         }
 
+        .terminal-output {
+            font-size: 0.74rem;
+            line-height: 1.44;
+        }
+
         .rpg-character::after {
             background: linear-gradient(
                 155deg,
-                rgba(255, 255, 255, 0.1) 0%,
-                rgba(255, 255, 255, 0.03) 18%,
+                rgba(255, 255, 255, 0.07) 0%,
+                rgba(255, 255, 255, 0.02) 18%,
                 transparent 45%
             );
         }

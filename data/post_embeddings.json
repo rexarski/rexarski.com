@@ -1,6 +1,6 @@
 {
   "model": "embeddinggemma",
-  "generated_at": "2026-03-04T20:11:24.981893+00:00",
+  "generated_at": "2026-03-09T05:36:08.802570+00:00",
   "posts": {
     "posts/2022-09-05-sentiment-analysis.md": {
       "title": "Sentiment analysis 只是有点用处",
@@ -871,7 +871,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2931366066584364,
         "posts/2026-02-24-akotsk-s1.md": 0.28806583464247015,
         "posts/2026-03-03-fellow-es1.md": 0.3329390091885991,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.30803679518760746
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.30803679518760746,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3441413204109251
       },
       "top_similar": [
         {
@@ -1763,7 +1764,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2558193452558707,
         "posts/2026-02-24-akotsk-s1.md": 0.21415337226298067,
         "posts/2026-03-03-fellow-es1.md": 0.3107270878932535,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.25543012991272085
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.25543012991272085,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.29164348341980384
       },
       "top_similar": [
         {
@@ -2655,7 +2657,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.29487711715580944,
         "posts/2026-02-24-akotsk-s1.md": 0.42626058484940105,
         "posts/2026-03-03-fellow-es1.md": 0.5136688838438715,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.38239115853845834
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.38239115853845834,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.5171901489721304
       },
       "top_similar": [
         {
@@ -3547,7 +3550,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3816695771998065,
         "posts/2026-02-24-akotsk-s1.md": 0.29649482384403114,
         "posts/2026-03-03-fellow-es1.md": 0.37545305848880145,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.34382915846639384
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.34382915846639384,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.37160327946718374
       },
       "top_similar": [
         {
@@ -4439,7 +4443,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2675432714806366,
         "posts/2026-02-24-akotsk-s1.md": 0.2544728340561212,
         "posts/2026-03-03-fellow-es1.md": 0.2130111233126785,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.23665162738651707
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.23665162738651707,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.24184631843247487
       },
       "top_similar": [
         {
@@ -5331,7 +5336,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3031377699862221,
         "posts/2026-02-24-akotsk-s1.md": 0.20943390485435512,
         "posts/2026-03-03-fellow-es1.md": 0.24384332524792332,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.19809035800767982
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.19809035800767982,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.22934444613218677
       },
       "top_similar": [
         {
@@ -6223,7 +6229,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3695736415447527,
         "posts/2026-02-24-akotsk-s1.md": 0.2338750803301936,
         "posts/2026-03-03-fellow-es1.md": 0.3222070280510072,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.24629302515788423
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.24629302515788423,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3590108597556919
       },
       "top_similar": [
         {
@@ -7115,7 +7122,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.31964463931386905,
         "posts/2026-02-24-akotsk-s1.md": 0.2337938150053148,
         "posts/2026-03-03-fellow-es1.md": 0.2968388824312339,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.19212678267419783
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.19212678267419783,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.2953276949189381
       },
       "top_similar": [
         {
@@ -8007,7 +8015,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.26529397752692413,
         "posts/2026-02-24-akotsk-s1.md": 0.2096769810189781,
         "posts/2026-03-03-fellow-es1.md": 0.2561898140921137,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.19645589969937494
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.19645589969937494,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.264773386794213
       },
       "top_similar": [
         {
@@ -8899,7 +8908,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.23425245785849966,
         "posts/2026-02-24-akotsk-s1.md": 0.24910508898377465,
         "posts/2026-03-03-fellow-es1.md": 0.24260324323678814,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2244551408708349
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2244551408708349,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.22788389347855492
       },
       "top_similar": [
         {
@@ -9791,7 +9801,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.39754113679210534,
         "posts/2026-02-24-akotsk-s1.md": 0.23474962215062833,
         "posts/2026-03-03-fellow-es1.md": 0.24511585131943023,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.15065586018401853
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.15065586018401853,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.2168823474694941
       },
       "top_similar": [
         {
@@ -10683,7 +10694,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.418810570929583,
         "posts/2026-02-24-akotsk-s1.md": 0.27718819791448845,
         "posts/2026-03-03-fellow-es1.md": 0.2677391528935066,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.25196423400398615
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.25196423400398615,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.26767600957729704
       },
       "top_similar": [
         {
@@ -11575,7 +11587,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.29624177289217307,
         "posts/2026-02-24-akotsk-s1.md": 0.1652137609846902,
         "posts/2026-03-03-fellow-es1.md": 0.21793597865472503,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.17348944051338647
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.17348944051338647,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.2487272012830695
       },
       "top_similar": [
         {
@@ -12467,7 +12480,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.20004559997836005,
         "posts/2026-02-24-akotsk-s1.md": 0.13975921846492267,
         "posts/2026-03-03-fellow-es1.md": 0.20534264389624995,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.11690610473670031
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.11690610473670031,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.20325076153034738
       },
       "top_similar": [
         {
@@ -13359,7 +13373,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2918963508735416,
         "posts/2026-02-24-akotsk-s1.md": 0.2119499454575488,
         "posts/2026-03-03-fellow-es1.md": 0.22249731644292545,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.15978949666427886
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.15978949666427886,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.21894348817770937
       },
       "top_similar": [
         {
@@ -14251,7 +14266,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.23928857641248288,
         "posts/2026-02-24-akotsk-s1.md": 0.3911595258153332,
         "posts/2026-03-03-fellow-es1.md": 0.45049908620635737,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.38704088940056103
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.38704088940056103,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4726441752802141
       },
       "top_similar": [
         {
@@ -15143,7 +15159,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.41661630536859445,
         "posts/2026-02-24-akotsk-s1.md": 0.32168707407006875,
         "posts/2026-03-03-fellow-es1.md": 0.3955076052193991,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.305990941692784
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.305990941692784,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4291368974539263
       },
       "top_similar": [
         {
@@ -16035,7 +16052,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.38684380554906345,
         "posts/2026-02-24-akotsk-s1.md": 0.4280652716263196,
         "posts/2026-03-03-fellow-es1.md": 0.49950640533979895,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.40221627312187835
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.40221627312187835,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.5255772155924099
       },
       "top_similar": [
         {
@@ -16927,7 +16945,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.24626089617979013,
         "posts/2026-02-24-akotsk-s1.md": 0.2577371625244439,
         "posts/2026-03-03-fellow-es1.md": 0.35845100590939455,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.31319426435235537
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.31319426435235537,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.34873816807873687
       },
       "top_similar": [
         {
@@ -17819,7 +17838,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.366088376024118,
         "posts/2026-02-24-akotsk-s1.md": 0.30647780622020554,
         "posts/2026-03-03-fellow-es1.md": 0.40838367856518176,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.29475406586049785
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.29475406586049785,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4313328058386918
       },
       "top_similar": [
         {
@@ -18711,7 +18731,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3093516995104896,
         "posts/2026-02-24-akotsk-s1.md": 0.3764207271766113,
         "posts/2026-03-03-fellow-es1.md": 0.5061546485410728,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.37479225916444603
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.37479225916444603,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4869626392816029
       },
       "top_similar": [
         {
@@ -19603,7 +19624,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.38360303944706603,
         "posts/2026-02-24-akotsk-s1.md": 0.2546081959762008,
         "posts/2026-03-03-fellow-es1.md": 0.3542907403617544,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2821070181254033
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2821070181254033,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.38096911306155773
       },
       "top_similar": [
         {
@@ -20495,7 +20517,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.23896572844196876,
         "posts/2026-02-24-akotsk-s1.md": 0.18094141036983216,
         "posts/2026-03-03-fellow-es1.md": 0.2616798983128665,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.16150961980200348
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.16150961980200348,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.27803815854275155
       },
       "top_similar": [
         {
@@ -21387,7 +21410,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2445332339282658,
         "posts/2026-02-24-akotsk-s1.md": 0.2315808247375952,
         "posts/2026-03-03-fellow-es1.md": 0.30225760737936547,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.19028466153233545
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.19028466153233545,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3244132436253388
       },
       "top_similar": [
         {
@@ -22279,7 +22303,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3513013385835488,
         "posts/2026-02-24-akotsk-s1.md": 0.2607780619968888,
         "posts/2026-03-03-fellow-es1.md": 0.34127289962183427,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.31069379748449993
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.31069379748449993,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.40555442090645377
       },
       "top_similar": [
         {
@@ -23171,7 +23196,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3082505406270275,
         "posts/2026-02-24-akotsk-s1.md": 0.22712991064273735,
         "posts/2026-03-03-fellow-es1.md": 0.29536828723813574,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.1865647603629515
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.1865647603629515,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3084678735373259
       },
       "top_similar": [
         {
@@ -24063,7 +24089,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2538609187360648,
         "posts/2026-02-24-akotsk-s1.md": 0.3207665981340909,
         "posts/2026-03-03-fellow-es1.md": 0.35944365358695973,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.328075989096708
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.328075989096708,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.36848873806590904
       },
       "top_similar": [
         {
@@ -24955,7 +24982,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.39580636901698923,
         "posts/2026-02-24-akotsk-s1.md": 0.3111159793718831,
         "posts/2026-03-03-fellow-es1.md": 0.4282992597366242,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.33200058554718354
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.33200058554718354,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.39891976682769825
       },
       "top_similar": [
         {
@@ -25847,7 +25875,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2258330048902864,
         "posts/2026-02-24-akotsk-s1.md": 0.38354955685480957,
         "posts/2026-03-03-fellow-es1.md": 0.3419660897979503,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3474599820315546
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3474599820315546,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.38100495946999713
       },
       "top_similar": [
         {
@@ -26739,7 +26768,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.4063230974775366,
         "posts/2026-02-24-akotsk-s1.md": 0.3250695223229167,
         "posts/2026-03-03-fellow-es1.md": 0.3997915392846338,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3687709791349668
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3687709791349668,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4665561599141911
       },
       "top_similar": [
         {
@@ -27631,7 +27661,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.22413918794080348,
         "posts/2026-02-24-akotsk-s1.md": 0.15776018762795008,
         "posts/2026-03-03-fellow-es1.md": 0.26881662346892926,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2727939466661695
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2727939466661695,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.28085394960719456
       },
       "top_similar": [
         {
@@ -28523,7 +28554,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3125774328064056,
         "posts/2026-02-24-akotsk-s1.md": 0.2995302328674481,
         "posts/2026-03-03-fellow-es1.md": 0.3505538617940672,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3232395421997735
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3232395421997735,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.35872452515229614
       },
       "top_similar": [
         {
@@ -29415,7 +29447,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.305292031215194,
         "posts/2026-02-24-akotsk-s1.md": 0.42100481927943795,
         "posts/2026-03-03-fellow-es1.md": 0.45028912208110383,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3375201129320589
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3375201129320589,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.46111942081957646
       },
       "top_similar": [
         {
@@ -30307,7 +30340,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.26308527492581973,
         "posts/2026-02-24-akotsk-s1.md": 0.26083205181757046,
         "posts/2026-03-03-fellow-es1.md": 0.3121913620380062,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.34306313805717403
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.34306313805717403,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.31244429290124964
       },
       "top_similar": [
         {
@@ -31199,7 +31233,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.36280277048709486,
         "posts/2026-02-24-akotsk-s1.md": 0.4213385821864464,
         "posts/2026-03-03-fellow-es1.md": 0.47985437809727116,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.333256155102882
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.333256155102882,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4490223213853462
       },
       "top_similar": [
         {
@@ -32091,7 +32126,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.28094848351079216,
         "posts/2026-02-24-akotsk-s1.md": 0.420839095188396,
         "posts/2026-03-03-fellow-es1.md": 0.45796114930534326,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.34967286008083287
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.34967286008083287,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.47496353987630835
       },
       "top_similar": [
         {
@@ -32983,7 +33019,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.4635013158179917,
         "posts/2026-02-24-akotsk-s1.md": 0.2963224843250222,
         "posts/2026-03-03-fellow-es1.md": 0.35983434510021955,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.28962408474512813
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.28962408474512813,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4014925219478155
       },
       "top_similar": [
         {
@@ -33875,7 +33912,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.44661356520400564,
         "posts/2026-02-24-akotsk-s1.md": 0.31225681372496483,
         "posts/2026-03-03-fellow-es1.md": 0.36626343575582143,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.29575327975898535
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.29575327975898535,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3919122198173151
       },
       "top_similar": [
         {
@@ -34767,7 +34805,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.30514477902387727,
         "posts/2026-02-24-akotsk-s1.md": 0.3164115610693937,
         "posts/2026-03-03-fellow-es1.md": 0.4240375427939489,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.36226124361577783
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.36226124361577783,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.390202622639859
       },
       "top_similar": [
         {
@@ -35659,7 +35698,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.217127804307044,
         "posts/2026-02-24-akotsk-s1.md": 0.2366294955051376,
         "posts/2026-03-03-fellow-es1.md": 0.3390046308968145,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2928604230334145
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2928604230334145,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.2929804947088256
       },
       "top_similar": [
         {
@@ -36551,7 +36591,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.19599636872979728,
         "posts/2026-02-24-akotsk-s1.md": 0.27356316081128645,
         "posts/2026-03-03-fellow-es1.md": 0.27186914762818143,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.24559811009298918
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.24559811009298918,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.27257683657810255
       },
       "top_similar": [
         {
@@ -37443,7 +37484,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.23371997857084506,
         "posts/2026-02-24-akotsk-s1.md": 0.3800373908489063,
         "posts/2026-03-03-fellow-es1.md": 0.44464548314477575,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3302369340818199
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3302369340818199,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4235773532490492
       },
       "top_similar": [
         {
@@ -38335,7 +38377,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3051363609314628,
         "posts/2026-02-24-akotsk-s1.md": 0.38261941430821894,
         "posts/2026-03-03-fellow-es1.md": 0.4819302924844485,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3307411723427501
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3307411723427501,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.40192979211254515
       },
       "top_similar": [
         {
@@ -39227,7 +39270,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.20801448059713165,
         "posts/2026-02-24-akotsk-s1.md": 0.40747775096035327,
         "posts/2026-03-03-fellow-es1.md": 0.3886770405937005,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.27508722674906116
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.27508722674906116,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.364968651447054
       },
       "top_similar": [
         {
@@ -40119,7 +40163,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.27023246061096606,
         "posts/2026-02-24-akotsk-s1.md": 0.308326184270084,
         "posts/2026-03-03-fellow-es1.md": 0.3941839812137414,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.36520620966705847
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.36520620966705847,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3206269052469281
       },
       "top_similar": [
         {
@@ -41011,7 +41056,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.24795424013009545,
         "posts/2026-02-24-akotsk-s1.md": 0.3423207001364255,
         "posts/2026-03-03-fellow-es1.md": 0.4734969216957145,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.4256906221531532
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.4256906221531532,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.47975505474071567
       },
       "top_similar": [
         {
@@ -41027,10 +41073,10 @@
           "score": 0.509347
         },
         {
-          "post_key": "posts/2026-03-03-fellow-es1.md",
-          "content_path": "posts/2026-03-03-fellow-es1",
-          "title": "Fellow Espresso Series 1",
-          "score": 0.473497
+          "post_key": "posts/2026-03-09-fellow-es1-pt3.md",
+          "content_path": "posts/2026-03-09-fellow-es1-pt3",
+          "title": "Fellow Espresso Series 1 pt3",
+          "score": 0.479755
         }
       ]
     },
@@ -41903,7 +41949,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.18233474620794318,
         "posts/2026-02-24-akotsk-s1.md": 0.29995585800454727,
         "posts/2026-03-03-fellow-es1.md": 0.2587711538108091,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2635168718341332
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2635168718341332,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.28221161558522645
       },
       "top_similar": [
         {
@@ -42795,7 +42842,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.18989282671050536,
         "posts/2026-02-24-akotsk-s1.md": 0.2508351273634281,
         "posts/2026-03-03-fellow-es1.md": 0.30741834951070846,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2747628569291783
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2747628569291783,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.27376278407514565
       },
       "top_similar": [
         {
@@ -43687,7 +43735,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.19884423885865743,
         "posts/2026-02-24-akotsk-s1.md": 0.3603960531117565,
         "posts/2026-03-03-fellow-es1.md": 0.32257646234045656,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.336252657376726
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.336252657376726,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3522746431248859
       },
       "top_similar": [
         {
@@ -44579,7 +44628,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.19575079393719091,
         "posts/2026-02-24-akotsk-s1.md": 0.26009924079566193,
         "posts/2026-03-03-fellow-es1.md": 0.17750177568466743,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.16194202134730107
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.16194202134730107,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.14874668783190806
       },
       "top_similar": [
         {
@@ -45471,7 +45521,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.4361823840754602,
         "posts/2026-02-24-akotsk-s1.md": 0.3173977360663343,
         "posts/2026-03-03-fellow-es1.md": 0.35459346959871635,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2988537656059642
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2988537656059642,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3771130483168555
       },
       "top_similar": [
         {
@@ -46363,7 +46414,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.13643430402932696,
         "posts/2026-02-24-akotsk-s1.md": 0.24873062887237754,
         "posts/2026-03-03-fellow-es1.md": 0.3022125354768042,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2766469191141217
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2766469191141217,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.24781544452711937
       },
       "top_similar": [
         {
@@ -47255,7 +47307,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.24821950309437213,
         "posts/2026-02-24-akotsk-s1.md": 0.32724712607249,
         "posts/2026-03-03-fellow-es1.md": 0.43327056675397246,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3615974321719187
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3615974321719187,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.42938278059058227
       },
       "top_similar": [
         {
@@ -48147,7 +48200,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.18454423144226798,
         "posts/2026-02-24-akotsk-s1.md": 0.20832585884357643,
         "posts/2026-03-03-fellow-es1.md": 0.2473319256683633,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.24545015854228827
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.24545015854228827,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.29032350193843626
       },
       "top_similar": [
         {
@@ -49039,7 +49093,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.23911968166250702,
         "posts/2026-02-24-akotsk-s1.md": 0.31834040738027,
         "posts/2026-03-03-fellow-es1.md": 0.3376820196685421,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2936285657015446
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2936285657015446,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3331995549942408
       },
       "top_similar": [
         {
@@ -49931,7 +49986,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.24888243434196922,
         "posts/2026-02-24-akotsk-s1.md": 0.3030762125233724,
         "posts/2026-03-03-fellow-es1.md": 0.3119249779907836,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2877701826167206
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2877701826167206,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.31973513084290933
       },
       "top_similar": [
         {
@@ -50823,7 +50879,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.22777169651888138,
         "posts/2026-02-24-akotsk-s1.md": 0.3535936449630654,
         "posts/2026-03-03-fellow-es1.md": 0.3762648004322459,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3004512368851925
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3004512368851925,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3295834740951625
       },
       "top_similar": [
         {
@@ -51715,7 +51772,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.19947992166222303,
         "posts/2026-02-24-akotsk-s1.md": 0.23407066301304855,
         "posts/2026-03-03-fellow-es1.md": 0.23413174342208012,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.19817364199350238
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.19817364199350238,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.23962066148992384
       },
       "top_similar": [
         {
@@ -52607,7 +52665,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3044761121737392,
         "posts/2026-02-24-akotsk-s1.md": 0.38284230796787855,
         "posts/2026-03-03-fellow-es1.md": 0.33465350032953645,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3286201161161927
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3286201161161927,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3310492244588549
       },
       "top_similar": [
         {
@@ -53499,7 +53558,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.46356438479980994,
         "posts/2026-02-24-akotsk-s1.md": 0.28434829075121265,
         "posts/2026-03-03-fellow-es1.md": 0.33365921318206154,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3174641137599735
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3174641137599735,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.34433162505110804
       },
       "top_similar": [
         {
@@ -54391,7 +54451,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3104130170058876,
         "posts/2026-02-24-akotsk-s1.md": 0.39205167781846695,
         "posts/2026-03-03-fellow-es1.md": 0.49952724354612194,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.4168806270499823
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.4168806270499823,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4751113933845091
       },
       "top_similar": [
         {
@@ -55283,7 +55344,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.29684124759447045,
         "posts/2026-02-24-akotsk-s1.md": 0.3016616959460741,
         "posts/2026-03-03-fellow-es1.md": 0.34961536580390795,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.25058058546235434
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.25058058546235434,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3344747613337556
       },
       "top_similar": [
         {
@@ -56175,7 +56237,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.262158038980923,
         "posts/2026-02-24-akotsk-s1.md": 0.4437165559914083,
         "posts/2026-03-03-fellow-es1.md": 0.4201941310407067,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2933364083468046
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2933364083468046,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3511849071250269
       },
       "top_similar": [
         {
@@ -57067,7 +57130,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.30873481867386054,
         "posts/2026-02-24-akotsk-s1.md": 0.3470063987919269,
         "posts/2026-03-03-fellow-es1.md": 0.4387452254598636,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3444520077345983
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3444520077345983,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.41892129205272044
       },
       "top_similar": [
         {
@@ -57959,7 +58023,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.19728764791283424,
         "posts/2026-02-24-akotsk-s1.md": 0.29297727577304455,
         "posts/2026-03-03-fellow-es1.md": 0.3098484502731778,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3491062668970771
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3491062668970771,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3594870224740761
       },
       "top_similar": [
         {
@@ -58851,7 +58916,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.1817525439452042,
         "posts/2026-02-24-akotsk-s1.md": 0.2731460798581212,
         "posts/2026-03-03-fellow-es1.md": 0.2743197348501187,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3248506618917878
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3248506618917878,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.33199772956231594
       },
       "top_similar": [
         {
@@ -59743,7 +59809,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.28797237008411886,
         "posts/2026-02-24-akotsk-s1.md": 0.34996794997045916,
         "posts/2026-03-03-fellow-es1.md": 0.3029896118780164,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3052440343111685
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3052440343111685,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.32896096113789536
       },
       "top_similar": [
         {
@@ -60635,7 +60702,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.28059457766147966,
         "posts/2026-02-24-akotsk-s1.md": 0.36703336971257405,
         "posts/2026-03-03-fellow-es1.md": 0.4076957199134252,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.331235344084514
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.331235344084514,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.34551623760362815
       },
       "top_similar": [
         {
@@ -61527,7 +61595,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.25534639344599913,
         "posts/2026-02-24-akotsk-s1.md": 0.37390917458103873,
         "posts/2026-03-03-fellow-es1.md": 0.47707944570539046,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.37295358900721853
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.37295358900721853,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4387190475650152
       },
       "top_similar": [
         {
@@ -62419,7 +62488,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.16278642620381856,
         "posts/2026-02-24-akotsk-s1.md": 0.2476390296267963,
         "posts/2026-03-03-fellow-es1.md": 0.3666392238602918,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.31221475136662924
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.31221475136662924,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3483144296712984
       },
       "top_similar": [
         {
@@ -63311,7 +63381,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.29008470721204116,
         "posts/2026-02-24-akotsk-s1.md": 0.3230216626889375,
         "posts/2026-03-03-fellow-es1.md": 0.3661871265698334,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2923214146088907
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2923214146088907,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3337440225418722
       },
       "top_similar": [
         {
@@ -64203,7 +64274,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.25976030469275413,
         "posts/2026-02-24-akotsk-s1.md": 0.4642961741191939,
         "posts/2026-03-03-fellow-es1.md": 0.39198861379810396,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2858484807325434
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2858484807325434,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.36889816647371415
       },
       "top_similar": [
         {
@@ -65095,7 +65167,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.25329190880910707,
         "posts/2026-02-24-akotsk-s1.md": 0.33935622551782546,
         "posts/2026-03-03-fellow-es1.md": 0.514243958564951,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.39200776347716815
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.39200776347716815,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4579242276976395
       },
       "top_similar": [
         {
@@ -65987,9 +66060,16 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.27191205234674587,
         "posts/2026-02-24-akotsk-s1.md": 0.2799814914875788,
         "posts/2026-03-03-fellow-es1.md": 0.5056519511372887,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.4765265597611527
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.4765265597611527,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.5114111303273347
       },
       "top_similar": [
+        {
+          "post_key": "posts/2026-03-09-fellow-es1-pt3.md",
+          "content_path": "posts/2026-03-09-fellow-es1-pt3",
+          "title": "Fellow Espresso Series 1 pt3",
+          "score": 0.511411
+        },
         {
           "post_key": "posts/2026-03-03-fellow-es1.md",
           "content_path": "posts/2026-03-03-fellow-es1",
@@ -66001,12 +66081,6 @@
           "content_path": "posts/2026-03-04-fellow-es1-pt2",
           "title": "Fellow Espresso Series 1 pt2",
           "score": 0.476527
-        },
-        {
-          "post_key": "posts/2025-09-28-margherita-1.md",
-          "content_path": "posts/2025-09-28-margherita-1",
-          "title": "基础款拿波里披萨",
-          "score": 0.453108
         }
       ]
     },
@@ -66879,7 +66953,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.37504088627189675,
         "posts/2026-02-24-akotsk-s1.md": 0.45070765340703317,
         "posts/2026-03-03-fellow-es1.md": 0.5073276182681687,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.38873366241012003
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.38873366241012003,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.5175528335648018
       },
       "top_similar": [
         {
@@ -67771,7 +67846,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.26937554998342284,
         "posts/2026-02-24-akotsk-s1.md": 0.4041846035856778,
         "posts/2026-03-03-fellow-es1.md": 0.41182955657718345,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3378459083214742
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3378459083214742,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3983984220528399
       },
       "top_similar": [
         {
@@ -68663,7 +68739,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.3015695148833755,
         "posts/2026-02-24-akotsk-s1.md": 0.33730455032208956,
         "posts/2026-03-03-fellow-es1.md": 0.35262494600166183,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3139157009420251
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3139157009420251,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3720372680598871
       },
       "top_similar": [
         {
@@ -69555,7 +69632,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.22872339943770126,
         "posts/2026-02-24-akotsk-s1.md": 0.3634432472802415,
         "posts/2026-03-03-fellow-es1.md": 0.3713727299166663,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3198850329471332
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3198850329471332,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.38449319844883045
       },
       "top_similar": [
         {
@@ -70447,7 +70525,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.24029218802338434,
         "posts/2026-02-24-akotsk-s1.md": 0.2711517778749665,
         "posts/2026-03-03-fellow-es1.md": 0.43112428431697775,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.44592461605256656
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.44592461605256656,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.43470448836010894
       },
       "top_similar": [
         {
@@ -71339,7 +71418,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.21208672570319667,
         "posts/2026-02-24-akotsk-s1.md": 0.27778494812495436,
         "posts/2026-03-03-fellow-es1.md": 0.3570591312659397,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3268010289347666
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3268010289347666,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3687849910336973
       },
       "top_similar": [
         {
@@ -72231,7 +72311,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.34968601879123395,
         "posts/2026-02-24-akotsk-s1.md": 0.2504025920879684,
         "posts/2026-03-03-fellow-es1.md": 0.3157158421872343,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.25978275456161776
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.25978275456161776,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.2995012736816742
       },
       "top_similar": [
         {
@@ -73123,7 +73204,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.29117955605827245,
         "posts/2026-02-24-akotsk-s1.md": 0.3041765302648448,
         "posts/2026-03-03-fellow-es1.md": 0.33341943868671253,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2753527179089435
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2753527179089435,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.30866405489334486
       },
       "top_similar": [
         {
@@ -74015,7 +74097,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.32627714459937796,
         "posts/2026-02-24-akotsk-s1.md": 0.2855968001455793,
         "posts/2026-03-03-fellow-es1.md": 0.3599410798487122,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3288760041477135
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3288760041477135,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4056546014598591
       },
       "top_similar": [
         {
@@ -74907,7 +74990,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.32713527018639404,
         "posts/2026-02-24-akotsk-s1.md": 0.18067525507471463,
         "posts/2026-03-03-fellow-es1.md": 0.29738210635960594,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.29462547812434886
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.29462547812434886,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3323768990783242
       },
       "top_similar": [
         {
@@ -75799,7 +75883,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.27743466906214337,
         "posts/2026-02-24-akotsk-s1.md": 0.2809537159172466,
         "posts/2026-03-03-fellow-es1.md": 0.3724510650527548,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.30673140467155396
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.30673140467155396,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.34193042875379
       },
       "top_similar": [
         {
@@ -76691,7 +76776,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2888153867151976,
         "posts/2026-02-24-akotsk-s1.md": 0.172583693074969,
         "posts/2026-03-03-fellow-es1.md": 0.3157194409902412,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3393349919925665
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3393349919925665,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3354633961367428
       },
       "top_similar": [
         {
@@ -77583,7 +77669,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.25520993678529014,
         "posts/2026-02-24-akotsk-s1.md": 0.2428421834128254,
         "posts/2026-03-03-fellow-es1.md": 0.3652513378564459,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.30503572041457644
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.30503572041457644,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.3404686233822597
       },
       "top_similar": [
         {
@@ -78475,7 +78562,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.30040635305734015,
         "posts/2026-02-24-akotsk-s1.md": 0.3653315688063044,
         "posts/2026-03-03-fellow-es1.md": 0.4026132023969755,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3512043196642486
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3512043196642486,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.432158373201057
       },
       "top_similar": [
         {
@@ -79367,7 +79455,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.2903985687289884,
         "posts/2026-02-24-akotsk-s1.md": 0.39112380628241133,
         "posts/2026-03-03-fellow-es1.md": 0.45123491003143296,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.32307273340957343
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.32307273340957343,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.4384444641447795
       },
       "top_similar": [
         {
@@ -80259,7 +80348,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.20231439919865774,
         "posts/2026-02-24-akotsk-s1.md": 0.28378500091208225,
         "posts/2026-03-03-fellow-es1.md": 0.36047512513369057,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.238679083515457
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.238679083515457,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.2598685392288803
       },
       "top_similar": [
         {
@@ -81151,7 +81241,8 @@
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.22081286924304422,
         "posts/2026-02-24-akotsk-s1.md": 0.3822218381667726,
         "posts/2026-03-03-fellow-es1.md": 0.3997809849856037,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.3524033510224952
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3524033510224952,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.361058461136002
       },
       "top_similar": [
         {
@@ -82043,7 +82134,8 @@
         "posts/2026-02-22-adulting.md": 0.22081286924304422,
         "posts/2026-02-24-akotsk-s1.md": 0.247878303033907,
         "posts/2026-03-03-fellow-es1.md": 0.26951514865794757,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.24654813646331114
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.24654813646331114,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.27756852011760097
       },
       "top_similar": [
         {
@@ -82935,7 +83027,8 @@
         "posts/2026-02-22-adulting.md": 0.3822218381667726,
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.247878303033907,
         "posts/2026-03-03-fellow-es1.md": 0.3025638858797382,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.2916065283623819
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.2916065283623819,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.29841056365053653
       },
       "top_similar": [
         {
@@ -83827,9 +83920,16 @@
         "posts/2026-02-22-adulting.md": 0.3997809849856037,
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.26951514865794757,
         "posts/2026-02-24-akotsk-s1.md": 0.3025638858797382,
-        "posts/2026-03-04-fellow-es1-pt2.md": 0.6580489144810905
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.6580489144810905,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.751027868532564
       },
       "top_similar": [
+        {
+          "post_key": "posts/2026-03-09-fellow-es1-pt3.md",
+          "content_path": "posts/2026-03-09-fellow-es1-pt3",
+          "title": "Fellow Espresso Series 1 pt3",
+          "score": 0.751028
+        },
         {
           "post_key": "posts/2026-03-04-fellow-es1-pt2.md",
           "content_path": "posts/2026-03-04-fellow-es1-pt2",
@@ -83841,12 +83941,6 @@
           "content_path": "posts/2025-08-29-hardware-bandwidth",
           "title": "硬件带宽",
           "score": 0.514244
-        },
-        {
-          "post_key": "posts/2023-01-04-ac2022.md",
-          "content_path": "posts/2023-01-04-ac2022",
-          "title": "2022年简单回顾和2023新年展望",
-          "score": 0.513669
         }
       ]
     },
@@ -84625,7 +84719,6 @@
         -0.017289234,
         -0.04167957
       ],
-      "updated_at": "2026-03-04T20:11:24.584776+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.30803679518760746,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25543012991272085,
@@ -84720,9 +84813,16 @@
         "posts/2026-02-22-adulting.md": 0.3524033510224952,
         "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.24654813646331114,
         "posts/2026-02-24-akotsk-s1.md": 0.2916065283623819,
-        "posts/2026-03-03-fellow-es1.md": 0.6580489144810905
+        "posts/2026-03-03-fellow-es1.md": 0.6580489144810905,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.7799041147909423
       },
       "top_similar": [
+        {
+          "post_key": "posts/2026-03-09-fellow-es1-pt3.md",
+          "content_path": "posts/2026-03-09-fellow-es1-pt3",
+          "title": "Fellow Espresso Series 1 pt3",
+          "score": 0.779904
+        },
         {
           "post_key": "posts/2026-03-03-fellow-es1.md",
           "content_path": "posts/2026-03-03-fellow-es1",
@@ -84734,12 +84834,900 @@
           "content_path": "posts/2025-08-29-orange-espresso-tonic",
           "title": "橙味浓缩咖啡汤力水",
           "score": 0.476527
+        }
+      ]
+    },
+    "posts/2026-03-09-fellow-es1-pt3.md": {
+      "title": "Fellow Espresso Series 1 pt3",
+      "slug": "fellow-es1-pt3",
+      "content_path": "posts/2026-03-09-fellow-es1-pt3",
+      "content_hash": "c766765dc09818f60db1fe4f831f6e85d861e40d2cd08f4ca9ca7db048ef5247",
+      "embedding": [
+        -0.039659515,
+        -0.040829476,
+        0.021326315,
+        -0.0029122604,
+        0.020964196,
+        0.0031950024,
+        -0.04009571,
+        0.041425534,
+        -0.00289029,
+        -0.01570122,
+        -0.0364393,
+        0.00306969,
+        0.060862094,
+        -0.025067363,
+        -0.09617612,
+        -0.04021359,
+        0.039681952,
+        0.05191155,
+        -0.04663308,
+        -0.022244582,
+        -0.005072643,
+        -0.019629985,
+        0.020031981,
+        0.015798056,
+        -0.028923504,
+        -0.00071365084,
+        0.063372225,
+        0.010070187,
+        0.025770303,
+        -0.012733471,
+        0.04969968,
+        -0.019884473,
+        0.038997196,
+        0.0051263683,
+        0.0065396037,
+        0.0067732395,
+        -0.023007832,
+        0.01669378,
+        0.02473594,
+        -0.044457655,
+        0.017116308,
+        0.016443148,
+        0.0016528288,
+        -0.019488586,
+        -0.021509277,
+        0.024371503,
+        0.063942485,
+        -0.013120623,
+        -0.019345144,
+        -0.0094021605,
+        0.047238972,
+        0.058513653,
+        -0.015926838,
+        -0.008116723,
+        -0.025266629,
+        0.0066925115,
+        0.041585665,
+        -0.029144261,
+        0.005275859,
+        0.002262221,
+        0.0109361475,
+        0.039578445,
+        0.0036881652,
+        0.021020446,
+        0.06641989,
+        -0.02360346,
+        0.014645017,
+        0.033574615,
+        0.015240006,
+        0.095192075,
+        -0.031178564,
+        -0.01819507,
+        -0.059105683,
+        -0.046559725,
+        0.16909689,
+        0.081240475,
+        -0.06320686,
+        -0.005569699,
+        0.018866785,
+        -0.029018372,
+        -0.027397403,
+        0.05297936,
+        0.04756105,
+        -0.027994933,
+        -0.007120125,
+        -0.03991649,
+        -0.01434806,
+        -0.0002893192,
+        0.02019403,
+        0.0681131,
+        0.0374717,
+        0.0019152315,
+        0.054989863,
+        0.014314972,
+        0.042420935,
+        0.0010826336,
+        -0.05111935,
+        0.009846815,
+        -0.047616914,
+        -0.0028088896,
+        0.051504716,
+        -0.010528569,
+        -0.008072989,
+        0.03535934,
+        0.055272393,
+        0.0643853,
+        -0.031545337,
+        0.017906075,
+        -0.010532249,
+        0.026025485,
+        -0.021450285,
+        0.027402144,
+        -0.010831767,
+        0.0501934,
+        0.009532373,
+        -0.0530871,
+        -0.0091299005,
+        0.046910208,
+        0.029174354,
+        0.03128355,
+        0.0044892,
+        0.012651196,
+        -0.0033879045,
+        -0.04831964,
+        0.015909122,
+        0.032344494,
+        0.00820757,
+        -0.0057032425,
+        0.0030261602,
+        -0.05470361,
+        0.026568074,
+        0.03787105,
+        -0.0050623734,
+        -0.045219123,
+        -0.04718726,
+        -0.020652393,
+        0.01879549,
+        0.005157153,
+        -0.02052152,
+        0.03966842,
+        -0.011705647,
+        -0.088910915,
+        0.0146965515,
+        -0.021951076,
+        0.020438028,
+        -0.014907135,
+        -0.10624856,
+        0.0050911335,
+        -0.023642017,
+        0.0069675436,
+        0.060776103,
+        -0.00928034,
+        0.016013693,
+        -0.040305216,
+        -0.014705765,
+        0.06011506,
+        -0.019064346,
+        0.042273745,
+        0.030782407,
+        0.014189443,
+        -0.016883474,
+        -0.037820358,
+        0.038238514,
+        0.033701357,
+        -0.020797418,
+        0.051538642,
+        -0.01304816,
+        0.07745784,
+        0.019796157,
+        0.028950656,
+        -0.056050602,
+        -0.030070134,
+        -0.032801323,
+        0.02564532,
+        -0.019226456,
+        -0.03910523,
+        0.0022244889,
+        -0.019110138,
+        0.053478904,
+        -0.030871175,
+        -0.011446709,
+        0.053137586,
+        -0.015997102,
+        -0.019995965,
+        -0.057699777,
+        -0.036562547,
+        0.026024906,
+        0.029946394,
+        -0.028384225,
+        0.030903542,
+        0.032814294,
+        -0.02064076,
+        -0.0032366002,
+        -0.04350442,
+        0.030857744,
+        0.02280601,
+        0.0655313,
+        0.014985658,
+        -0.001489095,
+        0.058705643,
+        -0.016487287,
+        0.062206566,
+        -0.000101203914,
+        -0.011220615,
+        0.050766826,
+        -0.002453247,
+        0.081305675,
+        -0.041040055,
+        -0.028360877,
+        -0.04225992,
+        -0.026890235,
+        -0.014363441,
+        -0.016292427,
+        -0.0020523174,
+        0.03307436,
+        -0.012743259,
+        0.038259346,
+        0.014583081,
+        0.0063985568,
+        -0.01707639,
+        -0.042642124,
+        0.007423064,
+        -0.020390857,
+        -0.032268193,
+        0.006516883,
+        0.0029970696,
+        0.0083391005,
+        -0.0008779261,
+        0.04881412,
+        0.011870026,
+        -0.027512502,
+        -0.017395336,
+        -0.003402354,
+        0.07469726,
+        -0.081612274,
+        -0.0050083622,
+        0.0053272056,
+        -0.065884486,
+        -0.026390113,
+        0.0972753,
+        0.02138725,
+        0.0064608683,
+        0.013513926,
+        0.045285415,
+        -0.061279885,
+        -0.05228101,
+        -0.015196403,
+        0.019151371,
+        -0.0066762753,
+        0.04380036,
+        -0.019502733,
+        -0.029596599,
+        0.02311788,
+        0.039192185,
+        -0.020637155,
+        0.017733043,
+        0.026525637,
+        0.015452038,
+        0.021277474,
+        0.01788165,
+        0.027135396,
+        -0.0054126685,
+        -0.032701924,
+        -0.0062089805,
+        0.0036263317,
+        0.044532795,
+        0.010722271,
+        0.013534144,
+        -0.081717595,
+        -0.07795383,
+        0.050851956,
+        -0.03899944,
+        -0.009397811,
+        0.027302712,
+        -0.02850609,
+        0.04117344,
+        -0.006013958,
+        0.014087341,
+        -0.0009892124,
+        -0.034889124,
+        -0.050719753,
+        0.051048618,
+        -0.010883708,
+        0.014961858,
+        -0.0033067907,
+        -0.056892514,
+        0.012691069,
+        -0.01501468,
+        -0.061993092,
+        -0.02037362,
+        -0.04066217,
+        0.03241264,
+        -0.045287892,
+        -0.007578481,
+        0.007979011,
+        -0.034023125,
+        -0.05228746,
+        -0.0004816517,
+        -0.011444595,
+        -0.020635791,
+        0.13810554,
+        -0.009043132,
+        0.0009137888,
+        -0.017362487,
+        -0.008015593,
+        0.001129259,
+        -0.10047501,
+        0.026139455,
+        -0.02818732,
+        0.020602806,
+        0.03375078,
+        -0.00033817234,
+        0.001619874,
+        -0.031371724,
+        0.010049721,
+        0.015737258,
+        -0.0044690045,
+        -0.05876971,
+        0.0059107197,
+        -0.0016139259,
+        -0.017448211,
+        0.015313174,
+        0.030468747,
+        -0.010589173,
+        -0.010316304,
+        -0.038118836,
+        -0.018714072,
+        0.017073516,
+        -0.101148576,
+        -0.00043952488,
+        -0.005099327,
+        0.016383797,
+        0.06912719,
+        -0.0655675,
+        -0.017112369,
+        0.018735843,
+        -0.004919868,
+        -0.0092273895,
+        -0.04470414,
+        -0.03286134,
+        0.05399785,
+        -0.016295271,
+        -0.017459812,
+        -0.030942308,
+        -0.020259462,
+        0.042973787,
+        -0.014266244,
+        -0.013791251,
+        -0.020087954,
+        -0.028022975,
+        0.017490644,
+        -0.044854764,
+        0.024652496,
+        0.010609461,
+        -0.03676431,
+        0.014573384,
+        -0.022545898,
+        0.10199095,
+        0.042409234,
+        0.015990928,
+        0.0066671404,
+        0.03401082,
+        -0.012102907,
+        0.051772755,
+        0.032889236,
+        -0.022409609,
+        0.038293704,
+        0.01132741,
+        0.00010173711,
+        0.0053790994,
+        0.038950555,
+        -0.01055694,
+        0.06617486,
+        0.03726248,
+        -0.0041323267,
+        0.044478532,
+        -0.021695722,
+        -0.055636317,
+        -0.012092054,
+        -0.025552573,
+        0.04883798,
+        -0.020545902,
+        -0.029402578,
+        0.0032757383,
+        -0.028816659,
+        0.04360495,
+        0.015946861,
+        0.059196014,
+        -0.02328788,
+        0.0580962,
+        -0.020620696,
+        0.021911139,
+        0.032764226,
+        -0.07051807,
+        0.023318605,
+        0.027576815,
+        0.042985234,
+        -0.03894101,
+        -0.0024847235,
+        0.044867877,
+        -0.0032344684,
+        -0.014666445,
+        -0.07610419,
+        -0.048628755,
+        0.06314247,
+        -0.01705976,
+        0.019573899,
+        0.03297443,
+        -0.030104546,
+        0.012520142,
+        0.03193431,
+        -0.01732344,
+        -0.02445608,
+        0.039759193,
+        0.07944321,
+        -0.019779697,
+        0.0065508424,
+        0.017935274,
+        0.007970336,
+        0.01856007,
+        0.0016578552,
+        -0.0033640014,
+        0.037310738,
+        0.01911886,
+        0.019875694,
+        -0.029616062,
+        -0.017283715,
+        -0.03873673,
+        -0.011811945,
+        -0.046327997,
+        0.04239735,
+        -0.012873544,
+        0.012798788,
+        0.048529174,
+        0.017223189,
+        -0.02502727,
+        -0.045157325,
+        0.0038686115,
+        -0.0035425746,
+        0.00080294337,
+        0.012154155,
+        -0.01195962,
+        -0.03386845,
+        0.030720305,
+        -0.006793084,
+        0.017649006,
+        0.019398618,
+        0.053336926,
+        -0.001325173,
+        0.0196824,
+        0.0019466339,
+        -0.04934803,
+        0.030195102,
+        0.06086922,
+        0.005913708,
+        -0.015010756,
+        0.0029886623,
+        -0.024024516,
+        -0.00087170233,
+        -0.017088784,
+        -0.033839684,
+        -0.015095823,
+        0.008447499,
+        0.008948714,
+        0.0022676946,
+        -0.044104785,
+        -0.015379069,
+        -0.022137105,
+        -0.05078445,
+        -0.0613977,
+        0.0047899396,
+        0.07780479,
+        0.0060303155,
+        0.008033556,
+        -0.0060712276,
+        -0.0037200944,
+        -0.03783445,
+        0.036624696,
+        -0.0198237,
+        -0.03903659,
+        -0.03865733,
+        -0.03685359,
+        0.015305332,
+        -0.02254986,
+        0.04068335,
+        0.018121013,
+        -0.012374591,
+        0.022890728,
+        0.021247184,
+        -0.04888089,
+        0.019485017,
+        -0.0173019,
+        0.016212339,
+        -0.0049012946,
+        0.032824438,
+        0.044687025,
+        0.011098192,
+        -0.03712115,
+        0.023634087,
+        0.056568235,
+        -0.043737456,
+        -0.03773622,
+        -0.023068814,
+        0.038360063,
+        0.03321107,
+        0.019746436,
+        0.0020735643,
+        -0.06538911,
+        -0.0009258946,
+        -0.021029422,
+        -0.04420501,
+        0.020464553,
+        -0.0072313426,
+        -0.0039843316,
+        -0.034336332,
+        0.009301758,
+        -0.06276879,
+        -0.008480184,
+        0.07836922,
+        0.021286577,
+        0.06349627,
+        -0.009989166,
+        0.027639955,
+        -0.008326697,
+        0.037269298,
+        -0.051425505,
+        0.016478833,
+        0.051936585,
+        -0.005441542,
+        0.01376608,
+        -0.10573888,
+        -0.011418678,
+        0.045897905,
+        0.0017280917,
+        0.010046797,
+        0.043754485,
+        0.013929516,
+        0.0028343028,
+        -0.019449042,
+        -0.053543054,
+        -0.076392606,
+        -0.07652637,
+        -0.013725939,
+        -0.06873838,
+        0.006427363,
+        -0.015324497,
+        -0.021582967,
+        -0.05326948,
+        -0.028862506,
+        -0.035121094,
+        -0.027986888,
+        0.06757841,
+        -0.03067536,
+        -0.0058459244,
+        0.026057223,
+        0.018985527,
+        0.03229585,
+        0.034958042,
+        0.012262467,
+        -0.03609465,
+        -0.034839775,
+        -0.01679429,
+        -0.033387512,
+        -0.017220603,
+        -0.0122312885,
+        -0.012803678,
+        -0.014111664,
+        -0.035995323,
+        -0.0035859891,
+        0.004947793,
+        0.009695217,
+        -0.02044775,
+        0.0014708363,
+        -0.052992456,
+        0.019217493,
+        -0.08958105,
+        -0.009355937,
+        0.0070697777,
+        0.030256998,
+        0.11706052,
+        0.0064218,
+        0.057788342,
+        0.059420846,
+        0.010237585,
+        -0.04459114,
+        0.017430343,
+        -0.0047707725,
+        -0.01978203,
+        -0.0057292134,
+        -0.052498884,
+        -0.00532623,
+        -0.05034562,
+        -0.00029491956,
+        -0.00877548,
+        -0.011032465,
+        -0.036925953,
+        0.000949672,
+        0.020613182,
+        0.008295958,
+        0.026185444,
+        0.08995373,
+        0.012953123,
+        -0.018475782,
+        -0.015505006,
+        0.018318964,
+        0.059593584,
+        -0.024731202,
+        -0.02536677,
+        -0.01941755,
+        0.04538702,
+        -0.04277342,
+        -0.013837635,
+        -0.033304702,
+        -0.04419257,
+        -0.053355858,
+        0.0060256887,
+        0.020435033,
+        -0.077283934,
+        0.047168046,
+        0.007014654,
+        0.013241587,
+        0.0076610977,
+        -0.015474191,
+        -0.010689838,
+        -0.0045342776,
+        -0.023707628,
+        -0.052637506,
+        0.026418556,
+        0.04985175,
+        -0.0080402205,
+        0.0089497445,
+        0.041890327,
+        0.006195609,
+        0.01754639,
+        -0.0055660224,
+        -0.03517703,
+        -0.0059135575,
+        0.11779266,
+        -0.018560154,
+        0.035136815,
+        0.04891075,
+        0.0320559,
+        -0.022612285,
+        0.03431029,
+        -0.010320926,
+        -0.023430295,
+        -0.015611478,
+        0.019096196,
+        -0.017203663,
+        -0.013153423,
+        -0.0004317705,
+        -0.059561446,
+        -0.01473528,
+        0.041987352,
+        0.06580632,
+        0.041562717,
+        -0.022192016,
+        0.073499456,
+        0.034911405,
+        -0.021824991,
+        0.012371149,
+        0.012671192,
+        0.015308342,
+        0.002013231,
+        -0.030473601,
+        0.037186433,
+        -0.045516584,
+        0.06472371,
+        0.05899039,
+        0.0065795593,
+        -0.0102605745,
+        0.059226356,
+        0.03482696,
+        0.012564302,
+        0.04300867,
+        -0.04836397,
+        -0.009206352,
+        -0.024524258,
+        0.020009184,
+        -0.0109042805,
+        0.0073338104,
+        0.008083841,
+        -0.035605993,
+        0.007180808,
+        0.004171372,
+        -0.00030734975,
+        -0.038601432,
+        -0.009136163,
+        -0.015285475,
+        -0.031217067,
+        0.0006901235,
+        -0.0045398828,
+        0.009572831,
+        0.032256447,
+        0.04400452,
+        0.037228346,
+        0.050869487,
+        -0.021776058,
+        0.010454802,
+        0.054102015,
+        0.037180852,
+        -0.011776763,
+        -0.0036482033,
+        -0.09637156,
+        0.011790967,
+        0.030882945,
+        0.041631985,
+        -0.023482097,
+        0.00053272577,
+        -0.057239093,
+        -0.05697123,
+        -0.03714366,
+        -0.012175416,
+        0.025053712,
+        0.01952956,
+        -0.010108709,
+        0.08938244,
+        -0.016723042,
+        -0.04589366,
+        0.046043944,
+        -0.016030936,
+        0.026889933,
+        0.07347834,
+        -0.001387392,
+        0.021337122,
+        -0.021405712,
+        0.040040124,
+        -0.07288461,
+        0.0062386226,
+        0.0014556213,
+        0.021909054,
+        0.023871385,
+        -0.031083928,
+        -0.06368481,
+        -0.008399227,
+        0.02542355,
+        0.05998353,
+        -0.01967492,
+        0.010900569,
+        -0.0004693377,
+        -0.0074879644,
+        -0.029492859,
+        0.030989164,
+        -0.113102354,
+        0.014793911,
+        -0.06328489,
+        0.048295792,
+        0.043924753,
+        -0.010024892,
+        0.001498636,
+        0.061686628,
+        -0.06515496,
+        -0.008546547,
+        -0.0025103195,
+        0.05054813,
+        -0.008583366,
+        -0.009185953,
+        0.01665961,
+        0.02504712,
+        0.019491747,
+        -0.031928565,
+        -0.015455087,
+        0.012811906,
+        0.016318103,
+        -0.020580016,
+        0.035377067,
+        -0.048670616,
+        -0.035474703
+      ],
+      "updated_at": "2026-03-09T05:36:08.393781+00:00",
+      "similarities": {
+        "posts/2022-09-05-sentiment-analysis.md": 0.3441413204109251,
+        "posts/2022-09-14-shapley-and-explainability.md": 0.29164348341980384,
+        "posts/2023-01-04-ac2022.md": 0.5171901489721304,
+        "posts/2023-01-06-rime.md": 0.37160327946718374,
+        "posts/2023-01-08-reset-conda-env.md": 0.24184631843247487,
+        "posts/2023-01-09-group-by-and-rename.md": 0.22934444613218677,
+        "posts/2023-01-14-snippets.md": 0.3590108597556919,
+        "posts/2023-01-24-git-review.md": 0.2953276949189381,
+        "posts/2023-01-25-textattack.md": 0.264773386794213,
+        "posts/2023-01-27-finding-the-python-interpreter.md": 0.22788389347855492,
+        "posts/2023-02-23-kbd-and-highlight-in-hugo.md": 0.2168823474694941,
+        "posts/2023-03-26-vertical-layout.md": 0.26767600957729704,
+        "posts/2023-04-02-commit-messages.md": 0.2487272012830695,
+        "posts/2023-05-18-climate-plus.md": 0.20325076153034738,
+        "posts/2023-05-20-chitchat.md": 0.21894348817770937,
+        "posts/2023-06-29-kindle-oasis.md": 0.4726441752802141,
+        "posts/2023-09-26-starship.md": 0.4291368974539263,
+        "posts/2023-10-01-learn-how-to-type.md": 0.5255772155924099,
+        "posts/2023-10-29-switch-apple-store.md": 0.34873816807873687,
+        "posts/2023-11-20-app-defaults-2023.md": 0.4313328058386918,
+        "posts/2023-12-31-ac2023.md": 0.4869626392816029,
+        "posts/2024-01-30-omz-to-fish.md": 0.38096911306155773,
+        "posts/2024-02-29-distillm-01.md": 0.27803815854275155,
+        "posts/2024-03-31-distillm-02.md": 0.3244132436253388,
+        "posts/2024-03-31-setapp-succession.md": 0.40555442090645377,
+        "posts/2024-05-01-distillm-03.md": 0.3084678735373259,
+        "posts/2024-05-09-shuangpin.md": 0.36848873806590904,
+        "posts/2024-08-26-ipod-import.md": 0.39891976682769825,
+        "posts/2024-12-01-wukong.md": 0.38100495946999713,
+        "posts/2024-12-03-app-defaults-2024.md": 0.4665561599141911,
+        "posts/2024-12-31-chimichurri.md": 0.28085394960719456,
+        "posts/2024-12-31-ipod-mod.md": 0.35872452515229614,
+        "posts/2025-01-01-ac2024.md": 0.46111942081957646,
+        "posts/2025-02-17-dont-make-decisions-for-me.md": 0.31244429290124964,
+        "posts/2025-03-04-make-internet-experience-great-again.md": 0.4490223213853462,
+        "posts/2025-03-31-202503.md": 0.47496353987630835,
+        "posts/2025-04-07-neodb-shortcode.md": 0.4014925219478155,
+        "posts/2025-04-09-neodb-shortcode-fixed.md": 0.3919122198173151,
+        "posts/2025-05-14-day-one-migration.md": 0.390202622639859,
+        "posts/2025-06-16-daikon.md": 0.2929804947088256,
+        "posts/2025-06-17-ears.md": 0.27257683657810255,
+        "posts/2025-06-18-goodbye-kindle.md": 0.4235773532490492,
+        "posts/2025-06-19-hobonichi.md": 0.40192979211254515,
+        "posts/2025-06-20-games-i-played-in-june.md": 0.364968651447054,
+        "posts/2025-06-21-wallpaper-installation.md": 0.3206269052469281,
+        "posts/2025-06-22-brisket.md": 0.47975505474071567,
+        "posts/2025-06-23-nba-finals.md": 0.28221161558522645,
+        "posts/2025-06-24-time-capsule.md": 0.27376278407514565,
+        "posts/2025-06-26-f1-the-movie.md": 0.3522746431248859,
+        "posts/2025-06-27-eat-well.md": 0.14874668783190806,
+        "posts/2025-06-30-drafts-action-to-hugo.md": 0.3771130483168555,
+        "posts/2025-07-02-turbulence.md": 0.24781544452711937,
+        "posts/2025-07-04-uncharted.md": 0.42938278059058227,
+        "posts/2025-07-05-family-days.md": 0.29032350193843626,
+        "posts/2025-07-06-speed-note-taking.md": 0.3331995549942408,
+        "posts/2025-07-07-two-watches.md": 0.31973513084290933,
+        "posts/2025-07-09-iceland.md": 0.3295834740951625,
+        "posts/2025-07-11-daikon-2.md": 0.23962066148992384,
+        "posts/2025-07-13-seven-point.md": 0.3310492244588549,
+        "posts/2025-07-23-x-rant.md": 0.34433162505110804,
+        "posts/2025-07-26-weekend-problem-solving-session.md": 0.4751113933845091,
+        "posts/2025-07-27-bball-analytics.md": 0.3344747613337556,
+        "posts/2025-07-29-books-preordered.md": 0.3511849071250269,
+        "posts/2025-08-07-things-im-not-doing-anymore.md": 0.41892129205272044,
+        "posts/2025-08-13-other-things.md": 0.3594870224740761,
+        "posts/2025-08-15-other-things-ii.md": 0.33199772956231594,
+        "posts/2025-08-16-best-time-to-be-a-man-united-fan-possibly.md": 0.32896096113789536,
+        "posts/2025-08-17-babysitting-book-challenge.md": 0.34551623760362815,
+        "posts/2025-08-20-on-cooking.md": 0.4387190475650152,
+        "posts/2025-08-21-anti-consumerism.md": 0.3483144296712984,
+        "posts/2025-08-22-rehire.md": 0.3337440225418722,
+        "posts/2025-08-25-kojimas-memes.md": 0.36889816647371415,
+        "posts/2025-08-29-hardware-bandwidth.md": 0.4579242276976395,
+        "posts/2025-08-29-orange-espresso-tonic.md": 0.5114111303273347,
+        "posts/2025-09-01-my-productivity-workflow-2025.md": 0.5175528335648018,
+        "posts/2025-09-06-embrace-the-white-space.md": 0.3983984220528399,
+        "posts/2025-09-10-cribsheet.md": 0.3720372680598871,
+        "posts/2025-09-19-late-night-food.md": 0.38449319844883045,
+        "posts/2025-09-28-margherita-1.md": 0.43470448836010894,
+        "posts/2025-10-03-stardew-valley-concert.md": 0.3687849910336973,
+        "posts/2025-10-04-ipod-with-rockbox.md": 0.2995012736816742,
+        "posts/2025-10-15-dictionary.md": 0.30866405489334486,
+        "posts/2025-10-16-doom-emacs-macos-installation.md": 0.4056546014598591,
+        "posts/2025-10-16-tahoe-menu-bar.md": 0.3323768990783242,
+        "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.34193042875379,
+        "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.3354633961367428,
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.3404686233822597,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.432158373201057,
+        "posts/2026-01-01-ac2025.md": 0.4384444641447795,
+        "posts/2026-01-17-orb.md": 0.2598685392288803,
+        "posts/2026-02-22-adulting.md": 0.361058461136002,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.27756852011760097,
+        "posts/2026-02-24-akotsk-s1.md": 0.29841056365053653,
+        "posts/2026-03-03-fellow-es1.md": 0.751027868532564,
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.7799041147909423
+      },
+      "top_similar": [
+        {
+          "post_key": "posts/2026-03-04-fellow-es1-pt2.md",
+          "content_path": "posts/2026-03-04-fellow-es1-pt2",
+          "title": "Fellow Espresso Series 1 pt2",
+          "score": 0.779904
         },
         {
-          "post_key": "posts/2025-09-28-margherita-1.md",
-          "content_path": "posts/2025-09-28-margherita-1",
-          "title": "基础款拿波里披萨",
-          "score": 0.445925
+          "post_key": "posts/2026-03-03-fellow-es1.md",
+          "content_path": "posts/2026-03-03-fellow-es1",
+          "title": "Fellow Espresso Series 1",
+          "score": 0.751028
+        },
+        {
+          "post_key": "posts/2023-10-01-learn-how-to-type.md",
+          "content_path": "posts/2023-10-01-learn-how-to-type",
+          "title": "在2023年学习打字：双拼输入法和Iris分体键盘",
+          "score": 0.525577
         }
       ]
     }
