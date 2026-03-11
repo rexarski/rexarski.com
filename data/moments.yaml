@@ -1,13 +1,57 @@
 # Moments log (LMNT-style).
 # Fields: date (YYYY-MM-DD), title, note (e.g. "S1 E4").
-# Optional: url (link for title); type (show📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳); icon (any emoji, overrides type).
+# Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
+# Deprecated: icon — use type with the emoji instead.
 moments:
-  - date: "2026-03-08"
-    title: "Formula 1: Drive to Survive"
-    note: "S8 E2"
-    type: show
-    url: https://www.imdb.com/title/tt8289930/episodes/?season=8
-  - date: "2026-03-07"
+  - date: 2026-01-01
+    title: "学会了翻身"
+    type: 🍼
+  - date: 2026-01-09
+    title: "第二个纪念日"
+    type: 🍷
+    note: "@minibar"
+  - date: 2026-01-11
+    title: Zwift Insider
+    type: 🚴‍♂️
+    url: https://zwiftinsider.com/
+  - date: 2026-01-12
+    title: Practical Betterments
+    type: 📧
+    url: https://practicalbetterments.com/
+  - date: 2026-01-15
+    title: Josh Crosby
+    type: 🚣
+    note: "Apple Fitness 上最有热情的 trainer"
+  - date: 2026-01-23
+    title: "isometric nyc"
+    type: 🔗
+    url: https://cannoneyed.com/projects/isometric-nyc
+  - date: 2026-01-23
+    title: "Dithering Part II - The Ordered Dithering"
+    type: 🔗
+    url: https://visualrambling.space/dithering-part-2/
+  - date: 2026-01-26
+    title: "Athletic Brewing Co."
+    type: 🍺
+    note: my favorite fake beer
+  - date: 2026-02-09
+    title: "Things-MCP"
+    url: https://github.com/hald/things-mcp
+    type: 🔧
+    note: "+ Claude"
+  - date: 2026-02-10
+    title: "Terminal Trove"
+    type: 🔗
+    url: https://terminaltrove.com/
+  - date: 2026-02-21
+    title: "Handy"
+    type: 💻
+    url: https://github.com/cjpais/Handy
+    note: "on macOS"
+  - date: 2026-03-03
+    title: "Fellow Espresso Series 1"
+    type: ☕️
+  - date: "2026-03-05"
     title: "Pokémon Pokopia"
     type: game
     url: https://pokopia.pokemon.com/en-us/
@@ -19,4 +63,22 @@ moments:
   - date: "2026-03-07"
     title: "Formula 1"
     note: "Australian Grand Prix"
-    icon: 🏎️
+    type: 🏎️
+  - date: 2026-03-08
+    title: "Tuna"
+    type: 💻
+    url: https://tunaformac.com/
+    note: "on macOS 新的启动器出现了"
+  - date: 2026-03-09
+    title: "The Pokemon Tree of Life"
+    type: 🔗
+    url: https://www.straitstimes.com/multimedia/graphics/2026/02/pokemon-tree-of-life/index.html
+  - date: "2026-03-09"
+    title: "Playa Playa"
+    note: "D'Angelo"
+    type: music
+    url: https://www.youtube.com/watch?v=eo3iqsOH_54
+  - date: 2026-03-10
+    title: 天气和宝宝的心情
+    type: ☀️
+    note: "一下就感觉到春天了"

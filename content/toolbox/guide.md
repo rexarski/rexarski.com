@@ -36,8 +36,8 @@ cli_tools=(
 
 # apps
 cask_apps=(
-  1password 1password-cli ghostty antinote applite maestral
-  raycast anki cursor iina keka obsidian maccy
+  1password 1password-cli ghostty antinote applite 
+  maestral anki cursor iina keka obsidian maccy
   pearcleaner r shottr skim squirrel-app steam 
   positron zen
 )
@@ -102,7 +102,7 @@ if type -q eza
 end
 ```
 
-第七步，单独的 app 设置。主要是两个：1password 和 raycast. 前者从云端回复备份，后者在免费版的情况下需要从本地设置备份恢复。
+第七步，单独的 app 设置。主要 1password.
 
 第八步，配置 git. 用 1password 里的 ssh-agent 生成并添加 ssh key 给 github 账号。另外可以创建一个全局的 gitignore 文件。`git config --global core.excludesfile ~/.gitignore_global`
 
@@ -121,12 +121,7 @@ end
   - cmd + shift + 4: select window
   - cmd + shift + 5: fullscreen
 - things 3 - quick entry: ctrl + space
-- clipboard history app (pastebot, raycast, or maccy) - cmd + shift + v
-- raycast
-  - invoke: cmd + space
-  - hyperkey: caps lock
-  - hyperkey + specific letter = launch an app, e.g. hyper + P = quick access to 1password, hyper + F = calendar app (多少因为 fantastical 时期留下来的习惯), hyper + O = obsidian (如果有 bettertouchtool 则交给它管理)
-  - emoji selector: ctrl + cmd + space
+- clipboard history app (pastebot or maccy) - cmd + shift + v
 
 第十二步，去 system settings 里做三件事：
 
@@ -153,4 +148,3 @@ sudo scutil --set HostName new-host-name
 到这里就算是完工了。
 
 【更新】第十四步：依照这个 [gist](https://gist.github.com/rexarski/b80b90add76830b21e907539fac27644) 对 ghostty config 做修改。
-

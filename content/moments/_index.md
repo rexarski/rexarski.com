@@ -1,8 +1,9 @@
 +++
-title = "片刻"
+title = "快乐"
 menu = "not on main"
 +++
 
-更多<mark>当下</mark>的一些消费内容：片刻的快乐。
+> <!-- 我知道生活不只有快乐，但如果人生都只有一次，干嘛不快乐一些呢？ -->
+> Carpe diem.
 
-Moments of [now](/now/).
+更多<mark>[当下](/now/)</mark>的快乐。

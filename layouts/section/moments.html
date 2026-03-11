@@ -5,7 +5,7 @@
   <div class="moments-intro">{{ .Content }}</div>
 
   {{ $moments := .Site.Data.moments.moments }}
-  {{ $typeIcon := dict "show" "📺" "game" "🎮" "music" "🎧" "book" "📚" "movie" "🍿" "podcast" "🎙️" "restaurant" "🍳" }}
+  {{ $typeIcon := dict "show" "📺" "tv" "📺" "game" "🎮" "music" "🎧" "book" "📚" "movie" "🍿" "podcast" "🎙️" "restaurant" "🍳" }}
   {{ if $moments }}
     {{ $sorted := sort $moments "date" "desc" }}
     {{ $scratch := newScratch }}
@@ -14,7 +14,7 @@
 
     {{ range $sorted }}
       {{ $icon := "" }}
-      {{ if .icon }}{{ $icon = .icon }}{{ else if .type }}{{ $icon = index $typeIcon .type }}{{ end }}
+      {{ if .type }}{{ $mapped := index $typeIcon .type }}{{ if $mapped }}{{ $icon = $mapped }}{{ else }}{{ $icon = .type }}{{ end }}{{ end }}
       {{ $t := time .date }}
       {{ $y := $t.Year }}
       {{ $m := $t.Format "January" }}
