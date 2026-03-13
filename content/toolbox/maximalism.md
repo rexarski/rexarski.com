@@ -80,6 +80,7 @@ weight = 2
 - [微信 WeChat](https://www.wechat.com/)
 - [xld](https://tmkk.undo.jp/xld/index_e.html)
 - [yazi](https://yazi-rs.github.io)
+- [Zed](https://zed.dev/)
 - [Zen Browser](https://zen-browser.app)
 
 ## 归档
@@ -144,5 +145,4 @@ weight = 2
 - [Transmit](https://panic.com/transmit/)
 - [VLC](https://www.videolan.org/)
 - [YACReader](https://www.yacreader.com/)
-- [Zed](https://zed.dev/)
 - [Zwift](https://www.zwift.com)

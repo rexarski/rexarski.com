@@ -66,9 +66,9 @@ moments:
     type: 🏎️
   - date: 2026-03-08
     title: "Tuna"
-    type: 💻
+    type: 🐟
     url: https://tunaformac.com/
-    note: "on macOS 新的启动器出现了"
+    note: "on macOS；开发者的介绍视频搞笑、尴尬但是很真诚"
   - date: 2026-03-09
     title: "The Pokemon Tree of Life"
     type: 🔗
@@ -82,3 +82,8 @@ moments:
     title: 天气和宝宝的心情
     type: ☀️
     note: "一下就感觉到春天了"
+  - date: 2026-03-12
+    title: "11/22/63"
+    type: book
+    note: "Stephen King"
+    url: https://stephenking.com/works/novel/11-22-63.html
