@@ -1,5 +1,5 @@
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+    /* Fonts: loaded via <link> in baseof.html (avoids @import blocking) */
 
     @font-face {
         font-family: 'Zpix';
@@ -41,6 +41,12 @@
         --helptext: #9e938a;
         --form-bg: #f8f5f1;
         --form-text: #1c1815;
+
+        /* Blog heatmap scale (light) */
+        --heatmap-1: #99c9e8;
+        --heatmap-2: #5ba3d4;
+        --heatmap-3: #2d7eb8;
+        --heatmap-4: var(--accent);
     }
 
     /* ─── Reset ───────────────────────────────────────────────── */
@@ -153,6 +159,12 @@
         height: 2px;
         background: var(--accent);
         z-index: 100;
+    }
+
+    /* Remove the top accent bar in dark mode (it reads like a stray cyan line). */
+    body.theme-dark::before,
+    body.force-dark::before {
+        display: none;
     }
 
     /* ─── Header / Wordmark ──────────────────────────────────── */
@@ -809,10 +821,10 @@
     }
 
     .blog-heatmap-legend-cell.count-0 { background: var(--border); }
-    .blog-heatmap-legend-cell.count-1 { background: #99c9e8; }
-    .blog-heatmap-legend-cell.count-2 { background: #5ba3d4; }
-    .blog-heatmap-legend-cell.count-3 { background: #2d7eb8; }
-    .blog-heatmap-legend-cell.count-4 { background: var(--accent); }
+    .blog-heatmap-legend-cell.count-1 { background: var(--heatmap-1); }
+    .blog-heatmap-legend-cell.count-2 { background: var(--heatmap-2); }
+    .blog-heatmap-legend-cell.count-3 { background: var(--heatmap-3); }
+    .blog-heatmap-legend-cell.count-4 { background: var(--heatmap-4); }
 
     .blog-heatmap-grid {
         display: flex;
@@ -852,10 +864,10 @@
     }
 
     .blog-heatmap-cell.count-0 { background: var(--border); }
-    .blog-heatmap-cell.count-1 { background: #99c9e8; }
-    .blog-heatmap-cell.count-2 { background: #5ba3d4; }
-    .blog-heatmap-cell.count-3 { background: #2d7eb8; }
-    .blog-heatmap-cell.count-4 { background: var(--accent); }
+    .blog-heatmap-cell.count-1 { background: var(--heatmap-1); }
+    .blog-heatmap-cell.count-2 { background: var(--heatmap-2); }
+    .blog-heatmap-cell.count-3 { background: var(--heatmap-3); }
+    .blog-heatmap-cell.count-4 { background: var(--heatmap-4); }
 
     .blog-heatmap-cell:hover {
         opacity: 0.85;
@@ -1749,6 +1761,25 @@
         margin: 1rem 0;
     }
 
+    /* Year sections on /posts (same list style as home; year is the heading only) */
+    .post-list-year-heading {
+        font-family: var(--font-serif);
+        font-size: 1.35rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        color: var(--heading);
+        margin: 1.5rem 0 0.35rem;
+    }
+
+    .post-list-year-heading:first-of-type {
+        margin-top: 0.75rem;
+    }
+
+    .post-list-empty {
+        color: var(--muted);
+        margin: 0.5rem 0;
+    }
+
     .post-list-featured {
         margin-bottom: 1rem;
     }
@@ -1976,22 +2007,21 @@
             --helptext: #9ca3b2;
             --form-bg: #1c2030;
             --form-text: #c8cdd6;
-        }
 
-        body:not(.force-light):not(.force-dark) .blog-heatmap-cell.count-1,
-        body:not(.force-light):not(.force-dark) .blog-heatmap-legend-cell.count-1 { background: #3a7a9e !important; }
-        body:not(.force-light):not(.force-dark) .blog-heatmap-cell.count-2,
-        body:not(.force-light):not(.force-dark) .blog-heatmap-legend-cell.count-2 { background: #5294b8 !important; }
-        body:not(.force-light):not(.force-dark) .blog-heatmap-cell.count-3,
-        body:not(.force-light):not(.force-dark) .blog-heatmap-legend-cell.count-3 { background: #6aaed0 !important; }
-        body:not(.force-light):not(.force-dark) .blog-heatmap-cell.count-4,
-        body:not(.force-light):not(.force-dark) .blog-heatmap-legend-cell.count-4 { background: #7ab4d0 !important; }
+            /* Blog heatmap scale (dark) */
+            --heatmap-1: #3a7a9e;
+            --heatmap-2: #5294b8;
+            --heatmap-3: #6aaed0;
+            --heatmap-4: #7ab4d0;
+        }
     }
 
-    /* ─── Dark mode — force-dark class (dark blue–grey) ───────── */
+    /*
+     * Dark palette when the site is in dark mode (.theme-dark from script, or .force-dark + .theme-dark).
+     * Duplicates the @media (prefers-color-scheme: dark) block above so “force dark” works when OS is light.
+     */
+    body.theme-dark,
     body.force-dark {
-        filter: none !important;
-        -webkit-filter: none !important;
         --bg: #151922;
         --surface: #1c2030;
         --text: #c8cdd6;
@@ -2019,35 +2049,29 @@
         --helptext: #9ca3b2;
         --form-bg: #1c2030;
         --form-text: #c8cdd6;
+        --heatmap-1: #3a7a9e;
+        --heatmap-2: #5294b8;
+        --heatmap-3: #6aaed0;
+        --heatmap-4: #7ab4d0;
     }
 
-    body.force-dark .blog-heatmap-cell.count-1,
-    body.force-dark .blog-heatmap-legend-cell.count-1 { background: #3a7a9e !important; }
-    body.force-dark .blog-heatmap-cell.count-2,
-    body.force-dark .blog-heatmap-legend-cell.count-2 { background: #5294b8 !important; }
-    body.force-dark .blog-heatmap-cell.count-3,
-    body.force-dark .blog-heatmap-legend-cell.count-3 { background: #6aaed0 !important; }
-    body.force-dark .blog-heatmap-cell.count-4,
-    body.force-dark .blog-heatmap-legend-cell.count-4 { background: #7ab4d0 !important; }
+    body.force-dark {
+        filter: none !important;
+        -webkit-filter: none !important;
+    }
 
     body.force-dark * {
         filter: none !important;
         -webkit-filter: none !important;
     }
 
+    body.theme-dark .rss-link,
     body.force-dark .rss-link {
         border-bottom-color: #e8c547;
     }
 
+    body.theme-dark .rss-link:hover,
     body.force-dark .rss-link:hover {
-        border-bottom-color: #f5e076;
-    }
-
-    body.theme-dark .rss-link {
-        border-bottom-color: #e8c547;
-    }
-
-    body.theme-dark .rss-link:hover {
         border-bottom-color: #f5e076;
     }
 

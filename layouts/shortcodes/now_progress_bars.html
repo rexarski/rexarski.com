@@ -20,6 +20,18 @@
   {{- $pctPosts = math.Min 100.0 (math.Max 0.0 $pctPosts) -}}
 {{- end -}}
 
+{{- $t := now -}}
+{{- $year := $t.Year -}}
+{{- $start := time.AsTime (printf "%d-01-01T00:00:00Z" $year) -}}
+{{- $end := time.AsTime (printf "%d-01-01T00:00:00Z" (add $year 1)) -}}
+{{- $yearTotalDays := div (sub $end.Unix $start.Unix) 86400 -}}
+{{- $yearDay := $t.YearDay -}}
+{{- $pctYear := 0.0 -}}
+{{- if gt $yearTotalDays 0 -}}
+  {{- $pctYear = div (mul (float $yearDay) 100.0) (float $yearTotalDays) -}}
+  {{- $pctYear = math.Min 100.0 (math.Max 0.0 $pctYear) -}}
+{{- end -}}
+
 <div class="now-progress-bars" aria-label="Progress">
   <div class="now-progress-item">
     <span class="now-progress-label">百万米俱乐部</span>
@@ -34,5 +46,12 @@
       <div class="now-progress-fill" style="width: {{ $pctPosts }}%;"></div>
     </div>
     <span class="now-progress-meta">{{ $count2026 }} / {{ $targetPosts }} 篇</span>
+  </div>
+  <div class="now-progress-item">
+    <span class="now-progress-label">{{ $year }} 年进度</span>
+    <div class="now-progress-track" role="progressbar" aria-valuenow="{{ $yearDay }}" aria-valuemin="0" aria-valuemax="{{ $yearTotalDays }}" aria-label="{{ $year }} 年进度">
+      <div class="now-progress-fill" style="width: {{ $pctYear }}%;"></div>
+    </div>
+    <span class="now-progress-meta">第 {{ $yearDay }} 天 / {{ $yearTotalDays }} 天</span>
   </div>
 </div>

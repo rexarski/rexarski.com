@@ -2,10 +2,8 @@
 title = "Home"
 +++
 
-A fun guy thinking out loud.
+{{< dithering_photo src="/images/Haleakala.gif" caption="Haleakalā" dither="false" >}}
 
 ## 最近更新
 
 {{< postslist >}}
-
-{{< dithering_photo src="/images/Haleakala.gif" caption="Haleakalā" dither="false" >}}

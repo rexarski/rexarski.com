@@ -7,33 +7,27 @@
   </small>
   {{ end }}
 
-  <h2 class="posts-list-heading">全部博文</h2>
+  <h2 class="posts-list-heading">阅读全部</h2>
 
   {{ if .Pages }}
     {{ $postsByYear := .Pages.GroupByDate "2006" }}
     {{ range $postsByYear }}
-      <h3>{{ .Key }}</h3>
-      <ul class="blog-posts">
-        {{ range .Pages }}
-        <li>
-          <span>
-            <i>
-              <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-                {{ .Date.Format "2006 01 02" }}
-              </time>
-            </i>
-          </span>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
+      <h3 class="post-list-year-heading">{{ .Key }}</h3>
+      <div class="post-list">
+        {{ range (.Pages.ByDate.Reverse) }}
+        <article class="post-list-item">
+          <a href="{{ .RelPermalink }}" class="post-list-item-link">
+            <time class="post-list-item-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01 02" }}</time>
+            <span class="post-list-item-title">{{ .Title }}</span>
+          </a>
+        </article>
         {{ end }}
-      </ul>
-      {{ end }}
+      </div>
+    {{ end }}
   {{ else }}
-    <ul class="blog-posts">
-      <li>
-        No posts yet
-      </li>
-    </ul>
+    <div class="post-list">
+      <p class="post-list-empty">No posts yet</p>
+    </div>
   {{ end }}
 
   {{ if not .Data.Singular }}
