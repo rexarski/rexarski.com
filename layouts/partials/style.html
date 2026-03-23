@@ -975,6 +975,94 @@
         100% { transform: translateX(-50%); }
     }
 
+    /* ─── Now history (collapsed past items) ─────────────────── */
+    .now-history {
+        margin: 1.75rem 0 0;
+        padding: 1rem 0 0;
+        border-top: 1px solid var(--border);
+    }
+
+    .now-history-summary {
+        cursor: pointer;
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--heading);
+        font-family: var(--font-serif);
+        list-style: none;
+    }
+
+    .now-history-summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .now-history-summary::before {
+        content: "▸ ";
+        display: inline-block;
+        color: var(--accent);
+        transition: transform 0.15s ease;
+    }
+
+    details.now-history[open] > .now-history-summary::before {
+        transform: rotate(90deg);
+    }
+
+    .now-history-list {
+        margin: 0.85rem 0 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .now-history-item {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.35rem 1rem;
+        align-items: baseline;
+        padding: 0.45rem 0;
+        border-bottom: 1px solid var(--border);
+        font-size: 0.9rem;
+        line-height: 1.45;
+    }
+
+    .now-history-item:last-child {
+        border-bottom: none;
+    }
+
+    .now-history-dates {
+        font-family: var(--font-mono);
+        font-size: 0.78rem;
+        color: var(--muted);
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+    }
+
+    .now-history-sep {
+        margin: 0 0.25rem;
+        color: var(--border);
+    }
+
+    .now-history-text {
+        color: var(--text);
+        min-width: 0;
+    }
+
+    .now-history-text p {
+        margin: 0;
+    }
+
+    .now-history-text p + p {
+        margin-top: 0.35rem;
+    }
+
+    @media screen and (max-width: 520px) {
+        .now-history-item {
+            grid-template-columns: 1fr;
+        }
+
+        .now-history-dates {
+            white-space: normal;
+        }
+    }
+
     /* ─── Cards ──────────────────────────────────────────────── */
     .profile-border {
         border: 2px double var(--border);

@@ -6,6 +6,9 @@ layout = "changelog"
 
 # <pre>changelog</pre>
 
+- 2026-03-23
+  - 全站样式维护：`/posts` 列表与首页「最近更新」版式统一，年标题下日期为月-日；热力图色阶改为 CSS 变量、暗色 token 收敛、暗色下隐藏顶条强调线；Google Fonts 改为 `baseof` 中 preconnect + stylesheet 加载
+  - Now：进度区增加「当年进度」条；文末增加可折叠的过往 now 时间线（`data/now_history.yaml` + `now_history` shortcode）
 - 2026-03-08
   - 关于页与 changelog 页完成一轮视觉收束：引入终端化展示语言，统一字形、屏幕质感、列表符号与页面节奏
   - 重写了 about 页面多处样式
