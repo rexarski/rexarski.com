@@ -16,6 +16,7 @@ menu = "main"
 ](https://www.douban.com/doulist/161334584/)
 - 在听重轻在机核网录制的系列播单「[原型](https://www.gcores.com/albums/232)」
 - 在认真观看[程序员老王](https://www.youtube.com/@programmer-wang/videos)
+- 开始看 Brandon Sanderson 的书了
 {{< /now_marquee >}}
 
 {{< now_progress_bars >}}

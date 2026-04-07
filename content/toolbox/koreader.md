@@ -9,7 +9,7 @@ weight = 4
 
 整理自站内相关记录（如 [Kobo KOReader 重装](/posts/kobo-koreader-reset/)、[字典](/posts/add-dictionary-to-koreader/)、[Calibre 与 USB](/posts/weekend-problem-solving-session/)），方便以后重装或换机时一页看完。**设备以 Kobo + KOReader 为主**；其他机型安装路径见 [官方 Wiki](https://github.com/koreader/koreader/wiki)。
 
-updated on 2026-03-18
+updated on 2026-04-03
 
 ## 重装前备份
 
@@ -38,25 +38,27 @@ updated on 2026-03-18
 ## 字体与图书元数据
 
 - **KOReader 内字体**：将字体文件放入 KOReader 的 fonts 目录（与安装方式一致，通常在 `.adds/koreader/` 下对应位置）。
-- **更多桌面端字体列表**见本站 [toolbox · 字体](/toolbox/fonts/)。
-- **[ProjectTitle](https://github.com/joshuacant/ProjectTitle)**：按项目/系列显示标题等（按需启用）。
-- **Calibre 侧**（与书库质量相关，间接影响推到阅读器上的体验）：
+  - **更多桌面端字体列表**见本站 [toolbox · 字体](/toolbox/fonts/)。
+- **Calibre**（与书库质量相关，间接影响推到阅读器上的体验）：
   - [Calibre 推荐配置与插件 - 雅余](https://yayu.net/4767.html)
   - [Cirn09/calibre-do-not-translate-my-path](https://github.com/Cirn09/calibre-do-not-translate-my-path)
   - [fugary/calibre-douban](https://github.com/fugary/calibre-douban)
 
-## 用户补丁（User patches）
+## Plugin
+
+- 唯一的插件 [SimpleUI for KOReader](https://github.com/doctorhetfield-cmd/simpleui.koplugin)
+
+## User patches
 
 官方说明：[User patches](https://koreader.rocks/user_guide/#L2-userpatches)（`koreader/patches/` 目录，文件名与优先级规则见文档）。
 
 个人在用/曾用组合（可按发行版与兼容性自行增减）：
 
-1. **[SeriousHornet/KOReader.patches](https://github.com/SeriousHornet/KOReader.patches)**：除以下两个外可按需全装：  
-   - 不装：`2--rounded-corners.lua`  
-   - 不装：`2--disable-all-CB-widgets.lua`
-2. **[medinauta/Koreader-Patches](https://github.com/medinauta/Koreader-Patches/tree/main)**：其中 **2 个** user patch（按仓库说明选择）。
-3. **[omer-faruq/koreader-user-patches](https://github.com/omer-faruq/koreader-user-patches)**：**Book receipt shortcut and lockscreen**（锁屏/收据风封面，阅读动力向）。
-4. **[quanganhdo/koreader-user-patches](https://github.com/quanganhdo/koreader-user-patches)**：**reading statistics** 相关 user patch。
+1. **[SeriousHornet/KOReader.patches](https://github.com/SeriousHornet/KOReader.patches)**
+   - `20-faded-finished-books.lua`
+   - `2-new-progress-bar-colored.lua`
+   - `2-percent-badge.lua`
+2. **[omer-faruq/koreader-user-patches](https://github.com/omer-faruq/koreader-user-patches)**：**Book receipt shortcut and lockscreen**
 
 灵感参考：[r/koreader 展示帖](https://www.reddit.com/r/koreader/comments/1osqlxf/show_your_koreader_ui/)。
 
