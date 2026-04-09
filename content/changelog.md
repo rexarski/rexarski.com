@@ -4,8 +4,10 @@ menu = "not-main"
 layout = "changelog"
 +++
 
-# <pre>changelog</pre>
+# changelog
 
+- 2026-04-09
+  - 左栏版式 + about/now 合并与页脚精简，排版 token 化与链接反色，Victor Mono → [JetBrains Mono](https://www.jetbrains.com/lp/mono/) 并移除像素字体 Zpix 与 RPG 组件。
 - 2026-03-23
   - 全站样式维护：`/posts` 列表与首页「最近更新」版式统一，年标题下日期为月-日；热力图色阶改为 CSS 变量、暗色 token 收敛、暗色下隐藏顶条强调线；Google Fonts 改为 `baseof` 中 preconnect + stylesheet 加载
   - Now：进度区增加「当年进度」条；文末增加可折叠的过往 now 时间线（`data/now_history.yaml` + `now_history` shortcode）

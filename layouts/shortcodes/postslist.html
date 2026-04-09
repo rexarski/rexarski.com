@@ -1,26 +1,12 @@
 {{ $posts := where (where .Site.RegularPages "Type" "in" (slice "zh" "posts")) "Params.draft" "!=" true }}
 {{ $recentPost := first 7 ($posts.ByDate.Reverse) }}
 <div class="post-list">
-  {{ range $i, $p := $recentPost }}
-    {{ if eq $i 0 }}
-      <article class="post-list-featured">
-        <div class="post-list-featured-meta">
-          <span class="post-list-featured-date">{{ $p.Date.Format "2006 01 02" }}</span>
-        </div>
-        <a href="{{ $p.RelPermalink }}" class="post-list-featured-link">
-          <h2 class="post-list-featured-title">{{ $p.Title }}</h2>
-          {{ with $p.Params.description }}
-            <p class="post-list-featured-excerpt">{{ . }}</p>
-          {{ end }}
-        </a>
-      </article>
-    {{ else }}
-      <article class="post-list-item">
-        <a href="{{ $p.RelPermalink }}" class="post-list-item-link">
-          <span class="post-list-item-date">{{ $p.Date.Format "2006 01 02" }}</span>
-          <span class="post-list-item-title">{{ $p.Title }}</span>
-        </a>
-      </article>
-    {{ end }}
+  {{ range $recentPost }}
+    <article class="post-list-item">
+      <a href="{{ .RelPermalink }}" class="post-list-item-link">
+        <span class="post-list-item-date">{{ .Date.Format "2006 01 02" }}</span>
+        <span class="post-list-item-title">{{ .Title }}</span>
+      </a>
+    </article>
   {{ end }}
 </div>

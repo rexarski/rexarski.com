@@ -6,7 +6,9 @@ Made with
 
 - [Hugo](https://gohugo.io/)
 - [`hugo-bearblog` ʕ•ᴥ•ʔ](https://github.com/janraasch/hugo-bearblog)
-- [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [Fraunces](https://fonts.google.com/specimen/Fraunces), [Victor Mono](https://rubjo.github.io/victor-mono/)
+- [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [Fraunces](https://fonts.google.com/specimen/Fraunces), [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
+Typography on the live site is only those three families (loaded from Google Fonts). There is no self-hosted pixel font.
 
 ## Note
 

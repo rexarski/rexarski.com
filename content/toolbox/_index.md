@@ -1,6 +1,6 @@
 +++
-title = "toolbox"
+title = "工具箱"
 menu = "not on main"
 +++
 
-# toolbox
+# 工具箱
