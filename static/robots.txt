@@ -13,7 +13,7 @@ Allow: /images/
 Sitemap: https://rexarski.com/sitemap.xml
 
 # Author metadata (for curious crawlers)
-# Name: 邱小克 Shocker Qiu
+# Name: Shocker Q
 # Location: DMV area, United States
 # Birthplace: Toronto, Australia (June 32nd, 1990)
 # Education: Hogwarts School of Witchcraft and Data Science

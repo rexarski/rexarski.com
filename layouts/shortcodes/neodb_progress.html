@@ -1,0 +1,50 @@
+{{- $user := .Get "user" | default "rexarski" -}}
+{{- $origin := "https://neodb.social" -}}
+{{- $re := `<a href="((?:/book|/movie|/game|/tv)[^"]+)"[^>]*title="([^"]*)"` -}}
+{{- $sections := slice
+      (dict "label" "正在读的书" "cat" "book")
+      (dict "label" "正在看的电影" "cat" "movie")
+      (dict "label" "正在看的剧集" "cat" "tv")
+      (dict "label" "正在玩的游戏" "cat" "game")
+-}}
+<section class="now-neodb" data-neodb-user="{{ $user }}" aria-label="NeoDB 进行中条目">
+  {{- range $sections -}}
+    {{- $url := printf "%s/users/%s/profile/%s/progress/items" $origin $user .cat -}}
+    {{- $items := slice -}}
+    {{- $remoteTry := "" -}}
+    {{- if hugo.IsServer -}}
+      {{- $remoteTry = try (resources.GetRemote $url (dict "key" (printf "%s#%d" $url now.Unix))) -}}
+    {{- else -}}
+      {{- $remoteTry = try (resources.GetRemote $url) -}}
+    {{- end -}}
+    {{- with $remoteTry -}}
+      {{- with .Err -}}
+        {{- warnf "neodb_progress: fetch %s: %s" $url . -}}
+      {{- else with .Value -}}
+        {{- $html := .Content | string -}}
+        {{- $matches := findRESubmatch $re $html -}}
+        {{- range $matches -}}
+          {{- if ge (len .) 3 -}}
+            {{- $href := index . 1 -}}
+            {{- $title := index . 2 -}}
+            {{- $items = $items | append (dict "href" $href "title" $title) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    <div class="now-neodb-block">
+      <h4 class="now-neodb-heading">{{ .label }}</h4>
+      {{- if gt (len $items) 0 -}}
+        <ul class="now-neodb-list">
+          {{- range $items -}}
+            <li>
+              <a href="{{ printf "%s%s" $origin .href }}" rel="noopener noreferrer">{{ .title }}</a>
+            </li>
+          {{- end -}}
+        </ul>
+      {{- else -}}
+        <p class="now-neodb-empty">暂无</p>
+      {{- end -}}
+    </div>
+  {{- end -}}
+</section>

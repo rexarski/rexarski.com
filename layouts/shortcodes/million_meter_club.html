@@ -1,5 +1,5 @@
 {{- $goal := 1000000 -}} {{- $m := 0 -}} {{- $concept2Data :=
-.Site.Data.concept2_distance -}} {{- if $concept2Data -}} {{- $m =
+hugo.Data.concept2_distance -}} {{- if $concept2Data -}} {{- $m =
 $concept2Data.lifetime_meters -}} {{- else -}} {{- errorf
 "concept2_distance.json not found" -}} {{- end -}} {{- $m = int $m -}} {{-
 $percent := div (mul (float $m) 100.0) (float $goal) -}} {{- $percent = math.Min

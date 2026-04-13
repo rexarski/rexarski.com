@@ -44,6 +44,7 @@ weight = 2
 - [Lunar](https://lunar.fyi/)
 - [Maccy](https://github.com/p0deje/Maccy)
 - [Maestral](https://maestral.app)
+- [MarkEdit](https://github.com/MarkEdit-app/MarkEdit)
 - [Min Browser](https://github.com/minbrowser/min)
 - [`mole`](https://github.com/tw93/Mole)
 - [Musicbrainz Picard](https://picard.musicbrainz.org/)
@@ -110,6 +111,7 @@ weight = 2
 - [geist-font](https://github.com/vercel/geist-font)
 - [GitHub Desktop](https://desktop.github.com/)
 - [GoodLinks](https://goodlinks.app)
+- Google Chrome
 - [Handbrake](https://handbrake.fr)
 - [Hush](https://github.com/oblador/hush)
 - [Ice](https://github.com/jordanbaird/Ice)

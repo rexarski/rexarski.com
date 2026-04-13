@@ -1,5 +1,5 @@
 {{- $page := . -}}
-{{- $db := site.Data.post_embeddings -}}
+{{- $db := hugo.Data.post_embeddings -}}
 {{- if not $db }}
   {{- /* No embedding database available */ -}}
 {{- else }}

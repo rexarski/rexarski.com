@@ -1,5 +1,5 @@
-# 已结束的 now 条目
-# 列表按 end 日期自动从新到旧排序
+# Past “now” entries (ended periods)
+# Items are sorted by `end` date, newest first (see now_history shortcode)
 summary: "过去的当下"
 items:
   - start: "2026-03-01"

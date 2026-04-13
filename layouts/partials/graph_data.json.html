@@ -1,4 +1,4 @@
-{{ $db := site.Data.post_embeddings }}
+{{ $db := hugo.Data.post_embeddings }}
 {{ $postsData := default dict $db.posts }}
 {"nodes":[
 {{- range $key, $entry := $postsData }}

@@ -24,6 +24,10 @@ menu = "main"
 
 {{< now_history >}}
 
+### 书影音游
+
+{{< neodb_progress >}}
+
 ### 其他栖息地
 
 - [mastodon](https://mastodon.social/@rexarski)

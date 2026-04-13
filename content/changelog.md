@@ -6,6 +6,10 @@ layout = "changelog"
 
 # changelog
 
+- 2026-04-12
+  - 模板里数据文件访问由 `.Site.Data` / `site.Data` 改为 `hugo.Data`（moments、now、关系图与 `post_embeddings` 等），消除 Hugo v0.156+ 弃用警告。
+  - 全站链接默认显示下划线（`text-underline-offset` 略拉开与字的距离）；导航改为与之一致并去掉原 `::after` 展开线。
+  - Now：新增「书影音游」区块，`neodb_progress` shortcode 在构建时从 NeoDB 公开页面拉取在读/在看/在玩条目列表，无本地数据文件。
 - 2026-04-09
   - 左栏版式 + about/now 合并与页脚精简，排版 token 化与链接反色，Victor Mono → [JetBrains Mono](https://www.jetbrains.com/lp/mono/) 并移除像素字体 Zpix 与 RPG 组件。
 - 2026-03-23

@@ -1,6 +1,6 @@
 {{- $goalM := 1000000 -}}
 {{- $m := 0 -}}
-{{- with .Site.Data.concept2_distance -}}
+{{- with hugo.Data.concept2_distance -}}
   {{- $m = int .lifetime_meters -}}
 {{- end -}}
 {{- $pctM := 0.0 -}}
