@@ -1,6 +1,6 @@
 {
   "model": "embeddinggemma",
-  "generated_at": "2026-04-07T03:53:07.991818+00:00",
+  "generated_at": "2026-04-22T03:00:54.628653+00:00",
   "posts": {
     "posts/2022-09-05-sentiment-analysis.md": {
       "title": "Sentiment analysis 只是有点用处",
@@ -777,7 +777,6 @@
         0.01815836,
         0.02713819
       ],
-      "updated_at": "2026-04-13T03:23:15.503789+00:00",
       "similarities": {
         "posts/2022-09-14-shapley-and-explainability.md": 0.5593641052065631,
         "posts/2023-01-04-ac2022.md": 0.40878255024642995,
@@ -875,7 +874,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.30803679518760746,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3441413204109251,
         "posts/2026-03-12-tuna.md": 0.3275796720914096,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.30922364306666006
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.30922364306666006,
+        "posts/2026-04-21-222.md": 0.3358564170349187
       },
       "top_similar": [
         {
@@ -1673,7 +1673,6 @@
         -0.038499273,
         0.019734517
       ],
-      "updated_at": "2026-04-13T03:23:15.503988+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.5593641052065631,
         "posts/2023-01-04-ac2022.md": 0.3253244365560631,
@@ -1771,7 +1770,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.25543012991272085,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.29164348341980384,
         "posts/2026-03-12-tuna.md": 0.2535495441289693,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.25629641955097415
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.25629641955097415,
+        "posts/2026-04-21-222.md": 0.27547699513179164
       },
       "top_similar": [
         {
@@ -2569,7 +2569,6 @@
         -0.0053095687,
         -0.027134214
       ],
-      "updated_at": "2026-04-13T03:23:15.503990+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.40878255024642995,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3253244365560631,
@@ -2667,7 +2666,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.38239115853845834,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.5171901489721304,
         "posts/2026-03-12-tuna.md": 0.38370484710224223,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.39872544658396125
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.39872544658396125,
+        "posts/2026-04-21-222.md": 0.6426409155320902
       },
       "top_similar": [
         {
@@ -3465,7 +3465,6 @@
         0.051234588,
         0.009943337
       ],
-      "updated_at": "2026-04-13T03:23:15.503991+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.34938756025914,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2565277991117527,
@@ -3563,7 +3562,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.34382915846639384,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.37160327946718374,
         "posts/2026-03-12-tuna.md": 0.3806171158511816,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2961505744809481
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2961505744809481,
+        "posts/2026-04-21-222.md": 0.41205757957239486
       },
       "top_similar": [
         {
@@ -4361,7 +4361,6 @@
         0.043700907,
         0.008162518
       ],
-      "updated_at": "2026-04-13T03:23:15.503992+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.33917222225791704,
         "posts/2022-09-14-shapley-and-explainability.md": 0.28284202873876196,
@@ -4459,7 +4458,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.23665162738651707,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.24184631843247487,
         "posts/2026-03-12-tuna.md": 0.25954399547945,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2096514187489279
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2096514187489279,
+        "posts/2026-04-21-222.md": 0.27620108168103547
       },
       "top_similar": [
         {
@@ -5257,7 +5257,6 @@
         -0.0037912582,
         0.005963458
       ],
-      "updated_at": "2026-04-13T03:23:15.503993+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.38943124327937273,
         "posts/2022-09-14-shapley-and-explainability.md": 0.31045712489473903,
@@ -5355,7 +5354,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.19809035800767982,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.22934444613218677,
         "posts/2026-03-12-tuna.md": 0.1944596756531653,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2407849033602758
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2407849033602758,
+        "posts/2026-04-21-222.md": 0.259536231222153
       },
       "top_similar": [
         {
@@ -6153,7 +6153,6 @@
         -0.03878675,
         -0.039188
       ],
-      "updated_at": "2026-04-13T03:23:15.503994+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36452750232653786,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2953804519286415,
@@ -6251,7 +6250,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.24629302515788423,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3590108597556919,
         "posts/2026-03-12-tuna.md": 0.3841598769762967,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.22987410111542128
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.22987410111542128,
+        "posts/2026-04-21-222.md": 0.331489050081124
       },
       "top_similar": [
         {
@@ -7049,7 +7049,6 @@
         -0.048420537,
         -0.009333742
       ],
-      "updated_at": "2026-04-13T03:23:15.503995+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.32384457493914737,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3183649771089597,
@@ -7147,7 +7146,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.19212678267419783,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.2953276949189381,
         "posts/2026-03-12-tuna.md": 0.23530031456050937,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.23812442551253438
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.23812442551253438,
+        "posts/2026-04-21-222.md": 0.30788559020957296
       },
       "top_similar": [
         {
@@ -7945,7 +7945,6 @@
         -0.017898047,
         0.0017770788
       ],
-      "updated_at": "2026-04-13T03:23:15.503996+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.5855674827368584,
         "posts/2022-09-14-shapley-and-explainability.md": 0.5408470200728976,
@@ -8043,7 +8042,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.19645589969937494,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.264773386794213,
         "posts/2026-03-12-tuna.md": 0.2598057998740729,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.22262065811437784
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.22262065811437784,
+        "posts/2026-04-21-222.md": 0.23890557257376302
       },
       "top_similar": [
         {
@@ -8841,7 +8841,6 @@
         0.034251336,
         0.038604684
       ],
-      "updated_at": "2026-04-13T03:23:15.503997+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3474198574034678,
         "posts/2022-09-14-shapley-and-explainability.md": 0.34823071347276735,
@@ -8939,7 +8938,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2244551408708349,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.22788389347855492,
         "posts/2026-03-12-tuna.md": 0.33923127212438803,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.22280290296874938
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.22280290296874938,
+        "posts/2026-04-21-222.md": 0.230709856826024
       },
       "top_similar": [
         {
@@ -9737,7 +9737,6 @@
         0.031165423,
         0.046603207
       ],
-      "updated_at": "2026-04-13T03:23:15.503998+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.23956613672667165,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20673633761490015,
@@ -9835,7 +9834,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.15065586018401853,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.2168823474694941,
         "posts/2026-03-12-tuna.md": 0.2494158694532739,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.18755941642859944
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.18755941642859944,
+        "posts/2026-04-21-222.md": 0.2720962252682278
       },
       "top_similar": [
         {
@@ -10633,7 +10633,6 @@
         -0.015865102,
         0.0043443036
       ],
-      "updated_at": "2026-04-13T03:23:15.503998+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3282408139726366,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2333813239210212,
@@ -10731,7 +10730,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.25196423400398615,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.26767600957729704,
         "posts/2026-03-12-tuna.md": 0.20585366271343883,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2569527819999742
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2569527819999742,
+        "posts/2026-04-21-222.md": 0.31734488675285477
       },
       "top_similar": [
         {
@@ -11529,7 +11529,6 @@
         0.01786032,
         0.019188879
       ],
-      "updated_at": "2026-04-13T03:23:15.503999+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.27982822796958734,
         "posts/2022-09-14-shapley-and-explainability.md": 0.24763630713082907,
@@ -11627,7 +11626,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.17348944051338647,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.2487272012830695,
         "posts/2026-03-12-tuna.md": 0.23506181641595042,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.19028296505160822
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.19028296505160822,
+        "posts/2026-04-21-222.md": 0.20288795200585596
       },
       "top_similar": [
         {
@@ -12425,7 +12425,6 @@
         -0.020043518,
         -0.058088526
       ],
-      "updated_at": "2026-04-13T03:23:15.504000+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.45696762058707074,
         "posts/2022-09-14-shapley-and-explainability.md": 0.47963617143326814,
@@ -12523,7 +12522,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.11690610473670031,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.20325076153034738,
         "posts/2026-03-12-tuna.md": 0.21451928552091204,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.1707224949201047
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.1707224949201047,
+        "posts/2026-04-21-222.md": 0.2061459342485111
       },
       "top_similar": [
         {
@@ -13321,7 +13321,6 @@
         -0.008045208,
         -0.026894348
       ],
-      "updated_at": "2026-04-13T03:23:15.504002+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.4109661129722115,
         "posts/2022-09-14-shapley-and-explainability.md": 0.38708942059631785,
@@ -13419,7 +13418,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.15978949666427886,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.21894348817770937,
         "posts/2026-03-12-tuna.md": 0.3262291167734706,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.22117377917753725
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.22117377917753725,
+        "posts/2026-04-21-222.md": 0.28203775695150013
       },
       "top_similar": [
         {
@@ -14217,7 +14217,6 @@
         -0.02376636,
         0.020854093
       ],
-      "updated_at": "2026-04-13T03:23:15.504003+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.32735114451466574,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2776509443229473,
@@ -14315,7 +14314,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.38704088940056103,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4726441752802141,
         "posts/2026-03-12-tuna.md": 0.3116194253981876,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2925337790949284
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2925337790949284,
+        "posts/2026-04-21-222.md": 0.44663168105737144
       },
       "top_similar": [
         {
@@ -15113,7 +15113,6 @@
         -0.024759201,
         0.00025651374
       ],
-      "updated_at": "2026-04-13T03:23:15.504003+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.45245912628503543,
         "posts/2022-09-14-shapley-and-explainability.md": 0.4285833051915708,
@@ -15211,7 +15210,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.305990941692784,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4291368974539263,
         "posts/2026-03-12-tuna.md": 0.41615441844342344,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.34097257345804816
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.34097257345804816,
+        "posts/2026-04-21-222.md": 0.46671377993420265
       },
       "top_similar": [
         {
@@ -16009,7 +16009,6 @@
         0.0011766779,
         -0.021624604
       ],
-      "updated_at": "2026-04-13T03:23:15.504004+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.41662853493814733,
         "posts/2022-09-14-shapley-and-explainability.md": 0.351125186738305,
@@ -16107,7 +16106,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.40221627312187835,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.5255772155924099,
         "posts/2026-03-12-tuna.md": 0.43117684364338044,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.42271747440429447
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.42271747440429447,
+        "posts/2026-04-21-222.md": 0.6023080947380414
       },
       "top_similar": [
         {
@@ -16905,7 +16905,6 @@
         -0.026025206,
         -0.04801782
       ],
-      "updated_at": "2026-04-13T03:23:15.504005+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3049053701347904,
         "posts/2022-09-14-shapley-and-explainability.md": 0.1996475842205516,
@@ -17003,7 +17002,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.31319426435235537,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.34873816807873687,
         "posts/2026-03-12-tuna.md": 0.33787463098346887,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.29221538685484433
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.29221538685484433,
+        "posts/2026-04-21-222.md": 0.37177608540661644
       },
       "top_similar": [
         {
@@ -17801,7 +17801,6 @@
         0.0004287588,
         -0.048019756
       ],
-      "updated_at": "2026-04-13T03:23:15.504006+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3354640564459701,
         "posts/2022-09-14-shapley-and-explainability.md": 0.256962524922234,
@@ -17899,7 +17898,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.29475406586049785,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4313328058386918,
         "posts/2026-03-12-tuna.md": 0.5135199504826152,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2869128915820078
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2869128915820078,
+        "posts/2026-04-21-222.md": 0.45266822232308584
       },
       "top_similar": [
         {
@@ -18697,7 +18697,6 @@
         -0.011706718,
         -0.04282112
       ],
-      "updated_at": "2026-04-13T03:23:15.504006+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.4435570842277131,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3741274760703831,
@@ -18795,7 +18794,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.37479225916444603,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4869626392816029,
         "posts/2026-03-12-tuna.md": 0.40173775865592887,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.4287470871235027
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.4287470871235027,
+        "posts/2026-04-21-222.md": 0.5962740663192927
       },
       "top_similar": [
         {
@@ -19593,7 +19593,6 @@
         -0.005908352,
         -0.011693518
       ],
-      "updated_at": "2026-04-13T03:23:15.504007+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3234536198777019,
         "posts/2022-09-14-shapley-and-explainability.md": 0.33918746169308117,
@@ -19691,7 +19690,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2821070181254033,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.38096911306155773,
         "posts/2026-03-12-tuna.md": 0.4320136673731457,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3579954280132518
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3579954280132518,
+        "posts/2026-04-21-222.md": 0.4041039457091932
       },
       "top_similar": [
         {
@@ -20489,7 +20489,6 @@
         -0.01862923,
         0.008031057
       ],
-      "updated_at": "2026-04-13T03:23:15.504008+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.49246641814019865,
         "posts/2022-09-14-shapley-and-explainability.md": 0.49918142764280393,
@@ -20587,7 +20586,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.16150961980200348,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.27803815854275155,
         "posts/2026-03-12-tuna.md": 0.3135182270974614,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.24304717028785286
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.24304717028785286,
+        "posts/2026-04-21-222.md": 0.29538812719458746
       },
       "top_similar": [
         {
@@ -21385,7 +21385,6 @@
         -0.0047024754,
         -0.008808304
       ],
-      "updated_at": "2026-04-13T03:23:15.504009+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.4819233135468161,
         "posts/2022-09-14-shapley-and-explainability.md": 0.47900613399837993,
@@ -21483,7 +21482,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.19028466153233545,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3244132436253388,
         "posts/2026-03-12-tuna.md": 0.3435217699415769,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2392604354127698
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2392604354127698,
+        "posts/2026-04-21-222.md": 0.36505114011721856
       },
       "top_similar": [
         {
@@ -22281,7 +22281,6 @@
         -0.00041969723,
         -0.0008559554
       ],
-      "updated_at": "2026-04-13T03:23:15.504009+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3394800730891303,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2724541597286922,
@@ -22379,7 +22378,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.31069379748449993,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.40555442090645377,
         "posts/2026-03-12-tuna.md": 0.479480224993607,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.275742774306037
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.275742774306037,
+        "posts/2026-04-21-222.md": 0.42334249562954385
       },
       "top_similar": [
         {
@@ -23177,7 +23177,6 @@
         -0.0106201125,
         -0.0075383377
       ],
-      "updated_at": "2026-04-13T03:23:15.504010+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.5187153416236893,
         "posts/2022-09-14-shapley-and-explainability.md": 0.49649680825321235,
@@ -23275,7 +23274,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.1865647603629515,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3084678735373259,
         "posts/2026-03-12-tuna.md": 0.3468408831729234,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.25993675845643743
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.25993675845643743,
+        "posts/2026-04-21-222.md": 0.3546465708228372
       },
       "top_similar": [
         {
@@ -24073,7 +24073,6 @@
         0.011078309,
         0.020513488
       ],
-      "updated_at": "2026-04-13T03:23:15.504011+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2502581912712584,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20564933660907805,
@@ -24171,7 +24170,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.328075989096708,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.36848873806590904,
         "posts/2026-03-12-tuna.md": 0.3699577558142024,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.26031796153056946
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.26031796153056946,
+        "posts/2026-04-21-222.md": 0.3908722865455237
       },
       "top_similar": [
         {
@@ -24969,7 +24969,6 @@
         -0.038939726,
         -0.012414148
       ],
-      "updated_at": "2026-04-13T03:23:15.504012+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36160206764839503,
         "posts/2022-09-14-shapley-and-explainability.md": 0.24608610127202274,
@@ -25067,7 +25066,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.33200058554718354,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.39891976682769825,
         "posts/2026-03-12-tuna.md": 0.4038797700425417,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3048974511934215
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3048974511934215,
+        "posts/2026-04-21-222.md": 0.432416078362305
       },
       "top_similar": [
         {
@@ -25865,7 +25865,6 @@
         -0.07072749,
         0.019479262
       ],
-      "updated_at": "2026-04-13T03:23:15.504012+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3135938678895389,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20005252367934293,
@@ -25963,7 +25962,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3474599820315546,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.38100495946999713,
         "posts/2026-03-12-tuna.md": 0.3055584160068734,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.24302332743554395
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.24302332743554395,
+        "posts/2026-04-21-222.md": 0.518737454556453
       },
       "top_similar": [
         {
@@ -25979,10 +25979,10 @@
           "score": 0.524691
         },
         {
-          "post_key": "posts/2025-10-03-stardew-valley-concert.md",
-          "content_path": "posts/2025-10-03-stardew-valley-concert",
-          "title": "星露谷物语演奏会",
-          "score": 0.50037
+          "post_key": "posts/2026-04-21-222.md",
+          "content_path": "posts/2026-04-21-222",
+          "title": "222",
+          "score": 0.518737
         }
       ]
     },
@@ -26761,7 +26761,6 @@
         0.014715945,
         -0.027922567
       ],
-      "updated_at": "2026-04-13T03:23:15.504013+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.30985796962146667,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2277476090132158,
@@ -26859,7 +26858,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3687709791349668,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4665561599141911,
         "posts/2026-03-12-tuna.md": 0.5263845908188438,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.31006227071964243
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.31006227071964243,
+        "posts/2026-04-21-222.md": 0.4468368199042845
       },
       "top_similar": [
         {
@@ -27657,7 +27657,6 @@
         0.0063041756,
         0.0476648
       ],
-      "updated_at": "2026-04-13T03:23:15.504014+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2713546213130489,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2101101763693028,
@@ -27755,7 +27754,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2727939466661695,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.28085394960719456,
         "posts/2026-03-12-tuna.md": 0.20406433260155288,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3493058862384254
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3493058862384254,
+        "posts/2026-04-21-222.md": 0.24753796544098536
       },
       "top_similar": [
         {
@@ -28553,7 +28553,6 @@
         -0.0022176218,
         0.0108819585
       ],
-      "updated_at": "2026-04-13T03:23:15.504015+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2815217842130843,
         "posts/2022-09-14-shapley-and-explainability.md": 0.19265163882206823,
@@ -28651,7 +28650,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3232395421997735,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.35872452515229614,
         "posts/2026-03-12-tuna.md": 0.2738098592517961,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.35342009630053695
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.35342009630053695,
+        "posts/2026-04-21-222.md": 0.33650328777777216
       },
       "top_similar": [
         {
@@ -29449,7 +29449,6 @@
         -0.0012316873,
         -0.041999806
       ],
-      "updated_at": "2026-04-13T03:23:15.504015+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.38392380400402154,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3110786482336849,
@@ -29547,7 +29546,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3375201129320589,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.46111942081957646,
         "posts/2026-03-12-tuna.md": 0.3463878118576877,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.40931025875973
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.40931025875973,
+        "posts/2026-04-21-222.md": 0.5678558708978109
       },
       "top_similar": [
         {
@@ -30345,7 +30345,6 @@
         0.03827838,
         0.025481584
       ],
-      "updated_at": "2026-04-13T03:23:15.504016+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.21818539187696212,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21944191730145274,
@@ -30443,7 +30442,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.34306313805717403,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.31244429290124964,
         "posts/2026-03-12-tuna.md": 0.27135176774345127,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2859880678180861
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2859880678180861,
+        "posts/2026-04-21-222.md": 0.2623956278063806
       },
       "top_similar": [
         {
@@ -31241,7 +31241,6 @@
         -0.018286169,
         -0.008998655
       ],
-      "updated_at": "2026-04-13T03:23:15.504017+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.35283521659635986,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3032540604309679,
@@ -31339,7 +31338,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.333256155102882,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4490223213853462,
         "posts/2026-03-12-tuna.md": 0.3815887228774464,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.33810227566106793
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.33810227566106793,
+        "posts/2026-04-21-222.md": 0.5104796423100222
       },
       "top_similar": [
         {
@@ -32137,7 +32137,6 @@
         -0.021153456,
         -0.07743044
       ],
-      "updated_at": "2026-04-13T03:23:15.504018+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36653706493150984,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2771280890010904,
@@ -32235,7 +32234,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.34967286008083287,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.47496353987630835,
         "posts/2026-03-12-tuna.md": 0.3319836297918001,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.4209754200435817
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.4209754200435817,
+        "posts/2026-04-21-222.md": 0.6794762100759244
       },
       "top_similar": [
         {
@@ -33033,7 +33033,6 @@
         -0.03491111,
         -0.012842343
       ],
-      "updated_at": "2026-04-13T03:23:15.504018+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.35748204686502727,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3265779006500081,
@@ -33131,7 +33130,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.28962408474512813,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4014925219478155,
         "posts/2026-03-12-tuna.md": 0.3115439768239953,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3197743286423955
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3197743286423955,
+        "posts/2026-04-21-222.md": 0.4131290504625946
       },
       "top_similar": [
         {
@@ -33929,7 +33929,6 @@
         -0.028217515,
         -0.0377895
       ],
-      "updated_at": "2026-04-13T03:23:15.504019+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.33090420282751415,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2948689595191978,
@@ -34027,7 +34026,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.29575327975898535,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3919122198173151,
         "posts/2026-03-12-tuna.md": 0.28478557462429194,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3238378970257718
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3238378970257718,
+        "posts/2026-04-21-222.md": 0.4024438831746868
       },
       "top_similar": [
         {
@@ -34825,7 +34825,6 @@
         -0.016381258,
         -0.070180275
       ],
-      "updated_at": "2026-04-13T03:23:15.504020+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3390122191611975,
         "posts/2022-09-14-shapley-and-explainability.md": 0.23865288446337712,
@@ -34923,7 +34922,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.36226124361577783,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.390202622639859,
         "posts/2026-03-12-tuna.md": 0.39175592266146214,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.32903470869116375
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.32903470869116375,
+        "posts/2026-04-21-222.md": 0.4280432064641755
       },
       "top_similar": [
         {
@@ -35721,7 +35721,6 @@
         -0.03578973,
         -0.008309866
       ],
-      "updated_at": "2026-04-13T03:23:15.504021+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.28461343323470106,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21524067291672824,
@@ -35819,7 +35818,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2928604230334145,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.2929804947088256,
         "posts/2026-03-12-tuna.md": 0.23197479790305647,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3304727431412187
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3304727431412187,
+        "posts/2026-04-21-222.md": 0.2933878787133487
       },
       "top_similar": [
         {
@@ -36617,7 +36617,6 @@
         -0.03652799,
         -0.031908654
       ],
-      "updated_at": "2026-04-13T03:23:15.504021+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2309351934913755,
         "posts/2022-09-14-shapley-and-explainability.md": 0.15797665095170602,
@@ -36715,7 +36714,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.24559811009298918,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.27257683657810255,
         "posts/2026-03-12-tuna.md": 0.14791740375915732,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.27332064084948504
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.27332064084948504,
+        "posts/2026-04-21-222.md": 0.3970872040424716
       },
       "top_similar": [
         {
@@ -36731,10 +36731,10 @@
           "score": 0.402411
         },
         {
-          "post_key": "posts/2025-06-21-wallpaper-installation.md",
-          "content_path": "posts/2025-06-21-wallpaper-installation",
-          "title": "贴墙纸",
-          "score": 0.371146
+          "post_key": "posts/2026-04-21-222.md",
+          "content_path": "posts/2026-04-21-222",
+          "title": "222",
+          "score": 0.397087
         }
       ]
     },
@@ -37513,7 +37513,6 @@
         -0.028478976,
         0.035098314
       ],
-      "updated_at": "2026-04-13T03:23:15.504022+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.35198941953663193,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2763094029560707,
@@ -37611,7 +37610,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3302369340818199,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4235773532490492,
         "posts/2026-03-12-tuna.md": 0.31351027270881915,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2629789190016204
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2629789190016204,
+        "posts/2026-04-21-222.md": 0.45566489235945495
       },
       "top_similar": [
         {
@@ -38409,7 +38409,6 @@
         -0.019115765,
         -0.06790528
       ],
-      "updated_at": "2026-04-13T03:23:15.504023+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3233539767407909,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2225789473592685,
@@ -38507,7 +38506,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3307411723427501,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.40192979211254515,
         "posts/2026-03-12-tuna.md": 0.37351082165827365,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.32270404815974063
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.32270404815974063,
+        "posts/2026-04-21-222.md": 0.4938322873823806
       },
       "top_similar": [
         {
@@ -39305,7 +39305,6 @@
         -0.07319293,
         0.033557884
       ],
-      "updated_at": "2026-04-13T03:23:15.504024+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.30683446861278824,
         "posts/2022-09-14-shapley-and-explainability.md": 0.27753753797834246,
@@ -39403,9 +39402,16 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.27508722674906116,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.364968651447054,
         "posts/2026-03-12-tuna.md": 0.3329637946116191,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3162558162417282
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3162558162417282,
+        "posts/2026-04-21-222.md": 0.6337296149193961
       },
       "top_similar": [
+        {
+          "post_key": "posts/2026-04-21-222.md",
+          "content_path": "posts/2026-04-21-222",
+          "title": "222",
+          "score": 0.63373
+        },
         {
           "post_key": "posts/2025-03-31-202503.md",
           "content_path": "posts/2025-03-31-202503",
@@ -39417,12 +39423,6 @@
           "content_path": "posts/2023-01-04-ac2022",
           "title": "2022年简单回顾和2023新年展望",
           "score": 0.607147
-        },
-        {
-          "post_key": "posts/2023-12-31-ac2023.md",
-          "content_path": "posts/2023-12-31-ac2023",
-          "title": "2023 年的年度总结应该起什么名字",
-          "score": 0.557309
         }
       ]
     },
@@ -40201,7 +40201,6 @@
         -0.0399977,
         -0.032128256
       ],
-      "updated_at": "2026-04-13T03:23:15.504024+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.24500112458082843,
         "posts/2022-09-14-shapley-and-explainability.md": 0.17699707504465367,
@@ -40299,7 +40298,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.36520620966705847,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3206269052469281,
         "posts/2026-03-12-tuna.md": 0.23167988601212147,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.32811242022462805
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.32811242022462805,
+        "posts/2026-04-21-222.md": 0.31470251548692224
       },
       "top_similar": [
         {
@@ -41097,7 +41097,6 @@
         -0.061847243,
         -0.0021249333
       ],
-      "updated_at": "2026-04-13T03:23:15.504025+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.32450092255454377,
         "posts/2022-09-14-shapley-and-explainability.md": 0.30016318133073316,
@@ -41195,7 +41194,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.4256906221531532,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.47975505474071567,
         "posts/2026-03-12-tuna.md": 0.2749445177648267,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.45920933270874015
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.45920933270874015,
+        "posts/2026-04-21-222.md": 0.4373675360003374
       },
       "top_similar": [
         {
@@ -41993,7 +41993,6 @@
         -0.04303522,
         0.010732028
       ],
-      "updated_at": "2026-04-13T03:23:15.504026+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.30889388227257203,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2164833346166163,
@@ -42091,7 +42090,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2635168718341332,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.28221161558522645,
         "posts/2026-03-12-tuna.md": 0.18429315169301827,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.23507546764437204
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.23507546764437204,
+        "posts/2026-04-21-222.md": 0.2984445993916397
       },
       "top_similar": [
         {
@@ -42889,7 +42889,6 @@
         -0.0031011836,
         -0.0006697827
       ],
-      "updated_at": "2026-04-13T03:23:15.504027+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2105082865070418,
         "posts/2022-09-14-shapley-and-explainability.md": 0.17354399554949462,
@@ -42987,7 +42986,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2747628569291783,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.27376278407514565,
         "posts/2026-03-12-tuna.md": 0.2223885733236658,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.28601612549472516
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.28601612549472516,
+        "posts/2026-04-21-222.md": 0.32297648517423244
       },
       "top_similar": [
         {
@@ -43785,7 +43785,6 @@
         0.00077686773,
         0.05470582
       ],
-      "updated_at": "2026-04-13T03:23:15.504027+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2994337120453576,
         "posts/2022-09-14-shapley-and-explainability.md": 0.19760522068557598,
@@ -43883,7 +43882,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.336252657376726,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3522746431248859,
         "posts/2026-03-12-tuna.md": 0.2529249718172395,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2607103657578827
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2607103657578827,
+        "posts/2026-04-21-222.md": 0.3190437857108821
       },
       "top_similar": [
         {
@@ -44681,7 +44681,6 @@
         -0.0035339347,
         -0.02819458
       ],
-      "updated_at": "2026-04-13T03:23:15.504028+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.19189717333879555,
         "posts/2022-09-14-shapley-and-explainability.md": 0.10969029594802447,
@@ -44779,7 +44778,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.16194202134730107,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.14874668783190806,
         "posts/2026-03-12-tuna.md": 0.2041887352054988,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.24891852388795271
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.24891852388795271,
+        "posts/2026-04-21-222.md": 0.2119982826876073
       },
       "top_similar": [
         {
@@ -45577,7 +45577,6 @@
         -0.010464164,
         -0.053348236
       ],
-      "updated_at": "2026-04-13T03:23:15.504029+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36469980361505927,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3016601707788893,
@@ -45675,7 +45674,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2988537656059642,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3771130483168555,
         "posts/2026-03-12-tuna.md": 0.33423272842721413,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3211188606167874
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3211188606167874,
+        "posts/2026-04-21-222.md": 0.35657037986910606
       },
       "top_similar": [
         {
@@ -46473,7 +46473,6 @@
         -0.029768484,
         0.0064175706
       ],
-      "updated_at": "2026-04-13T03:23:15.504030+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2540607138699828,
         "posts/2022-09-14-shapley-and-explainability.md": 0.19073680239771998,
@@ -46571,7 +46570,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2766469191141217,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.24781544452711937,
         "posts/2026-03-12-tuna.md": 0.20111443331246137,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.24825713984102557
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.24825713984102557,
+        "posts/2026-04-21-222.md": 0.3153805548015238
       },
       "top_similar": [
         {
@@ -47369,7 +47369,6 @@
         -0.03546113,
         -0.010732678
       ],
-      "updated_at": "2026-04-13T03:23:15.504031+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.285669876631903,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25537025117250634,
@@ -47467,7 +47466,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3615974321719187,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.42938278059058227,
         "posts/2026-03-12-tuna.md": 0.29000569307604956,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3221962263211448
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3221962263211448,
+        "posts/2026-04-21-222.md": 0.4299721957381455
       },
       "top_similar": [
         {
@@ -48265,7 +48265,6 @@
         -0.006405947,
         0.022082618
       ],
-      "updated_at": "2026-04-13T03:23:15.504031+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.18305669615205064,
         "posts/2022-09-14-shapley-and-explainability.md": 0.1184718687192798,
@@ -48363,7 +48362,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.24545015854228827,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.29032350193843626,
         "posts/2026-03-12-tuna.md": 0.17115198571801007,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.23384340687046137
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.23384340687046137,
+        "posts/2026-04-21-222.md": 0.3837307496749742
       },
       "top_similar": [
         {
@@ -48373,16 +48373,16 @@
           "score": 0.403996
         },
         {
+          "post_key": "posts/2026-04-21-222.md",
+          "content_path": "posts/2026-04-21-222",
+          "title": "222",
+          "score": 0.383731
+        },
+        {
           "post_key": "posts/2025-10-03-stardew-valley-concert.md",
           "content_path": "posts/2025-10-03-stardew-valley-concert",
           "title": "星露谷物语演奏会",
           "score": 0.351234
-        },
-        {
-          "post_key": "posts/2025-09-01-my-productivity-workflow-2025.md",
-          "content_path": "posts/2025-09-01-my-productivity-workflow-2025",
-          "title": "信息流 (2025)",
-          "score": 0.350761
         }
       ]
     },
@@ -49161,7 +49161,6 @@
         -0.03178446,
         -0.08281059
       ],
-      "updated_at": "2026-04-13T03:23:15.504032+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3067787072610585,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25513582399227436,
@@ -49259,7 +49258,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2936285657015446,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3331995549942408,
         "posts/2026-03-12-tuna.md": 0.33205164899648176,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.24012471308356126
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.24012471308356126,
+        "posts/2026-04-21-222.md": 0.35936144801790504
       },
       "top_similar": [
         {
@@ -50057,7 +50057,6 @@
         -0.0031714656,
         -0.025914876
       ],
-      "updated_at": "2026-04-13T03:23:15.504033+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3058302872042573,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25447315054303815,
@@ -50155,7 +50154,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2877701826167206,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.31973513084290933,
         "posts/2026-03-12-tuna.md": 0.28385324245990856,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.30891924005863247
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.30891924005863247,
+        "posts/2026-04-21-222.md": 0.3987129097485246
       },
       "top_similar": [
         {
@@ -50953,7 +50953,6 @@
         -0.030226942,
         -0.023140246
       ],
-      "updated_at": "2026-04-13T03:23:15.504034+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2637932025392426,
         "posts/2022-09-14-shapley-and-explainability.md": 0.18223864260105185,
@@ -51051,7 +51050,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3004512368851925,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3295834740951625,
         "posts/2026-03-12-tuna.md": 0.29526885723646873,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.30533573328493074
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.30533573328493074,
+        "posts/2026-04-21-222.md": 0.4481793485184796
       },
       "top_similar": [
         {
@@ -51067,10 +51067,10 @@
           "score": 0.454791
         },
         {
-          "post_key": "posts/2025-09-01-my-productivity-workflow-2025.md",
-          "content_path": "posts/2025-09-01-my-productivity-workflow-2025",
-          "title": "信息流 (2025)",
-          "score": 0.445867
+          "post_key": "posts/2026-04-21-222.md",
+          "content_path": "posts/2026-04-21-222",
+          "title": "222",
+          "score": 0.448179
         }
       ]
     },
@@ -51849,7 +51849,6 @@
         0.018901832,
         -0.0108794505
       ],
-      "updated_at": "2026-04-13T03:23:15.504035+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.233435367682145,
         "posts/2022-09-14-shapley-and-explainability.md": 0.18194289343404219,
@@ -51947,7 +51946,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.19817364199350238,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.23962066148992384,
         "posts/2026-03-12-tuna.md": 0.20997575256919201,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.330193548236188
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.330193548236188,
+        "posts/2026-04-21-222.md": 0.2606041094679562
       },
       "top_similar": [
         {
@@ -52745,7 +52745,6 @@
         0.02424557,
         -0.0103749605
       ],
-      "updated_at": "2026-04-13T03:23:15.504035+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.33942070909875927,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3272522396541069,
@@ -52843,7 +52842,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3286201161161927,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3310492244588549,
         "posts/2026-03-12-tuna.md": 0.206941972955593,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.30661455467530335
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.30661455467530335,
+        "posts/2026-04-21-222.md": 0.3547890168010329
       },
       "top_similar": [
         {
@@ -53641,7 +53641,6 @@
         0.0040532155,
         -0.04488162
       ],
-      "updated_at": "2026-04-13T03:23:15.504036+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3799659043670856,
         "posts/2022-09-14-shapley-and-explainability.md": 0.27334200424211164,
@@ -53739,7 +53738,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3174641137599735,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.34433162505110804,
         "posts/2026-03-12-tuna.md": 0.34314824282626827,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.31487045405979436
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.31487045405979436,
+        "posts/2026-04-21-222.md": 0.42528820298476055
       },
       "top_similar": [
         {
@@ -54537,7 +54537,6 @@
         -0.06243006,
         -0.0034637768
       ],
-      "updated_at": "2026-04-13T03:23:15.504037+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.31852344682947553,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2438798756912555,
@@ -54635,7 +54634,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.4168806270499823,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4751113933845091,
         "posts/2026-03-12-tuna.md": 0.3211119849039817,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.34106945013711193
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.34106945013711193,
+        "posts/2026-04-21-222.md": 0.4744053526970811
       },
       "top_similar": [
         {
@@ -55433,7 +55433,6 @@
         -0.035008907,
         0.013009399
       ],
-      "updated_at": "2026-04-13T03:23:15.504037+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3550564684603161,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2919229286482158,
@@ -55531,7 +55530,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.25058058546235434,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3344747613337556,
         "posts/2026-03-12-tuna.md": 0.2896334367388148,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2516667077198724
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2516667077198724,
+        "posts/2026-04-21-222.md": 0.3392981232080349
       },
       "top_similar": [
         {
@@ -56329,7 +56329,6 @@
         -0.041224703,
         0.0125323655
       ],
-      "updated_at": "2026-04-13T03:23:15.504038+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3467703141846651,
         "posts/2022-09-14-shapley-and-explainability.md": 0.27958603957797246,
@@ -56427,7 +56426,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2933364083468046,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3511849071250269,
         "posts/2026-03-12-tuna.md": 0.254821693651679,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3019055853617585
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3019055853617585,
+        "posts/2026-04-21-222.md": 0.5078808747797606
       },
       "top_similar": [
         {
@@ -57225,7 +57225,6 @@
         0.010759042,
         -0.046319768
       ],
-      "updated_at": "2026-04-13T03:23:15.504039+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.37246906185438505,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2853246161480075,
@@ -57323,7 +57322,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3444520077345983,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.41892129205272044,
         "posts/2026-03-12-tuna.md": 0.337985154738949,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.39418725181752934
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.39418725181752934,
+        "posts/2026-04-21-222.md": 0.4883032490846137
       },
       "top_similar": [
         {
@@ -58121,7 +58121,6 @@
         -0.02318063,
         -0.017843988
       ],
-      "updated_at": "2026-04-13T03:23:15.504040+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2496055348105398,
         "posts/2022-09-14-shapley-and-explainability.md": 0.17659022722315382,
@@ -58219,7 +58218,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3491062668970771,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3594870224740761,
         "posts/2026-03-12-tuna.md": 0.2897078739691662,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.28071215165847957
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.28071215165847957,
+        "posts/2026-04-21-222.md": 0.4360257432059931
       },
       "top_similar": [
         {
@@ -59017,7 +59017,6 @@
         -0.018316919,
         0.0381684
       ],
-      "updated_at": "2026-04-13T03:23:15.504041+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2417089647671,
         "posts/2022-09-14-shapley-and-explainability.md": 0.159705481493386,
@@ -59115,7 +59114,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3248506618917878,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.33199772956231594,
         "posts/2026-03-12-tuna.md": 0.2738596817679439,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.292216912745115
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.292216912745115,
+        "posts/2026-04-21-222.md": 0.37419532242058556
       },
       "top_similar": [
         {
@@ -59913,7 +59913,6 @@
         0.02316566,
         -0.015949281
       ],
-      "updated_at": "2026-04-13T03:23:15.504041+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3392383391811563,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2395190307195004,
@@ -60011,7 +60010,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3052440343111685,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.32896096113789536,
         "posts/2026-03-12-tuna.md": 0.24993917811961844,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2905516276109505
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2905516276109505,
+        "posts/2026-04-21-222.md": 0.3822715069653089
       },
       "top_similar": [
         {
@@ -60809,7 +60809,6 @@
         0.0078041963,
         0.0023917982
       ],
-      "updated_at": "2026-04-13T03:23:15.504042+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3069517494118117,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21355365945167512,
@@ -60907,7 +60906,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.331235344084514,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.34551623760362815,
         "posts/2026-03-12-tuna.md": 0.2528167837700054,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3236577782166932
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3236577782166932,
+        "posts/2026-04-21-222.md": 0.3964724655585546
       },
       "top_similar": [
         {
@@ -61705,7 +61705,6 @@
         -0.010849859,
         0.020402882
       ],
-      "updated_at": "2026-04-13T03:23:15.504043+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.28541556524656053,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21689435609461521,
@@ -61803,7 +61802,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.37295358900721853,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4387190475650152,
         "posts/2026-03-12-tuna.md": 0.374094365276672,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.5448551128045961
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.5448551128045961,
+        "posts/2026-04-21-222.md": 0.43637050427487833
       },
       "top_similar": [
         {
@@ -62601,7 +62601,6 @@
         -0.039841007,
         -0.0075450065
       ],
-      "updated_at": "2026-04-13T03:23:15.504044+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.29072960956124866,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2055639783519665,
@@ -62699,7 +62698,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.31221475136662924,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3483144296712984,
         "posts/2026-03-12-tuna.md": 0.2862186077125725,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.36997126815059805
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.36997126815059805,
+        "posts/2026-04-21-222.md": 0.33618240715808384
       },
       "top_similar": [
         {
@@ -63497,7 +63497,6 @@
         -0.019468917,
         0.024328707
       ],
-      "updated_at": "2026-04-13T03:23:15.504045+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.39601035913087373,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2951845650484783,
@@ -63595,7 +63594,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2923214146088907,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3337440225418722,
         "posts/2026-03-12-tuna.md": 0.3112367170649531,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.32069233102235134
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.32069233102235134,
+        "posts/2026-04-21-222.md": 0.40469604750232935
       },
       "top_similar": [
         {
@@ -64393,7 +64393,6 @@
         -0.031494938,
         0.016580038
       ],
-      "updated_at": "2026-04-13T03:23:15.504045+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3958583221393872,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3199520194816894,
@@ -64491,7 +64490,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2858484807325434,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.36889816647371415,
         "posts/2026-03-12-tuna.md": 0.22708536930454135,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3162937042170961
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3162937042170961,
+        "posts/2026-04-21-222.md": 0.49514753384201843
       },
       "top_similar": [
         {
@@ -65289,7 +65289,6 @@
         -0.051173203,
         -0.06688106
       ],
-      "updated_at": "2026-04-13T03:23:15.504046+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.36245227515214434,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3156694896130191,
@@ -65387,7 +65386,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.39200776347716815,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4579242276976395,
         "posts/2026-03-12-tuna.md": 0.3747443915973273,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.25808471665450006
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.25808471665450006,
+        "posts/2026-04-21-222.md": 0.47402754145520004
       },
       "top_similar": [
         {
@@ -66185,7 +66185,6 @@
         -0.07349683,
         -0.035569075
       ],
-      "updated_at": "2026-04-13T03:23:15.504047+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.23293357658972821,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20092058157244516,
@@ -66283,7 +66282,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.4765265597611527,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.5114111303273347,
         "posts/2026-03-12-tuna.md": 0.24594698063750936,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3575956647247008
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3575956647247008,
+        "posts/2026-04-21-222.md": 0.32673213777200816
       },
       "top_similar": [
         {
@@ -67081,7 +67081,6 @@
         -0.0023191655,
         -0.0736499
       ],
-      "updated_at": "2026-04-13T03:23:15.504048+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.40065725885089193,
         "posts/2022-09-14-shapley-and-explainability.md": 0.29601004518650254,
@@ -67179,7 +67178,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.38873366241012003,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.5175528335648018,
         "posts/2026-03-12-tuna.md": 0.46188134319621266,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3943398054929717
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3943398054929717,
+        "posts/2026-04-21-222.md": 0.5549522623048596
       },
       "top_similar": [
         {
@@ -67977,7 +67977,6 @@
         -0.036760163,
         -0.03989493
       ],
-      "updated_at": "2026-04-13T03:23:15.504048+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.34110127498995285,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25239376342546327,
@@ -68075,7 +68074,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3378459083214742,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3983984220528399,
         "posts/2026-03-12-tuna.md": 0.3412927284600156,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3422223957306442
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3422223957306442,
+        "posts/2026-04-21-222.md": 0.45447214596450486
       },
       "top_similar": [
         {
@@ -68873,7 +68873,6 @@
         -0.04797785,
         0.025440032
       ],
-      "updated_at": "2026-04-13T03:23:15.504049+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3718621968649295,
         "posts/2022-09-14-shapley-and-explainability.md": 0.29655057240248434,
@@ -68971,7 +68970,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3139157009420251,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3720372680598871,
         "posts/2026-03-12-tuna.md": 0.2449810104208942,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.38632048760351084
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.38632048760351084,
+        "posts/2026-04-21-222.md": 0.39456933226616137
       },
       "top_similar": [
         {
@@ -69769,7 +69769,6 @@
         -0.04090496,
         0.0078122327
       ],
-      "updated_at": "2026-04-13T03:23:15.504050+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2874185208638336,
         "posts/2022-09-14-shapley-and-explainability.md": 0.22631070564371447,
@@ -69867,7 +69866,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3198850329471332,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.38449319844883045,
         "posts/2026-03-12-tuna.md": 0.2504467485296098,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.4663286125505242
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.4663286125505242,
+        "posts/2026-04-21-222.md": 0.5019855340213514
       },
       "top_similar": [
         {
@@ -69877,16 +69877,16 @@
           "score": 0.558301
         },
         {
+          "post_key": "posts/2026-04-21-222.md",
+          "content_path": "posts/2026-04-21-222",
+          "title": "222",
+          "score": 0.501986
+        },
+        {
           "post_key": "posts/2023-01-04-ac2022.md",
           "content_path": "posts/2023-01-04-ac2022",
           "title": "2022年简单回顾和2023新年展望",
           "score": 0.478425
-        },
-        {
-          "post_key": "posts/2025-06-22-brisket.md",
-          "content_path": "posts/2025-06-22-brisket",
-          "title": "熏牛胸肉",
-          "score": 0.472551
         }
       ]
     },
@@ -70665,7 +70665,6 @@
         -0.0028248266,
         -0.03785791
       ],
-      "updated_at": "2026-04-13T03:23:15.504051+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2502034434453025,
         "posts/2022-09-14-shapley-and-explainability.md": 0.24726324992865645,
@@ -70763,7 +70762,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.44592461605256656,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.43470448836010894,
         "posts/2026-03-12-tuna.md": 0.20615452955824293,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.4765426747800676
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.4765426747800676,
+        "posts/2026-04-21-222.md": 0.34717826360602966
       },
       "top_similar": [
         {
@@ -71561,7 +71561,6 @@
         -0.00405431,
         0.014411197
       ],
-      "updated_at": "2026-04-13T03:23:15.504051+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.23732700821671723,
         "posts/2022-09-14-shapley-and-explainability.md": 0.17546654796720546,
@@ -71659,7 +71658,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3268010289347666,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3687849910336973,
         "posts/2026-03-12-tuna.md": 0.22945722120358042,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.30002314459532553
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.30002314459532553,
+        "posts/2026-04-21-222.md": 0.4875635193178456
       },
       "top_similar": [
         {
@@ -72457,7 +72457,6 @@
         -0.022396192,
         -0.024736393
       ],
-      "updated_at": "2026-04-13T03:23:15.504052+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.28661890447428934,
         "posts/2022-09-14-shapley-and-explainability.md": 0.18218962594283689,
@@ -72555,7 +72554,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.25978275456161776,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.2995012736816742,
         "posts/2026-03-12-tuna.md": 0.37506680969168293,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.24538160140660653
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.24538160140660653,
+        "posts/2026-04-21-222.md": 0.2766027340618235
       },
       "top_similar": [
         {
@@ -73353,7 +73353,6 @@
         -0.0041408064,
         0.0134857595
       ],
-      "updated_at": "2026-04-13T03:23:15.504053+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.31459039190404503,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21138612491056563,
@@ -73451,7 +73450,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2753527179089435,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.30866405489334486,
         "posts/2026-03-12-tuna.md": 0.2331016529242229,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.20587352122435604
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.20587352122435604,
+        "posts/2026-04-21-222.md": 0.24460440217880283
       },
       "top_similar": [
         {
@@ -74249,7 +74249,6 @@
         -0.03406812,
         -0.043515086
       ],
-      "updated_at": "2026-04-13T03:23:15.504054+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3100394845938615,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25692520182359335,
@@ -74347,7 +74346,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3288760041477135,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4056546014598591,
         "posts/2026-03-12-tuna.md": 0.40362034146229275,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3240669408311653
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3240669408311653,
+        "posts/2026-04-21-222.md": 0.4045451058619999
       },
       "top_similar": [
         {
@@ -75145,7 +75145,6 @@
         0.011921324,
         -0.01588936
       ],
-      "updated_at": "2026-04-13T03:23:15.504054+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2893032714087731,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2258033657241542,
@@ -75243,7 +75242,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.29462547812434886,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3323768990783242,
         "posts/2026-03-12-tuna.md": 0.4383669389060224,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3083679677825934
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3083679677825934,
+        "posts/2026-04-21-222.md": 0.3512274982578711
       },
       "top_similar": [
         {
@@ -76041,7 +76041,6 @@
         -0.07883187,
         -0.028716471
       ],
-      "updated_at": "2026-04-13T03:23:15.504055+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.26798769836543707,
         "posts/2022-09-14-shapley-and-explainability.md": 0.20262599288610345,
@@ -76139,7 +76138,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.30673140467155396,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.34193042875379,
         "posts/2026-03-12-tuna.md": 0.20645434982276603,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3352077728294943
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3352077728294943,
+        "posts/2026-04-21-222.md": 0.379130328148104
       },
       "top_similar": [
         {
@@ -76937,7 +76937,6 @@
         0.0054565277,
         -0.034048557
       ],
-      "updated_at": "2026-04-13T03:23:15.504056+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2670521147727796,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2428746061809071,
@@ -77035,7 +77034,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3393349919925665,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3354633961367428,
         "posts/2026-03-12-tuna.md": 0.3093308514953825,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.29146331960378274
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.29146331960378274,
+        "posts/2026-04-21-222.md": 0.2933937031233146
       },
       "top_similar": [
         {
@@ -77833,7 +77833,6 @@
         -0.07308003,
         -0.053932242
       ],
-      "updated_at": "2026-04-13T03:23:15.504057+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.23798636172923307,
         "posts/2022-09-14-shapley-and-explainability.md": 0.1901452918575968,
@@ -77931,7 +77930,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.30503572041457644,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.3404686233822597,
         "posts/2026-03-12-tuna.md": 0.20886486714226998,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.34449126940557184
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.34449126940557184,
+        "posts/2026-04-21-222.md": 0.36606267694358446
       },
       "top_similar": [
         {
@@ -78729,7 +78729,6 @@
         0.0020656756,
         0.013653437
       ],
-      "updated_at": "2026-04-13T03:23:15.504058+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.31654773357607624,
         "posts/2022-09-14-shapley-and-explainability.md": 0.24128834520576783,
@@ -78827,7 +78826,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3512043196642486,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.432158373201057,
         "posts/2026-03-12-tuna.md": 0.2827444327932524,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2414748480577194
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2414748480577194,
+        "posts/2026-04-21-222.md": 0.34193790878848557
       },
       "top_similar": [
         {
@@ -79625,7 +79625,6 @@
         -0.013715801,
         -0.040963054
       ],
-      "updated_at": "2026-04-13T03:23:15.504058+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3643865677129122,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3181691052860836,
@@ -79723,7 +79722,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.32307273340957343,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.4384444641447795,
         "posts/2026-03-12-tuna.md": 0.3397965375913104,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3733401566996287
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3733401566996287,
+        "posts/2026-04-21-222.md": 0.5549412156100832
       },
       "top_similar": [
         {
@@ -80521,7 +80521,6 @@
         0.00073268573,
         -0.0027410442
       ],
-      "updated_at": "2026-04-13T03:23:15.504059+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3361382581644895,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2502854217145751,
@@ -80619,7 +80618,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.238679083515457,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.2598685392288803,
         "posts/2026-03-12-tuna.md": 0.2237607586979889,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2411143070961295
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.2411143070961295,
+        "posts/2026-04-21-222.md": 0.3052243064838236
       },
       "top_similar": [
         {
@@ -81417,7 +81417,6 @@
         -0.053578086,
         0.014347169
       ],
-      "updated_at": "2026-04-13T03:23:15.504060+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.31076708682711046,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25157951259909445,
@@ -81515,7 +81514,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3524033510224952,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.361058461136002,
         "posts/2026-03-12-tuna.md": 0.25125364582335735,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3995637189131412
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3995637189131412,
+        "posts/2026-04-21-222.md": 0.5207403618492767
       },
       "top_similar": [
         {
@@ -82313,7 +82313,6 @@
         -0.033818465,
         -0.022358561
       ],
-      "updated_at": "2026-04-13T03:23:15.504060+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.2931366066584364,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2558193452558707,
@@ -82411,7 +82410,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.24654813646331114,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.27756852011760097,
         "posts/2026-03-12-tuna.md": 0.2586705261085001,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.27021631520490386
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.27021631520490386,
+        "posts/2026-04-21-222.md": 0.27315321485992367
       },
       "top_similar": [
         {
@@ -83209,7 +83209,6 @@
         0.026681101,
         0.04605411
       ],
-      "updated_at": "2026-04-13T03:23:15.504062+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.28806583464247015,
         "posts/2022-09-14-shapley-and-explainability.md": 0.21415337226298067,
@@ -83307,7 +83306,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2916065283623819,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.29841056365053653,
         "posts/2026-03-12-tuna.md": 0.24313623956248961,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.30351373117953523
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.30351373117953523,
+        "posts/2026-04-21-222.md": 0.33063425427723475
       },
       "top_similar": [
         {
@@ -84105,7 +84105,6 @@
         -0.07960767,
         -0.04310624
       ],
-      "updated_at": "2026-04-13T03:23:15.504063+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3329390091885991,
         "posts/2022-09-14-shapley-and-explainability.md": 0.3107270878932535,
@@ -84203,7 +84202,8 @@
         "posts/2026-03-04-fellow-es1-pt2.md": 0.6580489144810905,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.751027868532564,
         "posts/2026-03-12-tuna.md": 0.36376665607971004,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3971181894266528
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3971181894266528,
+        "posts/2026-04-21-222.md": 0.4769544708569243
       },
       "top_similar": [
         {
@@ -85001,7 +85001,6 @@
         -0.017289234,
         -0.04167957
       ],
-      "updated_at": "2026-04-13T03:23:15.504064+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.30803679518760746,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25543012991272085,
@@ -85099,7 +85098,8 @@
         "posts/2026-03-03-fellow-es1.md": 0.6580489144810905,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.7799041147909423,
         "posts/2026-03-12-tuna.md": 0.2380762132852066,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3531765520716315
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.3531765520716315,
+        "posts/2026-04-21-222.md": 0.3678624050975385
       },
       "top_similar": [
         {
@@ -85897,7 +85897,6 @@
         -0.048670616,
         -0.035474703
       ],
-      "updated_at": "2026-04-13T03:23:15.504064+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3441413204109251,
         "posts/2022-09-14-shapley-and-explainability.md": 0.29164348341980384,
@@ -85995,7 +85994,8 @@
         "posts/2026-03-03-fellow-es1.md": 0.751027868532564,
         "posts/2026-03-04-fellow-es1-pt2.md": 0.7799041147909423,
         "posts/2026-03-12-tuna.md": 0.35076632903976507,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.37841422243455886
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.37841422243455886,
+        "posts/2026-04-21-222.md": 0.47085291834414283
       },
       "top_similar": [
         {
@@ -86793,7 +86793,6 @@
         -0.0066271685,
         -0.026902968
       ],
-      "updated_at": "2026-04-13T03:23:15.504065+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.3275796720914096,
         "posts/2022-09-14-shapley-and-explainability.md": 0.2535495441289693,
@@ -86891,7 +86890,8 @@
         "posts/2026-03-03-fellow-es1.md": 0.36376665607971004,
         "posts/2026-03-04-fellow-es1-pt2.md": 0.2380762132852066,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.35076632903976507,
-        "posts/2026-04-06-salmon-tartare-omurice.md": 0.289164695744236
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.289164695744236,
+        "posts/2026-04-21-222.md": 0.3431442749491016
       },
       "top_similar": [
         {
@@ -87689,7 +87689,6 @@
         -0.017914528,
         0.02910823
       ],
-      "updated_at": "2026-04-07T03:53:07.568523+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.30922364306666006,
         "posts/2022-09-14-shapley-and-explainability.md": 0.25629641955097415,
@@ -87787,7 +87786,8 @@
         "posts/2026-03-03-fellow-es1.md": 0.3971181894266528,
         "posts/2026-03-04-fellow-es1-pt2.md": 0.3531765520716315,
         "posts/2026-03-09-fellow-es1-pt3.md": 0.37841422243455886,
-        "posts/2026-03-12-tuna.md": 0.289164695744236
+        "posts/2026-03-12-tuna.md": 0.289164695744236,
+        "posts/2026-04-21-222.md": 0.38020511769310494
       },
       "top_similar": [
         {
@@ -87807,6 +87807,903 @@
           "content_path": "posts/2025-09-19-late-night-food",
           "title": "深夜贪吃",
           "score": 0.466329
+        }
+      ]
+    },
+    "posts/2026-04-21-222.md": {
+      "title": "222",
+      "slug": "222",
+      "content_path": "posts/2026-04-21-222",
+      "content_hash": "457304e99cea4a3b346d8ff4736c0d066862a848031001da46f8fbcdf0248989",
+      "embedding": [
+        -0.025133725,
+        0.03848821,
+        0.0070573743,
+        -0.012360932,
+        0.0629297,
+        0.010849864,
+        0.056742627,
+        0.06465077,
+        -0.0022482,
+        -0.0009846623,
+        -0.059137568,
+        -0.036180075,
+        0.0015995846,
+        -0.05377939,
+        -0.11306032,
+        -0.009070483,
+        0.04063817,
+        0.03088534,
+        -0.03364367,
+        -0.004765141,
+        -0.033607468,
+        0.009116354,
+        -0.019047026,
+        -0.052946724,
+        -0.010453419,
+        -0.021913454,
+        0.012483144,
+        0.01599851,
+        0.025870247,
+        -0.024043733,
+        0.031077191,
+        -0.05786181,
+        0.003487286,
+        0.0059481002,
+        -0.016410584,
+        0.0035859179,
+        0.015421892,
+        -0.01729889,
+        0.03205189,
+        -0.041816033,
+        -0.01733898,
+        -0.00559216,
+        0.009789315,
+        0.02808104,
+        -0.008224738,
+        -0.038671214,
+        0.031968553,
+        -0.09730355,
+        -0.014687823,
+        0.014871465,
+        0.034367755,
+        0.077699125,
+        0.042615622,
+        0.014104757,
+        0.0048224353,
+        0.028852934,
+        0.06451,
+        -0.018292552,
+        -0.0009768821,
+        0.019004198,
+        -0.059679322,
+        0.035566714,
+        -0.028277852,
+        0.0166977,
+        0.013433372,
+        0.0035288734,
+        -0.026810665,
+        -0.0128088035,
+        -0.0049254755,
+        0.10681808,
+        -0.02536054,
+        0.00030979197,
+        -0.043846328,
+        -0.07384827,
+        0.15562662,
+        0.0485554,
+        -0.008188399,
+        -0.035042077,
+        -0.0012484038,
+        0.011348663,
+        -0.00634788,
+        0.008119226,
+        -0.0007297394,
+        -0.055984054,
+        0.0093768975,
+        -0.011484291,
+        -0.027448757,
+        0.007881118,
+        0.06202259,
+        0.0027279328,
+        0.026619283,
+        0.008874922,
+        0.047558233,
+        0.004351676,
+        0.0017527433,
+        -0.02732129,
+        0.0056870175,
+        -0.014895743,
+        -0.007885838,
+        0.022941787,
+        0.027025979,
+        -0.039711084,
+        0.0018889145,
+        0.05000608,
+        -0.0050657084,
+        -0.010493043,
+        -0.03074407,
+        0.0029170758,
+        -0.013157266,
+        -0.0036931445,
+        -0.0078120762,
+        0.013320657,
+        -0.013501475,
+        0.012926007,
+        0.017479148,
+        -0.04193387,
+        -0.05331373,
+        0.052268963,
+        0.073751725,
+        0.035413116,
+        0.04880732,
+        0.040680688,
+        0.006084206,
+        0.005739008,
+        0.020986388,
+        0.003377543,
+        -0.0644148,
+        -0.06089775,
+        -0.004676224,
+        0.023697883,
+        0.034105405,
+        0.08129783,
+        -0.046546407,
+        -0.048609897,
+        -0.012978277,
+        -0.009433573,
+        0.028124997,
+        0.008393677,
+        -0.033176087,
+        -0.0033089549,
+        0.014591503,
+        -0.07705726,
+        -0.025076237,
+        0.026191168,
+        0.011237397,
+        -0.020160249,
+        -0.039729446,
+        0.028835323,
+        -0.033540647,
+        -0.0056680623,
+        0.026073916,
+        0.014035007,
+        0.048030782,
+        -0.010401193,
+        -0.029376986,
+        0.036485147,
+        0.040727343,
+        -0.018790081,
+        0.061444584,
+        0.033028267,
+        0.05203075,
+        -0.010518759,
+        -0.02804433,
+        0.013456678,
+        0.0047724387,
+        -0.014035759,
+        0.044275943,
+        0.035090122,
+        0.0011025856,
+        0.037475172,
+        -0.06470076,
+        -0.014183955,
+        0.040205505,
+        0.008320346,
+        -0.03413888,
+        0.014365319,
+        -0.027750388,
+        -0.01731662,
+        0.13273242,
+        -0.0026502728,
+        -0.042199586,
+        -0.0021691069,
+        -0.026678236,
+        0.022170693,
+        -0.046598945,
+        -0.0077609452,
+        -0.002634531,
+        0.016665425,
+        -0.06637448,
+        -0.0049251392,
+        0.026328096,
+        0.0025488082,
+        -0.074328296,
+        -0.05193265,
+        0.043490328,
+        0.06389065,
+        0.08714033,
+        -0.03360462,
+        0.008297012,
+        0.030428333,
+        -0.010902139,
+        0.022112207,
+        -0.023483079,
+        0.025749464,
+        0.07846641,
+        -0.061210204,
+        0.018399743,
+        -0.024709258,
+        -0.05343167,
+        0.012721777,
+        -0.058886133,
+        0.02961955,
+        0.015413102,
+        0.023911651,
+        0.034688365,
+        0.0033788234,
+        -0.014433469,
+        -0.03488325,
+        0.013628418,
+        -0.0075242855,
+        -0.05952778,
+        0.030363403,
+        0.024870964,
+        0.020885615,
+        -0.043820698,
+        -0.011091323,
+        0.017570315,
+        -0.02395063,
+        0.0052396655,
+        0.014041038,
+        0.043301973,
+        -0.08567146,
+        0.0012587211,
+        0.019672303,
+        -0.047878936,
+        0.0020492412,
+        0.01670837,
+        -0.0113428915,
+        0.016748903,
+        0.025018107,
+        -0.05272966,
+        -0.0040057325,
+        -0.0021571883,
+        0.036505133,
+        0.039861843,
+        -0.061023135,
+        -0.0125836,
+        -0.034189127,
+        -0.052000433,
+        0.02022078,
+        0.035738666,
+        -0.004539371,
+        -0.04440837,
+        0.0004170561,
+        -0.009851557,
+        -0.024594292,
+        0.009868498,
+        0.021367382,
+        0.014806444,
+        -0.002861912,
+        0.040262934,
+        0.024128795,
+        -0.06753032,
+        -0.013993493,
+        -0.025673615,
+        -0.0031827139,
+        0.069388814,
+        -0.017389981,
+        -0.07241344,
+        0.026915526,
+        -0.0045788446,
+        0.0025558334,
+        0.030636603,
+        0.047209922,
+        -0.04479466,
+        -0.026038641,
+        -0.0033707116,
+        -0.046443976,
+        0.012754346,
+        -0.02468835,
+        -0.04382986,
+        0.03439523,
+        -0.0023363226,
+        0.015663952,
+        -0.039613254,
+        -0.044453196,
+        -0.016424412,
+        -0.0006538346,
+        0.03265275,
+        0.018063918,
+        -0.006763101,
+        0.00051555154,
+        -0.035030574,
+        0.0070074005,
+        -0.00076567585,
+        0.025475748,
+        -0.056046296,
+        0.043024246,
+        -0.015284247,
+        0.033607762,
+        0.06368965,
+        0.031611968,
+        -0.036186814,
+        -0.052288014,
+        0.014329869,
+        0.007759403,
+        -0.059088506,
+        -0.05071825,
+        -0.054120053,
+        -0.023346953,
+        0.041036315,
+        -0.025482755,
+        0.017448347,
+        -0.008668926,
+        0.048281867,
+        0.06018489,
+        0.026565006,
+        -0.031258248,
+        -0.0051198453,
+        -0.0041641635,
+        0.02416218,
+        0.022399291,
+        0.051746167,
+        -0.0065806494,
+        -0.011101863,
+        0.026861804,
+        -0.032683507,
+        -0.041842237,
+        -0.022767778,
+        0.01231406,
+        -0.009742078,
+        0.014954955,
+        0.040855728,
+        -0.028181238,
+        0.0028245286,
+        0.0018120396,
+        0.0061887573,
+        0.03963241,
+        -0.02223222,
+        -0.017057728,
+        0.04897552,
+        0.0047378987,
+        -0.00036060295,
+        0.041671313,
+        -0.018574007,
+        0.02688578,
+        0.00740888,
+        0.009097587,
+        0.030635124,
+        -0.011026607,
+        0.0014528753,
+        0.021134753,
+        -0.00892239,
+        0.062286638,
+        -0.048823524,
+        -0.030147234,
+        0.026217695,
+        0.09267899,
+        0.003428752,
+        0.0328072,
+        -0.011940218,
+        -0.017305875,
+        0.00904509,
+        -0.0048442287,
+        0.04293319,
+        -0.07612946,
+        0.04729642,
+        -0.017742703,
+        0.012794242,
+        0.039302215,
+        -0.02284267,
+        -0.027963178,
+        0.0468795,
+        0.05515841,
+        -0.013665894,
+        0.011961841,
+        -0.005629353,
+        -0.03485986,
+        -0.020886604,
+        -0.008944883,
+        0.02864053,
+        0.013066256,
+        -0.025503092,
+        -0.019827072,
+        -0.05941078,
+        0.018930312,
+        0.0037196884,
+        -0.022254368,
+        -0.012412991,
+        -0.0072828513,
+        0.023762167,
+        0.016500114,
+        -0.031905673,
+        0.024061581,
+        -0.021207374,
+        -0.014544042,
+        0.01746062,
+        -0.02101561,
+        -0.037106745,
+        0.01904835,
+        -0.012190344,
+        -0.064462826,
+        -0.07297241,
+        -0.037717182,
+        0.06981967,
+        -0.046486508,
+        0.044252574,
+        0.017738368,
+        -0.04917903,
+        0.00026872763,
+        0.03097751,
+        -0.049590867,
+        0.097325996,
+        0.044620737,
+        0.02747844,
+        -0.037231524,
+        0.044080216,
+        0.0034944543,
+        0.010853278,
+        -0.0172789,
+        0.020924263,
+        0.04091844,
+        -0.014136706,
+        0.014012523,
+        0.039933573,
+        -0.0282133,
+        -0.03734455,
+        0.0014983187,
+        0.020035967,
+        -0.00071036274,
+        -0.0063710166,
+        0.030021474,
+        0.051189516,
+        -0.0033661684,
+        -0.02167323,
+        -0.08506276,
+        -0.0058316616,
+        -0.01897725,
+        -0.031113453,
+        0.031569183,
+        -0.003352675,
+        -0.02425556,
+        0.013126556,
+        -0.0034376346,
+        -0.06261657,
+        0.07353733,
+        0.021864543,
+        0.04576882,
+        0.002551321,
+        -0.0065555247,
+        0.039085474,
+        0.05218947,
+        -0.06432786,
+        -0.008089107,
+        -0.038071956,
+        0.028514838,
+        -0.0070633283,
+        -0.005212814,
+        0.0008186712,
+        -0.02731112,
+        -0.005876244,
+        -0.025482781,
+        -0.007578679,
+        0.013238584,
+        -0.031723082,
+        0.021619387,
+        -0.062511325,
+        -0.014914987,
+        -0.08461582,
+        -0.02205437,
+        0.009136183,
+        0.10837085,
+        -0.014068074,
+        0.007916875,
+        -0.02983236,
+        -0.006625163,
+        -0.09425882,
+        0.024783196,
+        0.019460123,
+        0.0031414146,
+        0.01672668,
+        -0.010724926,
+        0.00498051,
+        -0.048259124,
+        -0.0054410794,
+        -0.011252975,
+        -0.08346437,
+        0.0061114235,
+        -0.01167622,
+        -0.04572476,
+        0.031240351,
+        -0.021783587,
+        0.010746127,
+        0.018017406,
+        0.061148837,
+        0.03381249,
+        0.040506084,
+        -0.017693095,
+        -0.03548426,
+        -0.016584033,
+        -0.0038932427,
+        -0.043833934,
+        -0.0047862306,
+        -0.0392457,
+        -0.03320583,
+        -0.022489598,
+        -0.031987358,
+        -0.040098827,
+        -0.082712844,
+        0.058709927,
+        -0.01710968,
+        -0.0360717,
+        0.045544386,
+        -0.03826175,
+        -0.019483153,
+        -0.010489442,
+        -0.06232646,
+        -0.021472728,
+        0.0013160341,
+        0.026662206,
+        0.034697797,
+        -0.052760407,
+        0.030014928,
+        0.01404456,
+        0.011305252,
+        0.0062058326,
+        -0.009883022,
+        0.014295937,
+        0.027018195,
+        0.04027416,
+        -0.05277377,
+        0.029376782,
+        0.051740825,
+        0.015787687,
+        -0.011338001,
+        0.0020386835,
+        0.010631585,
+        -0.033197787,
+        -0.06625925,
+        -0.029038172,
+        -0.056584153,
+        -0.0012948378,
+        0.04326202,
+        0.0042884354,
+        0.07924581,
+        -0.046241906,
+        0.0025558646,
+        -0.032878414,
+        -0.014022403,
+        -0.0030600769,
+        0.004634084,
+        0.03156177,
+        0.008471852,
+        0.08782881,
+        0.05726968,
+        -0.004296695,
+        0.036045283,
+        0.04949179,
+        0.031899735,
+        0.021425122,
+        0.010849311,
+        -0.033812504,
+        -0.0077334745,
+        -0.048848487,
+        0.03921767,
+        -0.0415375,
+        -0.0005558973,
+        -0.0036222206,
+        -0.005063776,
+        0.0071317586,
+        -0.044067387,
+        -0.0057091163,
+        -0.025273735,
+        -0.023755204,
+        0.08850182,
+        -0.08217454,
+        0.06068877,
+        -0.02360062,
+        0.0028597633,
+        0.058904767,
+        0.007193864,
+        -0.004023814,
+        0.0049180994,
+        -0.013242273,
+        0.015345015,
+        0.05479051,
+        -0.010069268,
+        -0.0067718932,
+        0.008003283,
+        0.021411726,
+        0.045096625,
+        -0.040109593,
+        -0.009910802,
+        -0.0060920846,
+        -0.020661812,
+        -0.06072271,
+        0.015443734,
+        0.027636582,
+        0.004825184,
+        0.0012499082,
+        -0.0030182502,
+        -0.011504038,
+        -0.04647875,
+        0.026894655,
+        0.042652555,
+        0.0026271874,
+        -0.035252076,
+        0.051714703,
+        -0.062653616,
+        0.02454108,
+        -0.042916697,
+        -0.048344903,
+        -0.032705884,
+        -0.02785148,
+        -0.046807546,
+        0.045061238,
+        0.05631565,
+        -0.0778046,
+        -0.004940067,
+        0.004989619,
+        -0.029588554,
+        -0.01620722,
+        -0.0065695187,
+        -0.0070932303,
+        0.0049629705,
+        -0.022798087,
+        -0.040142715,
+        -0.044788,
+        0.049514048,
+        0.0011521582,
+        0.06956829,
+        0.008692977,
+        -0.028547464,
+        0.028791687,
+        0.017501842,
+        0.03575951,
+        0.01954107,
+        0.11807757,
+        -0.029638017,
+        0.008678175,
+        -0.017048638,
+        0.055112287,
+        -0.07869826,
+        0.014778941,
+        0.017067283,
+        -0.041926578,
+        -0.026544923,
+        -0.008041777,
+        -0.007814545,
+        -0.055007353,
+        -0.06739367,
+        0.01859093,
+        -0.047490526,
+        0.09462173,
+        0.0372564,
+        0.012161846,
+        0.046035364,
+        0.010569232,
+        0.020361455,
+        0.0011856905,
+        0.029600348,
+        -0.01627364,
+        -0.0026424185,
+        -0.009148651,
+        -0.10379552,
+        0.025950288,
+        -0.009534782,
+        0.005648598,
+        0.029029906,
+        0.009629269,
+        0.0029896377,
+        0.023462383,
+        0.026568638,
+        -0.010918667,
+        0.01229682,
+        -0.038085498,
+        -0.004140576,
+        -0.04285081,
+        0.0065579563,
+        0.023490235,
+        0.014459121,
+        0.021904383,
+        0.016829722,
+        0.04834913,
+        0.034001052,
+        -0.010530524,
+        -0.048120674,
+        -0.06026384,
+        0.0010378727,
+        -0.020745592,
+        0.03753726,
+        0.026912358,
+        -0.021972489,
+        0.014313402,
+        0.058417935,
+        0.03626274,
+        0.018420704,
+        -0.016823381,
+        -0.040891875,
+        0.092121005,
+        0.040922385,
+        -0.028885541,
+        -0.0040175403,
+        -0.062870905,
+        -0.06466886,
+        -0.002163546,
+        0.048345465,
+        -0.03769985,
+        0.008396989,
+        0.008211667,
+        -0.021980982,
+        0.0061263833,
+        -0.01870207,
+        0.049600035,
+        0.038582947,
+        -0.03397603,
+        0.003155525,
+        -0.0035867903,
+        0.025655538,
+        -0.02433792,
+        -0.009138591,
+        0.010447992,
+        -0.0045378683,
+        0.068528414,
+        0.009735319,
+        -0.017772663,
+        0.013359304,
+        -0.045314357,
+        0.03596453,
+        0.03631893,
+        0.055649135,
+        0.042975076,
+        -0.017477263,
+        -0.07250404,
+        0.011146935,
+        0.005577366,
+        0.01626773,
+        0.00032302085,
+        0.04056341,
+        0.011077078,
+        0.014534735,
+        -0.032356136,
+        0.006156677,
+        -0.057264846,
+        -0.013479587,
+        -0.019674791,
+        -0.07118747,
+        -0.01054192,
+        0.0039428687,
+        -0.034905493,
+        0.08773772,
+        0.012954041,
+        0.0076700104,
+        0.0259806,
+        -0.012906938,
+        0.04416572,
+        0.03117658,
+        -0.0020926956,
+        -0.023679128,
+        0.037820283,
+        -0.05991172,
+        -0.011388668,
+        0.0020990444,
+        0.054162696,
+        0.016888333,
+        0.008795768,
+        -0.028568536,
+        -0.02355962
+      ],
+      "updated_at": "2026-04-22T03:00:54.204095+00:00",
+      "similarities": {
+        "posts/2022-09-05-sentiment-analysis.md": 0.3358564170349187,
+        "posts/2022-09-14-shapley-and-explainability.md": 0.27547699513179164,
+        "posts/2023-01-04-ac2022.md": 0.6426409155320902,
+        "posts/2023-01-06-rime.md": 0.41205757957239486,
+        "posts/2023-01-08-reset-conda-env.md": 0.27620108168103547,
+        "posts/2023-01-09-group-by-and-rename.md": 0.259536231222153,
+        "posts/2023-01-14-snippets.md": 0.331489050081124,
+        "posts/2023-01-24-git-review.md": 0.30788559020957296,
+        "posts/2023-01-25-textattack.md": 0.23890557257376302,
+        "posts/2023-01-27-finding-the-python-interpreter.md": 0.230709856826024,
+        "posts/2023-02-23-kbd-and-highlight-in-hugo.md": 0.2720962252682278,
+        "posts/2023-03-26-vertical-layout.md": 0.31734488675285477,
+        "posts/2023-04-02-commit-messages.md": 0.20288795200585596,
+        "posts/2023-05-18-climate-plus.md": 0.2061459342485111,
+        "posts/2023-05-20-chitchat.md": 0.28203775695150013,
+        "posts/2023-06-29-kindle-oasis.md": 0.44663168105737144,
+        "posts/2023-09-26-starship.md": 0.46671377993420265,
+        "posts/2023-10-01-learn-how-to-type.md": 0.6023080947380414,
+        "posts/2023-10-29-switch-apple-store.md": 0.37177608540661644,
+        "posts/2023-11-20-app-defaults-2023.md": 0.45266822232308584,
+        "posts/2023-12-31-ac2023.md": 0.5962740663192927,
+        "posts/2024-01-30-omz-to-fish.md": 0.4041039457091932,
+        "posts/2024-02-29-distillm-01.md": 0.29538812719458746,
+        "posts/2024-03-31-distillm-02.md": 0.36505114011721856,
+        "posts/2024-03-31-setapp-succession.md": 0.42334249562954385,
+        "posts/2024-05-01-distillm-03.md": 0.3546465708228372,
+        "posts/2024-05-09-shuangpin.md": 0.3908722865455237,
+        "posts/2024-08-26-ipod-import.md": 0.432416078362305,
+        "posts/2024-12-01-wukong.md": 0.518737454556453,
+        "posts/2024-12-03-app-defaults-2024.md": 0.4468368199042845,
+        "posts/2024-12-31-chimichurri.md": 0.24753796544098536,
+        "posts/2024-12-31-ipod-mod.md": 0.33650328777777216,
+        "posts/2025-01-01-ac2024.md": 0.5678558708978109,
+        "posts/2025-02-17-dont-make-decisions-for-me.md": 0.2623956278063806,
+        "posts/2025-03-04-make-internet-experience-great-again.md": 0.5104796423100222,
+        "posts/2025-03-31-202503.md": 0.6794762100759244,
+        "posts/2025-04-07-neodb-shortcode.md": 0.4131290504625946,
+        "posts/2025-04-09-neodb-shortcode-fixed.md": 0.4024438831746868,
+        "posts/2025-05-14-day-one-migration.md": 0.4280432064641755,
+        "posts/2025-06-16-daikon.md": 0.2933878787133487,
+        "posts/2025-06-17-ears.md": 0.3970872040424716,
+        "posts/2025-06-18-goodbye-kindle.md": 0.45566489235945495,
+        "posts/2025-06-19-hobonichi.md": 0.4938322873823806,
+        "posts/2025-06-20-games-i-played-in-june.md": 0.6337296149193961,
+        "posts/2025-06-21-wallpaper-installation.md": 0.31470251548692224,
+        "posts/2025-06-22-brisket.md": 0.4373675360003374,
+        "posts/2025-06-23-nba-finals.md": 0.2984445993916397,
+        "posts/2025-06-24-time-capsule.md": 0.32297648517423244,
+        "posts/2025-06-26-f1-the-movie.md": 0.3190437857108821,
+        "posts/2025-06-27-eat-well.md": 0.2119982826876073,
+        "posts/2025-06-30-drafts-action-to-hugo.md": 0.35657037986910606,
+        "posts/2025-07-02-turbulence.md": 0.3153805548015238,
+        "posts/2025-07-04-uncharted.md": 0.4299721957381455,
+        "posts/2025-07-05-family-days.md": 0.3837307496749742,
+        "posts/2025-07-06-speed-note-taking.md": 0.35936144801790504,
+        "posts/2025-07-07-two-watches.md": 0.3987129097485246,
+        "posts/2025-07-09-iceland.md": 0.4481793485184796,
+        "posts/2025-07-11-daikon-2.md": 0.2606041094679562,
+        "posts/2025-07-13-seven-point.md": 0.3547890168010329,
+        "posts/2025-07-23-x-rant.md": 0.42528820298476055,
+        "posts/2025-07-26-weekend-problem-solving-session.md": 0.4744053526970811,
+        "posts/2025-07-27-bball-analytics.md": 0.3392981232080349,
+        "posts/2025-07-29-books-preordered.md": 0.5078808747797606,
+        "posts/2025-08-07-things-im-not-doing-anymore.md": 0.4883032490846137,
+        "posts/2025-08-13-other-things.md": 0.4360257432059931,
+        "posts/2025-08-15-other-things-ii.md": 0.37419532242058556,
+        "posts/2025-08-16-best-time-to-be-a-man-united-fan-possibly.md": 0.3822715069653089,
+        "posts/2025-08-17-babysitting-book-challenge.md": 0.3964724655585546,
+        "posts/2025-08-20-on-cooking.md": 0.43637050427487833,
+        "posts/2025-08-21-anti-consumerism.md": 0.33618240715808384,
+        "posts/2025-08-22-rehire.md": 0.40469604750232935,
+        "posts/2025-08-25-kojimas-memes.md": 0.49514753384201843,
+        "posts/2025-08-29-hardware-bandwidth.md": 0.47402754145520004,
+        "posts/2025-08-29-orange-espresso-tonic.md": 0.32673213777200816,
+        "posts/2025-09-01-my-productivity-workflow-2025.md": 0.5549522623048596,
+        "posts/2025-09-06-embrace-the-white-space.md": 0.45447214596450486,
+        "posts/2025-09-10-cribsheet.md": 0.39456933226616137,
+        "posts/2025-09-19-late-night-food.md": 0.5019855340213514,
+        "posts/2025-09-28-margherita-1.md": 0.34717826360602966,
+        "posts/2025-10-03-stardew-valley-concert.md": 0.4875635193178456,
+        "posts/2025-10-04-ipod-with-rockbox.md": 0.2766027340618235,
+        "posts/2025-10-15-dictionary.md": 0.24460440217880283,
+        "posts/2025-10-16-doom-emacs-macos-installation.md": 0.4045451058619999,
+        "posts/2025-10-16-tahoe-menu-bar.md": 0.3512274982578711,
+        "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.379130328148104,
+        "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.2933937031233146,
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.36606267694358446,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.34193790878848557,
+        "posts/2026-01-01-ac2025.md": 0.5549412156100832,
+        "posts/2026-01-17-orb.md": 0.3052243064838236,
+        "posts/2026-02-22-adulting.md": 0.5207403618492767,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.27315321485992367,
+        "posts/2026-02-24-akotsk-s1.md": 0.33063425427723475,
+        "posts/2026-03-03-fellow-es1.md": 0.4769544708569243,
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.3678624050975385,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.47085291834414283,
+        "posts/2026-03-12-tuna.md": 0.3431442749491016,
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.38020511769310494
+      },
+      "top_similar": [
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.679476
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.642641
+        },
+        {
+          "post_key": "posts/2025-06-20-games-i-played-in-june.md",
+          "content_path": "posts/2025-06-20-games-i-played-in-june",
+          "title": "六月玩了什么",
+          "score": 0.63373
         }
       ]
     }

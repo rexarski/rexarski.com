@@ -19,6 +19,7 @@ menu = "main"
 - 在听重轻在机核网录制的系列播单「[原型](https://www.gcores.com/albums/232)」
 - 在认真观看[程序员老王](https://www.youtube.com/@programmer-wang/videos)
 - 开始看 Brandon Sanderson 的书了
+- 每周三变成了 Omniman vs Homelander 的日子
 
 {{< /now_marquee >}}
 
