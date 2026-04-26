@@ -31,7 +31,7 @@ brew update && brew upgrade
 # tools
 cli_tools=(
   bat btop emacs-plus eza fish fx git jq lazygit llmfit neofetch
-  neovim ollama procs r tmux uv wget you-get zoxide
+  neovim procs r tmux uv wget you-get zoxide
 )
 
 # apps

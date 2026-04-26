@@ -3,6 +3,14 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 moments:
+  - date: 2026-04-25
+    title: "Friends Don't Let Friends Use Ollama"
+    type: 🔗
+    url: https://sleepingrobots.com/dreams/stop-using-ollama/
+  - date: 2026-04-22
+    title: "MOUSE: P.I. For Hire (Original Game Soundtrack)"
+    type: music
+    url: https://music.apple.com/us/album/mouse-p-i-for-hire-original-game-soundtrack/1890519861
   - date: 2026-04-20
     title: 终于体会到了在开车的时候听 Audible 的乐趣
     type: book

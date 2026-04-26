@@ -9,7 +9,7 @@ weight = 4
 
 整理自站内相关记录（如 [Kobo KOReader 重装](/posts/kobo-koreader-reset/)、[字典](/posts/add-dictionary-to-koreader/)、[Calibre 与 USB](/posts/weekend-problem-solving-session/)），方便以后重装或换机时一页看完。**设备以 Kobo + KOReader 为主**；其他机型安装路径见 [官方 Wiki](https://github.com/koreader/koreader/wiki)。
 
-updated on 2026-04-03
+updated on 2026-04-26
 
 ## 重装前备份
 
@@ -46,7 +46,8 @@ updated on 2026-04-03
 
 ## Plugin
 
-- 唯一的插件 [SimpleUI for KOReader](https://github.com/doctorhetfield-cmd/simpleui.koplugin)
+- [SimpleUI for KOReader](https://github.com/doctorhetfield-cmd/simpleui.koplugin)
+- [Bookends](https://github.com/AndyHazz/bookends.koplugin)
 
 ## User patches
 
