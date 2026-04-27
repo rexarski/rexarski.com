@@ -4,17 +4,58 @@
 
   <div class="moments-intro">{{ .Content }}</div>
 
-  {{ $moments := hugo.Data.moments.moments }}
   {{ $typeIcon := dict "show" "📺" "tv" "📺" "game" "🎮" "music" "🎧" "book" "📚" "movie" "🍿" "podcast" "🎙️" "restaurant" "🍳" }}
-  {{ if $moments }}
-    {{ $sorted := sort $moments "date" "desc" }}
+
+  {{/* Collect all moments from per-year files in data/moments/ */}}
+  {{ $allMoments := slice }}
+  {{ range hugo.Data.moments }}
+    {{ range . }}
+      {{ $allMoments = $allMoments | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $allMoments }}
+    {{ $sorted := sort $allMoments "date" "desc" }}
+
+    {{/* First pass: accumulate stats */}}
+    {{ $statsScratch := newScratch }}
+    {{ $seenIcons := slice }}
+    {{ range $sorted }}
+      {{ $icon := "" }}
+      {{ if .type }}
+        {{ $mapped := index $typeIcon .type }}
+        {{ if $mapped }}{{ $icon = $mapped }}{{ else }}{{ $icon = .type }}{{ end }}
+      {{ end }}
+      {{ $statsScratch.Add "total" 1 }}
+      {{ if $icon }}
+        {{ $statsScratch.Add $icon 1 }}
+        {{ if not (in $seenIcons $icon) }}
+          {{ $seenIcons = $seenIcons | append $icon }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Build sortable slice of dicts, sort desc, keep top 10 */}}
+    {{ $statsList := slice }}
+    {{ range $seenIcons }}
+      {{ $statsList = $statsList | append (dict "icon" . "count" ($statsScratch.Get .)) }}
+    {{ end }}
+    {{ $sortedStats := sort $statsList "count" "desc" }}
+    {{ $top10 := first 10 $sortedStats }}
+    {{ $maxCount := 1 }}
+    {{ with index $sortedStats 0 }}{{ $maxCount = .count }}{{ end }}
+
+    {{/* Second pass: render moments */}}
     {{ $scratch := newScratch }}
     {{ $scratch.Set "prevYear" "" }}
     {{ $scratch.Set "prevMonth" "" }}
 
     {{ range $sorted }}
       {{ $icon := "" }}
-      {{ if .type }}{{ $mapped := index $typeIcon .type }}{{ if $mapped }}{{ $icon = $mapped }}{{ else }}{{ $icon = .type }}{{ end }}{{ end }}
+      {{ if .type }}
+        {{ $mapped := index $typeIcon .type }}
+        {{ if $mapped }}{{ $icon = $mapped }}{{ else }}{{ $icon = .type }}{{ end }}
+      {{ end }}
       {{ $t := time .date }}
       {{ $y := $t.Year }}
       {{ $m := $t.Format "January" }}
@@ -44,8 +85,25 @@
     {{ end }}
     {{ if ne ($scratch.Get "prevMonth") "" }}</ul>{{ end }}
 
+    {{/* Pixel bar chart — top 10 by count */}}
+    {{ $TOTAL := 12 }}
+    <div class="moments-stats">
+      <p class="moments-stats-total">✦ {{ $statsScratch.Get "total" }} moments logged ✦</p>
+      <div class="moments-bar-chart">
+        {{ range $top10 }}
+          {{ $filled := int (math.Round (mul (div (float .count) (float $maxCount)) (float $TOTAL))) }}
+          {{ $empty := sub $TOTAL $filled }}
+          <div class="moments-bar-row">
+            <span class="moments-bar-label">{{ .icon }}</span>
+            <span class="moments-bar-blocks"><span class="moments-bar-filled">{{ strings.Repeat $filled "█" }}</span><span class="moments-bar-empty">{{ strings.Repeat $empty "░" }}</span></span>
+            <span class="moments-bar-count">{{ .count }}</span>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+
   {{ else }}
-    <p class="moments-empty">No moments yet. Add entries in <code>data/moments.yaml</code>.</p>
+    <p class="moments-empty">No moments yet. Add entries under <code>data/moments/</code>.</p>
   {{ end }}
 
   <div class="dithering-photo" data-src="/images/Haleakala.gif" data-dither="false" aria-hidden="true">

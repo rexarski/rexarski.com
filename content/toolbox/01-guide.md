@@ -49,10 +49,6 @@ brew tap d12frosted/emacs-plus
 # install
 brew install "${cli_tools[@]}"
 brew install --cask "${cask_apps[@]}"
-
-# start services
-# brew services start ollama
-# brew services stop ollama
 ```
 
 第三步，运行以上脚本文件安装。
@@ -62,7 +58,7 @@ chmod +x brew_setup.sh
 ./brew_setup.sh
 ```
 
-第四步，从 Mac App Store 里安装 things 3, ia writer, reeder, ivory, xcode. 另外还有以下 safari 插件：sink it for reddit, ublock origin lite, dark reader, keepa, singlefile, untrap.
+第四步，从 Mac App Store 里安装 things 3, ia writer, reeder, ivory, xcode. 另外还有以下 safari 插件：sink it for reddit, ublock origin lite, dark reader, keepa, untrap.
 
 第五步，从网站下载安装 pico-8, love2d.
 
@@ -148,3 +144,5 @@ sudo scutil --set HostName new-host-name
 到这里就算是完工了。
 
 【更新】第十四步：依照这个 [gist](https://gist.github.com/rexarski/b80b90add76830b21e907539fac27644) 对 ghostty config 做修改。
+
+【更新】第十五步：我的 [dotfiles](https://github.com/rexarski/dotfiles).

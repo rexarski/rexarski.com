@@ -6,6 +6,9 @@ layout = "changelog"
 
 # changelog
 
+- 2026-04-27
+  - `data/moments.yaml` 拆分为按年归档的目录结构 `data/moments/2026.yaml`，后续每年新增一个文件即可；模板改为遍历目录下所有年份文件、合并后统一排序渲染，页面输出与原来完全一致。
+  - Moments 页底部新增 emoji 统计：显示总条目数与各类型的数量。
 - 2026-04-12
   - 模板里数据文件访问由 `.Site.Data` / `site.Data` 改为 `hugo.Data`（moments、now、关系图与 `post_embeddings` 等），消除 Hugo v0.156+ 弃用警告。
   - 全站链接默认显示下划线（`text-underline-offset` 略拉开与字的距离）；导航改为与之一致并去掉原 `::after` 展开线。
