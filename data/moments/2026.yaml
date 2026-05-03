@@ -3,43 +3,55 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-05-01
+  title: Angine de Poitrine
+  type: music
+  url: https://youtu.be/sfDtfz7vXkY
+  note: 没想到是听梁文道老师的《八分半》了解到的乐队 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+- date: 2026-05-01
+  title: PerThirtySix
+  type: 🔗
+  url: https://perthirtysix.com
+  note: FiveThirtyEight 的精神继承者
+- date: 2026-04-30
+  title: KUN
+  type: music
+  note: 很意外，Deadman 和 Colder
+  url: https://open.spotify.com/album/1WWrT0a4rjFqayXhqe5yDV
+- date: 2026-04-29
+  title: Harry Potter full-cast audiobooks
+  type: book
+  url: https://www.audible.com/series/Harry-Potter-Full-Cast-Editions-Audiobooks/B0FJMLG5DN
 - date: 2026-04-27
   title: The Bazaar
   type: game
   url: https://store.steampowered.com/app/1617400/The_Bazaar/
   note: 炉石酒馆战棋的异步对战代餐
-
 - date: 2026-04-26
   title: 你不知道的 Claude Code：架构、治理与工程实践
   type: 🔗
   url: https://tw93.fun/2026-03-12/claude.html
   note: Tw93 最近两个月写的「你不知道的」系列很受用
-
 - date: 2026-04-25
   title: "Friends Don't Let Friends Use Ollama"
   type: 🔗
   url: https://sleepingrobots.com/dreams/stop-using-ollama/
-
 - date: 2026-04-22
   title: "MOUSE: P.I. For Hire (Original Game Soundtrack)"
   type: music
   url: https://music.apple.com/us/album/mouse-p-i-for-hire-original-game-soundtrack/1890519861
-
 - date: 2026-04-20
   title: 终于体会到了在开车的时候听 Audible 的乐趣
   type: book
-
 - date: 2026-04-19
   title: 本来要花 150 刀请人上门处理的旧纱门 fb marketplace 送掉了
   type: ❗
   note: one man's trash is another man's treasure
-
 - date: 2026-04-19
   title: Human powered enshitification long predates AI powered slop
   type: 🔗
   url: https://blog.douchi.space/enshitification/
   note: 周一早晨看到这篇应该会更击节叫好
-
 - date: 2026-04-18
   title: Burke Lake Park
   type: ☀️
@@ -121,144 +133,116 @@
   title: "试驾 VW ID. Buzz"
   type: 🚐
   note: "很心动但是价格还不够美丽"
-
 - date: 2026-03-28
   title: "在家试制握寿司"
   type: 🍣
-
 - date: 2026-03-27
   title: "One Battle After Another"
   type: movie
   url: https://letterboxd.com/film/one-battle-after-another/
-
 - date: 2026-03-23
   title: "Zwift FTP 🔺"
   type: 🚴‍♂️
   note: "159W -> 166W"
-
 - date: 2026-03-20
   title: "Zwift new longest ride"
   type: 🚴‍♂️
-
 - date: 2026-03-20
   title: "跟多年未见的两个朋友分别 reconnect"
   type: 💬
   note: "聊带娃"
-
 - date: 2026-03-17
   title: "Zwift FTP 🔺"
   type: 🚴‍♂️
   note: "149W -> 159W"
-
 - date: 2026-03-16
   title: "Slay the Spire II"
   type: game
-
 - date: 2026-03-15
   title: "镖人"
   type: book
   note: "以及🎞📺"
-
 - date: 2026-03-15
   title: "妈妈做的肉圆"
   type: 🥢
-
 - date: 2026-03-15
   title: "Formula 1"
   type: 🏎️
   note: "Chinese Grand Prix. Lewis back on podium."
-
 - date: 2026-03-12
   title: "11/22/63"
   type: book
   note: "Stephen King"
   url: https://stephenking.com/works/novel/11-22-63.html
-
 - date: 2026-03-10
   title: "天气和宝宝的心情"
   type: ☀️
   note: "一下就感觉到春天了"
-
 - date: 2026-03-09
   title: "The Pokemon Tree of Life"
   type: 🔗
   url: https://www.straitstimes.com/multimedia/graphics/2026/02/pokemon-tree-of-life/index.html
-
 - date: 2026-03-09
   title: "Playa Playa"
   note: "D'Angelo"
   type: music
   url: https://www.youtube.com/watch?v=eo3iqsOH_54
-
 - date: 2026-03-08
   title: "Tuna"
   type: 🐟
   url: https://tunaformac.com/
   note: "on macOS；开发者的介绍视频搞笑、尴尬但是很真诚"
-
 - date: 2026-03-07
   title: "Formula 1: Drive to Survive"
   note: "S8 E1"
   type: show
   url: https://www.imdb.com/title/tt8289930/episodes/?season=8
-
 - date: 2026-03-07
   title: "Formula 1"
   note: "Australian Grand Prix"
   type: 🏎️
-
 - date: 2026-02-21
   title: "Handy"
   type: 💻
   url: https://github.com/cjpais/Handy
   note: "on macOS"
-
 - date: 2026-02-10
   title: "Terminal Trove"
   type: 🔗
   url: https://terminaltrove.com/
-
 - date: 2026-02-09
   title: "Things-MCP"
   url: https://github.com/hald/things-mcp
   type: 🔧
   note: "+ Claude"
-
 - date: 2026-01-26
   title: "Athletic Brewing Co."
   type: 🍺
   note: my favorite fake beer
-
 - date: 2026-01-23
   title: "Dithering Part II - The Ordered Dithering"
   type: 🔗
   url: https://visualrambling.space/dithering-part-2/
-
 - date: 2026-01-23
   title: "isometric nyc"
   type: 🔗
   url: https://cannoneyed.com/projects/isometric-nyc
-
 - date: 2026-01-15
   title: "Josh Crosby"
   type: 🚣
   note: "Apple Fitness 上最有热情的 trainer"
-
 - date: 2026-01-12
   title: "Practical Betterments"
   type: 📧
   url: https://practicalbetterments.com/
-
 - date: 2026-01-11
   title: "Zwift Insider"
   type: 🚴‍♂️
   url: https://zwiftinsider.com/
-
 - date: 2026-01-09
   title: "第二个纪念日"
   type: 🍷
   note: "@minibar"
-
 - date: 2026-01-01
   title: "学会了翻身"
   type: 🍼
