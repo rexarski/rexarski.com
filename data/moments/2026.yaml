@@ -3,11 +3,21 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-05-03
+  title: Data&Eggs
+  type: url
+  url: https://eggs.thedataface.com
+  note: A living library of standout data storytelling curated by the DataFace
+- date: 2026-05-03
+  title: Toki Pona
+  type: 🌐
+  url: https://tokipona.org
+  note: The language of good
 - date: 2026-05-01
   title: Angine de Poitrine
   type: music
   url: https://youtu.be/sfDtfz7vXkY
-  note: 没想到是听梁文道老师的《八分半》了解到的乐队 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+  note: 没想到是听梁文道老师的《八分半》了解到的乐队 ▲
 - date: 2026-05-01
   title: PerThirtySix
   type: 🔗

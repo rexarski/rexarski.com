@@ -37,7 +37,7 @@ cli_tools=(
 # apps
 cask_apps=(
   1password 1password-cli ghostty antinote applite 
-  maestral anki cursor iina keka obsidian maccy
+  maestral anki iina keka obsidian maccy
   pearcleaner r shottr skim squirrel-app steam 
   positron zen
 )
