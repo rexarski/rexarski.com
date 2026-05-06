@@ -3,6 +3,14 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-05-05
+  title: 尝试了大名鼎鼎的 Da Bomb 辣椒酱
+  type: 🌶
+  note: 够辣，胃里暖暖的，还好吃得不多
+- date: 2026-05-04
+  title: 噜子的语言正在形成
+  type: 💬
+  note: Da-da-da
 - date: 2026-05-03
   title: Data&Eggs
   type: url

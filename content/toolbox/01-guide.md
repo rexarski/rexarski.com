@@ -37,7 +37,7 @@ cli_tools=(
 # apps
 cask_apps=(
   1password 1password-cli ghostty antinote applite 
-  maestral anki iina keka obsidian maccy
+  maestral anki iina keka obsidian maccy netnewswire
   pearcleaner r shottr skim squirrel-app steam 
   positron zen
 )
@@ -58,7 +58,7 @@ chmod +x brew_setup.sh
 ./brew_setup.sh
 ```
 
-第四步，从 Mac App Store 里安装 things 3, ia writer, reeder, ivory, xcode. 另外还有以下 safari 插件：sink it for reddit, ublock origin lite, dark reader, keepa, untrap.
+第四步，从 Mac App Store 里安装 things 3, ia writer, drafts, ivory, xcode. 另外还有以下 safari 插件：sink it for reddit, ublock origin lite, dark reader, keepa, untrap.
 
 第五步，从网站下载安装 pico-8, love2d.
 
