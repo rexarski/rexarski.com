@@ -19,14 +19,13 @@ menu = "main"
 - 在认真观看[程序员老王](https://www.youtube.com/@programmer-wang/videos)
 - 开始看 Brandon Sanderson 的书了
 - 发现并开始探索 [omg.lol](https://home.omg.lol)
+- 自学 Toki Pona
 
 {{< /now_marquee >}}
 
-{{< now_history >}}
-
-### 书影音游
-
 {{< neodb_progress >}}
+
+{{< now_history >}}
 
 ### 其他栖息地
 
