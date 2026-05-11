@@ -23,8 +23,6 @@ menu = "main"
 
 {{< /now_marquee >}}
 
-{{< neodb_progress >}}
-
 {{< now_history >}}
 
 ### 其他栖息地

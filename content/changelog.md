@@ -6,6 +6,8 @@ layout = "changelog"
 
 # changelog
 
+- 2026-05-11
+  - 移除了 `neodb_progress` shortcode 及相关 CSS（远程拉取偶尔失败），now 页不再显示书影音游区块。
 - 2026-04-27
   - `data/moments.yaml` 拆分为按年归档的目录结构 `data/moments/2026.yaml`，后续每年新增一个文件即可；模板改为遍历目录下所有年份文件、合并后统一排序渲染，页面输出与原来完全一致。
   - Moments 页底部新增 emoji 统计：显示总条目数与各类型的数量。
