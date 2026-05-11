@@ -3,6 +3,9 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-05-10
+  title: 噜子会拍手了
+  type: 👏
 - date: 2026-05-08
   title: 迷雾之子卷一
   type: book
