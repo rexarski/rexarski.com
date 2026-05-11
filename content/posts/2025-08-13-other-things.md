@@ -3,7 +3,7 @@ title: "Other Things"
 date: 2025-08-13T20:21:42-04:00
 description: "自然，孩子出生之后很多事情发生了变化。"
 slug: "other-things"
-tags: ["日日谈"]
+tags: ["日日谈", "parenting"]
 ---
 
 - 睡眠成为了奢侈（这是废话，但是还是想反复强调一下）；

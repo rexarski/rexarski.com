@@ -3,6 +3,11 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-05-11
+  title: Appearing Productive in The Workplace
+  type: url
+  url: https://nooneshappy.com/article/appearing-productive-in-the-workplace/
+  note: imposter syndrome 更严重了
 - date: 2026-05-10
   title: 噜子会拍手了
   type: 👏

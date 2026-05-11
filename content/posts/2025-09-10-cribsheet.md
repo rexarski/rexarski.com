@@ -3,7 +3,7 @@ title: "Cribsheet"
 date: 2025-09-10T19:36:42-04:00
 description: "不确定性太多，缺乏结论感。4/7"
 slug: "cribsheet"
-tags: ["日日谈"]
+tags: ["日日谈", "parenting"]
 ---
 
 [*Cribsheet: A Data-Driven Guide to Better, More Relaxed Parenting, from Birth to Preschool*](https://www.goodreads.com/book/show/40121328-cribsheet).

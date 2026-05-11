@@ -1,6 +1,6 @@
 {
   "model": "text-embedding-embeddinggemma-300m",
-  "generated_at": "2026-05-11T04:09:09.914433+00:00",
+  "generated_at": "2026-05-11T23:56:52.528371+00:00",
   "posts": {
     "posts/2022-09-05-sentiment-analysis.md": {
       "title": "Sentiment analysis 只是有点用处",
@@ -876,7 +876,8 @@
         "posts/2026-03-12-tuna.md": 0.7365400707530914,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7669737529793393,
         "posts/2026-04-21-222.md": 0.8032885553750644,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7387503865238535
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7387503865238535,
+        "posts/2026-05-11-bottle-aversion.md": 0.7081568194902875
       },
       "top_similar": [
         {
@@ -1773,7 +1774,8 @@
         "posts/2026-03-12-tuna.md": 0.7044166822530248,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7513805651604589,
         "posts/2026-04-21-222.md": 0.7696531770660123,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7276374732441844
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7276374732441844,
+        "posts/2026-05-11-bottle-aversion.md": 0.6856043588280321
       },
       "top_similar": [
         {
@@ -2670,7 +2672,8 @@
         "posts/2026-03-12-tuna.md": 0.7863338846879601,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8403312943848933,
         "posts/2026-04-21-222.md": 0.8989226421070534,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.8076673065143909
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.8076673065143909,
+        "posts/2026-05-11-bottle-aversion.md": 0.7711295518974066
       },
       "top_similar": [
         {
@@ -3567,7 +3570,8 @@
         "posts/2026-03-12-tuna.md": 0.7663311361053118,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7841379643103991,
         "posts/2026-04-21-222.md": 0.8246545343097025,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7748104583516123
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7748104583516123,
+        "posts/2026-05-11-bottle-aversion.md": 0.7204044560219324
       },
       "top_similar": [
         {
@@ -4464,7 +4468,8 @@
         "posts/2026-03-12-tuna.md": 0.688811642824934,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7094591225688603,
         "posts/2026-04-21-222.md": 0.7206884927958671,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7280862931974781
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7280862931974781,
+        "posts/2026-05-11-bottle-aversion.md": 0.6414106978743405
       },
       "top_similar": [
         {
@@ -5361,7 +5366,8 @@
         "posts/2026-03-12-tuna.md": 0.649143717456794,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7090287012840653,
         "posts/2026-04-21-222.md": 0.7186957903141626,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.704209526523849
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.704209526523849,
+        "posts/2026-05-11-bottle-aversion.md": 0.6243962540873763
       },
       "top_similar": [
         {
@@ -6258,7 +6264,8 @@
         "posts/2026-03-12-tuna.md": 0.7986491735126476,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7835969489658269,
         "posts/2026-04-21-222.md": 0.8303731463367395,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7687760646155323
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7687760646155323,
+        "posts/2026-05-11-bottle-aversion.md": 0.720305289193922
       },
       "top_similar": [
         {
@@ -7155,7 +7162,8 @@
         "posts/2026-03-12-tuna.md": 0.7059595765507747,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7641304242642285,
         "posts/2026-04-21-222.md": 0.7836421637517649,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7225979002187202
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7225979002187202,
+        "posts/2026-05-11-bottle-aversion.md": 0.698409069169475
       },
       "top_similar": [
         {
@@ -8052,7 +8060,8 @@
         "posts/2026-03-12-tuna.md": 0.6792484438786495,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7331947821007609,
         "posts/2026-04-21-222.md": 0.7440872693739987,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6858850096771714
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6858850096771714,
+        "posts/2026-05-11-bottle-aversion.md": 0.6660629510444227
       },
       "top_similar": [
         {
@@ -8949,7 +8958,8 @@
         "posts/2026-03-12-tuna.md": 0.7321296995110079,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.718334309582422,
         "posts/2026-04-21-222.md": 0.7220588228525412,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7115449713498522
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7115449713498522,
+        "posts/2026-05-11-bottle-aversion.md": 0.6427266844049786
       },
       "top_similar": [
         {
@@ -9846,7 +9856,8 @@
         "posts/2026-03-12-tuna.md": 0.6968630801014494,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7169227717116391,
         "posts/2026-04-21-222.md": 0.7679953757810327,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7074664842584701
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7074664842584701,
+        "posts/2026-05-11-bottle-aversion.md": 0.6546985535365283
       },
       "top_similar": [
         {
@@ -10743,7 +10754,8 @@
         "posts/2026-03-12-tuna.md": 0.6902573034592354,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7515687844700537,
         "posts/2026-04-21-222.md": 0.7795529576771842,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.738369451182435
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.738369451182435,
+        "posts/2026-05-11-bottle-aversion.md": 0.7093778300342348
       },
       "top_similar": [
         {
@@ -11640,7 +11652,8 @@
         "posts/2026-03-12-tuna.md": 0.7087635657504446,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7295869280170949,
         "posts/2026-04-21-222.md": 0.7611075912056333,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.706787552508196
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.706787552508196,
+        "posts/2026-05-11-bottle-aversion.md": 0.6881620453509165
       },
       "top_similar": [
         {
@@ -12537,7 +12550,8 @@
         "posts/2026-03-12-tuna.md": 0.7183656162353526,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7423371196235903,
         "posts/2026-04-21-222.md": 0.7796260259377414,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7318746960749289
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7318746960749289,
+        "posts/2026-05-11-bottle-aversion.md": 0.6662285707120561
       },
       "top_similar": [
         {
@@ -13434,7 +13448,8 @@
         "posts/2026-03-12-tuna.md": 0.7584763079230682,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7478401831794435,
         "posts/2026-04-21-222.md": 0.7834282306268503,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7059517321296759
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7059517321296759,
+        "posts/2026-05-11-bottle-aversion.md": 0.6639734328879014
       },
       "top_similar": [
         {
@@ -14331,7 +14346,8 @@
         "posts/2026-03-12-tuna.md": 0.7393495546344012,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7720161905094755,
         "posts/2026-04-21-222.md": 0.8257721682718338,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7400511023505186
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7400511023505186,
+        "posts/2026-05-11-bottle-aversion.md": 0.7097917656351027
       },
       "top_similar": [
         {
@@ -15228,7 +15244,8 @@
         "posts/2026-03-12-tuna.md": 0.7850367723334755,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7825983122344022,
         "posts/2026-04-21-222.md": 0.8236643214321729,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7609570838943557
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7609570838943557,
+        "posts/2026-05-11-bottle-aversion.md": 0.7142143340944499
       },
       "top_similar": [
         {
@@ -16125,7 +16142,8 @@
         "posts/2026-03-12-tuna.md": 0.7906160652357559,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8233122185534459,
         "posts/2026-04-21-222.md": 0.874551905562653,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7943180190507008
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7943180190507008,
+        "posts/2026-05-11-bottle-aversion.md": 0.7613020781475903
       },
       "top_similar": [
         {
@@ -17022,7 +17040,8 @@
         "posts/2026-03-12-tuna.md": 0.7519481897797112,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7700697390407943,
         "posts/2026-04-21-222.md": 0.8137781462653516,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.759945242140253
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.759945242140253,
+        "posts/2026-05-11-bottle-aversion.md": 0.7204915509452404
       },
       "top_similar": [
         {
@@ -17919,7 +17938,8 @@
         "posts/2026-03-12-tuna.md": 0.8060407739054767,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7978344718234945,
         "posts/2026-04-21-222.md": 0.8489859503733265,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.768195249756665
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.768195249756665,
+        "posts/2026-05-11-bottle-aversion.md": 0.723104454265945
       },
       "top_similar": [
         {
@@ -18816,7 +18836,8 @@
         "posts/2026-03-12-tuna.md": 0.7721398997540782,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8294909213523575,
         "posts/2026-04-21-222.md": 0.8771754752018518,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.796501671918547
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.796501671918547,
+        "posts/2026-05-11-bottle-aversion.md": 0.7451204402069742
       },
       "top_similar": [
         {
@@ -19713,7 +19734,8 @@
         "posts/2026-03-12-tuna.md": 0.7803864386809254,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7831363121142653,
         "posts/2026-04-21-222.md": 0.7909062574286495,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.751345943686921
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.751345943686921,
+        "posts/2026-05-11-bottle-aversion.md": 0.6983777092151799
       },
       "top_similar": [
         {
@@ -20610,7 +20632,8 @@
         "posts/2026-03-12-tuna.md": 0.7472339304041948,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8005026472270561,
         "posts/2026-04-21-222.md": 0.8295002860827047,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7469486837652586
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7469486837652586,
+        "posts/2026-05-11-bottle-aversion.md": 0.7016783374377303
       },
       "top_similar": [
         {
@@ -21507,7 +21530,8 @@
         "posts/2026-03-12-tuna.md": 0.736223021403769,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7903893437980465,
         "posts/2026-04-21-222.md": 0.8350946238000412,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7355592990434122
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7355592990434122,
+        "posts/2026-05-11-bottle-aversion.md": 0.7029059930330331
       },
       "top_similar": [
         {
@@ -22404,7 +22428,8 @@
         "posts/2026-03-12-tuna.md": 0.8039788189826071,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7778787512357094,
         "posts/2026-04-21-222.md": 0.831692278084423,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7541126149104466
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7541126149104466,
+        "posts/2026-05-11-bottle-aversion.md": 0.7369641435116842
       },
       "top_similar": [
         {
@@ -23301,7 +23326,8 @@
         "posts/2026-03-12-tuna.md": 0.7300462085308398,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7799405350457632,
         "posts/2026-04-21-222.md": 0.8175057122492508,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7248848921278465
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7248848921278465,
+        "posts/2026-05-11-bottle-aversion.md": 0.6941023231661769
       },
       "top_similar": [
         {
@@ -24198,7 +24224,8 @@
         "posts/2026-03-12-tuna.md": 0.720819838351371,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.6949579121871042,
         "posts/2026-04-21-222.md": 0.7466717434554186,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6860098426872482
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6860098426872482,
+        "posts/2026-05-11-bottle-aversion.md": 0.6957525052007363
       },
       "top_similar": [
         {
@@ -25095,7 +25122,8 @@
         "posts/2026-03-12-tuna.md": 0.7719916632528384,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7823586275895327,
         "posts/2026-04-21-222.md": 0.8302892892148842,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7676417790097311
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7676417790097311,
+        "posts/2026-05-11-bottle-aversion.md": 0.742241790678517
       },
       "top_similar": [
         {
@@ -25992,7 +26020,8 @@
         "posts/2026-03-12-tuna.md": 0.7524171197013526,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7896333962205597,
         "posts/2026-04-21-222.md": 0.8685697352915193,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7846465973899012
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7846465973899012,
+        "posts/2026-05-11-bottle-aversion.md": 0.7583260043415807
       },
       "top_similar": [
         {
@@ -26889,7 +26918,8 @@
         "posts/2026-03-12-tuna.md": 0.7996477600382473,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7697949371886114,
         "posts/2026-04-21-222.md": 0.8184707236637658,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7584770642474149
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7584770642474149,
+        "posts/2026-05-11-bottle-aversion.md": 0.6986520660514322
       },
       "top_similar": [
         {
@@ -27786,7 +27816,8 @@
         "posts/2026-03-12-tuna.md": 0.689752764328683,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.776285267468888,
         "posts/2026-04-21-222.md": 0.738697813077847,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7623434679643222
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7623434679643222,
+        "posts/2026-05-11-bottle-aversion.md": 0.6698656612587115
       },
       "top_similar": [
         {
@@ -28683,7 +28714,8 @@
         "posts/2026-03-12-tuna.md": 0.7245934508045534,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7738309506164741,
         "posts/2026-04-21-222.md": 0.7908357899504959,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7498945383023716
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7498945383023716,
+        "posts/2026-05-11-bottle-aversion.md": 0.6926483677449978
       },
       "top_similar": [
         {
@@ -29580,7 +29612,8 @@
         "posts/2026-03-12-tuna.md": 0.7733379554710789,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8384733833795422,
         "posts/2026-04-21-222.md": 0.8749657638849961,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7989453687127129
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7989453687127129,
+        "posts/2026-05-11-bottle-aversion.md": 0.7484971956533572
       },
       "top_similar": [
         {
@@ -30477,7 +30510,8 @@
         "posts/2026-03-12-tuna.md": 0.6527675484497789,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.6634148079552546,
         "posts/2026-04-21-222.md": 0.6705672670108375,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6180630380993738
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6180630380993738,
+        "posts/2026-05-11-bottle-aversion.md": 0.6404052659326774
       },
       "top_similar": [
         {
@@ -31374,7 +31408,8 @@
         "posts/2026-03-12-tuna.md": 0.7772301772434096,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7941008900233544,
         "posts/2026-04-21-222.md": 0.8528512167674736,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7615917966959895
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7615917966959895,
+        "posts/2026-05-11-bottle-aversion.md": 0.7353645673620374
       },
       "top_similar": [
         {
@@ -32271,7 +32306,8 @@
         "posts/2026-03-12-tuna.md": 0.767831950706172,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.846967456088919,
         "posts/2026-04-21-222.md": 0.9144264621623605,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.8083677574686032
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.8083677574686032,
+        "posts/2026-05-11-bottle-aversion.md": 0.7885778563122439
       },
       "top_similar": [
         {
@@ -33168,7 +33204,8 @@
         "posts/2026-03-12-tuna.md": 0.7636240924574316,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8274787926943113,
         "posts/2026-04-21-222.md": 0.8583776621925117,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7978744905530589
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7978744905530589,
+        "posts/2026-05-11-bottle-aversion.md": 0.74655570753894
       },
       "top_similar": [
         {
@@ -34065,7 +34102,8 @@
         "posts/2026-03-12-tuna.md": 0.7555350820338333,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8147327331756072,
         "posts/2026-04-21-222.md": 0.8401478223792103,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7868478215560829
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7868478215560829,
+        "posts/2026-05-11-bottle-aversion.md": 0.7441030711328509
       },
       "top_similar": [
         {
@@ -34962,7 +35000,8 @@
         "posts/2026-03-12-tuna.md": 0.7583527677478106,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7640698313128226,
         "posts/2026-04-21-222.md": 0.8175117601318649,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.733346145161073
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.733346145161073,
+        "posts/2026-05-11-bottle-aversion.md": 0.7027224502606758
       },
       "top_similar": [
         {
@@ -35859,7 +35898,8 @@
         "posts/2026-03-12-tuna.md": 0.6623438731178422,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.720201691584521,
         "posts/2026-04-21-222.md": 0.7137993822674478,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6889701796977494
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6889701796977494,
+        "posts/2026-05-11-bottle-aversion.md": 0.6617939569333596
       },
       "top_similar": [
         {
@@ -36756,7 +36796,8 @@
         "posts/2026-03-12-tuna.md": 0.6637319983374046,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7139180888389363,
         "posts/2026-04-21-222.md": 0.7688237853404911,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7073193821094924
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7073193821094924,
+        "posts/2026-05-11-bottle-aversion.md": 0.6950728197460396
       },
       "top_similar": [
         {
@@ -37653,7 +37694,8 @@
         "posts/2026-03-12-tuna.md": 0.7445631530438712,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7640874522173613,
         "posts/2026-04-21-222.md": 0.8320073909963417,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7561774003315221
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7561774003315221,
+        "posts/2026-05-11-bottle-aversion.md": 0.7302072185885146
       },
       "top_similar": [
         {
@@ -38550,7 +38592,8 @@
         "posts/2026-03-12-tuna.md": 0.7538043125014677,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7552883801335718,
         "posts/2026-04-21-222.md": 0.82339741971325,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7366208241516338
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7366208241516338,
+        "posts/2026-05-11-bottle-aversion.md": 0.7189664754499272
       },
       "top_similar": [
         {
@@ -39447,7 +39490,8 @@
         "posts/2026-03-12-tuna.md": 0.7687594027719699,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8078626064737656,
         "posts/2026-04-21-222.md": 0.9013322827455461,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7859242463245992
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7859242463245992,
+        "posts/2026-05-11-bottle-aversion.md": 0.7655264382996896
       },
       "top_similar": [
         {
@@ -40344,7 +40388,8 @@
         "posts/2026-03-12-tuna.md": 0.6691403680544532,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7340944553803803,
         "posts/2026-04-21-222.md": 0.7392798305896738,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7092576125194422
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7092576125194422,
+        "posts/2026-05-11-bottle-aversion.md": 0.6928016679585209
       },
       "top_similar": [
         {
@@ -41241,7 +41286,8 @@
         "posts/2026-03-12-tuna.md": 0.7422227893399553,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8343522952337512,
         "posts/2026-04-21-222.md": 0.8385628984082327,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.8139307743314536
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.8139307743314536,
+        "posts/2026-05-11-bottle-aversion.md": 0.7431075579656349
       },
       "top_similar": [
         {
@@ -42138,7 +42184,8 @@
         "posts/2026-03-12-tuna.md": 0.6904563678480095,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7271664847603418,
         "posts/2026-04-21-222.md": 0.7689009442052999,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7336482847482559
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7336482847482559,
+        "posts/2026-05-11-bottle-aversion.md": 0.7012332678312927
       },
       "top_similar": [
         {
@@ -43035,7 +43082,8 @@
         "posts/2026-03-12-tuna.md": 0.6954806818620568,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7429992324320932,
         "posts/2026-04-21-222.md": 0.7750624621604764,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7330112268268538
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7330112268268538,
+        "posts/2026-05-11-bottle-aversion.md": 0.691422287071427
       },
       "top_similar": [
         {
@@ -43932,7 +43980,8 @@
         "posts/2026-03-12-tuna.md": 0.7248120106548617,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7648855176101401,
         "posts/2026-04-21-222.md": 0.7889106987363088,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7477433841296677
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7477433841296677,
+        "posts/2026-05-11-bottle-aversion.md": 0.7078907230642711
       },
       "top_similar": [
         {
@@ -44829,7 +44878,8 @@
         "posts/2026-03-12-tuna.md": 0.666259047768068,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7031136746430134,
         "posts/2026-04-21-222.md": 0.7125743778199646,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7068063615072803
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7068063615072803,
+        "posts/2026-05-11-bottle-aversion.md": 0.6625129324495437
       },
       "top_similar": [
         {
@@ -45726,7 +45776,8 @@
         "posts/2026-03-12-tuna.md": 0.7650719911480767,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8109161529416578,
         "posts/2026-04-21-222.md": 0.8364507590165562,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7943376392906708
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7943376392906708,
+        "posts/2026-05-11-bottle-aversion.md": 0.7312784372911024
       },
       "top_similar": [
         {
@@ -46623,7 +46674,8 @@
         "posts/2026-03-12-tuna.md": 0.6565724492248773,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.6917926998807474,
         "posts/2026-04-21-222.md": 0.7154368637966592,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6722731133391776
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6722731133391776,
+        "posts/2026-05-11-bottle-aversion.md": 0.6753964168748419
       },
       "top_similar": [
         {
@@ -47520,7 +47572,8 @@
         "posts/2026-03-12-tuna.md": 0.7186036478902258,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7752450368783936,
         "posts/2026-04-21-222.md": 0.8156759070285812,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7376413371075805
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7376413371075805,
+        "posts/2026-05-11-bottle-aversion.md": 0.7243067128149249
       },
       "top_similar": [
         {
@@ -48417,7 +48470,8 @@
         "posts/2026-03-12-tuna.md": 0.6302038103524942,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.6799423612568357,
         "posts/2026-04-21-222.md": 0.7405778529155,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.653400188674184
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.653400188674184,
+        "posts/2026-05-11-bottle-aversion.md": 0.6629641923431723
       },
       "top_similar": [
         {
@@ -49314,7 +49368,8 @@
         "posts/2026-03-12-tuna.md": 0.7023145872698733,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.689113179313696,
         "posts/2026-04-21-222.md": 0.733429963227783,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6576122914925608
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6576122914925608,
+        "posts/2026-05-11-bottle-aversion.md": 0.651282969916169
       },
       "top_similar": [
         {
@@ -50211,7 +50266,8 @@
         "posts/2026-03-12-tuna.md": 0.6634497271424369,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.6698982579092366,
         "posts/2026-04-21-222.md": 0.7178740656833769,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.647936890763955
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.647936890763955,
+        "posts/2026-05-11-bottle-aversion.md": 0.6530098191995722
       },
       "top_similar": [
         {
@@ -51108,7 +51164,8 @@
         "posts/2026-03-12-tuna.md": 0.7273685087915681,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7674749864413808,
         "posts/2026-04-21-222.md": 0.8340617491802456,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7514367345846994
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7514367345846994,
+        "posts/2026-05-11-bottle-aversion.md": 0.7067779034770669
       },
       "top_similar": [
         {
@@ -52005,7 +52062,8 @@
         "posts/2026-03-12-tuna.md": 0.6131550731000492,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.6766972586303514,
         "posts/2026-04-21-222.md": 0.6571105485916964,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6559189258335574
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6559189258335574,
+        "posts/2026-05-11-bottle-aversion.md": 0.5965087052400747
       },
       "top_similar": [
         {
@@ -52902,7 +52960,8 @@
         "posts/2026-03-12-tuna.md": 0.68733365141695,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7516628258729091,
         "posts/2026-04-21-222.md": 0.7705324197258905,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7347670497484686
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7347670497484686,
+        "posts/2026-05-11-bottle-aversion.md": 0.6962216461606215
       },
       "top_similar": [
         {
@@ -53799,7 +53858,8 @@
         "posts/2026-03-12-tuna.md": 0.7116913422901601,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7169941610600264,
         "posts/2026-04-21-222.md": 0.7635134420091014,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7102558720085956
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7102558720085956,
+        "posts/2026-05-11-bottle-aversion.md": 0.7071601009813899
       },
       "top_similar": [
         {
@@ -54696,7 +54756,8 @@
         "posts/2026-03-12-tuna.md": 0.7482040718563072,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8016762583248158,
         "posts/2026-04-21-222.md": 0.841426215898818,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7748138559181085
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7748138559181085,
+        "posts/2026-05-11-bottle-aversion.md": 0.7834468540603869
       },
       "top_similar": [
         {
@@ -55593,7 +55654,8 @@
         "posts/2026-03-12-tuna.md": 0.7113633629894495,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7517771704753476,
         "posts/2026-04-21-222.md": 0.7879157046183828,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7227469202298863
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7227469202298863,
+        "posts/2026-05-11-bottle-aversion.md": 0.6713557174476156
       },
       "top_similar": [
         {
@@ -56490,7 +56552,8 @@
         "posts/2026-03-12-tuna.md": 0.7328282514540974,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8045113745442942,
         "posts/2026-04-21-222.md": 0.8504143081851926,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7709539580021043
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7709539580021043,
+        "posts/2026-05-11-bottle-aversion.md": 0.7517922469956838
       },
       "top_similar": [
         {
@@ -57387,7 +57450,8 @@
         "posts/2026-03-12-tuna.md": 0.7628045951043105,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8126487937833117,
         "posts/2026-04-21-222.md": 0.8502379651744019,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7877283347946583
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7877283347946583,
+        "posts/2026-05-11-bottle-aversion.md": 0.7648776586478337
       },
       "top_similar": [
         {
@@ -58284,7 +58348,8 @@
         "posts/2026-03-12-tuna.md": 0.6821425334742087,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.698887495383944,
         "posts/2026-04-21-222.md": 0.7495404241590382,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6730814262285458
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6730814262285458,
+        "posts/2026-05-11-bottle-aversion.md": 0.7255829039756945
       },
       "top_similar": [
         {
@@ -58311,7 +58376,7 @@
       "title": "Other Things II",
       "slug": "other-things-ii",
       "content_path": "posts/2025-08-15-other-things-ii",
-      "content_hash": "d17993c232d45681ae58c25c823de7c8d5e35f2c7ed7c400d0cccaa381874c06",
+      "content_hash": "ddb8fbfd45ef590ca850656e82980a14a0ecf54cf1c35a42f7d0e64109225f73",
       "embedding": [
         -0.06727968901395798,
         0.030065953731536865,
@@ -59082,6 +59147,7 @@
         -0.01591585949063301,
         0.015317068435251713
       ],
+      "updated_at": "2026-05-11T23:56:52.019054+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.6162215293607769,
         "posts/2022-09-14-shapley-and-explainability.md": 0.6014252834037052,
@@ -59181,7 +59247,8 @@
         "posts/2026-03-12-tuna.md": 0.6483995264934292,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.6873374520524199,
         "posts/2026-04-21-222.md": 0.7129630134037883,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6691545637553845
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6691545637553845,
+        "posts/2026-05-11-bottle-aversion.md": 0.6921685077029106
       },
       "top_similar": [
         {
@@ -60078,7 +60145,8 @@
         "posts/2026-03-12-tuna.md": 0.7207397053003883,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7700017253504657,
         "posts/2026-04-21-222.md": 0.8096886643312486,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7589442326295387
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7589442326295387,
+        "posts/2026-05-11-bottle-aversion.md": 0.7230987685334618
       },
       "top_similar": [
         {
@@ -60975,7 +61043,8 @@
         "posts/2026-03-12-tuna.md": 0.6888480003457267,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7362250264837928,
         "posts/2026-04-21-222.md": 0.7804850892160295,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7078317895054572
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7078317895054572,
+        "posts/2026-05-11-bottle-aversion.md": 0.749590444801106
       },
       "top_similar": [
         {
@@ -61872,7 +61941,8 @@
         "posts/2026-03-12-tuna.md": 0.7641162433213956,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8397319356172891,
         "posts/2026-04-21-222.md": 0.8160324336170133,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.8159989092393517
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.8159989092393517,
+        "posts/2026-05-11-bottle-aversion.md": 0.7493333455437511
       },
       "top_similar": [
         {
@@ -62769,7 +62839,8 @@
         "posts/2026-03-12-tuna.md": 0.7159117880868827,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7503784660857121,
         "posts/2026-04-21-222.md": 0.7599784230671794,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7131010253004243
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7131010253004243,
+        "posts/2026-05-11-bottle-aversion.md": 0.7155038630503595
       },
       "top_similar": [
         {
@@ -63666,7 +63737,8 @@
         "posts/2026-03-12-tuna.md": 0.7074710544446302,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7292503388846426,
         "posts/2026-04-21-222.md": 0.7600373227719881,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.703825674873438
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.703825674873438,
+        "posts/2026-05-11-bottle-aversion.md": 0.6671271918344047
       },
       "top_similar": [
         {
@@ -64563,7 +64635,8 @@
         "posts/2026-03-12-tuna.md": 0.7402660199408564,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8162086729160851,
         "posts/2026-04-21-222.md": 0.8584121171442533,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7868797741049319
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7868797741049319,
+        "posts/2026-05-11-bottle-aversion.md": 0.7372313387917576
       },
       "top_similar": [
         {
@@ -65460,7 +65533,8 @@
         "posts/2026-03-12-tuna.md": 0.7621523841919555,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7634243994932058,
         "posts/2026-04-21-222.md": 0.8311439286453367,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7434995978038265
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7434995978038265,
+        "posts/2026-05-11-bottle-aversion.md": 0.724938870591205
       },
       "top_similar": [
         {
@@ -66357,7 +66431,8 @@
         "posts/2026-03-12-tuna.md": 0.6738868118406955,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7266356453986342,
         "posts/2026-04-21-222.md": 0.7266842355351849,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7385097337572636
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7385097337572636,
+        "posts/2026-05-11-bottle-aversion.md": 0.6859779329169923
       },
       "top_similar": [
         {
@@ -67254,7 +67329,8 @@
         "posts/2026-03-12-tuna.md": 0.7879584666148832,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8058508607857315,
         "posts/2026-04-21-222.md": 0.8576474418353681,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7640571317719377
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7640571317719377,
+        "posts/2026-05-11-bottle-aversion.md": 0.7473855702881115
       },
       "top_similar": [
         {
@@ -68151,7 +68227,8 @@
         "posts/2026-03-12-tuna.md": 0.7460876625449429,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.773311583892094,
         "posts/2026-04-21-222.md": 0.8159970805770229,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7439084900279112
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7439084900279112,
+        "posts/2026-05-11-bottle-aversion.md": 0.7972112571342314
       },
       "top_similar": [
         {
@@ -69048,7 +69125,8 @@
         "posts/2026-03-12-tuna.md": 0.7157296346365425,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8104107521328411,
         "posts/2026-04-21-222.md": 0.8237733766101604,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7687016868449514
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7687016868449514,
+        "posts/2026-05-11-bottle-aversion.md": 0.7944263406560035
       },
       "top_similar": [
         {
@@ -69945,7 +70023,8 @@
         "posts/2026-03-12-tuna.md": 0.7252309347474929,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8144188023745584,
         "posts/2026-04-21-222.md": 0.8345155096606254,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7864683807582293
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7864683807582293,
+        "posts/2026-05-11-bottle-aversion.md": 0.7594838582855266
       },
       "top_similar": [
         {
@@ -70842,7 +70921,8 @@
         "posts/2026-03-12-tuna.md": 0.711361550270819,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8440430489866491,
         "posts/2026-04-21-222.md": 0.8056972636452586,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.8091836500165115
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.8091836500165115,
+        "posts/2026-05-11-bottle-aversion.md": 0.7319955099512081
       },
       "top_similar": [
         {
@@ -71739,7 +71819,8 @@
         "posts/2026-03-12-tuna.md": 0.698691919977032,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7464533784713978,
         "posts/2026-04-21-222.md": 0.82272925757166,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7422634661209787
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7422634661209787,
+        "posts/2026-05-11-bottle-aversion.md": 0.7518194269510933
       },
       "top_similar": [
         {
@@ -72636,7 +72717,8 @@
         "posts/2026-03-12-tuna.md": 0.7446181172838331,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7390335501579552,
         "posts/2026-04-21-222.md": 0.7706006728910854,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7275962624308233
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7275962624308233,
+        "posts/2026-05-11-bottle-aversion.md": 0.7024024123903558
       },
       "top_similar": [
         {
@@ -73533,7 +73615,8 @@
         "posts/2026-03-12-tuna.md": 0.6480986272236564,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.6701936992811394,
         "posts/2026-04-21-222.md": 0.6888535703982088,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6633666301519778
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.6633666301519778,
+        "posts/2026-05-11-bottle-aversion.md": 0.6335870080071516
       },
       "top_similar": [
         {
@@ -74430,7 +74513,8 @@
         "posts/2026-03-12-tuna.md": 0.7709118576162042,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7779542152562685,
         "posts/2026-04-21-222.md": 0.7986801756841235,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7463859329816066
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7463859329816066,
+        "posts/2026-05-11-bottle-aversion.md": 0.704154785030162
       },
       "top_similar": [
         {
@@ -75327,7 +75411,8 @@
         "posts/2026-03-12-tuna.md": 0.7748661663276217,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7793265650720306,
         "posts/2026-04-21-222.md": 0.8060898577390487,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7608103078928441
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7608103078928441,
+        "posts/2026-05-11-bottle-aversion.md": 0.729726046430456
       },
       "top_similar": [
         {
@@ -76224,7 +76309,8 @@
         "posts/2026-03-12-tuna.md": 0.7066927186581631,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7896081595178935,
         "posts/2026-04-21-222.md": 0.806925765406384,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7622807963016635
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7622807963016635,
+        "posts/2026-05-11-bottle-aversion.md": 0.7993090866304537
       },
       "top_similar": [
         {
@@ -77121,7 +77207,8 @@
         "posts/2026-03-12-tuna.md": 0.7071267145733687,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7287310105447881,
         "posts/2026-04-21-222.md": 0.7454085978981949,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7279492626010747
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7279492626010747,
+        "posts/2026-05-11-bottle-aversion.md": 0.6754556300142982
       },
       "top_similar": [
         {
@@ -78018,7 +78105,8 @@
         "posts/2026-03-12-tuna.md": 0.6769544212188616,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7470715380439431,
         "posts/2026-04-21-222.md": 0.7746649929123769,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7281897894029125
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7281897894029125,
+        "posts/2026-05-11-bottle-aversion.md": 0.7135974902272028
       },
       "top_similar": [
         {
@@ -78915,7 +79003,8 @@
         "posts/2026-03-12-tuna.md": 0.7271167666948121,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.768902509875627,
         "posts/2026-04-21-222.md": 0.8006821341481148,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7630198114697883
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7630198114697883,
+        "posts/2026-05-11-bottle-aversion.md": 0.7197290330566424
       },
       "top_similar": [
         {
@@ -79812,7 +79901,8 @@
         "posts/2026-03-12-tuna.md": 0.7567003815159126,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8428035227128083,
         "posts/2026-04-21-222.md": 0.8789994391491363,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.8038768319450271
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.8038768319450271,
+        "posts/2026-05-11-bottle-aversion.md": 0.7695871053640514
       },
       "top_similar": [
         {
@@ -80709,7 +80799,8 @@
         "posts/2026-03-12-tuna.md": 0.694749461281532,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.728198107073222,
         "posts/2026-04-21-222.md": 0.7678717551676472,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7050775225054592
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7050775225054592,
+        "posts/2026-05-11-bottle-aversion.md": 0.6926561189288231
       },
       "top_similar": [
         {
@@ -81606,7 +81697,8 @@
         "posts/2026-03-12-tuna.md": 0.7539101255429003,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8335076096882692,
         "posts/2026-04-21-222.md": 0.8740055789318605,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7961105769844581
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7961105769844581,
+        "posts/2026-05-11-bottle-aversion.md": 0.8002339270014983
       },
       "top_similar": [
         {
@@ -82503,7 +82595,8 @@
         "posts/2026-03-12-tuna.md": 0.6785895152082903,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7229542042633711,
         "posts/2026-04-21-222.md": 0.7454187388421939,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7333556502152325
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7333556502152325,
+        "posts/2026-05-11-bottle-aversion.md": 0.6974364701106504
       },
       "top_similar": [
         {
@@ -83400,7 +83493,8 @@
         "posts/2026-03-12-tuna.md": 0.6919276537126396,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7505433734491067,
         "posts/2026-04-21-222.md": 0.7641151660633564,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7234193572787619
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7234193572787619,
+        "posts/2026-05-11-bottle-aversion.md": 0.6709577632810543
       },
       "top_similar": [
         {
@@ -84297,7 +84391,8 @@
         "posts/2026-03-12-tuna.md": 0.7574243415712473,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8032587252877436,
         "posts/2026-04-21-222.md": 0.8299492298034864,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7749459337219462
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7749459337219462,
+        "posts/2026-05-11-bottle-aversion.md": 0.739965495706957
       },
       "top_similar": [
         {
@@ -85194,7 +85289,8 @@
         "posts/2026-03-12-tuna.md": 0.67305578082665,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7475035025460864,
         "posts/2026-04-21-222.md": 0.7534722543819103,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7462447791642663
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7462447791642663,
+        "posts/2026-05-11-bottle-aversion.md": 0.7036365076566078
       },
       "top_similar": [
         {
@@ -86091,7 +86187,8 @@
         "posts/2026-03-12-tuna.md": 0.7492205120007224,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8130136881505389,
         "posts/2026-04-21-222.md": 0.841554354463757,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7893765622607537
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7893765622607537,
+        "posts/2026-05-11-bottle-aversion.md": 0.7550903060261018
       },
       "top_similar": [
         {
@@ -86988,7 +87085,8 @@
         "posts/2026-03-09-fellow-es1-pt3.md": 0.7492205120007224,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.7610996281998827,
         "posts/2026-04-21-222.md": 0.782286032358533,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.734686287926009
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.734686287926009,
+        "posts/2026-05-11-bottle-aversion.md": 0.6981382222309035
       },
       "top_similar": [
         {
@@ -87885,7 +87983,8 @@
         "posts/2026-03-09-fellow-es1-pt3.md": 0.8130136881505389,
         "posts/2026-03-12-tuna.md": 0.7610996281998827,
         "posts/2026-04-21-222.md": 0.8307017613597565,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.874166065303904
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.874166065303904,
+        "posts/2026-05-11-bottle-aversion.md": 0.7432406952157243
       },
       "top_similar": [
         {
@@ -88782,7 +88881,8 @@
         "posts/2026-03-09-fellow-es1-pt3.md": 0.841554354463757,
         "posts/2026-03-12-tuna.md": 0.782286032358533,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.8307017613597565,
-        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.801426629738224
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.801426629738224,
+        "posts/2026-05-11-bottle-aversion.md": 0.7692316544591917
       },
       "top_similar": [
         {
@@ -89580,7 +89680,6 @@
         -0.07015351206064224,
         -0.0057916054502129555
       ],
-      "updated_at": "2026-05-11T04:09:09.503968+00:00",
       "similarities": {
         "posts/2022-09-05-sentiment-analysis.md": 0.7387503865238535,
         "posts/2022-09-14-shapley-and-explainability.md": 0.7276374732441844,
@@ -89680,7 +89779,8 @@
         "posts/2026-03-09-fellow-es1-pt3.md": 0.7893765622607537,
         "posts/2026-03-12-tuna.md": 0.734686287926009,
         "posts/2026-04-06-salmon-tartare-omurice.md": 0.874166065303904,
-        "posts/2026-04-21-222.md": 0.801426629738224
+        "posts/2026-04-21-222.md": 0.801426629738224,
+        "posts/2026-05-11-bottle-aversion.md": 0.7364885682316489
       },
       "top_similar": [
         {
@@ -89700,6 +89800,905 @@
           "content_path": "posts/2025-06-22-brisket",
           "title": "熏牛胸肉",
           "score": 0.813931
+        }
+      ]
+    },
+    "posts/2026-05-11-bottle-aversion.md": {
+      "title": "厌奶",
+      "slug": "bottle-aversion",
+      "content_path": "posts/2026-05-11-bottle-aversion",
+      "content_hash": "799cac0800297caa1e58f6633d55fe82240156ee596b81f1e6f078f5373a9a40",
+      "embedding": [
+        0.0034391891676932573,
+        -0.00156274507753551,
+        -0.007000033278018236,
+        0.008975117467343807,
+        -0.0015224849339574575,
+        -0.053639426827430725,
+        0.02219320647418499,
+        -0.01535513810813427,
+        -0.0020823811646550894,
+        -0.016903821378946304,
+        -0.050659678876399994,
+        -0.00011037332296837121,
+        -0.004113851580768824,
+        0.00946602039039135,
+        -0.010701608844101429,
+        0.02287517488002777,
+        0.014729983173310757,
+        0.02379295416176319,
+        0.007099934853613377,
+        -0.009443252347409725,
+        0.0006339353276416659,
+        -0.0011164037277922034,
+        0.03497947007417679,
+        -0.06303109973669052,
+        0.00013129368016961962,
+        -0.015161698684096336,
+        0.01745753176510334,
+        -0.008358900435268879,
+        0.022377757355570793,
+        0.009873895905911922,
+        -0.019396061077713966,
+        -0.012935315258800983,
+        0.0027297064661979675,
+        0.01186631340533495,
+        0.003604680299758911,
+        -0.009964295662939548,
+        -0.02373206801712513,
+        0.0005667966906912625,
+        0.037137120962142944,
+        -0.08673392981290817,
+        0.008368989452719688,
+        0.037000834941864014,
+        -0.021447451785206795,
+        -0.00048733220319263637,
+        -0.005107360426336527,
+        0.01207734365016222,
+        -0.029998717829585075,
+        0.00911695696413517,
+        0.03188437968492508,
+        -0.007634809240698814,
+        0.015996864065527916,
+        0.001339773996733129,
+        0.010691232047975063,
+        0.012956041842699051,
+        0.0040552737191319466,
+        0.01328216027468443,
+        -0.02113739773631096,
+        -0.01482710987329483,
+        0.017550939694046974,
+        -0.0012703260872513056,
+        0.014915967360138893,
+        -0.04879308491945267,
+        0.006992158479988575,
+        -0.030248895287513733,
+        0.004383761901408434,
+        -0.04085104167461395,
+        0.019332975149154663,
+        0.06615331768989563,
+        -0.0021563521586358547,
+        -0.007348247803747654,
+        0.009627909399569035,
+        -0.01659848727285862,
+        -0.0020058269146829844,
+        -0.004926113877445459,
+        0.01626325026154518,
+        0.036937929689884186,
+        -0.024044012650847435,
+        -0.02459837682545185,
+        -0.027059871703386307,
+        -0.020140159875154495,
+        -0.010508705861866474,
+        -0.0004562943067867309,
+        -0.030267592519521713,
+        0.011500854976475239,
+        -0.01754806563258171,
+        -0.008333820849657059,
+        0.05182233080267906,
+        0.01753176562488079,
+        0.02300630696117878,
+        -0.015114814974367619,
+        -0.03213454410433769,
+        -0.004552336875349283,
+        -0.0011167671764269471,
+        -0.04565144702792168,
+        0.017501849681138992,
+        -0.004569357726722956,
+        -0.011378494091331959,
+        -0.024772213771939278,
+        0.0012919086730107665,
+        -0.0034967800602316856,
+        0.031724683940410614,
+        -0.02307388000190258,
+        0.015932152047753334,
+        -0.008537582121789455,
+        0.0018602183554321527,
+        -0.01941656321287155,
+        0.026207558810710907,
+        -0.016320131719112396,
+        -0.0013531669974327087,
+        0.01549408957362175,
+        0.039812397211790085,
+        0.018452702090144157,
+        0.005337804555892944,
+        -0.00011937518866034225,
+        -0.01599828712642193,
+        0.0025699434336274862,
+        -0.015031031332910061,
+        -0.02186720445752144,
+        -0.00226034433580935,
+        0.003225205698981881,
+        -0.011381322517991066,
+        -0.017417138442397118,
+        -0.02448711171746254,
+        0.0007223046268336475,
+        0.014228020794689655,
+        -0.010316930711269379,
+        0.01893484778702259,
+        0.03652889281511307,
+        -0.0031882156617939472,
+        -0.026568420231342316,
+        -0.018908223137259483,
+        0.007168928626924753,
+        0.017490433529019356,
+        -0.10021056979894638,
+        -0.008276664651930332,
+        0.005938692484050989,
+        0.006591817829757929,
+        -0.02473297528922558,
+        0.005242379382252693,
+        0.04048369079828262,
+        0.020601097494363785,
+        0.031166382133960724,
+        0.0249332282692194,
+        -0.003912352491170168,
+        -0.016429055482149124,
+        0.009225449524819851,
+        -0.011410324834287167,
+        0.02808571793138981,
+        0.0019502741051837802,
+        -0.027024326846003532,
+        -0.0026551682967692614,
+        0.009735153056681156,
+        0.01552614476531744,
+        -0.004661991726607084,
+        -0.007820998318493366,
+        -0.017565544694662094,
+        0.0024439042899757624,
+        0.03856222331523895,
+        0.026457689702510834,
+        -0.011389286257326603,
+        0.011707705445587635,
+        0.01666339859366417,
+        0.01716938242316246,
+        -0.005090520717203617,
+        0.01594822108745575,
+        -0.0020561357960104942,
+        0.020896926522254944,
+        -0.028436310589313507,
+        -0.027750780805945396,
+        -0.011827774345874786,
+        0.0032068139407783747,
+        -0.01308238785713911,
+        -0.007382432464510202,
+        -0.03722745180130005,
+        0.013054698705673218,
+        0.011623423546552658,
+        0.0422215573489666,
+        -0.011957275681197643,
+        -0.009965294040739536,
+        -0.023631196469068527,
+        -0.020384594798088074,
+        0.03364495560526848,
+        0.018600020557641983,
+        0.008950144983828068,
+        -0.006244759075343609,
+        0.002216303488239646,
+        -0.017019864171743393,
+        0.018418163061141968,
+        0.008964890614151955,
+        -0.0024779539089649916,
+        -0.03324732929468155,
+        0.010112324729561806,
+        0.007352486718446016,
+        -0.008996228687465191,
+        -0.004283454734832048,
+        -0.009944493882358074,
+        0.005190327297896147,
+        -0.01837134175002575,
+        0.0223784688860178,
+        0.017734145745635033,
+        -0.018837904557585716,
+        0.03358730673789978,
+        0.005424193572252989,
+        0.01670936867594719,
+        0.034428223967552185,
+        0.012974505312740803,
+        0.02450147643685341,
+        0.0018230397254228592,
+        -0.02862962707877159,
+        0.042039066553115845,
+        -0.02952473796904087,
+        -0.0048684487119317055,
+        -0.033427733927965164,
+        0.0017735157161951065,
+        0.019171644002199173,
+        -0.022221822291612625,
+        0.002361658960580826,
+        0.0041326964274048805,
+        0.01053042896091938,
+        0.029663655906915665,
+        0.027661753818392754,
+        0.007170476485043764,
+        -0.005094707477837801,
+        -0.03308325633406639,
+        -0.008987010456621647,
+        0.012362810783088207,
+        0.0021742351818829775,
+        -0.007275035604834557,
+        0.037832994014024734,
+        -0.013064410537481308,
+        0.005660300608724356,
+        0.006420970894396305,
+        -0.0037188304122537374,
+        -0.003017204347997904,
+        0.009597289375960827,
+        0.08505984395742416,
+        -0.019137775525450706,
+        -0.011739215813577175,
+        0.02795119769871235,
+        0.0014330650446936488,
+        -0.006210092455148697,
+        0.014466860331594944,
+        -0.006234766449779272,
+        -0.01375731360167265,
+        0.0036922600120306015,
+        0.01413360983133316,
+        0.010282245464622974,
+        -0.0009971397230401635,
+        -0.011946575716137886,
+        -0.01538284681737423,
+        0.0008699457976035774,
+        0.03275469318032265,
+        0.011501393280923367,
+        -0.02520603872835636,
+        -0.032207150012254715,
+        0.017528150230646133,
+        -0.01920083723962307,
+        -0.021270502358675003,
+        -0.0030430620536208153,
+        -0.007096556015312672,
+        0.0031448404770344496,
+        -0.007009349297732115,
+        -0.015872156247496605,
+        -0.017167719081044197,
+        -0.010931762866675854,
+        0.009376815520226955,
+        0.00012068715295754373,
+        0.015924928709864616,
+        0.011801882646977901,
+        -0.038588229566812515,
+        0.002566745737567544,
+        0.028531819581985474,
+        0.029269989579916,
+        -0.04780053347349167,
+        -0.005745860747992992,
+        -0.02928880974650383,
+        -0.00791014451533556,
+        -0.011841732077300549,
+        -0.018209610134363174,
+        0.020971881225705147,
+        -0.023465540260076523,
+        -0.009364178404211998,
+        0.014050585217773914,
+        -0.004470298066735268,
+        0.03159547597169876,
+        -0.004188364837318659,
+        -0.01994963362812996,
+        0.0009479967411607504,
+        0.03440320864319801,
+        0.04061301797628403,
+        -0.0002725318481680006,
+        0.013998623006045818,
+        -0.01762024313211441,
+        0.009128816425800323,
+        0.010503553785383701,
+        0.022646207362413406,
+        0.0529056191444397,
+        0.05786857008934021,
+        -0.020564710721373558,
+        0.003243387909606099,
+        -0.0172104611992836,
+        -0.020346060395240784,
+        -0.023123612627387047,
+        -0.028807014226913452,
+        0.024052033200860023,
+        -0.025562597438693047,
+        -0.03932083398103714,
+        0.027208885177969933,
+        -0.003618062473833561,
+        -0.009834281168878078,
+        -0.03154057264328003,
+        0.029108908027410507,
+        0.0003456103440839797,
+        -0.004135584458708763,
+        0.010137377306818962,
+        -0.006600403226912022,
+        -0.0031826021149754524,
+        0.04104776680469513,
+        -0.06322196125984192,
+        0.023524759337306023,
+        0.008641783148050308,
+        0.0064401039853692055,
+        0.014870071783661842,
+        0.02289692685008049,
+        0.02131148800253868,
+        -0.013464662246406078,
+        0.0006005130126141012,
+        0.020632611587643623,
+        0.016168473288416862,
+        -0.015346855856478214,
+        -0.031252868473529816,
+        0.0008448082953691483,
+        0.003387609962373972,
+        -0.008837454952299595,
+        0.008837267756462097,
+        0.009645496495068073,
+        -0.025566929951310158,
+        0.016967574134469032,
+        -0.031787220388650894,
+        -0.0030944705940783024,
+        0.029314665123820305,
+        0.027562998235225677,
+        0.003985831514000893,
+        -0.0009279709775000811,
+        0.002842170186340809,
+        0.029934000223875046,
+        0.005886701866984367,
+        0.012578092515468597,
+        -0.043447546660900116,
+        0.010806258767843246,
+        -0.01676006242632866,
+        -0.013376589864492416,
+        0.01203799620270729,
+        0.08564396947622299,
+        0.011857083067297935,
+        0.020259343087673187,
+        0.03125906363129616,
+        0.016764525324106216,
+        -0.003817941527813673,
+        -0.019354837015271187,
+        0.06998540461063385,
+        -0.006329425144940615,
+        0.004345250315964222,
+        0.009902923367917538,
+        0.02295185625553131,
+        -0.005567536689341068,
+        -0.000258606334682554,
+        0.04047229140996933,
+        -0.040509968996047974,
+        -0.0028126556426286697,
+        0.022503569722175598,
+        -0.009153454564511776,
+        0.0012620983179658651,
+        0.023288389667868614,
+        0.003674597479403019,
+        0.005514056887477636,
+        0.010150167159736156,
+        0.013676326721906662,
+        0.001973935170099139,
+        0.03407667577266693,
+        -0.02486184798181057,
+        0.004804949276149273,
+        0.022282499819993973,
+        0.0036358381621539593,
+        0.01878076046705246,
+        -0.01583167351782322,
+        0.031158888712525368,
+        -0.0028546310495585203,
+        -0.01907040923833847,
+        0.04475659132003784,
+        0.013620128855109215,
+        -0.020008668303489685,
+        0.0034263955894857645,
+        0.004425896797329187,
+        0.0082941222935915,
+        0.00696636363863945,
+        0.01444081962108612,
+        -0.012791928835213184,
+        -0.026421887800097466,
+        -0.008978272788226604,
+        0.013787291944026947,
+        -0.00883905403316021,
+        0.027241434901952744,
+        0.001536395400762558,
+        -0.021094907075166702,
+        0.05658205598592758,
+        0.018881354480981827,
+        0.5759145021438599,
+        0.010360048152506351,
+        -0.017340999096632004,
+        0.027315247803926468,
+        0.006585266441106796,
+        -0.01699043996632099,
+        0.018044495955109596,
+        -0.022961249575018883,
+        0.006081155501306057,
+        -0.0012967081274837255,
+        0.062058225274086,
+        -0.040804941207170486,
+        -0.029766572639346123,
+        -0.02429245039820671,
+        -0.018573444336652756,
+        0.004315588157624006,
+        -0.013689050450921059,
+        -0.007264286279678345,
+        -0.033376578241586685,
+        0.014163871295750141,
+        0.044853419065475464,
+        0.00332729984074831,
+        -0.06750620156526566,
+        -0.0003026405465789139,
+        0.006332783494144678,
+        0.023172272369265556,
+        -0.0104480916634202,
+        -0.01311461441218853,
+        0.0021141122560948133,
+        0.02613168954849243,
+        -0.00019562306988518685,
+        -0.01471549179404974,
+        -0.005572119262069464,
+        0.025155851617455482,
+        0.00901584792882204,
+        -0.013363390229642391,
+        -0.015527861192822456,
+        0.0030868584290146828,
+        -0.012364345602691174,
+        -0.0038698879070580006,
+        0.02156008966267109,
+        0.010410074144601822,
+        0.00822435226291418,
+        -0.036177583038806915,
+        -0.006109362002462149,
+        0.03031977266073227,
+        0.015709826722741127,
+        0.030137663707137108,
+        -0.028285102918744087,
+        -0.014877223409712315,
+        0.005866954568773508,
+        -0.0013948840787634254,
+        0.002004144014790654,
+        -0.0033378847874701023,
+        -0.03956398367881775,
+        -0.0019984610844403505,
+        -0.0018739593215286732,
+        0.00036538124550133944,
+        0.004780307877808809,
+        0.01611584797501564,
+        0.05302547290921211,
+        0.028811011463403702,
+        -0.03246774524450302,
+        0.01840478740632534,
+        -0.012636403553187847,
+        -0.025485001504421234,
+        -0.002740873023867607,
+        0.0057638054713606834,
+        -0.01155658345669508,
+        0.005378855392336845,
+        0.018917642533779144,
+        -0.0021943736355751753,
+        0.018232425674796104,
+        0.015070661902427673,
+        -0.025131728500127792,
+        0.003906909842044115,
+        -0.015757787972688675,
+        0.0036728056147694588,
+        -0.005574350710958242,
+        0.009799269028007984,
+        -0.007018963806331158,
+        0.01756885275244713,
+        -0.007945737801492214,
+        -0.0009261643281206489,
+        -0.0020562633872032166,
+        0.007471100427210331,
+        0.0026363797951489687,
+        -0.00020097516244277358,
+        0.0164966881275177,
+        -0.015443182550370693,
+        0.023155400529503822,
+        0.009272275492548943,
+        0.008964579552412033,
+        -0.020154159516096115,
+        -0.011449984274804592,
+        -0.02744869701564312,
+        -0.002648645080626011,
+        0.0047453357838094234,
+        0.005050696898251772,
+        -0.0029982994310557842,
+        0.03459876403212547,
+        -0.006822802126407623,
+        0.02820545807480812,
+        0.003191474825143814,
+        0.002883188659325242,
+        0.04700407758355141,
+        0.0151118328794837,
+        0.017079072073101997,
+        0.004243324976414442,
+        -0.030327104032039642,
+        0.015608063898980618,
+        0.007004336919635534,
+        -0.04547779634594917,
+        0.041815802454948425,
+        -0.009273523464798927,
+        -0.03138439729809761,
+        -0.005804568063467741,
+        -0.04033488780260086,
+        -0.007951639592647552,
+        0.007537337485700846,
+        -0.05726417526602745,
+        0.014926860108971596,
+        -0.002523725852370262,
+        -0.009772807359695435,
+        0.015523117035627365,
+        -0.029478708282113075,
+        0.01701761595904827,
+        -0.006839442998170853,
+        -0.013352512381970882,
+        -0.012842260301113129,
+        -0.015862885862588882,
+        -0.03619180619716644,
+        0.020179079845547676,
+        0.023407554253935814,
+        -0.008710342459380627,
+        0.0014575287932530046,
+        0.004273761063814163,
+        -0.03977595269680023,
+        -0.04122854024171829,
+        -0.009962397627532482,
+        0.013894283212721348,
+        0.006208820268511772,
+        -0.03917896747589111,
+        -0.020513201132416725,
+        -0.0393475778400898,
+        -0.01265267375856638,
+        -0.006750256754457951,
+        0.006932822521775961,
+        0.016930557787418365,
+        -0.05800345167517662,
+        0.048752833157777786,
+        0.021664118394255638,
+        -0.009311677888035774,
+        -0.0012785795843228698,
+        0.0243342574685812,
+        -0.009399418719112873,
+        -0.0034786227624863386,
+        0.008889270946383476,
+        0.0026969737373292446,
+        0.0039091818034648895,
+        0.025683360174298286,
+        -0.042294733226299286,
+        0.01626022346317768,
+        0.014712292701005936,
+        0.032597724348306656,
+        0.002379014855250716,
+        -0.0006253767060115933,
+        -0.003442276269197464,
+        -0.03283127024769783,
+        -0.00197528931312263,
+        0.04238508269190788,
+        0.004776391200721264,
+        -0.0010841666953638196,
+        -0.07264585793018341,
+        0.004505866207182407,
+        -0.04556367173790932,
+        0.03759743645787239,
+        0.003014079062268138,
+        -0.013290174305438995,
+        0.010487763211131096,
+        0.006493498105555773,
+        0.024975311011075974,
+        -0.0009052850655280054,
+        -0.013140009716153145,
+        0.010754148475825787,
+        -0.017555994912981987,
+        0.0223136804997921,
+        -0.012139860540628433,
+        0.032978348433971405,
+        -0.04794597253203392,
+        0.020838474854826927,
+        0.038138315081596375,
+        0.017877647653222084,
+        0.0033664116635918617,
+        0.04577907547354698,
+        -0.021464113146066666,
+        0.009852753020823002,
+        -0.007701890077441931,
+        0.006013867445290089,
+        -0.0035207215696573257,
+        -0.010603663511574268,
+        0.019917268306016922,
+        -0.025293618440628052,
+        0.013211439363658428,
+        -0.02108020707964897,
+        -0.0013072161236777902,
+        0.0017723303753882647,
+        0.002098981523886323,
+        -0.026576176285743713,
+        0.00952903926372528,
+        0.00587866734713316,
+        0.011048887856304646,
+        0.01713167130947113,
+        -0.026709623634815216,
+        0.029952196404337883,
+        0.025514280423521996,
+        0.0249408558011055,
+        0.011038906872272491,
+        0.019283590838313103,
+        0.01278577372431755,
+        -0.016187800094485283,
+        -0.019682813435792923,
+        0.002111170208081603,
+        -0.013558370061218739,
+        -0.021615033969283104,
+        0.006544623523950577,
+        -0.040971845388412476,
+        -0.004948572255671024,
+        -0.014578863978385925,
+        -0.0057358937337994576,
+        0.001133947866037488,
+        -0.003595859045162797,
+        0.012413562275469303,
+        -0.06568334996700287,
+        0.004160856828093529,
+        -0.017052149400115013,
+        0.06684733927249908,
+        0.0034400802105665207,
+        -0.009027154184877872,
+        0.03232178837060928,
+        -0.008762859739363194,
+        -0.01108067762106657,
+        -0.04214707016944885,
+        0.014506086707115173,
+        -0.013049508444964886,
+        0.015771113336086273,
+        0.017209479585289955,
+        0.016680719330906868,
+        -0.0044881501235067844,
+        -0.003468866692855954,
+        0.02591228112578392,
+        0.050970327109098434,
+        0.0104888416826725,
+        0.04758220538496971,
+        -0.047279324382543564,
+        -0.010038441978394985,
+        0.015675527974963188,
+        0.02086995169520378,
+        -0.025453675538301468,
+        0.0006252143648453057,
+        0.014406523667275906,
+        0.01266586221754551,
+        0.04664884880185127,
+        -0.0014250318054109812,
+        0.0002468217571731657,
+        -0.011187651194632053,
+        -0.03489508852362633,
+        -0.008702315390110016,
+        0.016060661524534225,
+        -0.029327141121029854,
+        0.025086065754294395,
+        -0.004929559770971537,
+        -0.0006821822607889771,
+        0.016356104984879494,
+        0.006062178406864405,
+        0.005805111024528742,
+        0.029103977605700493,
+        -0.00013039037003181875,
+        -0.020934177562594414,
+        0.013159498572349548,
+        -0.005385132040828466,
+        -0.015685074031352997,
+        0.006921899970620871,
+        0.019681882113218307,
+        -0.011242534965276718,
+        0.008979198522865772,
+        -6.988612585701048e-05,
+        0.015280523337423801,
+        0.01716374233365059,
+        -0.038691360503435135,
+        0.07053971290588379,
+        -0.01896854117512703,
+        -0.00416355486959219,
+        0.004925685003399849,
+        -0.02510642632842064,
+        0.0037291639018803835,
+        0.04058530554175377,
+        0.014896328561007977,
+        0.018248967826366425,
+        -0.0038457491900771856,
+        0.03879319131374359,
+        0.017449012026190758,
+        -0.013441084884107113,
+        -0.0066145374439656734,
+        -0.04201458394527435,
+        0.04341976344585419,
+        0.07041814178228378,
+        -0.0022782296873629093,
+        0.004755355883389711,
+        -0.0062710135243833065,
+        -0.027410032227635384,
+        -0.00951183121651411,
+        -0.02350901998579502,
+        0.01092450600117445,
+        0.021738585084676743,
+        0.004421764984726906,
+        -0.011795139871537685,
+        -0.020439373329281807,
+        -0.0156923308968544,
+        -0.01379625778645277,
+        -0.004725168459117413,
+        0.004715805407613516,
+        0.022112013772130013,
+        -0.01588141731917858,
+        0.5292221903800964,
+        0.0076638488098979,
+        -0.008225703611969948,
+        0.006155897863209248,
+        -0.0049693346954882145,
+        0.011148475110530853,
+        0.02066412754356861,
+        -0.002259064931422472,
+        0.002113011432811618,
+        0.010377678088843822,
+        -0.004153603222221136,
+        0.043734051287174225,
+        -0.020131226629018784,
+        0.02755790948867798,
+        0.018143238499760628,
+        -0.023848557844758034,
+        0.04094044864177704,
+        0.01246666070073843,
+        0.00283612497150898,
+        -0.02292456291615963,
+        0.019510112702846527,
+        0.05295673757791519,
+        0.0006749838357791305,
+        -0.012728657573461533,
+        0.03220250830054283,
+        -0.033473290503025055,
+        -0.0027653342112898827,
+        -0.037964846938848495,
+        0.011259465478360653,
+        0.005069381091743708,
+        -0.02179746702313423,
+        -0.005087731406092644,
+        0.008023065514862537,
+        -0.0029163076542317867,
+        -0.027588946744799614,
+        0.017065199092030525,
+        0.003526587737724185
+      ],
+      "updated_at": "2026-05-11T23:56:52.112756+00:00",
+      "similarities": {
+        "posts/2022-09-05-sentiment-analysis.md": 0.7081568194902875,
+        "posts/2022-09-14-shapley-and-explainability.md": 0.6856043588280321,
+        "posts/2023-01-04-ac2022.md": 0.7711295518974066,
+        "posts/2023-01-06-rime.md": 0.7204044560219324,
+        "posts/2023-01-08-reset-conda-env.md": 0.6414106978743405,
+        "posts/2023-01-09-group-by-and-rename.md": 0.6243962540873763,
+        "posts/2023-01-14-snippets.md": 0.720305289193922,
+        "posts/2023-01-24-git-review.md": 0.698409069169475,
+        "posts/2023-01-25-textattack.md": 0.6660629510444227,
+        "posts/2023-01-27-finding-the-python-interpreter.md": 0.6427266844049786,
+        "posts/2023-02-23-kbd-and-highlight-in-hugo.md": 0.6546985535365283,
+        "posts/2023-03-26-vertical-layout.md": 0.7093778300342348,
+        "posts/2023-04-02-commit-messages.md": 0.6881620453509165,
+        "posts/2023-05-18-climate-plus.md": 0.6662285707120561,
+        "posts/2023-05-20-chitchat.md": 0.6639734328879014,
+        "posts/2023-06-29-kindle-oasis.md": 0.7097917656351027,
+        "posts/2023-09-26-starship.md": 0.7142143340944499,
+        "posts/2023-10-01-learn-how-to-type.md": 0.7613020781475903,
+        "posts/2023-10-29-switch-apple-store.md": 0.7204915509452404,
+        "posts/2023-11-20-app-defaults-2023.md": 0.723104454265945,
+        "posts/2023-12-31-ac2023.md": 0.7451204402069742,
+        "posts/2024-01-30-omz-to-fish.md": 0.6983777092151799,
+        "posts/2024-02-29-distillm-01.md": 0.7016783374377303,
+        "posts/2024-03-31-distillm-02.md": 0.7029059930330331,
+        "posts/2024-03-31-setapp-succession.md": 0.7369641435116842,
+        "posts/2024-05-01-distillm-03.md": 0.6941023231661769,
+        "posts/2024-05-09-shuangpin.md": 0.6957525052007363,
+        "posts/2024-08-26-ipod-import.md": 0.742241790678517,
+        "posts/2024-12-01-wukong.md": 0.7583260043415807,
+        "posts/2024-12-03-app-defaults-2024.md": 0.6986520660514322,
+        "posts/2024-12-31-chimichurri.md": 0.6698656612587115,
+        "posts/2024-12-31-ipod-mod.md": 0.6926483677449978,
+        "posts/2025-01-01-ac2024.md": 0.7484971956533572,
+        "posts/2025-02-17-dont-make-decisions-for-me.md": 0.6404052659326774,
+        "posts/2025-03-04-make-internet-experience-great-again.md": 0.7353645673620374,
+        "posts/2025-03-31-202503.md": 0.7885778563122439,
+        "posts/2025-04-07-neodb-shortcode.md": 0.74655570753894,
+        "posts/2025-04-09-neodb-shortcode-fixed.md": 0.7441030711328509,
+        "posts/2025-05-14-day-one-migration.md": 0.7027224502606758,
+        "posts/2025-06-16-daikon.md": 0.6617939569333596,
+        "posts/2025-06-17-ears.md": 0.6950728197460396,
+        "posts/2025-06-18-goodbye-kindle.md": 0.7302072185885146,
+        "posts/2025-06-19-hobonichi.md": 0.7189664754499272,
+        "posts/2025-06-20-games-i-played-in-june.md": 0.7655264382996896,
+        "posts/2025-06-21-wallpaper-installation.md": 0.6928016679585209,
+        "posts/2025-06-22-brisket.md": 0.7431075579656349,
+        "posts/2025-06-23-nba-finals.md": 0.7012332678312927,
+        "posts/2025-06-24-time-capsule.md": 0.691422287071427,
+        "posts/2025-06-26-f1-the-movie.md": 0.7078907230642711,
+        "posts/2025-06-27-eat-well.md": 0.6625129324495437,
+        "posts/2025-06-30-drafts-action-to-hugo.md": 0.7312784372911024,
+        "posts/2025-07-02-turbulence.md": 0.6753964168748419,
+        "posts/2025-07-04-uncharted.md": 0.7243067128149249,
+        "posts/2025-07-05-family-days.md": 0.6629641923431723,
+        "posts/2025-07-06-speed-note-taking.md": 0.651282969916169,
+        "posts/2025-07-07-two-watches.md": 0.6530098191995722,
+        "posts/2025-07-09-iceland.md": 0.7067779034770669,
+        "posts/2025-07-11-daikon-2.md": 0.5965087052400747,
+        "posts/2025-07-13-seven-point.md": 0.6962216461606215,
+        "posts/2025-07-23-x-rant.md": 0.7071601009813899,
+        "posts/2025-07-26-weekend-problem-solving-session.md": 0.7834468540603869,
+        "posts/2025-07-27-bball-analytics.md": 0.6713557174476156,
+        "posts/2025-07-29-books-preordered.md": 0.7517922469956838,
+        "posts/2025-08-07-things-im-not-doing-anymore.md": 0.7648776586478337,
+        "posts/2025-08-13-other-things.md": 0.7255829039756945,
+        "posts/2025-08-15-other-things-ii.md": 0.6921685077029106,
+        "posts/2025-08-16-best-time-to-be-a-man-united-fan-possibly.md": 0.7230987685334618,
+        "posts/2025-08-17-babysitting-book-challenge.md": 0.749590444801106,
+        "posts/2025-08-20-on-cooking.md": 0.7493333455437511,
+        "posts/2025-08-21-anti-consumerism.md": 0.7155038630503595,
+        "posts/2025-08-22-rehire.md": 0.6671271918344047,
+        "posts/2025-08-25-kojimas-memes.md": 0.7372313387917576,
+        "posts/2025-08-29-hardware-bandwidth.md": 0.724938870591205,
+        "posts/2025-08-29-orange-espresso-tonic.md": 0.6859779329169923,
+        "posts/2025-09-01-my-productivity-workflow-2025.md": 0.7473855702881115,
+        "posts/2025-09-06-embrace-the-white-space.md": 0.7972112571342314,
+        "posts/2025-09-10-cribsheet.md": 0.7944263406560035,
+        "posts/2025-09-19-late-night-food.md": 0.7594838582855266,
+        "posts/2025-09-28-margherita-1.md": 0.7319955099512081,
+        "posts/2025-10-03-stardew-valley-concert.md": 0.7518194269510933,
+        "posts/2025-10-04-ipod-with-rockbox.md": 0.7024024123903558,
+        "posts/2025-10-15-dictionary.md": 0.6335870080071516,
+        "posts/2025-10-16-doom-emacs-macos-installation.md": 0.704154785030162,
+        "posts/2025-10-16-tahoe-menu-bar.md": 0.729726046430456,
+        "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": 0.7993090866304537,
+        "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": 0.6754556300142982,
+        "posts/2025-10-31-halloween-and-lost-candies.md": 0.7135974902272028,
+        "posts/2025-11-16-kobo-koreader-reset.md": 0.7197290330566424,
+        "posts/2026-01-01-ac2025.md": 0.7695871053640514,
+        "posts/2026-01-17-orb.md": 0.6926561189288231,
+        "posts/2026-02-22-adulting.md": 0.8002339270014983,
+        "posts/2026-02-23-hugo-rss-pretty-feed.md": 0.6974364701106504,
+        "posts/2026-02-24-akotsk-s1.md": 0.6709577632810543,
+        "posts/2026-03-03-fellow-es1.md": 0.739965495706957,
+        "posts/2026-03-04-fellow-es1-pt2.md": 0.7036365076566078,
+        "posts/2026-03-09-fellow-es1-pt3.md": 0.7550903060261018,
+        "posts/2026-03-12-tuna.md": 0.6981382222309035,
+        "posts/2026-04-06-salmon-tartare-omurice.md": 0.7432406952157243,
+        "posts/2026-04-21-222.md": 0.7692316544591917,
+        "posts/2026-05-10-jont-king-crab-rice-lite.md": 0.7364885682316489
+      },
+      "top_similar": [
+        {
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
+          "title": "Adulting",
+          "score": 0.800234
+        },
+        {
+          "post_key": "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md",
+          "content_path": "posts/2025-10-26-bringing-up-bebe-and-french-parenting",
+          "title": "Bringing Up Bébé 和法式育儿",
+          "score": 0.799309
+        },
+        {
+          "post_key": "posts/2025-09-06-embrace-the-white-space.md",
+          "content_path": "posts/2025-09-06-embrace-the-white-space",
+          "title": "拥抱空闲",
+          "score": 0.797211
         }
       ]
     }

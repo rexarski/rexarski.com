@@ -3,7 +3,7 @@ title: "Bringing Up Bébé 和法式育儿"
 date: 2025-10-26T21:11:08-04:00
 description: "学习先进理论。"
 slug: "bringing-up-bebe-and-french-parenting"
-tags: ["日日谈"]
+tags: ["日日谈", "parenting"]
 ---
 
 最近刚刚利用晚上看娃睡觉的时间读完这本 Pamela Druckerman 的 [*Bringing Up Bébé*](https://pameladruckerman.com/bringing-up-bebe/).
