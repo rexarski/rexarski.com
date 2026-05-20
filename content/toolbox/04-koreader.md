@@ -7,9 +7,9 @@ weight = 4
 
 {{< toc >}}
 
-整理自站内相关记录（如 [Kobo KOReader 重装](/posts/kobo-koreader-reset/)、[字典](/posts/add-dictionary-to-koreader/)、[Calibre 与 USB](/posts/weekend-problem-solving-session/)），方便以后重装或换机时一页看完。**设备以 Kobo + KOReader 为主**；其他机型安装路径见 [官方 Wiki](https://github.com/koreader/koreader/wiki)。
+updated on 2026-05-19
 
-updated on 2026-04-26
+整理自站内相关记录（如 [Kobo KOReader 重装](/posts/kobo-koreader-reset/)、[字典](/posts/add-dictionary-to-koreader/)、[Calibre 与 USB](/posts/weekend-problem-solving-session/)），方便以后重装或换机时一页看完。**设备以 Kobo + KOReader 为主**；其他机型安装路径见 [官方 Wiki](https://github.com/koreader/koreader/wiki)。
 
 ## 重装前备份
 
@@ -22,7 +22,7 @@ updated on 2026-04-26
 - 社区常用入口：
   - [One click install package（MobileRead）](https://www.mobileread.com/forums/showpost.php?p=3797095&postcount=1)
   - [Install script（MobileRead）](https://www.mobileread.com/forums/showpost.php?p=3797096&postcount=2)
-- 装好后可用 **OTA** 跟到当前稳定版（升级前同样建议备份）。
+- <mark>装好后可用 **OTA** 跟到当前稳定版（升级前同样建议备份）。</mark>
 
 ## Calibre 与 USB 传输（易踩坑）
 
@@ -38,7 +38,7 @@ updated on 2026-04-26
 ## 字体与图书元数据
 
 - **KOReader 内字体**：将字体文件放入 KOReader 的 fonts 目录（与安装方式一致，通常在 `.adds/koreader/` 下对应位置）。
-  - **更多桌面端字体列表**见本站 [toolbox · 字体](/toolbox/fonts/)。
+  - **更多桌面端字体列表**见本站 [toolbox · 字体](/toolbox/03-fonts/)。
 - **Calibre**（与书库质量相关，间接影响推到阅读器上的体验）：
   - [Calibre 推荐配置与插件 - 雅余](https://yayu.net/4767.html)
   - [Cirn09/calibre-do-not-translate-my-path](https://github.com/Cirn09/calibre-do-not-translate-my-path)
@@ -46,20 +46,17 @@ updated on 2026-04-26
 
 ## Plugin
 
-- [SimpleUI for KOReader](https://github.com/doctorhetfield-cmd/simpleui.koplugin)
-- [Bookends](https://github.com/AndyHazz/bookends.koplugin)
+- [zen_ui](https://github.com/AnthonyGress/zen_ui.koplugin), [官方网站](https://anthonygress.github.io/zen_ui.koplugin/)
+- [filebrowserplus](https://github.com/patelneeraj/filebrowserplus.koplugin)
+- (Optional) [Bookends](https://github.com/AndyHazz/bookends.koplugin)
 
 ## User patches
 
 官方说明：[User patches](https://koreader.rocks/user_guide/#L2-userpatches)（`koreader/patches/` 目录，文件名与优先级规则见文档）。
 
-个人在用/曾用组合（可按发行版与兼容性自行增减）：
+个人在用：
 
-1. **[SeriousHornet/KOReader.patches](https://github.com/SeriousHornet/KOReader.patches)**
-   - `20-faded-finished-books.lua`
-   - `2-new-progress-bar-colored.lua`
-   - `2-percent-badge.lua`
-2. **[omer-faruq/koreader-user-patches](https://github.com/omer-faruq/koreader-user-patches)**：**Book receipt shortcut and lockscreen**
+- **[omer-faruq/koreader-user-patches](https://github.com/omer-faruq/koreader-user-patches)**：**Book receipt shortcut and lockscreen**
 
 灵感参考：[r/koreader 展示帖](https://www.reddit.com/r/koreader/comments/1osqlxf/show_your_koreader_ui/)。
 

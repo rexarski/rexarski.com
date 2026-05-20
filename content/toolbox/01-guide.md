@@ -7,7 +7,7 @@ weight = 1
 
 {{< toc >}}
 
-updated on 2026-03-08
+updated on 2026-05-19
 
 ## 基调
 
@@ -97,6 +97,8 @@ if type -q eza
     alias lla "ll -a"
 end
 ```
+
+然后安装 [fisher](https://github.com/jorgebucaran/fisher), a plugin manager for fish.
 
 第七步，单独的 app 设置。主要 1password.
 

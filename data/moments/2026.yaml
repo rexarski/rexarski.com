@@ -3,6 +3,25 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-05-19
+  title: Kami (紙, かみ) 和 Waza (技, わざ)
+  type: url
+  note: layout design system 和 good engineering habits 化成两个 skills
+  url: https://github.com/tw93/Kami
+- date: 2026-05-15
+  title: "Zwift FTP 🔺"
+  type: 🚴‍♂️
+  note: "184W -> 193W"
+- date: 2026-05-15
+  title: <I°_°I> 10th Anniversary Edition
+  type: music
+  url: https://music.apple.com/us/album/i-i-10th-anniversary-edition/1843648974
+  note: Caravan Palace 🤖
+- date: 2026-05-14
+  title: Tasty Inside
+  type: ☕
+  url: https://www.youtube.com/@tastyinside
+  note: 虽然频道的介绍说是泰国美食，但是最近的主题似乎都是 minivan 改的小咖啡车，一下子击中了我两个兴趣点
 - date: 2026-05-11
   title: Appearing Productive in The Workplace
   type: url
@@ -91,79 +110,64 @@
   title: Burke Lake Park
   type: ☀️
   note: 这个天气散步真是太好了
-
 - date: 2026-04-17
   title: "Good Mouse"
   type: music
   url: https://www.youtube.com/watch?v=TaZ1sgtfKYs
   note: "Caravan Palace - MOUSE: P.I. For Hire Original Game Soundtrack"
-
 - date: 2026-04-15
   title: "ASCII characters are not pixels"
   note: a deep dive into ASCII rendering
   type: 🔗
   url: https://alexharri.com/blog/ascii-rendering
-
 - date: 2026-04-14
   title: "Zwift FTP 🔺"
   type: 🚴‍♂️
   note: "183W -> 184W"
-
 - date: 2026-04-12
   title: "噜子爬行时会肚子离地了"
   type: 🍼
   note: 空气套件升级
-
 - date: 2026-04-10
   title: "噜子胃口大开"
   type: 🍼
-
 - date: 2026-04-09
   title: "Xteink x3"
   type: book
   note: "放在手机背面刚刚好的电子书阅读器"
-
 - date: 2026-04-08
   title: "マリウス"
   type: 🔗
   url: https://マリウス.com/
   note: "近期最喜欢的 blog"
-
 - date: 2026-04-06
   title: "Zwift FTP 🔺"
   type: 🚴‍♂️
   note: "179W -> 183W. Group ride 仿佛打开了 DRS."
-
 - date: 2026-04-06
   title: "Apple: The First 50 Years"
   type: book
   note: "by David Pogue. 读起来非常流畅。"
   url: https://www.applefirst50.com/
-
 - date: 2026-04-05
   title: "STEEL BALL RUN 飙马野郎"
   type: show
   note: 还是 JoJo 那诡异的画风和上头的剧情，可惜这次制作发行堪称失败，第二集居然还要等半年，这胃口吊的。
-
 - date: 2026-04-04
   title: "带噜子去了动物园"
   type: 🦧
-
 - date: 2026-04-03
   title: "Kodak Charmera"
   type: 📷
   url: https://www.kodak.com/en/consumer/product/cameras/digital/charmera-keychain-digital-camera/
-
 - date: 2026-04-02
   title: "Zwift FTP 🔺"
   type: 🚴‍♂️
   note: "177W -> 179W"
-
 - date: 2026-03-31
   title: "Zwift FTP 🔺"
   type: 🚴‍♂️
   note: "166W -> 177W"
-
 - date: 2026-03-28
   title: "试驾 VW ID. Buzz"
   type: 🚐
