@@ -3,6 +3,18 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-05-25
+  type: 🍼
+  note: 每天都能看见宝宝的成长
+- date: 2026-05-25
+  title: Shortcuts Playgroun - A MacStories Project
+  type: url
+  url: https://www.macstories.net/shortcuts-playground/
+  note: Federico 做了个 shortcuts 的插件
+- date: 2026-05-24
+  title: grug
+  type: 🪨
+  url: https://apps.apple.com/us/app/grug/id6751649802
 - date: 2026-05-19
   title: Kami (紙, かみ) 和 Waza (技, わざ)
   type: url
