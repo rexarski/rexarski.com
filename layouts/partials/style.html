@@ -101,13 +101,8 @@
     header,
     main,
     footer {
-        width: min(100% - (var(--left-gutter) + 20px), var(--content-width));
-        margin-left: var(--left-gutter);
-    }
-
-    header,
-    main {
-        margin-right: auto;
+        width: min(100% - 40px, var(--content-width));
+        margin-inline: auto;
     }
 
     main {
@@ -1553,14 +1548,16 @@
 
     .post-list-item-link {
         color: var(--link);
-        display: flex;
+        display: inline-flex;
         align-items: baseline;
         gap: 0.75rem;
         flex-wrap: wrap;
     }
 
-    .post-list-item-link:hover {
-        color: var(--accent);
+    .post-list-item-link:hover,
+    .post-list-item-link:focus-visible {
+        color: var(--accent) !important;
+        background-color: transparent !important;
     }
 
     .post-list-item-date {
@@ -1833,6 +1830,13 @@
     a[href]:hover :where(span, em, strong, b, small, time, code),
     a[href]:focus-visible :where(span, em, strong, b, small, time, code) {
         color: inherit !important;
+    }
+
+    /* Wordmark never highlights on hover */
+    a.site-wordmark[href]:hover,
+    a.site-wordmark[href]:focus-visible {
+        color: inherit !important;
+        background-color: transparent !important;
     }
 
     /* ─── Dark Reader guard ──────────────────────────────────── */
