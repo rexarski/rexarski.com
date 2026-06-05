@@ -3,6 +3,22 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-06-01
+  title: 可以单手抱娃做咖啡
+  type: 🍼
+- date: 2026-05-31
+  title: 🔟💚🍾🧱☝️💚🍾⛓️‍💥💥9️⃣💚🍾🧱
+  type: 🍼
+  note: 劝奶神曲
+- date: 2026-05-31
+  title: 噜子会肚子离地爬行了
+  type: 🍼
+  note: 活动范围扩大
+- date: 2026-05-26
+  title: Klack
+  type: ⌨️
+  url: https://tryklack.com/
+  note: 给键盘配喜欢的音效太有仪式感了
 - date: 2026-05-25
   type: 🍼
   note: 每天都能看见宝宝的成长

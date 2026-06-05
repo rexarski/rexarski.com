@@ -15,7 +15,6 @@ menu = "main"
 - 游戏时间 🔻 读书时间 🔺
 - [2026 一个普通人的普通 backlog](https://neodb.social/collection/75VzWTd4Pu2JTK0LgLKWUs)
 - 在听 [HOPICO HMA 华语音乐奖历年提名与获奖专辑（2021-2025）](https://www.douban.com/doulist/161334584/)
-- 在听重轻在机核网录制的系列播单「[原型](https://www.gcores.com/albums/232)」
 - 在认真观看[程序员老王](https://www.youtube.com/@programmer-wang/videos)
 - 开始看 Brandon Sanderson 的书了
 - 发现并开始探索 [omg.lol](https://home.omg.lol)

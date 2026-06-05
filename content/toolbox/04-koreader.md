@@ -49,6 +49,7 @@ updated on 2026-05-19
 - [zen_ui](https://github.com/AnthonyGress/zen_ui.koplugin), [官方网站](https://anthonygress.github.io/zen_ui.koplugin/)
 - [filebrowserplus](https://github.com/patelneeraj/filebrowserplus.koplugin)
 - (Optional) [Bookends](https://github.com/AndyHazz/bookends.koplugin)
+- (Optional) [Bookshelf](https://github.com/AndyHazz/bookshelf.koplugin)
 
 ## User patches
 
