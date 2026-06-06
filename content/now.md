@@ -7,20 +7,7 @@ menu = "main"
 
 ### 当下
 
-{{< blog_heatmap >}}
-
-{{< now_marquee >}}
-
-- 新增了[每日份的快乐记录](/moments/)
-- 游戏时间 🔻 读书时间 🔺
-- [2026 一个普通人的普通 backlog](https://neodb.social/collection/75VzWTd4Pu2JTK0LgLKWUs)
-- 在听 [HOPICO HMA 华语音乐奖历年提名与获奖专辑（2021-2025）](https://www.douban.com/doulist/161334584/)
-- 在认真观看[程序员老王](https://www.youtube.com/@programmer-wang/videos)
-- 开始看 Brandon Sanderson 的书了
-- 发现并开始探索 [omg.lol](https://home.omg.lol)
-- 自学 Toki Pona
-
-{{< /now_marquee >}}
+{{< now_current >}}
 
 {{< now_history >}}
 
@@ -33,6 +20,12 @@ menu = "main"
 - [neodb](https://neodb.social/users/rexarski/)
 - [gh](https://github.com/rexarski)
 - [steam](https://steamcommunity.com/id/bob606bob/)
+
+### 进度
+
+{{< now_progress_bars >}}
+
+{{< blog_heatmap >}}
 
 ### Blogroll
 
@@ -47,7 +40,3 @@ menu = "main"
 ### 主题
 
 基于 [ʕ•ᴥ•ʔ Bear Blog](https://github.com/janraasch/hugo-bearblog/)
-
-### 进度
-
-{{< now_progress_bars >}}

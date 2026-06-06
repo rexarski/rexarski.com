@@ -5,5 +5,29 @@
 {{ range .Site.Menus.main }}
 <a href="{{ .URL }}"{{ if eq $.RelPermalink .URL }} class="active"{{ end }}>{{ .Name }}</a>
 {{ end }}
+{{- $more := slice
+    (dict "url" "/platespotting/" "name" "platespotting")
+    (dict "url" "/toolbox/"     "name" "toolbox")
+    (dict "url" "/moments/"     "name" "moments")
+-}}
+{{- $activeMore := false -}}
+{{- range $more -}}{{- if hasPrefix $.RelPermalink .url -}}{{- $activeMore = true -}}{{- end -}}{{- end -}}
+<details class="nav-dropdown"{{ if $activeMore }} open{{ end }}>
+  <summary{{ if $activeMore }} class="active"{{ end }}>更多</summary>
+  <div class="nav-dropdown-menu">
+    {{- range $more -}}
+      <a href="{{ .url | relURL }}"{{ if hasPrefix $.RelPermalink .url }} class="active"{{ end }}>{{ .name }}</a>
+    {{- end -}}
+  </div>
+</details>
 <a href="{{ "/index.xml" | relURL }}" class="rss-link">RSS</a>
 <button id="dark-mode-toggle" type="button" onclick="toggleDarkMode()" class="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"><span class="theme-icon" aria-hidden="true"></span></button>
+<script>
+  (function () {
+    document.addEventListener('click', function (e) {
+      document.querySelectorAll('details.nav-dropdown[open]').forEach(function (d) {
+        if (!d.contains(e.target)) d.removeAttribute('open');
+      });
+    });
+  })();
+</script>

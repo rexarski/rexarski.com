@@ -6,6 +6,12 @@ layout = "changelog"
 
 # changelog
 
+- 2026-06-06
+  - 新增 [platespotting](/platespotting/) 页面，记录路上撞见的有趣车牌（数据源 `data/plates.yaml`，仅 `plate` + 可选 `meaning`，两列对齐渲染）
+  - Now 「当下」迁移到 `data/now_current.yaml`，每条强制带 `start` 字段，归档到 `now_history` 只需补一个 `end` 后剪切
+  - 当下与 now_history 改为静态列表，移除跑马灯（`now_marquee` shortcode 及相关 CSS 一并删除）
+  - Now 页布局调整：当下/历史置于页面顶部，heatmap 下移到进度条之后
+  - 导航新增「更多」下拉，收纳 platespotting / toolbox / moments；页脚仅保留 changelog
 - 2026-05-11
   - 移除了 `neodb_progress` shortcode 及相关 CSS（远程拉取偶尔失败），now 页不再显示书影音游区块。
 - 2026-04-27

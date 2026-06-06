@@ -1,0 +1,7 @@
+{{- with hugo.Data.plates -}}
+<ul class="plate-list">
+  {{- range .items -}}
+    <li><code class="plate-tag">{{ upper .plate }}</code><span class="plate-meaning">{{ with .meaning }}{{ . }}{{ end }}</span></li>
+  {{- end -}}
+</ul>
+{{- end -}}

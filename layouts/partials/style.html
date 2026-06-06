@@ -1053,52 +1053,21 @@
         text-align: right;
     }
 
-    /* ─── Now marquee ────────────────────────────────────────── */
-    .now-marquee {
-        overflow: hidden;
-        margin: 1.25rem 0;
-        padding: 0.75rem 0;
+    /* ─── Now current (data/now_current.yaml) ────────────────── */
+    .now-current {
+        margin: 1rem 0 0.5rem;
+        padding-left: 1.2rem;
     }
-
-    .now-marquee-track {
-        display: flex;
-        width: max-content;
-        animation: now-marquee-scroll 25s linear infinite;
+    .now-current li {
+        margin: 0.2rem 0;
+        line-height: var(--lh-meta, 1.5);
     }
-
-    .now-marquee-track:hover {
-        animation-play-state: paused;
+    .now-current li::marker {
+        color: var(--muted-strong);
     }
-
-    .now-marquee-inner {
-        display: flex;
-        align-items: center;
-        gap: 2rem;
-        padding: 0 2rem;
-        flex-shrink: 0;
-    }
-
-    .now-marquee-inner ul {
-        display: flex;
-        list-style: none;
-        padding: 0;
+    .now-current p {
         margin: 0;
-        gap: 2rem;
-        flex-wrap: nowrap;
-    }
-
-    .now-marquee-inner li {
-        white-space: nowrap;
-        margin: 0;
-    }
-
-    @keyframes now-marquee-scroll {
-        0% {
-            transform: translateX(0);
-        }
-        100% {
-            transform: translateX(-50%);
-        }
+        display: inline;
     }
 
     /* ─── Now history (collapsed past items) ─────────────────── */
@@ -1954,5 +1923,106 @@
             min-width: 0;
             text-align: left;
         }
+    }
+
+    /* ─── Plategazing list ───────────────────────────────────── */
+    .plate-list {
+        list-style: none;
+        margin: 1.25rem 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        column-gap: 1.25rem;
+        row-gap: 0.25rem;
+        font-size: var(--fs-0);
+        line-height: var(--lh-meta, 1.45);
+    }
+    .plate-list li {
+        display: contents;
+    }
+    .plate-list .plate-tag {
+        font-family: var(--font-mono);
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        color: var(--heading);
+        background: transparent;
+        padding: 0;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+    }
+    .plate-list .plate-meaning {
+        color: var(--muted);
+        min-width: 0;
+    }
+    .plate-list .plate-meaning:empty {
+        color: var(--border);
+    }
+    .plate-list .plate-meaning:empty::before {
+        content: "·";
+    }
+    @media (max-width: 600px) {
+        .plate-list {
+            display: block;
+        }
+        .plate-list li {
+            display: block;
+            margin-bottom: 0.45rem;
+        }
+        .plate-list .plate-meaning {
+            display: block;
+            padding-left: 0.6rem;
+        }
+        .plate-list .plate-meaning:empty {
+            display: none;
+        }
+    }
+
+    /* ─── Nav dropdown ───────────────────────────────────────── */
+    .nav-dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .nav-dropdown > summary {
+        cursor: pointer;
+        list-style: none;
+        display: inline-block;
+    }
+    .nav-dropdown > summary::-webkit-details-marker {
+        display: none;
+    }
+    .nav-dropdown > summary::after {
+        content: " ▾";
+        font-size: 0.8em;
+        color: var(--muted);
+    }
+    .nav-dropdown[open] > summary::after {
+        content: " ▴";
+        color: var(--heading);
+    }
+    .nav-dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 50;
+        margin-top: 0.5rem;
+        padding: 0.4rem 0;
+        min-width: 9rem;
+        background: var(--bg);
+        border: 1px solid var(--border);
+        border-radius: 0.35em;
+        box-shadow: 2px 3px 0 rgba(60, 40, 20, 0.08);
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-dropdown-menu a {
+        padding: 0.35rem 0.85rem;
+        text-decoration: none;
+        white-space: nowrap;
+        color: var(--link);
+    }
+    .nav-dropdown-menu a:hover,
+    .nav-dropdown-menu a:focus-visible {
+        background: var(--link-hover-bg);
+        color: var(--link-hover-fg);
     }
 </style>

@@ -1,0 +1,9 @@
+{{- with hugo.Data.now_current -}}
+{{- $items := sort .items "start" "desc" -}}
+{{- $page := $.Page -}}
+<ul class="now-current">
+  {{- range $items -}}
+    <li data-start="{{ .start }}">{{ $page.RenderString .text }}</li>
+  {{- end -}}
+</ul>
+{{- end -}}
