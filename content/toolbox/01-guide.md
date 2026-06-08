@@ -7,7 +7,7 @@ weight = 1
 
 {{< toc >}}
 
-updated on 2026-05-19
+updated on 2026-06-08
 
 ## 基调
 
@@ -17,7 +17,11 @@ updated on 2026-05-19
 
 ## 实操
 
+### 1. Homebrew
+
 第一步，安装 homebrew. `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+### 2. brew install
 
 第二步，新建一个脚本文件 `brew_setup.sh`
 
@@ -30,7 +34,8 @@ brew update && brew upgrade
 
 # tools
 cli_tools=(
-  bat btop emacs-plus eza fish fx git jq lazygit llmfit neofetch
+  bat btop chezmoi emacs-plus eza fish fx git
+  jq lazygit llmfit neofetch
   neovim procs r tmux uv wget you-get zoxide
 )
 
@@ -45,24 +50,31 @@ cask_apps=(
 # tap repo(s)
 brew install tw93/tap/mole
 brew tap d12frosted/emacs-plus
+brew install djetelina/tap/cheznav
 
 # install
 brew install "${cli_tools[@]}"
 brew install --cask "${cask_apps[@]}"
 ```
 
-第三步，运行以上脚本文件安装。
+运行以上脚本文件安装。
 
 ```bash
 chmod +x brew_setup.sh
 ./brew_setup.sh
 ```
 
-第四步，从 Mac App Store 里安装 things 3, ia writer, drafts, ivory, xcode. 另外还有以下 safari 插件：sink it for reddit, ublock origin lite, dark reader, keepa, untrap.
+### 3. App Store install
 
-第五步，从网站下载安装 pico-8, love2d.
+第三步，从 Mac App Store 里安装 things 3, ia writer, drafts, xcode. 另外还有以下 safari 插件：sink it for reddit, ublock origin lite, dark reader, keepa, untrap.
 
-第六步，fish 设置成默认 shell.
+### 4. Internet download
+
+第四步，从网站下载安装 pico-8, love2d.
+
+### 5. fish, fisher, tide
+
+第五步，fish 设置成默认 shell.
 
 ```bash
 # 确认 fish 位置
@@ -98,17 +110,32 @@ if type -q eza
 end
 ```
 
-然后安装 [fisher](https://github.com/jorgebucaran/fisher), a plugin manager for fish.
+然后安装 [fisher](https://github.com/jorgebucaran/fisher), a plugin manager for fish. 以及以下 plugins:
 
-第七步，单独的 app 设置。主要 1password.
+```
+ilancosman/tide
+jorgebucaran/autopair.fish
+```
 
-第八步，配置 git. 用 1password 里的 ssh-agent 生成并添加 ssh key 给 github 账号。另外可以创建一个全局的 gitignore 文件。`git config --global core.excludesfile ~/.gitignore_global`
+### 6. App-specific setup
 
-第九步，safari - preferences - advanced, 打开 show develop menu in menu bar.
+第六步，单独的 app 设置。主要 1password.
 
-第十步，根据 synology 的[操作步骤](https://kb.synology.com/en-us/DSM/tutorial/How_to_back_up_files_from_Mac_to_Synology_NAS_with_Time_Machine)在 NAS 里单独创建一个 time machine 备份。
+### 7. Git
 
-第十一步，修改以下的 keyboard shortcuts:
+第七步，配置 git. 用 1password 里的 ssh-agent 生成并添加 ssh key 给 github 账号。另外可以创建一个全局的 gitignore 文件。`git config --global core.excludesfile ~/.gitignore_global`
+
+### 8. Safari (or not)
+
+第八步，safari - preferences - advanced, 打开 show develop menu in menu bar.
+
+### 9. Timemachine destination
+
+第九步，根据 synology 的[操作步骤](https://kb.synology.com/en-us/DSM/tutorial/How_to_back_up_files_from_Mac_to_Synology_NAS_with_Time_Machine)在 NAS 里单独创建一个 time machine 备份。
+
+### 10. Some keyboard shortcuts
+
+第十步，修改以下的 keyboard shortcuts:
 
 - system settings - keyboard - keyboard shortcuts
   - input sources - select next source in input menu: shift + command + space
@@ -121,13 +148,17 @@ end
 - things 3 - quick entry: ctrl + space
 - clipboard history app (pastebot or maccy) - cmd + shift + v
 
-第十二步，去 system settings 里做三件事：
+### 11. System Settings update
+
+第十一步，去 system settings 里做三件事：
 
 - 除非万不得已，关闭绝大多数 app 的 notifications.
 - 尽量减少 menu bar 中的项目，有些也在各自 app 中设置。
 - 减少 login items 和 app background activity 允许的 app.
 
-第十三步，更改 computer name, host name 和 local host name:
+### 12. Name changing
+
+第十二步，更改 computer name, host name 和 local host name:
 
 ```fish
 # check
@@ -141,10 +172,14 @@ sudo scutil --set HostName new-host-name
 
 我的习惯是把 computer name 用我的常用 handle + 数字组合，hostname 则用一个简单的名字。
 
-潜在的第十四步，doom emacs 需要单独配置一下，这里就不赘述了。先前选择用 `emacs-plus` 而不是 homebrew 直接安装 `emacs`，也是因为需要 built with native compilation support.
+### 13. doom emacs (optional)
 
-到这里就算是完工了。
+潜在的第十三步，doom emacs 需要单独配置一下，这里就不赘述了。先前选择用 `emacs-plus` 而不是 homebrew 直接安装 `emacs`，也是因为需要 built with native compilation support.
 
-【更新】第十四步：依照这个 [gist](https://gist.github.com/rexarski/b80b90add76830b21e907539fac27644) 对 ghostty config 做修改。
+### 14. ghostty config
 
-【更新】第十五步：我的 [dotfiles](https://github.com/rexarski/dotfiles).
+第十四步：依照这个 [gist](https://gist.github.com/rexarski/b80b90add76830b21e907539fac27644) 对 ghostty config 做修改。
+
+### 15. .dotfiles (w. git + chezmoi + cheznav)
+
+第十五步：我的 [dotfiles](https://github.com/rexarski/dotfiles).
