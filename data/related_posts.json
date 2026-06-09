@@ -1,0 +1,2556 @@
+{
+  "model": "text-embedding-embeddinggemma-300m",
+  "generated_at": "2026-06-09T02:00:41.683891+00:00",
+  "posts": {
+    "posts/2022-09-05-sentiment-analysis.md": {
+      "title": "Sentiment analysis 只是有点用处",
+      "slug": null,
+      "content_path": "posts/2022-09-05-sentiment-analysis",
+      "top_similar": [
+        {
+          "post_key": "posts/2022-09-14-shapley-and-explainability.md",
+          "content_path": "posts/2022-09-14-shapley-and-explainability",
+          "title": "Explainability, interpretability, 和一个半成功的尝试",
+          "score": 0.823952
+        },
+        {
+          "post_key": "posts/2024-02-29-distillm-01.md",
+          "content_path": "posts/2024-02-29-distillm-01",
+          "title": "DistiLLM 01",
+          "score": 0.818263
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.813594
+        }
+      ]
+    },
+    "posts/2022-09-14-shapley-and-explainability.md": {
+      "title": "Explainability, interpretability, 和一个半成功的尝试",
+      "slug": null,
+      "content_path": "posts/2022-09-14-shapley-and-explainability",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-05-18-climate-plus.md",
+          "content_path": "posts/2023-05-18-climate-plus",
+          "title": "climate-plus",
+          "score": 0.836854
+        },
+        {
+          "post_key": "posts/2022-09-05-sentiment-analysis.md",
+          "content_path": "posts/2022-09-05-sentiment-analysis",
+          "title": "Sentiment analysis 只是有点用处",
+          "score": 0.823952
+        },
+        {
+          "post_key": "posts/2024-02-29-distillm-01.md",
+          "content_path": "posts/2024-02-29-distillm-01",
+          "title": "DistiLLM 01",
+          "score": 0.81737
+        }
+      ]
+    },
+    "posts/2023-01-04-ac2022.md": {
+      "title": "2022年简单回顾和2023新年展望",
+      "slug": "ac2022",
+      "content_path": "posts/2023-01-04-ac2022",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-12-31-ac2023.md",
+          "content_path": "posts/2023-12-31-ac2023",
+          "title": "2023 年的年度总结应该起什么名字",
+          "score": 0.949341
+        },
+        {
+          "post_key": "posts/2026-01-01-ac2025.md",
+          "content_path": "posts/2026-01-01-ac2025",
+          "title": "2025 年的 40 个问题和年度最佳",
+          "score": 0.939894
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.939335
+        }
+      ]
+    },
+    "posts/2023-01-06-rime.md": {
+      "title": "RIME 输入法配置",
+      "slug": "rime",
+      "content_path": "posts/2023-01-06-rime",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-10-01-learn-how-to-type.md",
+          "content_path": "posts/2023-10-01-learn-how-to-type",
+          "title": "在2023年学习打字：双拼输入法和Iris分体键盘",
+          "score": 0.901058
+        },
+        {
+          "post_key": "posts/2025-04-07-neodb-shortcode.md",
+          "content_path": "posts/2025-04-07-neodb-shortcode",
+          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+          "score": 0.849665
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.847216
+        }
+      ]
+    },
+    "posts/2023-01-08-reset-conda-env.md": {
+      "title": "如何重置一个 conda 环境",
+      "slug": null,
+      "content_path": "posts/2023-01-08-reset-conda-env",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-27-finding-the-python-interpreter.md",
+          "content_path": "posts/2023-01-27-finding-the-python-interpreter",
+          "title": "如何找到 Python 解释器",
+          "score": 0.834577
+        },
+        {
+          "post_key": "posts/2025-10-16-tahoe-menu-bar.md",
+          "content_path": "posts/2025-10-16-tahoe-menu-bar",
+          "title": "macOS Tahoe menu bar 中删除已卸载的项目",
+          "score": 0.759969
+        },
+        {
+          "post_key": "posts/2025-04-09-neodb-shortcode-fixed.md",
+          "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
+          "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
+          "score": 0.755476
+        }
+      ]
+    },
+    "posts/2023-01-09-group-by-and-rename.md": {
+      "title": "如何同时使用 `group_by` + `rename`",
+      "slug": null,
+      "content_path": "posts/2023-01-09-group-by-and-rename",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-04-07-neodb-shortcode.md",
+          "content_path": "posts/2025-04-07-neodb-shortcode",
+          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+          "score": 0.740417
+        },
+        {
+          "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
+          "content_path": "posts/2025-06-30-drafts-action-to-hugo",
+          "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
+          "score": 0.737962
+        },
+        {
+          "post_key": "posts/2023-10-01-learn-how-to-type.md",
+          "content_path": "posts/2023-10-01-learn-how-to-type",
+          "title": "在2023年学习打字：双拼输入法和Iris分体键盘",
+          "score": 0.736729
+        }
+      ]
+    },
+    "posts/2023-01-14-snippets.md": {
+      "title": "如何将 Alfred 的快捷指令迁移到 Raycast",
+      "slug": null,
+      "content_path": "posts/2023-01-14-snippets",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-04-07-neodb-shortcode.md",
+          "content_path": "posts/2025-04-07-neodb-shortcode",
+          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+          "score": 0.887892
+        },
+        {
+          "post_key": "posts/2025-04-09-neodb-shortcode-fixed.md",
+          "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
+          "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
+          "score": 0.868884
+        },
+        {
+          "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
+          "content_path": "posts/2025-06-30-drafts-action-to-hugo",
+          "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
+          "score": 0.868589
+        }
+      ]
+    },
+    "posts/2023-01-24-git-review.md": {
+      "title": "A concise summary of all you need to know about Git, maybe",
+      "slug": null,
+      "content_path": "posts/2023-01-24-git-review",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-04-02-commit-messages.md",
+          "content_path": "posts/2023-04-02-commit-messages",
+          "title": "如何 git commit",
+          "score": 0.873456
+        },
+        {
+          "post_key": "posts/2025-04-09-neodb-shortcode-fixed.md",
+          "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
+          "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
+          "score": 0.843003
+        },
+        {
+          "post_key": "posts/2024-03-31-distillm-02.md",
+          "content_path": "posts/2024-03-31-distillm-02",
+          "title": "DistiLLM 02",
+          "score": 0.836167
+        }
+      ]
+    },
+    "posts/2023-01-25-textattack.md": {
+      "title": "使用 TextAttack 进行对抗性攻击",
+      "slug": null,
+      "content_path": "posts/2023-01-25-textattack",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-05-18-climate-plus.md",
+          "content_path": "posts/2023-05-18-climate-plus",
+          "title": "climate-plus",
+          "score": 0.836957
+        },
+        {
+          "post_key": "posts/2024-02-29-distillm-01.md",
+          "content_path": "posts/2024-02-29-distillm-01",
+          "title": "DistiLLM 01",
+          "score": 0.836942
+        },
+        {
+          "post_key": "posts/2024-05-01-distillm-03.md",
+          "content_path": "posts/2024-05-01-distillm-03",
+          "title": "DistiLLM 03",
+          "score": 0.820886
+        }
+      ]
+    },
+    "posts/2023-01-27-finding-the-python-interpreter.md": {
+      "title": "如何找到 Python 解释器",
+      "slug": null,
+      "content_path": "posts/2023-01-27-finding-the-python-interpreter",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-08-reset-conda-env.md",
+          "content_path": "posts/2023-01-08-reset-conda-env",
+          "title": "如何重置一个 conda 环境",
+          "score": 0.834577
+        },
+        {
+          "post_key": "posts/2023-09-26-starship.md",
+          "content_path": "posts/2023-09-26-starship",
+          "title": "星船启动！",
+          "score": 0.762491
+        },
+        {
+          "post_key": "posts/2024-01-30-omz-to-fish.md",
+          "content_path": "posts/2024-01-30-omz-to-fish",
+          "title": "回归 vanilla (fish) shell",
+          "score": 0.762135
+        }
+      ]
+    },
+    "posts/2023-02-23-kbd-and-highlight-in-hugo.md": {
+      "title": "如何在 Hugo 中添加行内键盘按键和高亮显示",
+      "slug": null,
+      "content_path": "posts/2023-02-23-kbd-and-highlight-in-hugo",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-04-07-neodb-shortcode.md",
+          "content_path": "posts/2025-04-07-neodb-shortcode",
+          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+          "score": 0.846075
+        },
+        {
+          "post_key": "posts/2023-10-01-learn-how-to-type.md",
+          "content_path": "posts/2023-10-01-learn-how-to-type",
+          "title": "在2023年学习打字：双拼输入法和Iris分体键盘",
+          "score": 0.81804
+        },
+        {
+          "post_key": "posts/2025-04-09-neodb-shortcode-fixed.md",
+          "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
+          "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
+          "score": 0.810594
+        }
+      ]
+    },
+    "posts/2023-03-26-vertical-layout.md": {
+      "title": "不合适",
+      "slug": "vertical-layout",
+      "content_path": "posts/2023-03-26-vertical-layout",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-04-07-neodb-shortcode.md",
+          "content_path": "posts/2025-04-07-neodb-shortcode",
+          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+          "score": 0.846326
+        },
+        {
+          "post_key": "posts/2023-10-01-learn-how-to-type.md",
+          "content_path": "posts/2023-10-01-learn-how-to-type",
+          "title": "在2023年学习打字：双拼输入法和Iris分体键盘",
+          "score": 0.815253
+        },
+        {
+          "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
+          "content_path": "posts/2025-06-30-drafts-action-to-hugo",
+          "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
+          "score": 0.814605
+        }
+      ]
+    },
+    "posts/2023-04-02-commit-messages.md": {
+      "title": "如何 git commit",
+      "slug": null,
+      "content_path": "posts/2023-04-02-commit-messages",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-24-git-review.md",
+          "content_path": "posts/2023-01-24-git-review",
+          "title": "A concise summary of all you need to know about Git, maybe",
+          "score": 0.873456
+        },
+        {
+          "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
+          "content_path": "posts/2025-06-30-drafts-action-to-hugo",
+          "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
+          "score": 0.836991
+        },
+        {
+          "post_key": "posts/2025-04-09-neodb-shortcode-fixed.md",
+          "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
+          "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
+          "score": 0.815055
+        }
+      ]
+    },
+    "posts/2023-05-18-climate-plus.md": {
+      "title": "climate-plus",
+      "slug": null,
+      "content_path": "posts/2023-05-18-climate-plus",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-02-29-distillm-01.md",
+          "content_path": "posts/2024-02-29-distillm-01",
+          "title": "DistiLLM 01",
+          "score": 0.868354
+        },
+        {
+          "post_key": "posts/2024-03-31-distillm-02.md",
+          "content_path": "posts/2024-03-31-distillm-02",
+          "title": "DistiLLM 02",
+          "score": 0.860907
+        },
+        {
+          "post_key": "posts/2023-05-20-chitchat.md",
+          "content_path": "posts/2023-05-20-chitchat",
+          "title": "chitchat",
+          "score": 0.859011
+        }
+      ]
+    },
+    "posts/2023-05-20-chitchat.md": {
+      "title": "chitchat",
+      "slug": null,
+      "content_path": "posts/2023-05-20-chitchat",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-05-18-climate-plus.md",
+          "content_path": "posts/2023-05-18-climate-plus",
+          "title": "climate-plus",
+          "score": 0.859011
+        },
+        {
+          "post_key": "posts/2024-02-29-distillm-01.md",
+          "content_path": "posts/2024-02-29-distillm-01",
+          "title": "DistiLLM 01",
+          "score": 0.84169
+        },
+        {
+          "post_key": "posts/2024-03-31-distillm-02.md",
+          "content_path": "posts/2024-03-31-distillm-02",
+          "title": "DistiLLM 02",
+          "score": 0.823839
+        }
+      ]
+    },
+    "posts/2023-06-29-kindle-oasis.md": {
+      "title": "Kindle Oasis 的短期使用感受",
+      "slug": "kindle-oasis",
+      "content_path": "posts/2023-06-29-kindle-oasis",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-06-18-goodbye-kindle.md",
+          "content_path": "posts/2025-06-18-goodbye-kindle",
+          "title": "Kindle: What's yours is mine",
+          "score": 0.896962
+        },
+        {
+          "post_key": "posts/2025-03-04-make-internet-experience-great-again.md",
+          "content_path": "posts/2025-03-04-make-internet-experience-great-again",
+          "title": "复古就是 Make Internet Experience Great Again",
+          "score": 0.849643
+        },
+        {
+          "post_key": "posts/2025-08-29-hardware-bandwidth.md",
+          "content_path": "posts/2025-08-29-hardware-bandwidth",
+          "title": "硬件带宽",
+          "score": 0.839558
+        }
+      ]
+    },
+    "posts/2023-09-26-starship.md": {
+      "title": "星船启动！",
+      "slug": null,
+      "content_path": "posts/2023-09-26-starship",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-01-30-omz-to-fish.md",
+          "content_path": "posts/2024-01-30-omz-to-fish",
+          "title": "回归 vanilla (fish) shell",
+          "score": 0.881923
+        },
+        {
+          "post_key": "posts/2025-04-07-neodb-shortcode.md",
+          "content_path": "posts/2025-04-07-neodb-shortcode",
+          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+          "score": 0.869125
+        },
+        {
+          "post_key": "posts/2025-04-09-neodb-shortcode-fixed.md",
+          "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
+          "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
+          "score": 0.854463
+        }
+      ]
+    },
+    "posts/2023-10-01-learn-how-to-type.md": {
+      "title": "在2023年学习打字：双拼输入法和Iris分体键盘",
+      "slug": "learn-how-to-type",
+      "content_path": "posts/2023-10-01-learn-how-to-type",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-06-rime.md",
+          "content_path": "posts/2023-01-06-rime",
+          "title": "RIME 输入法配置",
+          "score": 0.901058
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.899072
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.896637
+        }
+      ]
+    },
+    "posts/2023-10-29-switch-apple-store.md": {
+      "title": "数字难民 2023",
+      "slug": "switch-apple-store",
+      "content_path": "posts/2023-10-29-switch-apple-store",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.842657
+        },
+        {
+          "post_key": "posts/2024-08-26-ipod-import.md",
+          "content_path": "posts/2024-08-26-ipod-import",
+          "title": "在 2024 年给 iPod 填充音乐的工作流程",
+          "score": 0.841865
+        },
+        {
+          "post_key": "posts/2024-03-31-setapp-succession.md",
+          "content_path": "posts/2024-03-31-setapp-succession",
+          "title": "Setapp 继承计划",
+          "score": 0.835275
+        }
+      ]
+    },
+    "posts/2023-11-20-app-defaults-2023.md": {
+      "title": "我的默认应用 2023",
+      "slug": "app-defaults-2023",
+      "content_path": "posts/2023-11-20-app-defaults-2023",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-12-03-app-defaults-2024.md",
+          "content_path": "posts/2024-12-03-app-defaults-2024",
+          "title": "我的默认应用 2024",
+          "score": 0.914631
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.897608
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.880739
+        }
+      ]
+    },
+    "posts/2023-12-31-ac2023.md": {
+      "title": "2023 年的年度总结应该起什么名字",
+      "slug": "ac2023",
+      "content_path": "posts/2023-12-31-ac2023",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.949341
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.934322
+        },
+        {
+          "post_key": "posts/2026-01-01-ac2025.md",
+          "content_path": "posts/2026-01-01-ac2025",
+          "title": "2025 年的 40 个问题和年度最佳",
+          "score": 0.93397
+        }
+      ]
+    },
+    "posts/2024-01-30-omz-to-fish.md": {
+      "title": "回归 vanilla (fish) shell",
+      "slug": null,
+      "content_path": "posts/2024-01-30-omz-to-fish",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-09-26-starship.md",
+          "content_path": "posts/2023-09-26-starship",
+          "title": "星船启动！",
+          "score": 0.881923
+        },
+        {
+          "post_key": "posts/2025-10-16-doom-emacs-macos-installation.md",
+          "content_path": "posts/2025-10-16-doom-emacs-macos-installation",
+          "title": "安装 Doom Emacs 的一些碎碎念",
+          "score": 0.869065
+        },
+        {
+          "post_key": "posts/2023-01-06-rime.md",
+          "content_path": "posts/2023-01-06-rime",
+          "title": "RIME 输入法配置",
+          "score": 0.82941
+        }
+      ]
+    },
+    "posts/2024-02-29-distillm-01.md": {
+      "title": "DistiLLM 01",
+      "slug": null,
+      "content_path": "posts/2024-02-29-distillm-01",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-03-31-distillm-02.md",
+          "content_path": "posts/2024-03-31-distillm-02",
+          "title": "DistiLLM 02",
+          "score": 0.940065
+        },
+        {
+          "post_key": "posts/2024-05-01-distillm-03.md",
+          "content_path": "posts/2024-05-01-distillm-03",
+          "title": "DistiLLM 03",
+          "score": 0.9395
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.880326
+        }
+      ]
+    },
+    "posts/2024-03-31-distillm-02.md": {
+      "title": "DistiLLM 02",
+      "slug": null,
+      "content_path": "posts/2024-03-31-distillm-02",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-05-01-distillm-03.md",
+          "content_path": "posts/2024-05-01-distillm-03",
+          "title": "DistiLLM 03",
+          "score": 0.946856
+        },
+        {
+          "post_key": "posts/2024-02-29-distillm-01.md",
+          "content_path": "posts/2024-02-29-distillm-01",
+          "title": "DistiLLM 01",
+          "score": 0.940065
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.880442
+        }
+      ]
+    },
+    "posts/2024-03-31-setapp-succession.md": {
+      "title": "Setapp 继承计划",
+      "slug": "setapp-succession",
+      "content_path": "posts/2024-03-31-setapp-succession",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-12-03-app-defaults-2024.md",
+          "content_path": "posts/2024-12-03-app-defaults-2024",
+          "title": "我的默认应用 2024",
+          "score": 0.876266
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.867055
+        },
+        {
+          "post_key": "posts/2023-11-20-app-defaults-2023.md",
+          "content_path": "posts/2023-11-20-app-defaults-2023",
+          "title": "我的默认应用 2023",
+          "score": 0.858598
+        }
+      ]
+    },
+    "posts/2024-05-01-distillm-03.md": {
+      "title": "DistiLLM 03",
+      "slug": null,
+      "content_path": "posts/2024-05-01-distillm-03",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-03-31-distillm-02.md",
+          "content_path": "posts/2024-03-31-distillm-02",
+          "title": "DistiLLM 02",
+          "score": 0.946856
+        },
+        {
+          "post_key": "posts/2024-02-29-distillm-01.md",
+          "content_path": "posts/2024-02-29-distillm-01",
+          "title": "DistiLLM 01",
+          "score": 0.9395
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.865273
+        }
+      ]
+    },
+    "posts/2024-05-09-shuangpin.md": {
+      "title": "半放弃了双拼输入法",
+      "slug": "shuangpin",
+      "content_path": "posts/2024-05-09-shuangpin",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-10-01-learn-how-to-type.md",
+          "content_path": "posts/2023-10-01-learn-how-to-type",
+          "title": "在2023年学习打字：双拼输入法和Iris分体键盘",
+          "score": 0.824225
+        },
+        {
+          "post_key": "posts/2023-01-06-rime.md",
+          "content_path": "posts/2023-01-06-rime",
+          "title": "RIME 输入法配置",
+          "score": 0.795545
+        },
+        {
+          "post_key": "posts/2024-03-31-setapp-succession.md",
+          "content_path": "posts/2024-03-31-setapp-succession",
+          "title": "Setapp 继承计划",
+          "score": 0.772331
+        }
+      ]
+    },
+    "posts/2024-08-26-ipod-import.md": {
+      "title": "在 2024 年给 iPod 填充音乐的工作流程",
+      "slug": "ipod-import",
+      "content_path": "posts/2024-08-26-ipod-import",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-12-31-ipod-mod.md",
+          "content_path": "posts/2024-12-31-ipod-mod",
+          "title": "iPod Video gen 5.5 翻新",
+          "score": 0.913884
+        },
+        {
+          "post_key": "posts/2025-10-04-ipod-with-rockbox.md",
+          "content_path": "posts/2025-10-04-ipod-with-rockbox",
+          "title": "再次尝试给 iPod Video 安装 Rockbox",
+          "score": 0.910639
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.860618
+        }
+      ]
+    },
+    "posts/2024-12-01-wukong.md": {
+      "title": "黑神话",
+      "slug": "wukong",
+      "content_path": "posts/2024-12-01-wukong",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.883832
+        },
+        {
+          "post_key": "posts/2025-06-20-games-i-played-in-june.md",
+          "content_path": "posts/2025-06-20-games-i-played-in-june",
+          "title": "六月玩了什么",
+          "score": 0.871359
+        },
+        {
+          "post_key": "posts/2026-04-21-222.md",
+          "content_path": "posts/2026-04-21-222",
+          "title": "222",
+          "score": 0.86857
+        }
+      ]
+    },
+    "posts/2024-12-03-app-defaults-2024.md": {
+      "title": "我的默认应用 2024",
+      "slug": "app-defaults-2024",
+      "content_path": "posts/2024-12-03-app-defaults-2024",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-11-20-app-defaults-2023.md",
+          "content_path": "posts/2023-11-20-app-defaults-2023",
+          "title": "我的默认应用 2023",
+          "score": 0.914631
+        },
+        {
+          "post_key": "posts/2024-03-31-setapp-succession.md",
+          "content_path": "posts/2024-03-31-setapp-succession",
+          "title": "Setapp 继承计划",
+          "score": 0.876266
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.870058
+        }
+      ]
+    },
+    "posts/2024-12-31-chimichurri.md": {
+      "title": "Chimichurri 酱",
+      "slug": null,
+      "content_path": "posts/2024-12-31-chimichurri",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-09-28-margherita-1.md",
+          "content_path": "posts/2025-09-28-margherita-1",
+          "title": "基础款拿波里披萨",
+          "score": 0.777372
+        },
+        {
+          "post_key": "posts/2026-04-06-salmon-tartare-omurice.md",
+          "content_path": "posts/2026-04-06-salmon-tartare-omurice",
+          "title": "三文鱼塔塔和蛋包饭",
+          "score": 0.776285
+        },
+        {
+          "post_key": "posts/2025-06-22-brisket.md",
+          "content_path": "posts/2025-06-22-brisket",
+          "title": "熏牛胸肉",
+          "score": 0.774538
+        }
+      ]
+    },
+    "posts/2024-12-31-ipod-mod.md": {
+      "title": "iPod Video gen 5.5 翻新",
+      "slug": "ipod-mod",
+      "content_path": "posts/2024-12-31-ipod-mod",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-08-26-ipod-import.md",
+          "content_path": "posts/2024-08-26-ipod-import",
+          "title": "在 2024 年给 iPod 填充音乐的工作流程",
+          "score": 0.913884
+        },
+        {
+          "post_key": "posts/2025-10-04-ipod-with-rockbox.md",
+          "content_path": "posts/2025-10-04-ipod-with-rockbox",
+          "title": "再次尝试给 iPod Video 安装 Rockbox",
+          "score": 0.846482
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.825986
+        }
+      ]
+    },
+    "posts/2025-01-01-ac2024.md": {
+      "title": "版本号 1.2024.366",
+      "slug": "ac2024",
+      "content_path": "posts/2025-01-01-ac2024",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.939335
+        },
+        {
+          "post_key": "posts/2026-01-01-ac2025.md",
+          "content_path": "posts/2026-01-01-ac2025",
+          "title": "2025 年的 40 个问题和年度最佳",
+          "score": 0.93629
+        },
+        {
+          "post_key": "posts/2023-12-31-ac2023.md",
+          "content_path": "posts/2023-12-31-ac2023",
+          "title": "2023 年的年度总结应该起什么名字",
+          "score": 0.934322
+        }
+      ]
+    },
+    "posts/2025-02-17-dont-make-decisions-for-me.md": {
+      "title": "你别替我决定",
+      "slug": null,
+      "content_path": "posts/2025-02-17-dont-make-decisions-for-me",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-08-26-ipod-import.md",
+          "content_path": "posts/2024-08-26-ipod-import",
+          "title": "在 2024 年给 iPod 填充音乐的工作流程",
+          "score": 0.723879
+        },
+        {
+          "post_key": "posts/2024-12-31-ipod-mod.md",
+          "content_path": "posts/2024-12-31-ipod-mod",
+          "title": "iPod Video gen 5.5 翻新",
+          "score": 0.720163
+        },
+        {
+          "post_key": "posts/2025-03-04-make-internet-experience-great-again.md",
+          "content_path": "posts/2025-03-04-make-internet-experience-great-again",
+          "title": "复古就是 Make Internet Experience Great Again",
+          "score": 0.699325
+        }
+      ]
+    },
+    "posts/2025-03-04-make-internet-experience-great-again.md": {
+      "title": "复古就是 Make Internet Experience Great Again",
+      "slug": null,
+      "content_path": "posts/2025-03-04-make-internet-experience-great-again",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-06-18-goodbye-kindle.md",
+          "content_path": "posts/2025-06-18-goodbye-kindle",
+          "title": "Kindle: What's yours is mine",
+          "score": 0.89125
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.872735
+        },
+        {
+          "post_key": "posts/2025-11-16-kobo-koreader-reset.md",
+          "content_path": "posts/2025-11-16-kobo-koreader-reset",
+          "title": "Kobo KOReader Setup",
+          "score": 0.872379
+        }
+      ]
+    },
+    "posts/2025-03-31-202503.md": {
+      "title": "至少写完这篇也算是完成了一个待办事项",
+      "slug": "202503",
+      "content_path": "posts/2025-03-31-202503",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.929315
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.91894
+        },
+        {
+          "post_key": "posts/2023-12-31-ac2023.md",
+          "content_path": "posts/2023-12-31-ac2023",
+          "title": "2023 年的年度总结应该起什么名字",
+          "score": 0.914678
+        }
+      ]
+    },
+    "posts/2025-04-07-neodb-shortcode.md": {
+      "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+      "slug": "neodb-shortcode",
+      "content_path": "posts/2025-04-07-neodb-shortcode",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-04-09-neodb-shortcode-fixed.md",
+          "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
+          "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
+          "score": 0.967189
+        },
+        {
+          "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
+          "content_path": "posts/2025-06-30-drafts-action-to-hugo",
+          "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
+          "score": 0.900847
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.895499
+        }
+      ]
+    },
+    "posts/2025-04-09-neodb-shortcode-fixed.md": {
+      "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
+      "slug": "neodb-shortcode-fixed",
+      "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-04-07-neodb-shortcode.md",
+          "content_path": "posts/2025-04-07-neodb-shortcode",
+          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+          "score": 0.967189
+        },
+        {
+          "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
+          "content_path": "posts/2025-06-30-drafts-action-to-hugo",
+          "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
+          "score": 0.893966
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.878256
+        }
+      ]
+    },
+    "posts/2025-05-14-day-one-migration.md": {
+      "title": "Day One 日记搬家",
+      "slug": "day-one-migration",
+      "content_path": "posts/2025-05-14-day-one-migration",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-09-01-my-productivity-workflow-2025.md",
+          "content_path": "posts/2025-09-01-my-productivity-workflow-2025",
+          "title": "信息流 (2025)",
+          "score": 0.855991
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.836659
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.834303
+        }
+      ]
+    },
+    "posts/2025-06-16-daikon.md": {
+      "title": "Daikon 的迷思",
+      "slug": "daikon",
+      "content_path": "posts/2025-06-16-daikon",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-07-11-daikon-2.md",
+          "content_path": "posts/2025-07-11-daikon-2",
+          "title": "Daikon 的迷思 part 2",
+          "score": 0.779501
+        },
+        {
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
+          "title": "Adulting",
+          "score": 0.730374
+        },
+        {
+          "post_key": "posts/2026-01-01-ac2025.md",
+          "content_path": "posts/2026-01-01-ac2025",
+          "title": "2025 年的 40 个问题和年度最佳",
+          "score": 0.728557
+        }
+      ]
+    },
+    "posts/2025-06-17-ears.md": {
+      "title": "梅雨季",
+      "slug": "ears",
+      "content_path": "posts/2025-06-17-ears",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
+          "title": "Adulting",
+          "score": 0.783264
+        },
+        {
+          "post_key": "posts/2026-04-21-222.md",
+          "content_path": "posts/2026-04-21-222",
+          "title": "222",
+          "score": 0.768824
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.764222
+        }
+      ]
+    },
+    "posts/2025-06-18-goodbye-kindle.md": {
+      "title": "Kindle: What's yours is mine",
+      "slug": "goodbye-kindle",
+      "content_path": "posts/2025-06-18-goodbye-kindle",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-06-29-kindle-oasis.md",
+          "content_path": "posts/2023-06-29-kindle-oasis",
+          "title": "Kindle Oasis 的短期使用感受",
+          "score": 0.896962
+        },
+        {
+          "post_key": "posts/2025-03-04-make-internet-experience-great-again.md",
+          "content_path": "posts/2025-03-04-make-internet-experience-great-again",
+          "title": "复古就是 Make Internet Experience Great Again",
+          "score": 0.89125
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.848009
+        }
+      ]
+    },
+    "posts/2025-06-19-hobonichi.md": {
+      "title": "不过是需要一个趁手的本子",
+      "slug": "hobonichi",
+      "content_path": "posts/2025-06-19-hobonichi",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-09-01-my-productivity-workflow-2025.md",
+          "content_path": "posts/2025-09-01-my-productivity-workflow-2025",
+          "title": "信息流 (2025)",
+          "score": 0.882436
+        },
+        {
+          "post_key": "posts/2025-08-29-hardware-bandwidth.md",
+          "content_path": "posts/2025-08-29-hardware-bandwidth",
+          "title": "硬件带宽",
+          "score": 0.85823
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.841632
+        }
+      ]
+    },
+    "posts/2025-06-20-games-i-played-in-june.md": {
+      "title": "六月玩了什么",
+      "slug": "games-i-played-in-june",
+      "content_path": "posts/2025-06-20-games-i-played-in-june",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.902416
+        },
+        {
+          "post_key": "posts/2026-04-21-222.md",
+          "content_path": "posts/2026-04-21-222",
+          "title": "222",
+          "score": 0.901332
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.895712
+        }
+      ]
+    },
+    "posts/2025-06-21-wallpaper-installation.md": {
+      "title": "贴墙纸",
+      "slug": "wallpaper-installation",
+      "content_path": "posts/2025-06-21-wallpaper-installation",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
+          "title": "Adulting",
+          "score": 0.76169
+        },
+        {
+          "post_key": "posts/2025-07-26-weekend-problem-solving-session.md",
+          "content_path": "posts/2025-07-26-weekend-problem-solving-session",
+          "title": "KOReader 和 Stokke Tripp Trapp screw",
+          "score": 0.761407
+        },
+        {
+          "post_key": "posts/2024-12-01-wukong.md",
+          "content_path": "posts/2024-12-01-wukong",
+          "title": "黑神话",
+          "score": 0.75053
+        }
+      ]
+    },
+    "posts/2025-06-22-brisket.md": {
+      "title": "熏牛胸肉",
+      "slug": "brisket",
+      "content_path": "posts/2025-06-22-brisket",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-09-28-margherita-1.md",
+          "content_path": "posts/2025-09-28-margherita-1",
+          "title": "基础款拿波里披萨",
+          "score": 0.866785
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.853517
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.847767
+        }
+      ]
+    },
+    "posts/2025-06-23-nba-finals.md": {
+      "title": "大结局",
+      "slug": "nba-finals",
+      "content_path": "posts/2025-06-23-nba-finals",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.794612
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.790137
+        },
+        {
+          "post_key": "posts/2024-12-01-wukong.md",
+          "content_path": "posts/2024-12-01-wukong",
+          "title": "黑神话",
+          "score": 0.786804
+        }
+      ]
+    },
+    "posts/2025-06-24-time-capsule.md": {
+      "title": "通往 2045 的时间胶囊",
+      "slug": "time-capsule-2045",
+      "content_path": "posts/2025-06-24-time-capsule",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-01-01-ac2025.md",
+          "content_path": "posts/2026-01-01-ac2025",
+          "title": "2025 年的 40 个问题和年度最佳",
+          "score": 0.805225
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.803501
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.790106
+        }
+      ]
+    },
+    "posts/2025-06-26-f1-the-movie.md": {
+      "title": "F1 狂飙飞车",
+      "slug": "f1-the-movie",
+      "content_path": "posts/2025-06-26-f1-the-movie",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-06-20-games-i-played-in-june.md",
+          "content_path": "posts/2025-06-20-games-i-played-in-june",
+          "title": "六月玩了什么",
+          "score": 0.833248
+        },
+        {
+          "post_key": "posts/2023-12-31-ac2023.md",
+          "content_path": "posts/2023-12-31-ac2023",
+          "title": "2023 年的年度总结应该起什么名字",
+          "score": 0.812972
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.807784
+        }
+      ]
+    },
+    "posts/2025-06-27-eat-well.md": {
+      "title": "吃好",
+      "slug": "eat-well",
+      "content_path": "posts/2025-06-27-eat-well",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-09-19-late-night-food.md",
+          "content_path": "posts/2025-09-19-late-night-food",
+          "title": "深夜贪吃",
+          "score": 0.732254
+        },
+        {
+          "post_key": "posts/2025-08-20-on-cooking.md",
+          "content_path": "posts/2025-08-20-on-cooking",
+          "title": "烹饪",
+          "score": 0.71717
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.713923
+        }
+      ]
+    },
+    "posts/2025-06-30-drafts-action-to-hugo.md": {
+      "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
+      "slug": "drafts-action-to-hugo",
+      "content_path": "posts/2025-06-30-drafts-action-to-hugo",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-04-07-neodb-shortcode.md",
+          "content_path": "posts/2025-04-07-neodb-shortcode",
+          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+          "score": 0.900847
+        },
+        {
+          "post_key": "posts/2025-04-09-neodb-shortcode-fixed.md",
+          "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
+          "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
+          "score": 0.893966
+        },
+        {
+          "post_key": "posts/2023-01-14-snippets.md",
+          "content_path": "posts/2023-01-14-snippets",
+          "title": "如何将 Alfred 的快捷指令迁移到 Raycast",
+          "score": 0.868589
+        }
+      ]
+    },
+    "posts/2025-07-02-turbulence.md": {
+      "title": "时代的乱流",
+      "slug": "turbulence",
+      "content_path": "posts/2025-07-02-turbulence",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-09-06-embrace-the-white-space.md",
+          "content_path": "posts/2025-09-06-embrace-the-white-space",
+          "title": "拥抱空闲",
+          "score": 0.753967
+        },
+        {
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
+          "title": "Adulting",
+          "score": 0.746409
+        },
+        {
+          "post_key": "posts/2023-12-31-ac2023.md",
+          "content_path": "posts/2023-12-31-ac2023",
+          "title": "2023 年的年度总结应该起什么名字",
+          "score": 0.746385
+        }
+      ]
+    },
+    "posts/2025-07-04-uncharted.md": {
+      "title": "独立日骑车三则",
+      "slug": "on-biking",
+      "content_path": "posts/2025-07-04-uncharted",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.841259
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.832658
+        },
+        {
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
+          "title": "Adulting",
+          "score": 0.827377
+        }
+      ]
+    },
+    "posts/2025-07-05-family-days.md": {
+      "title": "第 X 届家庭 Y 节",
+      "slug": "family-days",
+      "content_path": "posts/2025-07-05-family-days",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-06-20-games-i-played-in-june.md",
+          "content_path": "posts/2025-06-20-games-i-played-in-june",
+          "title": "六月玩了什么",
+          "score": 0.757452
+        },
+        {
+          "post_key": "posts/2026-04-21-222.md",
+          "content_path": "posts/2026-04-21-222",
+          "title": "222",
+          "score": 0.740578
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.732884
+        }
+      ]
+    },
+    "posts/2025-07-06-speed-note-taking.md": {
+      "title": "唯快不破",
+      "slug": "speed-note-taking",
+      "content_path": "posts/2025-07-06-speed-note-taking",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-05-14-day-one-migration.md",
+          "content_path": "posts/2025-05-14-day-one-migration",
+          "title": "Day One 日记搬家",
+          "score": 0.778368
+        },
+        {
+          "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
+          "content_path": "posts/2025-06-30-drafts-action-to-hugo",
+          "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
+          "score": 0.77276
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.772491
+        }
+      ]
+    },
+    "posts/2025-07-07-two-watches.md": {
+      "title": "两个戴表",
+      "slug": "two-watches",
+      "content_path": "posts/2025-07-07-two-watches",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-08-07-things-im-not-doing-anymore.md",
+          "content_path": "posts/2025-08-07-things-im-not-doing-anymore",
+          "title": "我不再做的事",
+          "score": 0.75648
+        },
+        {
+          "post_key": "posts/2025-06-19-hobonichi.md",
+          "content_path": "posts/2025-06-19-hobonichi",
+          "title": "不过是需要一个趁手的本子",
+          "score": 0.746845
+        },
+        {
+          "post_key": "posts/2025-08-29-hardware-bandwidth.md",
+          "content_path": "posts/2025-08-29-hardware-bandwidth",
+          "title": "硬件带宽",
+          "score": 0.739387
+        }
+      ]
+    },
+    "posts/2025-07-09-iceland.md": {
+      "title": "冰岛",
+      "slug": "iceland",
+      "content_path": "posts/2025-07-09-iceland",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-08-25-kojimas-memes.md",
+          "content_path": "posts/2025-08-25-kojimas-memes",
+          "title": "小岛的 me+me",
+          "score": 0.84431
+        },
+        {
+          "post_key": "posts/2026-04-21-222.md",
+          "content_path": "posts/2026-04-21-222",
+          "title": "222",
+          "score": 0.834062
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.829337
+        }
+      ]
+    },
+    "posts/2025-07-11-daikon-2.md": {
+      "title": "Daikon 的迷思 part 2",
+      "slug": "daikon-2",
+      "content_path": "posts/2025-07-11-daikon-2",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-06-16-daikon.md",
+          "content_path": "posts/2025-06-16-daikon",
+          "title": "Daikon 的迷思",
+          "score": 0.779501
+        },
+        {
+          "post_key": "posts/2026-04-06-salmon-tartare-omurice.md",
+          "content_path": "posts/2026-04-06-salmon-tartare-omurice",
+          "title": "三文鱼塔塔和蛋包饭",
+          "score": 0.676697
+        },
+        {
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
+          "title": "Adulting",
+          "score": 0.673495
+        }
+      ]
+    },
+    "posts/2025-07-13-seven-point.md": {
+      "title": "七分制",
+      "slug": "seven-point",
+      "content_path": "posts/2025-07-13-seven-point",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-01-01-ac2025.md",
+          "content_path": "posts/2026-01-01-ac2025",
+          "title": "2025 年的 40 个问题和年度最佳",
+          "score": 0.793733
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.791516
+        },
+        {
+          "post_key": "posts/2025-08-25-kojimas-memes.md",
+          "content_path": "posts/2025-08-25-kojimas-memes",
+          "title": "小岛的 me+me",
+          "score": 0.788381
+        }
+      ]
+    },
+    "posts/2025-07-23-x-rant.md": {
+      "title": "Xcruciating",
+      "slug": "x-rant",
+      "content_path": "posts/2025-07-23-x-rant",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-08-07-things-im-not-doing-anymore.md",
+          "content_path": "posts/2025-08-07-things-im-not-doing-anymore",
+          "title": "我不再做的事",
+          "score": 0.775328
+        },
+        {
+          "post_key": "posts/2025-09-01-my-productivity-workflow-2025.md",
+          "content_path": "posts/2025-09-01-my-productivity-workflow-2025",
+          "title": "信息流 (2025)",
+          "score": 0.770978
+        },
+        {
+          "post_key": "posts/2024-03-31-setapp-succession.md",
+          "content_path": "posts/2024-03-31-setapp-succession",
+          "title": "Setapp 继承计划",
+          "score": 0.764578
+        }
+      ]
+    },
+    "posts/2025-07-26-weekend-problem-solving-session.md": {
+      "title": "KOReader 和 Stokke Tripp Trapp screw",
+      "slug": "weekend-problem-solving-session",
+      "content_path": "posts/2025-07-26-weekend-problem-solving-session",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.868464
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.862826
+        },
+        {
+          "post_key": "posts/2025-03-04-make-internet-experience-great-again.md",
+          "content_path": "posts/2025-03-04-make-internet-experience-great-again",
+          "title": "复古就是 Make Internet Experience Great Again",
+          "score": 0.862743
+        }
+      ]
+    },
+    "posts/2025-07-27-bball-analytics.md": {
+      "title": "篮球分析",
+      "slug": "bball-analytics",
+      "content_path": "posts/2025-07-27-bball-analytics",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-08-22-rehire.md",
+          "content_path": "posts/2025-08-22-rehire",
+          "title": "复工",
+          "score": 0.862446
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.823116
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.822779
+        }
+      ]
+    },
+    "posts/2025-07-29-books-preordered.md": {
+      "title": "下半年期待的新书",
+      "slug": "books-preordered",
+      "content_path": "posts/2025-07-29-books-preordered",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-08-25-kojimas-memes.md",
+          "content_path": "posts/2025-08-25-kojimas-memes",
+          "title": "小岛的 me+me",
+          "score": 0.886752
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.885174
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.884556
+        }
+      ]
+    },
+    "posts/2025-08-07-things-im-not-doing-anymore.md": {
+      "title": "我不再做的事",
+      "slug": "things-im-not-doing-anymore",
+      "content_path": "posts/2025-08-07-things-im-not-doing-anymore",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.881839
+        },
+        {
+          "post_key": "posts/2025-09-01-my-productivity-workflow-2025.md",
+          "content_path": "posts/2025-09-01-my-productivity-workflow-2025",
+          "title": "信息流 (2025)",
+          "score": 0.878796
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.873711
+        }
+      ]
+    },
+    "posts/2025-08-13-other-things.md": {
+      "title": "Other Things",
+      "slug": "other-things",
+      "content_path": "posts/2025-08-13-other-things",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-08-15-other-things-ii.md",
+          "content_path": "posts/2025-08-15-other-things-ii",
+          "title": "Other Things II",
+          "score": 0.829954
+        },
+        {
+          "post_key": "posts/2025-08-07-things-im-not-doing-anymore.md",
+          "content_path": "posts/2025-08-07-things-im-not-doing-anymore",
+          "title": "我不再做的事",
+          "score": 0.783767
+        },
+        {
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
+          "title": "Adulting",
+          "score": 0.767668
+        }
+      ]
+    },
+    "posts/2025-08-15-other-things-ii.md": {
+      "title": "Other Things II",
+      "slug": "other-things-ii",
+      "content_path": "posts/2025-08-15-other-things-ii",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-08-13-other-things.md",
+          "content_path": "posts/2025-08-13-other-things",
+          "title": "Other Things",
+          "score": 0.829954
+        },
+        {
+          "post_key": "posts/2025-08-07-things-im-not-doing-anymore.md",
+          "content_path": "posts/2025-08-07-things-im-not-doing-anymore",
+          "title": "我不再做的事",
+          "score": 0.733284
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.727708
+        }
+      ]
+    },
+    "posts/2025-08-16-best-time-to-be-a-man-united-fan-possibly.md": {
+      "title": "成为曼联球迷的最好时机也许就是现在",
+      "slug": "best-time-to-be-a-man-united-fan-possibly",
+      "content_path": "posts/2025-08-16-best-time-to-be-a-man-united-fan-possibly",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.843444
+        },
+        {
+          "post_key": "posts/2025-06-20-games-i-played-in-june.md",
+          "content_path": "posts/2025-06-20-games-i-played-in-june",
+          "title": "六月玩了什么",
+          "score": 0.839522
+        },
+        {
+          "post_key": "posts/2026-01-01-ac2025.md",
+          "content_path": "posts/2026-01-01-ac2025",
+          "title": "2025 年的 40 个问题和年度最佳",
+          "score": 0.836686
+        }
+      ]
+    },
+    "posts/2025-08-17-babysitting-book-challenge.md": {
+      "title": "带娃的时候干点啥好之一周读书挑战",
+      "slug": "babysitting-book-challenge",
+      "content_path": "posts/2025-08-17-babysitting-book-challenge",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-09-06-embrace-the-white-space.md",
+          "content_path": "posts/2025-09-06-embrace-the-white-space",
+          "title": "拥抱空闲",
+          "score": 0.833836
+        },
+        {
+          "post_key": "posts/2025-09-10-cribsheet.md",
+          "content_path": "posts/2025-09-10-cribsheet",
+          "title": "Cribsheet",
+          "score": 0.826334
+        },
+        {
+          "post_key": "posts/2025-07-26-weekend-problem-solving-session.md",
+          "content_path": "posts/2025-07-26-weekend-problem-solving-session",
+          "title": "KOReader 和 Stokke Tripp Trapp screw",
+          "score": 0.813738
+        }
+      ]
+    },
+    "posts/2025-08-20-on-cooking.md": {
+      "title": "烹饪",
+      "slug": "on-cooking",
+      "content_path": "posts/2025-08-20-on-cooking",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.849747
+        },
+        {
+          "post_key": "posts/2026-04-06-salmon-tartare-omurice.md",
+          "content_path": "posts/2026-04-06-salmon-tartare-omurice",
+          "title": "三文鱼塔塔和蛋包饭",
+          "score": 0.839732
+        },
+        {
+          "post_key": "posts/2025-09-01-my-productivity-workflow-2025.md",
+          "content_path": "posts/2025-09-01-my-productivity-workflow-2025",
+          "title": "信息流 (2025)",
+          "score": 0.835384
+        }
+      ]
+    },
+    "posts/2025-08-21-anti-consumerism.md": {
+      "title": "售卖生活方式的幻象",
+      "slug": "anti-consumerism",
+      "content_path": "posts/2025-08-21-anti-consumerism",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-08-07-things-im-not-doing-anymore.md",
+          "content_path": "posts/2025-08-07-things-im-not-doing-anymore",
+          "title": "我不再做的事",
+          "score": 0.775009
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.769255
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.766565
+        }
+      ]
+    },
+    "posts/2025-08-22-rehire.md": {
+      "title": "复工",
+      "slug": "rehire",
+      "content_path": "posts/2025-08-22-rehire",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-07-27-bball-analytics.md",
+          "content_path": "posts/2025-07-27-bball-analytics",
+          "title": "篮球分析",
+          "score": 0.862446
+        },
+        {
+          "post_key": "posts/2025-08-07-things-im-not-doing-anymore.md",
+          "content_path": "posts/2025-08-07-things-im-not-doing-anymore",
+          "title": "我不再做的事",
+          "score": 0.775463
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.775325
+        }
+      ]
+    },
+    "posts/2025-08-25-kojimas-memes.md": {
+      "title": "小岛的 me+me",
+      "slug": "kojimas-memes",
+      "content_path": "posts/2025-08-25-kojimas-memes",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-07-29-books-preordered.md",
+          "content_path": "posts/2025-07-29-books-preordered",
+          "title": "下半年期待的新书",
+          "score": 0.886752
+        },
+        {
+          "post_key": "posts/2026-01-01-ac2025.md",
+          "content_path": "posts/2026-01-01-ac2025",
+          "title": "2025 年的 40 个问题和年度最佳",
+          "score": 0.880238
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.87955
+        }
+      ]
+    },
+    "posts/2025-08-29-hardware-bandwidth.md": {
+      "title": "硬件带宽",
+      "slug": "hardware-bandwidth",
+      "content_path": "posts/2025-08-29-hardware-bandwidth",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-09-01-my-productivity-workflow-2025.md",
+          "content_path": "posts/2025-09-01-my-productivity-workflow-2025",
+          "title": "信息流 (2025)",
+          "score": 0.87349
+        },
+        {
+          "post_key": "posts/2023-10-01-learn-how-to-type.md",
+          "content_path": "posts/2023-10-01-learn-how-to-type",
+          "title": "在2023年学习打字：双拼输入法和Iris分体键盘",
+          "score": 0.863161
+        },
+        {
+          "post_key": "posts/2025-06-19-hobonichi.md",
+          "content_path": "posts/2025-06-19-hobonichi",
+          "title": "不过是需要一个趁手的本子",
+          "score": 0.85823
+        }
+      ]
+    },
+    "posts/2025-08-29-orange-espresso-tonic.md": {
+      "title": "橙味浓缩咖啡汤力水",
+      "slug": "orange-espresso-tonic",
+      "content_path": "posts/2025-08-29-orange-espresso-tonic",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-06-08-steamed-iced-americano.md",
+          "content_path": "posts/2026-06-08-steamed-iced-americano",
+          "title": "打发美式",
+          "score": 0.817025
+        },
+        {
+          "post_key": "posts/2026-03-09-fellow-es1-pt3.md",
+          "content_path": "posts/2026-03-09-fellow-es1-pt3",
+          "title": "Fellow Espresso Series 1 pt3",
+          "score": 0.786804
+        },
+        {
+          "post_key": "posts/2026-03-03-fellow-es1.md",
+          "content_path": "posts/2026-03-03-fellow-es1",
+          "title": "Fellow Espresso Series 1",
+          "score": 0.774822
+        }
+      ]
+    },
+    "posts/2025-09-01-my-productivity-workflow-2025.md": {
+      "title": "信息流 (2025)",
+      "slug": "my-productivity-workflow-2025",
+      "content_path": "posts/2025-09-01-my-productivity-workflow-2025",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.902858
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.900128
+        },
+        {
+          "post_key": "posts/2023-12-31-ac2023.md",
+          "content_path": "posts/2023-12-31-ac2023",
+          "title": "2023 年的年度总结应该起什么名字",
+          "score": 0.897375
+        }
+      ]
+    },
+    "posts/2025-09-06-embrace-the-white-space.md": {
+      "title": "拥抱空闲",
+      "slug": "embrace-the-white-space",
+      "content_path": "posts/2025-09-06-embrace-the-white-space",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-09-01-my-productivity-workflow-2025.md",
+          "content_path": "posts/2025-09-01-my-productivity-workflow-2025",
+          "title": "信息流 (2025)",
+          "score": 0.858776
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.856675
+        },
+        {
+          "post_key": "posts/2025-08-07-things-im-not-doing-anymore.md",
+          "content_path": "posts/2025-08-07-things-im-not-doing-anymore",
+          "title": "我不再做的事",
+          "score": 0.855539
+        }
+      ]
+    },
+    "posts/2025-09-10-cribsheet.md": {
+      "title": "Cribsheet",
+      "slug": "cribsheet",
+      "content_path": "posts/2025-09-10-cribsheet",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md",
+          "content_path": "posts/2025-10-26-bringing-up-bebe-and-french-parenting",
+          "title": "Bringing Up Bébé 和法式育儿",
+          "score": 0.896877
+        },
+        {
+          "post_key": "posts/2025-07-29-books-preordered.md",
+          "content_path": "posts/2025-07-29-books-preordered",
+          "title": "下半年期待的新书",
+          "score": 0.878114
+        },
+        {
+          "post_key": "posts/2025-08-25-kojimas-memes.md",
+          "content_path": "posts/2025-08-25-kojimas-memes",
+          "title": "小岛的 me+me",
+          "score": 0.867452
+        }
+      ]
+    },
+    "posts/2025-09-19-late-night-food.md": {
+      "title": "深夜贪吃",
+      "slug": "late-night-food",
+      "content_path": "posts/2025-09-19-late-night-food",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-04-21-222.md",
+          "content_path": "posts/2026-04-21-222",
+          "title": "222",
+          "score": 0.834516
+        },
+        {
+          "post_key": "posts/2025-08-20-on-cooking.md",
+          "content_path": "posts/2025-08-20-on-cooking",
+          "title": "烹饪",
+          "score": 0.830004
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.829165
+        }
+      ]
+    },
+    "posts/2025-09-28-margherita-1.md": {
+      "title": "基础款拿波里披萨",
+      "slug": "margherita-1",
+      "content_path": "posts/2025-09-28-margherita-1",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-06-22-brisket.md",
+          "content_path": "posts/2025-06-22-brisket",
+          "title": "熏牛胸肉",
+          "score": 0.866785
+        },
+        {
+          "post_key": "posts/2026-04-06-salmon-tartare-omurice.md",
+          "content_path": "posts/2026-04-06-salmon-tartare-omurice",
+          "title": "三文鱼塔塔和蛋包饭",
+          "score": 0.844043
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.829735
+        }
+      ]
+    },
+    "posts/2025-10-03-stardew-valley-concert.md": {
+      "title": "星露谷物语演奏会",
+      "slug": "stardew-valley-concert",
+      "content_path": "posts/2025-10-03-stardew-valley-concert",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.834443
+        },
+        {
+          "post_key": "posts/2025-06-20-games-i-played-in-june.md",
+          "content_path": "posts/2025-06-20-games-i-played-in-june",
+          "title": "六月玩了什么",
+          "score": 0.831238
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.82624
+        }
+      ]
+    },
+    "posts/2025-10-04-ipod-with-rockbox.md": {
+      "title": "再次尝试给 iPod Video 安装 Rockbox",
+      "slug": "rockbox-on-ipod-video-2025",
+      "content_path": "posts/2025-10-04-ipod-with-rockbox",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-08-26-ipod-import.md",
+          "content_path": "posts/2024-08-26-ipod-import",
+          "title": "在 2024 年给 iPod 填充音乐的工作流程",
+          "score": 0.910639
+        },
+        {
+          "post_key": "posts/2024-12-31-ipod-mod.md",
+          "content_path": "posts/2024-12-31-ipod-mod",
+          "title": "iPod Video gen 5.5 翻新",
+          "score": 0.846482
+        },
+        {
+          "post_key": "posts/2023-11-20-app-defaults-2023.md",
+          "content_path": "posts/2023-11-20-app-defaults-2023",
+          "title": "我的默认应用 2023",
+          "score": 0.803058
+        }
+      ]
+    },
+    "posts/2025-10-15-dictionary.md": {
+      "title": "给 KOReader 加字典",
+      "slug": "add-dictionary-to-koreader",
+      "content_path": "posts/2025-10-15-dictionary",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-11-16-kobo-koreader-reset.md",
+          "content_path": "posts/2025-11-16-kobo-koreader-reset",
+          "title": "Kobo KOReader Setup",
+          "score": 0.835726
+        },
+        {
+          "post_key": "posts/2025-03-04-make-internet-experience-great-again.md",
+          "content_path": "posts/2025-03-04-make-internet-experience-great-again",
+          "title": "复古就是 Make Internet Experience Great Again",
+          "score": 0.779163
+        },
+        {
+          "post_key": "posts/2025-07-26-weekend-problem-solving-session.md",
+          "content_path": "posts/2025-07-26-weekend-problem-solving-session",
+          "title": "KOReader 和 Stokke Tripp Trapp screw",
+          "score": 0.768828
+        }
+      ]
+    },
+    "posts/2025-10-16-doom-emacs-macos-installation.md": {
+      "title": "安装 Doom Emacs 的一些碎碎念",
+      "slug": "doom-emacs-macos-installation",
+      "content_path": "posts/2025-10-16-doom-emacs-macos-installation",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-01-30-omz-to-fish.md",
+          "content_path": "posts/2024-01-30-omz-to-fish",
+          "title": "回归 vanilla (fish) shell",
+          "score": 0.869065
+        },
+        {
+          "post_key": "posts/2023-01-06-rime.md",
+          "content_path": "posts/2023-01-06-rime",
+          "title": "RIME 输入法配置",
+          "score": 0.841113
+        },
+        {
+          "post_key": "posts/2023-09-26-starship.md",
+          "content_path": "posts/2023-09-26-starship",
+          "title": "星船启动！",
+          "score": 0.838125
+        }
+      ]
+    },
+    "posts/2025-10-16-tahoe-menu-bar.md": {
+      "title": "macOS Tahoe menu bar 中删除已卸载的项目",
+      "slug": "tahoe-menu-bar",
+      "content_path": "posts/2025-10-16-tahoe-menu-bar",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-03-31-setapp-succession.md",
+          "content_path": "posts/2024-03-31-setapp-succession",
+          "title": "Setapp 继承计划",
+          "score": 0.853978
+        },
+        {
+          "post_key": "posts/2024-08-26-ipod-import.md",
+          "content_path": "posts/2024-08-26-ipod-import",
+          "title": "在 2024 年给 iPod 填充音乐的工作流程",
+          "score": 0.831812
+        },
+        {
+          "post_key": "posts/2024-12-03-app-defaults-2024.md",
+          "content_path": "posts/2024-12-03-app-defaults-2024",
+          "title": "我的默认应用 2024",
+          "score": 0.827155
+        }
+      ]
+    },
+    "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md": {
+      "title": "Bringing Up Bébé 和法式育儿",
+      "slug": "bringing-up-bebe-and-french-parenting",
+      "content_path": "posts/2025-10-26-bringing-up-bebe-and-french-parenting",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-09-10-cribsheet.md",
+          "content_path": "posts/2025-09-10-cribsheet",
+          "title": "Cribsheet",
+          "score": 0.896877
+        },
+        {
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
+          "title": "Adulting",
+          "score": 0.841833
+        },
+        {
+          "post_key": "posts/2025-07-29-books-preordered.md",
+          "content_path": "posts/2025-07-29-books-preordered",
+          "title": "下半年期待的新书",
+          "score": 0.840956
+        }
+      ]
+    },
+    "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md": {
+      "title": "拆分 iCloud 里的 RAW 和 jpeg 格式照片失败记",
+      "slug": "separate-jpeg-and-raw-from-icloud",
+      "content_path": "posts/2025-10-29-separate-jpeg-and-raw-from-icloud",
+      "top_similar": [
+        {
+          "post_key": "posts/2024-08-26-ipod-import.md",
+          "content_path": "posts/2024-08-26-ipod-import",
+          "title": "在 2024 年给 iPod 填充音乐的工作流程",
+          "score": 0.816331
+        },
+        {
+          "post_key": "posts/2025-10-16-tahoe-menu-bar.md",
+          "content_path": "posts/2025-10-16-tahoe-menu-bar",
+          "title": "macOS Tahoe menu bar 中删除已卸载的项目",
+          "score": 0.809974
+        },
+        {
+          "post_key": "posts/2025-05-14-day-one-migration.md",
+          "content_path": "posts/2025-05-14-day-one-migration",
+          "title": "Day One 日记搬家",
+          "score": 0.805455
+        }
+      ]
+    },
+    "posts/2025-10-31-halloween-and-lost-candies.md": {
+      "title": "万圣节糖果失窃事件",
+      "slug": "halloween-and-lost-candies",
+      "content_path": "posts/2025-10-31-halloween-and-lost-candies",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
+          "title": "Adulting",
+          "score": 0.78254
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.780814
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.776978
+        }
+      ]
+    },
+    "posts/2025-11-16-kobo-koreader-reset.md": {
+      "title": "Kobo KOReader Setup",
+      "slug": "kobo-koreader-reset",
+      "content_path": "posts/2025-11-16-kobo-koreader-reset",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-03-04-make-internet-experience-great-again.md",
+          "content_path": "posts/2025-03-04-make-internet-experience-great-again",
+          "title": "复古就是 Make Internet Experience Great Again",
+          "score": 0.872379
+        },
+        {
+          "post_key": "posts/2025-07-26-weekend-problem-solving-session.md",
+          "content_path": "posts/2025-07-26-weekend-problem-solving-session",
+          "title": "KOReader 和 Stokke Tripp Trapp screw",
+          "score": 0.857155
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.857052
+        }
+      ]
+    },
+    "posts/2026-01-01-ac2025.md": {
+      "title": "2025 年的 40 个问题和年度最佳",
+      "slug": "ac2025",
+      "content_path": "posts/2026-01-01-ac2025",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.939894
+        },
+        {
+          "post_key": "posts/2025-01-01-ac2024.md",
+          "content_path": "posts/2025-01-01-ac2024",
+          "title": "版本号 1.2024.366",
+          "score": 0.93629
+        },
+        {
+          "post_key": "posts/2023-12-31-ac2023.md",
+          "content_path": "posts/2023-12-31-ac2023",
+          "title": "2023 年的年度总结应该起什么名字",
+          "score": 0.93397
+        }
+      ]
+    },
+    "posts/2026-01-17-orb.md": {
+      "title": "地。-关于地球的运动-",
+      "slug": "orb",
+      "content_path": "posts/2026-01-17-orb",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-08-25-kojimas-memes.md",
+          "content_path": "posts/2025-08-25-kojimas-memes",
+          "title": "小岛的 me+me",
+          "score": 0.7908
+        },
+        {
+          "post_key": "posts/2024-12-01-wukong.md",
+          "content_path": "posts/2024-12-01-wukong",
+          "title": "黑神话",
+          "score": 0.786184
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.78467
+        }
+      ]
+    },
+    "posts/2026-02-22-adulting.md": {
+      "title": "Adulting",
+      "slug": "adulting",
+      "content_path": "posts/2026-02-22-adulting",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.898085
+        },
+        {
+          "post_key": "posts/2026-01-01-ac2025.md",
+          "content_path": "posts/2026-01-01-ac2025",
+          "title": "2025 年的 40 个问题和年度最佳",
+          "score": 0.889366
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.88145
+        }
+      ]
+    },
+    "posts/2026-02-23-hugo-rss-pretty-feed.md": {
+      "title": "如何美化 Hugo 的 RSS",
+      "slug": "hugo-rss-pretty-feed",
+      "content_path": "posts/2026-02-23-hugo-rss-pretty-feed",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-04-07-neodb-shortcode.md",
+          "content_path": "posts/2025-04-07-neodb-shortcode",
+          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+          "score": 0.799596
+        },
+        {
+          "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
+          "content_path": "posts/2025-06-30-drafts-action-to-hugo",
+          "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
+          "score": 0.781682
+        },
+        {
+          "post_key": "posts/2025-04-09-neodb-shortcode-fixed.md",
+          "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
+          "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
+          "score": 0.77964
+        }
+      ]
+    },
+    "posts/2026-02-24-akotsk-s1.md": {
+      "title": "七王国的骑士 第一季",
+      "slug": "a-knight-of-the-seven-kingdoms-s1",
+      "content_path": "posts/2026-02-24-akotsk-s1",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-08-25-kojimas-memes.md",
+          "content_path": "posts/2025-08-25-kojimas-memes",
+          "title": "小岛的 me+me",
+          "score": 0.803092
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.796994
+        },
+        {
+          "post_key": "posts/2025-06-20-games-i-played-in-june.md",
+          "content_path": "posts/2025-06-20-games-i-played-in-june",
+          "title": "六月玩了什么",
+          "score": 0.790345
+        }
+      ]
+    },
+    "posts/2026-03-03-fellow-es1.md": {
+      "title": "Fellow Espresso Series 1",
+      "slug": "fellow-es1",
+      "content_path": "posts/2026-03-03-fellow-es1",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-03-09-fellow-es1-pt3.md",
+          "content_path": "posts/2026-03-09-fellow-es1-pt3",
+          "title": "Fellow Espresso Series 1 pt3",
+          "score": 0.909181
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.84712
+        },
+        {
+          "post_key": "posts/2026-03-04-fellow-es1-pt2.md",
+          "content_path": "posts/2026-03-04-fellow-es1-pt2",
+          "title": "Fellow Espresso Series 1 pt2",
+          "score": 0.845758
+        }
+      ]
+    },
+    "posts/2026-03-04-fellow-es1-pt2.md": {
+      "title": "Fellow Espresso Series 1 pt2",
+      "slug": "fellow-es1-pt2",
+      "content_path": "posts/2026-03-04-fellow-es1-pt2",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-03-09-fellow-es1-pt3.md",
+          "content_path": "posts/2026-03-09-fellow-es1-pt3",
+          "title": "Fellow Espresso Series 1 pt3",
+          "score": 0.89976
+        },
+        {
+          "post_key": "posts/2026-03-03-fellow-es1.md",
+          "content_path": "posts/2026-03-03-fellow-es1",
+          "title": "Fellow Espresso Series 1",
+          "score": 0.845758
+        },
+        {
+          "post_key": "posts/2026-06-08-steamed-iced-americano.md",
+          "content_path": "posts/2026-06-08-steamed-iced-americano",
+          "title": "打发美式",
+          "score": 0.78896
+        }
+      ]
+    },
+    "posts/2026-03-09-fellow-es1-pt3.md": {
+      "title": "Fellow Espresso Series 1 pt3",
+      "slug": "fellow-es1-pt3",
+      "content_path": "posts/2026-03-09-fellow-es1-pt3",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-03-03-fellow-es1.md",
+          "content_path": "posts/2026-03-03-fellow-es1",
+          "title": "Fellow Espresso Series 1",
+          "score": 0.909181
+        },
+        {
+          "post_key": "posts/2026-03-04-fellow-es1-pt2.md",
+          "content_path": "posts/2026-03-04-fellow-es1-pt2",
+          "title": "Fellow Espresso Series 1 pt2",
+          "score": 0.89976
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.854237
+        }
+      ]
+    },
+    "posts/2026-03-12-tuna.md": {
+      "title": "Tuna, not the food",
+      "slug": "tuna",
+      "content_path": "posts/2026-03-12-tuna",
+      "top_similar": [
+        {
+          "post_key": "posts/2023-11-20-app-defaults-2023.md",
+          "content_path": "posts/2023-11-20-app-defaults-2023",
+          "title": "我的默认应用 2023",
+          "score": 0.806041
+        },
+        {
+          "post_key": "posts/2024-03-31-setapp-succession.md",
+          "content_path": "posts/2024-03-31-setapp-succession",
+          "title": "Setapp 继承计划",
+          "score": 0.803979
+        },
+        {
+          "post_key": "posts/2024-12-03-app-defaults-2024.md",
+          "content_path": "posts/2024-12-03-app-defaults-2024",
+          "title": "我的默认应用 2024",
+          "score": 0.799648
+        }
+      ]
+    },
+    "posts/2026-04-06-salmon-tartare-omurice.md": {
+      "title": "三文鱼塔塔和蛋包饭",
+      "slug": "salmon-tartare-omurice",
+      "content_path": "posts/2026-04-06-salmon-tartare-omurice",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-05-10-jont-king-crab-rice-lite.md",
+          "content_path": "posts/2026-05-10-jont-king-crab-rice-lite",
+          "title": "jônt 帝王蟹松露昆布饭平凡料理版",
+          "score": 0.874166
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.846967
+        },
+        {
+          "post_key": "posts/2025-09-28-margherita-1.md",
+          "content_path": "posts/2025-09-28-margherita-1",
+          "title": "基础款拿波里披萨",
+          "score": 0.844043
+        }
+      ]
+    },
+    "posts/2026-04-21-222.md": {
+      "title": "222",
+      "slug": "222",
+      "content_path": "posts/2026-04-21-222",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.914426
+        },
+        {
+          "post_key": "posts/2025-06-20-games-i-played-in-june.md",
+          "content_path": "posts/2025-06-20-games-i-played-in-june",
+          "title": "六月玩了什么",
+          "score": 0.901332
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.898923
+        }
+      ]
+    },
+    "posts/2026-05-10-jont-king-crab-rice-lite.md": {
+      "title": "jônt 帝王蟹松露昆布饭平凡料理版",
+      "slug": "jont-king-crab-rice-lite",
+      "content_path": "posts/2026-05-10-jont-king-crab-rice-lite",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-04-06-salmon-tartare-omurice.md",
+          "content_path": "posts/2026-04-06-salmon-tartare-omurice",
+          "title": "三文鱼塔塔和蛋包饭",
+          "score": 0.874166
+        },
+        {
+          "post_key": "posts/2025-08-20-on-cooking.md",
+          "content_path": "posts/2025-08-20-on-cooking",
+          "title": "烹饪",
+          "score": 0.815999
+        },
+        {
+          "post_key": "posts/2025-06-22-brisket.md",
+          "content_path": "posts/2025-06-22-brisket",
+          "title": "熏牛胸肉",
+          "score": 0.813931
+        }
+      ]
+    },
+    "posts/2026-05-11-bottle-aversion.md": {
+      "title": "厌奶",
+      "slug": "bottle-aversion",
+      "content_path": "posts/2026-05-11-bottle-aversion",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
+          "title": "Adulting",
+          "score": 0.800234
+        },
+        {
+          "post_key": "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md",
+          "content_path": "posts/2025-10-26-bringing-up-bebe-and-french-parenting",
+          "title": "Bringing Up Bébé 和法式育儿",
+          "score": 0.799309
+        },
+        {
+          "post_key": "posts/2025-09-06-embrace-the-white-space.md",
+          "content_path": "posts/2025-09-06-embrace-the-white-space",
+          "title": "拥抱空闲",
+          "score": 0.797211
+        }
+      ]
+    },
+    "posts/2026-06-08-steamed-iced-americano.md": {
+      "title": "打发美式",
+      "slug": "steam-your-americano",
+      "content_path": "posts/2026-06-08-steamed-iced-americano",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-03-09-fellow-es1-pt3.md",
+          "content_path": "posts/2026-03-09-fellow-es1-pt3",
+          "title": "Fellow Espresso Series 1 pt3",
+          "score": 0.846309
+        },
+        {
+          "post_key": "posts/2026-03-03-fellow-es1.md",
+          "content_path": "posts/2026-03-03-fellow-es1",
+          "title": "Fellow Espresso Series 1",
+          "score": 0.836099
+        },
+        {
+          "post_key": "posts/2025-08-29-orange-espresso-tonic.md",
+          "content_path": "posts/2025-08-29-orange-espresso-tonic",
+          "title": "橙味浓缩咖啡汤力水",
+          "score": 0.817025
+        }
+      ]
+    }
+  }
+}

@@ -45,7 +45,10 @@ isableFastRender
 .env
 
 ## Local dev
-dev.sh
+dev.fish
+
+## Embeddings full cache (intermediate artifact; Hugo reads related_posts.json instead)
+data/post_embeddings.json
 
 ## Claude Code
 SKILL.md

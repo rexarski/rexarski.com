@@ -26,6 +26,7 @@ from urllib import error, request
 
 CONTENT_DIR = Path("content/posts")
 DB_PATH = Path("data/post_embeddings.json")
+SLIM_DB_PATH = Path("data/related_posts.json")
 # Model name as requested. LM Studio often uses the currently loaded model,
 # but we provide this name in the request and database metadata.
 MODEL_NAME = "text-embedding-embeddinggemma-300m"
@@ -384,6 +385,24 @@ def main() -> None:
     with DB_PATH.open("w", encoding="utf-8") as fh:
         json.dump(database, fh, ensure_ascii=False, indent=2)
     print(f"Wrote embedding database to {DB_PATH}")
+
+    slim_posts = {
+        key: {
+            "title": entry["title"],
+            "slug": entry.get("slug"),
+            "content_path": entry["content_path"],
+            "top_similar": entry.get("top_similar", []),
+        }
+        for key, entry in posts_data.items()
+    }
+    slim_db = {
+        "model": MODEL_NAME,
+        "generated_at": database["generated_at"],
+        "posts": slim_posts,
+    }
+    with SLIM_DB_PATH.open("w", encoding="utf-8") as fh:
+        json.dump(slim_db, fh, ensure_ascii=False, indent=2)
+    print(f"Wrote slim related-posts index to {SLIM_DB_PATH}")
 
 
 if __name__ == "__main__":
