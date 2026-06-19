@@ -1,6 +1,6 @@
 {
   "model": "text-embedding-embeddinggemma-300m",
-  "generated_at": "2026-06-09T02:00:41.683891+00:00",
+  "generated_at": "2026-06-19T03:39:47.842324+00:00",
   "posts": {
     "posts/2022-09-05-sentiment-analysis.md": {
       "title": "Sentiment analysis 只是有点用处",
@@ -2549,6 +2549,31 @@
           "content_path": "posts/2025-08-29-orange-espresso-tonic",
           "title": "橙味浓缩咖啡汤力水",
           "score": 0.817025
+        }
+      ]
+    },
+    "posts/2026-06-18-diapers.md": {
+      "title": "新闻媒体是草台班子吗？",
+      "slug": "diapers",
+      "content_path": "posts/2026-06-18-diapers",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-09-10-cribsheet.md",
+          "content_path": "posts/2025-09-10-cribsheet",
+          "title": "Cribsheet",
+          "score": 0.849038
+        },
+        {
+          "post_key": "posts/2026-01-01-ac2025.md",
+          "content_path": "posts/2026-01-01-ac2025",
+          "title": "2025 年的 40 个问题和年度最佳",
+          "score": 0.848067
+        },
+        {
+          "post_key": "posts/2026-02-22-adulting.md",
+          "content_path": "posts/2026-02-22-adulting",
+          "title": "Adulting",
+          "score": 0.841315
         }
       ]
     }

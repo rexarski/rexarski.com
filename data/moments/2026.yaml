@@ -3,6 +3,15 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-06-14
+  title: F-91WB-7A white
+  type: ⌚
+  note: 噜子很喜欢的新玩具
+  url: https://www.casio.com/us/watches/casio/product.F-91WB-7A/
+- date: 2026-06-13
+  title: I talk like a river
+  type: book
+  note: 给噜子睡前读故事（可能还是太深奥了）
 - date: 2026-06-07
   title: 发现噜子很喜欢 manual grinder
   type: 🍼
