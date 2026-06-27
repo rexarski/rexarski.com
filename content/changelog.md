@@ -6,6 +6,8 @@ layout = "changelog"
 
 # changelog
 
+- 2026-06-27
+  - 新增 `tierlist` + `tier` shortcode：纯 CSS TierMaker 风格分级列表，支持 `tiermaker` / `coffee` 预设调色盘（或不传则灰色），tier 内容为普通 markdown 列表，数量不限。
 - 2026-06-06
   - 新增 [platespotting](/platespotting/) 页面，记录路上撞见的有趣车牌（数据源 `data/plates.yaml`，仅 `plate` + 可选 `meaning`，两列对齐渲染）
   - Now 「当下」迁移到 `data/now_current.yaml`，每条强制带 `start` 字段，归档到 `now_history` 只需补一个 `end` 后剪切

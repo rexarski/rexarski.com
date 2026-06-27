@@ -1213,6 +1213,155 @@
         margin-bottom: 0;
     }
 
+    /* ─── Tier List ─────────────────────────────────────────────── */
+    .tier-list {
+        margin: 2rem 0;
+        border-radius: 0.35em;
+        overflow: hidden;
+    }
+
+    .tier-row {
+        display: flex;
+        min-height: 3.75rem;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .tier-row:first-child {
+        border-top: 1px solid var(--border);
+    }
+
+    .tier-label {
+        flex: 0 0 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--font-serif);
+        font-size: var(--fs-3);
+        font-weight: 700;
+        color: #fff;
+        background: var(--muted);
+    }
+
+    .tier-label span {
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+    }
+
+    /* ─── Tier palettes ──────────────────────────────────── */
+    .tier-list-palette-tiermaker .tier-row:nth-child(1) .tier-label {
+        background: #c0392b;
+    }
+    .tier-list-palette-tiermaker .tier-row:nth-child(2) .tier-label {
+        background: #d35400;
+    }
+    .tier-list-palette-tiermaker .tier-row:nth-child(3) .tier-label {
+        background: #b8860b;
+    }
+    .tier-list-palette-tiermaker .tier-row:nth-child(4) .tier-label {
+        background: #27ae60;
+    }
+    .tier-list-palette-tiermaker .tier-row:nth-child(5) .tier-label {
+        background: #2980b9;
+    }
+    .tier-list-palette-tiermaker .tier-row:nth-child(6) .tier-label {
+        background: #8e44ad;
+    }
+    .tier-list-palette-tiermaker .tier-row:nth-child(7) .tier-label {
+        background: #7f8c8d;
+    }
+    .tier-list-palette-tiermaker .tier-row:nth-child(8) .tier-label {
+        background: #2c3e50;
+    }
+
+    .tier-list-palette-coffee .tier-row:nth-child(1) .tier-label {
+        background: #4a2c2a;
+    }
+    .tier-list-palette-coffee .tier-row:nth-child(2) .tier-label {
+        background: #6f4e37;
+    }
+    .tier-list-palette-coffee .tier-row:nth-child(3) .tier-label {
+        background: #8b6914;
+    }
+    .tier-list-palette-coffee .tier-row:nth-child(4) .tier-label {
+        background: #6b8e23;
+    }
+    .tier-list-palette-coffee .tier-row:nth-child(5) .tier-label {
+        background: #8b7355;
+    }
+    .tier-list-palette-coffee .tier-row:nth-child(6) .tier-label {
+        background: #5c4033;
+    }
+    .tier-list-palette-coffee .tier-row:nth-child(7) .tier-label {
+        background: #8b7d6b;
+    }
+    .tier-list-palette-coffee .tier-row:nth-child(8) .tier-label {
+        background: #3e2723;
+    }
+
+    .tier-items {
+        flex: 1;
+        padding: 0.65rem 0.85rem;
+        background: var(--bg);
+    }
+
+    .tier-items ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+        align-items: center;
+    }
+
+    .tier-items li {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.2rem 0.55rem;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 0.25rem;
+        font-size: var(--fs-0);
+        line-height: 1.4;
+        margin: 0;
+    }
+
+    .tier-items img {
+        width: 2.2rem;
+        height: 2.2rem;
+        object-fit: cover;
+        border-radius: 0.15rem;
+    }
+
+    .tier-items a {
+        text-decoration: underline;
+        text-underline-offset: 0.18em;
+    }
+
+    .tier-items a:hover {
+        color: var(--accent);
+    }
+
+    @media screen and (max-width: 600px) {
+        .tier-label {
+            flex: 0 0 3rem;
+            font-size: var(--fs-2);
+        }
+
+        .tier-items {
+            padding: 0.5rem;
+        }
+
+        .tier-items ul {
+            gap: 0.35rem;
+        }
+
+        .tier-items li {
+            font-size: var(--fs--1);
+            padding: 0.15rem 0.4rem;
+        }
+    }
+
     /* ─── Avatar ─────────────────────────────────────────────── */
     .avatar {
         vertical-align: center;

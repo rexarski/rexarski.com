@@ -1,0 +1,7 @@
+{{- $name := .Get "name" -}}
+<div class="tier-row">
+    <div class="tier-label">
+        <span>{{ $name }}</span>
+    </div>
+    <div class="tier-items">{{ .Inner }}</div>
+</div>

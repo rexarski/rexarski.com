@@ -1,6 +1,6 @@
 {
   "model": "text-embedding-embeddinggemma-300m",
-  "generated_at": "2026-06-19T03:39:47.842324+00:00",
+  "generated_at": "2026-06-27T14:36:05.772610+00:00",
   "posts": {
     "posts/2022-09-05-sentiment-analysis.md": {
       "title": "Sentiment analysis 只是有点用处",
@@ -133,6 +133,12 @@
       "content_path": "posts/2023-01-09-group-by-and-rename",
       "top_similar": [
         {
+          "post_key": "posts/2026-06-27-hugo-tierlist-shortcode.md",
+          "content_path": "posts/2026-06-27-hugo-tierlist-shortcode",
+          "title": "Hugo TierMaker shortcode",
+          "score": 0.746498
+        },
+        {
           "post_key": "posts/2025-04-07-neodb-shortcode.md",
           "content_path": "posts/2025-04-07-neodb-shortcode",
           "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
@@ -143,12 +149,6 @@
           "content_path": "posts/2025-06-30-drafts-action-to-hugo",
           "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
           "score": 0.737962
-        },
-        {
-          "post_key": "posts/2023-10-01-learn-how-to-type.md",
-          "content_path": "posts/2023-10-01-learn-how-to-type",
-          "title": "在2023年学习打字：双拼输入法和Iris分体键盘",
-          "score": 0.736729
         }
       ]
     },
@@ -2574,6 +2574,31 @@
           "content_path": "posts/2026-02-22-adulting",
           "title": "Adulting",
           "score": 0.841315
+        }
+      ]
+    },
+    "posts/2026-06-27-hugo-tierlist-shortcode.md": {
+      "title": "Hugo TierMaker shortcode",
+      "slug": "hugo-tierlist-shortcode",
+      "content_path": "posts/2026-06-27-hugo-tierlist-shortcode",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-04-07-neodb-shortcode.md",
+          "content_path": "posts/2025-04-07-neodb-shortcode",
+          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+          "score": 0.88519
+        },
+        {
+          "post_key": "posts/2025-04-09-neodb-shortcode-fixed.md",
+          "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
+          "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
+          "score": 0.860279
+        },
+        {
+          "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
+          "content_path": "posts/2025-06-30-drafts-action-to-hugo",
+          "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
+          "score": 0.848876
         }
       ]
     }

@@ -3,6 +3,15 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-06-26
+  title: 噜子听着《土耳其进行曲》会手舞足蹈
+  type: 🍼
+- date: 2026-06-25
+  title: 噜子喊完妈妈哈哈大笑
+  type: 🍼
+- date: 2026-06-21
+  title: 噜子会自己扶站了
+  type: 🍼
 - date: 2026-06-14
   title: F-91WB-7A white
   type: ⌚

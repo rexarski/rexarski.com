@@ -1,0 +1,4 @@
+{{- $palette := .Get "palette" | default "" -}}
+<div class="tier-list{{ with $palette }} tier-list-palette-{{ . }}{{ end }}">
+    {{ .Inner }}
+</div>
