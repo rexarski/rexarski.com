@@ -13,8 +13,6 @@ menu = "main"
 
 ### 其他栖息地
 
-- [omg.lol](https://qr.omg.lol)
-- [statuslog](https://qr.status.lol/)
 - [mastodon](https://mastodon.social/@rexarski)
 - [bsky](https://bsky.app/profile/rqiu.bsky.social)
 - [neodb](https://neodb.social/users/rexarski/)

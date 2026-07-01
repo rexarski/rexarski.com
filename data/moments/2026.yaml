@@ -3,6 +3,10 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-06-28
+  title: 看完了《镖人》单行本 13 卷
+  type: book
+  url: https://m.xinmanhua.net/comic/273042737
 - date: 2026-06-26
   title: 噜子听着《土耳其进行曲》会手舞足蹈
   type: 🍼
