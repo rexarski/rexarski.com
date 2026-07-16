@@ -7,7 +7,7 @@ weight = 4
 
 {{< toc >}}
 
-updated on 2026-05-19
+updated on 2026-07-05
 
 整理自站内相关记录（如 [Kobo KOReader 重装](/posts/kobo-koreader-reset/)、[字典](/posts/add-dictionary-to-koreader/)、[Calibre 与 USB](/posts/weekend-problem-solving-session/)），方便以后重装或换机时一页看完。**设备以 Kobo + KOReader 为主**；其他机型安装路径见 [官方 Wiki](https://github.com/koreader/koreader/wiki)。
 
@@ -50,6 +50,7 @@ updated on 2026-05-19
 - [filebrowserplus](https://github.com/patelneeraj/filebrowserplus.koplugin)
 - (Optional) [Bookends](https://github.com/AndyHazz/bookends.koplugin)
 - (Optional) [Bookshelf](https://github.com/AndyHazz/bookshelf.koplugin)
+- (Optional) [foot-cream](https://github.com/Fank1/foot-cream)
 
 ## User patches
 
