@@ -834,36 +834,24 @@
         font-variant-numeric: tabular-nums;
     }
 
-    /* ─── Dithering photo ─────────────────────── */
-    .dithering-photo {
-        perspective: 1200px;
+    /* ─── Moments photo ─────────────────────── */
+    .moments-photo {
+        position: relative;
         margin: 2rem auto;
         max-width: 70%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .dithering-photo-inner {
-        transform-style: preserve-3d;
-        transition: transform 0.12s ease-out;
         border-radius: 8px;
         overflow: hidden;
         box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
     }
 
-    .dithering-photo-inner canvas,
-    .dithering-photo-inner img {
+    .moments-photo video {
         display: block;
         max-width: 100%;
         height: auto;
         vertical-align: middle;
     }
 
-    .dithering-photo-face {
-        position: relative;
-    }
-
-    .dithering-photo-caption {
+    .moments-photo-caption {
         position: absolute;
         bottom: 0;
         left: 0;
