@@ -63,10 +63,6 @@
         </main>
         <footer>{{- partial "footer.html" . -}}</footer>
 
-        {{ if .HasShortcode "dithering_photo" }}
-        {{- partial "dithering_photo_script.html" . -}}
-        {{ end }}
-
         <!-- A partial to be overwritten by the user.
         Simply place a custom_body.html into
         your local /layouts/partials-directory -->
