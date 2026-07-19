@@ -8,7 +8,7 @@ theme = 'hugo-bearblog'
 # Basic metadata configuration for your blog.
 title = "howaboutqiu"
 author = "Qiū Ruì"
-copyright = "© Qiū Ruì 2022-2025"
+copyright = "© Qiū Ruì"
 locale = "zh-CN"
 
 # Generate a nice robots.txt for SEO
@@ -17,9 +17,6 @@ enableRobotsTXT = true
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
-
-[outputs]
-section = ["HTML", "JSON"]
 
 [permalinks]
   posts = "/posts/:year/:month/:slug/"

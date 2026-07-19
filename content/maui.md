@@ -10,7 +10,7 @@ Updated on 2024-07-28
 {{< toc >}}
 
 <div style="text-align: center;">
-  <img src="/images/Haleakala.gif" alt="8 seconds of sunset on Haleakalā" style="flex: 1; max-width: 50%; margin-right: 10px; display: inline-block;">
+  <video src="/images/Haleakala.mp4" autoplay loop muted playsinline aria-label="8 seconds of sunset on Haleakalā" style="flex: 1; max-width: 50%; margin-right: 10px; display: inline-block;"></video>
 </div>
 
 <!-- {{< youtube u7xXI3uF1Nc >}} -->
@@ -52,7 +52,7 @@ Hey, thanks for being here! Hope you enjoy your stay on the island(s). I do wann
 - Snorkeling at Molokini Crater.
 - If you are visiting Haleakalā, make sure to check the weather forecast. It could be freezing up there.
   - Sunrise is beautiful but it’s a long drive and you need to book a spot in advance.
-  - Sunset is also beautiful but could be crowded. (See gif above!)
+  - Sunset is also beautiful but could be crowded. (See video above!)
 - If you are visiting Lanai Island and a cat person, Lanai Cat Sanctuary is a must-go.
 - Four Seasons Resort Maui at Wailea. That's where they shot the first season of the White Lotus. Dining option is great.
 - Maui Humane Society.
@@ -97,5 +97,5 @@ Not many food recommendations and probably you’ve already planned some point o
 ***
 
 <div style="display: flex; justify-content: center;">
-<img src="/images/maui-pixel.gif" alt="That tree, in pixels" style="max-width: 50%;">
+<video src="/images/maui-pixel.mp4" autoplay loop muted playsinline aria-label="That tree, in pixels" style="max-width: 50%;"></video>
 </div>

@@ -1,26 +1,6 @@
-<!-- <script>
-    MathJax = {
-        tex: {
-            inlineMath: [
-                ['$', '$'],
-                ['\\(', '\\)'],
-            ],
-        },
-        svg: {
-            fontCache: 'global',
-        },
-    };
-</script>
-<script
-    id="MathJax-script"
-    async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-></script> -->
-
 <script>
     function isPageDark() {
         const body = document.body;
-        const mode = localStorage.getItem('darkMode');
         if (body.classList.contains('force-dark')) return true;
         if (body.classList.contains('force-light')) return false;
         return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
