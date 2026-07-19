@@ -10,6 +10,7 @@ layout = "changelog"
   - 移除博文关系图：`/graph` 页面与 `/posts` 列表页底部的「关系图」彩蛋入口一并下线，vis-network 前端与数据生成模板全部删除（每篇博文末尾的「相关博文」不受影响）
   - maui 页两张大 GIF（合计约 19MB）转为循环播放的 MP4 视频（约 2.6MB），观感不变、加载明显变快；moments 页底部的 Haleakalā 照片同步改为视频，不再经过 dithering 组件
   - 删除四个未使用的 shortcode（`about_card` / `now_card` / `million_meter_club` / `dithering_photo`）及相关 CSS
+  - how2home 页面移出本站，内容回归本地 Obsidian 笔记
 - 2026-06-27
   - 新增 `tierlist` + `tier` shortcode：纯 CSS TierMaker 风格分级列表，支持 `tiermaker` / `coffee` 预设调色盘（或不传则灰色），tier 内容为普通 markdown 列表，数量不限。
 - 2026-06-06
@@ -82,7 +83,7 @@ layout = "changelog"
 - 2025-05-14
   - 重新规划了文章的标签，保证文章单篇只有一个四字标签；且在文章列表页的标签按数量从高到低排列
 - 2025-05-09
-  - 增加了两个顶级页面: [toolbox](/toolbox) 和 [how2home](/how2home)
+  - 增加了两个顶级页面: [toolbox](/toolbox) 和 how2home（后者已于 2026-07-19 移出本站）
 - 2025-04-09
   - 添加了 Changelog （本页面）
   - 用 [Mastodon embed timeline widget](https://gitlab.com/idotj/mastodon-embed-timeline) 配置了「闲话」显示我的 Mastodon 时间线
