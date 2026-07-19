@@ -5,43 +5,46 @@
 Made with
 
 - [Hugo](https://gohugo.io/)
-- [`hugo-bearblog` ʕ•ᴥ•ʔ](https://github.com/janraasch/hugo-bearblog)
-- [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [Fraunces](https://fonts.google.com/specimen/Fraunces), [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- [`hugo-bearblog` ʕ•ᴥ•ʔ](https://github.com/janraasch/hugo-bearblog) — theme, vendored as a git submodule; never edit it directly, override in `layouts/` instead
+- [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [Fraunces](https://fonts.google.com/specimen/Fraunces), [JetBrains Mono](https://www.jetbrains.com/lp/mono/) — loaded from Google Fonts, weights 400–700 only
 
-Typography on the live site is only those three families (loaded from Google Fonts). There is no self-hosted pixel font.
+## Where things live
 
-## Note
+- **Styles**: `assets/css/main.css`, published minified + fingerprinted by the `layouts/partials/style.html` override. Not in the theme, not an inline `<style>`.
+- **Hand-edited data**: `data/now_current.yaml` / `data/now_history.yaml` (now page), `data/moments/<year>.yaml` (one file per year), `data/plates.yaml` (platespotting).
+- **Generated data**: `data/concept2_distance.json` (rowing progress bar on /now, from `concept2_scraper.sh`) and `data/related_posts.json` (相关博文, committed) are build inputs; `data/post_embeddings.json` is a gitignored local embedding cache.
 
+## Local dev
+
+Just writing? This is enough — the committed data files cover everything:
+
+```bash
+hugo server --gc -D --disableFastRender --buildFuture
+```
+
+Full refresh (rowing data + related posts): run `./dev.fish`. The related-posts step (`generate_post_embeddings.py`) needs a local LM Studio server with an embeddings model loaded; pass `--refresh` to rebuild the cache from scratch.
+
+## Shortcodes
+
+`toc`, `postslist`, `tier` / `tierlist`, `plates`, `blog_heatmap`, `now_current` / `now_history` / `now_progress_bars`
+
+## Conventions
+
+- Look-affecting changes get a Mandarin entry in `content/changelog.md`.
 - **Do NOT** use `blog`, `projects`, `zh` or any other tab names as tag names.
+- Big GIFs become looping MP4s, embedded as `<video src="…" autoplay loop muted playsinline></video>`:
+
+  ```bash
+  ffmpeg -i in.gif -movflags +faststart -pix_fmt yuv420p \
+    -vf 'scale=trunc(iw/2)*2:trunc(ih/2)*2' -an out.mp4
+  ```
+
+- Netlify builds with the Hugo version pinned in `netlify.toml` (0.160.1); local Hugo may be newer, so bump the pin before relying on a newer template feature.
 
 ## Update theme as a submodule
 
 ```bash
 git submodule update --remote --merge
-```
-
-## Local testing
-
-```bash
-hugo server --gc -D --disableFastRender --buildFuture
-```
-
-## Dev script
-
-My go-to script for local development:
-
-```bash
-#!/bin/bash
-
-# Run concept2_scraper.sh
-bash concept2_scraper.sh
-
-# Run generate_post_embeddings.py
-# add a --refresh flag if a rebuild is needed
-python3 generate_post_embeddings.py
-
-# Then start hugo server
-hugo server --gc -D --disableFastRender --buildFuture
 ```
 
 ## Refer to a previous blog post (with file path)
