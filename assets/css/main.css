@@ -493,114 +493,13 @@
         left: 1px;
     }
 
-    /* ─── Posts list heading + graph buttons ─────────────────── */
+    /* ─── Posts list heading ─────────────────────────────────── */
     .posts-list-heading {
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 0.5rem;
-    }
-
-    .graph-view-link {
-        font-size: var(--fs-0);
-        font-weight: 500;
-        color: var(--accent);
-    }
-
-    button.graph-view-btn {
-        background: none;
-        border: none;
-        cursor: pointer;
-        font: inherit;
-        padding: 0;
-        color: var(--accent);
-    }
-
-    button.graph-view-btn:hover {
-        text-decoration: underline;
-        text-decoration-thickness: 2px;
-    }
-
-    .graph-easter-egg {
-        text-align: center;
-        margin: 0.5rem 0 0;
-    }
-
-    .graph-view-btn-easter {
-        background: none;
-        border: none;
-        cursor: pointer;
-        font-size: var(--fs--2);
-        color: var(--muted);
-        padding: 0;
-        text-decoration: none;
-    }
-
-    .graph-view-btn-easter:hover {
-        color: var(--muted-strong);
-    }
-
-    /* ─── Graph overlay ──────────────────────────────────────── */
-    .graph-overlay {
-        position: fixed;
-        inset: 0;
-        z-index: 1000;
-        display: flex;
-        align-items: stretch;
-        justify-content: stretch;
-        box-sizing: border-box;
-        opacity: 0;
-        visibility: hidden;
-        transition:
-            opacity 0.2s ease,
-            visibility 0.2s ease;
-        background: var(--surface);
-    }
-
-    .graph-overlay.graph-overlay-open {
-        opacity: 1;
-        visibility: visible;
-    }
-
-    .graph-overlay-close {
-        position: absolute;
-        top: 0.75rem;
-        right: 0.75rem;
-        z-index: 10;
-        width: 2.25rem;
-        height: 2.25rem;
-        padding: 0;
-        border: none;
-        border-radius: 50%;
-        background: var(--border);
-        color: var(--text);
-        font-size: var(--fs-3);
-        line-height: 1;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0.85;
-    }
-
-    .graph-overlay-close:hover {
-        opacity: 1;
-        background: var(--muted-strong);
-    }
-
-    .graph-canvas-container {
-        flex: 1;
-        width: 100%;
-        height: 100%;
-        min-height: 0;
-    }
-
-    .graph-overlay-msg {
-        margin: 0;
-        padding: 2rem;
-        color: var(--muted);
-        text-align: center;
     }
 
     /* ─── Blog post list ─────────────────────────────────────── */

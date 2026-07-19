@@ -18,9 +18,6 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
-[outputs]
-section = ["HTML", "JSON"]
-
 [permalinks]
   posts = "/posts/:year/:month/:slug/"
   tags = "/:slug/"
