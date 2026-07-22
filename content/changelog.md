@@ -6,6 +6,9 @@ layout = "changelog"
 
 # changelog
 
+- 2026-07-21
+  - RSS 由只发摘要改为**发全文**：`index.rss.xml` 的 `<description>` 从 `.Summary` 换成 `.Content`，用 `CDATA` 包裹避免整段 HTML 被转义；正文里的根相对链接与图片（`/images/…` 之类）在 feed 里统一改写成绝对地址，阅读器里也能正常加载，站外已是绝对地址的链接不动
+  - 接入 [neat-annotations](https://github.com/syabro/neat-annotations)：纯 CSS 的手绘箭头 + 手写标签，`neat-annotations.css` 下载到 `assets/css/` 本地随 `main.css` 一起 minify + fingerprint，不走 CDN；新增 `ann` 短代码包装（`dir` 八向、`color` 内置六色或任意色值、`note` 标签、`nomark`），暗色下给 `.ann` 补 `color-scheme: dark` 让 `light-dark()` 落到深色支。标签本是 CSS `::after` 画的、在 RSS/阅读器里会消失，所以 `ann` 额外输出一个 `sr-only` 的 `.ann-note`（正文视觉隐藏，无 CSS 时读作「目标（标签）」），兼顾 RSS 与读屏。示例见 [Neat annotations](/posts/2026/07/neat-annotations/)
 - 2026-07-19
   - 移除博文关系图：`/graph` 页面与 `/posts` 列表页底部的「关系图」彩蛋入口一并下线，vis-network 前端与数据生成模板全部删除（每篇博文末尾的「相关博文」不受影响）
   - maui 页两张大 GIF（合计约 19MB）转为循环播放的 MP4 视频（约 2.6MB），观感不变、加载明显变快；moments 页底部的 Haleakalā 照片同步改为视频，不再经过 dithering 组件

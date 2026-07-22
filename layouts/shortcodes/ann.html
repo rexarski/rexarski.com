@@ -1,0 +1,31 @@
+{{- /*
+  neat-annotations wrapper: hand-drawn arrow + handwritten label, pure CSS.
+  https://github.com/syabro/neat-annotations
+  Inline: keep the whole call on one line so goldmark stays inline.
+  Params:
+    dir    n | ne | e | se | s | sw | w | nw   arrow direction
+    color  amber|blue|green|red|purple|rainbow -> built-in class; anything else (e.g. #ff1493) -> --ann-color
+    note   label text (omit to skip the arrow + label, i.e. highlight only)
+    nomark "true" adds ann-no-mark (when the target already has its own fill)
+*/ -}}
+{{- $dir := .Get "dir" -}}
+{{- $color := .Get "color" -}}
+{{- $note := .Get "note" -}}
+{{- $nomark := .Get "nomark" -}}
+{{- $named := slice "amber" "blue" "green" "red" "purple" "rainbow" -}}
+{{- $classes := slice "ann" -}}
+{{- with $dir }}{{ $classes = $classes | append (printf "ann-%s" .) }}{{ end -}}
+{{- $custom := "" -}}
+{{- with $color -}}
+  {{- if in $named . -}}
+    {{- $classes = $classes | append (printf "ann-%s" .) -}}
+  {{- else -}}
+    {{- $custom = . -}}
+  {{- end -}}
+{{- end -}}
+{{- if eq $nomark "true" }}{{ $classes = $classes | append "ann-no-mark" }}{{ end -}}
+{{- /* The label is drawn by CSS (::after content: attr(data-note)), which
+       vanishes wherever CSS is stripped — RSS, reader mode, screen readers.
+       So also emit the note as real DOM text in an sr-only span: hidden on the
+       styled site, but read out loud / shown in RSS as "target（note）". */ -}}
+<span class="{{ delimit $classes " " }}"{{ with $note }} data-note="{{ . }}"{{ end }}{{ with $custom }} style="--ann-color: {{ . | safeCSS }}"{{ end }}>{{ .Inner }}{{ with $note }}<span class="ann-note">（{{ . }}）</span>{{ end }}</span>

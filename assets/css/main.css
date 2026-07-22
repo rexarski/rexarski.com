@@ -2013,3 +2013,52 @@
         background: var(--link-hover-bg);
         color: var(--link-hover-fg);
     }
+
+    /* neat-annotations bridge: the vendored file uses light-dark() for the
+       highlight mark, which keys off color-scheme. This site drives dark mode
+       with body classes, not color-scheme, so map the classes onto the
+       annotations to let light-dark() resolve to the dark branch. */
+    body.theme-dark .ann,
+    body.force-dark .ann {
+        color-scheme: dark;
+    }
+
+    /* The annotation label is drawn from data-note via a CSS ::after, so it
+       disappears wherever CSS is stripped (RSS, reader mode). The ann shortcode
+       also emits the note as real text in .ann-note; hide it here so the styled
+       site shows only the handwritten label, while RSS / screen readers still
+       get "target（note）". */
+    .ann-note {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+
+    /* neat-annotations showcase layouts (post demo only). Labels are absolutely
+       positioned and reserve no space, so these containers add the breathing
+       room the arrows + handwritten labels need to not collide with neighbours. */
+    .ann-demo-row {
+        margin: 1.5rem 0;
+        padding: 2.75rem 0;
+        line-height: 1.9;
+    }
+    .ann-demo-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 4.5rem 3rem;
+        place-items: center;
+        margin: 1.5rem 0;
+        padding: 3.5rem 0;
+    }
+    @media (max-width: 520px) {
+        .ann-demo-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 4rem 2rem;
+        }
+    }

@@ -61,3 +61,8 @@ ignoreErrors = ["error-disable-taxonomy"]
   startLevel = 2
   endLevel = 6
   ordered = false
+
+# RSS is full-text (see layouts/index.rss.xml), so cap the feed at the latest
+# 20 posts to keep it lean instead of shipping the whole archive every poll.
+[services.rss]
+  limit = 20

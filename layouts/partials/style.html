@@ -1,2 +1,4 @@
 {{- $css := resources.Get "css/main.css" | minify | fingerprint -}}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous" />
+{{- $ann := resources.Get "css/neat-annotations.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $ann.RelPermalink }}" integrity="{{ $ann.Data.Integrity }}" crossorigin="anonymous" />

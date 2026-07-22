@@ -35,7 +35,14 @@
       {{ range (.GetTerms "tags") }}
       <category>{{ .LinkTitle }}</category>{{ end }}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Summary | html }}</description>
+      {{- /* Full-text feed. .Content is rendered HTML, so wrap it in CDATA
+             instead of entity-escaping. Root-relative src/href (e.g. /images/…)
+             are rewritten to absolute so images and links resolve inside RSS
+             readers; protocol-relative //… and already-absolute URLs are left
+             alone. */ -}}
+      {{- $base := site.BaseURL | strings.TrimRight "/" -}}
+      {{- $content := .Content | replaceRE `(src|href)="/([^"/][^"]*)"` (printf `${1}="%s/${2}"` $base) -}}
+      <description>{{ printf "<![CDATA[%s]]>" $content | safeHTML }}</description>
     </item>
     {{ end }}
   </channel>

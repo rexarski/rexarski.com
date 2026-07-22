@@ -7,6 +7,7 @@ Made with
 - [Hugo](https://gohugo.io/)
 - [`hugo-bearblog` ʕ•ᴥ•ʔ](https://github.com/janraasch/hugo-bearblog) — theme, vendored as a git submodule; never edit it directly, override in `layouts/` instead
 - [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [Fraunces](https://fonts.google.com/specimen/Fraunces), [JetBrains Mono](https://www.jetbrains.com/lp/mono/) — loaded from Google Fonts, weights 400–700 only
+- [neat-annotations](https://github.com/syabro/neat-annotations) — pure-CSS hand-drawn annotations, vendored at `assets/css/neat-annotations.css` (served locally, not from the CDN) and wrapped by the `ann` shortcode
 
 ## Where things live
 
@@ -26,7 +27,7 @@ Full refresh (rowing data + related posts): run `./dev.fish`. The related-posts 
 
 ## Shortcodes
 
-`toc`, `postslist`, `tier` / `tierlist`, `plates`, `blog_heatmap`, `now_current` / `now_history` / `now_progress_bars`
+`toc`, `postslist`, `ann`, `tier` / `tierlist`, `plates`, `blog_heatmap`, `now_current` / `now_history` / `now_progress_bars`
 
 ## Conventions
 
