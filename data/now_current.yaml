@@ -3,11 +3,9 @@
 #   add an `end` field, cut the entry, paste into data/now_history.yaml.
 # Order doesn't matter — the shortcode sorts by `start` desc.
 items:
-  - start: "2026-05-11"
-    text: 自学 Toki Pona
-  - start: "2026-02-23"
-    text: 游戏时间 🔻 读书时间 🔺
   - start: "2026-06-27"
     text: "追[《镖人》](https://m.xinmanhua.net/comic/273042737)漫画"
   - start: 2026-07-05
     text: 学习拉花
+  - start: "2026-06-07"
+    text: "实践「爵士乐育儿理论」（Why 4 Jazz 的 [这期节目](https://www.xiaoyuzhoufm.com/episode/69f29da9f63496bb0e1360a4)）"
