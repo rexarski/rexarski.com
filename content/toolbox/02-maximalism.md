@@ -11,6 +11,7 @@ weight = 2
 
 - [1Password](https://1password.com)
 - [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html)
+- [AlDente](https://github.com/davidwernhart/AlDente)
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 - [Anki](https://apps.ankiweb.net)
 - [Anybox](https://anybox.app)
@@ -89,7 +90,6 @@ weight = 2
 以前用过、目前未在用的 app，留档备查。
 
 - [Affinity V2 Suite](https://store.serif.com/en-us/update/universal-licence/)
-- [AlDente](https://github.com/davidwernhart/AlDente)
 - [Alfred](https://www.alfredapp.com/)
 - [Android File Transfer](https://www.android.com/filetransfer/)
 - [Audacity](https://www.audacityteam.org/)

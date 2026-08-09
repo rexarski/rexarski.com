@@ -3,7 +3,7 @@ title: "Other Things II"
 date: 2025-08-15T10:51:50-04:00
 description: "其他一些想到的改变。"
 slug: "other-things-ii"
-tags: ["日日谈", "parenting"]
+tags: ["日日谈", "日日谈育儿"]
 ---
 
 - 开车绝不超过限速；

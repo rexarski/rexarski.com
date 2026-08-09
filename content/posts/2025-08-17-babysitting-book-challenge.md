@@ -3,7 +3,7 @@ title: "带娃的时候干点啥好之一周读书挑战"
 date: 2025-08-17T23:42:20-04:00
 description: "估计大多数是育儿书籍。"
 slug: "babysitting-book-challenge"
-tags: ["日日谈", "parenting"]
+tags: ["日日谈", "日日谈育儿"]
 ---
 
 副标题可以是：「关于我在照顾新生儿的前两个星期里空闲时间应该做些什么」。

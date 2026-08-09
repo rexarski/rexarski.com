@@ -1,6 +1,6 @@
 {
   "model": "text-embedding-embeddinggemma-300m",
-  "generated_at": "2026-07-22T03:47:58.577310+00:00",
+  "generated_at": "2026-08-09T01:19:08.606393+00:00",
   "posts": {
     "posts/2022-09-05-sentiment-analysis.md": {
       "title": "Sentiment analysis 只是有点用处",
@@ -2624,6 +2624,31 @@
           "content_path": "posts/2026-06-27-hugo-tierlist-shortcode",
           "title": "Hugo TierMaker shortcode",
           "score": 0.883886
+        }
+      ]
+    },
+    "posts/2026-08-08-爵士乐育儿实验.md": {
+      "title": "爵士乐育儿实验",
+      "slug": "jazz-parenting",
+      "content_path": "posts/2026-08-08-爵士乐育儿实验",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-09-10-cribsheet.md",
+          "content_path": "posts/2025-09-10-cribsheet",
+          "title": "Cribsheet",
+          "score": 0.83168
+        },
+        {
+          "post_key": "posts/2025-10-26-bringing-up-bebe-and-french-parenting.md",
+          "content_path": "posts/2025-10-26-bringing-up-bebe-and-french-parenting",
+          "title": "Bringing Up Bébé 和法式育儿",
+          "score": 0.828704
+        },
+        {
+          "post_key": "posts/2025-03-31-202503.md",
+          "content_path": "posts/2025-03-31-202503",
+          "title": "至少写完这篇也算是完成了一个待办事项",
+          "score": 0.823176
         }
       ]
     }

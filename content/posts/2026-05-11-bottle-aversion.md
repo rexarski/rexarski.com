@@ -4,7 +4,7 @@ date: 2026-05-11T19:49:08-04:00
 slug: bottle-aversion
 description: 厌奶的同时如果体重正常增长，那也行吧。（摊手）
 tags:
-  - parenting
+  - 日日谈育儿
 ---
 
 噜子进入了厌奶期。

@@ -3,6 +3,41 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-08-08
+  type: 🍼
+  note: 长势喜人
+- date: 2026-08-07
+  type: 🗒️
+  title: Mononote
+  note: 一次专注于「一个」便签
+  url: https://apps.apple.com/sg/app/mononote-one-note/id6788222857
+- date: 2026-08-02
+  type: 🎞️
+  note: 剪视频虽然累但是有成就感
+- date: 2026-08-02
+  type: 🍼
+  note: 噜子在 play cafe 表现良好
+- date: 2026-08-02
+  type: podcast
+  title: 漫谈死亡搁浅丨你是我通往未来的桥梁 Vol.3
+  url: https://pca.st/episode/4a27eb13-a03c-47f2-9a2e-a5b47182d3f0
+- date: 2026-08-01
+  type: 🛋️
+  title: 小阅读灯有助于我的实体书阅读量
+- date: 2026-07-31
+  type: ✅
+  title: Clear for iOS
+  note: 还是怀念以前的那个版本
+  url: https://www.useclear.com/
+- date: 2026-07-30
+  type: game
+  title: Splatoon Raiders
+  note: 重拾起对 Switch 2 的热爱
+- date: 2026-07-26
+  title: Liar's Remorse
+  url: https://music.apple.com/us/album/liars-remorse/1891161441?i=1891161451
+  type: music
+  note: The Strokes - Reality Awaits
 - date: 2026-07-25
   title: 带噜子去看到了真实的农场动物
   type: 🐮
