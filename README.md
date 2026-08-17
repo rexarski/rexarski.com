@@ -13,7 +13,7 @@ Made with
 
 - **Styles**: `assets/css/main.css`, published minified + fingerprinted by the `layouts/partials/style.html` override. Not in the theme, not an inline `<style>`.
 - **Hand-edited data**: `data/now_current.yaml` / `data/now_history.yaml` (now page), `data/moments/<year>.yaml` (one file per year), `data/plates.yaml` (platespotting).
-- **Generated data**: `data/concept2_distance.json` (rowing progress bar on /now, from `concept2_scraper.sh`) and `data/related_posts.json` (相关博文, committed) are build inputs; `data/post_embeddings.json` is a gitignored local embedding cache.
+- **Generated data**: `data/concept2_distance.json` (rowing progress bar on /now, from `concept2_scraper.sh`) and `data/related_posts.json` (相关博文，committed) are build inputs; `data/post_embeddings.json` is a gitignored local embedding cache.
 
 ## Local dev
 

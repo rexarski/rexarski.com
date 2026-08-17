@@ -3,6 +3,12 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-08-16
+  type: book
+  note: 嫌疑人 x 的献身 + 一个书签阅读灯，重新激起我实体书的兴趣
+- date: 2026-08-14
+  type: 🍼
+  note: 身高体重都赶上了大部队
 - date: 2026-08-08
   type: 🍼
   note: 长势喜人

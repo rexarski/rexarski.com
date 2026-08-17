@@ -52,6 +52,10 @@ updated on 2026-07-05
 - (Optional) [Bookshelf](https://github.com/AndyHazz/bookshelf.koplugin)
 - (Optional) [foot-cream](https://github.com/Fank1/foot-cream)
 
+## Wallpaper
+
+- [电子墨水屏壁纸合集](https://github.com/dmellok/eink-screens)，包含有一代的 Pokédex.
+
 ## User patches
 
 官方说明：[User patches](https://koreader.rocks/user_guide/#L2-userpatches)（`koreader/patches/` 目录，文件名与优先级规则见文档）。
