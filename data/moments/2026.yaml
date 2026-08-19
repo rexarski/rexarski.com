@@ -3,6 +3,15 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-08-19
+  type: 👨‍💻
+  note: 自己给 netnewswire 做了两个主题
+  url: https://github.com/rexarski/netnewswire-themes/
+- date: 2026-08-18
+  type: podcast
+  title: 机核 SPEC丨智利之夜
+  note: 朱老师讲任何拉美相关的东西都是那么充满激情；我太喜欢波拉尼奥这个系列了
+  url: https://www.gcores.com/albums/209
 - date: 2026-08-16
   type: book
   note: 嫌疑人 x 的献身 + 一个书签阅读灯，重新激起我实体书的兴趣
