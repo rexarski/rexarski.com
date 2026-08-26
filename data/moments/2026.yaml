@@ -3,6 +3,14 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-08-25
+  type: 🍼
+  note: 上学第一天，回来就学会了爬楼梯，似乎是社会化的功劳？
+- date: 2026-08-23
+  type: url
+  url: https://perthirtysix.com/tool/pokemon-explorer
+  title: Pokemon Explorer
+  note: PerThirtySix 是我梦寐以求的「新 FiveThirtyEight」
 - date: 2026-08-19
   type: 👨‍💻
   note: 自己给 netnewswire 做了两个主题

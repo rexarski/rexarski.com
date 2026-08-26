@@ -1,6 +1,10 @@
 # Vanity / interesting plates caught in the wild.
 # Just `plate` and optional `meaning`. Newest on top — order is preserved.
 items:
+  - plate:
+  - plate: BR1DGE5
+    meaning: Friends of the Blue Ridge 或者致敬 Sam Bridges
+  - plate: II1I1
   - plate: 2WN PKS
   - plate: D1INGLE
   - plate: GOTOOLS

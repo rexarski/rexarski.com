@@ -3,8 +3,6 @@
 #   add an `end` field, cut the entry, paste into data/now_history.yaml.
 # Order doesn't matter — the shortcode sorts by `start` desc.
 items:
-  - start: "2026-06-27"
-    text: "追[《镖人》](https://m.xinmanhua.net/comic/273042737)漫画"
   - start: 2026-07-05
     text: 学习拉花
   - start: "2026-06-07"

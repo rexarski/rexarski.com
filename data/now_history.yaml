@@ -2,6 +2,9 @@
 # Items are sorted by `end` date, newest first (see now_history shortcode)
 summary: "过去的当下"
 items:
+  - start: "2026-06-27"
+    end: "2026-08-25"
+    text: "追[《镖人》](https://m.xinmanhua.net/comic/273042737)漫画"
   - start: "2026-05-11"
     end: "2026-07-26"
     text: 自学 Toki Pona
