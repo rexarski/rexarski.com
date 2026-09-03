@@ -3,6 +3,21 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-09-02
+  type: podcast
+  title: 旧世代电台 27
+  url: https://pca.st/episode/1e37772a-9fad-44fa-8ffa-281cad3ba2e6
+  note: 喜欢主播的声线、内容，和思考
+- date: 2026-09-02
+  type: ☕
+  title: HEX Coffee Roasters
+  note: 很喜欢他们的产品包装设计
+- date: 2026-08-28
+  type: 🍼
+  note: 上学第一周，很喜欢 daycare 很开心的样子
+- date: 2026-08-31
+  type: 📱
+  note: iOS 26 Liquid Glass 选择界面 clear 话可以有效减少屏幕时间
 - date: 2026-08-25
   type: 🍼
   note: 上学第一天，回来就学会了爬楼梯，似乎是社会化的功劳？

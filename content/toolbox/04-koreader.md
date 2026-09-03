@@ -46,7 +46,9 @@ updated on 2026-07-05
 
 ## Plugin
 
-- [zen_ui](https://github.com/AnthonyGress/zen_ui.koplugin), [官方网站](https://anthonygress.github.io/zen_ui.koplugin/)
+- [ZenOS](https://zen-labs.org/zen-os)
+- [ZenPM](https://zen-labs.org/zen-pm)
+- [kobo.koplugin](https://ogkevin.github.io/kobo.koplugin/introduction.html) for Kobo remote page turner
 - [filebrowserplus](https://github.com/patelneeraj/filebrowserplus.koplugin)
 - (Optional) [Bookends](https://github.com/AndyHazz/bookends.koplugin)
 - (Optional) [Bookshelf](https://github.com/AndyHazz/bookshelf.koplugin)

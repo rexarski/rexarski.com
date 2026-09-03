@@ -33,6 +33,7 @@ weight = 2
 - [Fujifilm X RAW Studio](https://fujifilm-x.com/en-us/support/download/software/x-raw-studio/)
 - [Gemini](https://macpaw.com/gemini)
 - [Ghostty](https://ghostty.org)
+- [Helium Browser](https://helium.computer)
 - [Hidden Bar](https://github.com/dwarvesf/hidden)
 - [iina](https://iina.io)
 - [Insta360 Studio](https://www.insta360.com/download)

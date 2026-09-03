@@ -1,7 +1,14 @@
 # Vanity / interesting plates caught in the wild.
-# Just `plate` and optional `meaning`. Newest on top — order is preserved.
+# Just `plate` and optional `meaning`. Sorted alphabetically by `plate` at render time.
 items:
-  - plate:
+  - plate: HKUNA1
+    meaning: Hakuna?
+  - plate: ZAPS
+    meaning: Tesla 电车
+  - plate: D0GPPL
+  - plate: T0ASTED
+  - plate: F1REWRK
+  - plate: S10W STI
   - plate: BR1DGE5
     meaning: Friends of the Blue Ridge 或者致敬 Sam Bridges
   - plate: II1I1
