@@ -4,7 +4,7 @@
   {{ range $recentPost }}
     <article class="post-list-item">
       <a href="{{ .RelPermalink }}" class="post-list-item-link">
-        <span class="post-list-item-date">{{ .Date.Format "2006 01 02" }}</span>
+        <span class="post-list-item-date">{{ .Date.Format "2006-01-02" }}</span>
         <span class="post-list-item-title">{{ .Title }}</span>
       </a>
     </article>

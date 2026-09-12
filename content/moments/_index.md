@@ -1,5 +1,5 @@
 +++
-title = "快乐"
+title = "刹那"
 menu = "not on main"
 +++
 

@@ -5,7 +5,6 @@
         --content-width: 760px;
         --left-gutter: clamp(20px, 6vw, 92px);
         --page-head-width: min(100%, 700px);
-        --page-head-ascii-size: 0.95rem;
         --fs--1: 0.8rem;
         --fs--2: 0.72rem;
         --fs--3: 0.65rem;
@@ -20,7 +19,6 @@
         --lh-body: 1.68;
         --lh-meta: 1.45;
         --font-body: "Atkinson Hyperlegible Next", sans-serif;
-        --font-serif: "Fraunces", serif;
         --font-mono: "JetBrains Mono", monospace;
 
         --bg: #f8f5f1;
@@ -116,7 +114,7 @@
     h5,
     h6 {
         color: var(--heading);
-        font-family: var(--font-serif);
+        font-family: var(--font-body);
         text-wrap: pretty;
     }
 
@@ -198,59 +196,45 @@
         display: none;
     }
 
-    /* ─── Header / Wordmark ──────────────────────────────────── */
-    .title {
-        border: 0;
-        font-family: var(--font-serif);
+    /* ─── Header / Logo ──────────────────────────────────────── */
+    .site-logo-link {
+        display: inline-flex;
+        align-items: center;
+        line-height: 0;
     }
 
-    .title span {
-        font-weight: 400;
-    }
-
-    .site-wordmark {
-        display: inline-block;
-    }
-
-    .site-wordmark .wordmark {
-        height: 1.4em;
-        width: auto;
-        vertical-align: middle;
-    }
-
-    .site-wordmark .wordmark-dot {
-        fill: var(--accent);
-    }
-
-    .site-description {
-        font-size: var(--fs-0);
-        font-weight: 400;
-        color: var(--muted);
-        margin: 0.3rem 0 0 0;
-        line-height: var(--lh-meta);
-        max-width: 44ch;
+    .site-logo {
+        width: 28px;
+        height: 28px;
+        display: block;
+        color: var(--text);
     }
 
     /* ─── Navigation ─────────────────────────────────────────── */
     nav {
-        margin-top: 0.75rem;
+        margin-top: 1.1rem;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        gap: 0.35rem 1rem;
-        width: fit-content;
+        gap: 0.7rem;
         padding: 0.2rem 0;
+    }
+
+    .nav-sep {
+        color: var(--muted-strong);
+        user-select: none;
     }
 
     nav a {
         margin-right: 0;
-        color: var(--muted);
-        font-size: var(--fs-0);
+        color: var(--text);
+        font-size: var(--fs-1);
+        text-decoration: none;
         transition: color 0.18s ease;
     }
 
     nav a:hover {
-        color: var(--heading);
+        color: var(--accent);
     }
 
     nav a.active {
@@ -372,7 +356,7 @@
         color: var(--heading);
         padding: 0.5rem 0 0.5rem 1.5rem;
         margin: 2rem 0;
-        font-family: var(--font-serif);
+        font-family: var(--font-body);
         font-style: italic;
         font-size: var(--fs-1);
         line-height: 1.65;
@@ -462,7 +446,7 @@
     th {
         background-color: var(--surface);
         font-weight: 600;
-        font-family: var(--font-serif);
+        font-family: var(--font-body);
     }
 
     /* ─── Mark / Kbd ─────────────────────────────────────────── */
@@ -603,7 +587,7 @@
 
     .moments-title {
         color: var(--heading);
-        font-family: var(--font-serif);
+        font-family: var(--font-body);
         font-size: var(--fs-5);
         font-weight: 700;
         letter-spacing: -0.03em;
@@ -894,51 +878,6 @@
         color: var(--muted);
     }
 
-    /* ─── Now progress bars ──────────────────────────────────── */
-    .now-progress-bars {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        margin: 1.25rem 0;
-        padding: 1rem 0;
-    }
-
-    .now-progress-item {
-        display: grid;
-        grid-template-columns: auto 1fr auto;
-        align-items: center;
-        gap: 0 1rem;
-    }
-
-    .now-progress-label {
-        font-size: var(--fs-0);
-        font-weight: 600;
-        color: var(--text);
-        min-width: 6rem;
-    }
-
-    .now-progress-track {
-        min-width: 0;
-        height: 0.75rem;
-        background: var(--border);
-        border-radius: 999px;
-        overflow: hidden;
-    }
-
-    .now-progress-fill {
-        height: 100%;
-        background: var(--accent);
-        border-radius: 999px;
-        transition: width 0.25s ease;
-    }
-
-    .now-progress-meta {
-        font-size: var(--fs-0);
-        color: var(--muted);
-        min-width: 22ch;
-        text-align: right;
-    }
-
     /* ─── Now current (data/now_current.yaml) ────────────────── */
     .now-current {
         margin: 1rem 0 0.5rem;
@@ -967,7 +906,7 @@
         font-size: var(--fs-1);
         font-weight: 600;
         color: var(--heading);
-        font-family: var(--font-serif);
+        font-family: var(--font-body);
         list-style: none;
     }
 
@@ -976,8 +915,10 @@
     }
 
     .now-history-summary::before {
-        content: "▸ ";
+        content: "▶ ";
         display: inline-block;
+        font-size: 0.72em;
+        margin-right: 0.3em;
         color: var(--accent);
         transition: transform 0.15s ease;
     }
@@ -1074,7 +1015,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: var(--font-serif);
+        font-family: var(--font-body);
         font-size: var(--fs-3);
         font-weight: 700;
         color: #fff;
@@ -1254,7 +1195,7 @@
     .toc-wrapper .bottom-right {
         color: var(--toc-frame);
         opacity: 0.7;
-        font-family: monospace;
+        font-family: var(--font-mono);
     }
 
     .toc-wrapper::before {
@@ -1306,12 +1247,12 @@
         padding-bottom: 0.5rem;
         border-bottom: 1px solid var(--toc-frame);
         opacity: 0.7;
-        font-family: var(--font-serif);
+        font-family: var(--font-body);
     }
 
     .toc-content {
         font-size: var(--fs-0);
-        font-family: var(--font-serif);
+        font-family: var(--font-body);
     }
 
     .toc-content ul {
@@ -1433,7 +1374,7 @@
 
     /* Year sections on /posts (same list style as home; year is the heading only) */
     .post-list-year-heading {
-        font-family: var(--font-serif);
+        font-family: var(--font-body);
         font-size: var(--fs-3);
         font-weight: 600;
         letter-spacing: -0.02em;
@@ -1474,7 +1415,7 @@
     }
 
     .post-list-featured-title {
-        font-family: var(--font-serif);
+        font-family: var(--font-body);
         font-size: var(--fs-4);
         font-weight: 600;
         letter-spacing: -0.02em;
@@ -1532,26 +1473,32 @@
     /* ─── Home page head ─────────────────────────────────────── */
     .page-head {
         width: var(--page-head-width);
-        margin: 0 0 1.75rem 0;
-    }
-
-    .page-head-title {
-        margin: 0 0 0.55rem 0;
-        font-family: var(--font-mono);
-        font-size: var(--fs-2);
-        font-weight: 600;
-        color: var(--heading);
+        margin: 0.5rem 0 0 0;
+        overflow-x: auto;
     }
 
     .page-head-ascii {
         margin: 0;
         font-family: var(--font-mono);
-        font-size: var(--page-head-ascii-size);
+        font-size: 0.8rem;
         line-height: 1.16;
-        color: var(--heading);
+        color: var(--muted-strong);
         white-space: pre;
-        overflow-x: auto;
-        overflow-y: hidden;
+    }
+
+    .home-blurb {
+        margin: 0.9rem 0 0 0;
+        color: var(--muted);
+        font-size: var(--fs-0);
+        font-family: var(--font-mono);
+    }
+
+    .home-section-title {
+        margin: 3rem 0 0.75rem 0;
+        font-family: var(--font-mono);
+        font-size: var(--fs-0);
+        color: var(--muted);
+        letter-spacing: 0.06em;
     }
 
     /* ─── Footer ─────────────────────────────────────────────── */
@@ -1789,9 +1736,9 @@
         color: inherit !important;
     }
 
-    /* Wordmark never highlights on hover */
-    a.site-wordmark[href]:hover,
-    a.site-wordmark[href]:focus-visible {
+    /* Logo link never highlights on hover */
+    a.site-logo-link[href]:hover,
+    a.site-logo-link[href]:focus-visible {
         color: inherit !important;
         background-color: transparent !important;
     }
@@ -1811,6 +1758,11 @@
             width: auto;
             margin-left: 20px;
             margin-right: 20px;
+        }
+
+        .page-head {
+            overflow-x: auto;
+            overflow-y: hidden;
         }
 
         body {
@@ -1892,25 +1844,6 @@
             padding-left: 2.5rem;
             font-size: var(--fs--3);
         }
-
-        .now-progress-item {
-            grid-template-columns: 1fr;
-            grid-template-rows: auto auto auto;
-            gap: 0.25rem 0;
-        }
-
-        .now-progress-label {
-            min-width: 0;
-        }
-
-        .now-progress-track {
-            width: 100%;
-        }
-
-        .now-progress-meta {
-            min-width: 0;
-            text-align: left;
-        }
     }
 
     /* ─── Plategazing list ───────────────────────────────────── */
@@ -1963,55 +1896,6 @@
         .plate-list .plate-meaning:empty {
             display: none;
         }
-    }
-
-    /* ─── Nav dropdown ───────────────────────────────────────── */
-    .nav-dropdown {
-        position: relative;
-        display: inline-block;
-    }
-    .nav-dropdown > summary {
-        cursor: pointer;
-        list-style: none;
-        display: inline-block;
-    }
-    .nav-dropdown > summary::-webkit-details-marker {
-        display: none;
-    }
-    .nav-dropdown > summary::after {
-        content: " ▾";
-        font-size: 0.8em;
-        color: var(--muted);
-    }
-    .nav-dropdown[open] > summary::after {
-        content: " ▴";
-        color: var(--heading);
-    }
-    .nav-dropdown-menu {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        z-index: 50;
-        margin-top: 0.5rem;
-        padding: 0.4rem 0;
-        min-width: 9rem;
-        background: var(--bg);
-        border: 1px solid var(--border);
-        border-radius: 0.35em;
-        box-shadow: 2px 3px 0 rgba(60, 40, 20, 0.08);
-        display: flex;
-        flex-direction: column;
-    }
-    .nav-dropdown-menu a {
-        padding: 0.35rem 0.85rem;
-        text-decoration: none;
-        white-space: nowrap;
-        color: var(--link);
-    }
-    .nav-dropdown-menu a:hover,
-    .nav-dropdown-menu a:focus-visible {
-        background: var(--link-hover-bg);
-        color: var(--link-hover-fg);
     }
 
     /* neat-annotations bridge: the vendored file uses light-dark() for the

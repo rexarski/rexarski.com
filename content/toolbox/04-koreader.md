@@ -43,6 +43,7 @@ updated on 2026-07-05
   - [Calibre 推荐配置与插件 - 雅余](https://yayu.net/4767.html)
   - [Cirn09/calibre-do-not-translate-my-path](https://github.com/Cirn09/calibre-do-not-translate-my-path)
   - [fugary/calibre-douban](https://github.com/fugary/calibre-douban)
+  - [DeACSM](https://github.com/Leseratte10/acsm-calibre-plugin)
 
 ## Plugin
 

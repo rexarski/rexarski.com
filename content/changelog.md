@@ -6,6 +6,11 @@ layout = "changelog"
 
 # changelog
 
+- 2026-09-11
+  - 外观样式收束：移除 Fraunces 衬线体，标题/引用/表格全部改用 Atkinson；neat-annotations 标签改用继承字体；RSS pretty-feed 页面改为主站同款配色与字体
+  - 页头简化：wordmark 与站点描述移除，logo 改为内联单色 SVG（随文字颜色明暗自适应）；导航改单行 `/` 分隔，changelog 移出菜单、工具箱移入 footer；删除旧的下拉菜单样式
+  - 首页重排：大字 ASCII 与 tagline 合并为一区，最近更新改 mono 小标题；首页与 posts 列表日期改用 `-` 分隔格式
+  - 删除 `now_progress_bars` shortcode 及其 CSS（进度条区块下线）
 - 2026-07-21
   - RSS 由只发摘要改为**发全文**：`index.rss.xml` 的 `<description>` 从 `.Summary` 换成 `.Content`，用 `CDATA` 包裹避免整段 HTML 被转义；正文里的根相对链接与图片（`/images/…` 之类）在 feed 里统一改写成绝对地址，阅读器里也能正常加载，站外已是绝对地址的链接不动
   - 接入 [neat-annotations](https://github.com/syabro/neat-annotations)：纯 CSS 的手绘箭头 + 手写标签，`neat-annotations.css` 下载到 `assets/css/` 本地随 `main.css` 一起 minify + fingerprint，不走 CDN；新增 `ann` 短代码包装（`dir` 八向、`color` 内置六色或任意色值、`note` 标签、`nomark`），暗色下给 `.ann` 补 `color-scheme: dark` 让 `light-dark()` 落到深色支。标签本是 CSS `::after` 画的、在 RSS/阅读器里会消失，所以 `ann` 额外输出一个 `sr-only` 的 `.ann-note`（正文视觉隐藏，无 CSS 时读作「目标（标签）」），兼顾 RSS 与读屏。示例见 [Neat annotations](/posts/2026/07/neat-annotations/)

@@ -4,14 +4,16 @@ title = "Home"
 
 <!-- markdownlint-disable MD033 -->
 <section class="page-head" aria-label="Page header">
-  <p class="page-head-title">a blog by</p>
-  <pre class="page-head-ascii">            ▌ ▘
-▛▘█▌▚▘▀▌▛▘▛▘▙▘▌
-▌ ▙▖▞▖█▌▌ ▄▌▛▖▌</pre>
+  <pre class="page-head-ascii">█████ █████ █   █  ███  █████ █████ █   █ ███
+█   █ █      █ █  █   █ █   █ █     █  █   █
+█████ ████    █   █████ █████ █████ ███    █
+█  █  █      █ █  █   █ █  █      █ █  █   █
+█   █ █████ █   █ █   █ █   █ █████ █   █ ███</pre>
+  <p class="home-blurb">Life is too short to be boring.</p>
 </section>
 <!-- markdownlint-enable MD033 -->
 
-**最近更新**
+<p class="home-section-title">最近更新</p>
 
 {{< postslist >}}
 

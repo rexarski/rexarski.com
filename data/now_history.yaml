@@ -1,6 +1,6 @@
 # Past “now” entries (ended periods)
 # Items are sorted by `end` date, newest first (see now_history shortcode)
-summary: "过去的当下"
+summary: "回顾"
 items:
   - start: "2026-06-27"
     end: "2026-08-25"
@@ -26,9 +26,6 @@ items:
   - start: "2026-05-02"
     end: "2026-06-28"
     text: 发现并开始探索 [omg.lol](https://home.omg.lol)
-  - start: "2026-04-06"
-    end: "2026-06-28"
-    text: ~~开始看 Brandon Sanderson 的书了~~看完了 Misborn Trilogy
   - start: "2026-03-23"
     end: "2026-06-28"
     text: 在认真观看[程序员老王](https://www.youtube.com/@programmer-wang/videos)

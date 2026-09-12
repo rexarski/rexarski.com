@@ -1,8 +1,26 @@
 # Moments log (LMNT-style).
 # Fields: date (YYYY-MM-DD), title, note (e.g. "S1 E4").
-# Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳) OR any single emoji (e.g. 🏎️ 🎭).
+# Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳 baby🍼 url🔗) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: 2026-09-08
+  type: music
+  title: ALLCAPS theme for Rockbox
+  url: https://themes.rockbox.org/index.php?themeid=4132
+- date: 2026-09-06
+  type: music
+  title: Nujabes
+- date: 2026-09-05
+  type: baby
+  title: 从 baby carseat 里解开安全带，噜噜会自己挣脱肩带找我们抱抱，非常 cute
+- date: 2026-09-04
+  type: music
+  title: 蛋堡
+  note: 我爱蛋堡。—— McHotdog
+- date: 2026-09-04
+  type: 🐟
+  title: mayo + tuna
+  note: 百吃不腻
 - date: 2026-09-02
   type: podcast
   title: 旧世代电台 27
@@ -13,13 +31,13 @@
   title: HEX Coffee Roasters
   note: 很喜欢他们的产品包装设计
 - date: 2026-08-28
-  type: 🍼
+  type: baby
   note: 上学第一周，很喜欢 daycare 很开心的样子
 - date: 2026-08-31
   type: 📱
   note: iOS 26 Liquid Glass 选择界面 clear 话可以有效减少屏幕时间
 - date: 2026-08-25
-  type: 🍼
+  type: baby
   note: 上学第一天，回来就学会了爬楼梯，似乎是社会化的功劳？
 - date: 2026-08-23
   type: url
@@ -39,10 +57,10 @@
   type: book
   note: 嫌疑人 x 的献身 + 一个书签阅读灯，重新激起我实体书的兴趣
 - date: 2026-08-14
-  type: 🍼
+  type: baby
   note: 身高体重都赶上了大部队
 - date: 2026-08-08
-  type: 🍼
+  type: baby
   note: 长势喜人
 - date: 2026-08-07
   type: 🗒️
@@ -53,7 +71,7 @@
   type: 🎞️
   note: 剪视频虽然累但是有成就感
 - date: 2026-08-02
-  type: 🍼
+  type: baby
   note: 噜子在 play cafe 表现良好
 - date: 2026-08-02
   type: podcast
@@ -102,13 +120,13 @@
   url: https://m.xinmanhua.net/comic/273042737
 - date: 2026-06-26
   title: 噜子听着《土耳其进行曲》会手舞足蹈
-  type: 🍼
+  type: baby
 - date: 2026-06-25
   title: 噜子喊完妈妈哈哈大笑
-  type: 🍼
+  type: baby
 - date: 2026-06-21
   title: 噜子会自己扶站了
-  type: 🍼
+  type: baby
 - date: 2026-06-14
   title: F-91WB-7A white
   type: ⌚
@@ -120,17 +138,17 @@
   note: 给噜子睡前读故事（可能还是太深奥了）
 - date: 2026-06-07
   title: 发现噜子很喜欢 manual grinder
-  type: 🍼
+  type: baby
 - date: 2026-06-01
   title: 可以单手抱娃做咖啡
-  type: 🍼
+  type: baby
 - date: 2026-05-31
   title: 🔟💚🍾🧱☝️💚🍾⛓️‍💥💥9️⃣💚🍾🧱
-  type: 🍼
+  type: baby
   note: 劝奶神曲
 - date: 2026-05-31
   title: 噜子会肚子离地爬行了
-  type: 🍼
+  type: baby
   note: 活动范围扩大
 - date: 2026-05-26
   title: Klack
@@ -138,7 +156,7 @@
   url: https://tryklack.com/
   note: 给键盘配喜欢的音效太有仪式感了
 - date: 2026-05-25
-  type: 🍼
+  type: baby
   note: 每天都能看见宝宝的成长
 - date: 2026-05-25
   title: Shortcuts Playgroun - A MacStories Project
@@ -272,11 +290,11 @@
   note: "183W -> 184W"
 - date: 2026-04-12
   title: "噜子爬行时会肚子离地了"
-  type: 🍼
+  type: baby
   note: 空气套件升级
 - date: 2026-04-10
   title: "噜子胃口大开"
-  type: 🍼
+  type: baby
 - date: 2026-04-09
   title: "Xteink x3"
   type: book
@@ -430,4 +448,4 @@
   note: "@minibar"
 - date: 2026-01-01
   title: "学会了翻身"
-  type: 🍼
+  type: baby

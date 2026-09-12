@@ -6,7 +6,7 @@ baseURL = "https://rexarski.com"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "howaboutqiu"
+title = "rexarski"
 author = "Qiū Ruì"
 copyright = "© Qiū Ruì"
 locale = "zh-CN"
