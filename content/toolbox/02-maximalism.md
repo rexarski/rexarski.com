@@ -10,12 +10,8 @@ weight = 2
 索性做一个大合集堆在一起，也不做简单描述了，纯粹作为一个记录。如果未来的我在设置新电脑的时候有需要可以快速瞥一眼过一遍——反正最核心的需求已经在上述的安装过程中满足了。
 
 - [1Password](https://1password.com)
-- [AlDente](https://github.com/davidwernhart/AlDente)
-- [Alfred](https://www.alfredapp.com/)
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 - [Anki](https://apps.ankiweb.net)
-- [Anybox](https://anybox.app)
-- [Antinote](https://antinote.io)
 - [Aseprite](https://www.aseprite.org/)
 - [BetterTouchTool](https://folivora.ai)
 - [calibre](https://calibre-ebook.com/)
@@ -74,6 +70,7 @@ weight = 2
 - [Steam](https://store.steampowered.com)
 - [Synthing](https://syncthing.net/)
 - [Telegram](https://www.telegram.org)
+- [Tinycast](https://github.com/abue-ammar/tinycast)
 - [Transmission](https://transmissionbt.com)
 - [Transmit](https://panic.com/transmit/)
 - [undercut-f1](https://github.com/JustAman62/undercut-f1)
@@ -90,7 +87,11 @@ weight = 2
 
 - [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html)
 - [Affinity V2 Suite](https://store.serif.com/en-us/update/universal-licence/)
+- [AlDente](https://github.com/davidwernhart/AlDente)
+- [Alfred](https://www.alfredapp.com/)
 - [Android File Transfer](https://www.android.com/filetransfer/)
+- [Antinote](https://antinote.io)
+- [Anybox](https://anybox.app)
 - [Applite](https://github.com/milanvarady/Applite)
 - [Audacity](https://www.audacityteam.org/)
 - [Buckets](https://www.budgetwithbuckets.com/)
