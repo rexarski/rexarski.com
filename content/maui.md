@@ -1,6 +1,7 @@
 +++
 title = "maui"
 menu = "not on main"
+hideTitle = true
 +++
 
 # <pre>/maui🏝️</pre>

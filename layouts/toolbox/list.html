@@ -1,22 +1,28 @@
 {{ define "main" }}
-<content>
-  {{ .Content }}
+<div class="rail-row">
+  <span class="rail"></span>
+  <div class="rail-main page-head">
+    <h1>{{ .Title }}</h1>
+    <content class="page-body">
+      {{ .Content }}
 
-  <ul class="blog-posts toolbox-list">
-    {{ range .Pages }}
-    {{ if .IsSection }}
-    <li class="toolbox-section">
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-      <ul class="toolbox-sublist">
+      <ul class="blog-posts toolbox-list">
         {{ range .Pages }}
+        {{ if .IsSection }}
+        <li class="toolbox-section">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <ul class="toolbox-sublist">
+            {{ range .Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+        </li>
+        {{ else }}
         <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
         {{ end }}
+        {{ end }}
       </ul>
-    </li>
-    {{ else }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-    {{ end }}
-    {{ end }}
-  </ul>
-</content>
+    </content>
+  </div>
+</div>
 {{ end }}

@@ -49,11 +49,11 @@ updated on 2026-07-05
 
 - [ZenOS](https://zen-labs.org/zen-os)
 - [ZenPM](https://zen-labs.org/zen-pm)
-- [kobo.koplugin](https://ogkevin.github.io/kobo.koplugin/introduction.html) for Kobo remote page turner
 - [filebrowserplus](https://github.com/patelneeraj/filebrowserplus.koplugin)
 - (Optional) [Bookends](https://github.com/AndyHazz/bookends.koplugin)
 - (Optional) [Bookshelf](https://github.com/AndyHazz/bookshelf.koplugin)
 - (Optional) [foot-cream](https://github.com/Fank1/foot-cream)
+- ~~[kobo.koplugin](https://ogkevin.github.io/kobo.koplugin/introduction.html) for Kobo remote page turner~~
 
 ## Wallpaper
 

@@ -1,43 +1,61 @@
 {{ define "main" }}
-<content>
-  {{ if .Data.Singular }}
-  <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
-  <small>
-    <a href="{{ "/posts" | relURL }}">Remove filter</a>
-  </small>
-  {{ end }}
+{{- $isTag := .Data.Singular -}}
+<div class="rail-row">
+  <span class="rail"></span>
+  <div class="rail-main page-head">
+    <h1>{{ if $isTag }}#{{ .Title | lower }}{{ else }}{{ .Title }}{{ end }}</h1>
+    {{- if not $isTag }}
+    <div class="list-intro">{{ .Content }}</div>
+    {{- end }}
+    <p class="list-meta">
+      {{- if $isTag -}}
+        {{ len .Pages }} 篇 · <a href="{{ "/posts/" | relURL }}">清除筛选</a>
+      {{- else -}}
+        共 {{ len .Pages }} 篇
+      {{- end -}}
+    </p>
+  </div>
+</div>
 
-  <h2 class="posts-list-heading">阅读全部</h2>
-
-  {{ if .Pages }}
-    {{ $postsByYear := .Pages.GroupByDate "2006" }}
-    {{ range $postsByYear }}
-      <h3 class="post-list-year-heading">{{ .Key }}</h3>
-      <div class="post-list">
-        {{ range (.Pages.ByDate.Reverse) }}
-        <article class="post-list-item">
-          <a href="{{ .RelPermalink }}" class="post-list-item-link">
-            <time class="post-list-item-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01-02" }}</time>
-            <span class="post-list-item-title">{{ .Title }}</span>
-          </a>
-        </article>
-        {{ end }}
-      </div>
+{{ if .Pages }}
+  {{ range .Pages.GroupByDate "2006" }}
+  <div class="rail-row">
+    <p class="rail year-label">{{ .Key }}</p>
+    <span class="rail-main"></span>
+  </div>
+    {{ range .Pages.ByDate.Reverse }}
+  <div class="rail-row post-row">
+    <span class="rail rail-date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01-02" }}</time></span>
+    <a class="rail-main row-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </div>
     {{ end }}
-  {{ else }}
-    <div class="post-list">
-      <p class="post-list-empty">No posts yet</p>
-    </div>
   {{ end }}
+{{ else }}
+  <p class="list-empty">还没有文章</p>
+{{ end }}
 
-  {{ if not .Data.Singular }}
-    <small>
-      <div>
-        {{ range .Site.Taxonomies.tags.ByCount }}
-        <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower}}</a><span style="font-size: 0.8em;"> ({{ .Count }})</span>&nbsp;
-        {{ end }}
+{{ if not $isTag }}
+  {{- $tags := .Site.Taxonomies.tags.ByCount -}}
+  {{- if $tags }}
+<hr class="rule" />
+<div class="rail-row">
+  <span class="rail"></span>
+  <div class="rail-main tag-cloud">
+    {{- range first 12 $tags }}
+    <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower }}</a>
+    {{- end }}
+    {{- if gt (len $tags) 12 }}
+    <details class="tag-cloud-more">
+      <summary>全部标签 →</summary>
+      <div class="tag-cloud-rest">
+        {{- range after 12 $tags }}
+        <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower }}</a>
+        {{- end }}
       </div>
-    </small>
-  {{ end }}
-</content>
+    </details>
+    {{- end }}
+  </div>
+</div>
+  {{- end }}
+{{ end }}
 {{ end }}

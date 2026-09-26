@@ -29,7 +29,7 @@ DB_PATH = Path("data/post_embeddings.json")
 SLIM_DB_PATH = Path("data/related_posts.json")
 # Model name as requested. LM Studio often uses the currently loaded model,
 # but we provide this name in the request and database metadata.
-MODEL_NAME = "text-embedding-embeddinggemma-300m"
+MODEL_NAME = "text-embedding-embeddinggemma-300m-qat"
 LM_STUDIO_HOST = os.environ.get("LM_STUDIO_HOST", "http://127.0.0.1:1234/v1")
 
 

@@ -22,7 +22,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:ital,wght@0,400..700;1,400..700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:ital,wght@0,400..700;1,400..700&family=Noto+Serif+SC:wght@500;700&display=swap"
             rel="stylesheet"
         />
 
@@ -62,6 +62,36 @@
             {{- block "main" . }}{{- end }}
         </main>
         <footer>{{- partial "footer.html" . -}}</footer>
+
+        <script>
+            /* Progressive enhancement: the HTML ships absolute dates, this
+               rewrites them to "3 天前" / "2 周" client-side so the numbers
+               never go stale between deploys. */
+            (function () {
+                var stamp = document.querySelector(".datestamp[data-today]"),
+                    d = new Date();
+                if (stamp) {
+                    var pad = function (n) { return String(n).padStart(2, "0"); };
+                    stamp.querySelector(".datestamp-year").textContent = d.getFullYear();
+                    stamp.querySelector(".datestamp-md").innerHTML =
+                        pad(d.getMonth() + 1) + '<span class="datestamp-dot">·</span>' + pad(d.getDate());
+                    stamp.querySelector(".datestamp-dow").textContent =
+                        "周" + "日一二三四五六".charAt(d.getDay());
+                }
+                var rtf = new Intl.RelativeTimeFormat("zh-CN", { numeric: "auto" });
+                document.querySelectorAll("time[data-relative]").forEach(function (el) {
+                    var t = new Date(el.getAttribute("datetime") + "T00:00:00");
+                    if (isNaN(t)) return;
+                    var days = Math.round((t - new Date().setHours(0, 0, 0, 0)) / 864e5),
+                        a = Math.abs(days), n = days, unit = "day";
+                    if (a >= 56) { n = Math.round(days / 30.44); unit = "month"; }
+                    else if (a >= 14) { n = Math.round(days / 7); unit = "week"; }
+                    var text = rtf.format(n, unit);
+                    el.title = el.getAttribute("datetime");
+                    el.textContent = el.dataset.relative === "short" ? text.replace(/前$/, "") : text;
+                });
+            })();
+        </script>
 
         <!-- A partial to be overwritten by the user.
         Simply place a custom_body.html into

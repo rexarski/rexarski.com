@@ -4,7 +4,28 @@ menu = "not-main"
 layout = "changelog"
 +++
 
-# changelog
+- 2026-09-25
+  - 全局视觉换底：纸面改暖米 `#f7f3eb` + 24px 点阵底纹（手机 20px），取代原来的噪点纹理层；删掉顶部 2px 蓝条；强调色从蓝 `#0062a8` 换成朱红 `#c23b22`，暗色配色从蓝灰改为同族暖调
+  - 字号档位从 9 档收成 5 档（`--fs-meta` / `--fs-small` / `--fs-body` / `--fs-h2` / `--fs-h1`），字重只留 400 / 600 / 700；层级主要靠灰度，不靠放大
+  - 重新引入衬线体（Noto Serif SC，只加载 500 / 700）：推翻 2026-09-11「移除衬线体」那条——这次衬线只排中文标题、大字与引用，正文仍是 Atkinson，理由是中文标题在无衬线下缺一层可读的层级，而正文用衬线会太重
+  - 新增左侧日期栏 + 主栏的两栏网格（`.rail-row`），凡是带日期的行日期一律落在左栏；≤720px 日期栏收起，日期戳变成主栏顶部一行
+  - 链接改成 1px 细下划线（hover 加深），删除 hover 反色块与 RSS 专属金色下划线；引用块去掉左边框，改衬线 + 朱红引号
+  - 导航从 6 项收成 4 项（博文 / now / 刹那 / about）：删掉「主页」（logo 本身就是首页链接），logo 右边补上 `rexarski` 文字并对齐主栏；「收集车牌」与 RSS 移到 footer；导航与页面标题都写作「关于」（URL 仍是 `/about/`）；active 状态改用朱红，不再加粗
+  - footer 收成一行：左边版权、右边工具箱 · 车牌 · changelog · RSS，全部 mono 小字；上方分隔线改虚线，与正文的间距从 3rem 拉到 4rem
+  - 首页重做：ASCII wordmark 下线，改为「左侧日期戳 + 右侧大字句子」。大字句子由 `now_current` 最新三条拼成「最近，我……」，每条后面跟一个朱红上标显示相对时间；下面是自我介绍（写在 `content/_index.md`）、上一个刹那、最近写的 5 篇（原本 7 篇）
+  - 相对时间用渐进增强做：HTML 里输出的是绝对日期（`MM-DD`），`baseof.html` 末尾一段内联脚本用 `Intl.RelativeTimeFormat` 改写成「3 天前 / 2 周 / 4 个月前」，关掉 JS 也只是看到日期而已；首页日期戳同理，构建日期作回退、脚本改写成今天
+  - `data/` 里的日期字段一律加引号（避免 YAML 把一部分解析成日期对象、排序不稳），`now_current.yaml` 新增可选字段 `phrase`（专供首页大字句子，/now 仍显示 `text`）
+  - 刹那的类型映射抽成 `partials/moment-types.html`，首页与 /moments 共用；隐藏的 proven.lol 验证链接改成 `<link rel="me">` 放进 `<head>`；`postslist` shortcode 删除，首页列表改由 `layouts/index.html` 直接渲染
+  - /posts 列表：删掉「阅读全部」大标题，换成一行 `共 N 篇`；年份从大标题降级到左栏的 mono 大字（与日期戳同一种样式）；日期改 grid 对齐，标题换行时不再和日期错位；写作热力图从 /now 挪来这里（它讲的是写作节奏）
+  - 标签云去掉每个标签后面的计数，按数量只显示前 12 个，其余折在 `全部标签 →` 里（`<details>`，不用 JS）；标签筛选页从英文 `Filtering for "x"` 改成中文一行 `#x · N 篇 · 清除筛选`
+  - 单篇博文：正文行宽从 760px 收到 680px；日期戳与标签移到左栏，顶部元信息行与文末那组 `#tag` 一并删除（不再重复）；日期去掉 `<i>`（中文没有斜体字形，`font-synthesis: none` 下它只是语义噪音）
+  - tl;dr 从带边框的 blockquote 改成标题下方一段普通灰字，blockquote 从此只留给真正的引用；相关博文与前后篇导航改成和列表页一样的「日期 + 标题」行，去掉卡片边框和相似度分数
+  - /now 拆成两页：/now 只讲当下（每条左栏显示相对时间），blogroll、其他栖息地、主题致谢移到新建的「关于」
+  - 页面标题统一由模板从 frontmatter 渲染，`now.md` / `platespotting.md` / `toolbox/_index.md` / `changelog.md` 正文里手写的 `#`、`##` 标题删除；maui 的 `<pre>/maui🏝️</pre>` 是刻意的，加 `hideTitle = true` 跳过模板标题
+  - 刹那页：顶部的类型条形图改成一行小字 `共 N 条 · 🎧 31 · …`，条目改用左栏日期 + 主栏内容，月份标题改 mono 小字
+  - 新增 404 页，把从首页撤下来的 ASCII `REXARSKI` 放在那里当彩蛋
+  - 全站改左对齐：`header / main / footer` 不再 `margin-inline: auto` 居中，而是贴着左边缘、最宽 1240px，宽屏上多出来的空间全留给右边的点阵纸面；刹那页底部那张图也从居中改为左对齐
+  - 相关博文的向量模型从 `text-embedding-embeddinggemma-300m` 换成 QAT 版 `text-embedding-embeddinggemma-300m-qat`（维度不变，脚本发现模型名变了会自动重算缓存），每篇文末的「相关」推荐会略有变化
 
 - 2026-09-11
   - 外观样式收束：移除 Fraunces 衬线体，标题/引用/表格全部改用 Atkinson；neat-annotations 标签改用继承字体；RSS pretty-feed 页面改为主站同款配色与字体

@@ -1,8 +1,14 @@
 {{ define "main" }}
-<div class="single-post">
-  <content class="changelog-body">
-    {{ .Content }}
-  </content>
+<div class="rail-row">
+  <span class="rail"></span>
+  <div class="rail-main page-head">
+    <h1>{{ .Title }}</h1>
+    <div class="single-post page-body">
+      <content class="changelog-body">
+        {{ .Content }}
+      </content>
+    </div>
+  </div>
 </div>
 <script>
 (function() {

@@ -2,6 +2,9 @@
 # Items are sorted by `end` date, newest first (see now_history shortcode)
 summary: "回顾"
 items:
+  - start: "2026-09-04"
+    end: "2026-09-25"
+    text: 喜欢开油车的引擎声
   - start: "2026-06-27"
     end: "2026-08-25"
     text: "追[《镖人》](https://m.xinmanhua.net/comic/273042737)漫画"
@@ -36,8 +39,8 @@ items:
     end: "2026-06-28"
     text: 新增了[每日份的快乐记录](/moments/)
   - start: "2026-05-26"
-    end: 2026-07-05
+    end: "2026-07-05"
     text: "卖掉了 Apple Watch，少些焦虑，多些佩戴选择"
-  - start: 2026-02-23
-    end: 2026-07-11
+  - start: "2026-02-23"
+    end: "2026-07-11"
     text: "[2026 一个普通人的普通 backlog](https://neodb.social/collection/75VzWTd4Pu2JTK0LgLKWUs)"

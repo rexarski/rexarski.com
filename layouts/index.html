@@ -1,0 +1,67 @@
+{{ define "main" }}
+{{- $weekdays := dict "Sunday" "周日" "Monday" "周一" "Tuesday" "周二" "Wednesday" "周三" "Thursday" "周四" "Friday" "周五" "Saturday" "周六" -}}
+
+<section class="home-hero rail-row">
+  <div class="rail">
+    {{- /* Build date as the no-JS fallback; the inline script rewrites it to today. */ -}}
+    <p class="datestamp" data-today>
+      <span class="datestamp-year">{{ now.Format "2006" }}</span>
+      <span class="datestamp-md">{{ now.Format "01" }}<span class="datestamp-dot">·</span>{{ now.Format "02" }}</span>
+      <span class="datestamp-dow">{{ index $weekdays (now.Format "Monday") }}</span>
+    </p>
+  </div>
+  <div class="rail-main">
+    <p class="home-kicker">Qiū Ruì · {{ .Site.Params.siteDescription }}</p>
+    {{- with hugo.Data.now_current }}
+      {{- $items := first 3 (sort .items "start" "desc") -}}
+      <p class="home-lede">最近，我{{ range $i, $it := $items }}
+        {{- if $i }}，{{ end }}
+        {{- $.RenderString (default $it.text $it.phrase) }}
+        {{- printf `<sup class="lede-age"><time datetime="%s" data-relative="short">%s</time></sup>` $it.start ((time $it.start).Format "01-02") | safeHTML }}
+      {{- end }}。</p>
+    {{- end }}
+    <div class="home-intro">{{ .Content }}</div>
+  </div>
+</section>
+
+<hr class="rule" />
+
+{{- $mt := partial "moment-types.html" . -}}
+{{- $moments := slice -}}
+{{- range hugo.Data.moments }}{{ range . }}{{ $moments = $moments | append . }}{{ end }}{{ end -}}
+{{- if $moments }}
+  {{- with index (first 1 (sort $moments "date" "desc")) 0 }}
+<section class="home-section">
+  <div class="rail-row">
+    <span class="rail"></span>
+    <p class="rail-main section-label">上一个刹那</p>
+  </div>
+  <div class="rail-row home-row">
+    <span class="rail rail-date"><time datetime="{{ .date }}">{{ (time .date).Format "01-02" }}</time></span>
+    <span class="rail-main moment-row">
+      {{- with .type }}<span class="moment-type">{{ index $mt.label . | default . }}</span> · {{ end -}}
+      {{ if .url }}<a class="moment-link" href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+    </span>
+  </div>
+</section>
+  {{- end }}
+{{- end }}
+
+{{- $posts := where (where .Site.RegularPages "Type" "in" (slice "zh" "posts")) "Params.draft" "!=" true }}
+<section class="home-section">
+  <div class="rail-row">
+    <span class="rail"></span>
+    <p class="rail-main section-label">最近写的</p>
+  </div>
+  {{- range first 5 $posts.ByDate.Reverse }}
+  <div class="rail-row home-row">
+    <span class="rail rail-date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01-02" }}</time></span>
+    <a class="rail-main row-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </div>
+  {{- end }}
+  <div class="rail-row">
+    <span class="rail"></span>
+    <p class="rail-main"><a class="more-link" href="{{ "/posts/" | relURL }}">翻前面的页 →</a></p>
+  </div>
+</section>
+{{ end }}

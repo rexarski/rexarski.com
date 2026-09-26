@@ -1,114 +1,88 @@
 {{ define "main" }}
-<content class="moments-page">
-  <h1 class="moments-title">{{ .Title }}</h1>
+<div class="rail-row">
+  <span class="rail"></span>
+  <div class="rail-main page-head">
+    <h1>{{ .Title }}</h1>
+    <div class="page-body moments-intro">{{ .Content }}</div>
 
-  <div class="moments-intro">{{ .Content }}</div>
+{{ $typeIcon := (partial "moment-types.html" .).icon }}
 
-  {{ $typeIcon := dict "show" "📺" "tv" "📺" "game" "🎮" "music" "🎧" "book" "📚" "movie" "🍿" "podcast" "🎙️" "restaurant" "🍳" "url" "🔗" "baby" "🍼" }}
+{{/* Collect all moments from per-year files in data/moments/ */}}
+{{ $allMoments := slice }}
+{{ range hugo.Data.moments }}
+  {{ range . }}
+    {{ $allMoments = $allMoments | append . }}
+  {{ end }}
+{{ end }}
 
-  {{/* Collect all moments from per-year files in data/moments/ */}}
-  {{ $allMoments := slice }}
-  {{ range hugo.Data.moments }}
-    {{ range . }}
-      {{ $allMoments = $allMoments | append . }}
+{{ if $allMoments }}
+  {{ $sorted := sort $allMoments "date" "desc" }}
+
+  {{/* First pass: tally the icons for the one-line summary */}}
+  {{ $stats := newScratch }}
+  {{ $seenIcons := slice }}
+  {{ range $sorted }}
+    {{ $icon := "" }}
+    {{ with .type }}{{ $icon = index $typeIcon . | default . }}{{ end }}
+    {{ $stats.Add "total" 1 }}
+    {{ with $icon }}
+      {{ $stats.Add . 1 }}
+      {{ if not (in $seenIcons .) }}{{ $seenIcons = $seenIcons | append . }}{{ end }}
     {{ end }}
   {{ end }}
-
-  {{ if $allMoments }}
-    {{ $sorted := sort $allMoments "date" "desc" }}
-
-    {{/* First pass: accumulate stats */}}
-    {{ $statsScratch := newScratch }}
-    {{ $seenIcons := slice }}
-    {{ range $sorted }}
-      {{ $icon := "" }}
-      {{ if .type }}
-        {{ $mapped := index $typeIcon .type }}
-        {{ if $mapped }}{{ $icon = $mapped }}{{ else }}{{ $icon = .type }}{{ end }}
-      {{ end }}
-      {{ $statsScratch.Add "total" 1 }}
-      {{ if $icon }}
-        {{ $statsScratch.Add $icon 1 }}
-        {{ if not (in $seenIcons $icon) }}
-          {{ $seenIcons = $seenIcons | append $icon }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-
-    {{/* Build sortable slice of dicts, sort desc, keep top 10 */}}
-    {{ $statsList := slice }}
-    {{ range $seenIcons }}
-      {{ $statsList = $statsList | append (dict "icon" . "count" ($statsScratch.Get .)) }}
-    {{ end }}
-    {{ $sortedStats := sort $statsList "count" "desc" }}
-    {{ $top10 := first 10 $sortedStats }}
-    {{ $maxCount := 1 }}
-    {{ with index $sortedStats 0 }}{{ $maxCount = .count }}{{ end }}
-
-    {{/* Second pass: render moments */}}
-    {{ $scratch := newScratch }}
-    {{ $scratch.Set "prevYear" "" }}
-    {{ $scratch.Set "prevMonth" "" }}
-
-    {{ range $sorted }}
-      {{ $icon := "" }}
-      {{ if .type }}
-        {{ $mapped := index $typeIcon .type }}
-        {{ if $mapped }}{{ $icon = $mapped }}{{ else }}{{ $icon = .type }}{{ end }}
-      {{ end }}
-      {{ $t := time .date }}
-      {{ $y := $t.Year }}
-      {{ $m := $t.Format "January" }}
-      {{ $parts := split .date "-" }}
-      {{ $day := index $parts 2 }}
-
-      {{ if ne $y ($scratch.Get "prevYear") }}
-        {{ $scratch.Set "prevYear" $y }}
-        <p class="moments-year">{{ $y }}</p>
-      {{ end }}
-
-      {{ if ne $m ($scratch.Get "prevMonth") }}
-        {{ if ne ($scratch.Get "prevMonth") "" }}</ul>{{ end }}
-        {{ $scratch.Set "prevMonth" $m }}
-        <h2 class="moments-month">{{ $m }}</h2>
-        <ul class="moments-entries">
-      {{ end }}
-
-      <li class="moments-entry">
-        {{ if $icon }}<span class="moments-icon" aria-hidden="true">{{ $icon }}</span>{{ end }}
-        <span class="moments-day">{{ $day }}</span>
-        <span class="moments-title-inline">
-          {{ if .url }}<a href="{{ .url }}"><em>{{ .title }}</em></a>{{ else }}<em>{{ .title }}</em>{{ end }}
-        </span>
-        {{ if .note }}<span class="moments-note"> {{ .note }}</span>{{ end }}
-      </li>
-    {{ end }}
-    {{ if ne ($scratch.Get "prevMonth") "" }}</ul>{{ end }}
-
-    {{/* Pixel bar chart — top 10 by count */}}
-    {{ $TOTAL := 12 }}
-    <div class="moments-stats">
-      <p class="moments-stats-total">✦ {{ $statsScratch.Get "total" }} moments logged ✦</p>
-      <div class="moments-bar-chart">
-        {{ range $top10 }}
-          {{ $filled := int (math.Round (mul (div (float .count) (float $maxCount)) (float $TOTAL))) }}
-          {{ $empty := sub $TOTAL $filled }}
-          <div class="moments-bar-row">
-            <span class="moments-bar-label">{{ .icon }}</span>
-            <span class="moments-bar-blocks"><span class="moments-bar-filled">{{ strings.Repeat $filled "█" }}</span><span class="moments-bar-empty">{{ strings.Repeat $empty "░" }}</span></span>
-            <span class="moments-bar-count">{{ .count }}</span>
-          </div>
-        {{ end }}
-      </div>
-    </div>
-
-  {{ else }}
-    <p class="moments-empty">No moments yet. Add entries under <code>data/moments/</code>.</p>
+  {{ $statsList := slice }}
+  {{ range $seenIcons }}
+    {{ $statsList = $statsList | append (dict "icon" . "count" ($stats.Get .)) }}
   {{ end }}
 
-  <figure class="moments-photo" aria-hidden="true">
-    <video src="/images/Haleakala.mp4" autoplay loop muted playsinline></video>
-    <figcaption class="moments-photo-caption">Haleakalā</figcaption>
-  </figure>
-</content>
+  <p class="list-meta">共 {{ $stats.Get "total" }} 条{{ range first 6 (sort $statsList "count" "desc") }} · {{ .icon }} {{ .count }}{{ end }}</p>
+  </div>
+</div>
+
+  {{/* Second pass: render, grouped by year then month */}}
+  {{ $scratch := newScratch }}
+  {{ $scratch.Set "prevYear" "" }}
+  {{ $scratch.Set "prevMonth" "" }}
+
+  {{ range $sorted }}
+    {{ $icon := "" }}
+    {{ with .type }}{{ $icon = index $typeIcon . | default . }}{{ end }}
+    {{ $t := time .date }}
+
+    {{ if ne $t.Year ($scratch.Get "prevYear") }}
+      {{ $scratch.Set "prevYear" $t.Year }}
+  <div class="rail-row">
+    <p class="rail year-label">{{ $t.Year }}</p>
+    <span class="rail-main"></span>
+  </div>
+    {{ end }}
+
+    {{ $month := $t.Format "2006-01" }}
+    {{ if ne $month ($scratch.Get "prevMonth") }}
+      {{ $scratch.Set "prevMonth" $month }}
+  <div class="rail-row">
+    <span class="rail"></span>
+    <p class="rail-main section-label moments-month">{{ $t.Format "January" }}</p>
+  </div>
+    {{ end }}
+
+  <div class="rail-row moment-entry">
+    <span class="rail rail-date"><time datetime="{{ .date }}">{{ $t.Format "01-02" }}</time></span>
+    <span class="rail-main">
+      {{- with $icon }}<span class="moments-icon" aria-hidden="true">{{ . }}</span> {{ end -}}
+      {{ if .url }}<a class="moment-link" href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+      {{- with .note }}<span class="moments-note"> {{ . }}</span>{{ end }}
+    </span>
+  </div>
+  {{ end }}
+{{ else }}
+  </div>
+</div>
+  <p class="list-empty">还没有刹那。在 <code>data/moments/</code> 里加几条。</p>
+{{ end }}
+
+<figure class="moments-photo" aria-hidden="true">
+  <video src="/images/Haleakala.mp4" autoplay loop muted playsinline></video>
+  <figcaption class="moments-photo-caption">Haleakalā</figcaption>
+</figure>
 {{ end }}
