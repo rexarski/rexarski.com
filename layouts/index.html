@@ -14,7 +14,7 @@
     <p class="home-kicker">Qiū Ruì · {{ .Site.Params.siteDescription }}</p>
     {{- with hugo.Data.now_current }}
       {{- $items := first 3 (sort .items "start" "desc") -}}
-      <p class="home-lede">最近，我{{ range $i, $it := $items }}
+      <p class="home-lede">这阵子我{{ range $i, $it := $items }}
         {{- if $i }}，{{ end }}
         {{- $.RenderString (default $it.text $it.phrase) }}
         {{- printf `<sup class="lede-age"><time datetime="%s" data-relative="short">%s</time></sup>` $it.start ((time $it.start).Format "01-02") | safeHTML }}
