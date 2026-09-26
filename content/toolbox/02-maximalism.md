@@ -29,7 +29,6 @@ weight = 2
 - [Gemini](https://macpaw.com/gemini)
 - [Ghostty](https://ghostty.org)
 - [Helium Browser](https://helium.computer)
-- [Hidden Bar](https://github.com/dwarvesf/hidden)
 - [iina](https://iina.io)
 - [Insta360 Studio](https://www.insta360.com/download)
 - [Keka](https://www.keka.io/en/)
@@ -70,6 +69,7 @@ weight = 2
 - [Steam](https://store.steampowered.com)
 - [Synthing](https://syncthing.net/)
 - [Telegram](https://www.telegram.org)
+- [Thaw](https://github.com/thaw-app/Thaw)
 - [Tinycast](https://github.com/abue-ammar/tinycast)
 - [Transmission](https://transmissionbt.com)
 - [Transmit](https://panic.com/transmit/)
@@ -118,10 +118,11 @@ weight = 2
 - Google Chrome
 - [Handbrake](https://handbrake.fr)
 - [Handy](https://github.com/cjpais/Handy)
+- [Hidden Bar](https://github.com/dwarvesf/hidden)
 - [Hush](https://github.com/oblador/hush)
-- [Ice](https://github.com/jordanbaird/Ice)
+- ~~[Ice](https://github.com/jordanbaird/Ice)~~
 - [iTerm2](https://iterm2.com)
-- [Itsycal for Mac](https://www.mowglii.com/itsycal/)
+- ~~[Itsycal for Mac](https://www.mowglii.com/itsycal/)~~
 - [Ivory](https://tapbots.com/ivory/)
 - [Karabiner Elements](https://karabiner-elements.pqrs.org/)
 - [KeyCastr](https://github.com/keycastr/keycastr)
@@ -129,13 +130,13 @@ weight = 2
 - [Klack](https://tryklack.com/)
 - [Latest](https://max.codes/latest/)
 - [LocalSend](https://localsend.org)
-- [Lunar](https://lunar.fyi/)
+- ~~[Lunar](https://lunar.fyi/)~~
 - [Mactracker](https://mactracker.ca/)
 - [mac-cleanup-py](https://github.com/mac-cleanup/mac-cleanup-py)
 - [Maestral](https://maestral.app)
 - [Marked 2](https://marked2app.com/)
 - [MarkEdit](https://github.com/MarkEdit-app/MarkEdit)
-- [Min Browser](https://github.com/minbrowser/min)
+- ~~[Min Browser](https://github.com/minbrowser/min)~~
 - [monolith](https://github.com/Y2Z/monolith)
 - [Mononote](https://www.digitalminimalist.com/tools/mononote)
 - [Moom](https://manytricks.com/moom/)
