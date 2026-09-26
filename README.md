@@ -6,7 +6,7 @@ Made with
 
 - [Hugo](https://gohugo.io/)
 - [`hugo-bearblog` ʕ•ᴥ•ʔ](https://github.com/janraasch/hugo-bearblog) — theme, vendored as a git submodule; never edit it directly, override in `layouts/` instead
-- [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [JetBrains Mono](https://www.jetbrains.com/lp/mono/), Noto Serif SC — loaded from Google Fonts; Atkinson for body text, Noto Serif SC (500/700 only) for headings, the homepage lede and blockquotes, JetBrains Mono for code, dates, nav and small labels
+- [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [JetBrains Mono](https://www.jetbrains.com/lp/mono/) — the only two webfonts, loaded from Google Fonts. Atkinson for everything that isn't mono, JetBrains Mono for code, dates, nav and small labels. Both are Latin-only, so **Chinese falls back to the system face** (PingFang SC on Apple, Microsoft YaHei on Windows, Noto Sans CJK elsewhere). That is deliberate: no serif, no CJK webfont.
 - [neat-annotations](https://github.com/syabro/neat-annotations) — pure-CSS hand-drawn annotations, vendored at `assets/css/neat-annotations.css` (served locally, not from the CDN) and wrapped by the `ann` shortcode
 
 ## Where things live
@@ -21,7 +21,7 @@ Made with
 
 Inside that shell, two columns: a left date rail (`--rail`, 168px, right-aligned, collapsing to 48px below 720px) and the main column. Every dated row on the site is a `.rail-row` — date in the rail, content in the main column. Page titles and prose sit in the main column too, so everything starts at the same x.
 
-Type is carried by three families with no overlap: **Noto Serif SC** (500/700) for Chinese headings, the homepage lede and blockquotes; **Atkinson Hyperlegible Next** for body copy; **JetBrains Mono** for dates, nav, the footer and small labels. The scale is five tokens (`--fs-meta` → `--fs-h1`) plus `--fs-display` for date stamps and year labels; hierarchy comes from greyscale first, size second. The accent (朱红 `--accent`) is deliberately rationed — logo spark, active nav item, link underlines, the blockquote quote mark, the lede's superscript ages, and the focus ring.
+Type is carried by two families: **Atkinson Hyperlegible Next** for prose and headings, **JetBrains Mono** for dates, nav, the footer and small labels. Don't add a third — hierarchy is supposed to come from greyscale first and size second, and a display face quietly becomes a third signal competing with both. The scale is five tokens (`--fs-meta` → `--fs-h1`) plus `--fs-display` for date stamps and year labels. The accent (朱红 `--accent`) is deliberately rationed — logo spark, active nav item, link underlines, the blockquote quote mark, the lede's superscript ages, and the focus ring.
 
 Relative times ("2 周前") are a progressive enhancement: the HTML ships the absolute date in `<time data-relative>`, and an inline script at the bottom of `baseof.html` rewrites it. Without JS the date is still there.
 

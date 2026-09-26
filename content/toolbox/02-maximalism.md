@@ -49,6 +49,7 @@ weight = 2
 - [Pearcleaner](https://github.com/alienator88/Pearcleaner)
 - [Permute 3](https://software.charliemonroe.net/permute/)
 - [PhotoBulk](https://photobulkeditor.com/)
+- [PhotoSweeper](https://overmacs.com/)
 - [PICO-8](https://www.lexaloffle.com/pico-8.php)
 - [Play](https://apps.apple.com/us/app/play-save-videos-watch-later/id1596506190)
 - [Plex](https://www.plex.tv/)
