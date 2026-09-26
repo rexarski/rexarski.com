@@ -1,0 +1,9 @@
+{{- /*
+  Shared moment type maps. `icon` drives the emoji on /moments, `label` the
+  Chinese word used in prose (e.g. the 上一个刹那 row on the homepage).
+  A type that is not in the maps is an ad-hoc emoji and stands for itself.
+*/ -}}
+{{- return (dict
+  "icon" (dict "show" "📺" "tv" "📺" "game" "🎮" "music" "🎧" "book" "📚" "movie" "🍿" "podcast" "🎙️" "restaurant" "🍳" "url" "🔗" "baby" "🍼")
+  "label" (dict "show" "剧集" "tv" "剧集" "game" "游戏" "music" "音乐" "book" "书" "movie" "电影" "podcast" "播客" "restaurant" "吃" "url" "链接" "baby" "娃")
+) -}}

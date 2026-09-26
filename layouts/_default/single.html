@@ -1,55 +1,64 @@
-{{ define "main" }} {{ if eq .Type "posts" "zh" }} {{ if not .Params.menu }}
+{{ define "main" }}
+{{- $isPost := and (eq .Type "posts" "zh") (not .Params.menu) -}}
 
-<h1>{{ .Title }}</h1>
-<p>
-    <i>
-        <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-        </time>
-    </i>
-</p>
-{{ end }}{{ end }}
-
-<!-- Render description as quote for posts -->
-{{ if and (or (eq .Type "posts") (eq .Type "zh")) .Params.description }}
-<blockquote><b>tl;dr</b><br />{{ .Params.description }}</blockquote>
-{{ end }}
-
-<div class="single-post">
-<content> {{ .Content }} </content>
-</div>
-<p>
-    {{ range (.GetTerms "tags") }}
-    <a href="{{ .Permalink }}">#{{ .LinkTitle | lower}}</a>
-    {{ end }}
-</p>
-
-{{ if eq .Section "posts" }}
-{{ partial "related-posts.html" . }}
-{{ end }}
-
-<!-- Next/Previous Post Navigation -->
-{{ if eq .Type "posts" "zh" }}
-<div class="post-navigation">
-    <div class="nav-container">
-        {{ with .PrevInSection }}
-        <div class="nav-item">
-            <span class="nav-label">← 前一篇</span><br />
-            <a href="{{ .Permalink }}" class="nav-title">{{ .Title }}</a>
-        </div>
-        {{ else }}
-        <div></div>
-        {{ end }} {{ with .NextInSection }}
-        <div class="nav-item next">
-            <span class="nav-label">下一篇 →</span><br />
-            <a href="{{ .Permalink }}" class="nav-title">{{ .Title }}</a>
-        </div>
-        {{ else }}
-        <div></div>
-        {{ end }}
+{{ if $isPost }}
+<article class="post rail-row">
+  <div class="rail">
+    <p class="datestamp">
+      <span class="datestamp-year">{{ .Date.Format "2006" }}</span>
+      <span class="datestamp-md">{{ .Date.Format "01" }}<span class="datestamp-dot">·</span>{{ .Date.Format "02" }}</span>
+    </p>
+    {{- with .GetTerms "tags" }}
+    <ul class="post-tags">
+      {{- range . }}
+      <li><a href="{{ .Permalink }}">#{{ .LinkTitle | lower }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </div>
+  <div class="rail-main post-body">
+    <h1>{{ .Title }}</h1>
+    {{- with .Params.description }}
+    <p class="post-tldr">{{ . }}</p>
+    {{- end }}
+    <div class="single-post">
+      <content>{{ .Content }}</content>
     </div>
+  </div>
+</article>
+{{ else }}
+<div class="rail-row">
+  <span class="rail"></span>
+  <div class="rail-main page-head">
+    {{- if not .Params.hideTitle }}<h1>{{ .Title }}</h1>{{ end }}
+    <div class="single-post page-body">
+      <content>{{ .Content }}</content>
+    </div>
+  </div>
 </div>
 {{ end }}
-<!-- {{ if eq .Type "posts" "zh" }} {{ partial "comments.html" . }} {{ end
-}} -->
+
+{{ if eq .Section "posts" }}{{ partial "related-posts.html" . }}{{ end }}
+
+{{ if $isPost }}
+{{- $prev := .PrevInSection -}}
+{{- $next := .NextInSection -}}
+{{- if or $prev $next }}
+<hr class="rule" />
+<nav class="post-nav" aria-label="上下篇">
+  {{- with $prev }}
+  <div class="rail-row post-row">
+    <span class="rail rail-date">← 前一篇</span>
+    <a class="rail-main row-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </div>
+  {{- end }}
+  {{- with $next }}
+  <div class="rail-row post-row">
+    <span class="rail rail-date">下一篇 →</span>
+    <a class="rail-main row-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </div>
+  {{- end }}
+</nav>
+{{- end }}
+{{ end }}
 {{ end }}

@@ -1,9 +1,12 @@
 {{- with hugo.Data.now_current -}}
 {{- $items := sort .items "start" "desc" -}}
 {{- $page := $.Page -}}
-<ul class="now-current">
-  {{- range $items -}}
-    <li data-start="{{ .start }}">{{ $page.RenderString .text }}</li>
-  {{- end -}}
-</ul>
+<div class="now-current">
+  {{- range $items }}
+  <div class="rail-row now-row">
+    <span class="rail rail-date"><time datetime="{{ .start }}" data-relative>{{ (time .start).Format "01-02" }}</time></span>
+    <span class="rail-main">{{ $page.RenderString .text }}</span>
+  </div>
+  {{- end }}
+</div>
 {{- end -}}

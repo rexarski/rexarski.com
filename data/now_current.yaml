@@ -1,25 +1,28 @@
 # Current "now" items (the 当下 list).
 # Every item must have a `start` date so archiving to now_history is one move:
 #   add an `end` field, cut the entry, paste into data/now_history.yaml.
-# Order doesn't matter — the shortcode sorts by `start` desc.
+# `start` must always be a quoted "YYYY-MM-DD" string, so sorting never mixes
+# YAML date objects with strings.
+# Optional `phrase`: an alternative wording that reads correctly after 「最近，我」
+# on the homepage lede (e.g. text "又可以开心地喝 Espresso 了" needs no change, but
+# a noun-ish entry might). /now always shows `text`.
+# Order doesn't matter — the template sorts by `start` desc.
 items:
-  - start: 2026-07-05
+  - start: "2026-07-05"
     text: 学习拉花
   - start: "2026-06-07"
     text: "实践「爵士乐育儿理论」（Why 4 Jazz 的 [这期节目](https://www.xiaoyuzhoufm.com/episode/69f29da9f63496bb0e1360a4)）"
-  - start: 2026-07-23
+  - start: "2026-07-23"
     text: Splatoon 涂击队刷刷刷
-  - start: 2026-08-01
+  - start: "2026-08-01"
     text: 找到了一些看纸质书的乐趣
-  - start: 2026-09-04
-    text: 喜欢开油车的引擎声
-  - start: 2026-09-11
+  - start: "2026-09-11"
     text: 沉醉于功能化单一且互相隔离的设备，例如 iPod Classic + 电子书的组合
-  - start: 2026-08-25
+  - start: "2026-08-25"
     text: 最近喜欢 jazz rap
-  - start: 2026-09-03
+  - start: "2026-09-03"
     text: 用 cbvivi 的 mynd 替代 obsidian 作为日记软件
-  - start: 2026-09-11
+  - start: "2026-09-11"
     text: 跟消费主义做斗争
   - start: "2026-04-06"
     text: 入坑了 Brandon Sanderson 的书

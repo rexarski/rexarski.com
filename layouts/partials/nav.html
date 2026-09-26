@@ -1,3 +1,4 @@
+{{- $p := .RelPermalink -}}
 <a href="{{ "/" | relURL }}" class="site-logo-link" aria-label="{{ .Site.Title }}">
   <svg class="site-logo" viewBox="0 0 100 100" aria-hidden="true">
     <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round">
@@ -5,27 +6,19 @@
       <ellipse cx="44" cy="54" rx="26" ry="8" transform="rotate(-18 44 54)" />
     </g>
     <path d="M44 39 a15 15 0 0 0 0 30" fill="currentColor" opacity="0.35" />
-    <circle cx="73" cy="22" r="2.4" fill="currentColor" />
+    <circle class="logo-spark" cx="73" cy="22" r="2.8" />
     <circle cx="83" cy="41" r="1.7" fill="currentColor" />
     <circle cx="22" cy="20" r="1.7" fill="currentColor" />
     <circle cx="71" cy="74" r="2" fill="currentColor" />
     <circle cx="25" cy="78" r="1.4" fill="currentColor" />
     <circle cx="60" cy="12" r="1.2" fill="currentColor" />
   </svg>
+  <span class="site-name">rexarski</span>
 </a>
-<a href="{{ "/" | relURL }}"{{ if eq $.RelPermalink "/" }} class="active"{{ end }}>主页</a>
-<span class="nav-sep" aria-hidden="true">/</span>
-{{ with .Site.GetPage "/posts" }}
-<a href="{{ "/posts" | relURL }}"{{ if hasPrefix $.RelPermalink "/posts" }} class="active"{{ end }}>博文</a>
-<span class="nav-sep" aria-hidden="true">/</span>
-{{ end }}
-{{ range .Site.Menus.main }}
-<a href="{{ .URL }}"{{ if eq $.RelPermalink .URL }} class="active"{{ end }}>{{ .Name }}</a>
-<span class="nav-sep" aria-hidden="true">/</span>
-{{ end }}
-<a href="{{ "/platespotting/" | relURL }}"{{ if hasPrefix $.RelPermalink "/platespotting/" }} class="active"{{ end }}>收集车牌</a>
-<span class="nav-sep" aria-hidden="true">/</span>
-<a href="{{ "/moments/" | relURL }}"{{ if hasPrefix $.RelPermalink "/moments/" }} class="active"{{ end }}>刹那</a>
-<span class="nav-sep" aria-hidden="true">/</span>
-<a href="{{ "/index.xml" | relURL }}" class="rss-link">RSS</a>
+<div class="nav-links">
+  <a href="{{ "/posts/" | relURL }}"{{ if hasPrefix $p "/posts" }} class="active"{{ end }}>博文</a>
+  <a href="{{ "/now/" | relURL }}"{{ if hasPrefix $p "/now/" }} class="active"{{ end }}>now</a>
+  <a href="{{ "/moments/" | relURL }}"{{ if hasPrefix $p "/moments/" }} class="active"{{ end }}>刹那</a>
+  <a href="{{ "/about/" | relURL }}"{{ if hasPrefix $p "/about/" }} class="active"{{ end }}>关于</a>
+</div>
 <button id="dark-mode-toggle" type="button" onclick="toggleDarkMode()" class="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"><span class="theme-icon" aria-hidden="true"></span></button>

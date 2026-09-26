@@ -6,14 +6,24 @@ Made with
 
 - [Hugo](https://gohugo.io/)
 - [`hugo-bearblog` ʕ•ᴥ•ʔ](https://github.com/janraasch/hugo-bearblog) — theme, vendored as a git submodule; never edit it directly, override in `layouts/` instead
-- [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [JetBrains Mono](https://www.jetbrains.com/lp/mono/) — loaded from Google Fonts, weights 400–700 only; Atkinson is used for all text (body + headings), JetBrains Mono for code, dates and mono elements
+- [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [JetBrains Mono](https://www.jetbrains.com/lp/mono/), Noto Serif SC — loaded from Google Fonts; Atkinson for body text, Noto Serif SC (500/700 only) for headings, the homepage lede and blockquotes, JetBrains Mono for code, dates, nav and small labels
 - [neat-annotations](https://github.com/syabro/neat-annotations) — pure-CSS hand-drawn annotations, vendored at `assets/css/neat-annotations.css` (served locally, not from the CDN) and wrapped by the `ann` shortcode
 
 ## Where things live
 
 - **Styles**: `assets/css/main.css`, published minified + fingerprinted by the `layouts/partials/style.html` override. Not in the theme, not an inline `<style>`.
-- **Hand-edited data**: `data/now_current.yaml` / `data/now_history.yaml` (now page), `data/moments/<year>.yaml` (one file per year), `data/plates.yaml` (platespotting).
+- **Hand-edited data**: `data/now_current.yaml` / `data/now_history.yaml` (now page), `data/moments/<year>.yaml` (one file per year), `data/plates.yaml` (platespotting). Every date field is a quoted `"YYYY-MM-DD"` string — unquoted ones parse as YAML dates and sort inconsistently against the quoted ones.
 - **Generated data**: `data/concept2_distance.json` (rowing progress bar on /now, from `concept2_scraper.sh`) and `data/related_posts.json` (相关博文，committed) are build inputs; `data/post_embeddings.json` is a gitignored local embedding cache.
+
+## Layout
+
+**Left-aligned, never centred.** `header` / `main` / `footer` share one shell — `width: min(100%, var(--page-max))` with `margin-inline: 0` — so the page hugs the left edge and wide screens spill their empty space to the right. Don't reintroduce `margin-inline: auto`.
+
+Inside that shell, two columns: a left date rail (`--rail`, 168px, right-aligned, collapsing to 48px below 720px) and the main column. Every dated row on the site is a `.rail-row` — date in the rail, content in the main column. Page titles and prose sit in the main column too, so everything starts at the same x.
+
+Type is carried by three families with no overlap: **Noto Serif SC** (500/700) for Chinese headings, the homepage lede and blockquotes; **Atkinson Hyperlegible Next** for body copy; **JetBrains Mono** for dates, nav, the footer and small labels. The scale is five tokens (`--fs-meta` → `--fs-h1`) plus `--fs-display` for date stamps and year labels; hierarchy comes from greyscale first, size second. The accent (朱红 `--accent`) is deliberately rationed — logo spark, active nav item, link underlines, the blockquote quote mark, the lede's superscript ages, and the focus ring.
+
+Relative times ("2 周前") are a progressive enhancement: the HTML ships the absolute date in `<time data-relative>`, and an inline script at the bottom of `baseof.html` rewrites it. Without JS the date is still there.
 
 ## Local dev
 
@@ -23,11 +33,11 @@ Just writing? This is enough — the committed data files cover everything:
 hugo server --gc -D --disableFastRender --buildFuture
 ```
 
-Full refresh (rowing data + related posts): run `./dev.fish`. The related-posts step (`generate_post_embeddings.py`) needs a local LM Studio server with an embeddings model loaded; pass `--refresh` to rebuild the cache from scratch.
+Full refresh (rowing data + related posts): run `./dev.fish`. The related-posts step (`generate_post_embeddings.py`) needs a local LM Studio server serving the model named in its `MODEL_NAME` constant (currently `text-embedding-embeddinggemma-300m-qat`); pass `--refresh` to rebuild the cache from scratch. Changing `MODEL_NAME` invalidates the cache on its own — the script notices and recomputes.
 
 ## Shortcodes
 
-`toc`, `postslist`, `ann`, `tier` / `tierlist`, `plates`, `blog_heatmap`, `now_current` / `now_history`
+`toc`, `ann`, `tier` / `tierlist`, `plates`, `blog_heatmap`, `now_current` / `now_history`
 
 ## Conventions
 
