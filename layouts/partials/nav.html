@@ -1,18 +1,6 @@
 {{- $p := .RelPermalink -}}
 <a href="{{ "/" | relURL }}" class="site-logo-link" aria-label="{{ .Site.Title }}">
-  <svg class="site-logo" viewBox="0 0 100 100" aria-hidden="true">
-    <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round">
-      <circle cx="44" cy="54" r="15" />
-      <ellipse cx="44" cy="54" rx="26" ry="8" transform="rotate(-18 44 54)" />
-    </g>
-    <path d="M44 39 a15 15 0 0 0 0 30" fill="currentColor" opacity="0.35" />
-    <circle class="logo-spark" cx="73" cy="22" r="2.8" />
-    <circle cx="83" cy="41" r="1.7" fill="currentColor" />
-    <circle cx="22" cy="20" r="1.7" fill="currentColor" />
-    <circle cx="71" cy="74" r="2" fill="currentColor" />
-    <circle cx="25" cy="78" r="1.4" fill="currentColor" />
-    <circle cx="60" cy="12" r="1.2" fill="currentColor" />
-  </svg>
+  <img class="site-logo" src="{{ "/images/favicon.png" | relURL }}" alt="" width="24" height="24" />
   <span class="site-name">rexarski</span>
 </a>
 <div class="nav-links">

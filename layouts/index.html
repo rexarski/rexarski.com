@@ -11,7 +11,7 @@
     </p>
   </div>
   <div class="rail-main">
-    <p class="home-kicker">Qiū Ruì · {{ .Site.Params.siteDescription }}</p>
+    <p class="home-kicker">{{ .Site.Params.siteDescription }}</p>
     {{- with hugo.Data.now_current }}
       {{- $items := first 3 (sort .items "start" "desc") -}}
       <p class="home-lede">这阵子我{{ range $i, $it := $items }}
@@ -23,8 +23,6 @@
     <div class="home-intro">{{ .Content }}</div>
   </div>
 </section>
-
-<hr class="rule" />
 
 {{- $mt := partial "moment-types.html" . -}}
 {{- $moments := slice -}}

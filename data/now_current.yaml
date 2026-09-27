@@ -8,6 +8,8 @@
 # a noun-ish entry might). /now always shows `text`.
 # Order doesn't matter — the template sorts by `start` desc.
 items:
+  - start: "2026-09-26"
+    text: 开始清空 2026 年的 backlog
   - start: "2026-07-05"
     text: 学习拉花
   - start: "2026-06-07"

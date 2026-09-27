@@ -1,10 +1,11 @@
+{{- /* 回顾 — ended periods, folded away by default. */ -}}
 {{- with hugo.Data.now_history -}}
 {{- $items := .items -}}
 {{- if $items -}}
 <details class="now-history">
   <summary class="now-history-summary">{{ .summary | default "过去" }}</summary>
   <ul class="now-history-list">
-    {{- range sort $items "end" "desc" -}}
+    {{- range sort $items "end" "desc" }}
     <li class="now-history-item">
       <span class="now-history-dates">
         <time datetime="{{ .start }}">{{ .start }}</time>
@@ -13,7 +14,7 @@
       </span>
       <span class="now-history-text">{{ .text | markdownify }}</span>
     </li>
-    {{- end -}}
+    {{- end }}
   </ul>
 </details>
 {{- end -}}

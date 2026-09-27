@@ -25,4 +25,4 @@ DMV 打工人，新手奶爸。
 
 ---
 
-主题基于 [ʕ•ᴥ•ʔ Bear Blog](https://github.com/janraasch/hugo-bearblog/)，正文 [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/)，标题 Noto Serif SC，日期与小字 [JetBrains Mono](https://www.jetbrains.com/lp/mono/)。
+主题基于 [ʕ•ᴥ•ʔ Bear Blog](https://github.com/janraasch/hugo-bearblog/)，正文与标题 [Noto Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC)，日期与小字 [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)。

@@ -6,7 +6,7 @@ Made with
 
 - [Hugo](https://gohugo.io/)
 - [`hugo-bearblog` ʕ•ᴥ•ʔ](https://github.com/janraasch/hugo-bearblog) — theme, vendored as a git submodule; never edit it directly, override in `layouts/` instead
-- [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/), [JetBrains Mono](https://www.jetbrains.com/lp/mono/) — the only two webfonts, loaded from Google Fonts. Atkinson for everything that isn't mono, JetBrains Mono for code, dates, nav and small labels. Both are Latin-only, so **Chinese falls back to the system face** (PingFang SC on Apple, Microsoft YaHei on Windows, Noto Sans CJK elsewhere). That is deliberate: no serif, no CJK webfont.
+- [Noto Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC), [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) — the only two webfonts, loaded from Google Fonts. Noto Sans SC covers both Latin and Simplified Chinese, so it carries every page on every platform; IBM Plex Mono handles code, dates, nav and small labels, and falls through to Noto Sans SC for the Chinese inside those (Plex has no CJK).
 - [neat-annotations](https://github.com/syabro/neat-annotations) — pure-CSS hand-drawn annotations, vendored at `assets/css/neat-annotations.css` (served locally, not from the CDN) and wrapped by the `ann` shortcode
 
 ## Where things live
@@ -19,9 +19,13 @@ Made with
 
 **Left-aligned, never centred.** `header` / `main` / `footer` share one shell — `width: min(100%, var(--page-max))` with `margin-inline: 0` — so the page hugs the left edge and wide screens spill their empty space to the right. Don't reintroduce `margin-inline: auto`.
 
-Inside that shell, two columns: a left date rail (`--rail`, 168px, right-aligned, collapsing to 48px below 720px) and the main column. Every dated row on the site is a `.rail-row` — date in the rail, content in the main column. Page titles and prose sit in the main column too, so everything starts at the same x.
+Inside that shell, two columns: a left date rail (`--rail`, 168px, right-aligned) and the main column. Every dated row on the site is a `.rail-row` — date in the rail, content in the main column. Page titles and prose sit in the main column too, so everything starts at the same x.
 
-Type is carried by two families: **Atkinson Hyperlegible Next** for prose and headings, **JetBrains Mono** for dates, nav, the footer and small labels. Don't add a third — hierarchy is supposed to come from greyscale first and size second, and a display face quietly becomes a third signal competing with both. The scale is five tokens (`--fs-meta` → `--fs-h1`) plus `--fs-display` for date stamps and year labels. The accent (朱红 `--accent`) is deliberately rationed — logo spark, active nav item, link underlines, the blockquote quote mark, the lede's superscript ages, and the focus ring.
+The /posts heatmap ships two grids and shows one: weekly (53 cells) on desktop, monthly (12 cells) below 720px, swapped by `.by-week` / `.by-month`. Weekly cells fall to about 5px on a phone, which reads as texture rather than data. The monthly grid needs its own count buckets (0 / 1–2 / 3–4 / 5–7 / 8+), since a month's total runs well past the weekly scale.
+
+Below 720px the rail goes to 3.75rem, wide enough for the `MM-DD` most rows carry. The related-posts list is the one place that shows a full `YYYY-MM-DD`, so it overrides its own `grid-template-columns` to 5.25rem; without that the date runs under the title. Two kinds of row leave the grid entirely at that width and need their marker class in the template: `.rail-empty` for page heads and the tag cloud, and `.year-row` for the year headings on /posts and /moments (a year at `--fs-display` never fits the rail). The article header (`.post`) and the homepage hero stack for the same reason. Rows that *head* a group of dated rows — 上一个刹那, 最近写的, 相关, the month labels — deliberately keep the grid, so the label stays aligned with the content under it.
+
+Type is carried by two families: **Noto Sans SC** for prose and headings, **IBM Plex Mono** for dates, nav, the footer and small labels. Don't add a third — hierarchy is supposed to come from greyscale first and size second, and a display face quietly becomes a third signal competing with both. The scale is five tokens (`--fs-meta` → `--fs-h1`) plus `--fs-display` for date stamps and year labels. The background is flat: no texture, no dot grid, no entry animations. The accent (朱红 `--accent`) is deliberately rationed — active nav item, link underlines, the blockquote quote mark, the lede's superscript ages, and the focus ring. Dividers are plain `--border` hairlines, not dashed.
 
 Relative times ("2 周前") are a progressive enhancement: the HTML ships the absolute date in `<time data-relative>`, and an inline script at the bottom of `baseof.html` rewrites it. Without JS the date is still there.
 
@@ -37,11 +41,12 @@ Full refresh (rowing data + related posts): run `./dev.fish`. The related-posts 
 
 ## Shortcodes
 
-`toc`, `ann`, `tier` / `tierlist`, `plates`, `blog_heatmap`, `now_current` / `now_history`
+`toc`, `ann`, `tier` / `tierlist`, `plates`, `blog_heatmap`
+
+/now renders its own lists from `partials/now-current.html` and `partials/now-history.html` via `layouts/_default/now.html`. They used to be shortcodes, but a shortcode runs inside `.Content`, which sits inside the page head's main column — so every `.rail-row` it emitted was indented one rail deeper than the same row on /posts or /moments.
 
 ## Conventions
 
-- Look-affecting changes get a Mandarin entry in `content/changelog.md`.
 - **Do NOT** use `blog`, `projects`, `zh` or any other tab names as tag names.
 - Big GIFs become looping MP4s, embedded as `<video src="…" autoplay loop muted playsinline></video>`:
 

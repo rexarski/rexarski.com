@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="rail-row rail-empty">
+  <span class="rail"></span>
+  <div class="rail-main page-head">
+    <h1>{{ .Title }}</h1>
+    <div class="page-body">{{ .Content }}</div>
+  </div>
+</div>
+
+{{ partial "now-current.html" . }}
+
+<div class="rail-row rail-empty">
+  <span class="rail"></span>
+  <div class="rail-main">{{ partial "now-history.html" . }}</div>
+</div>
+{{ end }}

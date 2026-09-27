@@ -11,6 +11,15 @@
   {{ $scratch.SetInMap "weeks" $key (add $cur 1) }}
 {{ end }}
 {{ $weeks := $scratch.Get "weeks" }}
+{{/* Monthly tally for the phone grid: 53 weekly cells shrink to ~5px at 390px,
+     which is decoration, not data. Twelve cells stay readable. */}}
+{{ $scratch.Set "months" dict }}
+{{ range $pages }}
+  {{ $key := printf "%d-%d" .Date.Year (int .Date.Month) }}
+  {{ $cur := index ($scratch.Get "months") $key | default 0 }}
+  {{ $scratch.SetInMap "months" $key (add $cur 1) }}
+{{ end }}
+{{ $months := $scratch.Get "months" }}
 {{ $yearList := slice }}
 {{ range $pages }}
   {{ $yearList = $yearList | append .Date.Year }}
@@ -44,15 +53,16 @@
 
 <div class="blog-heatmap" aria-label="Blog posts by week">
   <div class="blog-heatmap-header">
-    <span class="blog-heatmap-title">每周文章数量</span>
+    <span class="blog-heatmap-title by-week">每周文章数量</span>
+    <span class="blog-heatmap-title by-month">每月文章数量</span>
     <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-0"></span> 0</span>
-    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-1"></span> 1</span>
-    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-2"></span> 2</span>
-    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-3"></span> 3</span>
-    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-4"></span> 4+</span>
+    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-1"></span> <span class="by-week">1</span><span class="by-month">1–2</span></span>
+    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-2"></span> <span class="by-week">2</span><span class="by-month">3–4</span></span>
+    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-3"></span> <span class="by-week">3</span><span class="by-month">5–7</span></span>
+    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-4"></span> <span class="by-week">4+</span><span class="by-month">8+</span></span>
     <span class="blog-heatmap-streak">连续第 {{ $streak }} 周</span>
   </div>
-  <div class="blog-heatmap-grid">
+  <div class="blog-heatmap-grid by-week">
     {{ range $years }}
       {{ $y := . }}
       <div class="blog-heatmap-row">
@@ -69,9 +79,32 @@
       </div>
     {{ end }}
   </div>
-  <div class="blog-heatmap-week-labels">
+  <div class="blog-heatmap-grid by-month">
+    {{ range $years }}
+      {{ $y := . }}
+      <div class="blog-heatmap-row">
+        <span class="blog-heatmap-year">{{ $y }}</span>
+        <div class="blog-heatmap-stripes" role="img" aria-label="{{ $y }} months">
+          {{ range seq 1 12 }}
+            {{ $key := printf "%d-%d" $y . }}
+            {{ $cnt := index $months $key | default 0 }}
+            {{/* Monthly counts run higher than weekly ones, so the buckets widen. */}}
+            {{ $class := "count-0" }}
+            {{ if ge $cnt 8 }}{{ $class = "count-4" }}{{ else if ge $cnt 5 }}{{ $class = "count-3" }}{{ else if ge $cnt 3 }}{{ $class = "count-2" }}{{ else if ge $cnt 1 }}{{ $class = "count-1" }}{{ end }}
+            <span class="blog-heatmap-cell {{ $class }}" title="{{ $y }}-{{ printf "%02d" . }}{{ if gt $cnt 0 }} · {{ $cnt }} post(s){{ end }}"></span>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+  <div class="blog-heatmap-labels by-week">
     <span>第 1 周</span>
     <span>第 27 周</span>
     <span>第 53 周</span>
+  </div>
+  <div class="blog-heatmap-labels by-month">
+    <span>1 月</span>
+    <span>6 月</span>
+    <span>12 月</span>
   </div>
 </div>

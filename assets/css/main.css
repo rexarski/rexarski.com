@@ -23,18 +23,17 @@
         --lh-body: 1.8;
         --lh-meta: 1.45;
 
-        --font-body: "Atkinson Hyperlegible Next", sans-serif;
-        --font-mono: "JetBrains Mono", monospace;
+        --font-body: "Noto Sans SC", sans-serif;
+        /* Plex has no CJK, so Chinese in mono contexts lands on the body face. */
+        --font-mono: "IBM Plex Mono", "Noto Sans SC", monospace;
 
         --bg: #f7f3eb;
-        --dot: #e0d7c8;
         --surface: #efe9dd;
         --text: #3d3730;
         --heading: #1a1714;
         --link: #3d3730;
         --muted: #6b6259;
         --muted-strong: #8b8177;
-        --rule: #cfc4b3;
         --border: #e2d9c9;
         --accent: #c23b22;
 
@@ -73,7 +72,6 @@
         scroll-behavior: smooth;
     }
 
-    /* Dotted paper. Drawn straight onto the body — no extra overlay layer. */
     body {
         font-family: var(--font-body);
         margin: 0;
@@ -82,8 +80,6 @@
         font-size: var(--fs-body);
         text-align: left;
         background-color: var(--bg);
-        background-image: radial-gradient(var(--dot) 1px, transparent 1.3px);
-        background-size: 24px 24px;
         word-wrap: break-word;
         overflow-wrap: break-word;
         line-height: var(--lh-body);
@@ -132,10 +128,10 @@
         min-width: 0;
     }
 
-    /* A 1px dashed hairline spanning both columns. */
+    /* A plain hairline spanning both columns. */
     .rule {
         border: 0;
-        border-top: 1px dashed var(--rule);
+        border-top: 1px solid var(--border);
         margin: 2.5rem 0;
     }
 
@@ -257,25 +253,21 @@
     }
 
     /* ─── Header / Logo ──────────────────────────────────────── */
+    /* Indented onto the main column so the wordmark lines up with the content. */
     .site-logo-link {
-        display: grid;
-        grid-template-columns: var(--rail) auto;
-        column-gap: var(--rail-gap);
+        display: inline-flex;
         align-items: center;
+        gap: 0.5rem;
+        margin-left: calc(var(--rail) + var(--rail-gap));
         text-decoration: none;
     }
 
     .site-logo {
-        width: 24px;
-        height: 24px;
+        width: 20px;
+        height: 20px;
         display: block;
         flex-shrink: 0;
-        color: var(--text);
-    }
-
-    /* The one star in the logo that carries the accent. */
-    .site-logo .logo-spark {
-        fill: var(--accent);
+        border-radius: 4px;
     }
 
     .site-name {
@@ -381,37 +373,6 @@
         color: var(--accent);
     }
 
-    /* Changelog page: latest block stays open; older entries fold by year (see changelog.html) */
-    .changelog-body details.changelog-year {
-        margin: 1rem 0 0;
-    }
-
-    .changelog-body details.changelog-year summary {
-        cursor: pointer;
-        font-weight: 600;
-        color: var(--heading);
-        list-style: none;
-    }
-
-    .changelog-body details.changelog-year summary::-webkit-details-marker {
-        display: none;
-    }
-
-    .changelog-body details.changelog-year summary::before {
-        content: "▶ ";
-        display: inline-block;
-        margin-right: 0.25em;
-    }
-
-    .changelog-body details.changelog-year[open] summary::before {
-        content: "▼ ";
-    }
-
-    .changelog-body .changelog-year-list {
-        margin: 0.5rem 0 0;
-        padding-left: 1.25rem;
-    }
-
     /* ─── Images ─────────────────────────────────────────────── */
     img {
         max-width: 100%;
@@ -426,7 +387,7 @@
         margin: 2rem 0;
         font-family: var(--font-body);
         font-size: 1.25rem;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 1.7;
         background: transparent;
     }
@@ -569,50 +530,6 @@
         align-items: baseline;
         gap: 1rem;
         margin-bottom: 0.6rem;
-        opacity: 0;
-        animation: post-entry 0.4s ease forwards;
-    }
-
-    ul.blog-posts li:nth-child(1) {
-        animation-delay: 0.05s;
-    }
-    ul.blog-posts li:nth-child(2) {
-        animation-delay: 0.1s;
-    }
-    ul.blog-posts li:nth-child(3) {
-        animation-delay: 0.15s;
-    }
-    ul.blog-posts li:nth-child(4) {
-        animation-delay: 0.2s;
-    }
-    ul.blog-posts li:nth-child(5) {
-        animation-delay: 0.25s;
-    }
-    ul.blog-posts li:nth-child(6) {
-        animation-delay: 0.3s;
-    }
-    ul.blog-posts li:nth-child(7) {
-        animation-delay: 0.35s;
-    }
-    ul.blog-posts li:nth-child(8) {
-        animation-delay: 0.4s;
-    }
-    ul.blog-posts li:nth-child(9) {
-        animation-delay: 0.45s;
-    }
-    ul.blog-posts li:nth-child(10) {
-        animation-delay: 0.5s;
-    }
-
-    @keyframes post-entry {
-        from {
-            opacity: 0;
-            transform: translateY(6px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
     }
 
     ul.blog-posts li:last-child {
@@ -826,7 +743,12 @@
         opacity: 0.85;
     }
 
-    .blog-heatmap-week-labels {
+    /* Two grids ship; exactly one is shown. See the ≤720px block. */
+    .blog-heatmap .by-month {
+        display: none;
+    }
+
+    .blog-heatmap-labels {
         display: flex;
         justify-content: space-between;
         margin-top: 0.35rem;
@@ -1413,7 +1335,7 @@
 
     /* ─── Homepage ───────────────────────────────────────────── */
     .home-hero {
-        margin-bottom: 0;
+        margin-bottom: 3.5rem;
     }
 
     .home-kicker {
@@ -1448,6 +1370,7 @@
 
     .lede-age {
         font-family: var(--font-mono);
+        white-space: nowrap;
         font-size: 0.8125rem;
         font-weight: 400;
         color: var(--accent);
@@ -1533,7 +1456,7 @@
         margin-top: 4rem;
         text-align: left;
         padding-top: 1.25rem;
-        border-top: 1px dashed var(--rule);
+        border-top: 1px solid var(--border);
         font-family: var(--font-mono);
         font-size: var(--fs-meta);
         color: var(--muted);
@@ -1651,14 +1574,12 @@
     @media (prefers-color-scheme: dark) {
         body:not(.force-light):not(.force-dark) {
             --bg: #171513;
-            --dot: #26221e;
             --surface: #201d19;
             --text: #d4ccc1;
             --heading: #efe8de;
             --link: #d4ccc1;
             --muted: #9a9086;
             --muted-strong: #7e756c;
-            --rule: #3a342e;
             --border: #302b26;
             --accent: #e0634b;
             --table-border: #3a342e;
@@ -1695,14 +1616,12 @@
     body.theme-dark,
     body.force-dark {
         --bg: #171513;
-        --dot: #26221e;
         --surface: #201d19;
         --text: #d4ccc1;
         --heading: #efe8de;
         --link: #d4ccc1;
         --muted: #9a9086;
         --muted-strong: #7e756c;
-        --rule: #3a342e;
         --border: #302b26;
         --accent: #e0634b;
         --table-border: #3a342e;
@@ -1756,22 +1675,46 @@
 
     /* ─── Mobile ─────────────────────────────────────────────── */
     /*
-     * Below 720px the date rail folds away: the big date stamp becomes one
-     * line at the top of the main column, and dated rows keep a narrow
-     * left-aligned MM-DD column so titles still line up with each other.
+     * Below 720px the rail has to hold a full YYYY-MM-DD (the related-posts
+     * list shows one), so it gets wider, not narrower. Two kinds of row can't
+     * live in a rail that narrow and leave the grid instead: the article
+     * header, whose date stamp and tags would collide with the title, and any
+     * row whose rail cell is decorative or holds a year label.
      */
     @media screen and (max-width: 720px) {
         :root {
-            --rail: 48px;
-            --rail-gap: 16px;
+            --rail: 3.75rem;
+            --rail-gap: 0.75rem;
         }
 
-        body {
-            background-size: 20px 20px;
+        /* The only list that shows a full YYYY-MM-DD. */
+        .related-posts .rail-row {
+            grid-template-columns: 5.25rem minmax(0, 1fr);
         }
 
-        .rail-row > .rail {
+        .site-logo-link {
+            margin-left: 0;
+        }
+
+        .rail-row.rail-empty,
+        .year-row,
+        .home-hero,
+        .post {
+            display: block;
+        }
+
+        .home-hero > .rail,
+        .post > .rail {
             text-align: left;
+            margin-bottom: 1rem;
+        }
+
+        /* Date stamp and tags share one line above the title. */
+        .post > .rail {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 0.35rem 1rem;
         }
 
         .datestamp {
@@ -1797,12 +1740,18 @@
             color: var(--muted-strong);
         }
 
-        .home-hero {
-            display: block;
+        .post-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0 0.75rem;
+            margin: 0;
         }
 
-        .home-hero .rail {
-            margin-bottom: 0.9rem;
+        /* Outweighs `.rail-row > .rail`, which right-aligns on desktop. */
+        .year-row > .year-label {
+            text-align: left;
+            font-size: 2rem;
+            margin: 1.5rem 0 0.35rem;
         }
 
         .home-lede {
@@ -1859,48 +1808,52 @@
         .footer-line {
             font-size: var(--fs-meta);
         }
+    }
 
+    /*
+     * Phones get the monthly grid. Twelve cells across ~300px leave each one
+     * around 22px wide; the 53 weekly cells would be about 5px, which reads as
+     * texture rather than data.
+     */
+    @media screen and (max-width: 720px) {
         .blog-heatmap {
-            max-width: 100%;
-            box-sizing: border-box;
             padding-left: 0;
             padding-right: 0;
         }
 
-        .blog-heatmap-header {
-            padding-right: 0;
+        .blog-heatmap .by-week {
+            display: none;
+        }
+
+        .blog-heatmap-grid.by-month,
+        .blog-heatmap-labels.by-month {
+            display: flex;
+        }
+
+        .blog-heatmap-title.by-month,
+        .blog-heatmap-legend .by-month {
+            display: inline;
+        }
+
+        .blog-heatmap-grid.by-month .blog-heatmap-cell {
+            min-width: 0;
+            max-width: none;
+            height: 18px;
+        }
+
+        .blog-heatmap-grid.by-month .blog-heatmap-stripes {
+            gap: 3px;
         }
 
         .blog-heatmap-streak {
             position: static;
             flex-basis: 100%;
-            margin-top: 0.5rem;
+            margin-top: 0.35rem;
             order: 10;
         }
 
-        .blog-heatmap-legend {
-            flex-shrink: 0;
-        }
-
-        .blog-heatmap-year {
-            flex: 0 0 2rem;
-            font-size: var(--fs-meta);
-        }
-
-        .blog-heatmap-stripes {
-            gap: 1px;
-            min-width: 0;
-        }
-
-        .blog-heatmap-cell {
-            min-width: 2px;
-            max-width: 8px;
-            height: 12px;
-        }
-
-        .blog-heatmap-week-labels {
-            padding-left: 2.5rem;
-            font-size: var(--fs-meta);
+        .blog-heatmap-labels {
+            padding-left: 3.25rem;
         }
     }
 
