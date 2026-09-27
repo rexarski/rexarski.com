@@ -8,23 +8,23 @@
 # a noun-ish entry might). /now always shows `text`.
 # Order doesn't matter — the template sorts by `start` desc.
 items:
+  - start: "2026-09-27"
+    text: 看 HBO 的《绿灯军团》第一季
+  - start: "2026-09-27"
+    text: "在 Switch 2 上玩之前搁置了很久的[《塞尔达无双：灾厄启示录》](https://neodb.social/game/2JIMpnIgqDFgqkEWrvwTx0)"
+  - start: "2026-07-13"
+    text: 在 Steam Deck 上玩 Goodnight Universe，非常感人的游戏
+  - start: "2026-07-11"
+    text: 在读 Sanderson 的 Wax and Wayne 系列
+  - start: "2026-06-27"
+    text: 在新漫画追《镖人》更新
   - start: "2026-09-26"
-    text: 开始清空 2026 年的 backlog
+    text: "开始清空 2026 年的 [backlog](https://neodb.social/collection/75VzWTd4Pu2JTK0LgLKWUs)"
   - start: "2026-07-05"
     text: 学习拉花
   - start: "2026-06-07"
     text: "实践「爵士乐育儿理论」（Why 4 Jazz 的 [这期节目](https://www.xiaoyuzhoufm.com/episode/69f29da9f63496bb0e1360a4)）"
-  - start: "2026-07-23"
-    text: Splatoon 涂击队刷刷刷
   - start: "2026-08-01"
     text: 找到了一些看纸质书的乐趣
-  - start: "2026-09-11"
-    text: 沉醉于功能化单一且互相隔离的设备，例如 iPod Classic + 电子书的组合
-  - start: "2026-08-25"
-    text: 最近喜欢 jazz rap
   - start: "2026-09-03"
     text: 用 cbvivi 的 mynd 替代 obsidian 作为日记软件
-  - start: "2026-09-11"
-    text: 跟消费主义做斗争
-  - start: "2026-04-06"
-    text: 入坑了 Brandon Sanderson 的书
