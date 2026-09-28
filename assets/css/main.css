@@ -1,6 +1,6 @@
     /* Fonts: loaded via <link> in baseof.html (avoids @import blocking) */
 
-    /* ─── Design Tokens — Light Mode ─────────────────────────── */
+    /* ─── Design Tokens ──────────────────────────────────────── */
     :root {
         /* Two-column grid: left date rail + main column */
         --page-max: 1240px;
@@ -27,39 +27,43 @@
         /* Plex has no CJK, so Chinese in mono contexts lands on the body face. */
         --font-mono: "IBM Plex Mono", "Noto Sans SC", monospace;
 
-        --bg: #f7f3eb;
-        --surface: #efe9dd;
-        --text: #3d3730;
-        --heading: #1a1714;
-        --link: #3d3730;
-        --muted: #6b6259;
-        --muted-strong: #8b8177;
-        --border: #e2d9c9;
+        /* Light is the only scheme. Native controls and light-dark() follow. */
+        color-scheme: light;
+
+        /* Warm off-white, low chroma: paper without the paper texture. */
+        --bg: #f7f5f0;
+        --surface: #efece6;
+        --text: #3b3835;
+        --heading: #1c1a17;
+        --link: #3b3835;
+        --muted: #6f6a63;
+        --muted-strong: #8e8880;
+        --border: #e3dfd7;
         --accent: #c23b22;
 
-        --table-border: #d8cdb9;
-        --code-bg: #ece5d8;
-        --code-color: #2a2218;
-        --pre-code-color: #2a2218;
+        --table-border: #d9d3c9;
+        --code-bg: #eeeae3;
+        --code-color: #2a2724;
+        --pre-code-color: #2a2724;
         --mark-bg: #f7e68a;
         --mark-text: #2a2010;
-        --toc-frame: #6b6259;
-        --toc-content-color: #6b6259;
+        --toc-frame: #6f6a63;
+        --toc-content-color: #6f6a63;
         --toc-hover-bg: #f7e68a;
-        --toc-hover-text: #1a1714;
-        --nav-border: #e2d9c9;
-        --nav-label-color: #6b6259;
-        --nav-title-color: #3d3730;
-        --nav-title-hover: #1a1714;
-        --helptext: #8b8177;
-        --form-bg: #f7f3eb;
-        --form-text: #1a1714;
+        --toc-hover-text: #1c1a17;
+        --nav-border: #e3dfd7;
+        --nav-label-color: #6f6a63;
+        --nav-title-color: #3b3835;
+        --nav-title-hover: #1c1a17;
+        --helptext: #8e8880;
+        --form-bg: #f7f5f0;
+        --form-text: #1c1a17;
 
-        /* Blog heatmap scale — warm ink ramp, deliberately not the accent */
-        --heatmap-1: #d8cdb9;
-        --heatmap-2: #b3a692;
-        --heatmap-3: #8b8177;
-        --heatmap-4: #3d3730;
+        /* Blog heatmap scale: a warm ink ramp, deliberately not the accent */
+        --heatmap-1: #e0dad0;
+        --heatmap-2: #beb6a9;
+        --heatmap-3: #8e8880;
+        --heatmap-4: #3b3835;
     }
 
     /* ─── Reset ───────────────────────────────────────────────── */
@@ -442,26 +446,14 @@
         color: unset;
     }
 
-    body.force-dark
-        div.highlight
+    /* Monokai's comment grey is too dim on this background. */
+    div.highlight
         pre[style*="background-color:#272822"]
         span[style*="color:#75715e"],
-    body.force-dark
-        div.highlight
+    div.highlight
         pre[style*="background-color:#272822"]
         span[style*="color: #75715e"] {
         color: #9ca3af !important;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        div.highlight
-            pre[style*="background-color:#272822"]
-            span[style*="color:#75715e"],
-        div.highlight
-            pre[style*="background-color:#272822"]
-            span[style*="color: #75715e"] {
-            color: #9ca3af !important;
-        }
     }
 
     /* ─── Tables ─────────────────────────────────────────────── */
@@ -1494,171 +1486,6 @@
         border-radius: 2px;
     }
 
-    /* ─── Dark mode toggle icon ──────────────────────────────── */
-    .dark-mode-toggle,
-    #dark-mode-toggle {
-        background: none !important;
-        border: none !important;
-        cursor: pointer;
-        margin-left: 1.1rem;
-        padding: 0.25em;
-        font-size: 16px;
-        color: var(--muted);
-        line-height: 0;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        transition:
-            transform 0.2s ease,
-            opacity 0.2s ease;
-    }
-
-    .dark-mode-toggle:hover,
-    #dark-mode-toggle:hover {
-        opacity: 0.85;
-        transform: scale(1.08);
-    }
-
-    .theme-icon {
-        --size: 1.15em;
-        width: var(--size);
-        height: var(--size);
-        position: relative;
-        display: inline-block;
-        flex-shrink: 0;
-    }
-
-    .theme-icon::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        border-radius: 50%;
-        background: currentColor;
-        box-shadow: 0.22em 0 0 -0.12em var(--bg);
-        transition:
-            opacity 0.25s ease,
-            transform 0.25s ease;
-    }
-
-    .theme-icon::after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        border-radius: 50%;
-        background: currentColor;
-        box-shadow:
-            -1.4em 0 0 -0.75em currentColor,
-            1.4em 0 0 -0.75em currentColor,
-            0 -1.4em 0 -0.75em currentColor,
-            0 1.4em 0 -0.75em currentColor,
-            -1em -1em 0 -0.75em currentColor,
-            1em -1em 0 -0.75em currentColor,
-            -1em 1em 0 -0.75em currentColor,
-            1em 1em 0 -0.75em currentColor;
-        opacity: 0;
-        transition:
-            opacity 0.25s ease,
-            transform 0.25s ease;
-    }
-
-    body.theme-dark .theme-icon::before {
-        opacity: 0;
-        transform: scale(0.8);
-    }
-
-    body.theme-dark .theme-icon::after {
-        opacity: 1;
-    }
-
-    /* ─── Dark mode — system preference (warm) ───────────────── */
-    @media (prefers-color-scheme: dark) {
-        body:not(.force-light):not(.force-dark) {
-            --bg: #171513;
-            --surface: #201d19;
-            --text: #d4ccc1;
-            --heading: #efe8de;
-            --link: #d4ccc1;
-            --muted: #9a9086;
-            --muted-strong: #7e756c;
-            --border: #302b26;
-            --accent: #e0634b;
-            --table-border: #3a342e;
-            --code-bg: #201d19;
-            --code-color: #d4ccc1;
-            --pre-code-color: #d4ccc1;
-            --mark-bg: #5c4a2e;
-            --mark-text: #efe8de;
-            --toc-frame: #9a9086;
-            --toc-content-color: #9a9086;
-            --toc-hover-bg: #4a3f31;
-            --toc-hover-text: #efe8de;
-            --nav-border: #302b26;
-            --nav-label-color: #9a9086;
-            --nav-title-color: #d4ccc1;
-            --nav-title-hover: #efe8de;
-            --helptext: #9a9086;
-            --form-bg: #201d19;
-            --form-text: #d4ccc1;
-
-            /* Blog heatmap scale (dark) */
-            --heatmap-1: #3a342e;
-            --heatmap-2: #5c554c;
-            --heatmap-3: #83796f;
-            --heatmap-4: #d4ccc1;
-        }
-    }
-
-    /*
-     * Dark palette when the site is in dark mode (.theme-dark from script, or
-     * .force-dark + .theme-dark). Duplicates the @media block above so “force
-     * dark” works when the OS is light.
-     */
-    body.theme-dark,
-    body.force-dark {
-        --bg: #171513;
-        --surface: #201d19;
-        --text: #d4ccc1;
-        --heading: #efe8de;
-        --link: #d4ccc1;
-        --muted: #9a9086;
-        --muted-strong: #7e756c;
-        --border: #302b26;
-        --accent: #e0634b;
-        --table-border: #3a342e;
-        --code-bg: #201d19;
-        --code-color: #d4ccc1;
-        --pre-code-color: #d4ccc1;
-        --mark-bg: #5c4a2e;
-        --mark-text: #efe8de;
-        --toc-frame: #9a9086;
-        --toc-content-color: #9a9086;
-        --toc-hover-bg: #4a3f31;
-        --toc-hover-text: #efe8de;
-        --nav-border: #302b26;
-        --nav-label-color: #9a9086;
-        --nav-title-color: #d4ccc1;
-        --nav-title-hover: #efe8de;
-        --helptext: #9a9086;
-        --form-bg: #201d19;
-        --form-text: #d4ccc1;
-
-        /* Blog heatmap scale (dark) */
-        --heatmap-1: #3a342e;
-        --heatmap-2: #5c554c;
-        --heatmap-3: #83796f;
-        --heatmap-4: #d4ccc1;
-    }
-
-    body.force-dark {
-        filter: none !important;
-        -webkit-filter: none !important;
-    }
-
-    body.force-dark * {
-        filter: none !important;
-        -webkit-filter: none !important;
-    }
-
     /* Logo link never picks up the link treatment. */
     a.site-logo-link[href]:hover,
     a.site-logo-link[href]:focus-visible {
@@ -1768,16 +1595,11 @@
         }
 
         .nav-links {
-            order: 2;
             flex-basis: 100%;
             margin-left: 0;
             margin-top: 0.2rem;
         }
 
-        #dark-mode-toggle {
-            order: 1;
-            margin-left: auto;
-        }
     }
 
     @media screen and (max-width: 600px) {
@@ -1907,15 +1729,6 @@
         .plate-list .plate-meaning:empty {
             display: none;
         }
-    }
-
-    /* neat-annotations bridge: the vendored file uses light-dark() for the
-       highlight mark, which keys off color-scheme. This site drives dark mode
-       with body classes, not color-scheme, so map the classes onto the
-       annotations to let light-dark() resolve to the dark branch. */
-    body.theme-dark .ann,
-    body.force-dark .ann {
-        color-scheme: dark;
     }
 
     /* The annotation label is drawn from data-note via a CSS ::after, so it

@@ -11,6 +11,8 @@
         <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="color-scheme" content="light" />
+        <meta name="theme-color" content="#f7f5f0" />
         {{- partial "favicon.html" . -}}
         <title>
             {{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{
@@ -38,25 +40,6 @@
     </head>
 
     <body>
-        <script>
-            (function () {
-                var s = localStorage.getItem("darkMode");
-                var body = document.body;
-                body.classList.remove(
-                    "theme-dark",
-                    "force-light",
-                    "force-dark",
-                );
-                if (s === "force-light") body.classList.add("force-light");
-                else if (s === "force-dark")
-                    body.classList.add("force-dark", "theme-dark");
-                else if (
-                    window.matchMedia &&
-                    window.matchMedia("(prefers-color-scheme: dark)").matches
-                )
-                    body.classList.add("theme-dark");
-            })();
-        </script>
         <header>{{- partial "header.html" . -}}</header>
         <main class="{{ if .IsHome }}home{{ end }}">
             {{- block "main" . }}{{- end }}

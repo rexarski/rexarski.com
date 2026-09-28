@@ -17,7 +17,7 @@
       <p class="home-lede">这阵子我{{ range $i, $it := $items }}
         {{- if $i }}，{{ end }}
         {{- $.RenderString (default $it.text $it.phrase) }}
-        {{- printf `<sup class="lede-age"><time datetime="%s" data-relative="short">%s</time></sup>` $it.start ((time $it.start).Format "01-02") | safeHTML }}
+        {{- printf `&#8288;<sup class="lede-age"><time datetime="%s" data-relative="short">%s</time></sup>` $it.start ((time $it.start).Format "01-02") | safeHTML }}
       {{- end }}。</p>
     {{- end }}
     <div class="home-intro">{{ .Content }}</div>
@@ -37,7 +37,12 @@
   <div class="rail-row home-row">
     <span class="rail rail-date"><time datetime="{{ .date }}">{{ (time .date).Format "01-02" }}</time></span>
     <span class="rail-main moment-row">
-      {{- with .type }}<span class="moment-type">{{ index $mt.label . | default . }}</span> · {{ end -}}
+      {{- with .type }}
+        {{- /* A preset type has a Chinese label and reads as a word, so a dot
+              separates it from the title. An ad-hoc emoji is its own mark and
+              needs only a space. */ -}}
+        {{- with index $mt.label . }}<span class="moment-type">{{ . }}</span> · {{ else }}<span class="moment-type">{{ . }}</span> {{ end -}}
+      {{ end -}}
       {{ if .url }}<a class="moment-link" href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
     </span>
   </div>

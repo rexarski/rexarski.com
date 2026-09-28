@@ -9,37 +9,23 @@
         <title><xsl:value-of select="rss/channel/title"/> — Web Feed</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
-        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400..700;1,400..700&amp;family=JetBrains+Mono:ital,wght@0,400..700;1,400..700&amp;display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&amp;family=Noto+Sans+SC:wght@400..700&amp;display=swap" rel="stylesheet"/>
         <style><![CDATA[
           :root {
-            --bg: #f8f5f1;
-            --surface: #f0ece6;
-            --text: #3a3228;
-            --heading: #1c1815;
-            --link-hover-fg: #f8f5f1;
-            --link-hover-bg: #1c1815;
-            --accent: #0062a8;
-            --muted: #7a6f65;
-            --border: #e5dfd7;
-            --code-bg: #ece7e0;
+            color-scheme: light;
+            --bg: #f7f5f0;
+            --surface: #efece6;
+            --text: #3b3835;
+            --heading: #1c1a17;
+            --link-hover-fg: #f7f5f0;
+            --link-hover-bg: #1c1a17;
+            --accent: #c23b22;
+            --muted: #6f6a63;
+            --border: #e3dfd7;
+            --code-bg: #eeeae3;
             --mark-bg: #f7e68a;
-            --font-body: 'Atkinson Hyperlegible Next', sans-serif;
-            --font-mono: 'JetBrains Mono', monospace;
-          }
-          @media (prefers-color-scheme: dark) {
-            :root {
-              --bg: #151922;
-              --surface: #1c2030;
-              --text: #c8cdd6;
-              --heading: #e2e6ef;
-              --link-hover-fg: #151922;
-              --link-hover-bg: #e2e6ef;
-              --accent: #7ab4d0;
-              --muted: #8a8f9e;
-              --border: #2a3142;
-              --code-bg: #1a1e2c;
-              --mark-bg: #5a6a8a;
-            }
+            --font-body: 'Noto Sans SC', sans-serif;
+            --font-mono: 'IBM Plex Mono', 'Noto Sans SC', monospace;
           }
           ::selection { background-color: var(--heading); color: var(--bg); }
           * { box-sizing: border-box; }
@@ -54,17 +40,6 @@
             min-height: 100vh;
             word-wrap: break-word;
             overflow-wrap: break-word;
-          }
-          body::before {
-            content: '';
-            display: block;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: var(--accent);
-            z-index: 100;
           }
           .wrap {
             max-width: 42rem;
