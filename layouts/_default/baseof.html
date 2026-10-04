@@ -51,15 +51,20 @@
                rewrites them to "3 天前" / "2 周" client-side so the numbers
                never go stale between deploys. */
             (function () {
-                var stamp = document.querySelector(".datestamp[data-today]"),
+                var stamp = document.querySelector(".today[data-today]"),
                     d = new Date();
                 if (stamp) {
-                    var pad = function (n) { return String(n).padStart(2, "0"); };
-                    stamp.querySelector(".datestamp-year").textContent = d.getFullYear();
-                    stamp.querySelector(".datestamp-md").innerHTML =
-                        pad(d.getMonth() + 1) + '<span class="datestamp-dot">·</span>' + pad(d.getDate());
-                    stamp.querySelector(".datestamp-dow").textContent =
-                        "周" + "日一二三四五六".charAt(d.getDay());
+                    var C = "〇一二三四五六七八九",
+                        cn = function (n) {
+                            return n < 10 ? C[n] : n === 10 ? "十" : n < 20 ? "十" + C[n - 10]
+                                : C[(n / 10) | 0] + "十" + (n % 10 ? C[n % 10] : "");
+                        };
+                    stamp.querySelector(".today-year").textContent =
+                        String(d.getFullYear()).replace(/\d/g, function (c) { return C[c]; }) + "年";
+                    stamp.querySelector(".today-md").textContent =
+                        cn(d.getMonth() + 1) + "月" + cn(d.getDate()) + "日";
+                    stamp.querySelector(".today-dow").textContent =
+                        "星期" + "日一二三四五六".charAt(d.getDay());
                 }
                 var rtf = new Intl.RelativeTimeFormat("zh-CN", { numeric: "auto" });
                 document.querySelectorAll("time[data-relative]").forEach(function (el) {

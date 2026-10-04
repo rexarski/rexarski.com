@@ -28,8 +28,11 @@ ignoreErrors = ["error-disable-taxonomy"]
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
   description = "blog"
-  # One-line site tagline shown below the title (all pages).
-  siteDescription = "Life is too short to be boring."
+  # Homepage lede: the intro phrase and closing punctuation wrapped around the
+  # top-3 "now" items (see layouts/index.html). Edit the wording here instead
+  # of the template.
+  homeLedePrefix = "最近我做的事包括："
+  homeLedeSuffix = ""
 
   # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
   # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.

@@ -7,7 +7,7 @@ weight = 4
 
 {{< toc >}}
 
-updated on 2026-07-05
+updated on 2026-10-03
 
 整理自站内相关记录（如 [Kobo KOReader 重装](/posts/kobo-koreader-reset/)、[字典](/posts/add-dictionary-to-koreader/)、[Calibre 与 USB](/posts/weekend-problem-solving-session/)），方便以后重装或换机时一页看完。**设备以 Kobo + KOReader 为主**；其他机型安装路径见 [官方 Wiki](https://github.com/koreader/koreader/wiki)。
 
@@ -39,6 +39,7 @@ updated on 2026-07-05
 
 - **KOReader 内字体**：将字体文件放入 KOReader 的 fonts 目录（与安装方式一致，通常在 `.adds/koreader/` 下对应位置）。
   - **更多桌面端字体列表**见本站 [toolbox · 字体](/toolbox/03-fonts/)。
+  - [Libron](https://github.com/nicoverbruggen/libron)
 - **Calibre**（与书库质量相关，间接影响推到阅读器上的体验）：
   - [Calibre 推荐配置与插件 - 雅余](https://yayu.net/4767.html)
   - [Cirn09/calibre-do-not-translate-my-path](https://github.com/Cirn09/calibre-do-not-translate-my-path)

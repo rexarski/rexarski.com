@@ -3,11 +3,15 @@
 #   add an `end` field, cut the entry, paste into data/now_history.yaml.
 # `start` must always be a quoted "YYYY-MM-DD" string, so sorting never mixes
 # YAML date objects with strings.
-# Optional `phrase`: an alternative wording that reads correctly after 「最近，我」
-# on the homepage lede (e.g. text "又可以开心地喝 Espresso 了" needs no change, but
-# a noun-ish entry might). /now always shows `text`.
+# Optional `phrase`: an alternative wording that reads correctly after the
+# homepage lede prefix (config `homeLedePrefix`, e.g. 「最近我做的事包括：」).
+# /now always shows `text`.
 # Order doesn't matter — the template sorts by `start` desc.
 items:
+  - start: "2026-10-03"
+    text: 跟着 James Hoffmann 尝试[咖啡杯测](https://www.youtube.com/live/_WTtnmkpA0I?si=kYBM8dlwlbKKz2HE)
+  - start: "2026-09-30"
+    text: 专辑循环 Nujabes 和 Shing02 的 [Luv(Sic) Hexalogy](https://www.discogs.com/release/7653039-Nujabes-Feat-Shing02-Luvsic-Hexalogy)
   - start: "2026-09-27"
     text: 看 HBO 的《绿灯军团》第一季
   - start: "2026-09-27"

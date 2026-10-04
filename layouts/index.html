@@ -1,24 +1,29 @@
 {{ define "main" }}
-{{- $weekdays := dict "Sunday" "周日" "Monday" "周一" "Tuesday" "周二" "Wednesday" "周三" "Thursday" "周四" "Friday" "周五" "Saturday" "周六" -}}
+{{- $weekdays := dict "Sunday" "星期日" "Monday" "星期一" "Tuesday" "星期二" "Wednesday" "星期三" "Thursday" "星期四" "Friday" "星期五" "Saturday" "星期六" -}}
+{{- $digits := slice "〇" "一" "二" "三" "四" "五" "六" "七" "八" "九" -}}
 
 <section class="home-hero rail-row">
   <div class="rail">
     {{- /* Build date as the no-JS fallback; the inline script rewrites it to today. */ -}}
-    <p class="datestamp" data-today>
-      <span class="datestamp-year">{{ now.Format "2006" }}</span>
-      <span class="datestamp-md">{{ now.Format "01" }}<span class="datestamp-dot">·</span>{{ now.Format "02" }}</span>
-      <span class="datestamp-dow">{{ index $weekdays (now.Format "Monday") }}</span>
+    <p class="today" data-today>
+      <span class="today-date">
+        {{- /* Year digit by digit (二〇二六), month and day as numbers (十月三日). */ -}}
+        <span class="today-year">{{ range split (now.Format "2006") "" }}{{ index $digits (int .) }}{{ end }}年</span>
+        {{- "" -}}
+        <span class="today-md">{{ partial "cn-num.html" (int now.Month) }}月{{ partial "cn-num.html" now.Day }}日</span>
+      </span>
+      <span class="today-dow">{{ index $weekdays (now.Format "Monday") }}</span>
     </p>
   </div>
   <div class="rail-main">
-    <p class="home-kicker">{{ .Site.Params.siteDescription }}</p>
+    {{- $ledePrefix := .Site.Params.homeLedePrefix }}{{ $ledeSuffix := .Site.Params.homeLedeSuffix }}
     {{- with hugo.Data.now_current }}
       {{- $items := first 3 (sort .items "start" "desc") -}}
-      <p class="home-lede">这阵子我{{ range $i, $it := $items }}
+      <p class="home-lede">{{ $ledePrefix }}{{ range $i, $it := $items }}
         {{- if $i }}，{{ end }}
         {{- $.RenderString (default $it.text $it.phrase) }}
         {{- printf `&#8288;<sup class="lede-age"><time datetime="%s" data-relative="short">%s</time></sup>` $it.start ((time $it.start).Format "01-02") | safeHTML }}
-      {{- end }}。</p>
+      {{- end }}{{ $ledeSuffix }}</p>
     {{- end }}
     <div class="home-intro">{{ .Content }}</div>
   </div>
@@ -37,12 +42,8 @@
   <div class="rail-row home-row">
     <span class="rail rail-date"><time datetime="{{ .date }}">{{ (time .date).Format "01-02" }}</time></span>
     <span class="rail-main moment-row">
-      {{- with .type }}
-        {{- /* A preset type has a Chinese label and reads as a word, so a dot
-              separates it from the title. An ad-hoc emoji is its own mark and
-              needs only a space. */ -}}
-        {{- with index $mt.label . }}<span class="moment-type">{{ . }}</span> · {{ else }}<span class="moment-type">{{ . }}</span> {{ end -}}
-      {{ end -}}
+      {{- /* The same mark /moments shows: the preset's emoji, or the entry's own. */ -}}
+      {{- with .type }}<span class="moment-type" aria-hidden="true">{{ index $mt.icon . | default . }}</span> {{ end -}}
       {{ if .url }}<a class="moment-link" href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
     </span>
   </div>

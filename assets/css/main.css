@@ -158,7 +158,7 @@
     }
 
     /* ─── Date stamp ─────────────────────────────────────────── */
-    /* 2026 / 09·25 / 周五, stacked and flush right in the rail. */
+    /* Post pages: 2026 over 09·25, stacked and flush right in the rail. */
     .datestamp {
         display: flex;
         flex-direction: column;
@@ -169,8 +169,7 @@
         line-height: 1.1;
     }
 
-    .datestamp-year,
-    .datestamp-dow {
+    .datestamp-year {
         font-size: var(--fs-meta);
         color: var(--muted);
         letter-spacing: 0.08em;
@@ -187,6 +186,44 @@
     .datestamp-dot {
         color: var(--muted-strong);
         margin: 0 0.06em;
+    }
+
+    /* ─── Today (homepage) ───────────────────────────────────── */
+    /*
+     * The homepage date, set vertically in Chinese numerals beside the
+     * horizontal lede: 年月日 in the column nearest the text, 星期 in a second
+     * column to its left. Its top meets the top of the lede's first line and
+     * its right edge sits on the rail's, so nothing depends on matching
+     * baselines between two different sizes.
+     */
+    .today {
+        writing-mode: vertical-rl;
+        display: inline-block;
+        margin: 0;
+        /* Half the lede's leading, (1.6 − 1) / 2 × 2.5rem, plus a hair. */
+        padding-top: 0.8rem;
+        font-size: var(--fs-body);
+        line-height: 1;
+        letter-spacing: 0.4em;
+        text-align: start;
+    }
+
+    .today > span {
+        display: block;
+    }
+
+    .today-year,
+    .today-dow {
+        color: var(--muted);
+    }
+
+    .today-md {
+        color: var(--heading);
+        font-weight: 600;
+    }
+
+    .today-dow {
+        margin-block-start: 0.75rem;
     }
 
     /* ─── Typography ─────────────────────────────────────────── */
@@ -1327,15 +1364,9 @@
 
     /* ─── Homepage ───────────────────────────────────────────── */
     .home-hero {
+        /* Top-aligned, not baseline: the date is a vertical column. */
+        align-items: start;
         margin-bottom: 3.5rem;
-    }
-
-    .home-kicker {
-        font-family: var(--font-mono);
-        font-size: var(--fs-meta);
-        letter-spacing: 0.06em;
-        color: var(--muted);
-        margin: 0 0 0.6rem;
     }
 
     /*
@@ -1558,13 +1589,22 @@
             order: 1;
         }
 
-        .datestamp-dow {
-            order: 2;
+        /* No rail to stand in: the date lies down into one line above the lede. */
+        .today {
+            writing-mode: horizontal-tb;
+            display: block;
+            padding-top: 0;
+            font-size: var(--fs-small);
+            letter-spacing: 0.2em;
         }
 
-        .datestamp-dow::before {
-            content: "· ";
-            color: var(--muted-strong);
+        .today > span {
+            display: inline;
+        }
+
+        .today-dow {
+            margin-block-start: 0;
+            margin-inline-start: 0.6em;
         }
 
         .post-tags {

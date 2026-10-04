@@ -21,3 +21,4 @@ weight = 3
   - Mono, monospace, `brew install --cask font-atkinson-hyperlegible-mono`
 - [Charis SIL](https://software.sil.org/charis/), serif, `brew install --cask font-charis-sil`
 - [Server Mono](https://servermono.com/), monospace, `brew install --cask font-server-mono`
+- [Libron](https://github.com/nicoverbruggen/libron)

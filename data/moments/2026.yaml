@@ -3,6 +3,17 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳 baby🍼 url🔗) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: "2026-10-03"
+  type: baby
+  title: 带噜子去了 FCPL 的 story time
+  note: 跟小朋友们一起玩还是挺开心的
+- date: "2026-10-03"
+  type: baby
+  title: 噜子完整地上完了一周的学
+  note: 可喜可贺
+- date: "2026-10-02"
+  type: baby
+  title: 狗熊哆嗦毛对噜子有逗笑效果
 - date: "2026-09-26"
   type: 🧋
   title: 今天喝了三杯喜茶🤪

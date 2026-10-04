@@ -1,0 +1,12 @@
+{{- /* 1–99 as a Chinese numeral: 3 → 三, 10 → 十, 12 → 十二, 27 → 二十七. */ -}}
+{{- $c := slice "〇" "一" "二" "三" "四" "五" "六" "七" "八" "九" -}}
+{{- $n := int . -}}
+{{- $s := "" -}}
+{{- if lt $n 10 }}{{ $s = index $c $n }}
+{{- else if eq $n 10 }}{{ $s = "十" }}
+{{- else if lt $n 20 }}{{ $s = printf "十%s" (index $c (sub $n 10)) }}
+{{- else }}
+  {{- $s = printf "%s十" (index $c (div $n 10)) }}
+  {{- with mod $n 10 }}{{ $s = printf "%s%s" $s (index $c .) }}{{ end }}
+{{- end -}}
+{{- return $s -}}

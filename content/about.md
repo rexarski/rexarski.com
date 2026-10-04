@@ -2,7 +2,12 @@
 title = "关于"
 +++
 
-DMV 打工人，新手奶爸。
+DMV 打工人。
+
+### 信条
+
+- Life is too short to be boring.
+- 试图在混乱边缘寻找秩序的痕迹。
 
 ### 其他栖息地
 
