@@ -2,6 +2,12 @@
 # Items are sorted by `end` date, newest first (see now_history shortcode)
 summary: "回顾"
 items:
+  - start: "2026-09-27"
+    end: "2026-10-05"
+    text: 看 HBO 的《绿灯军团》第一季
+  - start: "2026-10-03"
+    end: "2026-10-04"
+    text: 跟着 James Hoffmann 尝试[咖啡杯测](https://www.youtube.com/live/_WTtnmkpA0I?si=kYBM8dlwlbKKz2HE)
   - start: "2026-09-11"
     end: "2026-09-27"
     text: 跟消费主义做斗争

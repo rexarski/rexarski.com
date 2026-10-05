@@ -3,6 +3,13 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳 baby🍼 url🔗) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: "2026-10-05"
+  type: show
+  title: Lanterns S01
+  note: 很好看的剧集，期待下一季
+- date: "2026-10-04"
+  type: 🍰
+  title: 我愿称 marufuji 为我的小甜食后花园
 - date: "2026-10-03"
   type: baby
   title: 带噜子去了 FCPL 的 story time
