@@ -2,6 +2,9 @@
 # Items are sorted by `end` date, newest first (see now_history shortcode)
 summary: "回顾"
 items:
+  - start: "2026-09-03"
+    end: "2026-10-05"
+    text: 用 cbvivi 的 mynd 替代 obsidian 作为日记软件
   - start: "2026-09-27"
     end: "2026-10-05"
     text: 看 HBO 的《绿灯军团》第一季

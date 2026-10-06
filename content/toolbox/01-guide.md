@@ -7,7 +7,7 @@ weight = 1
 
 {{< toc >}}
 
-updated on 2026-06-08
+updated on 2026-10-05
 
 ## 基调
 
@@ -34,23 +34,25 @@ brew update && brew upgrade
 
 # tools
 cli_tools=(
-  bat btop chezmoi emacs-plus eza fish fx git
-  jq lazygit llmfit neofetch
-  neovim procs r tmux uv wget you-get zoxide
+  autocorrect bat btop chezmoi emacs-plus eza fish fx fzf gh git
+  hugo jq lazygit llmfit neofetch
+  neovim procs tmux uv wget yazi you-get zoxide
 )
 
 # apps
 cask_apps=(
-  1password 1password-cli ghostty antinote applite 
-  maestral anki iina keka obsidian maccy netnewswire
-  pearcleaner r shottr skim squirrel-app steam 
-  positron zen
+  1password 1password-cli ghostty applite
+  anki claude claude-code iina keka obsidian maccy
+  lm-studio loop pearcleaner shottr skim squirrel-app steam
+  positron telegram thaw zen
 )
 
 # tap repo(s)
 brew install tw93/tap/mole
 brew tap d12frosted/emacs-plus
 brew install djetelina/tap/cheznav
+brew install --cask abue-ammar/tinycast/tinycast
+brew install --cask stablyai/orca/orca
 
 # install
 brew install "${cli_tools[@]}"
