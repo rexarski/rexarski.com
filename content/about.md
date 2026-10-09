@@ -8,6 +8,7 @@ DMV 打工人。
 
 - Life is too short to be boring.
 - 试图在混乱边缘寻找秩序的痕迹。
+- 完整的游戏体验应该跟攻略绝缘。
 
 ### 其他栖息地
 

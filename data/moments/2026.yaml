@@ -3,6 +3,13 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳 baby🍼 url🔗) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: "2026-10-08"
+  type: 😋
+  title: 重庆怪味豆
+  note: 吃了上瘾
+- date: "2026-10-07"
+  type: baby
+  title: 噜子最近饭量感人且走路越走越好
 - date: "2026-10-05"
   type: show
   title: Lanterns S01

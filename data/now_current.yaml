@@ -8,6 +8,12 @@
 # /now always shows `text`.
 # Order doesn't matter — the template sorts by `start` desc.
 items:
+  - start: "2026-10-09"
+    text: "尝试一下 Fantasy Basketball"
+  - start: "2026-10-08"
+    text: "在 YouTube 收看 Gears of War: E-Day 的 playthrough"
+  - start: "2026-10-07"
+    text: 看美食节目导致做饭热情高涨
   - start: "2026-10-03"
     text: "在机核收听[「拉普拉塔往事：在博尔赫斯之前」](https://www.gcores.com/albums/263)系列节目"
   - start: "2026-09-30"
