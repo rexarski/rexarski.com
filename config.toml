@@ -25,6 +25,10 @@ ignoreErrors = ["error-disable-taxonomy"]
 [markup.goldmark.renderer]
   unsafe= true
 
+# Lets a list take a class via a trailing `{.app-grid}` line (toolbox app lists).
+[markup.goldmark.parser.attribute]
+  block = true
+
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
   description = "blog"
@@ -62,7 +66,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [markup.tableOfContents]
   startLevel = 2
-  endLevel = 6
+  endLevel = 3
   ordered = false
 
 # RSS is full-text (see layouts/index.rss.xml), so cap the feed at the latest

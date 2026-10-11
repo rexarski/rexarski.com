@@ -405,6 +405,31 @@
         margin-bottom: 0;
     }
 
+    /* Long flat lists of names (toolbox apps): pack into columns, drop the
+       bullets, step the type down. Markdown adds the class via `{.app-grid}`. */
+    content ul.app-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+        column-gap: 1.5rem;
+        row-gap: 0.2rem;
+        list-style: none;
+        padding-left: 0;
+        font-size: var(--fs-small);
+    }
+
+    content ul.app-grid li {
+        margin: 0;
+        padding-left: 0;
+        overflow-wrap: anywhere;
+    }
+
+    /* A nested list (RIME's add-ons) stays inside its cell, indented, no bullets. */
+    content ul.app-grid ul {
+        list-style: none;
+        padding-left: 0.75rem;
+        margin: 0;
+    }
+
     /* External links in a post: the accent lives in the underline, not the text. */
     .single-post content a[href^="http"] {
         text-decoration-color: var(--accent);
@@ -572,21 +597,6 @@
         color: var(--muted);
         font-variant-numeric: tabular-nums;
         white-space: nowrap;
-    }
-
-    /* Toolbox list */
-    ul.toolbox-list li.toolbox-section {
-        display: block;
-    }
-
-    ul.toolbox-list ul.toolbox-sublist {
-        padding-left: 1.5em;
-        margin-top: 0.25em;
-        margin-bottom: 0.5em;
-    }
-
-    ul.toolbox-list ul.toolbox-sublist li {
-        display: flex;
     }
 
     .post-date {
