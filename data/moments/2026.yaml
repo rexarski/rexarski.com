@@ -3,6 +3,15 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳 baby🍼 url🔗) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: "2026-10-11"
+  type: music
+  title: Time
+  url: https://music.apple.com/us/album/scene/1772010711
+  note: Toshiki Soejima - Scene (2025)
+- date: "2026-10-10"
+  type: baby
+  title: 第一次带噜子去国家公园
+  note: 这次是 Great Falls
 - date: "2026-10-08"
   type: 😋
   title: 重庆怪味豆

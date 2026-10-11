@@ -3,7 +3,7 @@ title: "KOReader 和 Stokke Tripp Trapp screw"
 date: 2025-07-26T21:50:21-04:00
 slug: "weekend-problem-solving-session"
 description: "Calibre 和 KOReader 的同步问题，以及螺丝滑丝问题。"
-tags: ["没事折腾", "捣鼓硬件"]
+tags: ["没事折腾"]
 ---
 
 周末的解决问题两则：

@@ -464,4 +464,9 @@ updated on 2026-10-03
 
 ## 文本
 
-[Drafts](https://getdrafts.com/),   [iA Writer](https://ia.net/writer), [Obsidian](https://obsidian.md), [Working Copy](https://workingcopy.app)
+- [Drafts](https://getdrafts.com/)：打草稿
+- [iA Writer](https://ia.net/writer)：沉浸写作
+- [Hobonichi](https://www.1101.com/store/techo/en/)：极简日记
+- [Obsidian](https://obsidian.md)：笔记+日记
+- [Working Copy](https://workingcopy.app)：偶尔在手机上写代码
+- [Claude Code](https://claude.com/product/claude-code), [pi](https://pi.dev/) + [Orca](https://onorca.dev/)：远程开发
