@@ -1,14 +1,6 @@
-<div class="toc-wrapper">
-    <div class="toc-container">
-        <div class="toc-header text-sm font-mono">目录</div>
-        <aside class="toc-content">
-            {{ .Page.TableOfContents }}
-        </aside>
-    </div>
-    {{- /* The box-drawing frame. ::before/::after in main.css draw the top
-          corners; these four carry the sides and the bottom. */}}
-    <div class="left-border" aria-hidden="true">│</div>
-    <div class="right-border" aria-hidden="true">│</div>
-    <div class="bottom-left" aria-hidden="true">└─</div>
-    <div class="bottom-right" aria-hidden="true">─┘</div>
-</div>
+{{- /* Page outline: a mono label and Hugo's nested list, hung off a single
+       hairline. Depth comes from markup.tableOfContents in config.toml. */ -}}
+<aside class="toc">
+  <p class="toc-label">目录</p>
+  {{ .Page.TableOfContents }}
+</aside>
