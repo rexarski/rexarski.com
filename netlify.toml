@@ -29,10 +29,3 @@
   for = "/fonts/*"
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
-# /toolbox used to be a section with five sub-pages; now a single page.
-# Unforced, so it only fires for paths that no longer exist.
-[[redirects]]
-  from = "/toolbox/*"
-  to = "/toolbox/"
-  status = 301

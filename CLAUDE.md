@@ -30,7 +30,7 @@ Personal Hugo blog. Architecture, layout, styling and the data-file formats are 
 
 ### Toolbox
 
-- A single page, `content/toolbox.md`, rendered at `/toolbox/`. There is no section directory and no list template any more; old sub-page URLs 301 to `/toolbox/` via `netlify.toml`.
+- A single page, `content/toolbox.md`, rendered at `/toolbox/`. There is no section directory and no list template any more, and no redirects for the old `/toolbox/0N-…/` URLs: nothing on the site links to them, so link to `/toolbox/` (or a `#fragment` on it) only.
 - Heading levels: `##` per topic (基调和实操 / 软件 / 字体 / KOReader / 文本), `###` beneath, `####` for the numbered setup steps. `markup.tableOfContents.endLevel = 3` in `config.toml` keeps the page TOC to `##`/`###`, so the 15 steps stay out of it on purpose.
 - 软件: the active list sits under `## 软件`, the retired list under `### 归档`. Insert into 归档 alphabetically. Both lists end with a `{.app-grid}` line (Goldmark block attribute, enabled in `config.toml`) that lays them out as a multi-column grid via `content ul.app-grid` in `main.css`; keep that line last and add new items above it.
 - 基调和实操: the brew setup script lives here. After adding or removing software, update the script and set the `updated on` line in that section to today. Verify cask names with `brew info --cask`; tapped packages use the full `user/tap/name`.
