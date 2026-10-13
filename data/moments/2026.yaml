@@ -3,6 +3,15 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳 baby🍼 url🔗) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: "2026-10-12"
+  type: baby
+  title: 噜子会自己倒着爬下沙发了
+- date: "2026-10-12"
+  type: baby
+  title: 噜子自己踉跄着走上两步了
+- date: "2026-10-12"
+  type: baby
+  title: 噜子会盯着鸭子喊「嘎嘎」
 - date: "2026-10-11"
   type: music
   title: Time

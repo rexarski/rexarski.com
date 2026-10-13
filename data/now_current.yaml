@@ -8,6 +8,8 @@
 # /now always shows `text`.
 # Order doesn't matter — the template sorts by `start` desc.
 items:
+  - start: "2026-10-13"
+    text: 又开始看 The Wire S01 了
   - start: "2026-10-09"
     text: 用 claude 给下周的 fantasy basketball 选秀做了一个动态模拟策略
   - start: "2026-10-08"
