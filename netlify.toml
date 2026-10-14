@@ -7,6 +7,17 @@
   HUGO_ENV = "production"
   GO_VERSION = "1.24.2"
 
+# wodpitstops lives in its own repo and Netlify site; serve it under /wodpitstops/.
+[[redirects]]
+  from = "/wodpitstops"
+  to = "/wodpitstops/"
+  status = 301
+
+[[redirects]]
+  from = "/wodpitstops/*"
+  to = "https://wodpitstops.netlify.app/:splat"
+  status = 200
+
 # HTML pages intentionally have no header rule: Netlify's default is
 # "public, max-age=0, must-revalidate" with an ETag, so browsers revalidate
 # every visit (fresh after deploys) but still get cheap 304s.
