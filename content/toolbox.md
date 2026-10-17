@@ -7,7 +7,7 @@ title = "工具箱"
 ## 基调和实操
 
 
-updated on 2026-10-05
+updated on 2026-10-16
 
 ### 基调
 
@@ -43,7 +43,7 @@ cli_tools=(
 cask_apps=(
   1password 1password-cli ghostty applite
   anki claude claude-code iina keka obsidian maccy
-  lm-studio loop pearcleaner shottr skim squirrel-app steam
+  lm-studio loop omniwm pearcleaner shottr skim squirrel-app steam
   positron telegram thaw zen
 )
 
@@ -226,6 +226,7 @@ sudo scutil --set HostName new-host-name
 - [Nicotine+](https://nicotine-plus.org)
 - [Obsidian](https://obsidian.md)
 - [Obsidian Web Clipper](https://stephango.com/obsidian-web-clipper)
+- [OmniWM](https://github.com/OmniNull/OmniWM)
 - [OpenLogi](https://github.com/AprilNEA/OpenLogi)
 - [PCalc](https://pcalc.com/)
 - [Pearcleaner](https://github.com/alienator88/Pearcleaner)
