@@ -3,6 +3,15 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳 baby🍼 url🔗) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: "2026-10-20"
+  type: music
+  title: Close to You (feat. Hidehisa Sasaki)
+  url: https://music.apple.com/us/album/close-to-you-feat-hidehisa-sasaki-cover/1721910630?i=1721910645
+  note: Toshiki Soejima & Nahokimama - Kimama Session II (2024)
+- date: "2026-10-17"
+  type: 🍌
+  title: 令人开心的香蕉手表
+  url: https://www.casio.com/us/watches/gshock/product.DW-5600BAIT26-9/
 - date: "2026-10-12"
   type: baby
   title: 噜子会自己倒着爬下沙发了
@@ -149,7 +158,7 @@
   title: Liar's Remorse
   url: https://music.apple.com/us/album/liars-remorse/1891161441?i=1891161451
   type: music
-  note: The Strokes - Reality Awaits
+  note: The Strokes - Reality Awaits (2026)
 - date: "2026-07-25"
   title: 带噜子去看到了真实的农场动物
   type: 🐮
@@ -233,10 +242,10 @@
   type: 🚴‍♂️
   note: "184W -> 193W"
 - date: "2026-05-15"
-  title: <I°_°I> 10th Anniversary Edition
+  title: Caravan Palace - <I°_°I> 10th Anniversary Edition (2025)
   type: music
   url: https://music.apple.com/us/album/i-i-10th-anniversary-edition/1843648974
-  note: Caravan Palace 🤖
+  note: 🤖
 - date: "2026-05-14"
   title: Tasty Inside
   type: ☕
@@ -288,7 +297,7 @@
   url: https://perthirtysix.com
   note: FiveThirtyEight 的精神继承者
 - date: "2026-04-30"
-  title: KUN
+  title: KUN - KUN (2026)
   type: music
   note: 很意外，Deadman 和 Colder
   url: https://open.spotify.com/album/1WWrT0a4rjFqayXhqe5yDV
@@ -311,7 +320,7 @@
   type: 🔗
   url: https://sleepingrobots.com/dreams/stop-using-ollama/
 - date: "2026-04-22"
-  title: "MOUSE: P.I. For Hire (Original Game Soundtrack)"
+  title: "Patryk Scelina - MOUSE: P.I. For Hire (Original Game Soundtrack) (2026)"
   type: music
   url: https://music.apple.com/us/album/mouse-p-i-for-hire-original-game-soundtrack/1890519861
 - date: "2026-04-20"
@@ -334,7 +343,7 @@
   title: "Good Mouse"
   type: music
   url: https://www.youtube.com/watch?v=TaZ1sgtfKYs
-  note: "Caravan Palace - MOUSE: P.I. For Hire Original Game Soundtrack"
+  note: "Caravan Palace - MOUSE: P.I. For Hire (Original Game Soundtrack) (2026)"
 - date: "2026-04-15"
   title: "ASCII characters are not pixels"
   note: a deep dive into ASCII rendering
@@ -443,7 +452,7 @@
   url: https://www.straitstimes.com/multimedia/graphics/2026/02/pokemon-tree-of-life/index.html
 - date: "2026-03-09"
   title: "Playa Playa"
-  note: "D'Angelo"
+  note: "D'Angelo - Voodoo (2000)"
   type: music
   url: https://www.youtube.com/watch?v=eo3iqsOH_54
 - date: "2026-03-08"

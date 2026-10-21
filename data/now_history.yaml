@@ -2,6 +2,21 @@
 # Items are sorted by `end` date, newest first (see now_history shortcode)
 summary: "回顾"
 items:
+  - start: "2026-10-17"
+    end: "2026-10-20"
+    text: 看 theRadBrad 的 CoD 和 Gears of War 新作通关视频
+  - start: "2026-09-27"
+    end: "2026-10-09"
+    text: "在 Switch 2 上玩之前搁置了很久的[《塞尔达无双：灾厄启示录》](https://neodb.social/game/2JIMpnIgqDFgqkEWrvwTx0)"
+  - start: "2026-09-30"
+    end: "2026-10-11"
+    text: 专辑循环 Nujabes 和 Shing02 的 [Luv(Sic) Hexalogy](https://www.discogs.com/release/7653039-Nujabes-Feat-Shing02-Luvsic-Hexalogy)
+  - start: "2026-10-09"
+    end: "2026-10-16"
+    text: 用 claude 给下周的 fantasy basketball 选秀做了一个动态模拟策略
+  - start: "2026-10-08"
+    end: "2026-10-17"
+    text: "在 YouTube 收看 Gears of War: E-Day 的 playthrough"
   - start: "2026-09-03"
     end: "2026-10-05"
     text: 用 cbvivi 的 mynd 替代 obsidian 作为日记软件
