@@ -7,7 +7,7 @@ title = "工具箱"
 ## 基调和实操
 
 
-updated on 2026-10-16
+updated on 2026-10-24
 
 ### 基调
 
@@ -19,11 +19,11 @@ updated on 2026-10-16
 
 #### 1. Homebrew
 
-第一步，安装 homebrew. `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+安装 homebrew. `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 #### 2. brew install
 
-第二步，新建一个脚本文件 `brew_setup.sh`
+新建一个脚本文件 `brew_setup.sh`
 
 ```bash
 #!/usr/bin/env bash
@@ -68,15 +68,11 @@ chmod +x brew_setup.sh
 
 #### 3. App Store install
 
-第三步，从 Mac App Store 里安装 things 3, ia writer, drafts, xcode. 另外还有以下 safari 插件：sink it for reddit, ublock origin lite, dark reader, keepa, untrap.
+从 Mac App Store 里安装 things 3, ia writer, drafts, xcode. 另外还有以下 safari 插件：sink it for reddit, ublock origin lite, dark reader, keepa, untrap.
 
-#### 4. Internet download
+#### 4. fish, fisher, tide
 
-第四步，从网站下载安装 pico-8, love2d.
-
-#### 5. fish, fisher, tide
-
-第五步，fish 设置成默认 shell.
+fish 设置成默认 shell.
 
 ```bash
 # 确认 fish 位置
@@ -119,25 +115,25 @@ ilancosman/tide
 jorgebucaran/autopair.fish
 ```
 
-#### 6. App-specific setup
+#### 5. App-specific setup
 
-第六步，单独的 app 设置。主要 1password.
+单独的 app 设置。主要 1password.
 
-#### 7. Git
+#### 6. Git
 
-第七步，配置 git. 用 1password 里的 ssh-agent 生成并添加 ssh key 给 github 账号。另外可以创建一个全局的 gitignore 文件。`git config --global core.excludesfile ~/.gitignore_global`
+配置 git. 用 1password 里的 ssh-agent 生成并添加 ssh key 给 github 账号。另外可以创建一个全局的 gitignore 文件。`git config --global core.excludesfile ~/.gitignore_global`
 
-#### 8. Safari (or not)
+#### 7. Safari (or not)
 
-第八步，safari - preferences - advanced, 打开 show develop menu in menu bar.
+safari - preferences - advanced, 打开 show develop menu in menu bar.
 
-#### 9. Timemachine destination
+#### 8. Timemachine destination
 
-第九步，根据 synology 的[操作步骤](https://kb.synology.com/en-us/DSM/tutorial/How_to_back_up_files_from_Mac_to_Synology_NAS_with_Time_Machine)在 NAS 里单独创建一个 time machine 备份。
+根据 synology 的[操作步骤](https://kb.synology.com/en-us/DSM/tutorial/How_to_back_up_files_from_Mac_to_Synology_NAS_with_Time_Machine)在 NAS 里单独创建一个 time machine 备份。
 
-#### 10. Some keyboard shortcuts
+#### 9. Some keyboard shortcuts
 
-第十步，修改以下的 keyboard shortcuts:
+修改以下的 keyboard shortcuts:
 
 - system settings - keyboard - keyboard shortcuts
   - input sources - select next source in input menu: shift + command + space
@@ -148,19 +144,24 @@ jorgebucaran/autopair.fish
   - cmd + shift + 4: select window
   - cmd + shift + 5: fullscreen
 - things 3 - quick entry: ctrl + space
-- clipboard history app (pastebot or maccy) - cmd + shift + v
+- clipboard history app - cmd + shift + v
+- omniwm ([issue #192](https://github.com/OmniNull/OmniWM/issues/192))
+  - Focus: Option+←↓↑→ → Option+H/J/K/L
+  - Move window: Option+Shift+←↓↑→ → Option+Shift+H/J/K/L
+  - Toggle fullscreen: Option+Return → Control+Option+Return
+  - Toggle workspace layout: Option+Shift+L → Option+Shift+W (freed L for move)
 
-#### 11. System Settings update
+#### 10. System Settings update
 
-第十一步，去 system settings 里做三件事：
+去 system settings 里做三件事：
 
 - 除非万不得已，关闭绝大多数 app 的 notifications.
 - 尽量减少 menu bar 中的项目，有些也在各自 app 中设置。
 - 减少 login items 和 app background activity 允许的 app.
 
-#### 12. Name changing
+#### 11. Name changing
 
-第十二步，更改 computer name, host name 和 local host name:
+更改 computer name, host name 和 local host name:
 
 ```fish
 # check
@@ -174,17 +175,17 @@ sudo scutil --set HostName new-host-name
 
 我的习惯是把 computer name 用我的常用 handle + 数字组合，hostname 则用一个简单的名字。
 
-#### 13. doom emacs (optional)
+#### 12. doom emacs (optional)
 
-潜在的第十三步，doom emacs 需要单独配置一下，这里就不赘述了。先前选择用 `emacs-plus` 而不是 homebrew 直接安装 `emacs`，也是因为需要 built with native compilation support.
+潜在的操作：doom emacs 需要单独配置一下，这里就不赘述了。先前选择用 `emacs-plus` 而不是 homebrew 直接安装 `emacs`，也是因为需要 built with native compilation support.
 
-#### 14. ghostty config
+#### 13. ghostty config
 
-第十四步：依照这个 [gist](https://gist.github.com/rexarski/b80b90add76830b21e907539fac27644) 对 ghostty config 做修改。
+依照这个 [gist](https://gist.github.com/rexarski/b80b90add76830b21e907539fac27644) 对 ghostty config 做修改。
 
-#### 15. .dotfiles (w. git + chezmoi + cheznav)
+#### 14. .dotfiles (w. git + chezmoi + cheznav)
 
-第十五步：我的 [dotfiles](https://github.com/rexarski/dotfiles).
+我的 [dotfiles](https://github.com/rexarski/dotfiles).
 
 ## 软件
 
@@ -199,6 +200,7 @@ sudo scutil --set HostName new-host-name
 - [BetterTouchTool](https://folivora.ai)
 - [calibre](https://calibre-ebook.com/)
 - Claude + [Claude Code](https://claude.com/product/claude-code)
+- [Concept2 Utility](https://www.concept2.com/support/software/utility)
 - [Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic?tab=readme-ov-file)
 - [DaisyDisk](https://daisydiskapp.com/)
 - [DEVONthink 4](https://www.devontechnologies.com/apps/devonthink)
@@ -215,8 +217,8 @@ sudo scutil --set HostName new-host-name
 - [iina](https://iina.io)
 - [Insta360 Studio](https://www.insta360.com/download)
 - [Keka](https://www.keka.io/en/)
+- [KeyCastr](https://github.com/keycastr/keycastr)
 - [LM Studio](https://lmstudio.ai)
-- [Loop](https://github.com/MrKai77/Loop)
 - [Maccy](https://github.com/p0deje/Maccy)
 - [`mole`](https://github.com/tw93/Mole)
 - [Musicbrainz Picard](https://picard.musicbrainz.org/)
@@ -259,7 +261,6 @@ sudo scutil --set HostName new-host-name
 - [undercut-f1](https://github.com/JustAman62/undercut-f1)
 - [微信 WeChat](https://www.wechat.com/)
 - [xld](https://tmkk.undo.jp/xld/index_e.html)
-- [yazi](https://yazi-rs.github.io)
 - [Zed](https://zed.dev/)
 - [Zen Browser](https://zen-browser.app)
 - [Zwift](https://www.zwift.com)
@@ -269,30 +270,29 @@ sudo scutil --set HostName new-host-name
 
 以前用过、目前未在用的 app，留档备查。
 
-- [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html)
-- [Affinity V2 Suite](https://store.serif.com/en-us/update/universal-licence/)
-- [AlDente](https://github.com/davidwernhart/AlDente)
+- ~~[Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html)~~
+- ~~[Affinity V2 Suite](https://store.serif.com/en-us/update/universal-licence/)~~
+- ~~[AlDente](https://github.com/davidwernhart/AlDente)~~
 - [Alfred](https://www.alfredapp.com/)
-- [Android File Transfer](https://www.android.com/filetransfer/)
-- [Antinote](https://antinote.io)
+- ~~[Android File Transfer](https://www.android.com/filetransfer/)~~
+- ~~[Antinote](https://antinote.io)~~
 - [Anybox](https://anybox.app)
-- [Applite](https://github.com/milanvarady/Applite)
+- ~~[Applite](https://github.com/milanvarady/Applite)~~
 - [Audacity](https://www.audacityteam.org/)
-- [Buckets](https://www.budgetwithbuckets.com/)
+- ~~[Buckets](https://www.budgetwithbuckets.com/)~~
 - [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn)
-- [Calendr](https://github.com/pakerwreah/Calendr)
-- [Cap](https://github.com/CapSoftware/cap)
+- ~~[Calendr](https://github.com/pakerwreah/Calendr)~~
+- ~~[Cap](https://github.com/CapSoftware/cap)~~
 - [coconutBattery](https://coconut-flavour.com/coconutbattery/)
-- [Concept2 Utility](https://www.concept2.com/support/software/utility)
-- [Cursor](https://cursor.com)
+- ~~[Cursor](https://cursor.com)~~
 - [Cyberduck](https://cyberduck.io/)
 - [Dark Noise](https://darknoise.app/)
 - [darktable](https://www.darktable.org)
 - [Darkroom](https://darkroom.co/)
-- [Day One](https://dayoneapp.com/)
-- [Deliveries](https://deliveries.app/en.html)
-- [Fantastical](https://flexibits.com/fantastical)
-- [Figma](https://www.figma.com/)
+- ~~[Day One](https://dayoneapp.com/)~~
+- ~~[Deliveries](https://deliveries.app/en.html)~~
+- ~~[Fantastical](https://flexibits.com/fantastical)~~
+- ~~[Figma](https://www.figma.com/)~~
 - Final Cut Pro + Motion + Compressor
 - [Flighty](https://apps.apple.com/us/app/flighty-live-flight-tracker/id1358823008)
 - [Fliqlo Flip Clock](https://fliqlo.com/)
@@ -301,56 +301,55 @@ sudo scutil --set HostName new-host-name
 - [GoodLinks](https://goodlinks.app)
 - Google Chrome
 - [Handbrake](https://handbrake.fr)
-- [Handy](https://github.com/cjpais/Handy)
-- [Hidden Bar](https://github.com/dwarvesf/hidden)
-- [Hush](https://github.com/oblador/hush)
+- ~~[Handy](https://github.com/cjpais/Handy)~~
+- ~~[Hidden Bar](https://github.com/dwarvesf/hidden)~~
+- ~~[Hush](https://github.com/oblador/hush)~~
 - ~~[Ice](https://github.com/jordanbaird/Ice)~~
 - [iTerm2](https://iterm2.com)
 - ~~[Itsycal for Mac](https://www.mowglii.com/itsycal/)~~
 - [Ivory](https://tapbots.com/ivory/)
-- [Karabiner Elements](https://karabiner-elements.pqrs.org/)
-- [KeyCastr](https://github.com/keycastr/keycastr)
-- [KeyClu](https://sergii.tatarenkov.name/keyclu/support/)
-- [Klack](https://tryklack.com/)
-- [Latest](https://max.codes/latest/)
+- ~~[Karabiner Elements](https://karabiner-elements.pqrs.org/)~~
+- ~~[KeyClu](https://sergii.tatarenkov.name/keyclu/support/)~~
+- ~~[Klack](https://tryklack.com/)~~
+- ~~[Latest](https://max.codes/latest/)~~
 - [LocalSend](https://localsend.org)
+- [Loop](https://github.com/MrKai77/Loop)
 - ~~[Lunar](https://lunar.fyi/)~~
-- [Mactracker](https://mactracker.ca/)
-- [mac-cleanup-py](https://github.com/mac-cleanup/mac-cleanup-py)
-- [Maestral](https://maestral.app)
-- [Marked 2](https://marked2app.com/)
-- [MarkEdit](https://github.com/MarkEdit-app/MarkEdit)
+- ~~[Mactracker](https://mactracker.ca/)~~
+- ~~[mac-cleanup-py](https://github.com/mac-cleanup/mac-cleanup-py)~~
+- ~~[Maestral](https://maestral.app)~~
+- ~~[Marked 2](https://marked2app.com/)~~
+- ~~[MarkEdit](https://github.com/MarkEdit-app/MarkEdit)~~
 - ~~[Min Browser](https://github.com/minbrowser/min)~~
-- [monolith](https://github.com/Y2Z/monolith)
-- [Mononote](https://www.digitalminimalist.com/tools/mononote)
-- [Moom](https://manytricks.com/moom/)
+- ~~[monolith](https://github.com/Y2Z/monolith)~~
+- ~~[Mononote](https://www.digitalminimalist.com/tools/mononote)~~
+- ~~[Moom](https://manytricks.com/moom/)~~
 - [MultiViewer for F1](https://multiviewer.app)
 - [NetNewsWire](https://ranchero.com/netnewswire/)
 - [Numi](https://numi.app/)
 - [Ollama](https://github.com/jmorganca/ollama)
 - [OrbStack](https://orbstack.dev/)
-- [OpenEmu](https://github.com/OpenEmu/OpenEmu)
-- [PasteBot](https://tapbots.com/pastebot/)
-- [Pictogram](https://pictogramapp.com/)
-- [Picotron](https://www.lexaloffle.com/picotron.php)
-- [Pins](https://get-pins.app/)
-- [Plain Text Editor](https://apps.apple.com/us/app/plain-text-editor/id1572202501)
+- ~~[OpenEmu](https://github.com/OpenEmu/OpenEmu)~~
+- ~~[PasteBot](https://tapbots.com/pastebot/)~~
+- ~~[Picotron](https://www.lexaloffle.com/picotron.php)~~
+- ~~[Pins](https://get-pins.app/)~~
+- ~~[Plain Text Editor](https://apps.apple.com/us/app/plain-text-editor/id1572202501)~~
 - [Pocket Casts](https://pocketcasts.com/)
-- [Raycast](https://www.raycast.com)
-- [Reeder & Reeder Classic](https://reederapp.com/)
-- [Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar)
-- [Rocket](https://matthewpalmer.net/rocket/)
-- [Scratchpad](https://apps.apple.com/us/app/scratchpad/id6504040051)
-- [SD Card Formatter](https://www.sdcard.org/downloads/formatter/)
-- [Shareful](https://sindresorhus.com/shareful)
+- ~~[Raycast](https://www.raycast.com)~~
+- ~~[Reeder & Reeder Classic](https://reederapp.com/)~~
+- ~~[Reminders Menubar](https://github.com/DamascenoRafael/reminders-menubar)~~
+- ~~[Rocket](https://matthewpalmer.net/rocket/)~~
+- ~~[Scratchpad](https://apps.apple.com/us/app/scratchpad/id6504040051)~~
+- ~~[SD Card Formatter](https://www.sdcard.org/downloads/formatter/)~~
+- ~~[Shareful](https://sindresorhus.com/shareful)~~
 - [Spotify](https://open.spotify.com/)
 - [Syncthing](https://syncthing.net/)
 - [Synology Drive Client](https://www.synology.com/en-us/dsm/feature/drive)
-- [Tapestry](https://usetapestry.com/)
-- [texifier](https://www.texifier.com/)
+- ~~[Tapestry](https://usetapestry.com/)~~
+- ~~[texifier](https://www.texifier.com/)~~
 - [TimeMachineEditor](https://tclementdev.com/timemachineeditor/)
 - [Tuna](https://tunaformac.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
+- ~~[Visual Studio Code](https://code.visualstudio.com/)~~
 - [VLC](https://www.videolan.org/)
 - [YACReader](https://www.yacreader.com/)
 {.app-grid}
