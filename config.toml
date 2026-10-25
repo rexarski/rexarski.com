@@ -25,6 +25,11 @@ ignoreErrors = ["error-disable-taxonomy"]
 [markup.goldmark.renderer]
   unsafe= true
 
+# Keep ASCII quotes, dashes and dots as typed: Noto Sans SC renders the
+# curly ’ full-width, which leaves an ugly gap in English text.
+[markup.goldmark.extensions.typographer]
+  disable = true
+
 # Lets a list take a class via a trailing `{.app-grid}` line (toolbox app lists).
 [markup.goldmark.parser.attribute]
   block = true
