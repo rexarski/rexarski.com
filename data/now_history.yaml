@@ -2,6 +2,9 @@
 # Items are sorted by `end` date, newest first (see now_history shortcode)
 summary: "回顾"
 items:
+  - start: "2026-03-01"
+    end: "2026-10-29"
+    text: 对 Athletic 的 Non-alcoholic beer 喝腻了，取消了订阅
   - start: "2026-10-17"
     end: "2026-10-20"
     text: 看 theRadBrad 的 CoD 和 Gears of War 新作通关视频

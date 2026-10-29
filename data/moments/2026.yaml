@@ -3,6 +3,27 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳 baby🍼 url🔗) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: "2026-10-27"
+  type: 🎒
+  title: Osprey Poco LT child carrier
+  url: https://www.osprey.com/pocotm-lt?size=O%2FS&color=Tan+Concrete
+  note: 年度好物提名
+- date: "2026-10-26"
+  type: show
+  title: "Cyberpunk: Edgerunners S02"
+  url: https://www.imdb.com/title/tt12590266/episodes/?season=2
+- date: "2026-10-25"
+  type: baby
+  title: 噜子喜欢 iguana 这个单词
+  note: 每次在爬爬垫上都要点读这个
+- date: "2026-10-25"
+  type: baby
+  title: 噜子会打开想要读的书翻到那一页递给大人
+- date: "2026-10-25"
+  type: music
+  title: Barbara Ann
+  url: https://music.apple.com/us/album/barbara-ann/1443218528?i=1443218622
+  note: The Beach Boys - Beach Boys' Party! (1965)，噜子听了也会跟着叭叭叭
 - date: "2026-10-24"
   type: baby
   title: 噜子越发频繁地模仿大人的行为

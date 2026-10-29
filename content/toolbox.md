@@ -7,7 +7,7 @@ title = "工具箱"
 ## 基调和实操
 
 
-updated on 2026-10-24
+updated on 2026-10-25
 
 ### 基调
 
@@ -34,8 +34,8 @@ brew update && brew upgrade
 
 # tools
 cli_tools=(
-  autocorrect bat btop chezmoi emacs-plus eza fish fx fzf gh git
-  hugo jq lazygit llmfit neofetch
+  autocorrect bat btop chezmoi emacs-plus eza fastfetch fish fx fzf gh git
+  hugo jq lazygit llmfit
   neovim procs tmux uv wget yazi you-get zoxide
 )
 
