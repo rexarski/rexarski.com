@@ -3,12 +3,13 @@
     /* ─── Design Tokens ──────────────────────────────────────── */
     :root {
         /* Two-column grid: left date rail + main column */
-        --page-max: 1240px;
-        --page-pad: clamp(20px, 6vw, 96px);
-        --rail: 168px;
-        --rail-gap: 48px;
-        --content-width: 680px;
-        --lede-width: 880px;
+        --page-pad: clamp(20px, 5vw, 64px);
+        --rail: 144px;
+        --rail-gap: 40px;
+        --content-width: 760px;
+        /* The shell is exactly one rail plus one content column: the nav's
+           right edge and the footer's links land on the text's right edge. */
+        --page-max: calc(var(--page-pad) * 2 + var(--rail) + var(--rail-gap) + var(--content-width));
 
         /* Type scale — five steps, plus one display size for date stamps */
         --fs-meta: 0.8rem;
@@ -103,6 +104,7 @@
 
     main {
         margin-top: 3rem;
+        display: flow-root; /* contains the homepage float */
     }
 
     /* ─── Two-column grid ────────────────────────────────────── */
@@ -142,6 +144,10 @@
         letter-spacing: 0.08em;
         color: var(--muted);
         margin: 0 0 0.75rem;
+    }
+
+    .section-label a {
+        color: inherit;
     }
 
     /* Mono date text, wherever it appears. */
@@ -192,36 +198,6 @@
      * its right edge sits on the rail's, so nothing depends on matching
      * baselines between two different sizes.
      */
-    .today {
-        writing-mode: vertical-rl;
-        display: inline-block;
-        margin: 0;
-        /* Half the lede's leading, (1.6 − 1) / 2 × 2.5rem, plus a hair. */
-        padding-top: 0.8rem;
-        font-size: var(--fs-body);
-        line-height: 1;
-        letter-spacing: 0.4em;
-        text-align: start;
-    }
-
-    .today > span {
-        display: block;
-    }
-
-    .today-year,
-    .today-dow {
-        color: var(--muted);
-    }
-
-    .today-md {
-        color: var(--heading);
-        font-weight: 600;
-    }
-
-    .today-dow {
-        margin-block-start: 0.75rem;
-    }
-
     /* ─── Typography ─────────────────────────────────────────── */
     h1,
     h2,
@@ -299,12 +275,16 @@
         text-decoration: none;
     }
 
+    /* 丘 seal, inlined in nav.html; the strokes are a hole, so --bg shows through. */
     .site-logo {
         width: 20px;
         height: 20px;
         display: block;
         flex-shrink: 0;
-        border-radius: 4px;
+    }
+
+    .site-logo .seal {
+        fill: var(--accent);
     }
 
     .site-name {
@@ -435,10 +415,35 @@
         color: var(--accent);
     }
 
+    /* 文末印: one seal after the last paragraph of a post. */
+    .end-seal-row {
+        margin: 2rem 0 0;
+        line-height: 0;
+    }
+
+    .end-seal {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url("/favicon.svg") no-repeat 0 0 / 20px 20px;
+    }
+
     /* ─── Images ─────────────────────────────────────────────── */
     img {
         max-width: 100%;
         border-radius: 4px;
+    }
+
+    /* /about: the two marks (丘 · Rx), centred below the text. */
+    .about-marks {
+        text-align: center;
+        margin: 3rem 0 0;
+    }
+
+    .about-marks img {
+        width: min(100%, 260px);
+        height: auto;
+        border-radius: 0;
     }
 
     /* ─── Blockquote ─────────────────────────────────────────── */
@@ -1320,52 +1325,18 @@
     }
 
     /* ─── Homepage ───────────────────────────────────────────── */
-    .home-hero {
-        /* Top-aligned, not baseline: the date is a vertical column. */
-        align-items: start;
-        margin-bottom: 3.5rem;
+    /* Portrait on the homepage: floated to the text's right edge, the
+       上一个刹那 rows wrap beside it. */
+    .home-portrait {
+        float: right;
+        margin: 0 0 1.5rem 2rem;
+        line-height: 0;
     }
 
-    /*
-     * The lede is the homepage: the three newest 当下 items welded into one
-     * sentence, each carrying its age as a superscript.
-     */
-    .home-lede {
-        font-family: var(--font-body);
-        font-size: var(--fs-display);
-        font-weight: 700;
-        line-height: 1.6;
-        color: var(--heading);
-        max-width: var(--lede-width);
-        margin: 0;
-    }
-
-    .home-lede a {
-        text-decoration-color: var(--accent);
-    }
-
-    .home-lede a:hover {
-        color: var(--accent);
-    }
-
-    .lede-age {
-        font-family: var(--font-mono);
-        white-space: nowrap;
-        font-size: 0.8125rem;
-        font-weight: 400;
-        color: var(--accent);
-        margin-left: 0.1em;
-    }
-
-    .home-intro {
-        max-width: var(--lede-width);
-        margin-top: 1.5rem;
-        font-size: 1.125rem;
-        color: var(--text);
-    }
-
-    .home-intro p {
-        margin: 0;
+    .home-portrait img {
+        width: 144px;
+        height: 144px;
+        border-radius: 6px;
     }
 
     .home-section + .home-section {
@@ -1448,7 +1419,8 @@
         align-items: baseline;
         flex-wrap: wrap;
         gap: 0.5rem 1.25rem;
-        margin: 0;
+        /* Same left edge as the header and the text column. */
+        margin: 0 0 0 calc(var(--rail) + var(--rail-gap));
     }
 
     .footer-links {
@@ -1465,6 +1437,32 @@
 
     .footer-links a:hover {
         color: var(--heading);
+    }
+
+    /* /about 其他栖息地: one 88×31 button per site, pixel art shown 1:1, never smoothed. */
+    .badges a {
+        display: inline-block;
+        line-height: 0;
+        text-decoration: none;
+    }
+
+    .badges picture {
+        display: block;
+    }
+
+    .badges img {
+        display: block;
+        width: 88px;
+        height: 31px;
+        border-radius: 0;
+        image-rendering: pixelated;
+    }
+
+    .badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 0 0 1.5rem;
     }
 
     /* ─── Focus ring ─────────────────────────────────────────── */
@@ -1511,18 +1509,26 @@
             grid-template-columns: 5.25rem minmax(0, 1fr);
         }
 
-        .site-logo-link {
+        .site-logo-link,
+        .footer-line {
             margin-left: 0;
+        }
+
+        .home-portrait {
+            margin: 0 0 1rem 1rem;
+        }
+
+        .home-portrait img {
+            width: 96px;
+            height: 96px;
         }
 
         .rail-row.rail-empty,
         .year-row,
-        .home-hero,
         .post {
             display: block;
         }
 
-        .home-hero > .rail,
         .post > .rail {
             text-align: left;
             margin-bottom: 1rem;
@@ -1550,24 +1556,6 @@
             order: 1;
         }
 
-        /* No rail to stand in: the date lies down into one line above the lede. */
-        .today {
-            writing-mode: horizontal-tb;
-            display: block;
-            padding-top: 0;
-            font-size: var(--fs-small);
-            letter-spacing: 0.2em;
-        }
-
-        .today > span {
-            display: inline;
-        }
-
-        .today-dow {
-            margin-block-start: 0;
-            margin-inline-start: 0.6em;
-        }
-
         .post-tags {
             display: flex;
             flex-wrap: wrap;
@@ -1580,15 +1568,6 @@
             text-align: left;
             font-size: 2rem;
             margin: 1.5rem 0 0.35rem;
-        }
-
-        .home-lede {
-            font-size: 1.75rem;
-            line-height: 1.55;
-        }
-
-        .home-intro {
-            font-size: 1.0625rem;
         }
 
         .row-title {

@@ -1,33 +1,7 @@
 {{ define "main" }}
-{{- $weekdays := dict "Sunday" "星期日" "Monday" "星期一" "Tuesday" "星期二" "Wednesday" "星期三" "Thursday" "星期四" "Friday" "星期五" "Saturday" "星期六" -}}
-{{- $digits := slice "〇" "一" "二" "三" "四" "五" "六" "七" "八" "九" -}}
-
-<section class="home-hero rail-row">
-  <div class="rail">
-    {{- /* Build date as the no-JS fallback; the inline script rewrites it to today. */ -}}
-    <p class="today" data-today>
-      <span class="today-date">
-        {{- /* Year digit by digit (二〇二六), month and day as numbers (十月三日). */ -}}
-        <span class="today-year">{{ range split (now.Format "2006") "" }}{{ index $digits (int .) }}{{ end }}年</span>
-        {{- "" -}}
-        <span class="today-md">{{ partial "cn-num.html" (int now.Month) }}月{{ partial "cn-num.html" now.Day }}日</span>
-      </span>
-      <span class="today-dow">{{ index $weekdays (now.Format "Monday") }}</span>
-    </p>
-  </div>
-  <div class="rail-main">
-    {{- $ledePrefix := .Site.Params.homeLedePrefix }}{{ $ledeSuffix := .Site.Params.homeLedeSuffix }}
-    {{- with hugo.Data.now_current }}
-      {{- $items := first 3 (sort .items "start" "desc") -}}
-      <p class="home-lede">{{ $ledePrefix }}{{ range $i, $it := $items }}
-        {{- if $i }}，{{ end }}
-        {{- $.RenderString (default $it.text $it.phrase) }}
-        {{- printf `&#8288;<sup class="lede-age"><time datetime="%s" data-relative="short">%s</time></sup>` $it.start ((time $it.start).Format "01-02") | safeHTML }}
-      {{- end }}{{ $ledeSuffix }}</p>
-    {{- end }}
-    <div class="home-intro">{{ .Content }}</div>
-  </div>
-</section>
+{{- /* Floated right inside <main>: every .rail-row below is a grid, so it
+       narrows to sit beside the portrait instead of running under it. */ -}}
+<a class="home-portrait" href="{{ "/about/" | relURL }}" aria-label="关于"><img src="{{ "/images/rexarski.jpg" | relURL }}" width="144" height="144" alt="rexarski" decoding="async" /></a>
 
 {{- $mt := partial "moment-types.html" . -}}
 {{- $moments := slice -}}
@@ -37,7 +11,7 @@
 <section class="home-section">
   <div class="rail-row">
     <span class="rail"></span>
-    <p class="rail-main section-label">上一个刹那</p>
+    <p class="rail-main section-label">上一个<a href="{{ "/moments/" | relURL }}">刹那</a></p>
   </div>
   <div class="rail-row home-row">
     <span class="rail rail-date"><time datetime="{{ .date }}">{{ (time .date).Format "01-02" }}</time></span>

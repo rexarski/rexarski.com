@@ -13,12 +13,14 @@ DMV 打工人。
 
 ### 其他栖息地
 
-- [mastodon](https://mastodon.social/@rexarski)
-- [bluesky](https://bsky.app/profile/rqiu.bsky.social)
-- [instagram](https://www.instagram.com/howaboutqiu/)
-- [neodb](https://neodb.social/users/rexarski/)
-- [github](https://github.com/rexarski)
-- [steam](https://steamcommunity.com/id/bob606bob/)
+<p class="badges">
+<a href="https://mastodon.social/@rexarski"><picture><source srcset="/images/badges/mastodon.png" media="(prefers-reduced-motion: reduce)" /><img src="/images/badges/mastodon.gif" width="88" height="31" alt="mastodon" loading="lazy" decoding="async" /></picture></a>
+<a href="https://bsky.app/profile/rqiu.bsky.social"><picture><source srcset="/images/badges/bluesky.png" media="(prefers-reduced-motion: reduce)" /><img src="/images/badges/bluesky.gif" width="88" height="31" alt="bluesky" loading="lazy" decoding="async" /></picture></a>
+<a href="https://www.instagram.com/howaboutqiu/"><picture><source srcset="/images/badges/instagram.png" media="(prefers-reduced-motion: reduce)" /><img src="/images/badges/instagram.gif" width="88" height="31" alt="instagram" loading="lazy" decoding="async" /></picture></a>
+<a href="https://neodb.social/users/rexarski/"><picture><source srcset="/images/badges/neodb.png" media="(prefers-reduced-motion: reduce)" /><img src="/images/badges/neodb.gif" width="88" height="31" alt="neodb" loading="lazy" decoding="async" /></picture></a>
+<a href="https://github.com/rexarski"><picture><source srcset="/images/badges/github.png" media="(prefers-reduced-motion: reduce)" /><img src="/images/badges/github.gif" width="88" height="31" alt="github" loading="lazy" decoding="async" /></picture></a>
+<a href="https://steamcommunity.com/id/bob606bob/"><picture><source srcset="/images/badges/steam.png" media="(prefers-reduced-motion: reduce)" /><img src="/images/badges/steam.gif" width="88" height="31" alt="steam" loading="lazy" decoding="async" /></picture></a>
+</p>
 
 ### blogroll
 
@@ -33,3 +35,6 @@ DMV 打工人。
 ---
 
 主题基于 [ʕ•ᴥ•ʔ Bear Blog](https://github.com/janraasch/hugo-bearblog/)，正文与标题 [Noto Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC)，日期与小字 [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)。
+
+![丘与 Rx 两款标志](/images/logo/pair-ink.svg)
+{.about-marks}

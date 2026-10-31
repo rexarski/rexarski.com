@@ -3,9 +3,6 @@
 #   add an `end` field, cut the entry, paste into data/now_history.yaml.
 # `start` must always be a quoted "YYYY-MM-DD" string, so sorting never mixes
 # YAML date objects with strings.
-# Optional `phrase`: an alternative wording that reads correctly after the
-# homepage lede prefix (config `homeLedePrefix`, e.g. 「最近我做的事包括：」).
-# /now always shows `text`.
 # Order doesn't matter — the template sorts by `start` desc.
 items:
   - start: "2026-10-13"
