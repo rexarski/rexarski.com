@@ -3,6 +3,17 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳 baby🍼 url🔗) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: "2026-10-31"
+  type: 🍿
+  title: LesserEvil 原味爆米花
+- date: "2026-10-31"
+  type: baby
+  title: 噜子会指着任何她觉得像是鸭子的东西说是「嘎嘎」
+- date: "2026-10-29"
+  type: music
+  title: "Hong Kong Ft. Faye Wong (Live in Hong Kong)"
+  url: https://www.youtube.com/watch?v=YBhL2a7CKYQ
+  note: The Weeknd 的现场演出——也因为这个让我开始听王菲的旧专辑
 - date: "2026-10-27"
   type: 🎒
   title: Osprey Poco LT child carrier
