@@ -3,6 +3,19 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳 baby🍼 url🔗) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: "2026-11-01"
+  type: baby
+  title: 严格来说今天是能独立走好远了不用扶了，突然之间似乎就会了。会走路是一个持续性的过程。十四个月不到十五个月。
+- date: "2026-10-31"
+  type: music
+  title: 王菲现场版的《开到荼靡》变成了我的 earworm.
+- date: "2026-10-31"
+  type: 🥤
+  title: 用 owala 比 yeti 喝水多
+- date: "2026-10-31"
+  type: game
+  title: over the hill
+  url: https://store.steampowered.com/app/2929250/over_the_hill/
 - date: "2026-10-31"
   type: 🍿
   title: LesserEvil 原味爆米花
