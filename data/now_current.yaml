@@ -5,6 +5,12 @@
 # YAML date objects with strings.
 # Order doesn't matter — the template sorts by `start` desc.
 items:
+  - start: "2026-11-10"
+    text: daddit 上的网友说随着年龄的增长，idgaf 的程度也缓步提升，我表示认同。
+  - start: "2026-11-07"
+    text: 戒断除咖啡、茶、椰子水、气泡水以外的所有饮品。
+  - start: "2026-11-06"
+    text: 随身携带牙线。
   - start: "2026-10-13"
     text: 又开始看 The Wire S01 了
   - start: "2026-10-07"
@@ -17,8 +23,6 @@ items:
     text: 在读 Sanderson 的 Wax and Wayne 系列
   - start: "2026-06-27"
     text: 在新漫画追《镖人》更新
-  - start: "2026-09-26"
-    text: "开始清空 2026 年的 [backlog](https://neodb.social/collection/75VzWTd4Pu2JTK0LgLKWUs)"
   - start: "2026-07-05"
     text: 学习拉花
   - start: "2026-06-07"

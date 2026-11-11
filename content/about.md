@@ -11,6 +11,7 @@ DMV 打工人。
 - 完整的游戏体验应该跟攻略绝缘。
 - [*File over app.*](https://stephango.com/file-over-app)
 - Sports betting ruins the game.
+- don’t take everything for granted (after seeing all the misfortunes)
 
 ### 其他栖息地
 

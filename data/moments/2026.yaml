@@ -3,6 +3,23 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳 baby🍼 url🔗) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: "2026-11-10"
+  type: baby
+  title: 噜走得更好了，严格来说15个月会自己走路
+- date: "2026-11-09"
+  type: 📓
+  title: 从 reddit 上买了一台二手的 supernote
+- date: "2026-11-07"
+  type: 📱
+  title: Obsidian iOS 客户端的更新带来了 quick capture audio 的极速体验
+- date: "2026-11-03"
+  type: 🗳️
+  title: 中期选举
+- date: "2026-11-02"
+  type: music
+  title: 菲比寻常live
+  url: https://music.apple.com/us/album/%E8%8F%B2%E6%AF%94%E5%B0%8B%E5%B8%B8%E6%BC%94%E5%94%B1%E6%9C%83-live/966486703
+  note: 王菲 - 菲比寻常live (2004)
 - date: "2026-11-01"
   type: baby
   title: 严格来说今天是能独立走好远了不用扶了，突然之间似乎就会了。

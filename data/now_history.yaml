@@ -2,6 +2,9 @@
 # Items are sorted by `end` date, newest first (see now_history shortcode)
 summary: "回顾"
 items:
+  - start: "2026-02-23"
+    end: "2026-11-11"
+    text: 一个普通人的普通 backlog
   - start: "2026-03-01"
     end: "2026-10-29"
     text: 对 Athletic 的 Non-alcoholic beer 喝腻了，取消了订阅
@@ -80,6 +83,3 @@ items:
   - start: "2026-05-26"
     end: "2026-07-05"
     text: "卖掉了 Apple Watch，少些焦虑，多些佩戴选择"
-  - start: "2026-02-23"
-    end: "2026-07-11"
-    text: "[2026 一个普通人的普通 backlog](https://neodb.social/collection/75VzWTd4Pu2JTK0LgLKWUs)"
