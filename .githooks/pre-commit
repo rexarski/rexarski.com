@@ -1,0 +1,21 @@
+#!/bin/sh
+# Warns (never blocks) when the local Hugo differs from the HUGO_VERSION that
+# netlify.toml pins for deploys: a template that builds here may not build
+# there. Fix by setting the pin to the local version.
+#
+# Enable once per clone:  git config core.hooksPath .githooks
+
+command -v hugo >/dev/null 2>&1 || exit 0
+
+root=$(git rev-parse --show-toplevel)
+pinned=$(sed -n -E 's/^[[:space:]]*HUGO_VERSION[[:space:]]*=[[:space:]]*"([^"]+)".*/\1/p' "$root/netlify.toml" | head -n 1)
+local=$(hugo version | sed -n -E 's/^hugo v([0-9]+\.[0-9]+\.[0-9]+).*/\1/p')
+
+[ -n "$pinned" ] && [ -n "$local" ] || exit 0
+
+if [ "$pinned" != "$local" ]; then
+    echo "pre-commit: local Hugo is $local, netlify.toml pins $pinned" >&2
+    echo "  suggest: set HUGO_VERSION = \"$local\" in netlify.toml" >&2
+fi
+
+exit 0

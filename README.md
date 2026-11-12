@@ -5,13 +5,12 @@
 Made with
 
 - [Hugo](https://gohugo.io/)
-- [`hugo-bearblog` ʕ•ᴥ•ʔ](https://github.com/janraasch/hugo-bearblog) — theme, vendored as a git submodule; never edit it directly, override in `layouts/` instead
 - [Noto Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC), [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) — the only two webfonts, loaded from Google Fonts. Noto Sans SC covers both Latin and Simplified Chinese, so it carries every page on every platform; IBM Plex Mono handles code, dates, nav and small labels, and falls through to Noto Sans SC for the Chinese inside those (Plex has no CJK).
 - [neat-annotations](https://github.com/syabro/neat-annotations) — pure-CSS hand-drawn annotations, vendored at `assets/css/neat-annotations.css` (served locally, not from the CDN) and wrapped by the `ann` shortcode
 
 ## Where things live
 
-- **Styles**: `assets/css/main.css`, published minified + fingerprinted by the `layouts/partials/style.html` override. Not in the theme, not an inline `<style>`.
+- **Styles**: `assets/css/main.css`, published minified + fingerprinted by `layouts/partials/style.html`. Not an inline `<style>`.
 - **Hand-edited data**: `data/now_current.yaml` / `data/now_history.yaml` (now page), `data/moments/<year>.yaml` (one file per year), `data/plates.yaml` (platespotting). Every date field is a quoted `"YYYY-MM-DD"` string — unquoted ones parse as YAML dates and sort inconsistently against the quoted ones.
 - **Generated data**: `data/concept2_distance.json` (rowing progress bar on /now, from `concept2_scraper.sh`) and `data/related_posts.json` (相关博文，committed) are build inputs; `data/post_embeddings.json` is a gitignored local embedding cache.
 - **Identity**: the 丘 seal. Browser icons are `static/favicon.svg` / `favicon.ico` / `apple-touch-icon.png` / `site.webmanifest` (wired in `layouts/partials/favicon.html`), the header mark is a 20px SVG inlined in `layouts/partials/nav.html` and coloured by `--accent`, the share image is `static/images/share.jpg`, and the full logo set lives in `static/images/logo/`. The homepage carries the portrait `static/images/rexarski.jpg` on the text's right edge, beside the latest moment (`.home-top`), linked to /about. Every post ends with the seal (`.end-seal` in `single.html`). The marks were brush-simulated once and committed as finished files; there is no generation script in the repo.
@@ -56,13 +55,7 @@ Full refresh (rowing data + related posts): run `./dev.fish`. The related-posts 
     -vf 'scale=trunc(iw/2)*2:trunc(ih/2)*2' -an out.mp4
   ```
 
-- Netlify builds with the Hugo version pinned in `netlify.toml` (0.160.1); local Hugo may be newer, so bump the pin before relying on a newer template feature.
-
-## Update theme as a submodule
-
-```bash
-git submodule update --remote --merge
-```
+- Netlify builds with the Hugo version pinned in `netlify.toml` (`HUGO_VERSION`), which should match local `hugo version`. `.githooks/pre-commit` prints a warning when they drift (it never blocks the commit); fix it by bumping the pin.
 
 ## Refer to a previous blog post (with file path)
 
@@ -72,3 +65,9 @@ git submodule update --remote --merge
 # use relref if both target and destination posts are in the same path
 [text]({{< relref "yyyy-mm-dd-slug.md" >}})
 ```
+
+## Acknowledgements / 致谢
+
+This site started from [hugo-bearblog](https://github.com/janraasch/hugo-bearblog) ʕ•ᴥ•ʔ by Jan Raasch (MIT). Every template has since been rewritten and the theme is no longer a dependency, but the bones are still bear-shaped. Thank you.
+
+本站最初基于 Jan Raasch 的 [hugo-bearblog](https://github.com/janraasch/hugo-bearblog) ʕ•ᴥ•ʔ（MIT 协议）。如今模板已全部重写，也不再依赖这个主题，但骨架里还留着小熊的影子。谢谢。

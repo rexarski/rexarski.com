@@ -39,10 +39,6 @@
         <link rel="%s" type="%s" href="%s" title="%s" />
         ` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }} {{ end -}}
         {{- partial "style.html" . -}}
-
-        <!-- A partial to be overwritten by the user.
-        Simply place a custom_head.html into
-        your local /layouts/partials-directory -->
         {{- partial "custom_head.html" . -}}
     </head>
 
@@ -72,10 +68,5 @@
                 });
             })();
         </script>
-
-        <!-- A partial to be overwritten by the user.
-        Simply place a custom_body.html into
-        your local /layouts/partials-directory -->
-        {{- partial "custom_body.html" . -}}
     </body>
 </html>

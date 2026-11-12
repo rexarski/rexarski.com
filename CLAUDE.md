@@ -53,7 +53,7 @@ Personal Hugo blog. Architecture, layout, styling and the data-file formats are 
 
 - Commit only when I say "commit"; push only when I say "push". "draft commit message" means draft it in the reply and stop.
 - Check `git status` and `git log --oneline -3` first. I sometimes commit myself mid-session; do not describe already-committed work in a new message.
-- Every commit is a Conventional Commit; I will not ask for the format each time. "commit" on its own means: write the message in the format below and commit. `.githooks/commit-msg` rejects a subject line that does not match (enabled per clone with `git config core.hooksPath .githooks`); if it rejects one, fix the message, never bypass it with `--no-verify`.
+- Every commit is a Conventional Commit; I will not ask for the format each time. "commit" on its own means: write the message in the format below and commit. `.githooks/commit-msg` rejects a subject line that does not match (enabled per clone with `git config core.hooksPath .githooks`); if it rejects one, fix the message, never bypass it with `--no-verify`. `.githooks/pre-commit` warns when local Hugo and `HUGO_VERSION` in `netlify.toml` differ; if it does, mention it and offer to bump the pin.
 - Messages follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/):
 
   ```
@@ -71,4 +71,4 @@ Personal Hugo blog. Architecture, layout, styling and the data-file formats are 
   `! git commit -F .git/COMMIT_MSG_DRAFT && git push`
   (keep the path short; long paths get wrapped and break). Delete the draft file afterwards.
 - Work directly on `main`; no branches for content updates.
-- Never edit the `themes/` submodule; never commit `public/`.
+- Never commit `public/`.
