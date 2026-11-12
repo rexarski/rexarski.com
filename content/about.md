@@ -12,6 +12,7 @@ DMV 打工人。
 - [*File over app.*](https://stephango.com/file-over-app)
 - Sports betting ruins the game.
 - don’t take everything for granted (after seeing all the misfortunes)
+- Steph Ango: "You are the chief cohesiveness officer of your life."
 
 ### 其他栖息地
 
@@ -36,7 +37,7 @@ DMV 打工人。
 
 ---
 
-主题基于 [ʕ•ᴥ•ʔ Bear Blog](https://github.com/janraasch/hugo-bearblog/)，正文与标题 [Noto Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC)，日期与小字 [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)。
+主题基于 [ʕ•ᴥ•ʔ Bear Blog](https://github.com/janraasch/hugo-bearblog/)，字体用了 [Noto Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC)、[IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)、[Source Sans 3](https://fonts.google.com/specimen/Source+Sans+3) 和 [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font)。
 
 ![丘与 Rx 两款标志](/images/logo/pair-ink.svg)
 {.about-marks}

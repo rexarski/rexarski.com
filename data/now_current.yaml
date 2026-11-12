@@ -5,6 +5,8 @@
 # YAML date objects with strings.
 # Order doesn't matter — the template sorts by `start` desc.
 items:
+  - start: "2026-11-12"
+    text: 时之笛重制开始！
   - start: "2026-11-10"
     text: daddit 上的网友说随着年龄的增长，idgaf 的程度也缓步提升，我表示认同。
   - start: "2026-11-07"

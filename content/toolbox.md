@@ -7,7 +7,7 @@ title = "工具箱"
 ## 基调和实操
 
 
-updated on 2026-10-25
+updated on 2026-11-12
 
 ### 基调
 
@@ -43,7 +43,7 @@ cli_tools=(
 cask_apps=(
   1password 1password-cli ghostty applite
   anki claude claude-code iina keka obsidian maccy
-  lm-studio loop omniwm pearcleaner shottr skim squirrel-app steam
+  lm-studio loop pearcleaner shottr skim squirrel-app steam
   positron telegram thaw zen
 )
 
@@ -145,11 +145,6 @@ safari - preferences - advanced, 打开 show develop menu in menu bar.
   - cmd + shift + 5: fullscreen
 - things 3 - quick entry: ctrl + space
 - clipboard history app - cmd + shift + v
-- omniwm ([issue #192](https://github.com/OmniNull/OmniWM/issues/192))
-  - Focus: Option+←↓↑→ → Option+H/J/K/L
-  - Move window: Option+Shift+←↓↑→ → Option+Shift+H/J/K/L
-  - Toggle fullscreen: Option+Return → Control+Option+Return
-  - Toggle workspace layout: Option+Shift+L → Option+Shift+W (freed L for move)
 
 #### 10. System Settings update
 
@@ -219,6 +214,7 @@ sudo scutil --set HostName new-host-name
 - [Keka](https://www.keka.io/en/)
 - [KeyCastr](https://github.com/keycastr/keycastr)
 - [LM Studio](https://lmstudio.ai)
+- [Loop](https://github.com/MrKai77/Loop)
 - [Maccy](https://github.com/p0deje/Maccy)
 - [`mole`](https://github.com/tw93/Mole)
 - [Musicbrainz Picard](https://picard.musicbrainz.org/)
@@ -228,7 +224,6 @@ sudo scutil --set HostName new-host-name
 - [Nicotine+](https://nicotine-plus.org)
 - [Obsidian](https://obsidian.md)
 - [Obsidian Web Clipper](https://stephango.com/obsidian-web-clipper)
-- [OmniWM](https://github.com/OmniNull/OmniWM)
 - [OpenLogi](https://github.com/AprilNEA/OpenLogi)
 - [PCalc](https://pcalc.com/)
 - [Pearcleaner](https://github.com/alienator88/Pearcleaner)
@@ -283,6 +278,7 @@ sudo scutil --set HostName new-host-name
 - [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn)
 - ~~[Calendr](https://github.com/pakerwreah/Calendr)~~
 - ~~[Cap](https://github.com/CapSoftware/cap)~~
+- ~~[ChatGPT](https://chatgpt.com/)~~
 - [coconutBattery](https://coconut-flavour.com/coconutbattery/)
 - ~~[Cursor](https://cursor.com)~~
 - [Cyberduck](https://cyberduck.io/)
@@ -313,7 +309,6 @@ sudo scutil --set HostName new-host-name
 - ~~[Klack](https://tryklack.com/)~~
 - ~~[Latest](https://max.codes/latest/)~~
 - [LocalSend](https://localsend.org)
-- [Loop](https://github.com/MrKai77/Loop)
 - ~~[Lunar](https://lunar.fyi/)~~
 - ~~[Mactracker](https://mactracker.ca/)~~
 - ~~[mac-cleanup-py](https://github.com/mac-cleanup/mac-cleanup-py)~~
@@ -328,6 +323,7 @@ sudo scutil --set HostName new-host-name
 - [NetNewsWire](https://ranchero.com/netnewswire/)
 - [Numi](https://numi.app/)
 - [Ollama](https://github.com/jmorganca/ollama)
+- ~~[OmniWM](https://github.com/OmniNull/OmniWM)~~
 - [OrbStack](https://orbstack.dev/)
 - ~~[OpenEmu](https://github.com/OpenEmu/OpenEmu)~~
 - ~~[PasteBot](https://tapbots.com/pastebot/)~~
