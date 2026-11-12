@@ -20,7 +20,8 @@ Personal Hugo blog. Architecture, layout, styling and the data-file formats are 
 
 - One file per year, `data/moments/<year>.yaml`; new entries go at the top (list runs newest → oldest).
 - Fields: `date`, `type`, `title`, optional `note`, `url`. `type` is a preset name from the file's header comment (`show`, `book`, `baby`, …) or a single emoji.
-- `title` carries the main sentence, `note` the commentary. TV seasons are written as `Title S01`.
+- `title` carries the main sentence, `note` the commentary. Every entry has a `title`; a lone sentence is a `title`, never a `note` on its own. TV seasons are written as `Title S01`.
+- `url` links the whole title. To link one phrase only, leave `url` out and write a markdown link inside `title` (double-quote it): `"发现 [Noon Pacific](https://noonpacific.com) 复活了"`.
 - If I give no emoji, pick one, but say in the reply that it was your choice.
 
 ### Platespotting
@@ -52,6 +53,7 @@ Personal Hugo blog. Architecture, layout, styling and the data-file formats are 
 
 - Commit only when I say "commit"; push only when I say "push". "draft commit message" means draft it in the reply and stop.
 - Check `git status` and `git log --oneline -3` first. I sometimes commit myself mid-session; do not describe already-committed work in a new message.
+- Every commit is a Conventional Commit; I will not ask for the format each time. "commit" on its own means: write the message in the format below and commit. `.githooks/commit-msg` rejects a subject line that does not match (enabled per clone with `git config core.hooksPath .githooks`); if it rejects one, fix the message, never bypass it with `--no-verify`.
 - Messages follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/):
 
   ```

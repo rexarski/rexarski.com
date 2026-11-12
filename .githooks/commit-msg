@@ -1,0 +1,42 @@
+#!/bin/sh
+# Rejects a commit whose subject line is not a Conventional Commit in this
+# repo's dialect (see the Git section of CLAUDE.md):
+#
+#   <type>(<scope>)[!]: <summary>
+#
+# type: feat | fix | refactor | style | docs | chore; scope: one word, and
+# the only part that may be left out (docs: add CLAUDE.md);
+# summary: lowercase start, no trailing period, at most 72 characters.
+#
+# Enable once per clone:  git config core.hooksPath .githooks
+
+subject=$(sed -e '/^#/d' -e '/^[[:space:]]*$/d' "$1" | head -n 1)
+
+# Commits git writes itself.
+case "$subject" in
+    "Merge "* | "Revert "* | "fixup! "* | "squash! "*) exit 0 ;;
+esac
+
+fail() {
+    echo "commit-msg: $1" >&2
+    echo "  subject: $subject" >&2
+    echo "  expected: <type>(<scope>): <summary>, e.g. chore(content): add two moments" >&2
+    exit 1
+}
+
+summary=$(printf '%s\n' "$subject" |
+    sed -n -E 's/^(feat|fix|refactor|style|docs|chore)(\([^()[:space:]]+\))?!?: (.+)$/\3/p')
+
+[ -n "$summary" ] || fail "subject is not <type>(<scope>): <summary> (type: feat, fix, refactor, style, docs, chore)"
+
+case "$summary" in
+    # [[:upper:]], not [A-Z]: in most locales the range also matches lowercase.
+    [[:upper:]]*) fail "summary starts with an uppercase letter" ;;
+    *.) fail "summary ends with a period" ;;
+esac
+
+# Count characters, not bytes: the summary may contain Chinese.
+length=$(printf '%s' "$summary" | perl -CS -ne 'print length')
+[ "$length" -le 72 ] || fail "summary is $length characters; the limit is 72"
+
+exit 0
