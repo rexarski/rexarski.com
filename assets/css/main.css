@@ -1398,6 +1398,11 @@
             columns: 1;
         }
 
+        /* Top-level sections only: the full outline runs past a screen. */
+        .toc ul ul {
+            display: none;
+        }
+
         .row {
             column-gap: 1rem;
         }
@@ -1410,13 +1415,6 @@
             width: 56px;
             height: 56px;
         }
-
-        .nav-links {
-            flex-basis: 100%;
-            margin-left: 0;
-            margin-top: 0.2rem;
-        }
-
     }
 
     @media screen and (max-width: 600px) {
@@ -1480,11 +1478,25 @@
             gap: 3px;
         }
 
+        /* Title and streak share the first line; the legend takes the second
+           whole, so none of its five steps drops off on its own. */
+        .blog-heatmap-header {
+            gap: 0.25rem 0.75rem;
+        }
+
+        .blog-heatmap-header::after {
+            content: "";
+            flex-basis: 100%;
+            order: 1;
+        }
+
+        .blog-heatmap-legend {
+            order: 2;
+        }
+
         .blog-heatmap-streak {
             position: static;
-            flex-basis: 100%;
-            margin-top: 0.35rem;
-            order: 10;
+            margin-left: auto;
         }
 
         .blog-heatmap-labels {
