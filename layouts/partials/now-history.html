@@ -7,12 +7,12 @@
   <ul class="now-history-list">
     {{- range sort $items "end" "desc" }}
     <li class="now-history-item">
+      <span class="now-history-text">{{ .text | markdownify }}</span>
       <span class="now-history-dates">
         <time datetime="{{ .start }}">{{ .start }}</time>
         <span class="now-history-sep" aria-hidden="true">→</span>
         <time datetime="{{ .end }}">{{ .end }}</time>
       </span>
-      <span class="now-history-text">{{ .text | markdownify }}</span>
     </li>
     {{- end }}
   </ul>

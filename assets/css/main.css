@@ -2,20 +2,23 @@
 
     /* ─── Design Tokens ──────────────────────────────────────── */
     :root {
-        /* Two-column grid: left date rail + main column */
-        --page-pad: clamp(20px, 5vw, 64px);
-        --rail: 144px;
-        --rail-gap: 40px;
-        --content-width: 760px;
-        /* The shell is exactly one rail plus one content column: the nav's
-           right edge and the footer's links land on the text's right edge. */
-        --page-max: calc(var(--page-pad) * 2 + var(--rail) + var(--rail-gap) + var(--content-width));
+        /* One column. Header, text and footer share its two edges. */
+        --page-pad: clamp(20px, 7vw, 112px);
+        --content-width: 720px;
+        --page-max: calc(var(--page-pad) * 2 + var(--content-width));
 
-        /* Type scale — five steps, plus one display size for date stamps */
+        /* Two radii: small marks (inline code, kbd, chips) and blocks (images,
+           code blocks). The portrait is the one circle. */
+        --radius-sm: 2px;
+        --radius: 4px;
+
+        /* Type scale — six steps, plus one display size for page titles.
+           Every font-size on the site is one of these. */
         --fs-meta: 0.8rem;
         --fs-small: 0.9rem;
         --fs-body: 1rem;
-        --fs-h2: 1.2rem;
+        --fs-h3: 1.2rem;
+        --fs-h2: 1.4rem;
         --fs-h1: 1.5rem;
         --fs-display: 2.5rem;
 
@@ -31,36 +34,30 @@
         /* Light is the only scheme. Native controls and light-dark() follow. */
         color-scheme: light;
 
-        /* Warm off-white, low chroma: paper without the paper texture. */
-        --bg: #f7f5f0;
-        --surface: #efece6;
-        --text: #3b3835;
-        --heading: #1c1a17;
-        --link: #3b3835;
-        --muted: #6f6a63;
-        --muted-strong: #8e8880;
-        --border: #e3dfd7;
+        /* White paper, neutral greys; the accent is the only colour. */
+        --bg: #ffffff;
+        --surface: #f5f5f5;
+        --text: #333333;
+        --heading: #111111;
+        --link: #333333;
+        --muted: #6b6b6b;
+        --muted-strong: #8c8c8c;
+        --border: #e5e5e5;
         --accent: #c23b22;
 
-        --table-border: #d9d3c9;
-        --code-bg: #eeeae3;
-        --code-color: #2a2724;
-        --pre-code-color: #2a2724;
+        --table-border: #dcdcdc;
+        --code-bg: #f5f5f5;
+        --code-color: #222222;
+        --pre-code-color: #222222;
         --mark-bg: #f7e68a;
-        --mark-text: #2a2010;
-        --nav-border: #e3dfd7;
-        --nav-label-color: #6f6a63;
-        --nav-title-color: #3b3835;
-        --nav-title-hover: #1c1a17;
-        --helptext: #8e8880;
-        --form-bg: #f7f5f0;
-        --form-text: #1c1a17;
+        --form-bg: #ffffff;
+        --form-text: #111111;
 
-        /* Blog heatmap scale: a warm ink ramp, deliberately not the accent */
-        --heatmap-1: #e0dad0;
-        --heatmap-2: #beb6a9;
-        --heatmap-3: #8e8880;
-        --heatmap-4: #3b3835;
+        /* Blog heatmap scale: a grey ink ramp, deliberately not the accent */
+        --heatmap-1: #dcdcdc;
+        --heatmap-2: #b5b5b5;
+        --heatmap-3: #8c8c8c;
+        --heatmap-4: #333333;
     }
 
     /* ─── Reset ───────────────────────────────────────────────── */
@@ -104,37 +101,31 @@
 
     main {
         margin-top: 3rem;
-        display: flow-root; /* contains the homepage float */
     }
 
-    /* ─── Two-column grid ────────────────────────────────────── */
+    /* ─── Dated rows ─────────────────────────────────────────── */
     /*
-     * Every dated row on the site is one of these: the date (or a small label)
-     * lives in the left rail, the content in the main column. `align-items:
-     * baseline` keeps the date locked to the title's first line when the title
-     * wraps.
+     * Every dated row on the site is one of these: the content starts on the
+     * column's left edge, the date sits on its right edge. The date comes
+     * first in the markup and is placed by the grid. `align-items: baseline`
+     * keeps the date locked to the title's first line when the title wraps.
      */
-    .rail-row {
+    .row {
         display: grid;
-        grid-template-columns: var(--rail) minmax(0, 1fr);
-        column-gap: var(--rail-gap);
+        grid-template-columns: minmax(0, 1fr) auto;
+        column-gap: 1.5rem;
         align-items: baseline;
     }
 
-    .rail-row > .rail {
-        text-align: right;
+    .row > .row-main {
+        grid-column: 1;
+        grid-row: 1;
         min-width: 0;
     }
 
-    .rail-row > .rail-main {
-        min-width: 0;
-    }
-
-    /* A plain hairline spanning both columns. */
-    .rule {
-        border: 0;
-        border-top: 1px solid var(--border);
-        margin: 2.5rem 0;
+    .row > .row-date {
+        grid-column: 2;
+        grid-row: 1;
     }
 
     /* Small mono label above a group of rows (上一个刹那 / 最近写的 / 相关). */
@@ -151,7 +142,7 @@
     }
 
     /* Mono date text, wherever it appears. */
-    .rail-date {
+    .row-date {
         font-family: var(--font-mono);
         font-size: var(--fs-meta);
         color: var(--muted);
@@ -159,45 +150,6 @@
         white-space: nowrap;
     }
 
-    /* ─── Date stamp ─────────────────────────────────────────── */
-    /* Post pages: 2026 over 09·25, stacked and flush right in the rail. */
-    .datestamp {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 0.1rem;
-        margin: 0;
-        font-family: var(--font-mono);
-        line-height: 1.1;
-    }
-
-    .datestamp-year {
-        font-size: var(--fs-meta);
-        color: var(--muted);
-        letter-spacing: 0.08em;
-    }
-
-    .datestamp-md {
-        font-size: var(--fs-display);
-        font-weight: 600;
-        color: var(--heading);
-        font-variant-numeric: tabular-nums;
-        letter-spacing: -0.01em;
-    }
-
-    .datestamp-dot {
-        color: var(--muted-strong);
-        margin: 0 0.06em;
-    }
-
-    /* ─── Today (homepage) ───────────────────────────────────── */
-    /*
-     * The homepage date, set vertically in Chinese numerals beside the
-     * horizontal lede: 年月日 in the column nearest the text, 星期 in a second
-     * column to its left. Its top meets the top of the lede's first line and
-     * its right edge sits on the rail's, so nothing depends on matching
-     * baselines between two different sizes.
-     */
     /* ─── Typography ─────────────────────────────────────────── */
     h1,
     h2,
@@ -224,11 +176,17 @@
         line-height: var(--lh-tight);
     }
 
-    h3,
+    h3 {
+        font-size: var(--fs-h3);
+        font-weight: 600;
+        line-height: var(--lh-title);
+    }
+
+    /* Same size as the text around it; weight alone marks it. */
     h4,
     h5,
     h6 {
-        font-size: var(--fs-body);
+        font-size: 1em;
         font-weight: 600;
         line-height: var(--lh-title);
     }
@@ -266,12 +224,10 @@
     }
 
     /* ─── Header / Logo ──────────────────────────────────────── */
-    /* Indented onto the main column so the wordmark lines up with the content. */
     .site-logo-link {
         display: inline-flex;
         align-items: center;
         gap: 0.5rem;
-        margin-left: calc(var(--rail) + var(--rail-gap));
         text-decoration: none;
     }
 
@@ -296,7 +252,8 @@
     }
 
     /* ─── Navigation ─────────────────────────────────────────── */
-    nav {
+    /* Scoped to the site header: the TOC and the prev/next block are navs too. */
+    header nav {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -311,7 +268,7 @@
         margin-left: auto;
     }
 
-    nav a {
+    header nav a {
         font-family: var(--font-mono);
         font-size: var(--fs-small);
         color: var(--muted);
@@ -319,11 +276,11 @@
         transition: color 0.18s ease;
     }
 
-    nav a:hover {
+    header nav a:hover {
         color: var(--heading);
     }
 
-    nav a.active {
+    header nav a.active {
         color: var(--accent);
     }
 
@@ -381,6 +338,13 @@
         margin-bottom: 0;
     }
 
+    /* A thematic break in prose: one hairline. */
+    content hr {
+        border: 0;
+        border-top: 1px solid var(--border);
+        margin: 2.5rem 0;
+    }
+
     /* Long flat lists of names (toolbox apps): pack into columns, drop the
        bullets, step the type down. Markdown adds the class via `{.app-grid}`. */
     content ul.app-grid {
@@ -431,7 +395,7 @@
     /* ─── Images ─────────────────────────────────────────────── */
     img {
         max-width: 100%;
-        border-radius: 4px;
+        border-radius: var(--radius);
     }
 
     /* /about: the two marks (丘 · Rx), centred below the text. */
@@ -453,19 +417,19 @@
         padding: 0 0 0 28px;
         margin: 2rem 0;
         font-family: var(--font-body);
-        font-size: 1.25rem;
         font-weight: 400;
-        line-height: 1.7;
         background: transparent;
     }
 
-    /* Chinese has no italic, so the quote is marked by a glyph, not a slant. */
+    /* Chinese has no italic, so the quote is marked by a glyph, not a slant.
+       The glyph is set in a Latin face: Noto Sans SC draws “ full-width, with
+       the ink in the right half of the box, where it runs into the text. */
     blockquote::before {
         content: "\201C";
         position: absolute;
         left: 0;
-        top: -0.15em;
-        font-family: var(--font-body);
+        top: -0.05em;
+        font-family: Georgia, "Times New Roman", serif;
         font-size: 2.5rem;
         line-height: 1;
         color: var(--accent);
@@ -482,7 +446,7 @@
         font-size: var(--fs-small);
         background-color: var(--code-bg);
         color: var(--code-color);
-        border-radius: 3px;
+        border-radius: var(--radius-sm);
     }
 
     pre code {
@@ -493,30 +457,20 @@
         font-family: var(--font-mono);
         color: var(--pre-code-color);
         background-color: var(--code-bg);
-        border-radius: 6px;
+        border-radius: var(--radius);
         line-height: 1.6;
     }
 
+    /* Chroma writes its own background inline; the block takes the site's. */
     div.highlight pre {
-        background-color: initial;
-        color: initial;
-        border-radius: 6px;
+        background-color: var(--code-bg) !important;
+        border-radius: var(--radius);
         overflow: hidden;
     }
 
     div.highlight code {
         background-color: unset;
         color: unset;
-    }
-
-    /* Monokai's comment grey is too dim on this background. */
-    div.highlight
-        pre[style*="background-color:#272822"]
-        span[style*="color:#75715e"],
-    div.highlight
-        pre[style*="background-color:#272822"]
-        span[style*="color: #75715e"] {
-        color: #9ca3af !important;
     }
 
     /* ─── Tables ─────────────────────────────────────────────── */
@@ -527,28 +481,41 @@
         font-size: var(--fs-body);
     }
 
-    table,
-    th,
-    td {
-        border: 1px solid var(--table-border);
-    }
-
+    /* Hairlines between rows only; the header is marked by weight and a
+       slightly darker line. The outer cells sit flush with the text column. */
     th,
     td {
         text-align: left;
+        vertical-align: top;
         padding: 0.5rem 0.75rem;
+        border-bottom: 1px solid var(--border);
+    }
+
+    th:first-child,
+    td:first-child {
+        padding-left: 0;
+    }
+
+    th:last-child,
+    td:last-child {
+        padding-right: 0;
     }
 
     th {
-        background-color: var(--surface);
-        font-weight: 600;
+        color: var(--heading);
+        font-weight: 700;
         font-family: var(--font-body);
+        border-bottom-color: var(--table-border);
+    }
+
+    tbody tr:last-child td {
+        border-bottom: 0;
     }
 
     /* ─── Mark / Kbd ─────────────────────────────────────────── */
     mark {
         background-color: var(--mark-bg);
-        color: var(--mark-text);
+        color: inherit;
         padding: 0 2px;
         border-radius: 2px;
     }
@@ -558,7 +525,7 @@
         box-shadow: 1px 1px 0 var(--muted-strong);
         display: inline-block;
         padding: 1px 5px;
-        border-radius: 0.25em;
+        border-radius: var(--radius-sm);
         min-width: 1.5em;
         text-align: center;
         margin-right: 0.15em;
@@ -574,40 +541,6 @@
     }
 
     /* ─── Blog post list ─────────────────────────────────────── */
-    ul.blog-posts {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    ul.blog-posts li {
-        display: flex;
-        align-items: baseline;
-        gap: 1rem;
-        margin-bottom: 0.6rem;
-    }
-
-    ul.blog-posts li:last-child {
-        margin-bottom: 0;
-    }
-
-    ul.blog-posts li span {
-        flex: 0 0 auto;
-        font-family: var(--font-mono);
-        font-size: var(--fs-meta);
-        color: var(--muted);
-        font-variant-numeric: tabular-nums;
-        white-space: nowrap;
-    }
-
-    .post-date {
-        font-family: var(--font-mono);
-        font-size: var(--fs-small);
-        font-weight: 400;
-        color: var(--muted);
-        margin-right: 2rem;
-    }
-
     /* ─── Moments page ───────────────────────────────────────── */
     .moments-intro {
         margin-bottom: 1.25rem;
@@ -633,37 +566,23 @@
 
     /* ─── Moments photo ─────────────────────── */
     .moments-photo {
-        position: relative;
-        margin: 2rem 0;
+        margin: 3.5rem 0 0;
         max-width: 70%;
-        border-radius: 8px;
-        overflow: hidden;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
     }
 
     .moments-photo video {
         display: block;
         max-width: 100%;
         height: auto;
-        vertical-align: middle;
+        border-radius: var(--radius);
     }
 
+    /* Plain caption under the clip, not laid over it. */
     .moments-photo-caption {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: 0;
-        padding: 0.6rem 0.75rem;
-        font-size: var(--fs-small);
-        color: rgba(255, 255, 255, 0.95);
-        text-align: center;
-        background: linear-gradient(
-            to top,
-            rgba(0, 0, 0, 0.55) 0%,
-            transparent 100%
-        );
-        z-index: 2;
+        margin: 0.5rem 0 0;
+        font-family: var(--font-mono);
+        font-size: var(--fs-meta);
+        color: var(--muted);
     }
 
     /* ─── Blog heatmap ───────────────────────────────────────── */
@@ -814,8 +733,7 @@
 
     /* ─── Now history (collapsed past items) ─────────────────── */
     .now-history {
-        margin: 1.75rem 0 0;
-        padding: 1rem 0 0;
+        margin: 2.5rem 0 0;
     }
 
     .now-history-summary {
@@ -852,8 +770,8 @@
 
     .now-history-item {
         display: grid;
-        grid-template-columns: auto 1fr;
-        gap: 0.35rem 1rem;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 0.35rem 1.5rem;
         align-items: baseline;
         padding: 0.45rem 0;
         border-bottom: 1px solid var(--border);
@@ -901,30 +819,18 @@
         }
     }
 
-    /* ─── Cards ──────────────────────────────────────────────── */
-    .profile-border {
-        border: 2px double var(--border);
-        box-shadow: 2px 2px 0 var(--muted-strong);
-        padding: 15px;
-        border-radius: 0.35em;
-        margin: 15px 0;
-    }
-
     /* ─── Tier List ─────────────────────────────────────────────── */
+    /* Rows are told apart by the gap between their colour blocks, no rules. */
     .tier-list {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
         margin: 2rem 0;
-        border-radius: 0.35em;
-        overflow: hidden;
     }
 
     .tier-row {
         display: flex;
         min-height: 3.75rem;
-        border-bottom: 1px solid var(--border);
-    }
-
-    .tier-row:first-child {
-        border-top: 1px solid var(--border);
     }
 
     .tier-label {
@@ -935,12 +841,10 @@
         font-family: var(--font-body);
         font-size: var(--fs-h2);
         font-weight: 700;
+        line-height: 1;
         color: #fff;
         background: var(--muted);
-    }
-
-    .tier-label span {
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+        border-radius: var(--radius);
     }
 
     /* ─── Tier palettes ──────────────────────────────────── */
@@ -994,10 +898,14 @@
         background: #3e2723;
     }
 
+    /* Centred against the label, so one line of chips sits on the letter's
+       midline and several lines grow evenly around it. */
     .tier-items {
         flex: 1;
-        padding: 0.65rem 0.85rem;
-        background: var(--bg);
+        min-width: 0;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0 0.5rem 0.85rem;
     }
 
     .tier-items ul {
@@ -1017,7 +925,7 @@
         padding: 0.2rem 0.55rem;
         background: var(--surface);
         border: 1px solid var(--border);
-        border-radius: 0.25rem;
+        border-radius: var(--radius-sm);
         font-size: var(--fs-small);
         line-height: 1.4;
         margin: 0;
@@ -1027,7 +935,7 @@
         width: 2.2rem;
         height: 2.2rem;
         object-fit: cover;
-        border-radius: 0.15rem;
+        border-radius: var(--radius-sm);
     }
 
     .tier-items a {
@@ -1059,18 +967,9 @@
         }
     }
 
-    /* ─── Avatar ─────────────────────────────────────────────── */
-    .avatar {
-        vertical-align: center;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-    }
-
     /* ─── Minimalist list ────────────────────────────────────── */
     .minimalist-list {
         margin: 5px 0;
-        border-radius: 8px;
     }
 
     .minimalist-item {
@@ -1134,8 +1033,6 @@
         padding: 0;
     }
 
-    /* Hugo wraps the list in a <nav>, whose links the site sets in mono;
-       these are heading text, so they go back to the body face. */
     .toc a {
         font-family: var(--font-body);
         color: var(--muted);
@@ -1147,56 +1044,9 @@
         text-decoration-line: underline;
     }
 
-    /* ─── Badges ─────────────────────────────────────────────── */
-    li img.badge,
-    aside img.badge {
-        image-rendering: pixelated;
-        width: 44px !important;
-        height: 15.5px !important;
-        vertical-align: middle;
-    }
-
-    img.badge {
-        image-rendering: pixelated;
-        width: 88px !important;
-        height: 31px !important;
-        margin: 0;
-        border-radius: 0;
-        box-shadow: none;
-    }
-
-    img.badge:hover {
-        opacity: 0.75;
-    }
-
-    div.badgebox a {
-        width: 88px !important;
-        height: 31px !important;
-    }
-
-    div.badgebox {
-        margin: 0.5em 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        gap: 4px;
-        max-width: 364px;
-    }
-
     /* ─── ObservableHQ ───────────────────────────────────────── */
     .observablehq:not(:first-of-type) {
         display: none;
-    }
-
-    /* ─── Helptext ───────────────────────────────────────────── */
-    .helptext {
-        color: var(--helptext);
-        font-size: var(--fs-meta);
-    }
-
-    .errorlist {
-        color: #eba613;
-        font-size: var(--fs-meta);
     }
 
     /* ─── Single post ────────────────────────────────────────── */
@@ -1208,34 +1058,75 @@
     .post-body content,
     .page-body content {
         display: block;
-        font-size: 1.0625rem;
         line-height: var(--lh-body);
     }
 
-    /* Tags hang under the date stamp in the rail, one per line. */
-    .post-tags {
-        list-style: none;
-        margin: 0.9rem 0 0;
-        padding: 0;
-        font-family: var(--font-mono);
-        font-size: var(--fs-meta);
-        line-height: 1.8;
+    .post h1 {
+        margin-bottom: 0.6rem;
     }
 
-    .post-tags a {
+    /* Date and tags on one line under the title. */
+    .post-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 1rem;
+        margin: 0 0 2rem;
+        font-family: var(--font-mono);
+        font-size: var(--fs-meta);
+        color: var(--muted);
+        font-variant-numeric: tabular-nums;
+    }
+
+    .post-meta a {
         color: var(--muted);
         text-decoration: none;
     }
 
-    .post-tags a:hover {
+    .post-meta a:hover {
         color: var(--heading);
         text-decoration: underline;
         text-underline-offset: 0.2em;
     }
 
+    /* Below the article: related posts, then older / newer. Space, no rules. */
+    .related-posts,
+    .post-nav {
+        margin-top: 3.5rem;
+    }
+
+    .post-nav {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        column-gap: 2rem;
+    }
+
+    .post-nav-link {
+        display: block;
+        text-decoration: none;
+    }
+
+    .post-nav-next {
+        grid-column: 2;
+        text-align: right;
+    }
+
+    .post-nav-link .section-label {
+        display: block;
+        margin-bottom: 0.25rem;
+    }
+
+    .post-nav-link .row-title {
+        font-size: var(--fs-body);
+    }
+
+    .post-nav-link:hover .row-title {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.2em;
+    }
+
     /* tl;dr is a plain lead paragraph — blockquote is reserved for real quotes. */
     .post-tldr {
-        font-size: 1.125rem;
         color: var(--muted);
         margin: 0 0 2rem;
     }
@@ -1262,16 +1153,16 @@
         color: var(--heading);
     }
 
-    /* The year is a grouping mark, not content — same treatment as a date stamp. */
+    /* The year heads its group on the same left edge as the titles under it. */
     .year-label {
         font-family: var(--font-mono);
-        font-size: var(--fs-display);
+        font-size: var(--fs-h1);
         font-weight: 600;
         color: var(--heading);
         font-variant-numeric: tabular-nums;
         letter-spacing: -0.01em;
         line-height: 1.1;
-        margin: 1.75rem 0 0.35rem;
+        margin: 2.5rem 0 0.6rem;
     }
 
     .post-row {
@@ -1280,6 +1171,7 @@
 
     /* ─── Tag cloud ──────────────────────────────────────────── */
     .tag-cloud {
+        margin-top: 3.5rem;
         font-family: var(--font-mono);
         font-size: var(--fs-meta);
         line-height: 2;
@@ -1325,22 +1217,39 @@
     }
 
     /* ─── Homepage ───────────────────────────────────────────── */
-    /* Portrait on the homepage: floated to the text's right edge, the
-       上一个刹那 rows wrap beside it. */
+    /* The latest moment on the left edge, the portrait on the right edge. */
+    .home-top {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .home-latest {
+        min-width: 0;
+    }
+
+    .home-latest .moment-row {
+        margin: 0;
+    }
+
     .home-portrait {
-        float: right;
-        margin: 0 0 1.5rem 2rem;
+        flex: none;
+        margin-left: auto;
         line-height: 0;
     }
 
     .home-portrait img {
-        width: 144px;
-        height: 144px;
-        border-radius: 6px;
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
     }
 
-    .home-section + .home-section {
+    .home-section {
         margin-top: 2.25rem;
+    }
+
+    .home-more {
+        margin: 0.75rem 0 0;
     }
 
     .home-row {
@@ -1350,7 +1259,7 @@
     /* Post titles in any dated list: one notch above the body. */
     .row-title {
         font-family: var(--font-body);
-        font-size: 1.25rem;
+        font-size: var(--fs-h3);
         font-weight: 500;
         line-height: 1.5;
         color: var(--heading);
@@ -1391,7 +1300,7 @@
     .notfound-ascii {
         margin: 0;
         font-family: var(--font-mono);
-        font-size: 0.8rem;
+        font-size: var(--fs-meta);
         line-height: 1.16;
         color: var(--muted-strong);
         white-space: pre;
@@ -1404,10 +1313,8 @@
 
     /* ─── Footer ─────────────────────────────────────────────── */
     footer {
-        margin-top: 4rem;
+        margin-top: 5rem;
         text-align: left;
-        padding-top: 1.25rem;
-        border-top: 1px solid var(--border);
         font-family: var(--font-mono);
         font-size: var(--fs-meta);
         color: var(--muted);
@@ -1419,8 +1326,7 @@
         align-items: baseline;
         flex-wrap: wrap;
         gap: 0.5rem 1.25rem;
-        /* Same left edge as the header and the text column. */
-        margin: 0 0 0 calc(var(--rail) + var(--rail-gap));
+        margin: 0;
     }
 
     .footer-links {
@@ -1487,91 +1393,22 @@
     }
 
     /* ─── Mobile ─────────────────────────────────────────────── */
-    /*
-     * Below 720px the rail has to hold a full YYYY-MM-DD (the related-posts
-     * list shows one), so it gets wider, not narrower. Two kinds of row can't
-     * live in a rail that narrow and leave the grid instead: the article
-     * header, whose date stamp and tags would collide with the title, and any
-     * row whose rail cell is decorative or holds a year label.
-     */
     @media screen and (max-width: 720px) {
         .toc > nav > ul {
             columns: 1;
         }
 
-        :root {
-            --rail: 3.75rem;
-            --rail-gap: 0.75rem;
+        .row {
+            column-gap: 1rem;
         }
 
-        /* The only list that shows a full YYYY-MM-DD. */
-        .related-posts .rail-row {
-            grid-template-columns: 5.25rem minmax(0, 1fr);
-        }
-
-        .site-logo-link,
-        .footer-line {
-            margin-left: 0;
-        }
-
-        .home-portrait {
-            margin: 0 0 1rem 1rem;
+        .home-top {
+            gap: 1rem;
         }
 
         .home-portrait img {
-            width: 96px;
-            height: 96px;
-        }
-
-        .rail-row.rail-empty,
-        .year-row,
-        .post {
-            display: block;
-        }
-
-        .post > .rail {
-            text-align: left;
-            margin-bottom: 1rem;
-        }
-
-        /* Date stamp and tags share one line above the title. */
-        .post > .rail {
-            display: flex;
-            align-items: baseline;
-            flex-wrap: wrap;
-            gap: 0.35rem 1rem;
-        }
-
-        .datestamp {
-            flex-direction: row;
-            align-items: baseline;
-            gap: 0.5rem;
-        }
-
-        .datestamp-md {
-            order: 0;
-        }
-
-        .datestamp-year {
-            order: 1;
-        }
-
-        .post-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0 0.75rem;
-            margin: 0;
-        }
-
-        /* Outweighs `.rail-row > .rail`, which right-aligns on desktop. */
-        .year-row > .year-label {
-            text-align: left;
-            font-size: 2rem;
-            margin: 1.5rem 0 0.35rem;
-        }
-
-        .row-title {
-            font-size: 1.125rem;
+            width: 56px;
+            height: 56px;
         }
 
         .nav-links {
@@ -1598,10 +1435,6 @@
         }
 
         h1 {
-            font-size: 1.75rem;
-        }
-
-        .datestamp-md {
             font-size: 2rem;
         }
     }

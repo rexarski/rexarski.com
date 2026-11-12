@@ -1,32 +1,26 @@
 {{ define "main" }}
 {{- $isTag := .Data.Singular -}}
-<div class="rail-row rail-empty">
-  <span class="rail"></span>
-  <div class="rail-main page-head">
-    <h1>{{ if $isTag }}#{{ .Title | lower }}{{ else }}{{ .Title }}{{ end }}</h1>
-    {{- if not $isTag }}
-    <div class="list-intro">{{ .Content }}</div>
-    {{- end }}
-    <p class="list-meta">
-      {{- if $isTag -}}
-        {{ len .Pages }} 篇 · <a href="{{ "/posts/" | relURL }}">清除筛选</a>
-      {{- else -}}
-        共 {{ len .Pages }} 篇
-      {{- end -}}
-    </p>
-  </div>
+<div class="page-head">
+  <h1>{{ if $isTag }}#{{ .Title | lower }}{{ else }}{{ .Title }}{{ end }}</h1>
+  {{- if not $isTag }}
+  <div class="list-intro">{{ .Content }}</div>
+  {{- end }}
+  <p class="list-meta">
+    {{- if $isTag -}}
+      {{ len .Pages }} 篇 · <a href="{{ "/posts/" | relURL }}">清除筛选</a>
+    {{- else -}}
+      共 {{ len .Pages }} 篇
+    {{- end -}}
+  </p>
 </div>
 
 {{ if .Pages }}
   {{ range .Pages.GroupByDate "2006" }}
-  <div class="rail-row year-row">
-    <p class="rail year-label">{{ .Key }}</p>
-    <span class="rail-main"></span>
-  </div>
+  <p class="year-label">{{ .Key }}</p>
     {{ range .Pages.ByDate.Reverse }}
-  <div class="rail-row post-row">
-    <span class="rail rail-date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01-02" }}</time></span>
-    <a class="rail-main row-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  <div class="row post-row">
+    <span class="row-date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01-02" }}</time></span>
+    <a class="row-main row-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
   </div>
     {{ end }}
   {{ end }}
@@ -37,24 +31,20 @@
 {{ if not $isTag }}
   {{- $tags := .Site.Taxonomies.tags.ByCount -}}
   {{- if $tags }}
-<hr class="rule" />
-<div class="rail-row rail-empty">
-  <span class="rail"></span>
-  <div class="rail-main tag-cloud">
-    {{- range first 12 $tags }}
-    <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower }}</a>
-    {{- end }}
-    {{- if gt (len $tags) 12 }}
-    <details class="tag-cloud-more">
-      <summary>全部标签 →</summary>
-      <div class="tag-cloud-rest">
-        {{- range after 12 $tags }}
-        <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower }}</a>
-        {{- end }}
-      </div>
-    </details>
-    {{- end }}
-  </div>
+<div class="tag-cloud">
+  {{- range first 12 $tags }}
+  <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower }}</a>
+  {{- end }}
+  {{- if gt (len $tags) 12 }}
+  <details class="tag-cloud-more">
+    <summary>全部标签 →</summary>
+    <div class="tag-cloud-rest">
+      {{- range after 12 $tags }}
+      <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower }}</a>
+      {{- end }}
+    </div>
+  </details>
+  {{- end }}
 </div>
   {{- end }}
 {{ end }}

@@ -23,19 +23,15 @@
     {{- with $scratch.Get "entry" }}
       {{- $related := .top_similar -}}
       {{- if gt (len $related) 0 }}
-<hr class="rule" />
 <section class="related-posts">
-  <div class="rail-row">
-    <span class="rail"></span>
-    <p class="rail-main section-label">相关</p>
-  </div>
+  <p class="section-label">相关</p>
         {{- range $related }}
           {{- $targetPath := default "" .content_path -}}
           {{- $targetPage := cond (ne $targetPath "") (site.GetPage $targetPath) nil -}}
           {{- with $targetPage }}
-  <div class="rail-row post-row">
-    <span class="rail rail-date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></span>
-    <a class="rail-main row-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  <div class="row post-row">
+    <span class="row-date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></span>
+    <a class="row-main row-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
   </div>
           {{- end }}
         {{- end }}

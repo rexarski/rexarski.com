@@ -1,12 +1,12 @@
 {{- /* 当下. Rendered from the layout, not a shortcode, so its rows sit at page
-       level and their dates land in the same rail as /posts and /moments. */ -}}
+       level and their dates land on the same right edge as /posts and /moments. */ -}}
 {{- $page := . -}}
 {{- with hugo.Data.now_current -}}
 <div class="now-current">
   {{- range sort .items "start" "desc" }}
-  <div class="rail-row now-row">
-    <span class="rail rail-date"><time datetime="{{ .start }}" data-relative>{{ (time .start).Format "01-02" }}</time></span>
-    <span class="rail-main">{{ $page.RenderString .text }}</span>
+  <div class="row now-row">
+    <span class="row-date"><time datetime="{{ .start }}" data-relative>{{ (time .start).Format "01-02" }}</time></span>
+    <span class="row-main">{{ $page.RenderString .text }}</span>
   </div>
   {{- end }}
 </div>

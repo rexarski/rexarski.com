@@ -1,45 +1,33 @@
 {{ define "main" }}
-{{- /* Floated right inside <main>: every .rail-row below is a grid, so it
-       narrows to sit beside the portrait instead of running under it. */ -}}
-<a class="home-portrait" href="{{ "/about/" | relURL }}" aria-label="关于"><img src="{{ "/images/rexarski.jpg" | relURL }}" width="144" height="144" alt="rexarski" decoding="async" /></a>
-
 {{- $mt := partial "moment-types.html" . -}}
 {{- $moments := slice -}}
 {{- range hugo.Data.moments }}{{ range . }}{{ $moments = $moments | append . }}{{ end }}{{ end -}}
+{{- /* Latest moment on the left edge, portrait on the right edge. */ -}}
+<section class="home-top">
 {{- if $moments }}
   {{- with index (first 1 (sort $moments "date" "desc")) 0 }}
-<section class="home-section">
-  <div class="rail-row">
-    <span class="rail"></span>
-    <p class="rail-main section-label">上一个<a href="{{ "/moments/" | relURL }}">刹那</a></p>
-  </div>
-  <div class="rail-row home-row">
-    <span class="rail rail-date"><time datetime="{{ .date }}">{{ (time .date).Format "01-02" }}</time></span>
-    <span class="rail-main moment-row">
+  <div class="home-latest">
+    <p class="section-label">上一个<a href="{{ "/moments/" | relURL }}">刹那</a> · <time datetime="{{ .date }}">{{ (time .date).Format "01-02" }}</time></p>
+    <p class="moment-row">
       {{- /* The same mark /moments shows: the preset's emoji, or the entry's own. */ -}}
       {{- with .type }}<span class="moment-type" aria-hidden="true">{{ index $mt.icon . | default . }}</span> {{ end -}}
       {{ if .url }}<a class="moment-link" href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
-    </span>
+    </p>
   </div>
-</section>
   {{- end }}
 {{- end }}
+  <a class="home-portrait" href="{{ "/about/" | relURL }}" aria-label="关于"><img src="{{ "/images/rexarski.jpg" | relURL }}" width="72" height="72" alt="rexarski" decoding="async" /></a>
+</section>
 
 {{- $posts := where (where .Site.RegularPages "Type" "in" (slice "zh" "posts")) "Params.draft" "!=" true }}
 <section class="home-section">
-  <div class="rail-row">
-    <span class="rail"></span>
-    <p class="rail-main section-label">最近写的</p>
-  </div>
+  <p class="section-label">最近写的</p>
   {{- range first 5 $posts.ByDate.Reverse }}
-  <div class="rail-row home-row">
-    <span class="rail rail-date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01-02" }}</time></span>
-    <a class="rail-main row-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  <div class="row home-row">
+    <span class="row-date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01-02" }}</time></span>
+    <a class="row-main row-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
   </div>
   {{- end }}
-  <div class="rail-row">
-    <span class="rail"></span>
-    <p class="rail-main"><a class="more-link" href="{{ "/posts/" | relURL }}">往前翻 →</a></p>
-  </div>
+  <p class="home-more"><a class="more-link" href="{{ "/posts/" | relURL }}">往前翻 →</a></p>
 </section>
 {{ end }}

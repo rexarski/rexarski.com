@@ -1,10 +1,4 @@
 {{ define "main" }}
-<div class="rail-row rail-empty">
-  <span class="rail"></span>
-  <div class="rail-main page-head">
-    <h1>{{ .Title }}</h1>
-    <div class="page-body moments-intro">{{ .Content }}</div>
-
 {{ $typeIcon := (partial "moment-types.html" .).icon }}
 
 {{/* Collect all moments from per-year files in data/moments/ */}}
@@ -14,6 +8,10 @@
     {{ $allMoments = $allMoments | append . }}
   {{ end }}
 {{ end }}
+
+<div class="page-head">
+  <h1>{{ .Title }}</h1>
+  <div class="page-body moments-intro">{{ .Content }}</div>
 
 {{ if $allMoments }}
   {{ $sorted := sort $allMoments "date" "desc" }}
@@ -36,7 +34,6 @@
   {{ end }}
 
   <p class="list-meta">共 {{ $stats.Get "total" }} 条{{ range first 6 (sort $statsList "count" "desc") }} · {{ .icon }} {{ .count }}{{ end }}</p>
-  </div>
 </div>
 
   {{/* Second pass: render, grouped by year then month */}}
@@ -51,24 +48,18 @@
 
     {{ if ne $t.Year ($scratch.Get "prevYear") }}
       {{ $scratch.Set "prevYear" $t.Year }}
-  <div class="rail-row year-row">
-    <p class="rail year-label">{{ $t.Year }}</p>
-    <span class="rail-main"></span>
-  </div>
+  <p class="year-label">{{ $t.Year }}</p>
     {{ end }}
 
     {{ $month := $t.Format "2006-01" }}
     {{ if ne $month ($scratch.Get "prevMonth") }}
       {{ $scratch.Set "prevMonth" $month }}
-  <div class="rail-row">
-    <span class="rail"></span>
-    <p class="rail-main section-label moments-month">{{ $t.Format "January" }}</p>
-  </div>
+  <p class="section-label moments-month">{{ $t.Format "January" }}</p>
     {{ end }}
 
-  <div class="rail-row moment-entry">
-    <span class="rail rail-date"><time datetime="{{ .date }}">{{ $t.Format "01-02" }}</time></span>
-    <span class="rail-main">
+  <div class="row moment-entry">
+    <span class="row-date"><time datetime="{{ .date }}">{{ $t.Format "01-02" }}</time></span>
+    <span class="row-main">
       {{- with $icon }}<span class="moments-icon" aria-hidden="true">{{ . }}</span> {{ end -}}
       {{ if .url }}<a class="moment-link" href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
       {{- with .note }}<span class="moments-note"> {{ . }}</span>{{ end }}
@@ -76,7 +67,6 @@
   </div>
   {{ end }}
 {{ else }}
-  </div>
 </div>
   <p class="list-empty">还没有刹那。在 <code>data/moments/</code> 里加几条。</p>
 {{ end }}

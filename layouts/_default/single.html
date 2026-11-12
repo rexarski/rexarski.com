@@ -2,39 +2,27 @@
 {{- $isPost := and (eq .Type "posts" "zh") (not .Params.menu) -}}
 
 {{ if $isPost }}
-<article class="post rail-row">
-  <div class="rail">
-    <p class="datestamp">
-      <span class="datestamp-year">{{ .Date.Format "2006" }}</span>
-      <span class="datestamp-md">{{ .Date.Format "01" }}<span class="datestamp-dot">·</span>{{ .Date.Format "02" }}</span>
-    </p>
-    {{- with .GetTerms "tags" }}
-    <ul class="post-tags">
-      {{- range . }}
-      <li><a href="{{ .Permalink }}">#{{ .LinkTitle | lower }}</a></li>
-      {{- end }}
-    </ul>
+<article class="post post-body">
+  <h1>{{ .Title }}</h1>
+  <p class="post-meta">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+    {{- range .GetTerms "tags" }}
+    <a href="{{ .Permalink }}">#{{ .LinkTitle | lower }}</a>
     {{- end }}
-  </div>
-  <div class="rail-main post-body">
-    <h1>{{ .Title }}</h1>
-    {{- with .Params.description }}
-    <p class="post-tldr">{{ . }}</p>
-    {{- end }}
-    <div class="single-post">
-      <content>{{ .Content }}</content>
-      <p class="end-seal-row"><span class="end-seal" aria-hidden="true"></span></p>
-    </div>
+  </p>
+  {{- with .Params.description }}
+  <p class="post-tldr">{{ . }}</p>
+  {{- end }}
+  <div class="single-post">
+    <content>{{ .Content }}</content>
+    <p class="end-seal-row"><span class="end-seal" aria-hidden="true"></span></p>
   </div>
 </article>
 {{ else }}
-<div class="rail-row rail-empty">
-  <span class="rail"></span>
-  <div class="rail-main page-head">
-    {{- if not .Params.hideTitle }}<h1>{{ .Title }}</h1>{{ end }}
-    <div class="single-post page-body">
-      <content>{{ .Content }}</content>
-    </div>
+<div class="page-head">
+  {{- if not .Params.hideTitle }}<h1>{{ .Title }}</h1>{{ end }}
+  <div class="single-post page-body">
+    <content>{{ .Content }}</content>
   </div>
 </div>
 {{ end }}
@@ -45,19 +33,18 @@
 {{- $prev := .PrevInSection -}}
 {{- $next := .NextInSection -}}
 {{- if or $prev $next }}
-<hr class="rule" />
 <nav class="post-nav" aria-label="上下篇">
   {{- with $prev }}
-  <div class="rail-row post-row">
-    <span class="rail rail-date">← 前一篇</span>
-    <a class="rail-main row-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </div>
+  <a class="post-nav-link post-nav-prev" href="{{ .RelPermalink }}">
+    <span class="section-label">← 前一篇</span>
+    <span class="row-title">{{ .Title }}</span>
+  </a>
   {{- end }}
   {{- with $next }}
-  <div class="rail-row post-row">
-    <span class="rail rail-date">下一篇 →</span>
-    <a class="rail-main row-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </div>
+  <a class="post-nav-link post-nav-next" href="{{ .RelPermalink }}">
+    <span class="section-label">下一篇 →</span>
+    <span class="row-title">{{ .Title }}</span>
+  </a>
   {{- end }}
 </nav>
 {{- end }}

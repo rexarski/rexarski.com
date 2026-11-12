@@ -25,6 +25,10 @@ ignoreErrors = ["error-disable-taxonomy"]
 [markup.goldmark.renderer]
   unsafe= true
 
+# A light Chroma style; the block's background comes from --code-bg in main.css.
+[markup.highlight]
+  style = "github"
+
 # Keep ASCII quotes, dashes and dots as typed: Noto Sans SC renders the
 # curly ’ full-width, which leaves an ugly gap in English text.
 [markup.goldmark.extensions.typographer]
