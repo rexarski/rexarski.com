@@ -16,7 +16,10 @@
 
 {{ if .Pages }}
   {{ range .Pages.GroupByDate "2006" }}
-  <p class="year-label">{{ .Key }}</p>
+  <div class="row year-row">
+    <span class="row-date">{{ len .Pages }} 篇</span>
+    <p class="row-main year-label">{{ .Key }}</p>
+  </div>
     {{ range .Pages.ByDate.Reverse }}
   <div class="row post-row">
     <span class="row-date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01-02" }}</time></span>

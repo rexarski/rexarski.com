@@ -11,7 +11,7 @@
     <p class="moment-row">
       {{- /* The same mark /moments shows: the preset's emoji, or the entry's own. */ -}}
       {{- with .type }}<span class="moment-type" aria-hidden="true">{{ index $mt.icon . | default . }}</span> {{ end -}}
-      {{ if .url }}<a class="moment-link" href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+      {{ partial "moment-title.html" . }}
     </p>
   </div>
   {{- end }}
@@ -30,4 +30,6 @@
   {{- end }}
   <p class="home-more"><a class="more-link" href="{{ "/posts/" | relURL }}">往前翻 →</a></p>
 </section>
+
+{{ partial "blog-heatmap.html" . }}
 {{ end }}

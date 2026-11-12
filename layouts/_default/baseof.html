@@ -27,6 +27,13 @@
             href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Noto+Sans+SC:wght@400..700&display=swap"
             rel="stylesheet"
         />
+        {{- /* Four glyphs only (‘ ’ “ ”): Noto Sans SC draws them full-width,
+               which splits English words. `text=` subsets the whole request,
+               so this family gets a link of its own. */ -}}
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400..700&text=%E2%80%98%E2%80%99%E2%80%9C%E2%80%9D&display=swap"
+            rel="stylesheet"
+        />
 
         {{ with .OutputFormats.Get "rss" -}} {{ printf `
         <link rel="%s" type="%s" href="%s" title="%s" />

@@ -4,7 +4,7 @@
     :root {
         /* One column. Header, text and footer share its two edges. */
         --page-pad: clamp(20px, 7vw, 112px);
-        --content-width: 720px;
+        --content-width: 580px;
         --page-max: calc(var(--page-pad) * 2 + var(--content-width));
 
         /* Two radii: small marks (inline code, kbd, chips) and blocks (images,
@@ -27,7 +27,10 @@
         --lh-body: 1.8;
         --lh-meta: 1.45;
 
-        --font-body: "Noto Sans SC", sans-serif;
+        /* Source Sans 3 is loaded with four glyphs only, the curly quotes and
+           apostrophe, so they come out proportional instead of full-width;
+           everything else falls through to Noto Sans SC. */
+        --font-body: "Source Sans 3", "Noto Sans SC", sans-serif;
         /* Plex has no CJK, so Chinese in mono contexts lands on the body face. */
         --font-mono: "IBM Plex Mono", "Noto Sans SC", monospace;
 
@@ -53,11 +56,11 @@
         --form-bg: #ffffff;
         --form-text: #111111;
 
-        /* Blog heatmap scale: a grey ink ramp, deliberately not the accent */
-        --heatmap-1: #dcdcdc;
-        --heatmap-2: #b5b5b5;
-        --heatmap-3: #8c8c8c;
-        --heatmap-4: #333333;
+        /* Blog heatmap scale: four tints of the accent */
+        --heatmap-1: color-mix(in srgb, var(--accent) 22%, var(--bg));
+        --heatmap-2: color-mix(in srgb, var(--accent) 46%, var(--bg));
+        --heatmap-3: color-mix(in srgb, var(--accent) 72%, var(--bg));
+        --heatmap-4: var(--accent);
     }
 
     /* ─── Reset ───────────────────────────────────────────────── */
@@ -66,7 +69,10 @@
     }
 
     /* ─── Base ────────────────────────────────────────────────── */
+    /* 14px root: the whole rem scale steps down together, so the hierarchy
+       between sizes stays as it was. */
     html {
+        font-size: 87.5%;
         scroll-behavior: smooth;
     }
 
@@ -165,7 +171,7 @@
 
     h1 {
         font-size: var(--fs-display);
-        font-weight: 700;
+        font-weight: 500;
         line-height: 1.3;
         margin: 0 0 1rem;
     }
@@ -354,7 +360,7 @@
         row-gap: 0.2rem;
         list-style: none;
         padding-left: 0;
-        font-size: var(--fs-small);
+        font-size: 0.9em;
     }
 
     content ul.app-grid li {
@@ -443,7 +449,7 @@
     code {
         padding: 2px 6px;
         font-family: var(--font-mono);
-        font-size: var(--fs-small);
+        font-size: 0.9em;
         background-color: var(--code-bg);
         color: var(--code-color);
         border-radius: var(--radius-sm);
@@ -453,7 +459,7 @@
         display: block;
         padding: 1.25rem;
         white-space: pre-wrap;
-        font-size: var(--fs-small);
+        font-size: 0.9em;
         font-family: var(--font-mono);
         color: var(--pre-code-color);
         background-color: var(--code-bg);
@@ -478,7 +484,7 @@
         width: 100%;
         border-collapse: collapse;
         margin-bottom: 1.5rem;
-        font-size: var(--fs-body);
+        font-size: 1em;
     }
 
     /* Hairlines between rows only; the header is marked by weight and a
@@ -530,7 +536,7 @@
         text-align: center;
         margin-right: 0.15em;
         font-family: var(--font-mono);
-        font-size: var(--fs-small);
+        font-size: 0.9em;
         background: var(--surface);
     }
 
@@ -585,70 +591,13 @@
         color: var(--muted);
     }
 
-    /* ─── Blog heatmap ───────────────────────────────────────── */
-    .blog-heatmap {
-        position: relative;
-        margin: 2rem 0;
-        padding: 1rem 0;
-    }
-
-    .blog-heatmap-header {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 1rem;
-        margin-bottom: 0.75rem;
-        font-size: var(--fs-small);
-        color: var(--muted);
-    }
-
-    .blog-heatmap-title {
-        font-weight: 600;
-        color: var(--heading);
-    }
-
-    .blog-heatmap-streak {
-        position: absolute;
-        top: 1rem;
-        right: 0;
-        font-family: var(--font-mono);
-        font-size: var(--fs-small);
-        color: var(--muted);
-        font-weight: 600;
-    }
-
-    .blog-heatmap-legend {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.35rem;
-    }
-
-    .blog-heatmap-legend-cell {
-        width: 10px;
-        height: 10px;
-        border-radius: 2px;
-    }
-
-    .blog-heatmap-legend-cell.count-0 {
-        background: var(--border);
-    }
-    .blog-heatmap-legend-cell.count-1 {
-        background: var(--heatmap-1);
-    }
-    .blog-heatmap-legend-cell.count-2 {
-        background: var(--heatmap-2);
-    }
-    .blog-heatmap-legend-cell.count-3 {
-        background: var(--heatmap-3);
-    }
-    .blog-heatmap-legend-cell.count-4 {
-        background: var(--heatmap-4);
-    }
-
+    /* ─── Blog heatmap (homepage) ────────────────────────────── */
+    /* One row per year, one cell per week, in tints of the accent. No legend
+       and no axis: darker is more, and each cell names its week on hover. */
     .blog-heatmap-grid {
         display: flex;
         flex-direction: column;
-        gap: 4px;
+        gap: 3px;
     }
 
     .blog-heatmap-row {
@@ -658,33 +607,27 @@
     }
 
     .blog-heatmap-year {
+        flex: 0 0 2.5rem;
         font-family: var(--font-mono);
         font-size: var(--fs-meta);
+        line-height: 1;
         color: var(--muted);
-        flex: 0 0 2.5rem;
     }
 
     .blog-heatmap-stripes {
-        display: flex;
-        flex-direction: row;
-        gap: 2px;
         flex: 1;
         min-width: 0;
+        display: grid;
+        grid-template-columns: repeat(53, minmax(0, 1fr));
+        gap: 2px;
     }
 
     .blog-heatmap-cell {
-        flex: 1;
-        min-width: 4px;
-        max-width: 12px;
-        height: 14px;
-        border-radius: 2px;
-        background: var(--border);
-        transition: opacity 0.15s ease;
+        height: 12px;
+        border-radius: var(--radius-sm);
+        background: var(--surface);
     }
 
-    .blog-heatmap-cell.count-0 {
-        background: var(--border);
-    }
     .blog-heatmap-cell.count-1 {
         background: var(--heatmap-1);
     }
@@ -698,22 +641,9 @@
         background: var(--heatmap-4);
     }
 
-    .blog-heatmap-cell:hover {
-        opacity: 0.85;
-    }
-
     /* Two grids ship; exactly one is shown. See the ≤720px block. */
     .blog-heatmap .by-month {
         display: none;
-    }
-
-    .blog-heatmap-labels {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 0.35rem;
-        padding-left: 3.25rem;
-        font-size: var(--fs-meta);
-        color: var(--muted);
     }
 
     /* ─── Now current (data/now_current.yaml) ────────────────── */
@@ -997,7 +927,7 @@
         margin: 0 0 2rem;
         padding-left: 1rem;
         border-left: 1px solid var(--border);
-        font-size: var(--fs-small);
+        font-size: 1em;
         line-height: var(--lh-meta);
     }
 
@@ -1153,7 +1083,12 @@
         color: var(--heading);
     }
 
-    /* The year heads its group on the same left edge as the titles under it. */
+    /* The year heads its group on the same left edge as the titles under it;
+       the group's count sits across from it on the date edge. */
+    .year-row {
+        margin: 2.5rem 0 0.6rem;
+    }
+
     .year-label {
         font-family: var(--font-mono);
         font-size: var(--fs-h1);
@@ -1162,7 +1097,7 @@
         font-variant-numeric: tabular-nums;
         letter-spacing: -0.01em;
         line-height: 1.1;
-        margin: 2.5rem 0 0.6rem;
+        margin: 0;
     }
 
     .post-row {
@@ -1260,7 +1195,7 @@
     .row-title {
         font-family: var(--font-body);
         font-size: var(--fs-h3);
-        font-weight: 500;
+        font-weight: 400;
         line-height: 1.5;
         color: var(--heading);
         text-decoration: none;
@@ -1276,7 +1211,10 @@
         color: var(--muted);
     }
 
-    .moment-link {
+    /* Whole-title links and links written inside a title look the same. */
+    .moment-link,
+    .moment-row a,
+    .moment-entry .row-main a {
         text-decoration-color: var(--accent);
     }
 
@@ -1449,58 +1387,21 @@
      * texture rather than data.
      */
     @media screen and (max-width: 720px) {
-        .blog-heatmap {
-            padding-left: 0;
-            padding-right: 0;
-        }
-
         .blog-heatmap .by-week {
             display: none;
         }
 
-        .blog-heatmap-grid.by-month,
-        .blog-heatmap-labels.by-month {
+        .blog-heatmap-grid.by-month {
             display: flex;
         }
 
-        .blog-heatmap-title.by-month,
-        .blog-heatmap-legend .by-month {
+        .blog-heatmap .section-label .by-month {
             display: inline;
         }
 
-        .blog-heatmap-grid.by-month .blog-heatmap-cell {
-            min-width: 0;
-            max-width: none;
-            height: 18px;
-        }
-
         .blog-heatmap-grid.by-month .blog-heatmap-stripes {
+            grid-template-columns: repeat(12, minmax(0, 1fr));
             gap: 3px;
-        }
-
-        /* Title and streak share the first line; the legend takes the second
-           whole, so none of its five steps drops off on its own. */
-        .blog-heatmap-header {
-            gap: 0.25rem 0.75rem;
-        }
-
-        .blog-heatmap-header::after {
-            content: "";
-            flex-basis: 100%;
-            order: 1;
-        }
-
-        .blog-heatmap-legend {
-            order: 2;
-        }
-
-        .blog-heatmap-streak {
-            position: static;
-            margin-left: auto;
-        }
-
-        .blog-heatmap-labels {
-            padding-left: 3.25rem;
         }
     }
 

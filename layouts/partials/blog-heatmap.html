@@ -1,4 +1,6 @@
-{{ $pages := where (where .Page.Site.RegularPages "Type" "in" (slice "posts" "zh")) "Params.draft" "!=" true }}
+{{- /* Posts per week, one row per year (homepage). Tints of the accent; no
+       legend and no axis: darker is more, each cell names its week on hover. */ -}}
+{{ $pages := where (where site.RegularPages "Type" "in" (slice "posts" "zh")) "Params.draft" "!=" true }}
 {{ $scratch := newScratch }}
 {{ $scratch.Set "weeks" dict }}
 {{ range $pages }}
@@ -51,16 +53,11 @@
 {{ end }}
 {{ $streak := $scratch.Get "streak" }}
 
-<div class="blog-heatmap" aria-label="Blog posts by week">
-  <div class="blog-heatmap-header">
-    <span class="blog-heatmap-title by-week">每周文章数量</span>
-    <span class="blog-heatmap-title by-month">每月文章数量</span>
-    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-0"></span> 0</span>
-    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-1"></span> <span class="by-week">1</span><span class="by-month">1–2</span></span>
-    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-2"></span> <span class="by-week">2</span><span class="by-month">3–4</span></span>
-    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-3"></span> <span class="by-week">3</span><span class="by-month">5–7</span></span>
-    <span class="blog-heatmap-legend"><span class="blog-heatmap-legend-cell count-4"></span> <span class="by-week">4+</span><span class="by-month">8+</span></span>
-    <span class="blog-heatmap-streak">连续第 {{ $streak }} 周</span>
+<section class="home-section blog-heatmap" aria-label="每周文章数量">
+  <div class="row">
+    {{- /* Only when there is a streak to show. */ -}}
+    {{ if gt $streak 0 }}<span class="row-date">连续第 {{ $streak }} 周</span>{{ end }}
+    <p class="row-main section-label"><span class="by-week">每周文章数量</span><span class="by-month">每月文章数量</span></p>
   </div>
   <div class="blog-heatmap-grid by-week">
     {{ range $years }}
@@ -97,14 +94,4 @@
       </div>
     {{ end }}
   </div>
-  <div class="blog-heatmap-labels by-week">
-    <span>第 1 周</span>
-    <span>第 27 周</span>
-    <span>第 53 周</span>
-  </div>
-  <div class="blog-heatmap-labels by-month">
-    <span>1 月</span>
-    <span>6 月</span>
-    <span>12 月</span>
-  </div>
-</div>
+</section>

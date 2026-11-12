@@ -1,0 +1,13 @@
+{{- /* A moment's title. With a `url` the whole title is the link. Without one,
+       a markdown link written inside the title is rendered, so a single
+       phrase can carry the link. Anything else is printed as typed: titles
+       like "8. Steph Ango …" must not be read as markdown. */ -}}
+{{- with .title -}}
+  {{- if $.url -}}
+<a class="moment-link" href="{{ $.url }}">{{ . }}</a>
+  {{- else if findRE `\]\(` . -}}
+{{ . | markdownify }}
+  {{- else -}}
+{{ . }}
+  {{- end -}}
+{{- end -}}

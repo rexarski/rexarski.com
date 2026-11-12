@@ -23,6 +23,7 @@
     {{ $icon := "" }}
     {{ with .type }}{{ $icon = index $typeIcon . | default . }}{{ end }}
     {{ $stats.Add "total" 1 }}
+    {{ $stats.Add (printf "year-%d" (time .date).Year) 1 }}
     {{ with $icon }}
       {{ $stats.Add . 1 }}
       {{ if not (in $seenIcons .) }}{{ $seenIcons = $seenIcons | append . }}{{ end }}
@@ -48,7 +49,10 @@
 
     {{ if ne $t.Year ($scratch.Get "prevYear") }}
       {{ $scratch.Set "prevYear" $t.Year }}
-  <p class="year-label">{{ $t.Year }}</p>
+  <div class="row year-row">
+    <span class="row-date">{{ $stats.Get (printf "year-%d" $t.Year) }} 条</span>
+    <p class="row-main year-label">{{ $t.Year }}</p>
+  </div>
     {{ end }}
 
     {{ $month := $t.Format "2006-01" }}
@@ -61,7 +65,7 @@
     <span class="row-date"><time datetime="{{ .date }}">{{ $t.Format "01-02" }}</time></span>
     <span class="row-main">
       {{- with $icon }}<span class="moments-icon" aria-hidden="true">{{ . }}</span> {{ end -}}
-      {{ if .url }}<a class="moment-link" href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+      {{ partial "moment-title.html" . }}
       {{- with .note }}<span class="moments-note"> {{ . }}</span>{{ end }}
     </span>
   </div>

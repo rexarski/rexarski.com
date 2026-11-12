@@ -44,7 +44,7 @@
           }
           /* Same shell as the site: one column hugging the left edge. */
           .wrap {
-            width: min(100%, calc(clamp(20px, 7vw, 112px) * 2 + 720px));
+            width: min(100%, calc(clamp(20px, 7vw, 112px) * 2 + 580px));
             margin: 0;
             padding: 0 clamp(20px, 7vw, 112px);
           }
