@@ -4,7 +4,7 @@
 #
 #   <type>(<scope>)[!]: <summary>
 #
-# type: feat | fix | refactor | style | docs | chore; scope: one word, and
+# type: feat | fix | perf | refactor | style | docs | chore; scope: one word, and
 # the only part that may be left out (docs: add CLAUDE.md);
 # summary: lowercase start, no trailing period, at most 72 characters.
 #
@@ -25,9 +25,9 @@ fail() {
 }
 
 summary=$(printf '%s\n' "$subject" |
-    sed -n -E 's/^(feat|fix|refactor|style|docs|chore)(\([^()[:space:]]+\))?!?: (.+)$/\3/p')
+    sed -n -E 's/^(feat|fix|perf|refactor|style|docs|chore)(\([^()[:space:]]+\))?!?: (.+)$/\3/p')
 
-[ -n "$summary" ] || fail "subject is not <type>(<scope>): <summary> (type: feat, fix, refactor, style, docs, chore)"
+[ -n "$summary" ] || fail "subject is not <type>(<scope>): <summary> (type: feat, fix, perf, refactor, style, docs, chore)"
 
 case "$summary" in
     # [[:upper:]], not [A-Z]: in most locales the range also matches lowercase.
