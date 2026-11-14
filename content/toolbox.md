@@ -7,7 +7,7 @@ title = "工具箱"
 ## 基调和实操
 
 
-updated on 2026-11-12
+updated on 2026-11-14
 
 ### 基调
 
@@ -42,7 +42,7 @@ cli_tools=(
 # apps
 cask_apps=(
   1password 1password-cli ghostty applite
-  anki claude claude-code iina keka obsidian maccy
+  anki claude claude-code codexbar handy iina keka obsidian maccy
   lm-studio loop pearcleaner shottr skim squirrel-app steam
   positron telegram thaw zen
 )
@@ -53,6 +53,7 @@ brew tap d12frosted/emacs-plus
 brew install djetelina/tap/cheznav
 brew install --cask abue-ammar/tinycast/tinycast
 brew install --cask stablyai/orca/orca
+brew install can1357/tap/omp
 
 # install
 brew install "${cli_tools[@]}"
@@ -195,6 +196,8 @@ sudo scutil --set HostName new-host-name
 - [BetterTouchTool](https://folivora.ai)
 - [calibre](https://calibre-ebook.com/)
 - Claude + [Claude Code](https://claude.com/product/claude-code)
+- Codexbar
+  - `brew install --cask steipete/tap/codexbar`
 - [Concept2 Utility](https://www.concept2.com/support/software/utility)
 - [Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic?tab=readme-ov-file)
 - [DaisyDisk](https://daisydiskapp.com/)
@@ -208,6 +211,8 @@ sudo scutil --set HostName new-host-name
 - [Fujifilm X RAW Studio](https://fujifilm-x.com/en-us/support/download/software/x-raw-studio/)
 - [Gemini](https://macpaw.com/gemini)
 - [Ghostty](https://ghostty.org)
+- [Handy](https://github.com/cjpais/Handy) (it's back!)
+  - `Fn` + `Left Ctrl` + `Left Option`
 - [Helium Browser](https://helium.computer)
 - [iina](https://iina.io)
 - [Insta360 Studio](https://www.insta360.com/download)
@@ -224,12 +229,14 @@ sudo scutil --set HostName new-host-name
 - [Nicotine+](https://nicotine-plus.org)
 - [Obsidian](https://obsidian.md)
 - [Obsidian Web Clipper](https://stephango.com/obsidian-web-clipper)
+- [omp — a coding agent with the IDE wired in](https://omp.sh/)
 - [OpenLogi](https://github.com/AprilNEA/OpenLogi)
 - [PCalc](https://pcalc.com/)
 - [Pearcleaner](https://github.com/alienator88/Pearcleaner)
 - [Permute 3](https://software.charliemonroe.net/permute/)
 - [PhotoBulk](https://photobulkeditor.com/)
 - [PhotoSweeper](https://overmacs.com/)
+- [Pi](https://pi.dev/)
 - [PICO-8](https://www.lexaloffle.com/pico-8.php)
 - [Play](https://apps.apple.com/us/app/play-save-videos-watch-later/id1596506190)
 - [Plex](https://www.plex.tv/)
@@ -297,7 +304,6 @@ sudo scutil --set HostName new-host-name
 - [GoodLinks](https://goodlinks.app)
 - Google Chrome
 - [Handbrake](https://handbrake.fr)
-- ~~[Handy](https://github.com/cjpais/Handy)~~
 - ~~[Hidden Bar](https://github.com/dwarvesf/hidden)~~
 - ~~[Hush](https://github.com/oblador/hush)~~
 - ~~[Ice](https://github.com/jordanbaird/Ice)~~
@@ -378,6 +384,7 @@ sudo scutil --set HostName new-host-name
 - [Ubuntu Mono](https://design.ubuntu.com/font/), `brew install --cask font-ubuntu-mono`
 - [Atkinson Hyperlegible Mono](https://brailleinstitute.org/freefont), `brew install --cask font-atkinson-hyperlegible-mono`
 - [Server Mono](https://servermono.com/), `brew install --cask font-server-mono`
+- [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/font-downloads)
 
 ## KOReader（Kobo）配置备忘
 

@@ -6,6 +6,10 @@
 # Deprecated: icon — use type with the emoji instead.
 
 - date: "2026-11-12"
+  type: 🗣️
+  title: "[Handy](https://handy.computer) 太酷了这个方案"
+  note: 在 Handy 里面先用本地的小 STT 模型听写，把音频转译成文本。但这个文本会比较 messy，有很多口误、修改之类的，乱七八糟的。然后这些文本再经过一个 post-processing 的过程，我用了 Anthropic 的 API 去调 Haiku 这个小模型，应该比较省钱。效果不知道怎么样，能不能把它整理成条理比较清晰的文本。
+- date: "2026-11-12"
   type: url
   title: "发现 [Noon Pacific](https://noonpacific.com) 复活了"
 - date: "2026-11-12"

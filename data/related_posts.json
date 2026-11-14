@@ -1,6 +1,6 @@
 {
   "model": "text-embedding-embeddinggemma-300m-qat",
-  "generated_at": "2026-09-26T01:31:23.318721+00:00",
+  "generated_at": "2026-11-14T22:39:26.941691+00:00",
   "posts": {
     "posts/2022-09-05-sentiment-analysis.md": {
       "title": "Sentiment analysis 只是有点用处",
@@ -23,7 +23,7 @@
           "post_key": "posts/2023-05-18-climate-plus.md",
           "content_path": "posts/2023-05-18-climate-plus",
           "title": "climate-plus",
-          "score": 0.559172
+          "score": 0.560546
         }
       ]
     },
@@ -36,7 +36,7 @@
           "post_key": "posts/2023-05-18-climate-plus.md",
           "content_path": "posts/2023-05-18-climate-plus",
           "title": "climate-plus",
-          "score": 0.611385
+          "score": 0.611741
         },
         {
           "post_key": "posts/2023-01-25-textattack.md",
@@ -92,7 +92,7 @@
           "post_key": "posts/2024-12-03-app-defaults-2024.md",
           "content_path": "posts/2024-12-03-app-defaults-2024",
           "title": "我的默认应用 2024",
-          "score": 0.636382
+          "score": 0.636025
         },
         {
           "post_key": "posts/2025-10-16-doom-emacs-macos-installation.md",
@@ -167,7 +167,7 @@
           "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
           "content_path": "posts/2025-06-30-drafts-action-to-hugo",
           "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
-          "score": 0.627302
+          "score": 0.629417
         },
         {
           "post_key": "posts/2026-07-21-neat-annotations.md",
@@ -211,7 +211,7 @@
           "post_key": "posts/2023-05-18-climate-plus.md",
           "content_path": "posts/2023-05-18-climate-plus",
           "title": "climate-plus",
-          "score": 0.643546
+          "score": 0.643628
         },
         {
           "post_key": "posts/2024-02-29-distillm-01.md",
@@ -242,13 +242,13 @@
           "post_key": "posts/2024-01-30-omz-to-fish.md",
           "content_path": "posts/2024-01-30-omz-to-fish",
           "title": "回归 vanilla (fish) shell",
-          "score": 0.502597
+          "score": 0.499978
         },
         {
           "post_key": "posts/2023-09-26-starship.md",
           "content_path": "posts/2023-09-26-starship",
           "title": "星船启动！",
-          "score": 0.492431
+          "score": 0.492998
         }
       ]
     },
@@ -286,19 +286,19 @@
           "post_key": "posts/2026-07-21-neat-annotations.md",
           "content_path": "posts/2026-07-21-neat-annotations",
           "title": "Neat annotations",
-          "score": 0.649216
+          "score": 0.649181
         },
         {
           "post_key": "posts/2025-04-07-neodb-shortcode.md",
           "content_path": "posts/2025-04-07-neodb-shortcode",
           "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
-          "score": 0.635798
+          "score": 0.63412
         },
         {
           "post_key": "posts/2023-10-01-learn-how-to-type.md",
           "content_path": "posts/2023-10-01-learn-how-to-type",
           "title": "在2023年学习打字：双拼输入法和Iris分体键盘",
-          "score": 0.578108
+          "score": 0.576727
         }
       ]
     },
@@ -317,7 +317,7 @@
           "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
           "content_path": "posts/2025-06-30-drafts-action-to-hugo",
           "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
-          "score": 0.602513
+          "score": 0.608931
         },
         {
           "post_key": "posts/2025-09-01-my-productivity-workflow-2025.md",
@@ -336,19 +336,19 @@
           "post_key": "posts/2023-05-20-chitchat.md",
           "content_path": "posts/2023-05-20-chitchat",
           "title": "chitchat",
-          "score": 0.678909
+          "score": 0.674088
         },
         {
           "post_key": "posts/2024-02-29-distillm-01.md",
           "content_path": "posts/2024-02-29-distillm-01",
           "title": "DistiLLM 01",
-          "score": 0.662975
+          "score": 0.666702
         },
         {
           "post_key": "posts/2024-03-31-distillm-02.md",
           "content_path": "posts/2024-03-31-distillm-02",
           "title": "DistiLLM 02",
-          "score": 0.655466
+          "score": 0.65839
         }
       ]
     },
@@ -361,19 +361,19 @@
           "post_key": "posts/2023-05-18-climate-plus.md",
           "content_path": "posts/2023-05-18-climate-plus",
           "title": "climate-plus",
-          "score": 0.678909
+          "score": 0.674088
         },
         {
           "post_key": "posts/2024-02-29-distillm-01.md",
           "content_path": "posts/2024-02-29-distillm-01",
           "title": "DistiLLM 01",
-          "score": 0.643117
+          "score": 0.640059
         },
         {
           "post_key": "posts/2024-03-31-distillm-02.md",
           "content_path": "posts/2024-03-31-distillm-02",
           "title": "DistiLLM 02",
-          "score": 0.588733
+          "score": 0.588042
         }
       ]
     },
@@ -398,7 +398,7 @@
           "post_key": "posts/2025-08-29-hardware-bandwidth.md",
           "content_path": "posts/2025-08-29-hardware-bandwidth",
           "title": "硬件带宽",
-          "score": 0.653692
+          "score": 0.658419
         }
       ]
     },
@@ -411,19 +411,19 @@
           "post_key": "posts/2024-01-30-omz-to-fish.md",
           "content_path": "posts/2024-01-30-omz-to-fish",
           "title": "回归 vanilla (fish) shell",
-          "score": 0.701174
+          "score": 0.69902
         },
         {
           "post_key": "posts/2025-04-07-neodb-shortcode.md",
           "content_path": "posts/2025-04-07-neodb-shortcode",
           "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
-          "score": 0.626914
+          "score": 0.627164
         },
         {
           "post_key": "posts/2023-01-06-rime.md",
           "content_path": "posts/2023-01-06-rime",
           "title": "RIME 输入法配置",
-          "score": 0.617887
+          "score": 0.62031
         }
       ]
     },
@@ -461,13 +461,13 @@
           "post_key": "posts/2024-08-26-ipod-import.md",
           "content_path": "posts/2024-08-26-ipod-import",
           "title": "在 2024 年给 iPod 填充音乐的工作流程",
-          "score": 0.637118
+          "score": 0.637854
         },
         {
           "post_key": "posts/2024-12-03-app-defaults-2024.md",
           "content_path": "posts/2024-12-03-app-defaults-2024",
           "title": "我的默认应用 2024",
-          "score": 0.634198
+          "score": 0.631763
         },
         {
           "post_key": "posts/2025-05-14-day-one-migration.md",
@@ -486,7 +486,7 @@
           "post_key": "posts/2024-12-03-app-defaults-2024.md",
           "content_path": "posts/2024-12-03-app-defaults-2024",
           "title": "我的默认应用 2024",
-          "score": 0.834536
+          "score": 0.833076
         },
         {
           "post_key": "posts/2023-01-04-ac2022.md",
@@ -536,19 +536,19 @@
           "post_key": "posts/2025-10-16-doom-emacs-macos-installation.md",
           "content_path": "posts/2025-10-16-doom-emacs-macos-installation",
           "title": "安装 Doom Emacs 的一些碎碎念",
-          "score": 0.704638
+          "score": 0.704139
         },
         {
           "post_key": "posts/2023-09-26-starship.md",
           "content_path": "posts/2023-09-26-starship",
           "title": "星船启动！",
-          "score": 0.701174
+          "score": 0.69902
         },
         {
           "post_key": "posts/2024-12-03-app-defaults-2024.md",
           "content_path": "posts/2024-12-03-app-defaults-2024",
           "title": "我的默认应用 2024",
-          "score": 0.601671
+          "score": 0.602664
         }
       ]
     },
@@ -573,7 +573,7 @@
           "post_key": "posts/2023-05-18-climate-plus.md",
           "content_path": "posts/2023-05-18-climate-plus",
           "title": "climate-plus",
-          "score": 0.662975
+          "score": 0.666702
         }
       ]
     },
@@ -611,7 +611,7 @@
           "post_key": "posts/2024-12-03-app-defaults-2024.md",
           "content_path": "posts/2024-12-03-app-defaults-2024",
           "title": "我的默认应用 2024",
-          "score": 0.705649
+          "score": 0.703647
         },
         {
           "post_key": "posts/2023-11-20-app-defaults-2023.md",
@@ -648,7 +648,7 @@
           "post_key": "posts/2023-05-18-climate-plus.md",
           "content_path": "posts/2023-05-18-climate-plus",
           "title": "climate-plus",
-          "score": 0.636911
+          "score": 0.64153
         }
       ]
     },
@@ -673,7 +673,7 @@
           "post_key": "posts/2024-12-03-app-defaults-2024.md",
           "content_path": "posts/2024-12-03-app-defaults-2024",
           "title": "我的默认应用 2024",
-          "score": 0.566263
+          "score": 0.56352
         }
       ]
     },
@@ -686,19 +686,19 @@
           "post_key": "posts/2024-12-31-ipod-mod.md",
           "content_path": "posts/2024-12-31-ipod-mod",
           "title": "iPod Video gen 5.5 翻新",
-          "score": 0.82012
+          "score": 0.82277
         },
         {
           "post_key": "posts/2025-10-04-ipod-with-rockbox.md",
           "content_path": "posts/2025-10-04-ipod-with-rockbox",
           "title": "再次尝试给 iPod Video 安装 Rockbox",
-          "score": 0.810158
+          "score": 0.817709
         },
         {
           "post_key": "posts/2025-07-26-weekend-problem-solving-session.md",
           "content_path": "posts/2025-07-26-weekend-problem-solving-session",
           "title": "KOReader 和 Stokke Tripp Trapp screw",
-          "score": 0.641422
+          "score": 0.641654
         }
       ]
     },
@@ -717,7 +717,7 @@
           "post_key": "posts/2025-06-20-games-i-played-in-june.md",
           "content_path": "posts/2025-06-20-games-i-played-in-june",
           "title": "六月玩了什么",
-          "score": 0.66584
+          "score": 0.667058
         },
         {
           "post_key": "posts/2026-04-21-222.md",
@@ -736,19 +736,19 @@
           "post_key": "posts/2023-11-20-app-defaults-2023.md",
           "content_path": "posts/2023-11-20-app-defaults-2023",
           "title": "我的默认应用 2023",
-          "score": 0.834536
+          "score": 0.833076
         },
         {
           "post_key": "posts/2024-03-31-setapp-succession.md",
           "content_path": "posts/2024-03-31-setapp-succession",
           "title": "Setapp 继承计划",
-          "score": 0.705649
+          "score": 0.703647
         },
         {
           "post_key": "posts/2023-01-04-ac2022.md",
           "content_path": "posts/2023-01-04-ac2022",
           "title": "2022年简单回顾和2023新年展望",
-          "score": 0.691562
+          "score": 0.689174
         }
       ]
     },
@@ -786,7 +786,7 @@
           "post_key": "posts/2024-08-26-ipod-import.md",
           "content_path": "posts/2024-08-26-ipod-import",
           "title": "在 2024 年给 iPod 填充音乐的工作流程",
-          "score": 0.82012
+          "score": 0.82277
         },
         {
           "post_key": "posts/2025-10-04-ipod-with-rockbox.md",
@@ -836,7 +836,7 @@
           "post_key": "posts/2024-08-26-ipod-import.md",
           "content_path": "posts/2024-08-26-ipod-import",
           "title": "在 2024 年给 iPod 填充音乐的工作流程",
-          "score": 0.517791
+          "score": 0.506226
         },
         {
           "post_key": "posts/2024-12-31-ipod-mod.md",
@@ -923,7 +923,7 @@
           "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
           "content_path": "posts/2025-06-30-drafts-action-to-hugo",
           "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
-          "score": 0.698029
+          "score": 0.698668
         }
       ]
     },
@@ -948,7 +948,7 @@
           "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
           "content_path": "posts/2025-06-30-drafts-action-to-hugo",
           "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
-          "score": 0.697048
+          "score": 0.699627
         }
       ]
     },
@@ -1048,7 +1048,7 @@
           "post_key": "posts/2025-08-29-hardware-bandwidth.md",
           "content_path": "posts/2025-08-29-hardware-bandwidth",
           "title": "硬件带宽",
-          "score": 0.65712
+          "score": 0.660457
         }
       ]
     },
@@ -1067,7 +1067,7 @@
           "post_key": "posts/2025-08-29-hardware-bandwidth.md",
           "content_path": "posts/2025-08-29-hardware-bandwidth",
           "title": "硬件带宽",
-          "score": 0.691612
+          "score": 0.690002
         },
         {
           "post_key": "posts/2025-08-07-things-im-not-doing-anymore.md",
@@ -1086,19 +1086,19 @@
           "post_key": "posts/2026-04-21-222.md",
           "content_path": "posts/2026-04-21-222",
           "title": "222",
-          "score": 0.730691
+          "score": 0.729327
         },
         {
           "post_key": "posts/2025-03-31-202503.md",
           "content_path": "posts/2025-03-31-202503",
           "title": "至少写完这篇也算是完成了一个待办事项",
-          "score": 0.724081
+          "score": 0.726203
         },
         {
           "post_key": "posts/2023-01-04-ac2022.md",
           "content_path": "posts/2023-01-04-ac2022",
           "title": "2022年简单回顾和2023新年展望",
-          "score": 0.716736
+          "score": 0.715948
         }
       ]
     },
@@ -1107,6 +1107,12 @@
       "slug": "wallpaper-installation",
       "content_path": "posts/2025-06-21-wallpaper-installation",
       "top_similar": [
+        {
+          "post_key": "posts/2026-10-11-wall-paint-touch-up.md",
+          "content_path": "posts/2026-10-11-wall-paint-touch-up",
+          "title": "墙面补漆：从入门到放弃",
+          "score": 0.670197
+        },
         {
           "post_key": "posts/2025-07-26-weekend-problem-solving-session.md",
           "content_path": "posts/2025-07-26-weekend-problem-solving-session",
@@ -1118,12 +1124,6 @@
           "content_path": "posts/2026-02-22-adulting",
           "title": "Adulting",
           "score": 0.533444
-        },
-        {
-          "post_key": "posts/2024-12-01-wukong.md",
-          "content_path": "posts/2024-12-01-wukong",
-          "title": "黑神话",
-          "score": 0.51824
         }
       ]
     },
@@ -1164,16 +1164,16 @@
           "score": 0.538865
         },
         {
+          "post_key": "posts/2025-08-22-rehire.md",
+          "content_path": "posts/2025-08-22-rehire",
+          "title": "复工",
+          "score": 0.530896
+        },
+        {
           "post_key": "posts/2025-03-31-202503.md",
           "content_path": "posts/2025-03-31-202503",
           "title": "至少写完这篇也算是完成了一个待办事项",
           "score": 0.526553
-        },
-        {
-          "post_key": "posts/2024-12-01-wukong.md",
-          "content_path": "posts/2024-12-01-wukong",
-          "title": "黑神话",
-          "score": 0.525396
         }
       ]
     },
@@ -1211,7 +1211,7 @@
           "post_key": "posts/2025-06-20-games-i-played-in-june.md",
           "content_path": "posts/2025-06-20-games-i-played-in-june",
           "title": "六月玩了什么",
-          "score": 0.599722
+          "score": 0.597258
         },
         {
           "post_key": "posts/2023-12-31-ac2023.md",
@@ -1258,22 +1258,22 @@
       "content_path": "posts/2025-06-30-drafts-action-to-hugo",
       "top_similar": [
         {
-          "post_key": "posts/2025-04-07-neodb-shortcode.md",
-          "content_path": "posts/2025-04-07-neodb-shortcode",
-          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
-          "score": 0.698029
-        },
-        {
           "post_key": "posts/2025-04-09-neodb-shortcode-fixed.md",
           "content_path": "posts/2025-04-09-neodb-shortcode-fixed",
           "title": "将 NeoDB 记录整合到 Hugo 中（修正版）",
-          "score": 0.697048
+          "score": 0.699627
+        },
+        {
+          "post_key": "posts/2025-04-07-neodb-shortcode.md",
+          "content_path": "posts/2025-04-07-neodb-shortcode",
+          "title": "将 NeoDB 记录整合到 Hugo 中 (不完美解决方案)",
+          "score": 0.698668
         },
         {
           "post_key": "posts/2026-07-21-neat-annotations.md",
           "content_path": "posts/2026-07-21-neat-annotations",
           "title": "Neat annotations",
-          "score": 0.65012
+          "score": 0.651727
         }
       ]
     },
@@ -1336,7 +1336,7 @@
           "post_key": "posts/2025-06-20-games-i-played-in-june.md",
           "content_path": "posts/2025-06-20-games-i-played-in-june",
           "title": "六月玩了什么",
-          "score": 0.537438
+          "score": 0.532973
         },
         {
           "post_key": "posts/2026-04-21-222.md",
@@ -1536,7 +1536,7 @@
           "post_key": "posts/2025-08-22-rehire.md",
           "content_path": "posts/2025-08-22-rehire",
           "title": "复工",
-          "score": 0.763385
+          "score": 0.768387
         },
         {
           "post_key": "posts/2023-01-04-ac2022.md",
@@ -1667,7 +1667,7 @@
           "post_key": "posts/2025-06-20-games-i-played-in-june.md",
           "content_path": "posts/2025-06-20-games-i-played-in-june",
           "title": "六月玩了什么",
-          "score": 0.593237
+          "score": 0.595681
         },
         {
           "post_key": "posts/2025-07-29-books-preordered.md",
@@ -1761,19 +1761,19 @@
           "post_key": "posts/2025-07-27-bball-analytics.md",
           "content_path": "posts/2025-07-27-bball-analytics",
           "title": "篮球分析",
-          "score": 0.763385
+          "score": 0.768387
         },
         {
           "post_key": "posts/2023-01-04-ac2022.md",
           "content_path": "posts/2023-01-04-ac2022",
           "title": "2022年简单回顾和2023新年展望",
-          "score": 0.568008
+          "score": 0.567319
         },
         {
-          "post_key": "posts/2025-08-07-things-im-not-doing-anymore.md",
-          "content_path": "posts/2025-08-07-things-im-not-doing-anymore",
-          "title": "我不再做的事",
-          "score": 0.558351
+          "post_key": "posts/2026-08-25-data-science.md",
+          "content_path": "posts/2026-08-25-data-science",
+          "title": "做的不是数据科学",
+          "score": 0.553526
         }
       ]
     },
@@ -1811,19 +1811,19 @@
           "post_key": "posts/2025-09-01-my-productivity-workflow-2025.md",
           "content_path": "posts/2025-09-01-my-productivity-workflow-2025",
           "title": "信息流 (2025)",
-          "score": 0.716169
+          "score": 0.725125
         },
         {
           "post_key": "posts/2025-06-19-hobonichi.md",
           "content_path": "posts/2025-06-19-hobonichi",
           "title": "不过是需要一个趁手的本子",
-          "score": 0.691612
+          "score": 0.690002
         },
         {
           "post_key": "posts/2025-08-07-things-im-not-doing-anymore.md",
           "content_path": "posts/2025-08-07-things-im-not-doing-anymore",
           "title": "我不再做的事",
-          "score": 0.664487
+          "score": 0.671135
         }
       ]
     },
@@ -1992,7 +1992,7 @@
           "post_key": "posts/2025-06-20-games-i-played-in-june.md",
           "content_path": "posts/2025-06-20-games-i-played-in-june",
           "title": "六月玩了什么",
-          "score": 0.626296
+          "score": 0.623506
         },
         {
           "post_key": "posts/2025-03-31-202503.md",
@@ -2011,7 +2011,7 @@
           "post_key": "posts/2024-08-26-ipod-import.md",
           "content_path": "posts/2024-08-26-ipod-import",
           "title": "在 2024 年给 iPod 填充音乐的工作流程",
-          "score": 0.810158
+          "score": 0.817709
         },
         {
           "post_key": "posts/2024-12-31-ipod-mod.md",
@@ -2061,7 +2061,7 @@
           "post_key": "posts/2024-01-30-omz-to-fish.md",
           "content_path": "posts/2024-01-30-omz-to-fish",
           "title": "回归 vanilla (fish) shell",
-          "score": 0.704638
+          "score": 0.704139
         },
         {
           "post_key": "posts/2023-01-06-rime.md",
@@ -2073,7 +2073,7 @@
           "post_key": "posts/2023-09-26-starship.md",
           "content_path": "posts/2023-09-26-starship",
           "title": "星船启动！",
-          "score": 0.609253
+          "score": 0.614119
         }
       ]
     },
@@ -2092,7 +2092,7 @@
           "post_key": "posts/2024-12-03-app-defaults-2024.md",
           "content_path": "posts/2024-12-03-app-defaults-2024",
           "title": "我的默认应用 2024",
-          "score": 0.619874
+          "score": 0.620725
         },
         {
           "post_key": "posts/2025-10-29-separate-jpeg-and-raw-from-icloud.md",
@@ -2142,7 +2142,7 @@
           "post_key": "posts/2024-08-26-ipod-import.md",
           "content_path": "posts/2024-08-26-ipod-import",
           "title": "在 2024 年给 iPod 填充音乐的工作流程",
-          "score": 0.608829
+          "score": 0.613868
         },
         {
           "post_key": "posts/2025-05-14-day-one-migration.md",
@@ -2298,7 +2298,7 @@
           "post_key": "posts/2025-06-30-drafts-action-to-hugo.md",
           "content_path": "posts/2025-06-30-drafts-action-to-hugo",
           "title": "用 Drafts Action 自动化发布到 Hugo 博客的尝试",
-          "score": 0.556996
+          "score": 0.555642
         }
       ]
     },
@@ -2411,7 +2411,7 @@
           "post_key": "posts/2024-12-03-app-defaults-2024.md",
           "content_path": "posts/2024-12-03-app-defaults-2024",
           "title": "我的默认应用 2024",
-          "score": 0.603417
+          "score": 0.602086
         },
         {
           "post_key": "posts/2023-11-20-app-defaults-2023.md",
@@ -2473,7 +2473,7 @@
           "post_key": "posts/2025-06-20-games-i-played-in-june.md",
           "content_path": "posts/2025-06-20-games-i-played-in-june",
           "title": "六月玩了什么",
-          "score": 0.730691
+          "score": 0.729327
         }
       ]
     },
@@ -2667,13 +2667,63 @@
           "post_key": "posts/2025-08-22-rehire.md",
           "content_path": "posts/2025-08-22-rehire",
           "title": "复工",
-          "score": 0.551159
+          "score": 0.553526
         },
         {
           "post_key": "posts/2023-01-04-ac2022.md",
           "content_path": "posts/2023-01-04-ac2022",
           "title": "2022年简单回顾和2023新年展望",
           "score": 0.533201
+        }
+      ]
+    },
+    "posts/2026-10-11-wall-paint-touch-up.md": {
+      "title": "墙面补漆：从入门到放弃",
+      "slug": "wall-paint-touch-up",
+      "content_path": "posts/2026-10-11-wall-paint-touch-up",
+      "top_similar": [
+        {
+          "post_key": "posts/2025-06-21-wallpaper-installation.md",
+          "content_path": "posts/2025-06-21-wallpaper-installation",
+          "title": "贴墙纸",
+          "score": 0.670197
+        },
+        {
+          "post_key": "posts/2023-01-04-ac2022.md",
+          "content_path": "posts/2023-01-04-ac2022",
+          "title": "2022年简单回顾和2023新年展望",
+          "score": 0.589025
+        },
+        {
+          "post_key": "posts/2025-07-26-weekend-problem-solving-session.md",
+          "content_path": "posts/2025-07-26-weekend-problem-solving-session",
+          "title": "KOReader 和 Stokke Tripp Trapp screw",
+          "score": 0.586414
+        }
+      ]
+    },
+    "posts/2026-10-24-dishwasher-deep-clean.md": {
+      "title": "洗碗机也要洗",
+      "slug": "dishwasher-deep-clean",
+      "content_path": "posts/2026-10-24-dishwasher-deep-clean",
+      "top_similar": [
+        {
+          "post_key": "posts/2026-10-11-wall-paint-touch-up.md",
+          "content_path": "posts/2026-10-11-wall-paint-touch-up",
+          "title": "墙面补漆：从入门到放弃",
+          "score": 0.558307
+        },
+        {
+          "post_key": "posts/2026-04-06-salmon-tartare-omurice.md",
+          "content_path": "posts/2026-04-06-salmon-tartare-omurice",
+          "title": "三文鱼塔塔和蛋包饭",
+          "score": 0.551934
+        },
+        {
+          "post_key": "posts/2025-06-21-wallpaper-installation.md",
+          "content_path": "posts/2025-06-21-wallpaper-installation",
+          "title": "贴墙纸",
+          "score": 0.533333
         }
       ]
     }

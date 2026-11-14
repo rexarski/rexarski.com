@@ -28,25 +28,12 @@ end
 - Used `cmd+shift+p` in VSC to install `code` command in `PATH`.
 - Used `fish_config` to customize my shell prompt.
 
-Now I'm in peace now.
+Now I'm in peace.
 
 [^1]: To be precise, I also removed Starship from my [last post](../how-to-start-a-starship/) as fish is pretty good function-wise straight out of box.
 </details>
 
 <mark>以下为 GPT-4o 翻译内容：</mark>
-
-- <mark>2024-09-06更新：</mark> 由于 `exa` 已不再维护，我们需要在 `~/.config/fish/config.fish` 中添加以下内容：
-
-```fish
-if type -q eza
-    alias ll "eza -l -g --icons"
-    alias lla "ll -a"
-end
-```
-
-以下是文章内容的翻译，涉及到代码块的部分保持不变：
-
-# 回到原始（fish）shell
 
 - <mark>更新于2024-09-06：</mark>由于`exa`不再维护，我们需要在`~/.config/fish/config.fish`中添加以下内容：
 

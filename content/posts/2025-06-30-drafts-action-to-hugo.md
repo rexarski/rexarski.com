@@ -14,7 +14,7 @@ tags: ["日日谈"]
 
 1. 把写作内容 parse 成 markdown file, 包含 title, datetime, slug (support manual input if non-Latin title)；
 2. 将 parsed 之后的内容通过 x-callback-url 保存到 Working Copy 的本地路径下。
-3. @TODO: 基于 commit 内容生成 commit message -> commit -> push (if possible)
+3. （尚未实现）基于 commit 内容生成 commit message -> commit -> push (if possible)
 
 ## 方法
 

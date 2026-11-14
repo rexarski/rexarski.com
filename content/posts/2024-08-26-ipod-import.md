@@ -20,11 +20,11 @@ tags: ["捣鼓硬件"]
 
 - 后盖应该是后装的，上面的序列号查无此号。
 - click wheel 总觉得有点涩涩的，完全没有印象中的那种丝滑。
-- DFU 模式下 macOS 的 Music/Finder 无法 restore iPad，据说需要使用 Windows iTunes 才行。
+- DFU 模式下 macOS 的 Music/Finder 无法 restore iPod，据说需要使用 Windows iTunes 才行。
 - 犹豫再三，想安装 [Rockbox](https://www.rockbox.org)，结果因为无法正常进入 DFU 模式而被迫放弃。（也许是因祸得福呢，少折腾点吧。）
 - **最大的槽点**：Apple Music 无法导入 iPod!!! 当然你可以选择去 iTunes 上花钱购买专辑或者单曲。
 
-我折腾了一下从 NAS 里召回了以前购买过的 iTunes 单曲（因为换区而无法再次下载了，幸好有一份拷贝），另外就开始打书架上几张 CD 的主意。不得不对自己消费记录里的几张 CD 购买记录啧啧称奇：我是怎么想到真的有一天会有听 CD 的需求的，命名自己连个 CD Player 都没有…… 还好家旁边就有一家 Microcenter，晚饭后去买了一台外接光驱，二手的才十几刀，够用就行了。
+我折腾了一下从 NAS 里召回了以前购买过的 iTunes 单曲（因为换区而无法再次下载了，幸好有一份拷贝），另外就开始打书架上几张 CD 的主意。不得不对自己消费记录里的几张 CD 购买记录啧啧称奇：我是怎么想到真的有一天会有听 CD 的需求的，明明自己连个 CD Player 都没有…… 还好家旁边就有一家 Microcenter，晚饭后去买了一台外接光驱，二手的才十几刀，够用就行了。
 
 那么接下来有请我经过尝试而且颇为满意的工作流程：
 
@@ -45,6 +45,6 @@ tags: ["捣鼓硬件"]
 
 另外，如果你的音乐文件来自于其他「不可名状的神秘之地」，那么通过「[Permute 3](https://software.charliemonroe.net/permute/)/[Handrake」](https://handbrake.fr)-> 「MusicBrainz Picard」这一条「先转格式，再找元数据」的途径，也可以把专辑整理得像模像样。
 
-另外，促使我「冲动消费」的原因 80% 归功于这个[广告](ahttps://www.youtube.com/watch?v=TE4EEwQAfxo).
+另外，促使我「冲动消费」的原因 80% 归功于这个[广告](https://www.youtube.com/watch?v=TE4EEwQAfxo).
 
 {{< youtube TE4EEwQAfxo >}}

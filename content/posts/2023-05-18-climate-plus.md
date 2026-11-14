@@ -61,15 +61,13 @@ In this way, we are able to augment our dataset to a usable size of 500+.
 
 ## 3
 
-In this section, we will briefly discuss the process of fine-tuning a base model, specifically `distilroberta`, using the augmented data collected from our [previous efforts](https://rexarski.com/posts/climate-plus-part-2-data-augmentation/). However, it's important to note that ClimateBERT takes a different approach by initially empowering the base model with a climate-related corpus before fine-tuning it with task-specific data.
+In this section, we will briefly discuss the process of fine-tuning a base model, specifically `distilroberta`, using the augmented data collected from our [previous efforts](#2) (originally part 2 of the series, at a URL that no longer exists; now section 2 of this post). However, it's important to note that ClimateBERT takes a different approach by initially empowering the base model with a climate-related corpus before fine-tuning it with task-specific data.
 
 In contrast to ClimateBERT's focus on classifying four classes, we aimed to tackle the more ambitious goal of classifying all 11 subclasses in the [TCFD report](https://www.fsb-tcfd.org/recommendations/).
 
-## 4
-
 Similar to the fact-checking task, we employed a classification approach. The only difference lies in the usage of a special token to connect the claim and evidence, ensuring a cohesive analysis.
 
-## 5
+## 4
 
 Following a hiatus of a few months, the ClimateBERT team [released their latest update](https://www.chatclimate.ai/climatebert) in early May, revealing the data and result models used for five of their downstream tasks. Unfortunately, when we conducted our experiments, we only had access to a limited amount of the data used to fine-tune their models, and their models were not open-source.
 

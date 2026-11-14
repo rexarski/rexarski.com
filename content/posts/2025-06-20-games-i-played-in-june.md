@@ -6,7 +6,7 @@ description: "分享六月玩过的游戏体验，包括 Mario Kart World、F1 2
 tags: ["日日谈"]
 ---
 
-作为游戏产业的守护者」，说说最近玩了一些什么吧。
+「作为游戏产业的守护者」，说说最近玩了一些什么吧。
 
 ## Mario Kart World
 
