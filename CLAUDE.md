@@ -40,7 +40,7 @@ Personal Hugo blog. Architecture, layout, styling and the data-file formats are 
 
 ### Other
 
-- The mottos in `content/about.md` are a list; new ones are appended at the end.
+- The mottos live in `content/credo.md` (/credo/, linked as 信条 in the footer) as a plain list; new ones are appended at the end.
 - Every date field is a quoted `"YYYY-MM-DD"` string (README explains why).
 
 ## Verification

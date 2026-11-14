@@ -11,6 +11,7 @@ Made with
 ## Where things live
 
 - **Styles**: `assets/css/main.css`, published minified + fingerprinted by `layouts/partials/style.html`. Not an inline `<style>`.
+- **Mottos**: `content/credo.md`, a plain list rendered at /credo/ (信条, linked from the footer next to 车牌).
 - **Hand-edited data**: `data/now_current.yaml` / `data/now_history.yaml` (now page), `data/moments/<year>.yaml` (one file per year), `data/plates.yaml` (platespotting). Every date field is a quoted `"YYYY-MM-DD"` string — unquoted ones parse as YAML dates and sort inconsistently against the quoted ones.
 - **Generated data**: `data/concept2_distance.json` (rowing progress bar on /now, from `concept2_scraper.sh`) and `data/related_posts.json` (相关博文，committed) are build inputs; `data/post_embeddings.json` is a gitignored local embedding cache.
 - **Identity**: the 丘 seal. Browser icons are `static/favicon.svg` / `favicon.ico` / `apple-touch-icon.png` / `site.webmanifest` (wired in `layouts/partials/favicon.html`), the header mark is a 20px SVG inlined in `layouts/partials/nav.html` and coloured by `--accent`, the share image is `static/images/share.jpg`, and the full logo set lives in `static/images/logo/`. The homepage carries the portrait `static/images/rexarski.jpg` on the text's right edge, beside the latest moment (`.home-top`), linked to /about. Every post ends with the seal (`.end-seal` in `single.html`). The marks were brush-simulated once and committed as finished files; there is no generation script in the repo.
