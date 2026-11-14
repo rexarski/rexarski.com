@@ -1,8 +1,8 @@
 #!/usr/bin/env fish
 
-bash concept2_scraper.sh
+cd (status dirname)
 
-# add --refresh flag if a full rebuild is needed
-python3 generate_post_embeddings.py
+# pass --refresh to rebuild the related-posts cache from scratch
+./refresh.fish $argv
 
 hugo server --gc -D --disableFastRender --buildFuture --ignoreCache

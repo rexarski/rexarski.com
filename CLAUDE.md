@@ -42,6 +42,8 @@ Personal Hugo blog. Architecture, layout, styling and the data-file formats are 
 
 - The mottos live in `content/credo.md` (/credo/, linked as 信条 in the footer) as a plain list; new ones are appended at the end.
 - Every date field is a quoted `"YYYY-MM-DD"` string (README explains why).
+- Scripts and hooks are fish, not bash/sh; keep new ones in fish. `generate_post_embeddings.py` is the one Python exception.
+- `./refresh.fish` regenerates `data/concept2_distance.json` and `data/related_posts.json` (starts and stops LM Studio itself). Run it when posts were added or edited, not for routine data edits.
 
 ## Verification
 
@@ -53,7 +55,7 @@ Personal Hugo blog. Architecture, layout, styling and the data-file formats are 
 
 - Commit only when I say "commit"; push only when I say "push". "draft commit message" means draft it in the reply and stop.
 - Check `git status` and `git log --oneline -3` first. I sometimes commit myself mid-session; do not describe already-committed work in a new message.
-- Every commit is a Conventional Commit; I will not ask for the format each time. "commit" on its own means: write the message in the format below and commit. `.githooks/commit-msg` rejects a subject line that does not match (enabled per clone with `git config core.hooksPath .githooks`); if it rejects one, fix the message, never bypass it with `--no-verify`. `.githooks/pre-commit` warns when local Hugo and `HUGO_VERSION` in `netlify.toml` differ; if it does, mention it and offer to bump the pin.
+- Every commit is a Conventional Commit; I will not ask for the format each time. "commit" on its own means: write the message in the format below and commit. `.githooks/commit-msg` rejects a subject line that does not match (enabled per clone with `git config core.hooksPath .githooks`); if it rejects one, fix the message, never bypass it with `--no-verify`. `.githooks/pre-commit` warns when local Hugo and `HUGO_VERSION` in `netlify.toml` differ; if it does, mention it and offer to bump the pin. It also warns when posts are staged without `data/related_posts.json`; if it does, offer to run `./refresh.fish` and stage the result.
 - Messages follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/):
 
   ```

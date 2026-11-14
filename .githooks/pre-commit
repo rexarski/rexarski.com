@@ -1,21 +1,29 @@
-#!/bin/sh
-# Warns (never blocks) when the local Hugo differs from the HUGO_VERSION that
-# netlify.toml pins for deploys: a template that builds here may not build
-# there. Fix by setting the pin to the local version.
+#!/usr/bin/env fish
+# Warns, never blocks:
+# - when the local Hugo differs from the HUGO_VERSION that netlify.toml pins
+#   for deploys: a template that builds here may not build there. Fix by
+#   setting the pin to the local version.
+# - when posts are staged without data/related_posts.json: the related-posts
+#   index is probably stale. Fix by running ./refresh.fish and staging it.
 #
 # Enable once per clone:  git config core.hooksPath .githooks
 
-command -v hugo >/dev/null 2>&1 || exit 0
+set -l root (git rev-parse --show-toplevel)
 
-root=$(git rev-parse --show-toplevel)
-pinned=$(sed -n -E 's/^[[:space:]]*HUGO_VERSION[[:space:]]*=[[:space:]]*"([^"]+)".*/\1/p' "$root/netlify.toml" | head -n 1)
-local=$(hugo version | sed -n -E 's/^hugo v([0-9]+\.[0-9]+\.[0-9]+).*/\1/p')
+if command -q hugo
+    set -l pinned (string replace -rf '^\s*HUGO_VERSION\s*=\s*"([^"]+)".*' '$1' <$root/netlify.toml)[1]
+    set -l local (hugo version | string replace -rf '^hugo v(\d+\.\d+\.\d+).*' '$1')[1]
+    if test -n "$pinned" -a -n "$local" -a "$pinned" != "$local"
+        echo "pre-commit: local Hugo is $local, netlify.toml pins $pinned" >&2
+        echo "  suggest: set HUGO_VERSION = \"$local\" in netlify.toml" >&2
+    end
+end
 
-[ -n "$pinned" ] && [ -n "$local" ] || exit 0
-
-if [ "$pinned" != "$local" ]; then
-    echo "pre-commit: local Hugo is $local, netlify.toml pins $pinned" >&2
-    echo "  suggest: set HUGO_VERSION = \"$local\" in netlify.toml" >&2
-fi
+set -l staged (git diff --cached --name-only --diff-filter=ACMRD)
+if string match -q 'content/posts/*.md' -- $staged
+    and not contains data/related_posts.json $staged
+    echo "pre-commit: posts changed but data/related_posts.json is not staged" >&2
+    echo "  suggest: ./refresh.fish, then git add data/related_posts.json" >&2
+end
 
 exit 0

@@ -13,7 +13,7 @@ Made with
 - **Styles**: `assets/css/main.css`, published minified + fingerprinted by `layouts/partials/style.html`. Not an inline `<style>`.
 - **Mottos**: `content/credo.md`, a plain list rendered at /credo/ (信条, linked from the footer next to 车牌).
 - **Hand-edited data**: `data/now_current.yaml` / `data/now_history.yaml` (now page), `data/moments/<year>.yaml` (one file per year), `data/plates.yaml` (platespotting). Every date field is a quoted `"YYYY-MM-DD"` string — unquoted ones parse as YAML dates and sort inconsistently against the quoted ones.
-- **Generated data**: `data/concept2_distance.json` (rowing progress bar on /now, from `concept2_scraper.sh`) and `data/related_posts.json` (相关博文，committed) are build inputs; `data/post_embeddings.json` is a gitignored local embedding cache.
+- **Generated data**: `data/concept2_distance.json` (rowing progress bar on /now, from `concept2_scraper.fish`) and `data/related_posts.json` (相关博文，committed) are build inputs; `data/post_embeddings.json` is a gitignored local embedding cache.
 - **Identity**: the 丘 seal. Browser icons are `static/favicon.svg` / `favicon.ico` / `apple-touch-icon.png` / `site.webmanifest` (wired in `layouts/partials/favicon.html`), the header mark is a 20px SVG inlined in `layouts/partials/nav.html` and coloured by `--accent`, the share image is `static/images/share.jpg`, and the full logo set lives in `static/images/logo/`. The homepage carries the portrait `static/images/rexarski.jpg` on the text's right edge, beside the latest moment (`.home-top`), linked to /about. Every post ends with the seal (`.end-seal` in `single.html`). The marks were brush-simulated once and committed as finished files; there is no generation script in the repo.
 
 ## Layout
@@ -38,7 +38,11 @@ Just writing? This is enough — the committed data files cover everything:
 hugo server --gc -D --disableFastRender --buildFuture
 ```
 
-Full refresh (rowing data + related posts): run `./dev.fish`. The related-posts step (`generate_post_embeddings.py`) needs a local LM Studio server serving the model named in its `MODEL_NAME` constant (currently `text-embedding-embeddinggemma-300m-qat`); pass `--refresh` to rebuild the cache from scratch. Changing `MODEL_NAME` invalidates the cache on its own — the script notices and recomputes.
+Refresh the generated data (rowing meters + related posts) with `./refresh.fish`, or `./dev.fish` to refresh and then start the server. Run it after adding or editing posts and commit the two JSON files with them; `.githooks/pre-commit` reminds you when posts are staged without `data/related_posts.json`.
+
+`refresh.fish` runs `concept2_scraper.fish`, then drives LM Studio through its `lms` CLI: it starts the local server, loads the model named in `MODEL_NAME` in `generate_post_embeddings.py` (currently `text-embedding-embeddinggemma-300m-qat`; the script reads it from there, so that constant is the only place to change it), runs the embedding script, and leaves LM Studio as it found it — the model is unloaded, and the server and app quit, only if the script started them. Extra arguments go to the Python script: `./refresh.fish --refresh` rebuilds the cache from scratch. Changing `MODEL_NAME` invalidates the cache on its own — the script notices and recomputes.
+
+Shell scripts and git hooks are all fish (`#!/usr/bin/env fish`); only the embedding script stays Python. This is deliberately not a pre-commit hook: it takes tens of seconds, needs the network, and would write files after the commit's contents are already staged.
 
 ## Shortcodes
 
@@ -56,7 +60,7 @@ Full refresh (rowing data + related posts): run `./dev.fish`. The related-posts 
     -vf 'scale=trunc(iw/2)*2:trunc(ih/2)*2' -an out.mp4
   ```
 
-- Netlify builds with the Hugo version pinned in `netlify.toml` (`HUGO_VERSION`), which should match local `hugo version`. `.githooks/pre-commit` prints a warning when they drift (it never blocks the commit); fix it by bumping the pin.
+- Netlify builds with the Hugo version pinned in `netlify.toml` (`HUGO_VERSION`), which should match local `hugo version`. `.githooks/pre-commit` (fish) prints a warning when they drift (it never blocks the commit); fix it by bumping the pin.
 
 ## Refer to a previous blog post (with file path)
 
