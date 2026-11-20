@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Personal Hugo blog. Architecture, layout, styling and the data-file formats are documented in `README.md`; read that first. This file only records how day-to-day edits are expected to go.
+Personal Hugo blog. Setup, file locations and data-file formats are in `README.md`; layout, type and colour constraints are in `docs/design.md`. Read both first. This file only records how day-to-day edits are expected to go.
 
 ## Communication
 
@@ -65,7 +65,7 @@ Personal Hugo blog. Architecture, layout, styling and the data-file formats are 
   - <detail>
   ```
 
-  - `type`: `feat` (new site capability), `fix`, `perf` (page weight, load speed), `refactor`, `style` (visual/CSS only), `docs` (README, CLAUDE.md), `chore` (everything else, including all routine content updates). Append `!` after the scope for a breaking change, e.g. `refactor(site)!:`.
+  - `type`: `feat` (new site capability), `fix`, `perf` (page weight, load speed), `refactor`, `style` (visual/CSS only), `docs` (README, CLAUDE.md, `docs/design.md`), `chore` (everything else, including all routine content updates). Append `!` after the scope for a breaking change, e.g. `refactor(site)!:`.
   - `scope`: `content` for data/content edits, `home`, `site`, `toolbox`, `css`, or the area touched. Keep it to one word.
   - `summary`: imperative, lowercase start, no trailing period, ≤ 72 characters. Chinese page names (当下, 刹那) are fine inside it, matching the repo history.
   - Body: a `-` bullet per area, in the order now / moments / plates / toolbox / about. One commit per batch of content updates; a toolbox script change may ride along with content.

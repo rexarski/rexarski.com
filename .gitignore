@@ -47,4 +47,5 @@ public
 data/post_embeddings.json
 
 ## Claude Code
-docs/
+docs/*
+!docs/design.md
