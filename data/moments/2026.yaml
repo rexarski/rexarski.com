@@ -5,6 +5,19 @@
 # Optional: url (link for title); type = preset (show/tv📺 game🎮 music🎧 book📚 movie🍿 podcast🎙️ restaurant🍳 baby🍼 url🔗) OR any single emoji (e.g. 🏎️ 🎭).
 # Deprecated: icon — use type with the emoji instead.
 
+- date: "2026-11-23"
+  type: podcast
+  title: 谁能告诉我，Roguelike 到底是什么：详细介绍“柏林诠释”
+  url: https://www.gcores.com/radios/222327
+- date: "2026-11-23"
+  type: 📱
+  title: Across Canada
+  url: https://apps.apple.com/us/app/across-canada/id6812944423
+  note: 突然有了每天积累步数的使命感。
+- date: "2026-11-23"
+  type: baby
+  title: 生我的气了
+  note: 虽然是生了爸爸的气，但是另一方面看到她会很有目的性表达自己情绪，也算是看见了她的成长。
 - date: "2026-11-12"
   type: baby
   title: 噜噜会自己从趴着站起来了！
