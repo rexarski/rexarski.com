@@ -366,6 +366,7 @@ sudo scutil --set HostName new-host-name
 - [LXGW Neo XiHei / 霞鹜新晰黑](https://github.com/lxgw/LxgwNeoXiHei)
 - [Atkinson Hyperlegible](https://brailleinstitute.org/freefont), `brew install --cask font-atkinson-hyperlegible`
   - Next, `brew install --cask font-atkinson-hyperlegible-next`
+- [Sarasa Gothic / 更纱黑体](https://github.com/be5invis/Sarasa-Gothic), `brew install --cask font-sarasa-gothic`
 
 ### Serif
 
@@ -380,11 +381,15 @@ sudo scutil --set HostName new-host-name
 - [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono), `brew install --cask font-roboto-mono`
 - [IBM 3270](https://github.com/rbanffy/3270font), `brew install --cask font-3270`, `brew install --cask font-3270-nerd-font`
 - [JetBrains Maple Mono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono), `brew install --cask font-jetbrains-maple-mono`, `brew install --cask font-jetbrains-maple-mono-nf`
-- [JetBrains Mono](https://www.jetbrains.com/lp/mono/), `brew install --cask font-jetbrains-mono`
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/), `brew install --cask font-jetbrains-mono`, `brew install --cask font-jetbrains-mono-nerd-font`
 - [Ubuntu Mono](https://design.ubuntu.com/font/), `brew install --cask font-ubuntu-mono`
 - [Atkinson Hyperlegible Mono](https://brailleinstitute.org/freefont), `brew install --cask font-atkinson-hyperlegible-mono`
 - [Server Mono](https://servermono.com/), `brew install --cask font-server-mono`
+- [Iosevka](https://github.com/be5invis/Iosevka), `brew install --cask font-iosevka`, `brew install --cask font-iosevka-nerd-font`
+- [Ioskeley Mono](https://github.com/ahatem/IoskeleyMono), `brew install --cask font-ioskeley-mono-term-nerd-font`
+- [Victor Mono](https://rubjo.github.io/victor-mono/), `brew install --cask font-victor-mono`
 - [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/font-downloads)
+  - Symbols only, `brew install --cask font-symbols-only-nerd-font`
 
 ## KOReader（Kobo）配置备忘
 
