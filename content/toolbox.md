@@ -7,7 +7,7 @@ title = "工具箱"
 ## 基调和实操
 
 
-updated on 2026-11-14
+updated on 2026-11-24
 
 ### 基调
 
@@ -43,7 +43,7 @@ cli_tools=(
 cask_apps=(
   1password 1password-cli ghostty applite
   anki claude claude-code codexbar handy iina keka obsidian maccy
-  lm-studio loop pearcleaner shottr skim squirrel-app steam
+  lm-studio loop netnewswire pearcleaner shottr skim squirrel-app steam
   positron telegram thaw zen
 )
 
@@ -193,6 +193,7 @@ sudo scutil --set HostName new-host-name
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 - [Anki](https://apps.ankiweb.net)
 - [Aseprite](https://www.aseprite.org/)
+- [BasicClips](https://basicappleguy.com/basicclips)
 - [BetterTouchTool](https://folivora.ai)
 - [calibre](https://calibre-ebook.com/)
 - Claude + [Claude Code](https://claude.com/product/claude-code)
@@ -226,6 +227,7 @@ sudo scutil --set HostName new-host-name
 - [MusicBox](https://apps.apple.com/us/app/musicbox-save-music-for-later/id1614730313)
 - [MusicHarbor](https://apps.apple.com/cn/app/musicharbor-new-music-tracker/id1440405750)
 - [mynd](https://myndnote.app/)
+- [NetNewsWire](https://ranchero.com/netnewswire/)
 - [Nicotine+](https://nicotine-plus.org)
 - [Obsidian](https://obsidian.md)
 - [Obsidian Web Clipper](https://stephango.com/obsidian-web-clipper)
@@ -326,7 +328,6 @@ sudo scutil --set HostName new-host-name
 - ~~[Mononote](https://www.digitalminimalist.com/tools/mononote)~~
 - ~~[Moom](https://manytricks.com/moom/)~~
 - [MultiViewer for F1](https://multiviewer.app)
-- [NetNewsWire](https://ranchero.com/netnewswire/)
 - [Numi](https://numi.app/)
 - [Ollama](https://github.com/jmorganca/ollama)
 - ~~[OmniWM](https://github.com/OmniNull/OmniWM)~~
